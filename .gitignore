@@ -3,6 +3,9 @@ node_modules
 # PDFs (served from R2)
 PDFs/
 
+# Generated reading content (run `node scripts/generate-readings.js` to regenerate)
+src/lib/data/reading-content.ts
+
 # Output
 .output
 .vercel

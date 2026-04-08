@@ -2,8 +2,9 @@
 	import './layout.css';
 	import { courseInfo } from '$lib/data/syllabus';
 	import { browser } from '$app/environment';
+	import { page } from '$app/state';
 
-	let { children } = $props();
+	let { children, data } = $props();
 
 	let dark = $state(true);
 
@@ -15,6 +16,15 @@
 		dark = !dark;
 		document.documentElement.classList.toggle('dark', dark);
 		localStorage.setItem('theme', dark ? 'dark' : 'light');
+	}
+
+	async function logout() {
+		await fetch('/api/auth', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ action: 'logout' })
+		});
+		window.location.href = '/';
 	}
 </script>
 
@@ -37,6 +47,21 @@
 					class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
 					>Index</a
 				>
+				{#if data.user}
+					<button
+						onclick={logout}
+						class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
+					>
+						Log out
+					</button>
+				{:else}
+					<a
+						href="/login"
+						class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
+					>
+						Log in
+					</a>
+				{/if}
 				<button
 					onclick={toggleTheme}
 					class="text-muted transition-colors hover:text-white"

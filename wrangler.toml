@@ -2,4 +2,9 @@ name = "pandaemonium-architecture"
 compatibility_date = "2025-01-01"
 
 [assets]
-directory = "./build"
+directory = ".svelte-kit/cloudflare"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pandaemonium-db"
+database_id = "local"

@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
+		"build": "node scripts/generate-readings.js && vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -28,6 +28,7 @@
 		"vite": "^7.3.1"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-cloudflare": "^7.2.8",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"marked": "^18.0.0"
 	}
