@@ -1,0 +1,1345 @@
+Platform and Stack, Model and Machine
+
+
+
+
+The goal of future wars is already established: control over the network and the flows of informa-
+tion running through its architecture. It seems to me that the quest for global totalitarian power
+is not behind us but is a true promise of the future. If the network architecture culminates in one
+global building then there must be one power that controls it. The central political question of
+our time is the nature of this future power.
+—Boris Groys1
+
+
+The essence of datagram is connectionless. That means you have no relationship established
+between sender and receiver. Things just go separately, one by one, like photons.
+—Louis Pouzin2
+
+
+9. Platforms
+
+Platforms are what platforms do. They pull things together into temporary higher-
+order aggregations and, in principle, add value both to what is brought into the plat-
+form and to the platform itself. They can be a physical technical apparatus or an
+alphanumeric system; they can be software or hardware, or various combinations.
+As of now, there are some organizational and technical theories of platforms avail-
+able, but considering the ubiquity of platforms and their power in our lives, they
+are not nearly robust enough. Perhaps one reason for the lack of sufficient theories
+about them is that platforms are simultaneously organizational forms that are highly
+technical, and technical forms that provide extraordinary organizational complexity
+to emerge, and so as hybrids they are not well suited to conventional research pro-
+grams. As organizations, they can also take on a powerful institutional role, solidi-
+fying economies and cultures in their image over time. For The Stack, this is their
+most important characteristic but perhaps also the hardest to fully appreciate. Plat-
+forms possess an institutional logic that is not reducible to those of states or markets
+or machines, as we normally think of them. They are a different but possibly equally
+powerful and important form. Many different kinds of systems can be understood as
+42                                                   Platform and Stack, Model and Machine
+
+
+
+platforms, from urban street grids to Google, and so to consider their common opera-
+tions, some abstraction is necessary. Part of their alterity to normal public and private
+operations is the apparently paradoxical way that they standardize and consolidate the
+terms of transaction through decentralized and undetermined interactions. Platforms
+can be based on the global distribution of Interfaces and Users, and in this, platforms
+resemble markets. At the same time, their programmed coordination of that distribu-
+tion reinforces their governance of the interactions that are exchanged and capitalized
+through them, and for this, platforms resemble states. Platforms are often based on a
+physical standardization of functional components that allows for more diverse and
+unpredictable combinations within a given domain. On the macro scale, the intermix-
+ing of public-facing infrastructural investment and oversight tied up with the privati-
+zation of existing public services makes the political identity of platforms that much
+more ambiguous.3 So long as those exchanges are regularized by passage through the
+platform’s established forms, they enforce the optimization of interactions by binding
+open exchanges between self-directed Users at the edges of its network. When those
+forms are computational (as for Google), that passage is the capitalized translation of
+interactions into data and data into interactions, and the movement of these into and
+out of central locations (such as strongly defended data centers). As we will see, the
+genealogy of platforms is diverse and seemingly contradictory. Roman urban planners,
+the encyclopedia of John Wilkins, Charles Babbage, the Commissioners’ Grid Plan of
+1811, John Maynard Keynes, Friedrich Hayek, Lady Ada Byron, Vint Cerf, and others,
+all contribute to the parentage of platforms, and it is their eccentricity and exterior-
+ity from normal state and market institutional models, combining elements of these
+as well as of machine engineering, that has made them so successful in redrawing the
+effective terms of global systems.
+    Platforms demand an active conversion between economic and technical systems
+and their respective limitations. Their initial program may be born of economics, but
+their execution can push sideways through other models of value, confounding and
+compressing the political spectrum along with them. Their history bears this out. A
+working technical definition of platform, in general, may include references to a stan-
+dards-based technical-economic system that simultaneously distributes interfaces through
+their remote coordination and centralizes their integrated control through that same coordi-
+nation.4 I will unpack this definition below. What I call platform logics refers first to
+the abstracted systems logic of platforms (their diagrammatics, economics, geography,
+and epistemology of transaction) and second to the tendency on the part of some
+systems and social processes to transform themselves according to the needs of the
+platforms that might serve and support them, both in advance of their participation
+with that platform and as a result of that participation. Platforms provide an armature
+and induce processes to conform to it. The Stack is a platform, or, more accurately, a
+combination of platforms. Its own governing logics are derived from platform logics,
+Platform and Stack, Model and Machine                                                    43
+
+
+
+but its geography and geometry are also peculiar, and so while stacks are platforms,
+not all platforms are stacks, and in fact most platforms are not stacks.
+    While systems that arguably operate as platforms might be found in every culture,
+where does the concept of platform come from, specifically in relation to the devel-
+opment of modern machines? The etymology of platform refers to a “plan of action,
+scheme, design” and, from the Middle French, platte form, or, literally, a plateau or
+raised level surface. As Benedict Singleton writes, this conjoined with the plot, which
+itself first implies a plot of land. Once situated on the platform of the stage, the “plot”
+becomes a more abstract structure that situates characters into the forgone conclusion
+of its unfolding, even as they suffer the choices that aren’t really theirs to make. As Sin-
+gleton would have it, here the plot is a diagram that ensnares the Users of the platform
+in its designs.5 By at least 1803, platform takes on more explicitly political meaning, as
+in a “statement of party policies.” All three of these connotations (platform as a plan of
+action, as a stage for a plot, and as proposed rules governance) are important for under-
+standing The Stack as a platform and for platform sovereignty in general. One is set of
+instructions, one is a situated place where action is played out according to plan, and
+one is a framework for a political architecture. Already these connotations are slipping
+and sliding into one another.
+    Now consider the word program. Its etymology refers first to a “public edict,” and in
+the early modern era, it also comes to mean variously a plan or scheme, a list of events
+to be presented, a menu of proposed political ideas, and a way to organize how people
+will occupy architectural space. Only after World War II does “to program” mean “to
+write software.” For architecture, computation, and politics, the “program” has cen-
+tral significance as a design problem and governing technique. The triangulation of
+designed site, designed action, and designed polis traces that of “plot”: platform and
+program overlay one another asymmetrically. For example, an architectural program
+might be defined as an intended organization of Interfaces in a particular arrangement
+so as to coordinate social contact and interaction (or prevent it). As a diagrammatic
+image, an architectural program indexes the significance of that organization. A soft-
+ware program is a set of instructions that a designer gives to computational systems
+with the intention of coordinating that system’s internal and external interfaces in
+relation to itself, to compatible systems, and to Users. An interfacial image of that
+program, usually the graphical user interface (GUI), summarizes, reduces, and makes
+those instructions significant for Users. And clearly today, these two kinds of programs
+intermingle. In many respects, what society used to ask of architecture—the program-
+matic organization of social connection and disconnection of populations in space
+and time—it now (also) asks of software. We will return to that shift more than once
+in the following chapters, and we will have to question what is or isn’t the remaining
+work of physical architecture in light of this. Among what remains is the active con-
+tingency of programs, both hard and soft.
+44                                                    Platform and Stack, Model and Machine
+
+
+
+    A recognition of platforms as a third institutional form, along with states and mar-
+kets, situates the convergence of its architectonic and computational forms in a more
+specific and fundamental way. A central argument of this book is that the “political
+program” is not only to be found in the legal consensus (or dissensus) and policy
+admonitions of traditional “politics” but also in machines directly. This is where the
+global-scale arrangement of planetary-scale computing coheres into The Stack, and
+how the convergence of the architectural and computational design logics of program
+directly contributes to that system. For our purposes it is far less important how the
+machine represents a politics than how “politics” physically is that machinic system.
+The construction of platforms draws in, to varying and contingent degrees, strong con-
+notations of “design” (design as in to “designate,” and to govern through material
+intervention) and, in this platforms are plots, and (per Singleton) also diagrams that
+“ensnare” actors in their fatal outcomes (design as in “to have designs on something,”
+to trap the User just so). At the same time, platforms are not master plans, and in many
+respects, they are the inverse. Like master plans, they are geared toward the coordina-
+tion of system Interfaces into particular optimized forms, but unlike them, they do
+not attempt to fix cause and effect so tightly. Platforms are generative mechanisms—
+engines that set the terms of participation according to fixed protocols (e.g., technical,
+discursive, formal protocols). They gain size and strength by mediating unplanned and
+perhaps even unplannable interactions. This is not to say that a platform’s formal neu-
+trality is not strategic; one platform will give structure to its layers and its Users in one
+way, and another in another way, and so their polities are made. This is precisely how
+platforms are not just technical models but institutional models as well. Their drawing
+and programming of worlds in particular ways are means for political composition as
+surely as drawing a line on a map. However, as opposed to the public rights of citizens
+in a polis and the private rights of homo economicus in a market, we are severely lacking
+in robust and practical theory of the political design logic of platforms, even as they
+remake geopolitics in their image (or demand a different language to describe what the
+political is now or ever was). What we can know from the outset is that an essential
+logic of platforms is a reconvergence of architectural, computational, and political con-
+notations of “program” back into one: the design logic of platforms is the generative
+program that is equally all three types at once.
+    At a more mechanical level, a platform is also a standardized diagram or technology.
+Its structure and the paths of interoperability that hold it together can’t be consid-
+ered outside of the regularization and rationalization of how it connects to the outside
+world. As infrastructure, a platform’s regularity is often guaranteed less by laws than
+by technical protocols, and this is one of several ways that the sovereign decision is
+built into the platform’s interfacial partitions and surfaces. This kind of intrasystemic
+standardization was essential to the epochal metatechnologies of industrialization
+and post-Fordism, revolutionizing the manufacture, distribution, and consumption of
+Platform and Stack, Model and Machine                                                  45
+
+
+
+massive quantities of identical tangible and intangible items. Because protocols are in
+place to standardize physical and immaterial properties of integral components and
+discontiguous manufacturing processes—from the width and direction of grooves in
+a screw, to the costs of stamps and the nomenclature of international postal zones,
+longitudinal mean times, cryptographic keys for international monetary transfers, sto-
+chastic synchronization of data transfers, and so on—the pace and predictability of
+industrialization could unfold as it did.6 Artificial standardizations become naturalized
+as if they were always the measure of things. This kind of complementarity between
+technique and thought is familiar to adepts of Michel Foucault, Max Weber, Friedrich
+Kittler and Sam Walton. Standardization drives logistics, and logistics in turn enables
+geopolitical ambition and momentum. Innovations in munitions standardizations,
+allowing soldiers to quickly disassemble and repair guns on the battlefield with stan-
+dard parts, contributed for better or worse to American military prowess in the nine-
+teenth century and its ability to defend a hemispherical doctrine posited by a Virginia
+farmer, James Monroe. We appreciate the role of railroads, telegraphy, and telephony
+networks as the infrastructure of globalization, and their speed for the acceleration of
+the modernities of space and time, but perhaps we underappreciate the metastructur-
+ing importance of mundane anonymous standards to turn isolated mechanical inven-
+tions into infrastructural innovations (e.g., railroad gauges and spike lengths, timetable
+templates, the semiotics of graphical interface feedback conventions, transmission line
+materials, arbitrary telegraphic languages, packet-switching protocols, country codes
+and area codes, the fixed numeration of money itself, and so on). The centrifugal stan-
+dardization of how individual components interrelate and assemble into higher-order
+systems, whether physical or informational, is as important as what any part or compo-
+nent may be. This is how platforms can scale up. To engineer systems that coordinate
+the shuttling of units from one point to another with efficiency, adaptability, and flex-
+ibility is to compose within the rules laid down by other systems, larger and smaller,
+with which interaction is required. If two different systems share common protocols,
+then the subsystems of one can interoperate with subsystems of another without nec-
+essarily referring to any metasystemic authority. Systems swap material in this way,
+such that intermodality and intramodality come to enable one another: no standards,
+no platform; no platform, no Stack.
+    The design of protocols, platforms and programs can be as speculative as needed,
+but the generativity of standards remains. Protocological interoperability works not
+only to componentize tangible things, but also to represent undetermined relations
+between things, events, and locations and to provide the means to compose that traf-
+fic in advance. In some cases, these are formal notational systems, and the most inge-
+nious are not always the most widely adopted, and sometimes those adopted become
+so naturalized that they disappear into the fabric.7 By design, systemic standardiza-
+tion is enforced by fixed physical measurement and procedure, and perhaps here most
+46                                                  Platform and Stack, Model and Machine
+
+
+
+particularly, the paradoxical tendency of platforms to control and decontrol at the
+same time is most evident. For example, the formal urban grid in a major city is for
+the most part rigid and inflexible, but precisely because of this linear and universally
+authoritarian topography, it affords both maximum tumult of dynamic horizontal
+interchange in the street plan as well as vertical recombinant programmatic complex-
+ity in the skyscrapers that pop up in each of its cells (more on this in the City layer
+chapter).8 Similarly, it is the legal and practical standard size of the humble paper enve-
+lope that makes it possible for it to shuttle messages both discrete and discreet; like the
+urban grid, the envelope’s power is in its dumbness. In the 1970s as the world’s cities
+began to more fully merge into the networked hierarchies of today with the widespread
+standardization of very-large-scale envelopes, made of steel instead of paper, in the
+form of fixed proportion and attribute shipping containers. Containerization migrated
+the packet switching from telecommunications onto the transit of physical objects (or
+perhaps the other way around). It traded the standardized, linear traffic program of the
+grounded asphalt grid for another, now smoothed into liquid shipping lanes, pacing
+big packets of objects back and forth across the avenues of oceans.
+
+10. How Platforms Work
+
+Platforms centralize and decentralize at once, drawing many actors into a common
+infrastructure. They distribute some forms of autonomy to the edges of its networks
+while also standardizing conditions of communications between them. Many of the
+defining cultural, political, and economic machines of our time operate as platforms
+(from Google to transnational political theologies). Platforms are formally neutral but
+remain, each and every one, uniquely “ideological” in how they realize particular strat-
+egies for organizing their publics. They are identified with neoliberalism (not without
+reason), but their origins lie as much within the utopian megastructures of 1960s exper-
+imental architecture, counterculture cybernetics, Soviet planning schemes, and many
+other systems of sociotechnical governance, both realized and imagined. Platforms are
+infrastructural but rely heavily on aesthetic expression and calibration. A platform’s
+systems are composed of interfaces, protocols, visualizable data, and strategic render-
+ings of geography, time, landscapes, and object fields. For stack platforms, they also
+include a predominant architecture of interoperable layers. Even as the majority of
+the information they mediate may be machine-to-machine communication (as, for
+example, today’s Internet), the specific evolution of any one platform, in the ecological
+niche between the human and inhuman, depends on how it frames the world for those
+who use it. It draws some things in and draws other things out, but foremost a platform
+is a drawing and framing machine. Our interest, however, is not to critique platforms
+as aesthetic works but to identify the work that aesthetics does in their development,
+Platform and Stack, Model and Machine                                                     47
+
+
+
+and through this to clarify how some existing (and potential) platforms are worthy of
+our critiques.
+   Platforms might be analyzed in many different ways, and another book might make
+a more thorough contribution to a very needed general theory of platforms than this
+one can. In order to discuss The Stack as a platform, however, it is necessary to identify
+some typological characteristics that all platforms might share in common. These would
+characterize platforms in relation to other technologies (such as individual machines,
+executable programs, fixed infrastructure, legal mechanisms, or social norms) and in
+relation to other institutions (such as states, bureaucracies, and corporations). I list here
+seventeen criteria and qualities of platforms (a nice prime number). The list is by no
+means final or exhaustive, but taken as a whole, the shape and function of platforms
+as both technical and political-economic forms are more clearly specified, especially
+in relation to The Stack. Some of the criteria listed look like basic principles of second-
+order cybernetics, others of software application design, and others of any networks-
+savvy political science. As such, “platform theory” is probably less about inventing new
+attributes from scratch than it is about observing that recognizable common practices
+already do constitute platforms as an institutional and technical norm at the scale of
+states and markets:
+
+1. As opposed to other macrogovernance institutions, platforms do not work accord-
+ing to detailed premeditated master plans; rather they set the stage for actions to unfold
+through ordered emergence. Bureaucracies, by contrast, are systems that are also depen-
+dent on strict protocols and interfaces, but they operate by premodeling desired out-
+comes and then working backward to codify interactions that would guarantee these:
+means are a function of ends. Platforms begin by fixing equally strict means but are
+strategically agnostic as to outcomes: ends are a function of means.
+2. Platforms are based on a rigorous standardization of the scale, duration, and morphology
+of their essential components. The simplicity and rigidity of these standards make plat-
+forms predictable for their Users, but also allow them to support idiosyncratic uses that
+platform designers could never predict. The formal politics of platforms is character-
+ized by this apparent paradox between a strict and invariable mechanism (autocracy of
+means) providing for an emergent heterogeneity of self-directed uses (liberty of ends).
+The emergent politics of any one platform may largely be a function of how it strat-
+egizes the relationship between standards calibration and the perceived self-interests of
+its stakeholders.
+3. This standardization of essential components produces an effect of generative entrench-
+ment by which one platform’s early consolidation of systems (formats, protocols, and
+interfaces) decreases a User’s opportunity costs to invest more and more transactions
+into that particular platform, while it increases the costs to translate earlier invest-
+ments into another platform’s (at least partially) incompatible systems.9 The ongoing
+48                                                   Platform and Stack, Model and Machine
+
+
+
+consolidation of systems and reduction of transaction costs leverages that advantage
+toward increasing the robustness of that platform’s unique requirements.
+4. Standardized components may also be reprogrammable within constraints by Users,
+allowing them to innovate new functions for machines that are composed, at least
+partially, of preexisting platform systems. The systematic reuse of platform systems
+allows for the development of complex products based on virtual components, reduc-
+ing development risks, costs, and project duration. For that innovation, the ratio of
+what is newly introduced by the User versus what is reused from existing platform
+systems may be extreme in either direction, though neither ratio directly corresponds
+to the intrinsic novelty of any one innovation’s new functions.
+5. The design and governance of platforms often relies on formal models to organize,
+describe, simulate, predict, and instrumentalize the information under its manage-
+ment. Those models may represent a rigorously discrete view of the platform’s internal
+operations, its external environment, or, most likely, some combination of the internal
+and the external that measures platform performance according to metrics evaluating
+its outward-facing systems.10
+6. Platforms’ mediation of User-input information may result in an increase in the value
+of that information for the User. Platform network effects absorb and train that informa-
+tion, making it more visible, more structured, and more extensible for the individual
+User or in relation to other Users who make further use of it, thereby increasing its social
+value. At the same time, it is likely the platform itself that derives the most significant
+net profit from these circulations in total. Each time a User interacts with a platform’s
+governing algorithms, it also trains those decision models, however incrementally, to
+better evaluate subsequent transactions. An economically sustainable platform is one
+for which the costs of providing systemic mediation are, in the aggregate, less than the
+total value of input User information for the platform. Platform economics provides
+then two surpluses: (1) User surplus, in which the information is made more valuable
+for the User once involved with the platform at little or no direct cost to that User, and
+(2) platform surplus, that is, the differential value of all User information for the plat-
+form is greater than the costs of providing the platform to Users.11
+7. Like centralizing systems, platforms consolidate heterogeneous actors and events
+into more orderly alliances, but they themselves are not necessarily situated in a true
+central position in relation to those alliances in the same way that, for example, a mas-
+ter planning committee or federal capitol building would be. Like some decentralized
+systems, platforms rationalize the self-directed maneuvers of Users without necessarily
+superimposing predetermined hierarchies onto their interactions. The centralization-
+versus-decentralization dichotomy may therefore be illusory in many cases (and not in
+others) in that the choke points where a platform incentivizes commitment and lever-
+ages its advantages over other options may be even more widely distributed than all of
+the Users that it organizes.
+Platform and Stack, Model and Machine                                                       49
+
+
+
+8. The generic universality of platforms makes them formally open to all Users, human
+and nonhuman alike. If the User’s actions are interoperable with the protocols of the
+platform, then in principle, it can communicate with its systems and its economies. For
+this, platforms generate User identities whether they are desired or not. Platforms can provide
+identities to Users who would otherwise not have access to systems, economies, ter-
+ritories, and infrastructures, such as a person who is not recognized as a political “citi-
+zen” by a location, but who is nevertheless included in communication by platforms
+that are agnostic to the legal status of its Users. At the same time, platforms can also
+name, enumerate, track, and capitalize the identity of Users who would rather remain
+anonymous. For the former, the required provision of User identity may be seen as an
+advantage of platforms and for the latter as a disadvantage.
+9. Even as platforms guarantee identities to the Users of its systems, for better or worse,
+they do not provide these evenly or equally. A platform governs one User differently than it
+does another. An Interface that may open a space for one User also closes it off to another.
+An interface that may be open for one User at one moment may be closed at another.
+This differential is a core technique of how platform sovereignties normalize the excep-
+tional reversibility of the partition. What may be an interiorizing partition (“enclave”)
+for one User at one moment may be an exteriorizing partition (“camp”) for another at
+another moment.
+10. An ideal platform architecture is one that produces a strategic minimum of new
+content into its own communication economy. An ideal platform is like an empty diagram
+through which Users mediate new and archived information. A search engine, for example,
+does not produce new Internet content for its Users, but rather structures the value of
+content that other Users produce. (If medicine were reconceived as a platform, it would
+obviously provide new critical information to Users, that is, patients and doctors, as well
+as organize medical knowledge to date, but it would, in principle, focus the point at
+which new diagnostic or therapeutic expertise is most crucially required and support it
+with, for example, highly structured patient data and precedents from the literature).12
+11. Any structuring component of an ideal platform architecture is replaceable by a new
+component, and so the platform could, piece by replaced piece, evolve into something
+entirely different while retaining its essential shape. As in Theseus’s paradox, every
+plank of wood in a mariner’s ship is replaced over time by new wood, and yet the new
+ship occupies the same virtual place as the old ship and so it still is “Theseus’s ship.”
+The same operation holds for platform architecture. Any given component (e.g., layer,
+protocol, interface) could be replaced, inclusive eventually of all components of the
+platform in its totality.
+12. Platforms may respond to User inputs immediately and may draw on archived rules
+to recursively govern those interactions in real time, or it may act back on those inter-
+actions only once some qualitative or cumulative threshold requirement has been met,
+perhaps by many Users at once. Platforms govern both instantaneously and cumulatively.
+50                                                     Platform and Stack, Model and Machine
+
+
+
+13. Ideal platforms not only act on new interactions according to programmed rules
+and in relation to archived structured information, but also serve as distributed sensing
+systems that incentivize the detection of errors (or mere anomalies), which are interpreted by
+the platform’s formal models. In principle, what are interpreted as errors will not only
+update the model’s description of the whole, but will also correct the rules by which
+future interactions are governed. Ideal platforms also treat anomalies not only as errors
+but as signals of emergent patterns or norms for which some new positive accommoda-
+tion may be required.
+14. The competition between platforms may occur over new tabula rasa space or over
+the recomposition of one or more existing systems in accordance with a platform’s
+strategy. To date, many successful platforms are those that provide Users with new capa-
+bilities by making their existing systems more efficient. Platforms that organize existing
+systems and information tend to achieve generative entrenchment more quickly than those
+that seek to introduce new systems from scratch. Users will make tactical use of some
+platform interfaces to link some existing systems, and in doing so they are incentivized
+to incorporate more of their own interests within these systems. Subsequent Users are
+incentivized to link their systems to benefit from the network effects set in motion by
+earlier Users, who in turn enjoy increasing network benefits as more User systems are
+incorporated over time. The platform is able to realize platform surplus value from this
+generative entrenchment.
+15. Platforms link actors, information, and events across multiple spatial and temporal
+scales at once. Platform ubiquity makes it more robust in relation to some threats, both intrin-
+sic and extrinsic, and more vulnerable in relation to others. A platform’s ability to defend
+one component or even replace it when it is no longer useful can make the whole
+more resilient, but it can also then leave individual components vulnerable. The inte-
+grated architecture of the platform may also allow internal component-to-component
+feedback loops to cycle out of control, amplifying the destabilization of the whole
+apparatus.
+16. A platform’s actual processes may be very different from how they are understood
+by their Users, who may form mental images of those processes based on their own
+individual interactions or on how the platform has represented itself to them. Platforms
+don’t look like how they work and don’t work like how they look. For example, a User may
+understand his or her own interactions with the platform according to the content
+hierarchies of a GUI that bears almost no relation to how the platform actually struc-
+tures or sees that interaction. Architects of a typical Cloud-based platform may orga-
+nize the system according to the provision (and strategic throttling) of data through
+application programming interfaces (APIs) that make many different kinds of platform
+effects possible, the sources of which may be opaque to the most common Users or even
+to other components of the system.
+Platform and Stack, Model and Machine                                                   51
+
+
+
+17. Platform sovereignty may be planned or unplanned, universal or specific, genera-
+tive or reactive, technologically determined or politically guaranteed. Platform sover-
+eignty is automatic under some circumstances and highly contingent under others, and it may
+function differently in relation to different components of the platform system. The condi-
+tionality of these is a function of how platforms relate to other political, technical, and
+economic institutions that also manage something (or someone) that is also organized
+by that platform. When two or more platforms mediate the same thing, site, or person,
+both making claims on it and providing sovereignty to it, then the two sovereignties
+generated may be mutually constrained. While one of these forms of sovereignty may
+be universal in relation to the platform that issues it (always subject to the inversions
+and reversals noted above), it is also only partial and provisional in relation to other
+platforms (if it is even recognizable by them at all). These differences may be between
+how two platforms identify the same thing or between how two different components
+of the same platform (or different components of different platforms) address that
+thing. While this multiplication prevents any one User from enjoying unlimited uni-
+versal sovereign privileges, it also tends to prevent any one platform from capturing
+all sovereignty-generative components within its whole and monopolizing how sover-
+eignty is made, and for whom and what.
+    To further outline the platform principle, others can add to and modify this provi-
+sional list. Some may want to include, for example, demonetization: how platforms
+sometimes strip certain things of their scarcity and hence exchange value. Some may
+focus on how platform design can never account for the accidents that actual platforms
+bring, but also conclude that well-designed platforms can turn accidents into assets.
+Some may want to specify how and when a User has rights of exit and entrance from
+and to platforms. Can you leave, and can you get in? Others may want to explore the
+organizational logics of technical platforms as exemplified by street grids, punch cards,
+spreadsheets, circuit boards, and so on. Others may come at it from the other side
+and ask whether standardization works best when predictable outcomes are desired,
+whereas customization works best when not, and ask how the generic quality of plat-
+forms can and cannot do both at once. The Stack is a machine that becomes a state, but
+it is also how both become platforms, or at least, as one condition around which their
+armatures are forced to evolve in relation to platforms. As we will see in the chapters
+ahead, as platforms like The Stack appropriate technologies of sovereignty previously
+guaranteed to and by the state, the contemporary coevolution of these organizational
+forms may be punctuated by new disequilibriums. First, we need to better understand
+the genealogy of platforms as political models and how they have been deployed (suc-
+cessfully and unsuccessfully) as political machines.
+52                                                   Platform and Stack, Model and Machine
+
+
+
+11. Stack as Model
+
+Stacks are a kind of platform that also happens to be structured through vertical interop-
+erable layers, both hard and soft, global and local. Its properties are generic, extensible,
+and pliable; it provides modular recombinancy but only within the bounded set of its
+synthetic planes. It is an autogenerative parametric topography, but one that grows
+precisely through an initial subdivision of technologies into planar layers and then
+through an autocratic consolidation and rationalization of these through internal
+interfaces and protocols. As for any platform, that consolidation is driven less from
+centrally planned legal prescription than through the algorithmic conduction of self-
+directed behaviors by free-range Users. The Stack discussed in the following chapters is
+a vast software/hardware formation, a proto-megastructure built of crisscrossed oceans,
+layered concrete and fiber optics, urban metal and fleshy fingers, abstract identities
+and the fortified skins of oversubscribed national sovereignty. It is a machine literally
+circumscribing the planet, which not only pierces and distorts Westphalian models
+of state territory but also produces new spaces in its own image: clouds, networks,
+zones, social graphs, ecologies, megacities, formal and informal violence, weird theolo-
+gies, all superimposed one on the other. This aggregate machine becomes a systematic
+technology according to the properties and limitations of that very spatial order. The
+layers of The Stack, some continental in scale and others microscopic, work in specific
+relation to the layer above and below it. As I have suggested, the fragile complemen-
+tarity between the layers composing The Stack is discussed both as an idealized model
+for how platforms may be designed and as a description of some of the ways that
+they already work now. The metaphor and the machine are diagrams made real in the
+megastructure.
+   If you start looking for them, “stacks” are everywhere. In a way, the Earth itself is a
+spherical stack, from its molten core, to the lower and upper mantle, to the crust on
+which organic life evolved under the troposphere, stratosphere, mesosphere, thermo-
+sphere, and exosphere. Humans evolved between two and only two of these layers.
+Charles and Ray Eames’s famous “Powers of Ten” films for IBM showed generations
+of high school students how to start from one everyday spot and from there think
+down to 10-9 meters and up to 1023 meters, from quarks to walls of galaxies, and back
+again. In a way, their presentation is a kind of telescoping stack. Archaeology orga-
+nizes and depicts the temporality of unearthed assemblages according to the Harris
+matrix, and its interlocking principles of original horizontality, original continuity,
+and stratigraphic succession. The Marxian model of base and superstructure provided
+another verticalized image of social totality, whereby economic structural causality
+flows bottom-up, from foundational technical processes of production, valuation, and
+relations in the base, to their ultimate expression in cultural and political institutions,
+as superstructure. Marx wanted to model historical cause and effect, but history is full
+Platform and Stack, Model and Machine                                                     53
+
+
+
+of images of society organized instead into static stratified layers of arbitrary hierarchies
+(Albrecht Dürer’s 1515 woodcut The Triumphal Arch of Maximilian I comes to mind).
+Many contemporary technical systems work on stack principles, including smart grids
+that segment a power layer, below a communications layer, below optimization and
+applications layers. Examples are plentiful, and while some are recognizable as software
+stacks, others are fuzzier, more heterarchical than hierarchical.13 Beyond software, is
+the generic composability of any one layer in relation to another within a generative
+vertical platform that may help qualify systems as stacks.
+    Stack architectures are also conceptual strategies for design, not just for description,
+and they are not only conceptual architectures, they are models for actual architec-
+ture as well. Le Corbusier’s Five Points toward a New Architecture is a strong stack, as
+embodied in Villa Sovoye and the vertical platform for five essential but undetermined
+programs.14 The building may be “a machine for living in,” but the Five Points stack is
+the machine for making machines. Constant’s ever-changing New Babylon speculative
+urban system was redesigned again and again over the span from Sputnik to the OPEC
+embargo. It changed shape constantly, but one durable characteristic was the notion of
+a new city designed on top of the old one in two exclusive stacked layers. It imagined
+the new city as a landscape of vast multilayered networks and as continuous territories
+of ludic interfaces and opportunities, defined not by relation to a master ground plane
+but to the horizontal and oblique vectors of movement up and down the exploded
+sectional program. It was to be based not on functional regulation but on the feedback
+systems of play and serendipitous interaction. This project in turn inspired Rem Kool-
+haas’s revision and expansion of Mies van der Rohe’s sectional diagram into a generic
+principle of scale, for which the vertical juxtaposition of unlike programs in a single
+structure allows them to interoperate with as much mutual transparency or opacity
+as might be required, or which could be staged for optimizing spatial performance.
+This is seen perhaps most dramatically in the horizontal skyscraper OMA’s (Office of
+Metropolitan Architecture) 1972 conceptual project, Exodus: Voluntary Prisoners of
+Architecture, in which residents pass from layer to layer as they move through the dis-
+crete biopolitical stages of their lives.15 Other architectural stacks are even more graphi-
+cally explicit, such as Gordon Matta-Clark’s slices through stories of buildings, Robert
+Smithson’s concentric-layered world maps, and the stratified landscapes of MVRDV’s
+Hannover 2000 exposition pavilion that stacked and segmented artificial nature and
+program into a hyperdense world-in-a-box. Elsewhere, stack perspectives erupt unin-
+vited and unintended. The verticality of flattened systems is seemingly uncontainable.
+While world maps render space in x- and y-axes, no linear geometry without thick
+verticality could represent the most entrenched geopolitical conflicts, rational and irra-
+tional alike. Consider Israeli architect Eyal Weizman’s multidimensional maps of the
+overlapping and interweaving claims of sovereignty in Israel-Palestine, showing that
+no horizontal cartographic linear delineation, or any regular vertical elevation all by
+54                                                  Platform and Stack, Model and Machine
+
+
+
+itself, can finally describe, let alone govern, the multidimensional violence of that par-
+ticular jurisdiction-intensive politico-theological matrix. Multiplications of the plane
+and rotations of perspective that move the flattened into the vertical are prevailing.
+Everywhere are stacks, good ones and bad ones, big ones and little ones, and many of
+them agglomerating into larger and larger platforms.
+    The architecture of The Stack, this one particular megastructure of planetary-scale
+computation, is an interoperable physical-informational system of systems, distributed
+under, onto, and over the surface of the globe, with its layers organized into a patchy,
+uneven vertical section. As said, The Stack is composed of geologic, humanistic, and
+mineral layers charging feedback loops between these. As a cybernetic landscape, The
+Stack composes both for equilibrium and for emergence, one oscillating into the other
+for diagonal purposes in barely accountable rhythms. The state conditions (and literally
+for governance, the condition of the States that its platform logics describe in advance)
+are derived both from stacks as abstract diagrams and, through its unenumerated oper-
+ations, as real existing machines. In turn the infrastructural sovereignties of The Stack
+may, in principle, emerge from either of these. It can be derived from its career as acci-
+dental megastructure, which itself may or may not be the model for geogovernance to
+come, or from its immediate, projective, and potential designability. It goes both ways.
+Today, The Stack that we can analyze frames the one we can conceive, just as the one
+we can conceive frames the one we are beginning to realize. Alternatives are conveyed
+from its distortions.
+    The Stack’s disciplining of communication as an ecology of isomorphic techniques
+makes the world appear as a system that demands from us a constant redesign of its
+ever more granular interoperations. The history of these technologies is also then the
+history of multiple competing communication standards. Protocol politics is always
+rough trade because to control the standard is to influence the economies it enables,
+which is to influence how they interrelate with other systems and the meta-economies
+those interoperations in turn give rise to. As should be plain from current events, the
+interweaving of otherwise incommunicative hard and soft systems into new assem-
+blages continues apace, and so the politics of standards (e.g., open source, intellectual
+property, net neutrality, encryption) becomes integral to the “democracy” of infrastruc-
+ture and to the little sovereignties of everyday life. Looking back, it is not coincidental
+then that formal systems theory and information theory appear historically concur-
+rently and are part of the larger crest of cybernetics. The discernment of information
+as a first-order principle of material difference in the twentieth century would come
+to all but consume the very definition of systems tout court. The study of information
+bridged linguistics, symbolic logic, biology, chemistry, art, literature, and the theory of
+calculus with the practical engineering problems of automated logarithms, algorithms,
+cryptography, and long-distance signal transmission relay. In turn, the modeling of
+all of these and more as forms of information, as well as the conception of distributed
+Platform and Stack, Model and Machine                                                 55
+
+
+
+multimodel apparatuses ultimately as information systems, becomes an overriding
+epistemological ambition of twenty-first-century globalization. This registration of all
+systems as information systems a priori tracks software’s migration from military logis-
+tics to consumer footprints. In this enforced translation of any thing into the status of
+information within a system, all things may possess their worlds and be possessed by
+their worlds only to the extent that they possess the attributes necessary for intermodal
+communication with other platform systems. Whether for bits or atoms, numbers or
+nectarines, no impedance mismatch can disallow the activation of that intermodality,
+and so compatibility within a given scale as well as the interoperability between scales,
+becomes itself the critical vernacular definition of computability as an economic tech-
+nology. As all systems come to mean information systems, then computation, which
+otherwise might be defined differently, comes to refer to “algorithms holding systems
+of information together.” The Stack, as a particular megastructure, emerges from this
+history of systems conceived in relation to computation, and computation in relation
+to systems. It has inherited some of its limitations, ambitions, accomplishments, and
+blind spots and has evolved beyond others.
+
+12. Stack as Political Machine
+
+The emergence of planetary computation as a global and intelligent system can be
+traced in broad strokes from perhaps Roman and Chinese military accounting, to
+the first Victorian calculators through to today, and it is marked by celebrated break-
+throughs as well as long-ignored dead ends, some of which are eventually celebrated
+retroactively. By their appearances on the scene, it seems that every globalizing com-
+munication network, from printed books to telegraphy, railroads, radio, telephony, and
+television, was celebrated (and lamented) as the coming of some universal political
+community, messianic or degenerate or both. In their formative years, new regimes
+of digital global media are as well invested and inflated with world-historical impor-
+tance, as signaling the ultimate arrival of a too long postponed cosmopolitanism. (Both
+Hegel’s political time and Kant’s political space were themselves conceived in intimate
+proximity of that most modern of global mass media, the network body of the state,
+which would continue to reinvent its own anatomy in relation to new media regimes.)
+If we are more used to living so much of our lives inside the shells of planetary-scale
+computational networks, we also observe that the political realities of universal global
+information turn out to be far more problematic, more mundane, and unusual than
+envisioned, feared, and hoped for. This disappointment itself may be the most timely
+message of the medium, but not necessarily its most lasting. Perhaps the persistent
+utopianism around communications infrastructure still works, not because of how well
+it predicts the outcome of large-scale technological interventions, but because as the
+genesis of productive accidents, it is able to make room for otherwise unauthorized
+56                                                  Platform and Stack, Model and Machine
+
+
+
+political and social forms in its wake. The Stack, like any other technology of such scale
+and significance, both constitutes a new political-geographic order and enforces an
+existing cultural-economic order already in place.16 It does each in different ways and
+at different locations, and the untangling of these is part of the design brief. Toward
+this, we have to do more than map platforms; we have to learn to read them and inter-
+pret them.
+   Conway’s law, coined in 1968 by programmer Melvin Conway, states that “organiza-
+tions which design systems ... are constrained to produce designs which are copies of
+the communication structures of these organizations.” Put differently, “in order for two
+separate software modules to interface correctly, the designers and implementers of
+each module must communicate with each other. Therefore, the interface structure of a
+software system will reflect the social structure of the organization(s) that produced it.”
+A corollary law might demonstrate that over time, the inverse is equally true: organiza-
+tions come to take on the characteristics of their interfaces. If it goes both ways, then
+homologies between organizer and organized make the detection of cause and effect
+between cultural and technical systems rather difficult. For example, and to extend this
+problem to the largest scale, an understanding of the ongoing emergence of planetary-
+scale computation cannot only be understood as a secondary technological expression
+of capitalist economics.17 The economic history of the second half of the twentieth cen-
+tury is largely unthinkable without computational infrastructure and superstructure.
+In accounting for that transformation, it is not at all clear whether the computational
+technologies are more or less foundational than the economics that organized them
+and that they organize (even assuming that we could analytically separate the two, so
+as to put one in the fore and the other in back). Instead of locating global computation
+as a manifestation of an economic condition (as both its means of production and its
+superstructural expression), the inverse may be equally valid. From this perspective, so
+much of what is referred to as neoliberalism are interlocking political-economic con-
+ditions within the encompassing armature of planetary computation. The entwined
+polar positions of Sunnyvale, Caracas, Beijing, Brussels, Tribeca, and Tel Aviv don’t
+integrate capital and resource markets into network societies on their own, but are
+themselves “computed” into these arrangements. Either way, it is possible to delineate
+structural causality between technological and socioeconomic systems only in model
+abstractions, because one always contains the other and is contained by the other
+at once. We cannot, for example, finally locate computation technologies as a base
+and information culture as a superstructure, bound together either through capital-
+intensive modes of production and exchange or through computational flows directly
+determining systems of valuation and exchange in their image. Rather, we could do
+so, but only with abstractions that are easily turned inside out. Neither serves as the
+last instance of the other, though today, neither can be defined without the other.
+Instead, we should work with this mesh on its own less mechanistic terms. Jameson, for
+Platform and Stack, Model and Machine                                                   57
+
+
+
+example, offers an injunction to treat such arrangements as active temporal operations
+rather than as a fixed architecture, “basing-and-superstructuring.”18 We may think of
+foundation as a verb, base-ing, and to seek out how specific material technical systems
+come to take on causal force and when the same do not. Such flexibility might allow
+us to differentiate, for example, when the discursive structure of the relational database
+drives not only the information access policies of a company or state, but also in turn
+the form of its organizational hierarchies, and when the inverse is predominantly true,
+such as when the laws and logistics of trade channels structure the form and content of
+interoperable supply chain management software and the database designs on which
+it depends. In locating The Stack within the intercourses of economics, culture, and
+technology, both Conway’s law (that organizations design systems in their image) and
+our inverse Conway’s law (that systems and their interfaces produce organizations in
+their image) are interpretive tools that are useful to keep at hand.
+    As a platform to be read and interpreted, The Stack clearly sits on both sides of this
+coupling of culture and technology. It relies on software as both a kind of language and
+a kind of technology, of algorithms of expression and the expression of algorithms,
+and this twisting of the conceptual and the machinic can sometimes bring emotional
+distress.19 For some, an apparently universal convertibility of social systems into soft-
+ware systems motivates euphoric convictions in the instantaneous self-realization of
+networked individuals, a particularly Californian enthusiasm spanning from the inge-
+nious to the idiotic. (The so-called California Ideology is not what I am referring to
+here. That term was always a simplistic New Left chestnut that crudely lumped Sur-
+vival Research Laboratories and Page Mill Road venture capitalists into one cohort.)20
+However, the extremities of convictions also give way to a more nuanced complex of
+platforms that not only augment force and authority but constitute first-order modes
+of authority on their own (they are discussed in following chapters). These are the
+geographic powers to be further decided and designed, or left to go stale and rot on
+their own. For example, the ability of some platforms to absorb and recognize patterns
+in end User behavior might mimic how markets resolve fluctuations of price, but its
+formal centralization also allows for higher-level forms of planning, investment, and
+equity that states are, ostensibly, steering on their own. Contemporary Cloud platforms
+are derived from more specific systems of user-facing interfaces and services (discussed
+at length in the Cloud chapter). The intelligence of User interactions provides core con-
+tent that is aggregated, optimized, and made more visible, more immediate, more stan-
+dardized, more interoperable, more mobile, and therefore more valuable both to Users
+and to the platform than it would be otherwise. How far can that go?
+    For some, the capacity for platforms to operate in this way suggests striking similari-
+ties with the hopes of socialist planners to engineer a pricing and planning mechanism
+that could observe, analyze, calculate, produce, and distribute materials and goods
+according to principles of rational evaluation instead of the anarchic vagaries of supply
+58                                                   Platform and Stack, Model and Machine
+
+
+
+and demand.21 Francis Spufford’s 2010 historical novel, Red Plenty, did much to respark
+interest in this overlooked period in the history of political computer science, and in
+Khrushchev- and Brezhnev-era Soviet economists and cyberneticians in particular.22
+At that time, planners and programmers had access to what is by today’s standards
+minuscule computing capacity to calculate patterns, pathways, and contingencies, but
+contemporary supercomputing systems not only could orchestrate and optimize the
+pricing and dissemination requirements of large economies; they do it every day.23
+Those planners and programmers also labored under centralized authoritarianism, and
+so for our efforts to plot out where else platform economies can be made to go and
+what alternatives to Anthropocenic economics are possible, it is not suggested that we
+look back on midcentury regimes for all the key clues. However, the clear homologies
+between the aspirations of Soviet cybernetics and the accomplishments of Google, for
+example, to model and govern superpower-scale digital economies, and the genealo-
+gies that link the latter to the former, at least testify against the notion of an intrinsic
+bond between capitalism and computational megaplatforms. We may anticipate that
+to some significant extent, the dovetailing of the future evolution of both agendas will
+transform one another and may even allow one to fully envelop the other: neither
+state as machine nor market as machine because the platform is state, market, and
+machine at once. Some Marxian articles of faith (such that once global technological
+means of production and valuation have reached some threshold level of efficiency and
+ubiquity, such that continuance of management by capital is not needed, then things
+will give way to a self-regulating infrastructural commonwealth) may have surprising
+interpretive value for the next century even if it works out in ways utterly different than
+originally and normally conceived. As many on the left and the right have postulated,
+the acceleration of capital flows through computational megaplatforms such as these
+may, in the long run, do as much to undermine the modern function of exchangeable
+property as it does to radicalize it (and perhaps the former because of the latter). We will
+have to wait and see what will and will not “wither away” should planetary-scale com-
+putation approach peak platform optimization and ubiquity, but in the meantime, we
+have other historical examples of proto-Stack governments to consider and to interpret.
+
+13. Stacks That Were and Might Have Been
+
+In 1970, British cybernetician Stafford Beer was commissioned by Unidad Popular, the
+new socialist Chilean government of Salvador Allende, to design the platform for a new
+computer-controlled economy, a project that came to be known as Project Cybersin
+(the name is a conjunction of “cybernetics” and “synergy”).24 The proposed network
+would have organized the entire Chilean economy according to, among others tech-
+niques, a twelve-layer concentric platform model, running from the worker himself
+(center layer), to successive layers of the crew, workshop, department, firm, line, sector,
+Platform and Stack, Model and Machine                                                    59
+
+
+
+branch, industry, state economy, central government, and finally enveloped by the
+twelfth, and final, layer of the whole nation. As seen in Beer’s diagrams, layers in the
+system could recursively influence layers it surrounded, with any one factory floor or
+shipping port location sending status information regularly into the platform by a
+network of telex machines. This feedback loop seems like rocks and sticks compared
+to today’s multivariate stochastic logistical lattices, but in the early 1970s, it was prac-
+tically science fiction. Neither that Cybersin network nor its planned control room
+straight from Captain Kirk’s bachelor pad survived the Pinochet coup. The Chilean
+army and its sponsors apparently didn’t see much value in flat, decentralized economic
+ecologies sutured by cutting-edge information networks. Hmm.25 Beer’s “stack” was
+based on his viable system model, “a five-tier structure based on the human nervous
+system, which Beer believed existed in all stable organizations—biological, mechanical,
+and social.” Biological system metaphors map onto modern social theory in diverse
+ways and while some emphasize equilibrium, others emphasize emergence.26 For Beer’s
+Project Cybersin, it was the latter. The aspiration of the platform was to constitute and
+compose a systemic state condition, literally a socialist nation-state condition, and
+bring it into being. The platform sovereignty attempted by his stack was generative
+ex nihilo. Unlike the deeply centralized planning mechanisms of the Soviet Gosplan,
+the reporting, planning, and coordination of Cybersin’s architecture was meant to be
+decentralized and democratic. Beer himself was less interested in Marxian theory of his-
+tory than in the revolutionary potential of autopoietic cybernetics as a form of gover-
+nance, and the presumed effect of information flows to make systems less hierarchical,
+more composable, more vital and durable.
+   Meanwhile in Japan, a platform of cybernetic equilibrium has been in continuous
+development since 1984, one for which the normative apparatus of the nation and its
+interpolation of objects and subjects within its industrial economy is presumed, rei-
+fied, served, and conserved. Ken Sakamura’s TRON (an acronym for “The Real-Time
+Operating system Nucleus”) is the basis for a “computer everywhere” infrastructure
+that envisions a ubiquitous national computer network built on a distributed real-time
+operating system among a vast network of objects and terminals of multiple scales and
+complexities, a blend of an Internet operating system and Internet of Things commu-
+nication formats with ubiquitous ID systems.27 In its heyday, TRON was an architecture
+and interfacial framework by which parts of the whole national industrial system, from
+cell phones to cars to factories to municipal infrastructure, could communicate and be
+addressed by similar and related software frameworks. Those frames were forked and
+developed as different subarchitectures, each incorporating a different subset of an over-
+arching Japanese computational ecology: ITRON, JTRON, BTRON, CTRON, MTRON,
+and STRON for mainframes, industrial uses, telecommunications, cell phones, end user
+terminals, and on and on. The industrial variant, ITRON, for example, is widely used in
+Japanese embedded systems. It was designed to be what Sakamura called “open-open”
+60                                                   Platform and Stack, Model and Machine
+
+
+
+in the communication between parts and components and freely available to be repro-
+grammed for specific implementations. Taken as a whole, TRON was considered at one
+point “the most popular operating system in the world.”28 Its success, however, has
+been limited by the insularity of the Japanese technical ecology, and the contiguity,
+coherency, and delimitation of the Japanese state system.29 The ultimate boundary of
+its walled garden would prove to be as unambiguous as an island’s border, and so the
+growth of TRON was both enabled and curtailed by Japan’s Garapagosu-ka or “Galapa-
+gos syndrome.”
+    Sakamura’s stack was constituent and curatorial; Beer’s was constitutive and gen-
+erative. Beer’s model posited a nested series of socioeconomic scales, from worker
+to nation, through which regulated information would be reported, analyzed, and
+governed. Sakamura’s model distributes operations among widely dispersed compo-
+nents sharing data directly or indirectly for separate uses (e.g., industrial, civic, inter-
+personal) and so lubricating intermodal communication between people and people,
+people and things, and things and things. Beer’s and Sakamura’s visions are asymp-
+totic. Both sought to design a platform infrastructure that would integrate a national
+society by integrating its material economies into a master computational system, but
+each is animated by a different conception of that task. Beer’s assignment was to help
+engineer a new nation into being through cybernetics, and so the key diagrams of his
+stack depict the socioeconomic scales that would come to participate through that sys-
+tem. For Sakamura’s Japan, the program of his stack is to intensify a national and cul-
+tural equilibrium already established, and so his images depict not a new social order
+(as Japan’s organic stability could be presumed) but the technical network layers that
+would be made to serve it. Beer’s diagram was of the macrosocial emergent effect of
+platform sovereignties, and Sakamura’s was the inverse, a technical harmonization of
+a social foundation. The constitutive design imagined the social and the cultural as an
+effect of the technical intervention, and the constituent design imagined the technical
+as a function of the social and cultural, and so here, both sides of software as language
+and software as technology dichotomy are exemplified and mirrored. For The Stack,
+the essential forces of the generative and the regulatory, equilibrium and emergence,
+constitutive and constituent force, remain equally foundational for one another. The
+Stack freezes, radicalizes, and reinforces models of governance and macroeconomics at
+the same time as it dismantles them, builds geographies above and below them, and
+undermines their ability to reproduce themselves. Sometimes it accomplishes one by
+doing the other.
+    The ongoing design of The Stack is for an architecture that is equally technical and
+conceptual, drawn by both its diffuse instrumentality and its physicalized abstractions.
+It is well suited to reflect even politico-theological aspirations and can easily synthesize
+an ideal liturgy of preferred signals and echo them back at specific Users (as discussed
+in the Interfaces chapter), even as its ability to absorb and revalue new content (toward
+Platform and Stack, Model and Machine                                                61
+
+
+
+inflation or deflation) is programmed to be agnostic and omnivorous as strategy dic-
+tates. As we conceive possible futures for The Stack platform, in what way might the
+generative aspiration of Cybersin do more work for more Users than the curatorial aspi-
+ration of TRON, or vice versa? As ideal types, TRON is designed to optimize coherent
+divisions, whereas Cybersin introduces communication across the boundaries of scale.
+Cybersin focuses on the flow and valuation of goods and actions taken, and TRON on
+the embedded intelligence of infrastructure and equipment. Cybersin seeks to enroll
+all actors in the economy into its ongoing planning and evolution, while TRON seeks
+to allow steering authority a more transparent chain of command. Beer and Sakamura
+would likely agree, however, that any platform architecture will succeed not through
+the premeditated ingenuity of its original schemes that will always prove too brittle,
+but through how it is taught to accommodate and validate unforeseeable new pro-
+grams, and to do so as simply as possible.
+
+14. The Stack We Have
+
+The Internet is built out on stacks not so dissimilar to these. Its eminence and its
+monotony, both available in excess, are functions of the regularity and resiliency of
+several specific “stacks,” variously abstract models and real technical machines. As its
+stacks are far more pervasive and powerful than Cybersin and TRON, their dissection
+demands more reading and interpretation. They are the result of work by well-known
+scientists and engineers (more on them below), anonymous ingenious workarounds,
+and coordinated tactical responses of established industrial Users. Equal measures of
+emergence and equilibrium are at work in the interplay of anticipatory design and real-
+time problem solving. The shape of The Stack, our accidental megastructure (which
+contains this Internet but also much more), is also built on some of these models and
+their particular governing steerage of information networks. The history of Internet
+stacks also makes clear that the authoring of architectures can produce metasystemic
+accidents that in turn can themselves counterauthor and redesign the platform in
+unintended but successful ways.
+   Consider the lessons of the OSI (open systems interconnection) network model and
+the TCP/IP network model, on which global Internet connectivity is now largely based.
+The specification of both standards began in the 1970s, and the latter was more fully
+adopted by the mid-1980s. For OSI, the network represented has seven discrete layers,
+from the application layer addressing Users at the “top” down to the physical layer
+(which today may be fiber-optic cable channeling pulses of light). Below the applica-
+tion layer are, in descending sequence, the presentation layer, the session layer, the
+transport layer, the network layer, the data link layer, and then the physical layer.
+In simple terms, a message is sent by a user down the stack, layer by layer, until it is
+transmitted laterally across the physical layer to the receiving node across the street
+62                                                  Platform and Stack, Model and Machine
+
+
+
+or across the ocean. Upon being received, the message travels back up the stack, from
+the physical layer to the application layer, and is read by the next user. Each of the lay-
+ers gathers, specifies, and links heterogeneous technologies together into a functional
+stratum.30 On each layer, an instance provides services to and requests service from the
+layers above and below, and can also pass information laterally to its corresponding
+layer (i.e., network layer to network layer, as in many so-called level 2 networks linking
+financial traders and trading centers). Key to the success of this modular model is its
+flexibility in absorbing future technological innovations that can be introduced at any
+given layer (e.g., fiber optics instead of copper wire at the physical layer, better router
+software, an application with better features and security) without disrupting the exist-
+ing components, so long as the new technology adheres to the protocols established
+by the platform model that allow it to communicate with its vertically adjacent layers,
+above and below. In principle any machine could be inserted in a layer of the network
+if it can adhere to the necessary grammar that would allow it to communicate with its
+most proximate neighbors. For The Stack, the OSI model serves as a literal and tech-
+nical prototype for how network architectures operate between very small and large
+scales and, as the primary abstraction, or universal diagram, for how its heterogeneous
+participants can arrange communication in a vertical assemblage, now at a megastruc-
+tural scale.
+    The network stacks conceived in the 1970s and 1980s by teams led by Vint Cerf
+(TCP/IP) and Charlie Bachmann (OSI) (among many others) were designed to solve
+complex but very specific transmission and communication problems. The big idea
+was not to disrupt modern geopolitics. However, for The Stack, we recognize them
+to represent a more universal topography and geographic machine, one that we may
+come to see as having real effects of a similar order of magnitude as the loop topolo-
+gies ratified at Westphalia. It must be said that for a book of design theory, The Stack
+platform’s logical structure is far more important than the technical details of existing
+networks, but one provides for the other. As indicated, however, a crucial consider-
+ation for these models was massively distributed infrastructural modularity as a way
+to accommodate unplannable new demands and new machines within discrete layers
+as the key to future growth of the system. For this they exemplify platforms far more
+than master plans, and they are direct technologies for governance at least as much as
+tools of governments. At the same time, the armature for that modularity guarantees
+the predictability of these inclusions and the scalability of the whole, and so as for any
+platform, the governing regularity of stack protocols is necessarily inflexible and regu-
+lar. What is simplest and most fixed provides for Hermes’s ephemeral work of transit
+and translation.
+    All of this is was and is highly contingent. It was quite possible that neither OSI nor
+TCP/IP would become anything like a central systems mechanism for global commu-
+nications. The standards wars of this era divided phone companies, which preferred a
+Platform and Stack, Model and Machine                                                    63
+
+
+
+system that would support discrete circuits between one sender and receiver, like older
+telephony networks, versus many computing companies, such as IBM, which lobbied
+hard for packet switching technologies that could treat all messages (e.g., voice, data,
+image) as recombinant bits flowing over whatever future hardware that could connect
+with the network. The models of communication (equally technical and social) posed
+by both options contain profound downstream implications for the geopolitics of an
+information society. A polity of circuits and a polity of packets are in epistemological
+and functional opposition. For the circuit model, its stack is a bounded utility for which
+use is metered by monopolistic caretakers who, by guaranteeing the circuit between
+sender and receiver, retain de facto sovereignty over the channel. For the packet switch-
+ing model, at least in the minds of Cerf’s group, the platform would prioritize the edges
+of the network, asking them to do more of the work to reassemble transmitted packets
+and calculate the content of messages. Cerf’s group presumed increasing computeriza-
+tion of networks from node to edge, but even more than its authors intended, their
+model would depend on the exponential growth of the computational capacity of all
+network equipment, soup to nuts (e.g., terminals, routers, servers), in order to bring
+the network to life at a global scale. The greater the computational carrying capacity of
+the entire network apparatus, the more information it can convey with greater speed,
+and the more information it conveys, the more demand for capacity by organizations
+increasingly reliant on its competitive efficiencies. In this way, Moore’s law is not just
+the cause of the software society; it is also a contingent effect of a platform architecture
+design decision.
+   Both OSI and TCP/IP are packet switching models, but for better or worse, the seven-
+layer OSI model that Bachmann described never really took off. The simplified TCP/IP
+four-layer model described by Cerf’s group did get traction, and based on those early
+adoptions, the Internet as we know began in earnest.31 TCP/IP was ratified in 1980, and
+besides compressing the stack geometry by combining the top three layers of the OSI
+stack into one, it proved a much simpler and flexible solution for early industrial and
+government network adopters.32 TCP/IP “won” not simply because its early adopters
+were more visionary but because it just worked better to link together heterogeneous
+existing systems and translating between them so that they could work as one. Ameri-
+ca’s factories were not linked by the organicist tissue of TRON; they were full of various
+proprietary computing systems running mutually incompatible software. TCP/IP made
+it much easier to design and implement general-purpose hardware and software that
+could link all these together—as is—and thereby quickly realize gains in efficiencies
+with the machines that managers already had. As more sites (and more nodes and more
+Users) connected systems through this network platform (factories connected to sup-
+pliers to headquarters to warehouses and so on), the network became that much more
+valuable to every connected User. As the platform that glued all these together became
+more established, the opportunity cost of using alternatives such as OSI increased (a
+64                                                  Platform and Stack, Model and Machine
+
+
+
+good example of generative entrenchment). We see that platforms that allow for a
+tactical appropriation to optimize existing systems have an advantage over those that
+would appear from a tabula rasa, at least within this context for established industrial
+systems. Over time, the entirety of those original economies and mechanisms may be
+replaced bit by bit by new technologies and new communicative norms that are better
+tuned to take advantage of the wider systems that emerge.
+   There are important lessons for The Stack from this history. By the relative simplicity
+and rigidity of a modular architecture of translation, the platform gathered unlike and
+unforeseeable users into its media, and only by translating any “content” into generic
+information can it provide the effective universality of communication and exchange.
+This gathering of unlike Users into a central system that can then govern the terms
+of infrastructural and platform participation largely depends on how well it makes use
+of computational ubiquity to amplify the agency of all the nodes, wherever they may
+be. Perhaps most important, despite the fact that TCP/IP was intentionally authored as
+a scalable platform, it rose to preeminence in the governance of networks not because
+it was the most perfect, or because everyone voted for it, or because it was the most
+legally sound; rather, it just worked to tactically glue together lots of different things
+at different scales into more manageable and valuable forms. The same is basically true
+of The Stack as an accidental megastructure. There was no one commission or council
+whose vision authored it (though versions of it have appeared in dreams and night-
+mares for centuries). Its layers “just worked” for Users and platforms to make immedi-
+ate tactical gains, and the accumulation of these trillions of maneuvers terraformed
+the planet. As for “the Internet,” we still can’t really point to it as one network, or one
+technology, or one stack. It is a conceptual assemblage of billions and billions of little
+machines that we treat as one thing. The Stack, as well, doesn’t really exist per se, and
+yet there it is.
+   The Stack is an engine for thinking and building. The architectural metaphor may
+suggest an exclusive design for one given site, but it should direct us instead toward a
+geometry in which different things occupy the same site at the same time and cohere
+into a stable system because of this co-overlapping. The Stack is built of real things,
+but how we conceptualize its totality depends on powers of aesthetic abstraction.
+While machinic networks demand their own recognition and when formalized these
+become infrastructural and platform sovereignties, the Stack diagrams these as tech-
+niques to use (or refuse) alternative political geographies but never allows for sim-
+plistic one-to-one correlations between one layer and one geopolitical operator. I am
+not suggesting, for example, that China functions “like” the physical layer of the OSI
+model or that Google functions “like” the application layer. Rather, different organs
+of state and Cloud platforms intersect jaggedly. Their intersections on multiple layers
+(e.g., Earth, Cloud, City, Address, Interface, User) can be understood through the model
+Platform and Stack, Model and Machine                                                    65
+
+
+
+lens of The Stack, not just as an unaccountable proliferation of exceptional enclaves,
+exclaves, and liminal legal zones, but also as the topos (if not nomos) of a normative
+order in which these very “exceptions” are regularized. It is a political geography for
+which the vertical is on equal footing with the horizontal and demanding its overdue
+tribute (their crisscrossing piling of jurisdictions, on-platform and off-platform, not
+only works through The Stack; it is a stack). State and nonstate Cloud platforms can
+operate both independently and interdependently, but their position is always now in
+relation to one another and to what is above and below them. Our model is, we hope,
+both a schematic map of this dynamic and a means for its retooling; it is infrastructure
+that is also simultaneously a projective interface for its own recomposition and for a
+geopolitics-to-come. It is a space of deep addressability nominating and enumerating
+Users and interlocking their traces easily or uneasily across unnatural scales. Layers
+are delimited like borderlines, invisible membranes just as arbitrary as their enforce-
+ments, but as they gather unlike technologies into their own level, they also fold their
+lines around them into a frame. Especially at the Interface layer that draws Users into
+the fold, their lines exude platform sovereignty through an intrinsic reversibility. This
+nomic principle of The Stack persists.
+    The aspect of this book that qualifies as a design brief hinges on how The Stack
+is already a larval geopolitical architecture and how its refashioning requires unex-
+pected and uncomfortable redefinitions of what geopolitics might entail. As discussed
+above, The Stack is at once a machine that becomes a state, and a political geography
+that derives and is derived from the structure of that machine. The Stack includes
+all the various planetary computational technologies we now build with fanfare, but
+its significance is its reflection of the totality that emerges unintentionally. The plat-
+form sovereignties that it enables emerge in relation to material systems opened to
+the subjective image of all User positions and identities that cohere around them. In
+exploring the active contradictions of sovereignty in relation to emergent planetary-
+scale computation, we need a diagram of the global Stack that we have as it actually
+is (e.g., electricity grids, mineral sourcing, strange interfaces, smart and dumb cities,
+alien users) to give a technical specificity to our speculations on geopolitical and geo-
+social alternatives, but also to better abstract its scattered technical heterogeneity into
+a fungible totality. What binds that analysis and that design to one another is that
+while The Stack is a platform for computational networks and economies, it is also
+a metaplatform that works to gather, support, and superimpose multiple totalities at
+once (e.g., states, Cloud platforms, cities, projective political theologies). Each of these
+positions is itself in slippery contact with The Stack’s layers, circumscribed by one and
+shuttled between several. In so doing, it has repositioned itself in relation to other
+little totalities along the way, creating and claiming some part of the territory of plan-
+etary computation.
+66                                                     Platform and Stack, Model and Machine
+
+
+
+
+Figure 3.1
+Diagram by Metahaven of the six layers of The Stack.
+
+
+15. The Layers of The Stack
+
+How does this work? What is the model exactly? The Stack is divided into six layers,
+moving from the global to the local, from geochemical up to the phenomenological:
+Earth, Cloud, City, Address, Interface, and User. For The Stack, multiple layers co-occupy
+the same terrestrial location (horizontally) but gather and subdivide their processes ver-
+tically into discrete machinic “jurisdictions.” That subdivisional geography is bound
+within the mechanism of the platform, but at the same time, The Stack platform itself
+disturbs existing models of jurisdiction and projects its own out into the world. Each
+layer configures and coheres its own specific forms of governance over what it touches,
+Platform and Stack, Model and Machine                                                   67
+
+
+
+and so the difference between one layer and another is also a difference between those
+forms and processes. That is, the Cloud layer is defined by certain spatial and temporal
+demands that include what we conventionally recognize as Cloud infrastructure (e.g.,
+data centers, fiber optics, and in-browser applications), but those demands may press
+on rather unlike things as well (parking spaces, medical equipment, food supply statis-
+tics). The six chapters that follow discuss each one of these layers in sequence, detailing
+especially how each produces its own governing logics of scale, physicality, textual-
+ity, embodiment, force, motion, stability, and, perhaps most important, how each of
+these logics provides productive accidents that may direct us toward unexpected design
+outcomes.
+    The diagram of The Stack in figure 3.1 shows a vertical-sectional relationship
+between possible positions occupying all six layers at once. It demonstrates that while
+positions on layers are held simultaneously, each layer governs that position semiau-
+tonomously. In the practice of real communication, any one instance of such a stack
+works only in combination with another, and in this pairing, the real social form of
+active stacks comes into focus. That structure of connection and communication is
+similar to OSI or TCP/IP. Connections tunnel down, across, and back up stacks, creat-
+ing temporary circuit-like connections in a U-shaped trajectory. User connects to User
+by initiating a “message” that tunnels all the way down through the other layers to the
+bottom and then back up again, and so direct communication between Users activates
+all six layers down The Stack and then all six layers again back up The Stack. The whole
+of the system is invoked and activated by any one connection; the whole is “folded”
+into each single instance of activation, bending the universal and the particular into
+one another. We define any one such path taken down and up The Stack in a U-shaped
+trajectory as a column. For one “session,” however fleeting or stable, columns fix one
+User to another by linking layers to those above and below into a whole, but they allow
+anyone or anything that is a User to initiate (or be initiated by) as many other simul-
+taneous columns as needed. That is, as any given column tracks up and down, there is
+no final instance of vertical or horizontal integration that would truly and ultimately
+resolve a User down to the Earth layer or Cloud layer for good. Any one User will initi-
+ate millions of different columns at different moments over time, thereby executing
+different combinations of nested positions. This slipperiness does not correspond well
+with modern logics of last-instance sovereignty and citizenship. It’s not that there is no
+“there there” but rather that moment to moment, there are too many “theres” for any
+one sovereign geography to finally decide all the others.
+    At the top of any column, a User (animal, vegetable, or mineral) would occupy its
+own unique position and from there activate an Interface to manipulate things with
+particular Addresses, which are embedded in the land, sea, and air of urban surfaces
+on the City layer, all of which can process, store, and deliver data according to the
+computational capacity and legal dictates of a Cloud platform, which itself drinks from
+68                                                  Platform and Stack, Model and Machine
+
+
+
+the Earth layer’s energy reserves drawn into its data centers. Paths between layers are
+sutured by specific protocols for sending and receiving information to each other,
+up and down, that do the work of translating between unlike technologies gathered
+at each plateau. In this sense, each layer can then simulate and countersimulate the
+operations of the other (for Users, Interfaces “simulate” the instrumental capacities of
+the entire Stack, as the hard and soft networks of the Cloud and City are “translated”
+one into the other). Their interlocking adherence to standard protocols guarantees the
+linking of information up and down and between like layers (or even skipping layers
+occasionally), and for this, an external application can enter into The Stack at any level
+and begin to move between levels from that starting point. Any path from top to bot-
+tom is but one possible route among many others. For example, one path from Inter-
+face to Address may be very different from another from Address to City. There are any
+number of possible links between User to Address, Interface to Cloud, and Earth to City,
+or horizontally between the same layer of two stacks (i.e., City to City). The durable
+form of one layer, in one context, might enable or prevent variation within another
+layer, because different layers function with a contingent whole with greater or lesser
+degrees of stability or variability. For example, identical configurations on the Cloud
+layer of column may link very different contexts on the User layer that is necessarily
+more responsive to dynamic cultural nuances.
+   In practical terms, two different Users may make use of the same Interfaces and
+Addresses within the same City, but each may have very different privileges and limita-
+tions at the Cloud layer. As that may be the layer on which it is most decisively perched,
+a state may see what the Cloud layer can see (and not what it can’t see) in the recursive
+path up and down the columns that are visible to that particular layer’s techniques of
+perception and its own dispositions of looking. At the top layer, because no two Users
+have the same level of privilege and access within the space of possibilities in which a
+particular column might form, political tension pulls tight around that difference. Per-
+haps then the ultimate identity of any one User within The Stack could be calculated by
+those limitations that contrast one User to its neighbors plus the patterned aggregation
+of the columns it has activated over time (not unlike how today’s commercial Cloud
+platforms track and model their subscribers). For any User a particular position on one
+layer might guarantee a corresponding position on another layer, or might disqualify
+it altogether; not only are layers technically interdependent, but their social effects
+are as well. Attention to this leverage between layers is essential because the possible
+designable distribution of such positions in relation to one another may also drive the
+contested governance of the Cloud and of any alternative geopolitics it might engen-
+der. Even so, for the Stack platform to work, each layer still reserves its own limits,
+rules, and concreteness that is never finally reducible to the terms and jurisdictions
+of another. On the one hand, the layer’s modularity within the whole means that its
+effects are never exclusive or exhaustible, and on the other, the rigid simplicity of the
+Platform and Stack, Model and Machine                                                     69
+
+
+
+total platform apparatus demands that its direct functions remain encapsulated.33 Even
+as any one layer’s operations unfold in relation to those of adjacent layers, and so may
+also affect events that fall well outside the entire platform’s borders, the movement of
+hard and soft information must always pass through the protocols that divide and bind
+that layer’s work from the others.
+    While any one layer’s operations in a given site or moment could be captured (or
+guaranteed) by state, nonstate, transstate, superstate, or substate actors, all the dif-
+ferent layers within the arc of a specific column trade on multiple and incongruous
+strategies, all or none of which may be codified by one legal jurisdictional vision (itself
+perhaps unrecognized by the jurisdiction underwriting local control of another layer).
+A spectrum between incongruent policing and practical interoperability nevertheless
+characterizes the politics of stacks and is also itself even subject to local enforcements,
+both inside and outside the column or layer that may be in dispute. In daily practice,
+specific columns (hundreds of millions of them every second) are separated from one
+another by their unique and particular nestings of these positions and counterposi-
+tions and by the interlocking coordination of their simultaneity, fixed or unfixed by
+the force of formal state description. Because the autonomy of individual layers in the
+platform resists total capture of the platform’s totality, the interslicing of aggressive
+“little totalities” between columns might be rough or smooth, honed by the invest-
+ments of happy Users or just as easily by the grinding tones of mutual resistance. For
+any column, any strong sovereign claim (state or nonstate) can only extend over some
+layers in any given moment or location, but never on the entire Stack at once. Interface
+and Address may be monopolized by one jurisdictional totality in one context, and
+Earth and City for another in another context, but absolute dominion over all six lay-
+ers across contexts is doomed by the superimposition of multiple geographies at once,
+communicating with one another without master steerage or any one final settlement
+of transactions. At least in this way, The Stack is (we hope) a totality that is resistant to
+totalitarianism, even as its governing coherency depends on the gravitational pull of
+each layer and on the gathering of more and more of the world into its logistics (even
+making the opportunity cost of transactions and transitions too cheap to measure).
+In the six chapters that follow, I illustrate a provisional geopolitics of The Stack with
+which we work, one layer at a time and in aggregate, and speculate about a blossoming
+of exotic sovereignties that each layer might support or contain, in isolation from and
+in concert with others. The tilt is not toward how a sublime coordination of Stack tech-
+nologies might hasten the arrival of some full-spectrum computational end of history,
+but how its gnashing juxtapositions generate peculiar new spaces, fractured enclaves,
+and how its newly normalized exceptions are perhaps instructive beyond their imme-
+diate scope. As said, each individual layer spits out its own possible accidents as it abuts
+its neighbors, and each is presented not only as a medium for design but as a technol-
+ogy for accidents.
+70                                                   Platform and Stack, Model and Machine
+
+
+
+    First, the Earth layer provides a physical foundation for The Stack. This chapter
+begins by considering the agency of silica as a computational substrate and how the
+classical idea of a universal granularity of atomic matter has framed how we understand
+the physics (and metaphysics) of computation. It argues for a foregrounding of the
+geological substrate of computational hardware and of the geopolitics of mineral and
+resource flows of extraction, consumption, and discarding.34 It examines arguments
+regarding the ultimate energy sourcing and routing necessary for planetary computa-
+tional infrastructure and the paradoxes posed by the race to build smart grids capable
+of supporting its continuance and maturation. In important ways, it is possible for us
+to sense, quantify, and predict ecological precariousness through Stack technologies,
+and yet the production and feeding of those same systems are also key contributors to
+those same risks. The chapter concludes with a discussion of the knotty problems of
+ecological governance and the issues posed by turning the ecology itself into a kind of
+final, ambient emergency.
+    The Cloud layer chapter discusses the vast server archipelagoes behind the scenes
+and behind the surface that provide ubiquitous computational services as well as the
+geopolitical intrigue that involves them. It includes in this the entire infrastructural
+complex of server farms, massive databases, energy sources, optical cables, wireless
+transmission media, and distributed applications. It focuses on the conflicts arising
+from the juxtaposition and superimposition of state geography and cloud platforms
+(i.e., the Google-China conflict) and on how the evolution of states into cloud plat-
+forms extends and complicates the locations of infrastructural and legal sovereignty.
+The chapter also compares several existing Cloud platforms as models for alternative
+Cloud polities.
+    The City layer of The Stack comprises the environment of discontinuous megacities
+and meganetworks that situate human settlement and mobility in the combination of
+physical and virtual envelopes. These partition and subdivide access to urban space,
+but in their generic comprehensiveness, they may also provide for forms of accidental
+cosmopolitanism, ones derived not from parliamentary certificates but from a shared
+physical relationship to pervasive infrastructure. We also examine the urban-scale
+imprints of major Cloud platforms and how their physical postures and positions dis-
+close specific geopolitical imaginaries.
+    Now closer to the scale of familiar objects and interactions, the Address layer examines
+massively granular universal addressing systems such as IPv6 (Internet Protocol version
+six) (including cryptographically generated hash addresses), which would allow for a
+truly abyssal volume of individual addressees. Such individuated addresses make any
+thing or event appear to the Cloud as a communicable entity, and for The Stack, com-
+putation then becomes a potential property of addressed objects, places, and events,
+and a medium through which any of these can directly interact with any other. While
+scenarios for ubiquitous computing and an “Internet of Things” suggest information
+Platform and Stack, Model and Machine                                                  71
+
+
+
+exchange between “smart” natural objects, what I refer to as “deep address,” is inter-
+ested in communication between very different spatial and temporal scales, absorbing
+any addressable “haecceity” into vast, if also fragile, communicative fields that may
+exceed the limits of conventional control or literacy.
+   The Interface layer describes the projective, perceptual cinematic, semiotic layer
+on a given instrumental landscape, including the frames, subtitles, navigable maps,
+pixelated hallucinations, and augmented realities through which local signification
+and significance are programmed. Interfaces provide imagistic and linguistic mediation
+between Users and the Addressable computational capacities of their habitats, priming
+the pump for possible communication. The chapter outlines a typological history of
+interfaces, from the mechanical, to the semiolinguistic, to the haptic and gestural. As
+an interface, any surface or gateway oscillates between open and closed in a given con-
+text, and because of this, it is where the reversibility of the interior/exterior decision
+by platforms is most clearly observed. As an interactive diagram, GUIs present a visu-
+ally coherent image of otherwise discontiguous and opaque logistical flows, but when
+aligned with new interface technologies, such as augmented reality that superimposes
+interfacial elements directly into the perceptual field, they can collapse a metaphori-
+cal space between object and interpretation. This literal projection of the ideas and
+ideologies of an imagined community onto perceived objects and events can engender
+undesirable cognitive fundamentalisms.
+   At the top of The Stack is the most culturally complex layer, the User. This chapter
+describes how The Stack sees the humans and nonhumans that initiate columns up
+and down its layers, from Interface to Earth and back again, As a contemporary image
+of self, the User is asked to speak through utilitarian scripts, and yet its subjectivity
+is also opened up to unexpected kinds of universality. Human and nonhuman Users
+are positioned by The Stack (perhaps rudely) as comparable and even interchangeable
+through a wide-ranging and omnivorous quantification of their behaviors and effects.
+The preponderance of data generated by Users and the traces of their worldly transac-
+tions initially overtrace the outline of a given User (e.g., the hyperindividualism of
+the quantified self movement), but as new data streams overlap over it and through it,
+the coherent position of the User dissolves through its overdetermination by external
+relations and networks. The User’s enumeration is first a grotesquely individuated self-
+image, a profile, but as the same process is oversubscribed by data that trace all the
+things that affect the User, now included in the profile, the persona that first promises
+coherency and closure brings an explosion and liquefaction of self.
+   The concluding chapter draws out from these discussions some of the most tan-
+gled and complex implications of The Stack as geopolitical design challenges to be
+achieved or resisted. Among these is the proliferation of enclaves as a political and
+architectural expression of network geographies. As each layer is considered in relation
+to its accidents, The Stack itself is the composite accident that may define the course
+72                                                    Platform and Stack, Model and Machine
+
+
+
+of geopolitics to come. As a global platform, its demand for universality and totality
+should be read in both utopian and dystopian registers equally. The Stack may repre-
+sent an epochal enclosure of the planet under an absolutist regime of algorithmic capi-
+tal, or the fragility of its totality may force new breaks as its infrastructural universality
+spawns new, even emancipatory programs of disenchantment, discovery, and design.
+The design brief begins on the cliff’s edge of the Anthropocene, and tilts toward an
+acceleration into risk and reward; it presumes that the megainfrastructures of “actually
+existing” algorithmic capitalism are not, as of now, able to break clear of their own
+failures and realize a break for and toward the latent potential of a postscarcity geoeco-
+nomics. That acceleration is not therefore an acceleration of The Stack or away from its
+risks, but toward a particular termination and succession, and toward the articulation
+and realization of a more genuinely luxurious social geology. We are resigned that the
+emergence of that planetary condition, wherever and whenever, will likely not include
+or require human geopolitics as we currently understand it. As such, we commit to
+the ongoing design of the accidental megastructure knowing full well that its ultimate
+purpose may be to disappear before it fully arrives.
+

@@ -1,0 +1,294 @@
+SF Capital -- Mark Fisher                                                                                                                                                 11/18/20, 12:03 PM
+
+
+
+
+   archive.is               Saved from https://web.archive.org/web/20071022060537/http://www.cinestatic.com/trans-mat/Fisher/sfcapital.htm
+                                                                                                                                    search
+                                                                                                        no other snapshots from this url
+                                                                                                                                                                   15 Jan 2017 16:45:06 UTC
+    webpage capture
+                                Original http://www.cinestatic.com/trans-mat/Fisher/sfcapital.htm                                                                  22 Oct 2007 06:05:37 UTC
+                                                                                                        no other snapshots from this url
+                            All snapshots from host archive.org
+                                          from host www.cinestatic.com
+     Webpage      Screenshot                                                                               share     download .zip         report error or abuse
+
+
+
+                             <<TRANSMATHOME
+                                                                                                                                       k-punk unhome
+
+                             SF CAPITAL Mark Fisher (2001)                                                                                               kontakt
+
+                                        Do you really think SF Capital allows monkey flake to make decisions it classifies as
+                                                                                                                  important?
+                                                                                                    Ccru, Swarmmachines
+
+                                                               Markets, desire and science fiction are all part of the infrastructure
+                                                                                                           Nick Land, 'Cybergothic'
+
+                                                                                              Now I feel I've been in space twice
+                                                         Alexi Leonov, the first person to walk in outer space, after seeing 2001
+
+                                       After American Graffiti, George [Lucas] had wanted to do Apocalypse Now. George ...
+                                      had worked on the script ... back in 1969.Then, when Warner Brothers backed out, the
+                                           project was abandoned. It was still too hot a topic, the war was still on... and it just
+                                    wasn't going to happen. So George considered his options [and] he decided, 'All right, if
+                                    it's politically too hot as a contemporary subject, I'II put the essence of the story in outer
+                                              space and make it in a galaxy long ago and far, far away'. Star Wars is George's
+                                                transubstantiated version of Apocalypse Now. The rebel group were the North
+                                                                                     Vietnamese, and the Empire was the US
+                                                                                      Walter Murch, editor of Apocalypse Now
+
+                             There's clearly no better time than now to reflect on the degree to which Kubrick's 2001: A Space
+                             Odyssey anticipated the future. How far does the world of 2001 resemble the world of 2001?
+
+                             An intriguing essay by Mark Crispin Miller published in Sight and Sound in 1994, suggests that we
+                             do live in 2001's world, but not in the way that those watching the film when it was released in
+                             1968 might have imagined. It was not 2001's simulation of the experience of outer space, Miller
+                             argues, that made the film prescient; no, it was Kubrick's vision of commodification and control that
+                             was his most important apprehension of the (then) future. For Miller, Dr Floyd, the US scientist
+                             charged with investigating the anomalous 'monolith', belongs to a totally commodified, totally
+                             controlled environment, an environment that, in 1968, was still a distant enough prospect to
+                             provoke horror in the film's viewers. According to Miller,
+
+                                   The world of Dr Floyd (like the new dorm mall or hospital) is a world absolutely
+                                   managed - the force controlling it discreetly advertised by the US flag with which the
+                                   scientist often shares the frame throughout his 'excel lent speech' at Clavius [the US
+                                   moonbase], and also by the corporate logos -'Hilton', 'Howard Johns 'Bell'- that appear
+                                   throughout the space station.
+
+                             Those who experienced 2001 back in the 1960s might feel, now, that they have experienced late
+                             capitalism twice, the first time as a film, the second as a banalized everyday reality. But what was
+                             once satiric prophecy is now blank realism, devoid of any 'ulterior motives', devoid, in many
+                             important respects, of any interest. "2001 could not [now] exert its original satiric impact because
+                             the mediated 'future' it envisions is now 'our' present, and therefore unremarkable. Whereas
+                             audiences back then would often giggle (uneasily, perhaps) at the sight of say, Howard Johnson up
+                             there in the heavens, Miller writes,
+
+                                   today's viewers would fail to see the joke, or any problem, now that the corporate logo
+                                   appears en masse not just wherever films might show, but also in the films themselves,
+                                   whose atmosphere nowadays is peculiarly hospitable to the costly ensign of the big
+                                   brand name. We might discern the all-important difference between what was and what
+                                   now is by comparing Kubrick's sardonic use of 'Bell' and 'Hilton' with the many outright
+                                   corporate plugs crammed frankly into MGM's appalling 'sequel' 2010, released in
+                                   1983.... '2010 is a case of how product placement in the movies are becoming a
+                                   springboard for joint promotions used to market films,' exulted Advertising Age before
+                                   the film's release, noting the elaborate plugs for Pan-Am, Sheraton Hotels, Apple
+                                   Computer, Anheuser-Busch and Omni magazine.
+file:///Volumes/Biggie/Research%20Development%20and%20Crit%20PDFs/SF%20Capital%20--%20Mark%20Fisher.webarchive                                                                   Page 1 of 5
+SF Capital -- Mark Fisher                                                                                                              11/18/20, 12:03 PM
+
+
+                                 Computer, Anheuser-Busch and Omni magazine.
+
+                            The shift Miller identifies between how audiences responded to 2001 in 1968 and how we would
+                            expect them to react 'now' - is a near-perfect illustration of Frederic Jameson's theses about
+                            consumer culture and multinational capitalism. For Jameson, famously, the culture of consumer (or
+                            'late') capitalism makes 'satire' impossible, because satire depends upon the possibility of a -
+                            transcendent and critical - space between cultural objects and what they 'represent', a possibility
+                            that no longer exists. The critical possibilities supposedly available to the modernist creator-author
+                            have collapsed in a postmodernist 'total environment' where the illusion of a separate aesthetic
+                            and political realm beyond capital is no longer persuasive: a film, we now happily accept, is just as
+                            much a commodity as is Coca Cola. So although 2001 is 'about' the "new and historically original
+                            penetration and colonisation of Nature and the Unconscious" that Jameson thinks is characteristic
+                            of the culture of 'multinational capitalism', Kubrick's film now seems oddly dated, precisely because
+                            it imagines that commodification can be resisted, rather than merely exemplified. And the banality
+                            of commodfication retrospectively swallows up the film and its creator, too. While Kubrick no doubt
+                            remained, up to his death, the very image of the modernist creator, the name 'Stanley Kubrick' is
+                            now a brand name, a commodity, whose connotations - even when they include a certain disdain
+                            for 'the market' are highly marketable.
+
+                            Star Wars is metonymically implicated in late capitalism in a way that 2001 never quite could be.
+                            What was bought and sold when audiences consumed Star Wars was not in any sense a single
+                            (aesthetic) object, but a world, a hype[r]verse. It is, of course, possible to retrospectively transform
+                            a single commodity into a series of objects-for-sale, and there are numerous, now very familiar,
+                            techniques and strategies that have been employed to this end: the transposition into new
+                            technical formats (tellingly referred to as'remastering', of course); the translation into different
+                            media (witness Marvel's Jack Kirby's 2001 comic for instance); the proliferation of sequels and
+                            prequels (such as the 2010 Miller so reviles). But there's a difference, in kind, between the way in
+                            which 2001 has been retro-commodified and what happened - is happening - with Star Wars. Star
+                            Wars was designed as a hyper-commodity; not so much a film as a fictional system - a plane of
+                            consistency that could be populated with any number of commodities. The switch is from a system
+                            of objects to a hype-system, where what is sold is abstract, fictional - but very real.
+
+                            From the POV of 2001, the marketing of the satellite commodities - especially the toys-around the
+                            original Star Wars film appears almost quaintly naive.The then small company, Kenner, purchased
+                            the rights for the Star Wars action figures in late 1976, a few months ahead of the film's theatre
+                            release in summer 1977. Unanticipated, unprecedented demand was allowed to outstrip supply.
+                            According to Lenny Lee in 'Star Wars 1977-79' published in Action Figures and Toy Review
+                            "beleaguered parents scoured the countryside for Star Wars toys [but] they only found puzzles and
+                            other paper products." Nevertheless, the eventual emergence of Kenner's range of action figures
+                            in Christmas 1977 'sucked a generation of hapless children into the Star Wars 'hype-vortex'
+                            forever.' [6]
+
+                            Hype-vorticism has been through a whole series of thresholds since.The simultaneous emergence
+                            of the Transformers toys and TV series in 1984 was one enormously significant moment: the toys
+                            were designed as 'characters' in a 'narrative', in part developed by Marvel, who also published a
+                            Transformers comic book series. What began to disappear here was the sense of an original or
+                            primary entertainment 'text', surrounded or 'supported' by secondary commodities, a
+                            disappearance that has been achieved almost completely now. Remember that moment in
+                            Jurassic Park when you realise that the logo of the theme park in the film is exactly the same logo
+                            on the Jurassic Park merchandise you can buy outside the cinema? And, with Disney's Toy Story,
+                            the loop between advertising, fiction and commodity achieved an unprecedented tightness: here
+                            was a film about toys/commodities, some of which were already-established brands, some of
+                            which were established precisely by the film (Buzz Lightyear, Woody) all of which were able to
+                            commingle on a single plane of (digital) reality.
+
+                            To map SF capital adequately you have to pit the humanist Marx against Marx the remorseless
+                            abstract cartographer of abstract hypercapital.The human-all-too-humanist Marx believed that
+                            capital was a fiction that could be cashed out as real value (=labour time).This implied that capital
+                            is primordially payment capital (money=time), and that finance capital is capital (only) in its
+                            alienated form.The problem is that since, on even the humanist Marx's own logic, capital is
+                            essentially alienated (i.e. capital is the discrepancy between 'itself' and human labour-time), it must
+                            be the case that the 'purest' form of capital is also capital in its most fleeting, virtual and abstract
+                            modes.
+
+                            Insofar as Marx remained a humanist, he posited a transcendent use value that was distorted and
+                            masked by the ruses of capital. But use value - like all values - is no less fictional than capital.
+                            What is at issue is the temporal orientation of the fiction.The concept of use value is a
+                            retrospeculative fiction, both gesturing towards a 'future' that will never arrive (a time of judgement,
+                            when capital will be cashed out as labour-time) while also invoking a spectral 'past' that never
+
+file:///Volumes/Biggie/Research%20Development%20and%20Crit%20PDFs/SF%20Capital%20--%20Mark%20Fisher.webarchive                                Page 2 of 5
+SF Capital -- Mark Fisher                                                                                                               11/18/20, 12:03 PM
+
+                            when capital will be cashed out as labour-time) while also invoking a spectral 'past' that never
+                            happened (a time when needs and desires, culture and nature, could be securely delimited).
+                            Capital's apparent orientation towards the future, meanwhile, is 'speculative' only in the sense that
+                            it is immediately efficient. Examples of this latter process are now so commonplace they need
+                            hardly be enumerated: at the most simple level, borrowing money enables the capitalist to buy
+                            what used to be called the means of production, and - at the more vertiginously abstract end of the
+                            scale - the existence of a 'futures' market makes it abundantly clear that time itself is now for sale
+                            as a commodity.
+
+                            The priests of use value posit a transcendent or originary human essence which has been
+                            corrupted and must be restored. Yet the index of 'the human' does not precede capital. Capital, on
+                            the contrary, is thoroughly 'humanist' in that its emergence is contingent upon a displacement of
+                            what the social field counts as transcendent from the divine onto the human. Where the primitive
+                            socius and the despotic state posit the transcendent as extra-terrestrial and nonhuman, capitalism
+                            -the "cultural eradication of the sacred"- relocates the transcendent in the (sim)person of Oedipus.
+
+                            If you imagine for even a moment that positing capitalism as "the exterior limit of all societies" as
+                            Gilles Deleuze and Felix Guattari claimed in Anti-Oedipus is fanciful, think about the interdictions
+                            on interest and usury in Islamic and pre-modern Catholic States. Such strictures only make sense
+                            as measures designed to pre-emptively ward off capital, suggesting that capitalism is indeed the
+                            'negative' of all existing social formations, their virtual limit, in effect throughout History as the
+                            Thing which is most abominated -the Unnamable, the Worst Thing in the World - around whose
+                            repression the social as such is constructed. Capitalism is emphatically not a social or a political
+                            system in the way that previous social formations were. Rather, the fact that it is guided by only
+                            one basic meta-economic maxim - everything can be sold - and one cultural-political interdiction -
+                            keep schizophrenia at bay, at all costs - means that that the variety of social and political
+                            formations that it can sleaze into and use and abandon in a manner akin to John Carpenter's The
+                            Thing, is in principle infinite.
+
+                            What is it that theocracies fear about interest? Fundamentally, the operating systems of despotic
+                            state formations understand that the folding of time into money, money into time, produces a
+                            schizophrenic vortex into which all (social) certainty will inevitably be sucked. For capital, as we
+                            know, is not cash. As Deleuze clarifies,
+
+                                 Money plays two different roles, as structure of financing, as a quantity that I called
+                                 power of x, and as means of payment as quantity of power of y. It is not the same
+                                 money that is cash and that is capital. All the economists know this, for the great
+                                 economic question since the crash has been: how is one to build capital with only a
+                                 little cash, or at the limit, without cash at all.
+
+                            Buy a car and watch it rust.
+
+                            Cash is depotentiated capital: an enterprise cannot realise its capital, only a'private' individual can,
+                            but this is effectively a translation from one kind of currency (fluid finance capital) to another
+                            (purchasing capital). In the process of translation, money is severed from time-reference, whereas,
+                            in capital proper, time and money implex into each other. You can buy time, and in that time you
+                            can accumulate more capital, with which you can buy more time, in which...
+
+                            It's important to note that, in the humanist-Marxist-socialist-workerist model, the process of cashing
+                            out capital into labour also, supposedly, dispenses with fiction. At the moment when labour-time
+                            reasserts its rights, the fictional will be unmasked, its power dissipated. Yet, as Jameson rightly
+                            insists, we are amidst "the emergence of a new realm of image reality that is both fictional ... and
+                            factual."
+
+                            In place of Sartre's existentially-tormented man, or Foucault's disciplined subject, we are presented
+                            now with what Burroughs and Deleuze identify as the agent/victim of Control. As Miller recognises,
+                            Kubrick's Dr Floyd is just such a 'control addict', whose "impulse to retreat from nature, to lead a
+                            'life' of perfect safety, regularity and order in some exalted high-tech cell, and to stay forever on the
+                            job, solacing oneself from time to time with mere images of some beloved other, is ... the
+                            fundamental psychic cause of advertising." Baudrillard recognised that advertising had long since
+                            ceased to be about simply selling objects. "If, at a given point, the commodity was its own publicity
+                            (there was no other) today publicity has become its own commodity." Since it "envelops us from
+                            every side" advertising "at the same time eliminates the hotly controversial problem of 'belief".
+                            Advertising, "destroyer of intensities, accelerator of inertia", expands to insinuate itself into every
+                            area of the social field, and in this very exorbitance, abolishes itself, becomes something else.
+
+                            In the age of "mlicroprocessing, digitiality, cybernetic languages" Baudrillard argues, advertising -
+                            "still imaginary and spectacular" - has already been surpassed. Anticipating Cronenberg's
+                            Videodrome, Baudrillard invokes Philip K. Dick's "papula -that transistorized advertising implant, a
+                            Sort of broadcasting leech" as a "prefiguration of the psychotropic and processing networks of the
+
+file:///Volumes/Biggie/Research%20Development%20and%20Crit%20PDFs/SF%20Capital%20--%20Mark%20Fisher.webarchive                                 Page 3 of 5
+SF Capital -- Mark Fisher                                                                                                               11/18/20, 12:03 PM
+
+                            Sort of broadcasting leech" as a "prefiguration of the psychotropic and processing networks of the
+                            automatic piloting of individuals next to which the 'conditioning' by advertising looks like a delightful
+                            change in fortune." But even Dick's neuronically-integrated advertising polyp is too locked into a
+                            superseded moment of capital where advertising, product and consumption can still be thought of
+                            as separate.
+
+                            What Baudrillard was already alive to back in the 70s was the difference - then scarcely
+                            understood, now all-too familiar - between advertising (which sells Commodities) and branding
+                            (which hypes hyper-commodities). In the hype-commodity regime, the moment of consumption is
+                            no longer isolatable as such, since commodification is so diffuse that it insinuates itself into every
+                            area of 'everyday life'. In the e-conomy, as we are well aware, 'attention' is both a form of
+                            consumption and itself a commodity which can be sold. The hyper-commodity is not an object, but
+                            an intricate, microsensitive, semiotic web, inducing participation and 'involvement.' Baudrillard
+                            again, "It is not by chance that advertising, after having, for a long time, carried an implicit
+                            ultimatum of an economic kind, fundamentally saying and repeating incessantly 'I buy, I consume, I
+                            take pleasure,' today repeats in other forms,'I vote, I participate, l am present, 'I am concerned'."
+
+                            Accordingly there no longer a ruling class but a Control or Management class which itself first of all
+                            Controlled and Managed, not by transcendent laws, but by immanent circuits, in which 'everyone'
+                            'participates', but for whom 'no-one' is responsible, and whose products 'no-one' wants.
+
+                            It's of course no accident that the current power elite (Spielberg, Lucas, Gates, Blair) belonged to
+                            the so-called counterculture of the 1960s. Capital, needless to say, is indifferent to individual
+                            human motivation, but happy slaves are better slaves, and the reprogramming of the way the
+                            master class thinks (about itself, about workers, about capital) has been crucial to the presentation
+                            of the multi-nationalised capital's current dominion as immutable fact. And George Lucas'
+                            'transubstantiation' of Apocalypse Now into Star Wars is emblematic of the shifts in late capitalism
+                            since the 60s. The smooth transition from hippy to hyper-capitalist, from slacker hedonism to
+                            authoritarianism, from engagement to entertainment, retrospectively reveals what the punks knew
+                            so we when they cackled 'never trust a hippie'. Far from posing any threat to capitalism, the dope-
+                            smoking, soap-dodging rockers of the 60s were acting as capitalism's reserve army of exploiters,
+                            whose time spent at festivals and on the experimental avant-garde fringe did little or nothing to
+                            engineer lines of collective escape, but yielded instead resources for the new forms of
+                            enslavement that loom everywhere around us now. Exactly those likely to have 'approved' of
+                            Kubrick's critique of corporate-controlled environments in 1968 are now administering their own
+                            'total control' systems, all the more sinister for their shirtsleeves 'informality', all the more
+                            enveloping because the bosses wire themselves into the circuit, flaunting their own self-
+                            exploitation as both inevitable and exemplary. As Deleuze and Guattari had it in Anti-Oedipus,
+                            "The bourgeois sets the example, he absorbs surplus value for ends that ... have nothing to do
+                            with his own enjoyment: more utterly enslaved than the lowest of slaves, he is the first servant of
+                            the ravenous machine, the beast of the reproduction of capital. 'I too am a slave'- these are the
+                            new words spoken by the master."
+
+                            For a chilling image of how SF Capital induces auto-zombification in the master class, you only
+                            have to look at the face of our glorious leader: that ashen carnival mask, its grim, cheerless Joker-
+                            grin flashing with ritual efficiency, its blank eyes illuminated by empty evangelism, darkened by
+                            perpetual irritation - the PM's being run by Videodrome… and no-one owns Death TV.
+
+
+
+
+file:///Volumes/Biggie/Research%20Development%20and%20Crit%20PDFs/SF%20Capital%20--%20Mark%20Fisher.webarchive                                 Page 4 of 5
+SF Capital -- Mark Fisher                                                                                        11/18/20, 12:03 PM
+
+
+
+
+                            <<TRANSMATHOME
+
+
+
+
+file:///Volumes/Biggie/Research%20Development%20and%20Crit%20PDFs/SF%20Capital%20--%20Mark%20Fisher.webarchive          Page 5 of 5
+

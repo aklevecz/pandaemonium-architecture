@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ln:*)",
+      "Bash(npm run:*)",
+      "Bash(npx vite:*)",
+      "Bash(npm install:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx wrangler:*)",
+      "Bash(chmod +x /Users/arielklevecz/pandaemonium-architecture/scripts/upload-pdfs.sh)",
+      "Bash(bash scripts/upload-pdfs.sh)",
+      "Bash(grep -r \"text-\\\\|bg-\\\\|border-\\\\|divide-\" /Users/arielklevecz/pandaemonium-architecture/src/routes/*.svelte)",
+      "Bash(ls /Users/arielklevecz/pandaemonium-architecture/PDFs/*.pdf)",
+      "Bash(ls /Users/arielklevecz/pandaemonium-architecture/markdown/*.md)",
+      "Bash(node:*)",
+      "Bash(git init:*)",
+      "Bash(git -C /Users/arielklevecz/pandaemonium-architecture status -s)",
+      "Bash(git -C /Users/arielklevecz/pandaemonium-architecture add -A)"
+    ]
+  }
+}

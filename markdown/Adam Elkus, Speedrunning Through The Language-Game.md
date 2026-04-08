@@ -1,0 +1,287 @@
+Speedrunning Through The
+Language-Game
+  “Oh I was just PostShitting for laughs” EXactly. And that is why U forever
+  languish in obscurity while i engage brands U could only dream of
+
+       dril
+
+Picture this. You are scrolling through your feed one day and you suddenly
+see something so bizarre, abhorrent, and astonishing that you have a hard
+time believing it is real. How could anyone possibly believe this? And yet
+they not only do, but they are shoving it in your face. Everyone has had this
+moment at some point in time. An easy way to dismiss it is to say that the
+belief is marginal, fringe, too minor to be taken seriously. But what if the
+person voicing it is an important, well-credentialed figure, given a platform
+in a mainstream and respectable venue? And what if the vocal fringe – even
+if small in numbers – is nonetheless successful at getting their messages
+amplified and saturating us with it? It’s common to see people lately
+compare trolling to Sarte’s description of ironic anti-Semitism masking real
+anti-Semitism.
+
+  Never believe that anti-Semites are completely unaware of the absurdity
+  of their replies. They know that their remarks are frivolous, open to
+  challenge. But they are amusing themselves, for it is their adversary who
+  is obliged to use words responsibly, since he believes in words. The anti-
+  Semites have the right to play.
+
+  They even like to play with discourse for, by giving ridiculous reasons,
+  they discredit the seriousness of their interlocutors. They delight in
+  acting in bad faith, since they seek not to persuade by sound argument
+  but to intimidate and disconcert. If you press them too closely, they will
+  abruptly fall silent, loftily indicating by some phrase that the time for
+  argument is past.
+
+The problem with this quote is that it actually describes a lot of Discourse
+(TM) in 2019 quite well. It isn’t just limited to anti-Semites. Nor is it
+something encountered solely on social media. It’s a daily, omnipresent
+presence in newspapers, television, and books. It is true of both people on
+the fringes as well as people that think of themselves as having mainstream
+political preferences. Make an outrageous and frivolous statement (or
+amplify one), and then turn the tables on the people who react to it. Point it
+out and you may encounter outright denial or convoluted hand-waving.
+Inevitably, the person in the weakest position is he or she that “believes in
+words.” It is common for people to say insane things simply for attention (its
+just clickbait!), or justify them by referring to layers of meta-positioning that
+renders ambiguous what they actually believe (it’s signaling, its opening the
+Overton Window, etc). That is, assuming that “belief” is a meaningful
+category at all in an era of advertising and PR. And often it is less sinister
+than merely bizarre and absurd.
+
+The other day I saw someone that I know to have quite milquetoast politics
+and a staid administrative job boost a meme endorsing revolutionary
+political violence. I do not believe they are in any way capable of acting out
+such violence offline, nor do they even passively support people that might
+be capable of it. But nonetheless they still boost something – without any
+caveat or irony – that suggests something disturbing and strange about
+them in light of what I know them to be. And whenever something like that
+happens, I’m forced to ask myself the following:
+
+    Does this person actually believe this?
+
+    Are they just participating in a performative collective ritual?
+
+    If I questioned them, would they even recognize what they just did?
+
+These sorts of performances play well on the Internet or in offline settings
+in which no one asks these kinds of questions. When regular people
+suddenly ask others to explain the performances they are far less
+accommodating to subcultural niches and their particular rhetorical tropes.
+And they attempt to force a clear “yes/no” response from people that prefer
+the freedom to keep those foolish enough to “believe in words” playing
+catchup. So what gives? Is Sarte correct? Sarte was certainly correct about
+the people he was literally writing about. I am not sure he is correct if you
+take his words and generalize them to the trolls and mischief-makers we
+see today. Nonetheless his explanation is superficially appealing because
+people do not have many alternative means of understanding our current
+situation. When you ask yourself how seemingly normal people can
+legitimate insane beliefs and repulsive symbols, consider that this is actually
+an activity that most of us inevitably perform a lot of the time without
+realizing it. It arises from a tension between conflicting desires: our need to
+see ourselves a certain way and our need to respect the practicalities of the
+environment we are situated in. It is, at least mildly, normative and natural.
+All of us end up engaging in mild versions of this habit of playing idle and
+silly games.
+
+We perform identities and alter them depending on social context,
+especially when some of these identities cannot be practically realized
+without incurring known or hypothetical consequences. Furthermore, a
+capacity for play and make-believe is essential to the development of mind
+and sociality in many animal species, to say nothing of the cultural role of
+“play” in human civilization. One of the core aspects of play is the
+balancing, again, of a particular self-image with its impracticality in the
+world we inhabit. This has varied manifestations, some of which are obvious
+and others not so much. A meek office worker can become, via the magic
+of PC games, a buff space marine (Doom) or a trash-talking bad-ass (Duke
+Nukem). Some of the messages these games give you when you quit
+teases you about the possibility that you may be playing them at work,
+fantasizing about kicking ass while you file the TPS reports. We commonly
+think of this when we imagine play. A power fantasy. Walter Mitty. Playing a
+game for the power trip might involve a private self-image of oneself as
+capable of extreme words and deeds that public life offers no opportunity to
+live out. But just because we play a computer game does not mean that we
+will act out our fantasies in public. This runs against the enduring
+misconception that video games have a strong causal link with real-world
+violence. However, it is also possible to diagnose circumstances in which
+particularly grotesque forms of play and make-believe seem to be socially
+omnipresent, and their omnipresence has significantly negative
+consequences.
+
+People in the Soviet Union developed elaborate coping mechanisms that
+mitigated the problem of official ideology that was too insane and illogical to
+be taken seriously but had to be at least nominally respected in order to
+participate in society. They would publicly endorse the ideology but
+privately maintain a distance, telling themselves that they were too
+sophisticated to believe it. Thus, official ideology could endure despite
+everyone “knowing” it was rubbish because – cynically – people could carve
+out a private distance for themselves while publicly participating in it. This is
+actually the reverse of the PC game scenario. The PC game scenario is
+about, as noted earlier, living out a private fantasy that cannot be publicly
+realized due to its privileging of extreme words (“hail to the king baby”) and
+deeds (chainsawing cacodemons). So what about having to – for the
+purpose of practically participating in public life – endorsing extreme words
+and deeds while privately reassuring oneself of savvinness and
+reasonableness? Similarly, Soviets would at first deny that the regime had
+committed crimes and then – after it was exposed – say “of course the
+crimes were committed.” Sometimes they would say both simultaneously:
+“there were no crimes but if there were they are justified.” To live in such an
+environment, as Xavier Marquez explained, means forgoing any kind of
+pragmatic consistency. Emotions should be ideally aligned with beliefs and
+actions, because if they do not we risk dissonance and strain. But this is
+very difficult if not impossible to do in a totalitarian political environment like
+the USSR.
+Curiously, though the USSR in the past and North Korea today are extreme
+examples of the costs of pragmatic inconsistency many of these same
+psycho-social problems can be observed in democratic states as well.
+Hannah Arendt described, in a little-read section of her book The Origins of
+Totalitarianism, how it was characteristic of almost all political factions in
+Weimar Germany prior to the rise of the Nazis. Mainstream figures made
+pious public proclamations of values they privately held in contempt.
+Subcultures and fringes valorized vulgarity and gangsterism – albeit for
+various reasons. Some saw it as the “true” face of the system beneath the
+facade of legitimacy. Others agreed with this and added that the facade
+ought to be totally stripped away as a normative good. At the end of that
+particular section, Arendt describes the ominous debut of a Bertolt Brecht
+satire of liberal capitalist society as gangsterism. Brecht was shocked when
+the audience applauded, and even more dismayed by intellectual reactions
+to it. Liberals took it non-ironically as proof that the public endorsed their
+“private” positions. Leftists saw it as proof that the public agreed revolution
+was nigh. Fascists – perhaps correctly – declared that the public really
+wanted a vulgar and unapologetic gangster. Brecht was horrified because
+everyone saw what they wanted to see and no one actually bothered to
+think through the message of the satire. No wonder that Arendt concludes
+that the public lost any real trust that anything anyone said could be taken
+at face value, especially when that trust was badly needed to halt a slide
+into outright barbarism and savagery.
+
+I am struck throughout this chapter by the observation of how rare any
+sincere and honest articulations of views were and how common duplicity,
+bad faith, language-game playing, and meta-positioning were. The
+intellectuals she describes sound like children playing idle and silly games
+and then suddenly realizing – far too late – that the game was all too real.
+Nonetheless, I still disagree with the fashionable citation of Sarte about new
+and old forms of trolling. It misdiagnoses the problem. The mainstream
+intellectual today fears a world where “nothing is real and everything is
+possible” and overwhelming propagandistic noise destroys any hint of
+consensus reality. Trolling, ironic nihilism, truth decay, etc are supposedly
+exemplars of this threat. But the picture Brett Fujioka paints in his recent
+profile of Japan’s “cynical romantics” is very distinct from this particular
+looming nightmare.
+
+  The deep cynicism of the Japanese media audience was developed…by
+  the country’s television culture in the 1980s. The Japanese comedic
+  variety, talk, and game shows of that decade operated in a kind of closed
+  off but connected world that required special insider knowledge for
+  audiences to understand their self-referential jokes and snarky
+  exchanges. Over time, a cynical sense of being in on the joke acquired a
+  harder edge among media consumers who turned against the media
+  establishment that had shaped their outlook. ..Online communities like
+  Ayashii World and Amezou, precursors to 2Chan, sprung up on the
+  Japanese web, forming an alternate media ecosystem in which
+  established press and entertainment became mere fodder for the real
+  event—ironic repurposing and insider snark….The early netizen’s
+  insistence that they only wanted to laugh at everything and didn’t really
+  believe in anything betrayed a powerful desire for empathy and social
+  connection. In the absence of real human bonds, the media provided
+  them with the content for communal discourse and the subjects for
+  emotional experience.
+
+So when netizens adopted political causes, they did so often because the
+pose of standing for something was more important than the actuality. It
+gave them a sense of community and power. Ironically, plugging into the net
+gave them freedom instead of being trapped in the Matrix. The simplest
+explanation for why many of them, for example, passionately boosted a far-
+right anti-Korean nationalistic comic is that they were intoxicated by the
+power of making Internet things happen in the “real” world. The
+“mischievous pleasure” of these actions – as well as the process of self-
+documenting them and consuming the self-documentations – was largely
+about playing a role rather than serious commitment to the right. This, to
+borrow from a popular meme, is the ideal (post)modern self. You may not
+like it, but this is what peak performance looks like. And a dystopia full of
+such selves is very different than what most people fear about trolling’s
+social effects. I don’t really see any of our current woes as necessarily
+validating the way in which the Sarte quote is often used in political
+arguments today. Playing silly and idle games can legitimize extremism or
+make us lose contact with reality. These are risks. But there are not
+inevitabilities. We must acknowledge that the vast majority of information
+we produce and consume is junk and will be forgotten tomorrow, and this
+includes trolling of various sorts.
+
+More importantly we need to acknowledge the implicit premises of the way
+in which people cite Sarte on trolling and anti-Semitism and why those
+premises may be less and less relevant today. One of the assumptions
+embedded in the way that the Sarte quote is deployed in contemporary
+arguments about trolling is that people should mean what they say, that
+people should believe in words, that it is irresponsible to play language-
+games and so forth. In other words, that they should be constrained and
+limited by some form of pragmatic consistency. You may or may not
+normatively agree with this. But what about descriptively? As Walt Whitman
+lyrically wrote, human beings contradict themselves and contain multitudes.
+Less romantically, it is the job of the human mind to smooth out these
+contradictions and impose retroactive consistency. But being troubled by
+contradictions is ultimately a constraint, and all constraints in theory can be
+obviated with enough time, effort, and resources. A self that has to see
+itself as a unified whole – that needs at least the fiction of a private,
+consistent, persistent, and immutable inner “me” – has to deal with such
+constraints. But what if these constraints can be lifted? Unsurprisingly
+science fiction has depicted these concerns in a provocative and
+memorable manner, because science fiction to some extent is not a
+prediction of the future as much as it is a distorted reflection of the present.
+Science fiction prescience is more descriptive than predictive, even though
+descriptions ultimately are more robust if they generate valid predictions.
+In the 1995 anime Ghost in the Shell, the sentient artificial intelligence
+Project 2501 tells Motoko Kusanagi that “[a]ll things change in a dynamic
+environment. Your effort to remain what you are is what limits you.” In the
+context of the anime, Project 2501 is attempting to convince Motoko to
+abandon her own individuality and merge with the AI. And given that
+Motoko is already heavily cyberized, her humanity is already open to
+question to begin with. In another influential anime produced in the 1990s –
+Serial Experiments Lain – alienated hacker Lain Iwakura discovers that she
+herself is merely the manifestation of people’s collective unconsciousness
+within an ubiquitous planet-spanning communications network. There is a
+different Lain in the mind of everyone that thinks about her, and people
+forgetting about her is in its own way a kind of death. So perhaps while this
+fully liberated self refuses to be bound by external reality, the heavy price to
+be paid is that it vanishes if it cannot maintain itself in the minds of others.
+As film critic Susan Napier observed, 1990s science fiction animes – in
+making identity theoretically limitless while also depicting a collapse of
+reality – cast doubt as to whether human subjectivity can exist outside of an
+increasingly machine-like environment. When the machine stops, so do we.
+
+This leads me to see the kind of omni-troll that looms large in today’s
+discourse as perhaps just a vanishing mediator that will go away after we
+have completed a transition to a different kind of cultural system. Perhaps
+the personality most optimized for success in the emerging environment is
+really someone that is unbound by consistency of any sort, because
+maintaining the fiction of a coherent unified self is just too hard in an era
+when everything is just streams of data. It is also obviously worth noting
+that such a personality does not have to be recognizably human, in large
+part because it thrives within network environments that are increasingly
+automated and saturated with mechanically reproducible media. Because
+such a personality does not recognize itself as an independently existing
+agent within the world, it has no obligation to make anything it says or does
+consistent with external reality or take responsibility for its thoughts and
+behaviors. Its only limits come from the way in which its data streams can
+be retroactively correlated into patterns, but even this may be just another
+temporary constraint that could one day be overcome somehow.
+
+If such a personality eventually becomes dominant, there will be no one
+moment – akin to the infamous transformation of 2001: A Space Odyssey’s
+Dr. Dave Bowman into a star child – in which it theatrically transcends its
+own humanity and leaves the rest of us mere mortals behind. Nor is there to
+be (to reference another science fiction trope) a moment when humanity is
+collectively and irrevocably transformed into a new posthuman species. I
+think instead of the difficulty present-day historians have in interpreting the
+meaning of the infamous 1730 Great Cat Massacre in Paris. By carefully
+scrutinizing all of the relevant context (even if it is impossible to fully know
+what is relevant and irrelevant), historians can approximate the mentality of
+a people who are no longer available to interact with us. But there will
+always be uncertainty about how correct these approximations are,
+because any reconstructions of the past are crude and imperfect. One day
+all of us will recede into the past and will become unavailable to those
+attempting to reconstruct it. And what then? Perhaps people of the future
+have extreme difficulty appreciating our stubborn (but declining) normative
+perception of ourselves as finite, consistent, persistent, and unified
+individuals that – to reference Sarte again – “believed in words.” Such future
+people never knew a life in which they had to, and in any event are not
+capable of understanding what it means to do such a thing.
+
