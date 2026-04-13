@@ -8,8 +8,8 @@
 </script>
 
 {#if week}
-	<article class="mx-auto max-w-3xl px-6">
-		<div class="pt-10">
+	<article class="mx-auto max-w-3xl px-4 sm:px-6">
+		<div class="pt-8 sm:pt-10">
 			<a
 				href="/#syllabus"
 				class="text-xs text-muted transition-colors hover:text-white uppercase"
@@ -24,7 +24,7 @@
 				&ensp;/&ensp;
 				{week.date}
 			</p>
-			<h1 class="mt-3 font-serif text-4xl font-normal leading-tight text-bright sm:text-5xl">
+			<h1 class="mt-3 font-serif text-2xl font-normal leading-tight text-bright sm:text-4xl md:text-5xl">
 				{week.title}
 			</h1>
 
@@ -67,7 +67,7 @@
 								{reading.title}
 							</p>
 							<p
-								class="mt-1 text-xs text-rule transition-colors group-hover:text-muted"
+								class="mt-1 text-xs text-muted transition-colors group-hover:text-light"
 							>
 								Read &rarr;
 							</p>

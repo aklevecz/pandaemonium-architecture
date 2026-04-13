@@ -21,7 +21,7 @@
 				errorMsg = data.message || `Error ${res.status}`;
 				return;
 			}
-			goto('/');
+			window.location.href = '/';
 		} catch {
 			errorMsg = 'Something went wrong';
 		} finally {

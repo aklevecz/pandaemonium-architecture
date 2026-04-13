@@ -1,561 +1,73 @@
- EcMe8MFp
-
-                                      
-L$pbp 
-
-
-
-
-¦ı F4 2 ı 'ı ı B4[ı !"ı ı µSı -ı ?ı Îı ¨ı        'ı
-ğ­Øf5 6LTı       "ı t,Ġ)-ı ı %²³a ıĪı ı rı
-O īı]ı .ġPb ıå Oıı3ıL2&ęďĭYıcı ı c¾Ā %ı
- SBı bı Xı ®Ā <~Zı      ı   5ë #? I#Kı {9dĬı d
-  ı ıýđ6'%»ısÀM2&)5Į\ıDRı  H,~ îı øú)Ā1ı
-,&ı @ā ı u)$Xı ı 4ı þæı Rı /Ùı .Ģçı &ı
-P!ı-LÏı3ı7 %ı®WılCıIıı ùı5«Ďı ı 7
-ı D(ı#ı ïsı  ăģ2ðı 0ıÄĕÐ*ı ı)ÝıHEâı èĩı
-7 ı 8ü46t *ı &ı ÅıĂ4 'ıÇyı ı ¯ ÁÓı0ıĤzı a$XÑı
-úı jı *ı ~ ı Ã)$2 ı iı ÂĦ,é ı r Èı¡ĥ#ı¸ı
-H  TC[ı -:ı dı /B:ı 7  ı      ı M#TC3g@Ęı
-$3*ı  OQı d /ı < $<ı RûBı  Fá<l"ı -Nı
-±ñE#V ]ı
-   ¥ı6z ıFS"ıyıııºuı(¬Ėı#Qı ıgõ3ı%ı
-ı "kÔó}ı   ı ÖòĚÕĜı DVı (ıÚ6}5ı | ı |ı c,Eı Ā ı 
-5 NmfNı ı &êP'ı 8kħı {ı ėı 0ıéĀ ô&Òİ
--WVı ! !ı 7Ûı jıMı ' +/ı1 ı âĀ ØĀ% 1'ĐCı
-
-
-                                                                   
-£Ď¿Ď 2ĎP(Ď %  .ĎX Ď` Ďg4ù Ď?Ď ![> Ď " Ĉ
-93AGĎ m8«Ď &$Ď m sĎ 0ZÚĎ DĎaĎ #7 Ď ñnuV5Ď Ď
- -0ÔĎ ?Ď \AGf]Vö Ď Nç," Ď F3 òÉ!ÊĎ =ÍĀ L« Ď *$)(8Ď
-H_  Ď Ď U« -tX9Ď &%6Ď TĎ ^[S3M+ Ď aĎ ìĎ
-$BĎ Y Ď h5 Ä g>       zĎ « ýĎM&/«YaĎ K#'Ď 2ĎoËMĎ
-C&QĎ ¢     ú´BĎ -Ď ÍºÅç m\tKĎ ,ÅĎ :R Ď p Ì°ÙĎ  j
-"iĎ RĎ  Ď 7a* mVLª{ !Ð "½ÒĎ g&« v*asAS /Ď <%Ď
-                                    
-
-
-
-āíf#UĎZĀ Ď J@KhD             !pK#poĀW7DpÑĎĎĎÄW=ç'¼«aÄÍÇb
-mNç Ď PĎ \9+Ď Äç ÿdh( Ď VĎ ĀN ôuKĎ
-CKĀ×©Ā          Ā÷ĀÎĀXÏLµ6ĀôäĀ MkĎ
-     ©Ď>Ď LĎĎ@;Í~v5% CĎĎ ² =#ĎNç,Ď O{þ j
-}¤« q!Āó õĎ H'Ď > Ď Ď V« ÀºĎ µ Ď Ď 6N:;1ĉ
- !Ď e ĎĎ Ď h/Ď ÆV=ç>~nv«o8«& N !OyVKg6« ?« NB.ĎĎ
-ÈÜç £VÝ¹arUç  UĎ Â61G^ãĎ WĎ Ď ä85Ď $8j
->=Ď Ą     IĎ J Ď ¥¨/Ď ;M|Ď Æ?Ď AKée ­Ď ÛK9 Ď OdĎ
-' .ĎÅç Ď 9Ãû Ď EĎ  fĎ Ď+JX×÷ĎÜĆa3Ċ
-=;#ąĎ 7r`G Ď7o Ď         Ď *#Ď  OĎ WĎĎ Oh « l#:'iĎ
-Z Ď 1425(Ā aç @/« v{19!0« Ď Ď 'ĝ]Œ         "SHGp?J´'Ā ¤åċ
-§cb Ď     % =ăĎ CØ%:UĎ  LĎ p}« yë z2Ď w Ď eĎ :1W&«
-q8«g/}p!K0g!0« BĎgðê¯'Ď
-
-     0]Ď¹     "áĎ H%1FCĎ ]5Ď '.Ď F Ď )8-Ď Nç¤VÜºK(¼ç
-     ĎĎ«)4æZ ĎDĎ Ď !$chĎ @TĎ _pV5X}«&*ÄĎ
-     Ā ÇĎ 03ĀQĎ-«I!Ď DĎÄX=ç 21>8.Ď EĎLĎ ćČ
-     w/« g&« aÄ»ç }1Åa     Ď Ď SÝR` ¬ÕĎ <Ď Ď DĎĎ
-      LIĎcĎ¡¦QĎlĎ(PĎ m~W&«xĎÞd)4Ď 6TĎtĎÎ~Ď
-     â Ď bÏĎ JĎ îçĎ4Ď Á *2Ď EĎy+^-ÖqrĎ } Ď ¡K&0}«
-     xVK!«@i«Ď_¶ 5Ď0+'Ď "»Ď7aV/Ď<Ď@b Ď@0«
-     ¸ n Ď([=ø30ßĎ
-
-« çĀ ' A "), N ,ÈĎ ïü4$)Ď ,Ď  Ď N&}SĎ Ď
-                                
-
-
-
-} )ĎYĎ?|Kg>«Nç1g?K`« O76 J3o7| ±kĎm-(ič
-¾ÓOĎ . aĎ #?Ď s Ď ;·àèĎ :H$Ď  Ď `/« -«aI
-_@Ď 6Ď ?.« <v®Ď WĎ<Ď & w Ď /Ď PxFĎ ¼³ĂĎ gp+Ď
-
-
-    $%   ?Pua[2 'v<\Q
-Á¡Æ,~ë % :ë nTë 2àë_%.B$\o`go:g3^JFë JØLëę=Ƌ^`o j3©
-·º=jJ;Nºë a1×Më 6L;Jë  <KK#^2 % Ej¹>m¥{jJºë gDo kUë
-JFl<-~ë m1^j_ë b3¹ë a,-« ¦-§27|Jë ¬®¢_°J¿¹ë KÙLë jVë#G/«
-é<K^EKÂ*o[2G [o'go,ÃÆ2nLEëÂ`JëºÃ2ËÐºë Të,ÕÃ Ï¹ë
-*N "RzYKg6 « g+« 72g« Ā #H-« 6­ë Wë Rc*9[o ,9ÍÄë Å`Jë
-"(ëIƋ$I3« ,j»2ë§°P½½ëĀ =f<`)Q5+ o MÎ­3ë                  -ë
-¹Ãl~ë `-ºë ë !sg!Ksg2 «
-   g« Ç`jºë iS jo ,­Jë ¹Ãj}}ë |®2 ^% t« tl2Y/ « « ^'o
-@`®2ºc5'« Wë Ádnºë LÛë ßë®rF ë ¢BP"C« ko xĀ Áë ®L3næLë
-  ,vSë Õ¨ë Õ®ë ×J°áëmÇt    1;âëŭ=Ƌ      o D4« ë kEJ.ë l'Ko
-£-« 2°Jë BOo K(3« £A« Ā *F]2o éÏºë #Xë;Ð¯½L ëlo òĀ
-[Z«' Wo ¦J©}Jë_84os« KÖ­» ë ½å-¦¹S ë >J<Âj¹ ë
-M¸Û¯y¹ë Fl\J®JÄë Ãä¨L½ë Yë Mµåë ×J®äKo vÛ¼ë
-r« BdRP$CS b1go d TRº% %D« 3½ë           '->TZo °ë
-$-±wo½¹ë !,äëTëÓ½ëe.×Jëjk më g½ªkÂ2|½ë E/« ÑÁ«ÐÂë
-½>°Rë=Ƌ o"H^,LB8oFeV;,@#.B#o           />inJë(JëWëÕ¹ë
-uÞë#G«ÃE2áëjÃë Ā¥½½n8|J ë@g,z½ëÃëJÛë         'ë3Fë%*ë
-²J<`_jKº¾ë Èë K\Yio b'o Kg« % ½&Ā Që U 6o ÆnJêë
- gRmMBo ¨«Á`1Âë ¨¹å<`1,~ä½o½ë Ā7O].B#o/ªRbH!J% Go
-gYnNFofQ®¹ëÆ2~vë ­p_`Âë®ëÜ®^ë -9ÕÆë An¢« A3« KJ8morþ
-ZLDn×Jë-b !ToC«GK¦°OÀ½pënºëÆ`Jë >hL           n;4ëwlEë      Jë
-\Y« wÛë 26ÒÂë  « ·ë ))&ºëjo             _   mo [m~j-³ë
-Þn?`ë A3« Þ®E½ë " #%       % g'« kfudeSª
-y g&« ÛJë 3|~ë xÛë ,7ÕÄë ?`JëLÐµ¤2~ë °q^jë £YëÁ72;;ë
-®ë H®Õ_ë 0HEj>Ënë    o3IKko F« Âë nºë Ýë Äº n8~3« s« !ª
-!6 =^[¦« Â®-º§~,Áë « `1Fë 1Eë #J« Æ`2« 8±1të Cë ®J<º@jç
-¶ÔÂJëţƋ   )KY§«!D/c« | m>|ÐEJë]®Jj_ë =?X]o3«%ho
-D2}*«26ÓÁë  Va /Co *80bnoë ÃgLë¥1®ÂëYëB`Jë LµÚÕ¹ë½â¹è
-_@o Ãë ®J¬,l®ë 1Âë |L3½Áë v}T[Z¥ « ZOAo TëA`Më +b/« Q« ¹Ðºè
-Ìl½ë (o Û®Fë T\3;4Cp2[o ´ë ÐvÛë ÃëÖ¹ë
-   *dJë ¥®ë6ëJë Ā Å`-Âë ÛJë Fë Éë [o ?`Jë swë A« gN;3«
-]Y« A3 3« ¦fJJ-ë -Nºë 3Ië¹jÃÐ0Âlºë Ûfj>dë ,°Jë&Vo
-v}vm /<YY¥« j¹ÃJFë <§JÊL~ãë « ®1Eë ,Ië 2¥¥Q®ë |
-g.×JëF_J _ëĀ ;ëÛmÆ`ëJë2ÈgL­ë+cm½ë:*B4ouĀ
-
-
-                                               >LqZ1&r;ZM    $%      
-1 ÒÙŒ  Œ JŒ %VŒ Œ }3" %óëĀ WŒ ;Œ f>P ĖŒ 6{t
-< ŒXŒÓLC, ĈŒ@~u%I*-BùZ9Œ )Œ+B                6B&",%B
-!7B }TŒ Œ =B _`é*Œ Œ Œ mKU9p  Œ Hö«Œ UŒ Œ äY .N
- Œ FĨMOŒ  Œ -ŒŒ |ÿģŒ 1I$ê5¬Œ 1B!&s6Q
-          B  ÷Œ `f]c#f ~ }4% fAR     Œ yŒ7z1  5Œ
- :Œ [ 2[ g Œ Ú> 2#Œ Ā Œ  8¼ŒGĀĴBÎòĶnŒ À Œ Œ
-     1Œ JF( 7Œ S ľõLŒ 06 @MŒÛŒ~0" ÈĦ DŒ -Œ HjŒ
- *Œ /;1B 7DŒ :9B dFt~:8p        ,pG^dK\BķŒĒÜŒ# %         p
-I4e $% !%G^dK\Bĸ±Œ ŋĐÄĞKôËŒG^dK\BĹiŒ
-ħ4Œ āŒ ZŒ Œ ëŒ ŊŒ  FãŒ Tc+Œ zŒ¾őĭŒ
-8 ÑŒ0 ēúŒ!Œ-B%#fg`" 5Œ-40: )B ĉŒ~0"  <Œ
-.B$%nZ% q]s9$Zl:- j%u%e0: * 2BCLcr $Œ Œ h-°Œ
-@S"Ï-Œ8D5Œ #P* $%mg6L$ "< .%BE  Œ% Œń!Œ
-                                 
-
-
-
-3+BŒzŒG;fp  ¢nĀ 0Ċ@4%IŒ ŒYN%)Œ sa%<.! k
- Œ6X Ì"AáSŒĺ  Jµ£Œ0Bt{ĥġjŒ  Œ+# k
-ċŒ  Œ Ĕ$Œ $Œ CŒ  R/#P@ R +z 0( 5: :?B IŒ $7;Œ
- \MDRX~ u0Œ zŒ Œ 40}ÍÖĮ¶Œ ] ĤŒ tk
- 4yŒ 2 Œ0ĕ+Œ cF8{WŒì% -Ĳ§Œ@åY ŒU+ÃŒĂv Ý9Œ
-6Œ ~0%=h > "û*VŒ ,ı~*Œ :NŒ FŒ |0% ;ŇÕ#Œ            Œ >|
-CüŒ|0%N Œ~0=TE qĻ%Œ  Œ:x 'Œ$7ŒÊ|Œ ŒŒČ0Œ
-aŒļc 6#@:Œ ._ítPŒ 0 ­Œ !Œ  âóa·Œ
-     -ĀhŒf>U$8B0& $6           ŒiŒÔŒŒ]Œ nŒBmĀ ŒăŎ
-,ý.Œ"īŒ)Œ 2ŒRM> A 2Œ*#îō %čOŒ 6Œ 2?Œ
-sm~f"  ÁºŒ A#4Œ Œ "G6%& #Œ  Œ 1!#<@B )ŒaŒ
-#Pz6h%I /#P&g6KF 61_VŒ rZD®¡»¹Œ rgŒ 0;2 Œ ïŒ
-ÉLĿ-CMŒS0&3 þŒLŒŒ?øoŒ DIáĀÖ            ï¨Ā    %     Ā l0`-p
-Ā#P }3# #p Œ%,oA/0{&Su % Œ^[~Ľ  ŏ
- E Œ V{5?X/ \ 6{ GF 1Œ ,Ď8;#¯Œ TUĀ -1Œ
-{£f%Ā  U;-9Œ > '&?4B &/&$A ;-,4B ;$7BCn/^R      Œ%um6'w
-lŒ < ðEx¨Œ        Œ "JŒ WŒ yq$Ā   Œ /}$GùĀ `f]
-H<<69Œ APŒ A Œ 5Œ tb`H"P#xy ĳ 4Œ W
-"> $"` Œ q[5¸Œ$ ]Tz J$:Œ æñŒ ÂŐ
-OŒ  Œ * Œ "Œ ;-B Œ Ą jŒ hE%~*Œ 8ĵğ7 IŒ Œ
-Œi)v}"f XŒuą8 TŒď ŒłĬĆ½Œ Œ ^Ok_GF%j  Œ
-
-
-    #%    L0 %p:XY
-(ŅqUƋ / Ƌ M»Ƌ s@Ƌ Ƌ 6ÔƋ Ƌ I Ƌ '*Ƌ žÀ
- "?iƋ +Ƌ Ĺů Ƌ EƋ Ƌ kƋ $ Ƌ >Ƌ ³Ƌ [DZG Ƌ şĚ?.!iƋ
-¹a Ƌ ­ƋŢŻƋ Ƌ $ī]ƋCƋĊĺƋ<1K  ņûŤÞƋ ôú ÿƋ
-Ƌ  !Ƌ tƋ sƋ >Ƌ ~%Ƌ Z:Ƌ OIƋ Ƌ %A$1Ƌ=Ƌ¨B 4        )Ƌ
-?,z#Ƌ öN!Ƌ WFƋ ARgĻƋ .Ƌ d<Ƌ ļƋ 3Ƌ )Ƌ
-9r.-%Ƌ c ĽƋăĵþlƋ
-   è4º0)Ƌ B¥$ 7 3DƋ . HƋ Ś . ŬƋ ±?¡M ½ÝƋ Ƌ UƋ
-KƋ$-Ƌ,& AEƋ Ƌ Rq7;²ſƋ('xÕƋ Ƌ/6*;TƋ cœĬ5Ƅ
-rÖƋ Ƌí Ű :Ƌ^SƋ .;2$£RŇiƋƋ + Ķě3DƋƋrg EƋæ[ %ƅ
-?Ƌ Ƌ  Ƌ 5µ@ĭČjŠ{Ƌ Ƌ çbƋ P%&6Cp , ľ %Ƌ
-jƋW/ƋN=_/.dp$ƋūQƋ  -Ƌ«áƋ Ƌ© 1ťƋ ,Ƌ ®ň<
- Ƌ -Ŕ   G!Ƌ Ƌ Y5jp'ZponpƋ - 0ĴƋ Á'" ÛÂƋ ŐƋƆ
-X@cƁƋ ;.Ƌ 5Ƌ L,# Ƌ , +kp([p h(Ƌ &Ƌ vƋ 20"ś #Ƌ"ō
-Ƌ *Ƌ cĮ(Ĝ-Ƌ V9t5ĸÑÊ¾lƋ ëHĨ *6Ƌ Ƌ FƋ 2į  ¡#Ƌ >Ƌ Ƌ
-Ƌ (Ƌ ªű* Ƌ Ƌ ³¢b1uƋ =Ƌ :ƋðXƋ UƋ ®|xƋ
-@÷ĝą×Ƌ ÃSA,ÄƋ +*qƋ Ć}  )Ƌ  Ƌ Ƌ +A)Ƌ  ĿEƋ
-$7Ƌ2 4(#DƋ'üd$ØƋ"Ƌ Ƌw      ƋÙƋƋ xƋİ5ź¥âƋ  
-FƋ¦ő6Ƌ>ƋCdŉ Ƌ ŏ&<QƋ h/g B|& 0Ƌ' Ƈ
- - Ƌ 7Ƌ3Ƌ ŀYËƋ 4*%Ƌv)Ƌ# /ÐäƋ  FƋ¨%Ăģ , £ŊƋ =Ƌ
-ŲP"Ƌ#  KƋ Ì aƋ2¤ K DƋ>Ƌ* ' ƋŁ% 4 GƋ
-C?aƋ s¾åƋ /Ƌ  w)Ƌ [4ŕpĞƋ ^SƋ 'Ƌ Î2´À
-¢"ƋŖ¤ 3#µmƋÅé" # Ƌ1Ƌ _Ƌ P¸V(Ƌ(AƋłý Ƌ
-&Ƌ 4 )± Ƌ ƋUŴ 3ƋŝƋċõGQƋ Ŷt Ƌ XZ­ųƋ Ƌ /ƈ
-                                    Ƌ
-ŷ ŗ@ƉƋN¼'N #ÚƋ ƋğĦC²mƊ ß
-   V3Ƌ Ƌ }CƋñ]Ƌ©$b/Ƌ w,Ƌ B0"TG !Ƌ ĠƋ (QƋƋ ]Â\ý
- Ƌ , ~ 0Ƌ ƋgƋ ć}Ƌ Ƌ Ā ZƋƋ9 7ŸƋƋp EƋ
-nƋ Vı%ƋƋSŜu:Ƌ Đ ƋP>Rp^š|Ƌ » <FƋWNƋ 6Ƌ)
-º9.ƋN=_/Qf*p&øƋÁ§èÅ#Ā GKƋ+Ƌ ¼'¸Ƌ  -Ƌ
-@4%Ƌ ĀƋIO6 !#NPƋ"\Ƌ ~ :9<00(Ƌ L2ĲƋ =ƋLV¿
-6Ƌ Ź Ō Ƌ  'HKEƋ n5Ƌ (Ƌ Ƌ îƋ B  Ū-ġƀƋ ĢUƋ
-ŵ,´MƋYŞƋWƋ  :9ŃãƋƋ vƋƋ%Ƌ aƋ P )Ƌ
-A$?]Ƌ >Ƌ 3Ĥķ&uƋ ^SªƋ h<C0Ƌ Ƌ 2ĳ"  Ƌ ħ[ÏƋ +/Ƌ
-RƋ 5Ƌ  Ƌ \Ƌ FƋ >Ƌ :Ƌ Iŋ, 7Ƌ āƋ X Ƌ        Ì­Ā
-Í cRTmƋ
-
-
-                                              ?Pwa[2(x<]%   "%    
-     V>ç ×¬;ç ¦Õß êĀ t<}p ív¹¡ ÒĀ fŒ  ?ZŒ 'f(Œ
-p!Lh­{çs5aSçQ=!Œ4>~T¬Åaç×_b'^çl¿ç Åçp/Þç( hRc
-p@ ²ç È^c¾ç £>´ÀªH*)dç  Åtoç &'ÐŒ Å`>ç ¥{ ºÅa'aÉÜç Nç
-          
-
-
-
-ÈYIç WÇFĀ«p°ĀÅçp))bçbnçÅçsÜçÅYIç*®?È¯çÆ=!Œ¬((Y)k
-ě)ŒR¬ç $ÎÅç t½ç!ç 6)[)Œ<i¾$?5bH'HçÅŒ )'m'¿Åaâ
-zw'# w»É!Ā &Œn-5pQ %Œ pTdtÅç ç 3>yç
-     |KÉç |p5ØJzsç {ĘHŒ /ŒYcU'V ç ÅZ?ç Tg(Q@[6Ĝ)Œ¬[ÇŒ
-+>+Ée¿ ç 5?ç hcpp@M'  ¬ç  3!4/Œ ŉĩ3=²Œ
-Àpes{¿ ç^$r3 $è&'29Œ s.ŒÊ\?ç  )¯çc/1?OX^0HAp NçIÛf¾ÅH'H
-kçT>>´sç ' [ Ùç p)) )VÅç  (Œ ¦{#ºÅm,dÈáç )ŒÈYHç &¬ l ç
-Ó3>·ÀÉ¡3ç fç )VkÁç ¿J½I ça)§$(OQ z u;(ie¾?NAw
-c02p8@a]@Z7TU" Åç (Œ,/B#$uc¾V¨?ç ]lºÅ¸àç
-_bt@çÉYHç.@É°{ç(ÎŒrpv'WpĠŅ Œ4k w7ÅŒbºçil
-Ék-Óz±ußç0tA ¬ç !Î´m6ÅV>ç 5JÔ>y¡§BË}ç pv6* ņ1Œ]iŒ ßę Œ
-.)ÉfŒ É[Åç ÉYCç &brcÉÜç Èç v>"± ç Åç /Ģ Œ % ¿qlçp 5ç
-FÚç i¬ºÊj"Ā Cp ?? # ÅY²ÓS[ÏÈç wlQç              _# u=Dp Ā
-Å²Ò?ç ±Ā            #%õVĀ)I?p UR 2B1i0g:p{ Û~hĀ F8 \>
- , bçEĀOç>'^çÅç¯>,>@'& ŒÅç1¶LÊ>ç^g¾ç¯çV>¯ç Ùç             ÑĀ
-3I½ç E@ 3D¦C6ç ç Q=MŒ hk')pxO?p<'#1doT  y;) ¬G6DQ
-7?sç ²ç ½É8³5ç l¿ ç Ā /Œ R.mŒ >  Øįİ3Ń .Œ'ms
-      ,É@-ç ,3"S²Ùºç ³ç # r>p =!Œ e Œ 3+/eŒ ÞŒ
-È¬?M ?[%GH&S .j)kK(^ '  V?ç ?.#R,?´àĪ+Œ Å^Hç
-´>>pç.î/ñÀ Ārbb¾ çŀbw¥¤ŒbÂçÅ\Eç¬HSaçNç1µ'µç
-Œ *F/Åhç '{))\ zJc > pç V>ç IÐ¶äç &Œ (P)
-+×b&ŌŒ ÎkÅç NçJ²ÖÑ¾ç uIpp~' ,!ç + 5lÔi9?;ç ?[vŒ y>l))
-&?oŒÈYCç .?wtÒs¯ç%:ÞçlėRć©NŒÅV>ç ` aÈÜ ÓĀ!5ç  '
-pň³Œ8?9±@çEupMÉ?Ãb¿ç gĀ?p$Üç           ?Áç PçÊV>Á?çIÛÅHã
-Ák¢½ç Å^Åç b Åb[p ¦5pªŒ m' &s (6Œ 'f(Œ
-zc ?¬p  ¿đ            3PŒ *ŒAu= )V?ç  QM ¬ç 'Ě .mŒ2ã
-½ÌjÉÎÉ?ç :u ×>ç 'ttç y9' ¼ÔÞÚ³Hà Ā bkĀ XŒeçŒ 'Ł
-VkÁç Ā %ÕVG¯>ç  ?p bXF[6 ¢+Œ åÎªÃÊ¯>æç (Ï
-nf^q lnB' ;'"ÛçpÅbÅ $ u=(ËlÙ²GÝ[Ā©ËÅçNçÊ[>ç
->Î·ç mÉÁç >8>3p Q (Œ ?[ ÅŒ fÈ_ç ÊV?²ç ÿ ¸öü
-puk-Y ^'}kc`p  % ¬'ç?"?¯<ç >!,xp %
-
-
-   $%       Gn`V/#o9WH
-   a»Ĉ Ĉ 4   çĈ d>ÁĈ Ĉ ;Ƌ  ·OƋ Ĉ ĈŘńƋ ÷Ĉ xĈ
-   8Ĉ Ĉ +%Ĉ ( Ĉ 8 ¶¦Ƌ õĈ        %*+    0BYĈ
-   #>Ĉ Ĉ ĄL#!Ƌ ~M/²#¶^Ĉ `&G!e!KĈ Ĉ ćÚĈ HUJ
-    Ĉ Ŧ\eƋ Ƌ Y8{Ƌ ÒĈ Àh Åû_Ĉ ¦Ĉ # *+  +
-   4.*ÆeĈ ¾  4Ĉ `·Ƌ "z ĈĈ E; >ĈƋ +F<Ĉ
-   T89 +Ĉ  Ĉ Ĉ oR Ĉ &¯ƋNĈ        ½×fĈ ¹Ĉ     (¬<Ĉ
-   è kĈ åĈ ùƋ E!Ĉ-lĈT#:DĈ Ĉ '8TTyĩƋ       $ ¶ZĈ
-   UĈ 0   .{[Ĉ ~ OP$Ƌ zÆĀ *Ĉ2#=Ĉ B@&71îÇă
-   Ï©Ĉ Ĉ .BÈªúÓ0 ·Ĉ  Ĉ Ƌ 5A$Ĉ nƋ Ĉ µnĈ
-   Ĉ 3öĈ Ĉ |Mq#$u,Ĉ  Ĉ8GvW  ?>Ĉ P Ĉ } :³Ĉ
-   &eĈ d Ĉ Ƌ  (ìĈ8ïĥ Ƌ.*Ĉ 1Ĉ ­@ Ĉ ŎƋ Ĉ
-    -Ĉ% Ĉ§jkƋ %%
-
-   aĈ `yJƋ 3Ĉ y "Ĉ åĀĈ Y!Ƌ P8¹j_Ƌ ;y¬Ƌ  Ĉ%
-.&Ƌ Ĉ ĈJòŨ7p !Ƌ 7.1LHƋ 8Ƌ Ĉ)ºĈ ,1T É6Q äKĈ 
-, č YĈ 8Ƌ Ƌ +F&6Ĉ #ñw^Ĉ 8ªĀ Ĉ Ĉ §GIĈ Ĉ Ñ!Ĉ Ƌ
-!e g ÆÇìMÈÉƋ!Ĉêg ÙĆáĈ Ĉ§ ũ5°JƋĎ°kƋêď]Ƌ1:đƋ
-       
-
-
-
-9â 4Ĉ ĈĈ  A;Ĉ ĈOIƋBH!àƋ_dƋ ÃĀ _¯ƋXóæ'Ą
-z«6eÒƋ N/Ĉ C/Ĉ pĈ     ÐGÊ¢Ĉ (1Ƌ % "@Ĉ Ĉ ĖHzř½Ƌ
-&Ĉ0Ĉ5 t Ĉ þIĈ5ï] Ĉ?Ĉ ® Ĉ  E "+ Ē*¿  
-
-
-
-f<WĈ ,?i9mR & \Ĉ ¨Ĉ 0  ýĈ -6SĈ      Ĉ)Ĉ ±F´Ĉ ã"òĈ
- ĈOĈ o fė Ƌ  Ĉq9Ĉ!HĈ   #+ `VĈ9Ĉ 2   !Ƌ  ŮfÜƃ
- Q+Ƌ )Ĉ pĈ %Ĉ *9{ !Ƌ *       S]rĈ ;OƋ Ĉ )ðĈ Öą
-&āĈ ,¯Ĉ  Ĉ %Ĉ |Ĉ SĈ 3Ä Ĉ 3Ĉ 2;iĈ ')Ĉ %ÂĈ LĈ
-rĈŽƋ J`8CĪ\Ƌ 'Ĉ "Ĉ æĀ ë<          IĈ *Ĉ ,#:¸Ĉ ü[Ĉ Œ9Ƃ
-óĕfDƋUĈ `Ƌ~Ĉ  ĈƋ "@:¡Ĉ EùLĈ Ü<+Ĉ @CN(16J
-!_Ĉ b Ĉ P2;Ĉ "Ĉ -Ĉ "ËtĈOĈ  MĈ0+  Ĉ ¤Ĉ ¥Ĉ wĈ
-A!&4Ĉ :%Ĉ  Ĉ H éÌCĈ E=BQCV4Ĉ 6)( øDĈ
-*s/nWĈƋ ô$oĈ OF-XoĈ)ÝĈ jÿÞ$Ĉ Ĉ %=zĈ Ĉ
-2=?°KĈ f2;  7Ĉ  Ĉ/Ĉ o+ lƋ ;1\Ĉ kĀÍJ
- 7ZĈ &Ƌ  $$DĈ@+bƋ      gƋ5cĈ ƋX$íĈ%!y Ĉ!+
-'Ĉ%Ĉ 'Ĉv1Ĉ ƋĘJƋB¬ ēƋ3ĈĈm '+
-Ĉ Ĉ "ÃĈ  JƋ D/Î c=HĈ ĉƋ ¼RÕ'£Ĉ bsĈ P2ÛĈ 3Ĉ Ĉ
-żĔŧƋ   + 8 Ĉ-lĈ Ĉ $&)+( +5AĈ ß?8xmR 1Ĉ ĈI .J
-(7Ĉ ¿h7ĂLĈ #Ĉ WƋ "{ØĈ fÓƋ uĈ  MDƋQ}Ô«'Ĉ>Ĉ 3Ƌ àVĈ
-
-
-                                                Bl_^.C"m=TD     !%   
-EcEhEi|=r cEEc mF =iUh=c cVFE =iD {S~x =nnE=rx zmD= zm
-@E miE mF zTE QiD=hEiz=c CT=r=CzErWxzWCxmF cWWiR @EWiRx
-= P=RWcE @r=Wi SUCT DEnEiDx mi ~x>xh~CS=x E DEnEiD
-mi WzzTE DWWiR rECWnrmCWz mF rECEnzWmi Dmi=zWmi
-=iD x~xnEixWmi mF Orh zS=z m~zcWiEx zSE iE xzr~Cz~sE mF
-CmixCWm~xiExx,
-     9E C=i im ~iDErxz=iD S 5E=i7WErrE /S=iRE~
-Cc=WhxzT=z zTEDWxCmErmF zSExi=nxE=iD WzxQiCzWmix
-=x =x rEmc~zUmi=r  zSE DWxCmEt mF  zSE OrhEt
-@rWiRx zm |TE c=zzEr = dEEc mF nrECWxWmi =iD = hmDWGZC=zWmi
-xm xWRiWG[C=iz zT=| W{ xEEhx =chmxz zm Cmizr=DXCz Wz .r=Wi
-nc=xzWCWz Cmix|Wz~zEx = nmxxV@cE h=rRWi mF WhnrmWx=zWmi
-WzT rER=rD zm REiEzWC iECExxWz 8mD= Wz Vx im cmjREr
-CT=iCE Erx~xiECExxWz  @~z CS=iCE iECExxW} =iD nc=xzWC
-WzTWCT Wx iEWzSEr zSE miE imr zSE mzTEr 9E aim
-x=x/T=iRE~ zS={zSEnmErmF REiEx=xx~rExzSEnErnEz
-~=zWmimF@rm=D zr=WzxmF ;CErE@r=e< mrR>iX=zWmj x~CS  zSE
-OrhmF zTE @r=Wi =jD mF Wzx CWrC~hmc~zWmix zSE mrR=iW=
-zWmimFWzx =rE=x=iD zSE REiEr=c =rCSW|ECz~rE mF CErE@r=f zWx
-x~E .~zCmixUDEu=@cE =rW=@WcWz  ! rEh=Wix DExnW}E zSE
-REiEx  nmEr&( 2F iE~rmi=c HiCzUmi Ux =i EEiz mr xSm~cD
-@rWiR=@m~z EEizx zTWxWxxmnrECUxEcAEC=~xE X{ Wx WzxEcF >@cE
-zm CrE=zE EEizx zm EEiz~=cVE       |SE nrm
-Rr=h =iD zT~x Wi = CErz=Wi xEixE zm DEnrmRr=h Wz
-     9E =vE cWWiR =z zTE Sm~r mF iE~rmi=ccW@Er=|Wmi =iD E
-Dmkmzaim Wz =REiCWzSWi~x RVEx xEixE zmzSECmDE
-=iD E Dm imz aim Uz 8SE DXMErEiCE @E|EEi zSE @r=Wi
-=iD nxCSWxh Wx xTrWiaXiR CmixWDEr>Ac =iD E Dm imz
-aim Wz 9E EiD ~n CmUiCWDWiR CmhncEzEc WzS m~r
-@r=Wi@EC=~xE m~r @r=Wi Wx ~x |SE WizWh=|E Orh mF =
-nrmzmxEcF') =xmrz mFmrR=iYCnErxml=cWz=iDEDmimz
-aim Wz 1~h=ix h=aE zSEWw mi Ar=Ui"B~z#zSE Dm imz
-aimzTE =rE DmWiR xm
-
-
-             
-   .~z S,9S Dm zSE jmz bjm Wz,: Dm E oErxWxz
-Wj m~r @EcWEI zS=z zSE @r=\j Wx o~rEc =jD xWhoc = h=
-CSWjE  = ormRr=h WzSm~z ormhWxE, 9S =rE E WRjmr=jz
-mIm~rmjoc=xz\CVz, 3zWxjmz@EC=~xEmI=c=CamI\jOrh=
-zWmj* EmzErWC @mmax mj zSE x~@_ECz mI @r=\j oc=xzWCWz
-=@m~jD4zWxjmz@EC=~xEmI=orm@cEhWzSomo~c=rW=zWmj+
-E C=j z=ca Wj = Er  xWhocE = =@m~z zSWx oc=xz]C]z =jD
-zS=z Wx orEC\xEc S=z zSWx @mma Wx Rm\jR zm Dm 4z ]x jmz =
-p~Exz\mj mI =Cq~=Wjz=jCE @~z = p~ExzWmj mjCE =R=Wj mI
-CmjxCWm~xjExx 9S=z h~xz E @E CmjxCWm~x mI =jD jmz
-hErEc =Cq~=WjzED WzS CmjCErjWjR @r=\j oc=xzWC\z,9S=z
-WxzSEj=z~rE mIWzx hE=jWjR,
-   9E Wcc rExomjD WzSm~z oc=WjR mj mrDx @ x=WjR
-zS=z zSE CmjxCWm~xjExx E =jz zm r=WxE mj zSE x~@`ECz mI
-oc=xzWCWz S=x zm Dm WzS \zx omEr zm j=z~r=c\E CmjxC]m~x
-jExx =jD hE=jWjR /cE=rc WIE =rE jmz CmjxC\m~x mIoc=x
-{WCWz zSWy Wx @EC=~xE Wj=CCmrD=jCE WzS = hErEc =oo=rEjz
-o=r=Dm Wz Wx Wj KCz xm LhWcW=r zm ~x zS=z E Dm jmz EEj
-xEE Wz* E Dm jmz jmzE Wzx orExEjCE cWaE =j Ej\rmjhEjzWj
-SWCSEh=^jz=Wjm~rxEcEx=jD EmcE\zSm~z o=WjR=z
-{EjzWmjzm Wz 4z S=x @ECmhE zSE Orh mIm~wmrcD$  6~C
-.mcz=jxaV=jD 0E /SW=oEgcmjmzE WjzSEWr rEh=ra=@cEmra
-    jE~rmj=c QjCzWmj\jR =jD xm
-CW=c QjCzWmjWjR WjzErDEzErhWjE E=CS mzSEr =jD h~z~=cc
-RWEE=CSmzSErOrh SErE=R=WjzSEomEr mIoc=xzWCWz  zm
-zSEom\j{SErEW{\xjmcmjREromxxW@cEzm D]xzWjR~]xSzSEh
--x zSm~RS jE~rmj=c J~jCzWmj EwE CmjO~jDED ]zS zSE
-j=z~r=c moEr=zWmj mIzSE mrcD =x {Sm~RS jE~rmj=c oc=xzWC
-Wz =jCSmrED @WmcmRWC=cc=jD zSErE@_~xzWG[ED= CErz=]j
-zoE mI omcWz\C=c =jD xmC\?c mrR=jV=zWmj% 8S\x \x orECWxEc
-S=zWxhE=jz @ =j=z~t=cW=zWmjENECz  8SE =~zSmrxDE
-Cc=rEzS=zE cWE Wj=CmjjECzWmjWxzmrcD WzSzSECmSEr
-EjCE =jD WhhEDW=C mI xmhEzSWjR j=z~r=c  .~z zSWx
-
-
-                                                                
- /}+!:ĭ IN"ıı ÅıMı5 1O#çã6ı gh)A 3O o $ı M ¯Ò
-;vı N%^ı!R339ı 'm ı8YBY* Pı V[6Hı i3 ı
-                                                               
-
-
-
-x- Ć4&Þ ,ı'pZJ Aé5!@ Oı4T}2  )ı2ıC45P* |]
-K R ıı°" (/ıĖ%Cıibj$v"Q|x5[T kı.\6ıñı<ı
-ª+ Ó ı»ım 5Ì&m²&ıê©ć%ı ıòı ı!ıZË]
-43 K HG0Ô@ıÉX  AIO_ıdęıRĚoı-4ik\  YU Íı
-           
-
-
-
-ë ' ıJı|+SlZT x- á[ ı *(â ı+8ı¤`óı
-     ÓÞ+.ı - Q ı x-6i ı , Bı eěı ?ı"ı "Ďı uU"ı
- ı<?ıVııcıX$ı)gıK7ôı2ı, õıbDu}43x
-  x *ı#Xıö ı x )*Þ q9(ıy¼ı ı1 ÷@NıQP8ılı~LTPĬ¨]
- :4øıkıCYidW}3L ;Ye y!Mf`ln 1  ĕı pıĮ
-                                
-
-
-
--þı¿Wı « "E<ı-zı:C3q ı cl5A4r x- ³ì ùı
-ÀWı 1ºI=ĒĨıı ı ı b ı ,Z7ı  ı Y~o i= ´ı ı ı ďı
-                                               
-
-
-
-?XY  4z z  ıDĥı=?ıl!A Å[!ÄÞ *$ı E7 ı ıY 10wZı
-.Bĩı§ı#ģı/ ) y"8ı}.w ı0đ=Ĥ ıF6ı L#Vs cm
- ıı ı 3$\*uı ı¬ı ',&ı lıíĜ!7 C9ı
-4  ı( cıD*ı=|6ı #CF x- l  (6ıå ¡ı4JıtdbA
- ı î7ı (ı< l3`R Ĉ/ı 73ı u3LeF aı }. Æ3ı
-l%GC '(Þ Ñı *o x f *Tı l/ 3)lıı . {Jı úıġ
-$ï;vı 5 ).ı ­ıı 3Þ ?5=& Çı<ı Ăı +x8ı%ı
-;qĝČ ıı+ "½ı.VSûı ÈLıN¬~Þ£æīS ) ¢ı¦ı
-DUı+èħı  ıt r0+E ıĠ ı%CıE=¸ı#ı*D ı
-0x 3x C ı 1 3A>Õ/& ıh ĉÖf!B?ı x_ @XY  \ı $ı
-.p0wı ıİ ı%:-g2Hı #8ı x- l ÁWı x-3s Îı 0LÏıüıd$ı
-}s9A`ıbı s ı %Ģı Uıı ×ı  Y#ı Hı ı 2Þ į
-Ċ0ı*Øı ı(/& Ĕı2ı 1Ğ(hı Û>)ÙıÚı ı3G
-Y4 r ıýı~ı x^ Ð> ıTı 9MN7x µM!ı Ħ'ı
-¾ıl, ,=5,'D3+D /D10(!8 'D Þ60 &D,90-,D
-'amK l/ x x]  cC `6T3v 3x- ı lhQ| Êı "2ı
-   m ķĐ &ı4uJ 
-
-    ¥ ıÄ(·ıFı +Þ y l/ ,K9ı 2ı 4ı#&Īı
-n>s YT :ı Âğ&Eı :-;)ı +i# aı QPmı <ı ċ/ B{ı
-\"ÆÞº\ÒwÞ >ÞØqXÞ0>3D 4,Dkm Fı-$ä?ı VwFı
-; ı %ı čı 4{/ Sı ;3x ı l ioI
-
- m          ?ZNFm,g[3GHm
-ÃÓ3HĐ 0 V': [ >:[ AĐ  * Đ ;Đ [ S35/:=T;[ ~6×ĐJEĐ
- :'2[ ÀÁZĐ &Đ m TĐ B`Ø S(Đ Đ U?5 +;[  Đ .$©Đ
-9 KÍCrĐ ®ėı&m "+2&$8D [ÙìĐ £Đ {.Ü  Đtä8Îā)Y
-ÿi _ı "Đ -Þ&4 Đ&Đ<VÚĐĐ &ĐC%ĐI ' @Đ8 :K["#Y
- (Đ dpĐ N"I[ K$       µÔ'  BFĐ Đ   ÂÃ|!O[ O=[ Dn!Đ \Đ
-"O'Đ ~4ÃX Đ T[Se1Đ#>$Đ L«%ÞÏ°íÞÇĐ Đ Đ ćĐ åtüĐ
-ÖĄĐ,Đ ð Ęjı bĐ} S(Đ Đ ËĐ  qĐ aĐ_ , Đ@1 JO''HW[
-Đ    Đ NößĐ ³Đ<Đ I%, Đ7ĂĐ %,{ôĐ 1w x" OĐ ÂïàĐ m
-@%29j[ 'Đý«+Đm .7Đ;ĐO"[ºąæ  (Đ´Đ=f ıA2 KE(Y
-g°Þ am [¿#d)Đ¹y`pĐ bm Mf1êÅ(ĐfĐNy5Đ Đ9 *:[RC7G
-I%Đ[ Ü 1 Ąn@!ı5)j'5ąÞß"Ā ı Ì Đ5!   ČĐ (WúĐwĐ
-xĐ  ¾LĐckĐ¥GĐV[ [?'  ı¼K*ĐP&[* Đ
-¶kĐ4Ã.$" 8)#Đ jÞ O"Đ T V[|Đ BLQ[ @Z-=YÛÞd?Đ
-f­Þ ø%2!6 JĐ %!HĐ ¡4Ð1v Y0· 2ð*i3Đ ÆO W[
-                                                        
-
-
-
-¦Q@ĐõĐ /Đ Đ V½ +Đ Q 1Đ Đ PĐ ñ Đ7¤2áĐ
-qB>+Đ o 1 "#:Đ Đ 63 gO Õ[ 9QZĐ çĐ              Đ ÈĐ
- :Đ  Đ B 5.mEĐ(,ĐbĐ=Đ0)ĐT;ĐâĐD D"[T Đ
-þĐ _  [Đ ¢Đ *EĐo zĐ Đ ÛÄ #Đ ¶O#1Đ J[~>mĐ
-    @;D  :D70?)Djm D B%<D Ñ¦Þ /§hÞĐ @Đ [òRĐ
-A)UW:Đ À Đ .4n6vÉzGĐ Nu/Đ )jã Đ /Đ T¥Þ ' $Oh G
-!RS©Ã TÃ 'Đ ó²|-èĐ ÁĐ D0ĎHĐ O[ <6VĐ >&Đ  ı Đ
-¬/#ĐX+Đ n>Đ P& O[ Đ7U^gĐ Đ ?5 IP.[F[ ÙÞ          Đ
- Đ &Đ ]é:ĐRBVS"C[  Đ9#-Đ&P+Đ 3ĈĐ Đ P&[
-   O'ÖùEĐaĐĀĐL ÿ/^ Đ s0ĊC1ĐV¶¤} ¹ÞrÞ t ıD Đ ¨¯ čĐ
-                                            
-
-
-
-iĐ O"Đ 2-!#N[ =[L  cÕĐ ¶à±> ē^ı '¹. x[ ı 0·Ý8 Đ ď=Đ
- Đ Ý ız,!i    ı [   ?'$OtÛÞ </m §!RĐ ~4Ã#ā ÃăG
-5,Đ Đ  $û)Đ \ĉĐ O$[ 4':![ O$ O[        ÑseĐ pÞ
-*÷ ë¸u0?MĐ Đ &4+FĐ OhDĐ " Đ )O[ oÞ ­± Đ *Ê]"Đ "4Đ #m
-@Đ $3AĐ JĐ 'S+Đ 'P1¸@=- FĐ !2ÒO ªGĐ %Đ 8-¿Đ !Y
-@G> #[AĐ  Đ O" N[MĐ:=O[¹¹Þ UO"['Đ®Đ : 4XI,M[
-î;ĐO#[#Đ!<5r ĐXĐ:=<P%6JI[% R[ P#[1Z
--eĐ{ ĐċĐ lĐ'Đ»Ć" Đ ĐÚÞ JlĐă/ }2Đ 8D//DnÞ
- A".D D0¦iÞh<H: Þ B8D6/>*DimD C#:D :D
-
-
-                                                 =XLD+e(2E>m        m
-      L*Ã {°N!0B8ú ±rÃ ~4Ãa(u +£+u¤Ã +=¤Ã K²j#Ã      úiZu
-u ´&<ì 4!ú <F5*C$FDF6+F<=,&-C8)9:F+F<F
-2)F .5F 8@Sm /C2E3F) F7'0%F +) ! F D>F?F;4=F,F
- 1 A#"8(F6ú o¹ ú ²Þ1`n) ú $"ú µÎ Dgú B/O Ã ¤H(¾        
-
-
-
-A úbQj!uZBZu¨úß8^¨ >úºúEP$(+tÃFu¹,Ã¥-u'Ãv C¤kú
-bLu ^i\g1dkbu#MQuQÃ R¦Ã >0Zf6Du J'C c"u%o2-9-huC*Ã%S5Á
-# 6Ø6ú5Aoú¦M,,Ãòúú+ S{£A| ;` O¥u,µÂ
-*  ZZuX/p-Fú¼ú) úR¥Ì09Ñú¸§Ã6ÃNj£ Z¨¾ ú
-|,Ã .bZu m bÃ/bZu!»2&'½%ùú+uu cÌÞu>     TtÃ+ÃNæ úCG
-b0R7ru R?wu«Ã #ú à  ú D³¥Ã béú ¤Ã =7u 4Ã7*5  Eú Bu
-;úú[CZu ZĤR.YtuPN QZu Zu¤E.Ã .9ú % ZB'ú ~4Ã
- PÞ3UReV¾Ãú >Ã6m 9Ó,Ü úê úÔV%gú #ú " ú¥½Ã &aú
-Lú ) u` ? u %!=ú ë; ú + .G'u s¯/*-Ð>ôtú ) ú T)Zö
-,Þ?X¶1¢ Ã u­ÇÕú b(u Mik"ú #ú¤H¨Ã ºEW MÃ 'ú $pu 5Ã
-¨KÃ m)uXÃ RÃ 4¾Eú 5cú H 3(QmFú ?Nõ+u.ŉm 2 u(k¿Ã
-E.Ã uRh^Ã¯Þ `m :,d¶ú D¸ú ,ú [Ûú 0£ ú¤Ã#¨Ãr1¢+f4Ã
-  Yú & îÖ(L vú  ú óNá ú @Y¸+uÃ bm Ykf°¯¤+Ã G+Ã
-0{#Ã n č0B{ō S!u ;?ú $+ú S Ń!Tōbu¼¡ Ã w7§Ï÷
-0bqu xÃ A·ú 3Ku 7Ãzú ? $Tnú H³*ú ú f2(ú
-XÒ¦p-ú O6Ê¢bGµ Þ (ui,oÃ mÞ l 3ú :U ú ¿Ù[®È3e@ú
-? Ãc qúu*Ã8Ãú,nzZÃ 1/@_Z .Ã 4Ãg¡¨SZ¯ÀÃe( fu#ú
- Cd8ú#MQ@uÃu7*À^úú¤Ã2+]·,ÃÃ S©Þ HTuâ1G
-ÁÚ ú úú:u¤Ã #MRú'U^¬ú¬Ã«d+Ã : ú&;u hú¤ Ã 2ú
-Kxú 0ú 1Þ S¡\ ú ÊÞ {Ã nN7Hu Bu ¹E¯Ã °/WÆPrú
- ]jú Â(ú b*u QZiQ ú 0©úOCú 9nÃ $ úH$+&ú¤Ã Vl ú ú
-.C ú =ú ~}ú bú V Zu Cu On+£ OtÃ H/Ã º+Ã ¥Ã hqKú
-Í*Å Ã>õú0]uO8\b00Xsu`fB'úú,°Jú
-    Baú A 4 u=ú¼|Ã [sÃ t#Ã ¤+¿Ã)Ã sÃ c}»Ã
-I¨Ã ¦ łō Sú Ýú iQu_uÃ OÃÃñÊIú MCu $Ïō Hu yÃ ]bDú
-R¨ Ã iQu U 0Bu 0Zu O<[b0u Cu¹+Ã &Ã CIbu5FHlu\¥Ã J+Ã " |Ã
-R£Þ 0Zu ú Oú <@mú ªúb)u  ú ±/WP_kFú jã.NI/ú  G
-( «úú ä 4j¢rIú Cú S{Ã M,Ã pY&¨Ã 6Ã£!S+u[<aÃ $Y£³,Ã
-E¤Ã +>ú Y<çïèú ­Ã eķ , TCú O¨Ã % _Eú y-É ø
- \ðJ{|ú , u×@ ,Ëú0Bu!Wg0CuQ8.å2.ú¤Ä íiú:ÃÂ
-_b Eu 0Zu eú ©EªÃ $"ú 1$j%m ¯M,Ã q,u¤kÃ ®Ã §F,Ã |,´ |iÃ
-
-
-  m       9TJAm*dUBm:m
- ōIăō sºōōX&]&ō ,9±ōEō  dD&<ō  Uō  Ŋ
-F&oō -Iķ ō Ù5d ß*ōËōō |0>ōeGō           I üWō   I
- 5Ě ō bĭōō +- ôJ !ōC 7ō%#6*ýō *+IIō )NöTō IĎ#Rō
-   ō ō 3ō/ō Ģ÷]þō ,I G! ō  *ō
-¡ ù1?!ō .II n        cō ;=(I    ,I (ō w~ ,ō Ą 9ō
-% 6Jĝ(ō ÒōO3 gà -"Vō Qō !+I zÊō   #ō ĸ-ÕíÈŋ
-ō _ō I ÚHlÃë9ō 8áBō3â)Ķ²ō ¼eK%ō ãō ěĜąfō .ō
-2ō Iō @SĽō ¼( > 7           9.)I =Hō   PT. ō >/I ō
-d ¢ō I zv#cUōō 4'.H I yÂ ĺ&Dō ^A\ bYxōĞ -ÿUō
- ō +%Qō 4<ō(9 Á'"ō 'FAvBm®s»ōÛpō _m 5+6I  &<ō
-0"&IĿ.¯¶°ŀfō ō S Ė ĆM£ō ō I $ĥ¤ō .I  2?I ?.I
-S mĴ`pō BIZō 5%       Dō yĘRō ¿ō ñ#LćWō Eō ō ō.!=    
-
-
-
-h1 ō Gō 38>F>I *<ōx ;ōD O7J ō ğB0U¥ōiō $QHō
-Ħ cmō øó@!ō ō 8ō Į ō ÖĀlÄ3ņō gō .0 Z1ō @ō ,`ō
-;5 ď¦ō ōC=ō jō >ōK ō F;Ĉōia:ō$ō0#&Ìō ō
-ō Å4#Bō2 ōkō *Đ1ō ^ "³ō½ ō  §ō \ ō I +ĩĻō
-'&  79ō *<ōa%ō t ō LG .ō gäįō đō >k?!ō $ ō"ō
-"m    ō ō +ō (LNDō $2 ō ō !m  "rō      GI +ō  uō ½Þ
-=Þ  ō ¾Þ EÞ        8ō Î    ō ): ō òľō n ō ĉ }ō ħō
-P- @ō XĹō K:ō -Ī(ō <BCI ;H0ō Cō (X% ,ō .I+ō
-=ICĵŇ¬ō ! Oō+ō  İ ōZ"$Ñō,ōÐō1I! îÆō
- ı6)J@fLō ō 8 ō ō w|ō ī#ōōMō .Iō t6 åō
-  ō+~ōNAæuìûçĲŅōÓō/ō  bō: ō'-C]3ō ĨĊ eqō
-ō ID.7I I Ł Ü)¨ō 8 ōō ^m  ń·ō I jō ) !ō
-*Ôō459Wō
-   ¸úl;,Vōō I EI *ĳ4©ōið2hō R 1ïªō DB@F
-Vl½®Þ 8èō'/(Tōō ō ªK¾Þ kō ō Pm »ÜÞ ō Q¨Þ
-_ōģō 'RÇéō ċ ?Ýō Bō Y6ō >.@5I  ō Ĭ ļ[hō
-P:6\& ō $m ¾Þ.ō0          Ġō<I/ō ĒōP}A'ÉōN"qō
-$aI[ō Aō%_ō)/ ōIōêō"=ō j´ōEō ō "ō
- 1ō _m  µ ňō +G.+I7I +I *GI  ō (ō ?7ō '3Ō
-  rō Þ $# ō )ġVō>ō ō<O Ăō "2ō Mō ō 7`ō
- 4?['oō 4ō *$I #ō .Oō :%#+I ō Mō Øę5ō ,ō 7Qō ĕō
- ×ā ,ē!ō %K«ō         ¹ō 2/ō Č FÀVō ÍĔ^ō Yė­ō 5m
-
-
-                                                =YMD+fY2E>m         m
-Ebu ø)ķ mTķ"Ø'%ķģ +ķ Bķù8ĭ=ęķ 9C D³³_ÞU 9Þ5 ³Ý
-Eï ā`ķ x4ķðh9n{1ķ GRIķ sÞ 2 "/Aķ &oéķ ;|ķ Aķk ķR ķ 7fYķķ
-:\ #0ķ6ķ AÏt% ,/ķD'PV ķ1ķ>âÙķúķ ķ5ķ >ķ
-klÃ ?6ķ ķ 6!ķ BķA=I ·}êķM&)ķ2$kķÇ%ķ  £ķ
-­E,u )ķj!ķU^/Bķ Þ >=vgķ        ^ķ ķ Þ ķ31ķô  *@(ķ
-jHķ Þ & #ķ 0ķ  ķ $+ķ ķ Q1ÅĘķ ± (ķ İ*ķ
-0%ã)ķ ķ ķ FÚĄ Û$º/ķ Z ¾pûķ Eō   ķ õħķ
-Ôöķ [Tć(ķ m ñ](KÃķ9Þ 7 ½*ĠoĒ]¤ķJķ (_ķ
-Êķ %hYxķ ¶ķĚ ;ķ c5ķ  ¸!'ķ Òĥ ä)ķ  9Þ lķ
- 4W#ķ ËķD8\'Ăķ ÈķNķ # $ ķ »S[*;9ķ 5(q Aķ
-    6 ķ ÓĦ -ě C)ķMĩķ¹ ķw=Üķw! ķ@Kķ,ķ 1ēS¼ĵ
-Văķ iXHķ D¨ķ ķ c ķNķ m ė ķ  ķ m 2¯ķ m ķ -ķó7Ķ
-T  % ķ ķ !Ĳò¢ķ  4ķķ  µ$ ķ .ķ<lķĈ/        ĉķ
-0         )ķ ÌķĊ´9_Iķ Jķ 7-Kķ F 0vPp-'ķ ĳ Cķ
-GYå¿ķ{Ĥķ üķ :ķ?}ëķ= ķċZ ķ$Ģ.ķ m         ķy;!~ďs*ķ
- .ķmÐt²C ķ4ķ Ý'Ėý$PķÍķķ" L#ķ.ķ;qķ WOIķ
-      ¬"Ĕķķ"9ķĜķ×!Qķ ĝķ ķč"ķ ½Þ´WÐvÞ×FÞ7Þ
-Ø`½XÞ Ð¡Þ .¡a Þ  ķ ķ ÏD²5_Þ4F BÔA±BÞ Þdķ @ķ 9î ķ ķ
-  ? !ķ ķÄĬ8Ĵąyķ ]m <ķ.Æ&æ #ķ.ķ ķ1O>ķ H F%3 +¥ķ
-aķĎ"C8+ķ5"- Àķ  ķĐĨķ =#< e5ķ  ķ7 -Lķ
-                                                
-
-
-
-0E8,@ ķ hmm Mþ]W(¡ķ [ķ ³°Į§ķ z+ ķıß ķ *ķ
-ķ ÑX&2ķ ^ËÞ Fáķ \ķ ç ìķ  ķ ÷ g/$S ķ MÞ iXGV #ķ ķ
-* &Î`ķ " Áķ àķ ,DķBķ~_ķ dfķ 3^|ÿÂķ <ķ !+ķ
-:Ur:Ğnķ b&ĕ%LrĪķ 32 Āķ đ #4ġķ 9Þ ÕÉ3R+¦ķ J ķ
-U ķ :í Qķ %ķ ®ķ èī ķ $<ķ Gķ į©ķ ÖOsN& ªķ ?"ķ
-H ğ!ķaĆķ26,ķķ'Zķ >ķČ«ķ
-
-
-
-
-  m       ;VKA*dW1C:m
-
+## Introduction
+
+## Plasticity and Flexibility—For a Consciousness of the Brain
+
+The brain is a work, and we do not know it. We are its subjects—authors and products at once—and we do not know it. "Humans make their own history, but they do not know that they make it," says Marx, intending thereby to awaken a consciousness of historicity. In a certain way, such words apply precisely to our context and object: "Humans make their own brain, but they do not know that they make it." It is not a question of effecting a tricky rhetorical move by corrupting this fine phrase for the benefit of our analysis or of acceding to the facility of a formal analogy. Quite the contrary, the bond between brain and history—concepts long taken to be antithetical—is now established with certainty.
+
+The structural bond here is so deep that in a certain sense it defines an *identity*. It's not just that the brain has a history—which is sometimes confused with that of its constitution as an object of the sciences—but that it is a history.
+
+In fact, today we can say that there exists a constitutive historicity of the brain. The aim of this book is precisely to awaken a consciousness of this historicity. It is no longer important to ask whether brain and consciousness are one and the same thing—let us put aside this old and specious debate. Instead we must constitute this strange critical entity, at once philosophical, scientific, and political, that would be a consciousness of the brain. It is to the constitution of this new genre—open to everyone—that the question What should we do with our brain? invites us.
+
+We have not yet assimilated the results of the revolutionary discoveries made over the last fifty years in neurosciences (that is to say, the group of disciplines that study the anatomy, physiology, and functioning of the central nervous system, or CNS<sup>1</sup>), results that contribute more every day to the refutation of erroneous yet nonetheless mysteriously persistent pictures we still have of the brain. Already in 1979, in the preface to his book *Neuronal Man*, Jean-Pierre Changeux declared that our knowledge in the field of neurosciences had experienced
+
+an expansion matched only by the growth of physics at the beginning of the century and molecular biology in the 1950s. The impact of the discovery of the synapse and its functions is comparable to that of the atom or DNA. A new world is emerging, and the time seems ripe to open this field of knowledge to a wider public than the specialists and, if possible, to share the researchers' enthusiasm.<sup>2</sup>
+
+But this communication, this opening to the public at large, this sharing of enthusiasm, never took place. Twentyfive years later, the assessment remains the same: "The impasse on the topic of the brain is, with few exceptions, total." Even if many things have changed, even if the neurosciences have become "cutting-edge" disciplines, even if medical imaging has made palpable progress, even if the "cognitive sciences" have attained the status of autonomous disciplines, and even if the number of articles about the CNS in the mainstream press has multiplied, neuronal man still has no consciousness.
+
+In this sense, we are still foreign to ourselves, at the threshold of this "new world," which we fail to realize makes up our very intimacy itself. "We" have no idea who "we" are, no idea what is inside "us." Of course, we have all heard people talk about neurons, synapses, connections, networks, different types of memory. Everyone knows about neurodegenerative disorders, such as Alzheimer's or Parkinson's. Many of us have seen, in hospitals, the output screen of a functional neural-imaging machine. Some of us know that today it is possible, thanks to new MRI and PET technologies,5 to observe the brain in vivo, in real time. Everyone says that psychoanalysis is losing importance, and everyone hears talk, right or wrong, about how the only effective cure for nervous depression is the chemical kind. We all know about MAOIs or SSRIs;6 we are vaguely familiar with the words serotonin, noradrenalin, and neurotransmitter, and we all know about the neuronal origin of tobacco or drug addiction. We know that it is now possible to successfully transplant a hand and that the brain can reconstitute its bodily schema to include foreign members. We have heard about a certain ability on the part of the nervous system to repair, at least partially, some of the damage it sustains. The word resilience is not unknown to us.7
+
+The problem is that we do not see the link that unifies all these phenomena, names, and situations, which are here purposefully listed completely at random and appear to have nothing in common with one another. This link exists
+
+nonetheless and is tied to the activity of the brain, to its mannet of developing itself, of working, of *doing*. This link is ried to its meaning as a *work*, our work, and as history, our history, and as a singular destiny, our destiny.
+
+The work proper to the brain that engages with history and individual experience has a name: plasticity. What we have called the constitutive historicity of the brain is really nothing other than its plasticity. The plasticity of the CNS, nervous plasticity, neuronal plasticity, synaptic plasticity—we run into this word in every neurology department of every medical school and of every university hospital, in the name of every neuroscientific research team8—it jumps out at us, in its many occurrences, every time we look under the word brain in the library. It constitutes the name of a specific discipline in scientific journals.9 This frequency and omnipresence are not at all contingent. In fact, plasticity is the dominant concept of the neurosciences. Today it constirutes their common point of interest, their dominant motif, and their privileged operating model, to the extent that it allows them to think about and describe the brain as at once an unprecedented dynamic, structure, and organization.
+
+Our brain is plastic, and we do not know it. We are completely ignorant of this dynamic, this organization, and this structure. We continue to believe in the "rigidity of an entirely genetically determined brain," about which it is obviously completely in vain to ask: What should we do with this? Even the very word brain frightens us: we don't understand anything about it—all these phenomena, all these folds, ridges, valleys, localizations, this jargon that describes (we imagine) a series of fixed, indeed genetically programmed, entities, without any suppleness, without any improvisational ability. We don't understand this organization, which gives rise to so many unsettling metaphors in the register of command and government: a controller that
+
+sends orders down from on high, a central telephone exchange, a computer . . . all of this cybernetic frigidity, which only serves to alienate us from consciousness, it itself the only sign of life and liberty in a domain of implacable organic necessity, where movement and grace seem to be reduced to mere reflex.
+
+Meanwhile, plasticity directly contradices rigidity. It is its exact antonym. In ordinary speech, it designates suppleness, a faculty for adaptation, the ability to evolve. According to its etymology—from the Greek plassein, to mold —the word plasticity has two basic senses: it means at once the capacity to receive form (clay is called "plastic," for example) and the capacity to give form (as in the plastic arts or in plastic surgery). Talking about the plasticity of the brain thus amounts to thinking of the brain as something modifiable, "formable," and formative at the same time. Brain plasticity operates, as we shall see, on three levels: (1) the modeling of neuronal connections (developmental plasticity in the embryo and the child); (2) the modification of neuronal connections (the plasticity of synaptic modulation throughout life); and (3) the capacity for repair (postlesional plasticity). "Plasticity in the nervous system means an alteration in structure or function brought about by development, experience, or injusy."12
+
+But it must be remarked that plasticity is also the capacity to annihilate the very form it is able to receive or create. We should not forget that plastique, from which we get the words plastiquage and plastiquer, 13 is an explosive substance made of nitroglycerine and nitrocellulose, capable of causing violent explosions. We thus note that plasticity is situated between two extremes: on the one side the sensible image of taking form (sculpture or plastic objects), and on the other side that of the annihilation of all form (explosion).
+
+The word *plasticity* thus unfolds its meaning between sculptural molding and deflagration, which is to say explosion. From this perspective, to talk about the plasticity of the brain means to see in it not only the creator and receiver of form but also an agency of disobedience to every constituted form, a refusal to submit to a model.
+
+Let us dwell for a moment on the modeling of neuronal connections, made possible by our individual experience, skills, and life habits, by the power of impression of existence in general. We can now see that the plasticity of the brain, understood in this sense, corresponds well to the possibility of fashioning by memory, to the capacity to shape a history. While the central nervous system's power for change is particularly clear during the developmental stage, we know for certain that the ability to learn, to acquire new skills and new memories, is maintained throughout life. And this is true in a different way from one individual to the next. The capacity of each to receive and to create his or her own form does not depend on any pre-established form; the original model or standard is, in a way, progressively erased.
+
+Synaptic efficacy grows or declines under the impact of strictly individual experience. The synapse—from the Greek sunapsis, "liaison, juncture"—is the region of contact or connection between two neurons. The neuron, an elementary unit of nervous tissue, can be divided into three parts: the cellular body (protoplasm), the dendrites, and the axon, which are its extensions. It is by means of these extensions that connections (synapses) are established between two neurons. Dendrites, along with the cellular body, constitute what we call the postsynaptic side of the neuron. (This is where connections coming from "upstream" neurons arrive.) The axon constitutes the presynaptic part of the neuron: its endpoints are in contact with other "downstream" neurons. 14 Marc Jeannerod explains:
+
+If a synapse belongs to a circuit in frequent use, it tends to grow in volume, its permeability increases, and its efficacy increases. Inversely, a little-used synapse tends to become less efficacious. The theory of synaptic efficacy thus allows us to explain the gradual molding of a brain under the influence of individual experience, to the point of making it possible for us, in principle, to account for the individual characteristics and particularities of each brain. We are dealing here with a mechanism of individuation that makes each brain a unique object despite its adherence to a common model.<sup>15</sup>
+
+In this sense—we know this by now—the brain of a pianist is not strictly identical to that of a mathematician, a mechanic, or a graphic artist. But it is obviously not just a person's "trade" or "specialty" that matters here. The entire identity of the individual is in play: her past, her surroundings, her encounters, her activities; in a word, the ability that our brain—that every brain—has to adapt itself, to include modifications, to receive shocks, and to create anew on the basis of this very reception. It is precisely because--contrary to what we normally think—the brain is not already made that we must ask what we should do with it, what we should do with this plasticity that makes us, precisely in the sense of a work: sculpture, modeling, architecture. What should we do with this plastic organic art? It is already known that "synaptic plasticity, continuing throughout learning, throughout development as well as adulthood, sculpts each of our brains. Education, experience, and training make each brain a unique work."16 What should we do with all this potential within us? Whar should we do with this generically free field? What should we do with this idea of a truly living brain (modification of synaptic efficacy, as we will see, is already implicated in the most
+
+elementary level of animal life, and thus appears today to be one of the fundamental characteristics of living beings), a fragile brain, which depends on us as much as we depend on it—the dizzying reciprocity of reception, donation, and suspension of form that outlines the new structure of consciousness?
+
+We can now understand why Jean-Pierre Changeux claims that the "discovery of the synapse and its functions" was as revolutionary as the discovery of DNA: the former brings to the latter a level of precision and a modification so significant that it seems almost to contradict it. Brain plasticity constitutes a possible margin of improvisation with regard to genetic necessity. Today it is no longer chance versus necessity, but chance, necessity, and plasticity—which is neither the one nor the other. "We know," says Changeux, "that the power of genes assures the perpetuation of broad traits of [cerebral] organization, such as the form of the brain and of its circumvolutions, the organization of its areas and the general architecture of cerebral tissue.... But considerable variability ... remains despite the genes' power."17 If neuronal function is an event or should bring about events, this is so precisely because it is itself able to create events, to eventualize [événementialiser] the program and thus, in a certain sense, to deprogram it.
+
+We are living at the hour of neuronal liberation, and we do not know it. An agency within us gives sense to the code, and we do not know it. The difference between the brain and psychism is shrinking considerably, and we do not know it. "We" end up coinciding completely with "our brain"—because our brain is us, the intimate form of a "proto-self," a sort of organic personality—and we do not know it. Humans make their own brain, but they do not know they are doing so.
+
+But why? Why do they not know it? Why do we persist in our belief that the brain is purely and simply a "machine," a program without promise? Why are we ignorant of our own plasticity? It is not because of a lack of information; exoteric books on the subject of brain plasticity abound. It is not because of a problem with popularization; we can talk in a very simple way about this plasticity, and that is precisely what this book is going to do. It is not a question of acquaintance but a question, once again, of consciousness. What must we be conscious of (and not merely acquainted with) concerning brain plasticity? What is the nature of its meaning?
+
+We will respond, without playing on words, by saying that the consciousness we want to raise on the subject of plasticity has to do with its power to naturalize consciousness and meaning. Clearly, if we are not conscious of plasticity this is because, in accordance with a merely apparent paradox, it is in fact so familiar to us that we do not even see it; we do not note its presence, like an environment in which we maintain ourselves and evolve without paying attention to it. It has become the form of our world. As Luc Boltanski and Eve Chiapello note in their remarkable work The New Spirit of Capitalism, neuronal functioning and social functioning interdetermine each other and mutually give each other form (here again the power of plasticity), to the point where it is no longer possible to distinguish them. As though neuronal function were confounded with the natural operation of the world, as though neuronal plasticity anchored biologically—and thereby justified—a certain type of political and social organization. This is precisely what is meant by a "naturalization effect." The authors declare that we live in a "connectionist world with the coherence and immediacy of something natural." But this
+
+"naturalization effect is especially powerful in those disciplines which, aiming to connect biology and society, derive the social bond from implantation in the order of living organisms, or construct their representation of society on the basis of a physiological metaphor—not, as in the old organicism, cellular differentiation, but much more today on the metaphor of the neuton with its networks and flows." 19
+
+Humans make their own brain but they do not know that they do so. We are entirely ignorant of brain plasticity. Yet we are not at all ignorant of a certain kind of organization of labor-part-time jobs, tempotary contracts, the demand for absolute mobility and adaptability, the demand for creativity . . . The brain is our work, and we do not know it. Yet we know very well that we live in a reticular society. We have understood that to survive today means to be connected to a network, to be capable of modulating one's efficacy. We know very well that every loss of suppleness means rejection, pure and simple. Is the difference teally all that great between the pictute we have of an unemployed person about to be kicked off the dole and the picture we have of someone suffering from Alzheimer's? We know already that individuals construct their lives as works, that it is each individual's responsibility to know what he should do with himself, and that for this he ought not be rigid. There is thus no need, in a certain sense, to be acquainted with the results of current discoveries in the neurosciences in order to have an immediate, daily experience of the neuronal form of political and social functioning, a form that today deeply coincides with the cutrent face of capitalism.
+
+The reference to Marx at the beginning of our analysis takes on its full importance here. In asking the question What should we do with our brain? we don't merely want to present the reader with some clarifications about cerebral
+
+functioning. Playing on the title of a well-known work by Daniel Dennett, we are not seeking to explain or explicate consciousness, but to implicate it.20 To implicate consciousness, to ask what we should do with our brain, means, statting from these clarifications, to attempt to develop a critique of what we will call neuronal ideology. It is thus not just a matter of uncovering, in the name of brain plasticity, a certain freedom of the brain but rather, starting from as precise a study as possible of the functioning of this plasticity, to free this freedom, to disengage it from a certain number of ideological presuppositions that implicitly govern the entire neuroscientific field and, by a mirror effect, the entire field of politics—and in this way to rescue philosophy from its irresponsible torpor. Philosophers, excepting "cognitive scientists," are not sufficiently interested in the problem, mostly misunderstand the cognitive sciences, and, in the end, are simply ignorant of the results of recent research on the brain. So they miss the ideological stakes as well.
+
+But What should we do with our brain? is not a question reserved for philosophers, for scientists, or for politicians—it is a question for everyone. It should allow us to understand why, given that the brain is plastic, free, we are still always and everywhere "in chains"; why, given that the activity of the central nervous system, as it is revealed today in the light of scientific discovery, presents reflection with what is doubtless a completely new conception of transformation, we nonetheless have the feeling that nothing is transformed; and why, given that it is clear that there can no longer be any philosophical, political, or scientific approach to history that does not pass through a close analysis of the neuronal phenomenon, we nonetheless have the feeling that we lack a future, and we ask ourselves What good is having a brain, indeed, what should we do with it?
+
+The guiding question of the present effort should thus be formulated: What should we do so that consciousness of the brain does not purely and simply coincide with the spirit of capitalism? We will formulate the following thesis: today, the true sense of plasticity is hidden, and we tend constantly to substitute for it its mistaken cognate, flexibility. The difference between these two terms appears insignificant. Nevertheless, flexibility is the ideological avatar of plasticity—at once its mask, its diversion, and its confiscation. We are entirely ignorant of plasticity but not at all of flexibility. In this sense, plasticity appears as the coming consciousness of flexibility. At first glance, the meanings of these two terms are the same. Under the heading "flexibility," the dictionary gives: "firstly, the character of that which is flexible, of that which is easily bent (elasticity, suppleness); secondly, the ability to change with ease in order to adapt oneself to the circumstances." The examples given to illustrate the second meaning are those that everybody knows: "flexibility on the job, of one's schedule (flex time, conversion), flexible factories." The problem is that these significations grasp only one of the semantic registers of plasticity: that of receiving form. To be flexible is to receive a form or impression, to be able to fold oneself, to take the fold, not to give it.21 To be docile, to not explode. Indeed, what flexibility lacks is the resource of giving form, the power to create, to invent or even to erase an impression, the power to style. Flexibility is plasticity minus its genius.<sup>22</sup>
+
+Humans make their own brains, and they do not know that they do so. Our brain is a work, and we do not know it. Our brain is plastic, and we do not know it. The reason for this is that most of the time flexibility superimposes itself on plasticity, even in the midst of scientific discourses that take themselves to be describing it entirely "objectively." The mistake in certain cognitivist discourses, for instance, is not that they reduce the mental to the neuronal
+
+or the mind to a biological entity. I am myself entirely materialist, and such affirmations do not shock me at all. The error is in thinking that neuronal man is simply a neuronal given and not also a political and ideological construction (including of the "neuronal" itself). One notes that many descriptions of plasticity are in fact unconscious justifications of a flexibility without limits. Sometimes it seems as though in nervous systems, from the aplysia<sup>23</sup> to the human, a faculty is deployed—a faculty described precisely in terms of synaptic plasticity—to fold, to render oneself docile vis-à-vis one's environment, in a word, to adapt to everything, to be ready for all adjustments. It is as though, under the pretext of describing synaptic plasticity, we were really looking to show that flexibility is inscribed in the brain, as though we knew more about what we could stand than about what we could create. That said, securing a true plasticity of the brain means insisting on knowing what it can do and not simply what it can tolerate. By the verb to do or to make [faire] we don't mean just "doing" math or piano but making its history, becoming the subject of its history, grasping the connection between the role of genetic nondeterminism at work in the constitution of the brain and the possibility of a social and political nondeterminism, in a word, a new freedom, which is to say: a new meaning of history.
+
+Flexibility is a vague notion, without tradition, without history, while plasticity is a concept, which is to say: a form of quite precise meanings that bring together and structure particular cases. This concept has a long philosophical past, which has itself remained too long in the shadows. I do not intend to criticize anyone here, and my goal is not polemical. I would simply like to disentangle the notion and the concept, to make us stop taking the one for the other and conflating them, as I have intentionally done above, in
+
+speaking simultaneously of nervous depression, hand transplants, and lesion repait. I would like to do this in order to stigmatize the definitional magma in which, in the end, we all bathe, the author of this book along with everyone else. Speaking for myself, I would say that I have been interested for a long time in plasticity, whose genesis and whose meaning in the philosophical tradition I have, in previous efforts, attempted to elucidate and reconstitute.24 The study of neuronal plasticity and cerebral functioning, and the teading of important texts by cognitive scientists dedicated to this functioning, have been much more than an enrichment for me: they have been a true test as well as a confirmation, a renewal, and a concretization of the philosophical meaning of plasticity. The critical epistemological exercise carried out in this book thus presents itself as an enterprise of tectification and sharpening of the usage of this concept.
+
+But let us not forget that the question What should we do with our brain? is a question for everyone, that it seeks to give birth in everyone to the feeling of a new responsibility. The inquiry conducted here thus ought, beyond the critical imperatives just announced, to allow anyone who consents to follow its path to think new modalities of forming the self, under the name of "plasticity" and beyond the overly simplistic alternative between rigidity and flexibility. This means asking not "To what point are we flexible?" but rather "To what extent are we plastic?"

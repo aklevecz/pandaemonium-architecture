@@ -2,7 +2,6 @@
 	import './layout.css';
 	import { courseInfo } from '$lib/data/syllabus';
 	import { browser } from '$app/environment';
-	import { page } from '$app/state';
 
 	let { children, data } = $props();
 
@@ -30,13 +29,13 @@
 
 <div class="min-h-dvh bg-black">
 	<nav class="sticky top-0 z-50 border-b border-rule bg-black/95 backdrop-blur-sm">
-		<div class="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
+		<div class="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-y-2 px-4 py-3 sm:px-6 sm:py-4">
 			<a href="/" class="group no-underline">
 				<span class="font-serif text-sm tracking-wide text-white uppercase"
 					>Pandaemonium Architecture</span
 				>
 			</a>
-			<div class="flex items-center gap-6">
+			<div class="flex items-center gap-3 sm:gap-6">
 				<a
 					href="/#syllabus"
 					class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
@@ -48,6 +47,7 @@
 					>Index</a
 				>
 				{#if data.user}
+					<span class="hidden text-xs text-muted sm:inline">{data.user.email}</span>
 					<button
 						onclick={logout}
 						class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
@@ -81,7 +81,7 @@
 		{@render children()}
 	</main>
 
-	<footer class="border-t border-rule px-6 py-10">
+	<footer class="border-t border-rule px-4 py-10 sm:px-6">
 		<div class="mx-auto max-w-4xl">
 			<p class="text-xs text-muted">
 				{courseInfo.title} &mdash; {courseInfo.code} &mdash; {courseInfo.semester}

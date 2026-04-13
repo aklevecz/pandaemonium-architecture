@@ -1,537 +1,46 @@
-             %LWFRLQ'LJLWDO&XOWXUHDQG5LJKW:LQJ3ROLWLFV
+**==> picture [456 x 19] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+1. Bitcoin, Digital Culture, and Right-Wing Politics<br>**----- End of picture text -----**<br>
 
 
-,1 7+( ($5/< 6 DQG WKHQ HVSHFLDOO\ WKURXJKRXW  REVHUYHUV RI GLJLWDO FXOWXUH EHJDQ WR UHDG
-PRUHDQGPRUHDERXWDQHZIRUPRIGLJLWDOSD\PHQWFDOOHG%LWFRLQ$OWKRXJKDQ\QXPEHURIGLJLWDO
-SD\PHQWV\VWHPVKDGDOUHDG\HPHUJHG²IURPUHODWLYHO\VWUDLJKWIRUZDUGWRROVIRUPRQH\WUDQVIHUVXFK
-DV QHZ :HVWHUQ 8QLRQ VHUYLFHV RQOLQH ELOO SD\LQJ DQG 3D\3DO WR PRUH H[RWLF V\VWHPV VXFK DV
-/LEHUW\ 5HVHUYH /DQJORLV   ³EHHQ]´ 5LFKDUGVRQ   DQG IRUPV RI ³GLJLWDO JROG´ OLNH (
-*ROG =HWWHU  ²%LWFRLQ ZDV VDLG WR EH GLIIHUHQW ,WV GLIIHUHQFH VWHPPHG IURP DW OHDVW WZR
-VRXUFHVILUVWWKDWLWZDVEDVHGRQDUHODWLYHO\QHZIRUPRIFU\SWRJUDSKLFVRIWZDUHWHFKQRORJ\FDOOHG
-D ³EORFNFKDLQ´ DQG VHFRQG WKDW WKURXJKRXW  %LWFRLQ KDG VN\URFNHWHG LQ LWV YDOXH UHODWLYH WR
-RIILFLDOZRUOGFXUUHQFLHVOLNHWKH86GROODU$WWKHHQGRIRQHFRXOGEX\DVLQJOH%LWFRLQIRU
-DURXQG86%\0D\WKDWRQH%LWFRLQZDVZRUWKXSZDUGRI86QHDUO\DQSHUFHQW
-JDLQIRUWKRVHIRUWXQDWHHQRXJKWRKDYHKHOGLWIRUILYHPRQWKV,Q1RYHPEHUDQG'HFHPEHURI
-%LWFRLQ¶VYDOXHEULHIO\H[FHHGHG86 ³+LVWRU\RI%LWFRLQ´ ,QMXVWXQGHUD\HDULQYHVWRUVZKR
-WLPHG WKHLU EX\LQJ DQG VHOOLQJ FRUUHFWO\ FRXOG KDYH PDGH DURXQG  SHUFHQW LQ SURILWV IDU
-H[FHHGLQJWKHSHUIRUPDQFHRIPRVWSHUKDSVHYHQDOOWUDGLWLRQDOLQYHVWPHQWV7KRVHZKRKDGERXJKW
-RU ³PLQHG´ %LWFRLQ HDUOLHU LQ LWV H[LVWHQFH WKH ILUVW FRLQV ZHUH FUHDWHG LQ  DQG VWDUWHG RXW DV
-HVVHQWLDOO\ZRUWKOHVV FRXOGDQGZHOOPD\KDYHUHDOL]HGJDLQVWKDWGZDUIHYHQWKHVH7KLVUHPDUNDEOH
-SHUIRUPDQFH WKUXVW %LWFRLQ LQWR WKH SXEOLF H\H HYHQWXDOO\ DWWUDFWLQJ QXPHURXV VWDUWXS SURMHFWV
-YHQWXUHFDSLWDOLVWVDQGLQYHVWRUV
-   %\IDUWKHPDMRULW\RILQWHUHVWLQ%LWFRLQFDPHIURPWHFKQRORJLVWVDQGWKRVHZKRIROORZDQGDGPLUH
-WKHZRUNRIWHFKQRORJLVWV7RWKRVHRIXVZKRZHUHZDWFKLQJ%LWFRLQZLWKDQH\HWRZDUGSROLWLFVDQG
-HFRQRPLFV WKRXJK VRPHWKLQJ IDU PRUH VWULNLQJ WKDQ %LWFRLQ¶V H[SORVLYH ULVH LQ YDOXH EHFDPH
-DSSDUHQWLQWKHQDPHRIWKLVQHZWHFKQRORJ\H[WUHPLVWLGHDVZHUHJDLQLQJIDUPRUHWUDFWLRQWKDQWKH\
-SUHYLRXVO\ KDG RXWVLGH RI WKH H[WUHPLVW OLWHUDWXUH WR ZKLFK WKH\ KDG ODUJHO\ EHHQ FRQILQHG 'RJPD
-SURSDJDWHGDOPRVWH[FOXVLYHO\E\IDUULJKWJURXSVOLNHWKH/LEHUW\/HDJXHWKH-RKQ%LUFK6RFLHW\WKH
-PLOLWLDPRYHPHQWDQGWKH7HD3DUW\FRQVSLUDF\WKHRULVWVOLNH$OH[-RQHVDQG'DYLG,FNHDQGWRD
-OHVVHUH[WHQWULJKWLVWRXWOHWVOLNHWKH)R[PHGLDJURXSDQGVRPHULJKWZLQJSROLWLFLDQVZDVQRZEHLQJ
-UHSHDWHGE\PDQ\ZKRVHHPHGQRWWRNQRZWKHRULJLQRIWKHLGHDVRUWKHIXQFWLRQVRIWKRVHLGHDVLQ
-FRQWHPSRUDU\SROLWLFV
-   7KHVHLGHDVDUHQRWVLPSO\KHWHURGR[RUFRQWUDULDQWKH\DUHSLHFHVRIDKROLVWLFZRUOGYLHZWKDW
-KDVEHHQGHOLEHUDWHO\GHYHORSHGDQGSURPXOJDWHGE\ULJKWZLQJLGHRORJXHV7RDQ\RQHDZDUHRIWKH
-KLVWRU\RIULJKWZLQJWKRXJKWLQWKH8QLWHG6WDWHVDQG(XURSHWKH\DUHVKRFNLQJO\IDPLOLDUWKDWFHQWUDO
-EDQNLQJVXFKDVWKDWSUDFWLFHGE\WKH86)HGHUDO5HVHUYHLVDGHOLEHUDWHSORWWR³VWHDOYDOXH´IURP
-WKHSHRSOHWRZKRPLWDFWXDOO\EHORQJVWKDWWKHZRUOGPRQHWDU\V\VWHPLVRQWKHYHUJHRILPPLQHQW
-FROODSVHGXHWRFHQWUDOEDQNLQJSROLFLHVHVSHFLDOO\IUDFWLRQDOUHVHUYHEDQNLQJWKDW³KDUG´FXUUHQFLHV
-VXFKDVJROGSURYLGHPHDQLQJIXOSURWHFWLRQDJDLQVWWKDWSXUSRUWHGFROODSVHWKDWLQIODWLRQLVDSORWWR
-VWHDOPRQH\IURPWKHPDVVHVDQGKDQGLWRYHUWRDVKDGRZ\FDEDORI³HOLWHV´ZKRRSHUDWHEHKLQGWKH
-VFHQHVDQGPRUHJHQHUDOO\WKDWWKHJRYHUQPHQWDODQGFRUSRUDWHOHDGHUVDQGZHDOWK\LQGLYLGXDOVZH
-DOONQRZDUH³FRQWUROOHG´E\WKRVHVDPH³HOLWHV´
+N THE EARLY 20108, and then especially throughout 2013, observers of digital culture began to reac nore and more about a new form of digital payment called Bitcoin. Although any number of digita yayment systems had already emerged—tfrom relatively straightforward tools for money transfer sucl is new Western Union services, online bill paying, and PayPal, to more exotic systems such a: Aberty Reserve (Langlois 2013), “beenz’ (Richardson 2001), and forms of “digital gold” like E- sold (Zetter 2009)—Bitcoin was said to be different. Its difference stemmed from at least tw sources: first, that it was based ona relatively new form of cryptographic software technology callec . “blockchain,” and second, that throughout 2013 Bitcoin had skyrocketed in its value relative tc »fficial world currencies like the U.S. dollar. At the end of 2012 one could buy a single Bitcoin fo: wound US$13. By May 2013, that one Bitcoin was worth upward of US$100, nearly an 800 percen xain for those fortunate enough to have held it for five months. In November and December of 201: 3itcoin’s value briefly exceeded US$1,200 (“History of Bitcoin’). In just under a year investors whc imed their buying and selling correctly could have made around 8,000 percent in profits, fai »xceeding the performance of most, perhaps even all, traditional investments. Those who had bough yr “mined” Bitcoin earlier in its existence (the first coins were created in 2009 and started out a: »ssentially worthless) could and well may have realized gains that dwarf even these. This remarkabl« yerformance thrust Bitcoin into the public eye, eventually attracting numerous start-up projects venture capitalists, and investors. By far the majority of interest in Bitcoin came from technologists and those who follow and admir« he work of technologists. To those of us who were watching Bitcoin with an eye toward politics anc >conomics, though, something far more striking than Bitcoin’s explosive rise in value became ipparent: in the name of this new technology, extremist ideas were gaining far more traction than the: yreviously had outside of the extremist literature to which they had largely been confined. Dogm: yropagated almost exclusively by far-right groups like the Liberty League, the John Birch Society, the nilitia movement, and the Tea Party, conspiracy theorists like Alex Jones and David Icke, and to < esser extent rightist outlets like the Fox media group and some right-wing politicians, was now bein; ‘epeated by many who seemed not to know the origin of the ideas, or the functions of those ideas 11 >ontemporary politics. These ideas are not simply heterodox or contrarian: they are pieces of a holistic worldview tha 1as been deliberately developed and promulgated by right-wing ideologues. To anyone aware of the ustory of right-wing thought in the United States and Europe, they are shockingly familiar: that centra yanking such as that practiced by the U.S. Federal Reserve is a deliberate plot to “steal value” fron he people to whom it actually belongs; that the world monetary system is on the verge of imminen -ollapse due to central banking policies, especially fractional reserve banking; that “hard” currencie: such as gold provide meaningful protection against that purported collapse; that inflation is a plot tc steal money from the masses and hand it over to a shadowy cabal of “elites” who operate behind the scenes; and more generally that the governmental and corporate leaders and wealthy individuals we ill know are “controlled” by those same “elites.” 
 
+JInderstanding how Bitcoin comes to embody these extremist ideas requires situating it within twc 
 
-8QGHUVWDQGLQJ KRZ %LWFRLQ FRPHV WR HPERG\ WKHVH H[WUHPLVW LGHDV UHTXLUHV VLWXDWLQJ LW ZLWKLQ WZR
-EURDGHU DQDO\WLFDO IUDPHZRUNV 7KH ILUVW RI WKHVH LV WKH SKHQRPHQRQ WKDW VFKRODUV FDOO
-F\EHUOLEHUWDULDQLVP 7KH FHQWUDO WH[WV GHVFULELQJ F\EHUOLEHUWDULDQLVP DUH %DUEURRN DQG &DPHURQ
-  DQG:LQQHU  IRUPRUHUHFHQWDFFRXQWVVHH7XUQHU  DVZHOODV*ROXPELD E
-F LQ SUHSDUDWLRQ  ,Q LWV PRVW EDVLF DQG OLPLWHG IRUP F\EHUOLEHUWDULDQLVP LV VRPHWLPHV
-VXPPDUL]HGDVWKHSULQFLSOHWKDW³JRYHUQPHQWVVKRXOGQRWUHJXODWHWKHLQWHUQHW´ 0DOFROP 7KLV
-EHOLHI ZDV DUWLFXODWHG ZLWK SDUWLFXODU IRUFH LQ WKH  ³'HFODUDWLRQ RI WKH ,QGHSHQGHQFH RI
-&\EHUVSDFH´ ZULWWHQ E\ WKH OLEHUWDULDQ DFWLYLVW *UDWHIXO 'HDG O\ULFLVW DQG (OHFWURQLF )URQWLHU
-)RXQGDWLRQIRXQGHU ())LVDOHDGLQJ³GLJLWDOULJKWV´DQGWHFKQRORJ\LQGXVWU\DGYRFDF\RUJDQL]DWLRQ
--RKQ3HUU\%DUORZZKLFKGHFODUHGWKDW³JRYHUQPHQWVRIWKHLQGXVWULDOZRUOG´DUH³QRWZHOFRPH´LQ
-DQG³KDYHQRVRYHUHLJQW\´RYHUWKHGLJLWDOUHDOP
-   ,QSUDFWLFHRSSRVLWLRQWR³JRYHUQPHQWUHJXODWLRQRIWKHLQWHUQHW´LVEHVWXQGHUVWRRGDVDFRUH DQG
-LQLPSRUWDQWZD\VYDJXH WHQHWDURXQGZKLFKFLUFXODWHJUHDWHUDQGJUHDWHUFODLPVIRUWKH³IUHHGRP´
-FUHDWHG E\ GLJLWDO WHFKQRORJ\ $W LWV PRVW H[SDQVLYH F\EHUOLEHUWDULDQLVP FDQ EH WKRXJKW RI DV
-VRPHWKLQJ OLNH D EHOLHI DFFRUGLQJ WR ZKLFK IUHHGRP ZLOO HPHUJH LQKHUHQWO\ IURP WKH LQFUHDVLQJ
-GHYHORSPHQWRIGLJLWDOWHFKQRORJ\DQGWKHUHIRUHHQWDLOVWKDWHIIRUWVWRLQWHUIHUHZLWKRUUHJXODWHWKDW
-GHYHORSPHQWPXVWEHDQWLWKHWLFDOWRIUHHGRP²DOWKRXJKZKDW³IUHHGRP´PHDQVLQWKLVFRQWH[WLVPXFK
-OHVVFOHDUWKDQLWPD\VHHP$V:LQQHU ± SXWVLWWREHDF\EHUOLEHUWDULDQLVWREHOLHYH
-WKDW³WKHG\QDPLVPRIGLJLWDOWHFKQRORJ\LVRXUWUXHGHVWLQ\7KHUHLVQRWLPHWRSDXVHUHIOHFWRUDVN
-IRUPRUHLQIOXHQFHLQVKDSLQJWKHVHGHYHORSPHQWV,QWKHZULWLQJVRIF\EHUOLEHUWDULDQVWKRVHDEOH
-WRULVHWRWKHFKDOOHQJHDUHWKHFKDPSLRQVRIWKHFRPLQJPLOOHQQLXP7KHUHVWDUHIDWHGWRODQJXLVKLQ
-WKHGXVW´
-   &\EHUOLEHUWDULDQLVP LV WKXV QRW WR EH XQGHUVWRRG DV WKH EHOLHI V\VWHP RI VRPHRQH ZKR RYHUWO\
-GHVFULEHV WKHPVHOYHV DV D SROLWLFDO OLEHUWDULDQ²D PHPEHU RI D OLEHUWDULDQ SDUW\ RU VRPHRQH ZKR
-YRWHV IRU OLEHUWDULDQ FDQGLGDWHV²DQG ZKR VXSSRUWV RU SURPRWHV WKH GHYHORSPHQW RI GLJLWDO
-WHFKQRORJ\6RPHRQHZKRILWVWKLVGHVFULSWLRQZRXOGOLNHO\KDYHF\EHUOLEHUWDULDQEHOLHIVRIFRXUVH
- DQGDIHZSXQGLWVDVVRFLDWHGZLWKWKH.RFKEURWKHUV±IXQGHG0HUFDWXV&HQWHUGRH[SOLFLWO\HPEUDFH
-WKHODEHOVHH7KLHUHUDQG6]RND %XWWKHDQDO\VLVRIF\EHUOLEHUWDULDQLVPLVJHWWLQJDWVRPHWKLQJ
-VXEWOHU WKH ZD\ WKDW D VHW RI VORJDQV DQG EHOLHIV DVVRFLDWHG ZLWK WKH VSUHDG RI GLJLWDO WHFKQRORJ\
-LQFRUSRUDWH FULWLFDO SDUWV RI D ULJKWZLQJ ZRUOGYLHZ HYHQ DV WKH\ PDQLIHVW D VXUIDFH UKHWRULFDO
-FRPPLWPHQWWRYDOXHVWKDWGRQRWLPPHGLDWHO\DSSHDUWRFRPHIURPWKHULJKW
-   &HUWDLQO\ PDQ\ OHDGHUV LQ WKH GLJLWDO WHFKQRORJ\ LQGXVWULHV DQG TXLWH D IHZ OHDGHUV ZKR GR QRW
-ZRUNIRUFRUSRUDWLRQVRSHQO\GHFODUHWKHLUDGKHUHQFHWROLEHUWDULDQRURWKHUULJKWZLQJLGHRORJLHV
--XVWDEULHIOLVWRIWKHVHLQFOXGHVILJXUHVOLNH(ORQ0XVN3HWHU7KLHO(ULF5D\PRQG-LPP\:DOHV
-(ULF 6FKPLGW DQG 7UDYLV .DODQLFN )XUWKHUPRUH WKH QXPEHU RI OHDGHUV ZKR GHPXU IURP VXFK
-SROLWLFDO SRLQWV RI YLHZ LV VPDOO DQG WKHLU GHPXUUDOV DUH RIWHQ VKDOORZ %XW WKH JURXS RI SHRSOH
-ZKRVH EHOLHIV GHVHUYH WR EH ODEHOHG ³F\EHUOLEHUWDULDQ´ LV PXFK ODUJHU WKDQ WKLV 7KH FRUH WHQHW RI
-F\EHUOLEHUWDULDQLVP²WKHLQVLVWHQFHWKDW ³JRYHUQPHQWV VKRXOG QRW UHJXODWH WKH LQWHUQHW´²DSSHDUV WR
-EH FRPSDWLEOH ZLWK D ZLGH UDQJH RI SROLWLFDO YLHZSRLQWV $V ())¶V VHQLRU JOREDO SROLF\ DQDO\VW
--HUHP\0DOFROP  KDVZULWWHQ³(YHQSROLWLFDOO\SURJUHVVLYHDFWLYLVWVDUHLQFOLQHGWREHPRUH
-GLVWUXVWIXO RI JRYHUQPHQWDO LQWHUYHQWLRQ RQOLQH WKDQ RIIOLQH LQ DQ H[SUHVVLRQ RI ,QWHUQHW
-H[FHSWLRQDOLVP´
-   $V:LQQHUPDNHVFOHDULQKLVSDSHUWKHFULWLFDOSRLQWDERXWF\EHUOLEHUWDULDQLVPDVDEHOLHI
-V\VWHPLVWKDWLW³OLQNVHFVWDWLFHQWKXVLDVPIRUHOHFWURQLFDOO\PHGLDWHGIRUPVRIOLYLQJZLWKUDGLFDO
-ULJKWZLQJ OLEHUWDULDQ LGHDV DERXW WKH SURSHU GHILQLWLRQ RI IUHHGRP VRFLDO OLIH HFRQRPLFV DQG
-SROLWLFV´   +LV HPSKDVLV RQ ³SURSHU´ GHILQLWLRQ LV WKH NH\ WR :LQQHU¶V DQDO\VLV SHRSOH ZKR
-VXEVFULEH WR F\EHUOLEHUWDULDQLVP IRU WKH PRVW SDUW GR QRW GHVFULEH WKHPVHOYHV DV F\EHUOLEHUWDULDQV
-DQGPD\QRWFDOOWKHPVHOYHV³OLEHUWDULDQV´RUHYHQLGHQWLI\ZLWKULJKWZLQJSROLWLFDOSDUWLHV,QVWHDG
-DQG DW OHDVW VRPHWLPHV ZLWKRXW H[SOLFLWO\ NQRZLQJ LW WKH\ DFFHSW GHILQLWLRQV RI FHUWDLQ IXQGDPHQWDO
-WHUPVWKDWFRPHIURPWKHSROLWLFDOULJKWHVSHFLDOO\ZKHQGLJLWDOWHFKQRORJLHVDUHDWLVVXH
-   7KH PRVW LPSRUWDQW RI WKHVH UHGHILQHG WHUPV WKDW RFFXU UHSHDWHGO\ LQ GLVFXVVLRQV RI %LWFRLQ DUH
-³IUHHGRP´ DQG ³JRYHUQPHQW´ ERWK RI ZKLFK DUH FHQWUDO WR DOO F\EHUOLEHUWDULDQ DQG SROLWLFDO
-OLEHUWDULDQUKHWRULF5HIHUULQJWRWKHPDQLIHVWR³&\EHUVSDFHDQGWKH$PHULFDQ'UHDP$0DJQD
-&DUWDIRUWKH.QRZOHGJH$JH´E\(VWKHU'\VRQ*HRUJH*LOGHU*HRUJH.H\ZRUWKDQG$OYLQ7RIIOHU
-:LQQHU  ZULWHV
+yroader analytical trameworks. Ihe tirst of these 1s the phenomenon that scholars cal -~yberlibertarianism. The central texts describing cyberlibertarianism are Barbrook and Camero1 1996) and Winner (1997); for more recent accounts see Turner (2008) as well as Golumbia (2013b 1013c, in preparation). In its most basic and limited form, cyberlibertarianism is sometime: summarized as the principle that “governments should not regulate the internet” (Malcolm 2013). Thi: yelief was articulated with particular force in the 1996 “Declaration of the Independence o -yberspace” written by the libertarian activist, Grateful Dead lyricist, and Electronic Frontie: *oundation founder (EFF is a leading “digital rights” and technology industry advocacy organization lohn Perry Barlow, which declared that “governments of the industrial world” are “not welcome” 11 ind “have no sovereignty” over the digital realm. In practice, opposition to “government regulation of the internet” is best understood as a core (anc n important ways vague) tenet, around which circulate greater and greater claims for the “freedon’ sreated by digital technology. At its most expansive, cyberlibertarianism can be thought of a: something like a belief according to which freedom will emerge inherently from the increasing levelopment of digital technology, and therefore entails that efforts to interfere with or regulate tha Jevelopment must be antithetical to freedom—although what “freedom” means in this context is mucl ess clear than it may seem. As Winner (1997, 14—15) puts it, to be a cyberlibertarian is to believe hat “the dynamism of digital technology is our true destiny. There is no time to pause, reflect or asl or more influence in shaping these developments. . . . In the writings of cyberlibertarians those abl« o rise to the challenge are the champions of the coming millennium. The rest are fated to languish 11 he dust.” Cyberlibertarianism is thus not to be understood as the belief system of someone who overth lescribes themselves as a political libertarian—a member of a libertarian party or someone wh«c votes for libertarian candidates—and who supports or promotes the development of digita echnology. Someone who fits this description would likely have cyberlibertarian beliefs, of cours« and a few pundits associated with the Koch brothers—funded Mercatus Center do explicitly embrac« he label; see Thierer and Szoka 2009). But the analysis of cyberlibertarianism is getting at somethings subtler: the way that a set of slogans and beliefs associated with the spread of digital technolog: ncorporate critical parts of a right-wing worldview even as they manifest a surface rhetorica >ommitment to values that do not immediately appear to come from the right. Certainly, many leaders in the digital technology industries, and quite a few leaders who do no vork for corporations, openly declare their adherence to libertarian or other right-wing ideologies lust a brief list of these includes figures like Elon Musk, Peter Thiel, Eric Raymond, Jimmy Wales 2ric Schmidt, and Travis Kalanick. Furthermore, the number of leaders who demur from sucl 0litical points of view is small, and their demurrals are often shallow. But the group of peopl: whose beliefs deserve to be labeled “cyberlibertarian” is much larger than this. The core tenet o >yberlibertarianism—the insistence that “governments should not regulate the internet’—appears tc ye compatible with a wide range of political viewpoints. As EFF’s senior global policy analys leremy Malcolm (2013) has written, “Even politically progressive activists are inclined to be mor« listrustful of governmental intervention online than offline, in an expression of Interne >xceptionalism.” As Winner makes clear in his 1997 paper, the critical point about cyberlibertarianism as a belie system is that it “links ecstatic enthusiasm for electronically mediated forms of living with radical ight-wing libertarian ideas about the proper definition of freedom, social life, economics, anc olitics” (14). His emphasis on “proper” definition is the key to Winner’s analysis: people whc 
 
-           &KDUDFWHULVWLF RI WKLV ZD\ RI WKLQNLQJ LV D WHQGHQF\ WR FRQIODWH WKH DFWLYLWLHV RI
-           IUHHGRPVHHNLQJ LQGLYLGXDOV ZLWK WKH RSHUDWLRQV RI HQRUPRXV SURILWVHHNLQJ
-           EXVLQHVVILUPV,QWKH³0DJQD&DUWDIRUWKH.QRZOHGJH$JH´FRQFHSWVRIULJKWV
-           IUHHGRPV DFFHVV DQG RZQHUVKLS MXVWLILHG DV DSSURSULDWH WR LQGLYLGXDOV DUH
-           PDUVKDOHGWRVXSSRUWWKHPDFKLQDWLRQVRIHQRUPRXVWUDQVQDWLRQDOILUPV:HPXVW
-           UHFRJQL]HWKHPDQLIHVWRDUJXHVWKDW³*RYHUQPHQWGRHVQRWRZQF\EHUVSDFHWKH
-           SHRSOHGR´2QHPLJKWUHDGWKLVDVDVXJJHVWLRQWKDWF\EHUVSDFHLVDFRPPRQVLQ
-           ZKLFK SHRSOH KDYH VKDUHG ULJKWV DQG UHVSRQVLELOLWLHV %XW WKDW LV GHILQLWHO\ QRW
-           ZKHUHWKHZULWHUVFDUU\WKHLUUHDVRQLQJ
+subscribe to cyberlibertariamism tor the most part do not describe themselves as cyberlibertarian: ind may not call themselves “libertarians” or even identify with right-wing political parties. Instead ind at least sometimes without explicitly knowing it, they accept definitions of certain fundamenta erms that come from the political right, especially when digital technologies are at issue. The most important of these redefined terms that occur repeatedly in discussions of Bitcoin are ‘freedom’ and “government,” both of which are central to all cyberlibertarian and politica ibertarian rhetoric. Referring to the 1994 manifesto “Cyberspace and the American Dream: A Magnz -arta for the Knowledge Age” by Esther Dyson, George Gilder, George Keyworth, and Alvin Toffler Winner (1997, 16) writes: Characteristic of this way of thinking is a tendency to conflate the activities of freedom-seeking individuals with the operations of enormous, profit-seeking business firms. In the “Magna Carta for the Knowledge Age,” concepts of rights, freedoms, access, and ownership justified as appropriate to individuals are marshaled to support the machinations of enormous transnational firms. We must recognize, the manifesto argues, that “Government does not own cyberspace, the people do.” One might read this as a suggestion that cyberspace is a commons in which people have shared rights and responsibilities. But that is definitely not where the writers carry their reasoning. [The “freedom” these writers advocate turns out, in a way they themselves do not alway: icknowledge, to be identical with the use of “free” in the phrase “free market”: that is, free fron sovernment regulation. Building on the foundational, often unspoken rightist beliefs about the uniquel: yppressive nature of governmental power, they “advocate greater concentrations of power over the sonduits of information which they are confident will create an abundance of cheap, sociall ivailable bandwidth. Today developments of this kind are visible in the corporate mergers that have yroduced a tremendous concentration of control over not only the conduits of cyberspace but the -ontent it carries” (16). Indeed, in the nearly two decades since Winner wrote, this is exactly what we« rave seen happen; in the name of vague slogans like “internet freedom’ (Powers and Jablonski 2015) vealth and power have concentrated enormously (Hardoon 2015; Piketty 2014) as digital technolog: ias spread all around the globe. From a cyberlibertarian perspective, governments—all/ governments, not simply whatever curren ‘bad” government we describe as doing wrong—exist only to curtail the freedom that is inherenth legative (in the classic sense of “negative” vs. “positive” freedoms developed in Berlin 1958): to be ‘free’ simply is to be “free” from government. The core cyberlibertarian belief that “government: should not regulate the internet” really makes sense only if it is true that government exists to curtai ‘ather than to promote human freedom. Yet in most non-rightist political theory, government exists 11 10 small part to promote human freedom. 
 
-7KH ³IUHHGRP´ WKHVH ZULWHUV DGYRFDWH WXUQV RXW LQ D ZD\ WKH\ WKHPVHOYHV GR QRW DOZD\V
-DFNQRZOHGJH WR EH LGHQWLFDO ZLWK WKH XVH RI ³IUHH´ LQ WKH SKUDVH ³IUHH PDUNHW´ WKDW LV IUHH IURP
-JRYHUQPHQWUHJXODWLRQ%XLOGLQJRQWKHIRXQGDWLRQDORIWHQXQVSRNHQULJKWLVWEHOLHIVDERXWWKHXQLTXHO\
-RSSUHVVLYHQDWXUHRIJRYHUQPHQWDOSRZHUWKH\³DGYRFDWHJUHDWHUFRQFHQWUDWLRQVRISRZHURYHUWKH
-FRQGXLWV RI LQIRUPDWLRQ ZKLFK WKH\ DUH FRQILGHQW ZLOO FUHDWH DQ DEXQGDQFH RI FKHDS VRFLDOO\
-DYDLODEOHEDQGZLGWK7RGD\GHYHORSPHQWVRIWKLVNLQGDUHYLVLEOHLQWKHFRUSRUDWHPHUJHUVWKDWKDYH
-SURGXFHG D WUHPHQGRXV FRQFHQWUDWLRQ RI FRQWURO RYHU QRW RQO\ WKH FRQGXLWV RI F\EHUVSDFH EXW WKH
-FRQWHQWLWFDUULHV´  ,QGHHGLQWKHQHDUO\WZRGHFDGHVVLQFH:LQQHUZURWHWKLVLVH[DFWO\ZKDWZH
-KDYHVHHQKDSSHQLQWKHQDPHRIYDJXHVORJDQVOLNH³LQWHUQHWIUHHGRP´ 3RZHUVDQG-DEORQVNL 
-ZHDOWKDQGSRZHUKDYHFRQFHQWUDWHGHQRUPRXVO\ +DUGRRQ3LNHWW\ DVGLJLWDOWHFKQRORJ\
-KDVVSUHDGDOODURXQGWKHJOREH
-   )URPDF\EHUOLEHUWDULDQSHUVSHFWLYHJRYHUQPHQWV²DOOJRYHUQPHQWVQRWVLPSO\ZKDWHYHUFXUUHQW
-³EDG´JRYHUQPHQWZHGHVFULEHDVGRLQJZURQJ²H[LVWRQO\WRFXUWDLOWKHIUHHGRPWKDWLVLQKHUHQWO\
-QHJDWLYH LQWKHFODVVLFVHQVHRI³QHJDWLYH´YV³SRVLWLYH´IUHHGRPVGHYHORSHGLQ%HUOLQ WREH
-³IUHH´VLPSO\LV WR EH ³IUHH´ IURP JRYHUQPHQW 7KH FRUH F\EHUOLEHUWDULDQ EHOLHI WKDW ³JRYHUQPHQWV
-VKRXOGQRWUHJXODWHWKHLQWHUQHW´UHDOO\PDNHVVHQVHRQO\LILWLVWUXHWKDWJRYHUQPHQWH[LVWVWRFXUWDLO
-UDWKHUWKDQWRSURPRWHKXPDQIUHHGRP<HWLQPRVWQRQULJKWLVWSROLWLFDOWKHRU\JRYHUQPHQWH[LVWVLQ
-QRVPDOOSDUWWRSURPRWHKXPDQIUHHGRP
+[heir advocates make it sound like, and may often believe that, cyberlibertarian commitments ar« ibout Jimiting power, but this is only true so long as we construe “government” as equivalent witl ‘power,” and “the internet” as being oppositional to power, rather than, at least in significant part yeing strongly aligned with it. The most direct way to arrive at this perspective is to accept the lefinition of government developed by the far right, especially anarcho-capitalist theorists like 
 
+Viurray Kothbard and David Friedman, and echoed by politicians like Ronald Keagan and Margare Thatcher. According to this view, “government” is inherently totalitarian and tyrannical; indeed ‘government’ and “tyranny” are essentially synonyms. 
 
-7KHLU DGYRFDWHV PDNH LW VRXQG OLNH DQG PD\ RIWHQ EHOLHYH WKDW F\EHUOLEHUWDULDQ FRPPLWPHQWV DUH
-DERXWOLPLWLQJSRZHUEXWWKLVLVRQO\WUXHVRORQJDVZHFRQVWUXH³JRYHUQPHQW´DVHTXLYDOHQWZLWK
-³SRZHU´ DQG ³WKH LQWHUQHW´ DV EHLQJ RSSRVLWLRQDO WR SRZHU UDWKHU WKDQ DW OHDVW LQ VLJQLILFDQW SDUW
-EHLQJ VWURQJO\ DOLJQHG ZLWK LW 7KH PRVW GLUHFW ZD\ WR DUULYH DW WKLV SHUVSHFWLYH LV WR DFFHSW WKH
-GHILQLWLRQ RI JRYHUQPHQW GHYHORSHG E\ WKH IDU ULJKW HVSHFLDOO\ DQDUFKRFDSLWDOLVW WKHRULVWV OLNH
-0XUUD\5RWKEDUGDQG'DYLG)ULHGPDQDQGHFKRHGE\SROLWLFLDQVOLNH5RQDOG5HDJDQDQG0DUJDUHW
-7KDWFKHU $FFRUGLQJ WR WKLV YLHZ ³JRYHUQPHQW´ LV LQKHUHQWO\ WRWDOLWDULDQ DQG W\UDQQLFDO LQGHHG
-³JRYHUQPHQW´DQG³W\UDQQ\´DUHHVVHQWLDOO\V\QRQ\PV
-   &\EHUOLEHUWDULDQ GRFWULQH GLG QRW GHYHORS LQ D YDFXXP ,W ILWV LQWR DQG DW EHVW GRHV QRWKLQJ WR
-UHVLVWWKHSURIRXQGULJKWZDUGGULIWHYLGHQWLQVRPXFKRIFRQWHPSRUDU\SROLWLFV7KLVEHFRPHVFOHDU
-ZKHQ ZH H[DPLQH WKH H[SOLFLW SROLWLFDO DQG HFRQRPLF GRFWULQH DQG SUDFWLFH WKDW LV XVXDOO\ FDOOHG
-OLEHUWDULDQLVPLQWKH8QLWHG6WDWHV KHUHPHDQLQJWKHSROLWLFDOPRYHPHQWWKDWLVH[SOLFLWO\DGYRFDWHG
-E\ ULJKWZLQJ SDUWLVDQ LQVWLWXWLRQV VXFK DV WKH &DWR ,QVWLWXWH WKH +HDUWODQG )RXQGDWLRQ WKH 0LVHV
-,QVWLWXWHDQGRWKHUVDVZHOODVDVWURWXUIPRYHPHQWVOLNHWKH7HD3DUW\DQGSROLWLFDOILJXUHVOLNH5RQ
-3DXODQG5DQG3DXO DQGLWVFRQQHFWLRQVZLWKWKHOHVVH[SOLFLWGRFWULQHDQDO\VWVFDOOQHROLEHUDOLVP
-%RWK RI WKHVH GRFWULQHV RU GRJPDV VWHP IURP WKH ZULWLQJV RI FRUH ULJKWZLQJ WKLQNHUV VXFK DV
-)ULHGULFK$XJXVWYRQ+D\HN/XGZLJYRQ0LVHV0LOWRQ)ULHGPDQ5RWKEDUGDQGRWKHUVDVZHOODV
-WKHLUPRUHUHFHQWIROORZHUV7KHPRVWWUHQFKDQWFULWLFRIWKLVZRUNRQZKRVHUHVHDUFKP\DQDO\VLV
-UHOLHV LQ SDUWLFXODU LV WKH HFRQRPLF KLVWRULDQ DQG WKHRULVW 3KLOLS 0LURZVNL ZKRVH 1HYHU /HW D
-6HULRXV&ULVLV*RWR:DVWH  UHPDLQVWKHVLQJOHPRVWFRPSUHKHQVLYHDFFRXQWRIZKDWKHFDOOV
-WKH 1HROLEHUDO 7KRXJKW &ROOHFWLYH DQG WKH QHDUO\ LGHQWLFDO 0RQW 3HOHULQ 6RFLHW\ 036  RI ZKLFK
-+D\HNZDVWKHIRXQGLQJSUHVLGHQW
-   0LURZVNLDORQJZLWKVRPHRIKLVFROOHDJXHVKDVH[SODLQHGZLWKSDUWLFXODUFRJHQF\KRZ+D\HN
-DQG RWKHUV GLVVHPLQDWHG QHROLEHUDO GRFWULQH )URP VRPHZKDW GLIIHUHQW DQJOHV ZULWHUV OLNH &KLS
-%HUOHW   %HUOHW DORQJ ZLWK 0DWWKHZ /\RQV   &ODLUH &RQQHU   6DUD 'LDPRQG
-   0LFKDHO 3HUHOPDQ   -LOO /HSRUH   DQG WKH ZULWHUV LQ )ODQGHUV¶V HGLWHG YROXPH
-  JLYHXVWKRURXJKO\GRFXPHQWHGDFFRXQWVRIKRZWKRVHZLGHUVSKHUHVRIULJKWZLQJSROLWLFDO
-WKRXJKWDQGSUDFWLFHRSHUDWHGLVWULEXWHGDPRQJDFWRUVZKRVHRYHUWDGKHUHQFHWR036GRFWULQHFDQ
-YDU\ZLGHO\WKRXJKWKH\WHQGWREHIRXQGIDUPRUHRQWKHULJKWWKDQWKHOHIW
-   7KHMRXUQDOLVW0DUN$PHVH[SODLQVKRZDSSDUHQWO\GLVSDUDWHSROLWLFDOLQWHUHVWVHVSHFLDOO\LQWKH
-FRQWH[W RI 6LOLFRQ 9DOOH\ FDQ EH VHHQ WR ZRUN WRJHWKHU 5HIOHFWLQJ RQ VRPH VXUSULVLQJ DOOLDQFHV
-EHWZHHQ WRGD\¶V WHFKQRORJ\ JLDQWV DQG WKH OREE\LQJ JURXSV DQG RI WKH ZRUOG¶V PDMRU H[WUDFWLYH
-UHVRXUFHFRPSDQLHV$PHV  ZULWHVWKDW
+Cyberlibertarian doctrine did not develop in a vacuum. It fits into, and at best does nothing tc ‘esist, the profound rightward drift evident in so much of contemporary politics. This becomes cleai when we examine the explicit political and economic doctrine and practice that is usually callec ibertarianism in the United States (here meaning the political movement that is explicitly advocatec »y right-wing partisan institutions such as the Cato Institute, the Heartland Foundation, the Mise: nstitute, and others, as well as astroturf movements like the Tea Party and political figures like Rot aul and Rand Paul) and its connections with the less explicit doctrine analysts call neoliberalism 30th of these doctrines or dogmas stem from the writings of core right-wing thinkers such a: *riedrich August von Hayek, Ludwig von Mises, Milton Friedman, Rothbard, and others, as well a: heir more recent followers. The most trenchant critic of this work, on whose research my analysi: ‘elies in particular, is the economic historian and theorist Philip Mirowski, whose Never Let yerious Crisis Go to Waste (2014) remains the single most comprehensive account of what he call: he Neoliberal Thought Collective and the nearly identical Mont Pelerin Society (MPS), of whicl dayek was the founding president. Mirowski, along with some of his colleagues, has explained with particular cogency how Hayel ind others disseminated neoliberal doctrine. From somewhat different angles, writers like Chiy 3erlet (2009), Berlet along with Matthew Lyons (2000), Claire Conner (2013), Sara Diamonc 1995), Michael Perelman (2007), Jill Lepore (2010), and the writers in Flanders’s edited volume 2010) give us thoroughly documented accounts of how those wider spheres of right-wing politica hought and practice operate, distributed among actors whose overt adherence to MPS doctrine cat vary widely, though they tend to be found far more on the right than the left. The journalist Mark Ames explains how apparently disparate political interests, especially in the ontext of Silicon Valley, can be seen to work together. Reflecting on some surprising alliance: yetween today’s technology giants and the lobbying groups and of the world’s major extractive ‘esource companies, Ames (2015) writes that 
 
-           HYHQLIZHVWLOOJLYH*RRJOHDQG)DFHERRNWKHEHQHILWRIWKHGRXEWDQGDOORZWKDW
-           WKHLU LQYHVWPHQWV LQ WKH &DWR ,QVWLWXWH DQG WKH &RPSHWLWLYH (QWHUSULVH ,QVWLWXWH
-           ZHUHQ¶W GLUHFWO\ PRWLYDWHG E\ NLOOLQJ 2EDPDFDUH DQG WKURZLQJ PLOOLRQV RI
-           VWUXJJOLQJ$PHULFDQVEDFNLQWRWKHUDQNVRIWKHXQLQVXUHGDQGSUHPDWXUHO\G\LQJ
-           ²QHYHUWKHOHVVWKH\DUHDFFHVVRULHVDQGYHU\FRQVFLRXVO\VR%LJ7HFK¶VODUJHU
-           SROLWLFDO JRDOV DUH LQ DOLJQPHQW ZLWK WKH ROG H[WUDFWLRQ LQGXVWU\¶V XQGHUPLQLQJ
-           WKHFRXQWHUYDLOLQJSRZHURIJRYHUQPHQWDQGSXEOLFSROLWLFVWRZHDNHQLWVDELOLW\
-           WRLPSHGHWKHLUJURZLQJGRPLQDQFHRYHUWKHLUSRUWLRQVRIWKHHFRQRP\DQGWRWD[
-           WKHLUREVFHQHVWRUHVRIFDVK
-             *RRJOH²OLNH )DFHERRN OLNH .RFK ,QGXVWULHV²ZDQWV D JRYHUQPHQW WKDW¶V
-           VWURQJ HQRXJK WR HQIRUFH LWV GRPLQDQW SULYDWH SRZHU RYHU WKH HFRQRP\ DQG
-           FLWL]HQVDQGSURWHFWLWVZHDOWKEXWWRREURNHQDQGWRRDOLHQDWHGIURPWKHSXEOLFWR
-           DGHTXDWHO\ UHSUHVHQW WKH SXEOLF LQWHUHVW DJDLQVW WKHLU GRPLQHHULQJ PRQRSROLVWLF
-           SRZHU
-,Q WKLV ZD\ PXFK ULJKWZLQJ GLVFRXUVH HYHQ ZKHQ LW DSSHDUV WR EH IRFXVHG RQ LVVXHV WKDW DUH QRW
-SXUHO\HFRQRPLFWXUQVRXWWRZRUNH[WUHPHO\ZHOOIRUWKHPRVWFRQFHQWUDWHGVRXUFHVRIFDSLWDODQG
-SRZHULQRXUZRUOG
-   3RZHULVRQHRIWKHFHQWUDOVXEMHFWVIRUSROLWLFDODQDO\VLVDQGSHUKDSVWKHFHQWUDOVXEMHFWZKRKDV
-SRZHUZKRZDQWVSRZHUZKDWWKHSHUVSHFWLYHVWKRVHZKRKDYHDQGZDQWSRZHUDUHRQWKHFUHDWLRQ
-DQGPDLQWHQDQFHRIPHWKRGVIRUWKHPDQDJHPHQWRISRZHU:HPLJKWVD\WKDWULJKWZLQJSROLWLFVVLGHV
-HPRWLRQDOO\DQGSUDFWLFDOO\ZLWKSRZHU²LWLGHQWLILHVZLWKSRZHUDQGYLDWKLVLGHQWLILFDWLRQZRUNVWR
-HQVXUHWKDWQRERG\LQWHUIHUHVZLWKWKHFRQFHQWUDWLRQDQGH[HUFLVHRISRZHU2QWKLVYLHZOHIWZLQJ
-SROLWLFV LV VSHFLILFDOO\ IRFXVHG RQ WKH OLPLWDWLRQ RI SRZHU RQ PHFKDQLVPV IRU GLVWULEXWLQJ SRZHU
-HTXLWDEO\ DQG RQ WKH H[FHVVHV WKDW DOPRVW LQHYLWDEO\ HPHUJH ZKHQ SRZHU LV DOORZHG WR JURZ
-XQFKHFNHG
-   5DWKHUWKDQDEDODQFHRISRZHUVDQGUHJXODUHOHFWLRQVWRFXUEWKHLQKHUHQWSRVVLELOLW\RIDEXVHRI
-SRZHUWKHF\SKHUSXQNVDQGFU\SWRDQDUFKLVWVDFFHSWRIWHQZLWKRXWDSSHDULQJHYHQWRUHDOL]HLWWKH
-IDUULJKWOLEHUWDULDQDQDUFKRFDSLWDOLVWGHILQLWLRQRIJRYHUQPHQWWKDWH[WHQGVIURPWKH*HUPDQVRFLDO
-WKHRULVW 0D[ :HEHU ZKR IDPRXVO\ DQG WHQGHQWLRXVO\ GHILQHG WKH VWDWH DV D ³PRQRSRO\ RI WKH
-OHJLWLPDWHXVHRISK\VLFDOIRUFHZLWKLQDJLYHQWHUULWRU\´VHH:HEHUVHHDOVR*LGGHQV
-IRUDWKRURXJKFULWLTXHRI:HEHU¶VGHILQLWLRQ WR5RQDOG5HDJDQ¶VLQDXJXUDODGGUHVVRILQZKLFK
-KHIDPRXVO\FODLPHGWKDW³JRYHUQPHQWLVQRWWKHVROXWLRQWRRXUSUREOHPJRYHUQPHQWLVWKHSUREOHP´
-,Q :K\ *RYHUQPHQW ,V WKH 3UREOHP   0LOWRQ )ULHGPDQ D NH\ SOD\HU LQ WKH FUHDWLRQ RI
-QHROLEHUDOHFRQRPLFGRFWULQHPDNHVWKHVDPHFDVHDWJUHDWHUOHQJWK
-   7KHFOHDUHVWDUWLFXODWLRQRIWKHVHYLHZVLVIRXQGLQWKHZRUNRIDUFKULJKWZLQJWKLQNHUDQG&DWR
-)RXQGDWLRQFRIRXQGHU0XUUD\5RWKEDUG,QDQHVVD\WLWOHG³$QDWRP\RIWKH6WDWH´ILUVWSXEOLVKHGLQ
-WKH  YROXPH (JDOLWDULDQLVP DV D 5HYROW DJDLQVW 1DWXUH 5RWKEDUG DEUXSWO\ GLVPLVVHV ZLWK
-DOPRVW WKH HQWLUHW\ RI SROLWLFDO WKHRU\ SULRU WR +D\HN ZKLOH WDNLQJ +D\HN HYHQ IDUWKHU WKDQ KH ZDV
-ZLOOLQJWRJRDWOHDVWLQSULQW$UJXDEO\WKHSRVLWLRQ5RWKEDUGGHYHORSVLVDPRQJWKHIDUWKHVWWRWKH
-SROLWLFDOULJKWRIIHUHGLQ:HVWHUQGLVFRXUVHZLWKWKHH[FHSWLRQRIWKRVHZKRH[SOLFLWO\LGHQWLI\ZLWK
-IDVFLVP³:HPXVWWKHUHIRUHHPSKDVL]HWKDWµZH¶DUHQRWWKHJRYHUQPHQWWKHJRYHUQPHQWLVQRWµXV¶
-7KH JRYHUQPHQW GRHV QRW LQ DQ\ DFFXUDWH VHQVH µUHSUHVHQW¶ WKH PDMRULW\ RI WKH SHRSOH´ 5RWKEDUG
- :LWKQRVXSSRUWLQJDUJXPHQWRUDQDO\VLV5RWKEDUGGLVPLVVHVQHDUO\DOOWKHSROLWLFDOWKHRU\
-RQZKLFKGHPRFUDWLFUXOHVDUHEDVHG HYHQWKHPRQDUFKLVW7KRPDV+REEHVWKRXJKWWKDWWKHVRYHUHLJQ
-UHSUHVHQWHG WKH SHRSOH RYHU ZKRP KH UXOHG LQ DQ DEVWUDFW VHQVH  DQG WKH HQWLUH WKHRU\ RI
-UHSUHVHQWDWLYHGHPRFUDF\
-   $WWKHLUOLPLW²DOLPLWWKDWLVRIWHQVXUSDVVHGLQFXUUHQWF\SKHUSXQNDQGFU\SWRDQDUFKLVWUKHWRULF
-DQG SUDFWLFH²WKHVH YLHZV VXJJHVW EL]DUUHO\ WKDW RQO\ JRYHUQPHQW LV FDSDEOH RI YLROHQFH DQG WKDW
-HYHQZKHQSULYDWHLQVWLWXWLRQVDQGHQWHUSULVHVHQJDJHLQZKDWDSSHDUVWREHSK\VLFDOYLROHQFHLWLVLQ
-VRPHVHQVHRIDGLIIHUHQWRUGHUWKDQWKDWSUDFWLFHGE\JRYHUQPHQWV(YHQPRUHEL]DUUHO\WKHVHYLHZV
-HQWDLOWKDWGHPRFUDWLFJRYHUQPHQWOLHVDERXWWKHRQHWKLQJWKDWGRHVLQIDFWGLVWLQJXLVKLWIURPRWKHU
-IRUPVRISRZHU²WKDWLWLVGLUHFWO\DFFRXQWDEOHIRULWVDFWLRQVWRWKHSHRSOHIURPZKRPLWGUDZVLWV
-SRZHU²ZKLOHVLPXOWDQHRXVO\HQWDLOLQJWKDWSRZHUGHULYHGIURPFDSLWDODQGPDUNHWVLVDFFRXQWDEOH
-WRFLWL]HQV:RUVHVWLOOLWVXJJHVWVWKDWWKLVPDUNHWEDVHGIRUPRIDFFRXQWDELOLW\GRHVQRWPHUHO\WUXPS
-WKHHOHFWRUDODQGOHJDODFFRXQWDELOLW\EXLOWLQWRUHSUHVHQWDWLYHJRYHUQPHQWEXWDOVRVKLHOGVFRUSRUDWH
-IRUFHVIURPWKHSROLWLFDOFULWLTXHWRZKLFKWKHULJKWURXWLQHO\VXEMHFWVJRYHUQPHQW,QRWKHUZRUGVQR
-PDWWHU KRZ PXFK SRZHU FRUSRUDWLRQV WDNH WKHLU SRZHU FDQ QHYHU EH ³HYLO´ LQ WKH ZD\ WKDW
-JRYHUQPHQWDOSRZHULQKHUHQWO\LV
-   7KHUH DUH FHUWDLQ NH\ZRUGV WKDW PRYH ZLWK D IDLU DPRXQW RI HDVH EHWZHHQ H[SOLFLW ULJKWZLQJ
-GLVFRXUVH DQG PRUH JHQHUDO SROLWLFDO GLVFXVVLRQ EXW WKDW VHUYH DV UDOO\LQJ FULHV IRU ULJKWZLQJ
-SROLWLFDODFWLRQ7ZRRIWKHPRVWSURPLQHQWDQGPRVWUHOHYDQWWR%LWFRLQDUH³W\UDQQ\´DQG³OLEHUW\´
-:KHQ WKH ULJKW ZLQJ XVHV WKHP WKHVH ZRUGV DUH UHPRYHG IURP WKHLU PRUH JHQHUDO PHDQLQJV DQG
-JUDIWHG RQWR KROLVWLF ERGLHV RI SROLWLFDO WKRXJKW VR WKDW LW FDQ VRXQG UHDVRQDEOH WR RSSRVH 6RFLDO
-6HFXULW\ RU 0HGLFDUH RQ WKH JURXQGV WKDW WKH\ RIIHQG ³OLEHUW\´ DQG FRQVWLWXWH ³W\UDQQ\´ GHVSLWH WKH
-VLJQDO ODFN RI VXEVWDQWLYH SROLWLFDO WKRXJKW WKDW ZRXOG PDNH VXFK DVVHVVPHQWV FRKHUHQW ,W LV QR
-DFFLGHQW WKDW WKH ULJKWZLQJ LGHRORJXH DQG WDON VKRZ KRVW 0DUN /HYLQ WLWOHV RQH RI KLV EHVWVHOOLQJ
-ERRNV/LEHUW\DQG7\UDQQ\$&RQVHUYDWLYH0DQLIHVWR   RU WKDW KH PLVOHDGLQJO\ FODLPV WKDW
-³WKH)RXQGHUVXQGHUVWRRGWKDWWKHJUHDWHVWWKUHDWWROLEHUW\LVDQDOOSRZHUIXOFHQWUDOJRYHUQPHQW´  
-DQG WKDW ³FRQVHUYDWLVP LV WKH DQWLGRWH WR W\UDQQ\´   D ³W\UDQQ\´ WKDW LQ WKH 8QLWHG 6WDWHV LV EHVW
-H[HPSOLILHGWR/HYLQE\VRFLDOSURJUDPVHQDFWHGXQGHUWKH1HZ'HDO ± 'HVSLWHRXUDEKRUUHQFH
-RI UHDO W\UDQQ\ WKHQ WKH ULJKW ZLQJ XVHV WKH ZRUGV ³OLEHUW\´ DQG ³W\UDQQ\´ WR VROLFLW DQG DFWLYDWH
-SRSXOLVWHQHUJ\DJDLQVWH[DFWO\WKRVHGHPRFUDWLFDOO\HQDFWHGVWUXFWXUHVDQGSURJUDPVDPRQJZKRVH
-PDLQSXUSRVHVLVWRFXUWDLOWKHW\UDQQLFDODEXVHRILQGLYLGXDOOLEHUW\E\FRQFHQWUDWHGHFRQRPLFSRZHU
- 3XGGLQJWRQGHVFULEHVWKLVG\QDPLFZLWKUHJDUGWRXVHVRIWKHZRUG³W\UDQQ\´E\WKH7HD3DUW\ 
-7KH HIIHFW LV WR PDNH VXFK FRQFHQWUDWLRQV RI SRZHU HYHQ PRUH SRVVLEOH DQG HYHQ OHVV VXEMHFW WR
-RYHUVLJKWDQGWKLVLVYHU\PXFKWKHGLUHFWLRQLQZKLFK%LWFRLQKHDGV
+even if we still give Google and Facebook the benefit of the doubt, and allow that their investments in the Cato Institute and the Competitive Enterprise Institute weren't directly motivated by killing Obamacare and throwing millions of struggling Americans back into the ranks of the uninsured and prematurely dying —nevertheless, they are accessories, and very consciously so. Big Tech’s larger political goals are in alignment with the old extraction industry’s: undermining the countervailing power of government and public politics to weaken its ability to impede their growing dominance over their portions of the economy, and to tax their obscene stores of cash. Google—like Facebook, like Koch Industries—wants a government that’s strong enough to enforce its dominant private power over the economy and citizens and protect its wealth, but too broken and too alienated from the public to adequately represent the public interest against their domineering monopolistic power. 
 
+n this way, much right-wing discourse, even when it appears to be tocused on issues that are no yurely economic, turns out to work extremely well for the most concentrated sources of capital anc yower in our world. 
 
-7KHUHDUHPDQ\WKLQJVZRUWKVD\LQJDERXW%LWFRLQ7KLVVKRUWERRNLVFRQFHUQHGQRWZLWKSURYLGLQJD
-WKRURXJKGHVFULSWLRQRIWKHWHFKQRORJ\DGHWDLOHGKLVWRU\RILWVXVHVDQDFFRXQWRIWKHVFDQGDOVDQG
-WULXPSKV DVVRFLDWHG ZLWK LW RU SURILOHV RI WKH YDULRXV SHUVRQDOLWLHV LQYROYHG LQ LWV FUHDWLRQ DQG
-VXEVHTXHQW XVH IRU ZKLFK JRRG LQWURGXFWRU\ UHVRXUFHV LQFOXGH /DQFKHVWHU  0XUUD\ 
-3DJOLHU\3D\QH3RSSHU5RELQVRQ6FRWW ,WVJRDOLVPRUHOLPLWHGWR
-VKRZ KRZ PXFK RI WKH HFRQRPLF DQG SROLWLFDO WKRXJKW RQ ZKLFK %LWFRLQ LV EDVHG HPHUJHV GLUHFWO\
-IURP LGHDV WKDW WUDYHO WKH JDPXW IURP WKH VRPHWLPHVH[WUHPH &KLFDJR 6FKRRO HFRQRPLFV RI 0LOWRQ
-)ULHGPDQWRWKHH[SOLFLWH[WUHPLVPRI)HGHUDO5HVHUYHFRQVSLUDF\WKHRULVWV:KLOHLWLVEH\RQGGRXEW
-WKDWPDQ\ZKR³EHOLHYH´LQ%LWFRLQWKLQNWKH\GRQRWVXEVFULEHWRWKHVHWKHRULHVLWIUHTXHQWO\WXUQVRXW
-WKDW WKH\ UHO\ RQ DVVXPSWLRQV DQG FRQFHSWV WKDW GR HPHUJH IURP WKH IDU ULJKW $V WKH\ DUH FXUUHQWO\
-FRQILJXUHG%LWFRLQDQGWKHEORFNFKDLQWHFKQRORJ\RQZKLFKLWUHVWVVDWLVI\QHHGVWKDWPDNHVHQVHRQO\
-LQWKHFRQWH[WRIULJKWZLQJSROLWLFVWKRVHRIXVZKRGRQRWVKDUHWKRVHSROLWLFVPXVWWKHUHIRUHYLHZ
-%LWFRLQDQGWKHEORFNFKDLQZLWKERWKVNHSWLFLVPDQGDFOHDUH\HIRUWKHSROLWLFDOWHUPVDQGFRQFHSWV
-LQYRNHGLQWKHGLVFRXUVHVXUURXQGLQJWKHP
-   , DP VRPHWLPHV DVNHG WR DFFRXQW IRU %LWFRLQ HQWKXVLDVP DPRQJ WKRVH ZLWK H[SOLFLWO\ OHIWZLQJ
-SROLWLFV0\UHVSRQVHLVWRDVNWZRTXHVWLRQVDQDO\WLFDOO\SULRUWRWKLVRQHILUVWWRDVNIRUDFFRXQWV
-RI ZKHUH DQG KRZ LW KDSSHQHG WKDW D WHFKQRORJ\ GHYHORSHG VSHFLILFDOO\ WR PDJQLI\ WKH SRZHUV
-IDYRUHGE\WKHSROLWLFDOULJKWKDVPXWDWHGVRDVQRWWRVHUYHWKRVHSRZHUVEXWWKHIRUFHVWKH\RSSRVH
-DQGVHFRQGWRDVNIRUDFFRXQWVRQHFRQRPLFDQGSROLWLFDOHFRQRPLFJURXQGVWKDWSURFHHGIURPOHIW
-ZLQJWKRXJKW ZKHWKHU0DU[LDQRU.H\QHVLDQ WRWKHQHHGIRUDQGXWLOLW\RI%LWFRLQ$OPRVWXQLIRUPO\
-UHVSRQVHVWRWKHVHTXHULHVUHSHDWVRPHRIWKHULJKWLVWWURSHVDERXWFHQWUDOEDQNLQJDQGJRYHUQPHQWDO
-W\UDQQ\ , GHVFULEH KHUH DQG WKRVH WKDW GR QRW HJ %DXZHQV   HPHUJH YHU\ VNHSWLFDO DERXW
-%LWFRLQ3HUKDSV%LWFRLQDQGWKHEORFNFKDLQFDQVHUYHSROLWLFVRWKHUWKDQWKHRQHVIURPZKLFKWKH\
-ZHUHELUWKHGDQGZKLFKWKH\FRQWLQXHWRHPERG\P\JRDOKHUHLVWRGRFXPHQWWKRVHSROLWLFVDQGWR
-VKRZZKDWDQ\QRQULJKWLVWSROLWLFVRI%LWFRLQQHHGVWRRYHUFRPH
-                               6RIWZDUHDV3ROLWLFDO3URJUDP
+Power is one of the central subjects for political analysis, and perhaps the central subject: who ha; ower, who wants power, what the perspectives those who have and want power are on the creatio1 ind maintenance of methods for the management ofpower. We might say that right-wing politics side: »motionally and practically with power—it identifies with power, and via this identification works tc nsure that nobody interferes with the concentration and exercise of power. On this view, left-wing; 0litics is specifically focused on the limitation of power, on mechanisms for distributing powe: >quitably, and on the excesses that almost inevitably emerge when power is allowed to grow inchecked. Rather than a balance of powers and regular elections to curb the inherent possibility of abuse o »ower, the cypherpunks and crypto-anarchists accept, often without appearing even to realize it, the ar-right, libertarian/anarcho-capitalist definition of government that extends from the German socia heorist Max Weber (who famously and tendentiously defined the state as a “monopoly of the egitimate use of physical force within a given territory”; see Weber 1919, 33; see also Giddens 198: or a thorough critique of Weber’s definition) to Ronald Reagan’s inaugural address of 1981, in whicl 1e famously claimed that “government is not the solution to our problem; government is the problem.’ n Why Government Is the Problem (1993), Milton Friedman, a key player in the creation o 1eoliberal economic doctrine, makes the same case at greater length. The clearest articulation of these views is found in the work of arch right-wing thinker and Cat *oundation cofounder Murray Rothbard. In an essay titled “Anatomy of the State,” first published 11 he 1974 volume Egalitarianism as a Revolt against Nature, Rothbard abruptly dismisses witl ilmost the entirety of political theory prior to Hayek, while taking Hayek even farther than he wa: villing to go, at least in print. Arguably the position Rothbard develops is among the farthest to the 0litical right offered in Western discourse, with the exception of those who explicitly identify witl ascism: “We must, therefore, emphasize that ‘we’ are not the government; the government is not ‘us. [he government does not in any accurate sense ‘represent’ the majority of the people” (Rothbar« 1974, 56). With no supporting argument or analysis, Rothbard dismisses nearly all the political theorn yn which democratic rules are based (even the monarchist Thomas Hobbes thought that the sovereigi ‘epresented the people over whom he ruled, in an abstract sense) and the entire theory o ‘epresentative democracy. At their limit—a limit that is often surpassed in current cypherpunk and crypto-anarchist rhetoric ind practice—these views suggest bizarrely that only government is capable of violence, and tha >»ven when private institutions and enterprises engage in what appears to be physical violence, it is 11 some sense of a different order than that practiced by governments. Even more bizarrely, these view: ontail that democratic government lies about the one thing that does in fact distinguish it from othe: orms of power—that it is directly accountable for its actions to the people from whom it draws it: ower—while simultaneously entailing that power derived from capital and markets is accountabl« o citizens. Worse still, it suggests that this market-based form of accountability does not merely trumy he electoral and legal accountability built into representative government, but also shields corporat orces from the political critique to which the right routinely subjects government. In other words, nc natter how much power corporations take, their power can never be “evil” in the way tha xovernmental power inherently is. There are certain keywords that move with a fair amount of ease between explicit right-wins 
 
+liscourse and more general political discussion but that serve as rallying cries tor right-wins 0litical action. Two of the most prominent and most relevant to Bitcoin are “tyranny” and “‘liberty.’ When the right wing uses them, these words are removed from their more general meanings anc xrafted onto holistic bodies of political thought, so that it can sound reasonable to oppose Socia security or Medicare on the grounds that they offend “liberty” and constitute “tyranny,” despite the signal lack of substantive political thought that would make such assessments coherent. It is nc iccident that the right-wing ideologue and talk show host Mark Levin titles one of his best-selling; »00ks Liberty and Tyranny: A Conservative Manifesto (2009), or that he misleadingly claims tha ‘the Founders understood that the greatest threat to liberty is an all-powerful central government” (4) ind that “conservatism is the antidote to tyranny” (11), a “tyranny” that in the United States is bes »xemplified to Levin by social programs enacted under the New Deal (6—7). Despite our abhorrenc« »f real tyranny, then, the right wing uses the words “liberty” and “tyranny” to solicit and activate ,opulist energy against exactly those democratically enacted structures and programs among whos« nain purposes is to curtail the tyrannical abuse of individual liberty by concentrated economic power Puddington 2013 describes this dynamic with regard to uses of the word “tyranny” by the Tea Party) [he effect is to make such concentrations of power even more possible and even less subject tc yversight, and this is very much the direction in which Bitcoin heads. [here are many things worth saying about Bitcoin. This short book is concerned not with providing < horough description of the technology, a detailed history of its uses, an account of the scandals anc riumphs associated with it, or profiles of the various personalities involved in its creation anc subsequent use (for which good introductory resources include Lanchester 2016; Murray 2013 agliery 2014; Payne 2013; Popper 2015; Robinson 2014; Scott 2016). Its goal 1s more limited: tc show how much of the economic and political thought on which Bitcoin is based emerges directh rom ideas that travel the gamut from the sometimes-extreme Chicago School economics of Milto1 *riedman to the explicit extremism of Federal Reserve conspiracy theorists. While it is beyond doub hat many who “believe” in Bitcoin think they do not subscribe to these theories, it frequently turns ou hat they rely on assumptions and concepts that do emerge from the far right. As they are currenth -onfigured, Bitcoin and the blockchain technology on which it rests satisfy needs that make sense onl: n the context of right-wing politics; those of us who do not share those politics must, therefore, view 3itcoin and the blockchain with both skepticism and a clear eye for the political terms and concept: nvoked in the discourse surrounding them. I am sometimes asked to account for Bitcoin enthusiasm among those with explicitly left-wing; 0litics. My response is to ask two questions analytically prior to this one: first, to ask for account: »f where and how it happened that a technology developed specifically to magnify the power: avored by the political right has mutated so as not to serve those powers but the forces they oppose ind second, to ask for accounts on economic and political-economic grounds that proceed from left wing thought (whether Marxian or Keynesian) to the need for and utility of Bitcoin. Almost uniformly ‘esponses to these queries repeat some of the rightist tropes about central banking and governmenta yranny I describe here, and those that do not (e.g., Bauwens 2014) emerge very skeptical abou 3itcoin. Perhaps Bitcoin and the blockchain can serve politics other than the ones from which the: vere birthed and which they continue to embody; my goal here is to document those politics and tc show what any non-rightist politics of Bitcoin needs to overcome. 
 
-:+,/( :( +$9( 62 )$5 ',6&866('LWDVFXUUHQF\LWVDGYRFDWHVIUHTXHQWO\SURPRWH%LWFRLQDVDQHZ
-IRUP RI PRQH\ VHH HJ (PHU\ DQG 6WHZDUW  6PDUW   0RQH\ DQG FXUUHQF\ DUH QRW
-LGHQWLFDO ³0RQH\´ DV ZH XVH WKH ZRUG WRGD\ DQG DV HFRQRPLVWV GHILQH LW LQ VWDQGDUG WH[WERRNV
-VHUYHVWKUHHFULWLFDOIXQFWLRQVPHGLXPRIH[FKDQJHVWRUHRIYDOXHDQGXQLWRIDFFRXQW VHHHJ
-$EHO %HUQDQNH DQG &URXVKRUH  ± >@0HGLXPRIH[FKDQJH PHDQV WKDW D WRNHQ ZKLFK
-QHHGQRWEHSK\VLFDODWRNHQPLJKWEHQRWKLQJPRUHWKDQDQHQWU\LQDQDFFRXQWLQJOHGJHU FDQEHXVHG
-WREX\RUVHOOSURGXFWVDQGVHUYLFHVVWRUHRIYDOXHPHDQVWKDWWKHWRNHQVFDQEHVDYHGDQG GHVSLWHD
-FHUWDLQ OHYHO RI LQKHUHQW YRODWLOLW\  FDQ EH UHOLHG RQ WR PDLQWDLQ WKHLU SXUFKDVLQJ SRZHU 8QLW RI
-DFFRXQWVRPHWLPHVDOVRFDOOHGPHDVXUHRIYDOXHUHIHUVWRWKHIDFWWKDWWKHPDUNHWXVHVWKHWRNHQLQ
-GHWHUPLQLQJ WKH YDOXH RI SURGXFWV ZKLFK LV WR VD\ WKHLU SULFHV ,W LV ZRUWK QRWLQJ WKDW LQ FLUFXODU
-UHDVRQLQJ W\SLFDO RI LGHRORJLFDO FRQVWUXFWLRQV WKHVH WH[WERRN GHILQLWLRQV RI PRQH\ DUH IUHTXHQWO\
-UHMHFWHGE\%LWFRLQDGYRFDWHVHYHQDVWKH\LQVLVWWKDW%LWFRLQLVPRQH\7KDWLVWKRXJK%LWFRLQIDLOV
-WRPHHWWKHFULWHULDZHKDYHORQJXVHGWRLGHQWLI\PRQH\ZHDUHWROGWKDWZHPXVWDFFHSWWKDW%LWFRLQ
-LVPRQH\ VHHHJERWK³0\WKV´DQG6PDUWIRUFRQVSLUDWRULDOUHGHILQLWLRQVRI³PRQH\´ 
-   2IWKHVHWKUHHFODVVLFDOIXQFWLRQVLWLVDUJXDEOHWKDW%LWFRLQVHUYHVRQO\DVDPHGLXPRIH[FKDQJH
-,WLVSRVVLEOHWREX\DQGVHOOSURGXFWVXVLQJ%LWFRLQ6SHDNLQJYHU\URXJKO\³PHGLXPRIH[FKDQJH´
-PLJKWZHOOEHWKRXJKWRIDVWKH³FXUUHQF\IXQFWLRQ´RIPRQH\$VPDQ\HFRQRPLVWVKDYHSRLQWHGRXW
-WKRXJKYLUWXDOO\DQ\WKLQJFDQVHUYHDVDPHGLXPRIH[FKDQJHDQGQRQPRQHWDU\PHGLDRIH[FKDQJH
-SUROLIHUDWHLQRXUZRUOGIURPIUHTXHQWIO\HUPLOHVWRFUHGLWFDUGERQXVSRLQWSURJUDPVIURPJURFHU\
-VWRUH FRXSRQV WR KLJKYDOXH JRRGV OLNH ILQH DUW SUHFLRXV PHWDOV DQG JHPV>@ 1RQH RI WKHVH
-DOWHUQDWLYH FXUUHQFLHV SRVHV DQ\ WKUHDW ZKDWVRHYHU WR QDWLRQDO VRYHUHLJQW\ RYHU PRQH\ OHW DORQH
-QDWLRQDOVRYHUHLJQW\LWVHOI<HW%LWFRLQDGYRFDWHVIUHTXHQWO\DWWHPSWWRUHGHILQHPRQH\DVLIWKHWHUP
-UHIHUVRQO\WRPHGLXPRIH[FKDQJH
-   :KHWKHU%LWFRLQVHUYHVWKHXQLWRIDFFRXQWRUPHDVXUHRIYDOXHIXQFWLRQLVPXFKOHVVFOHDU,WLV
-UDUHWKRXJKQRWXQKHDUGRIIRUPDUNHWVWRH[LVWWKDWSULFHWKHLUJRRGVRQO\LQ%LWFRLQDQGUDUHUVWLOO
-IRUWKRVHSULFHVWRH[LVWLQUHODWLRQWRQRWKLQJRWKHUWKDQ%LWFRLQWKDWLVWRVD\HYHQWKHLQIDPRXVGHHS
-ZHEGUXJPDUNHWSODFHVOLNH6LON5RDGDQGLWVYDULRXVRIIVKRRWVFOHDUO\VHWWKH%LWFRLQSULFHVIRUWKHLU
-JRRGVDFFRUGLQJWRWKHLUYDOXHLQRIILFLDOZRUOGFXUUHQFLHVGHVSLWHKDYLQJSULFHVQRPLQDOO\OLVWHGLQ
-%LWFRLQ LHWKRVHSULFHVULVHDQGIDOOZLWKFKDQJHVQRWMXVWLQ%LWFRLQ¶VYDOXDWLRQEXWLQWKHSULFHRI
-GUXJVLQQDWLRQDOFXUUHQFLHV ([DFWO\EHFDXVH%LWFRLQODFNVDQ\UHODWLRQVKLSWRERGLHVWKDWQHHGWKH
-FXUUHQF\WRH[LVWLQUHODWLRQVKLSWRPHFKDQLVPVRILQWHUQDWLRQDOH[FKDQJHRURIVWDWHLQWHUQDOPDWWHUV
-OLNHWD[HV%LWFRLQRQLWVRZQIORDWVIUHHRIDQ\DQFKRUWRRUGLQDU\YDOXLQJSURFHVVHV,I%LWFRLQRQO\
-HFRQRPLHV ZHUH WR GHYHORS LQ ZKLFK ODERU ZHUH SULFHG LQ UDZ UHODWLRQ WR %LWFRLQ UHJDUGOHVV RI
-%LWFRLQ¶VH[FKDQJHYDOXHZLWKZRUOGFXUUHQFLHV LHODERULVSULFHGDW%7&DQKRXUUHJDUGOHVVRI
-ZKHWKHU%7&LVZRUWK86RU86 WKLVVLWXDWLRQPLJKWFKDQJHEXWWKLVSUHVHQWVWKHVDPH
-FKLFNHQDQGHJJ SUREOHP ZH VHH WKURXJKRXW %LWFRLQ SURSDJDQGD LI VWDWHV ZHUH WR JR DZD\ DQG LI
-HQWLUHHFRQRPLHVH[LVWHGLQ%LWFRLQWKHQLWFRXOGEHFRPHPRQH\EXWLWLVVLPXOWDQHRXVO\VDLGWREH
-%LWFRLQWKDWZLOOFDXVHVWDWHVWRZLWKHUDZD\DQGWKDWZLOOSURGXFHWKRVHHFRQRPLHV
-   7KHWKLUGIXQFWLRQVWRUHRIYDOXHLV%LWFRLQ¶VIXQGDPHQWDODQGPRVWLQWHUHVWLQJREVWDFOHDQGWKH
-SODFH ZKHUH FRQVSLUDWRULDO HFRQRPLF WKRXJKW EHFRPHV PRVW FOHDUO\ LPSOLFDWHG LQ WKH VWUXFWXUH DQG
-XVDJH RI WKH VRIWZDUH LWVHOI 3DUW RI ZK\ %LWFRLQ LV VR ZHOONQRZQ LV SUHFLVHO\ EHFDXVH RI LWV
-YRODWLOLW\ LW ZDV %LWFRLQ¶V UHPDUNDEOH FOLPE WR RYHU 86 WKDW EURXJKW LW WR JHQHUDO SXEOLF
-DWWHQWLRQ'HVSLWHWKHIDFWWKDWWKLVLVVHHQE\PDQ\%LWFRLQSURPRWHUVDVD³SRVLWLYH´FKDQJHLQYDOXH
-DFKDQJHLVDFKDQJHUHJDUGOHVVRIGLUHFWLRQ$QLQVWUXPHQWWKDWJURZVWRSHUFHQWRILWVRULJLQDO
-YDOXH IURP 86 WR 86  LQ XQGHU D \HDU FDQ DQG ZLOO ORVH  SHUFHQW RI LWV YDOXH LQ D
-VLPLODUWLPHSHULRG$SHUVRQVWRULQJWKHLUVDYLQJVRUSURILWVIURPEXVLQHVVLQ%LWFRLQKDVDEVROXWHO\
-QRUHDVRQWRH[SHFWWKDWWKDWYDOXHZLOOEHPDLQWDLQHGRYHUHYHQDVKRUWWLPHIUDPHDQGLQIDFWKDV
-HYHU\UHDVRQWRH[SHFWWKDWLWZLOOQRW
-   %LWFRLQ¶V VWDWXV²RU ODFN RI VWDWXV²DV VWRUH RI YDOXH LV D FUXFLDO VLWH DW ZKLFK WR REVHUYH WKH
-FXUUHQF\¶VLGHRORJLFDOIXQFWLRQV2QHRIWKHPRVWIUHTXHQWFRQVSLUDWRULDOIUDPHVIRUWKHSURPRWLRQRI
-%LWFRLQLVJROGLWVHOIRU³WKHJROGVWDQGDUG´LWVHOIDFULWLFDOQH[XVSRLQWIRUFRQVSLUDWRULDOILQDQFLDO
-WKHRU\%LWFRLQLVURXWLQHO\SURPRWHGDVLILWFRQVWLWXWHVRUFRXOGFRQVWLWXWHD³UHDO´RU³VRXQG´VWRUH
-RIYDOXHWKHZD\JROGSXUSRUWHGO\GRHVDQGLVRIWHQFKDPSLRQHGLQWKHVDPHULJKWZLQJPHGLDWKDW
-VHOOVSUHFLRXVPHWDOVDVDQDOWHUQDWLYHWRWKH³GHEDVHG´QDWLRQFXUUHQFLHVWKDWDUHVDLGWRKDYHORVWDOO
-WKHLUYDOXHYLDLQIODWLRQ%LWFRLQDGYRFDWHVPDNHUHSHDWHGUHIHUHQFHWRWKHVXSHULRULW\RIJROGEDFNHG
-PRQH\GHVSLWHWKHIDFWWKDWJRYHUQPHQWVIL[HGHYHQWKHSULFHRIJROGDWPDQ\PRPHQWVLQKLVWRU\WR
-WDPHYRODWLOLW\DQGLQWKHIDFHRIFXUUHQWVWRULHVDERXWJROGDQGVLOYHUSULFHVEHLQJSDUWRIWKH/LERU
-SULFHIL[LQJVFDQGDO>@7KLVSUHIHUHQFHIRUJROGYHUVXVZKDWWKH\VRPHZKDWLQDFFXUDWHO\FDOOWKH³ILDW
-FXUUHQF\´RIQDWLRQVWDWHVRQO\VKRZVWKHLGHRORJLFDOQDWXUHRIWKHLUDVVHUWLRQVVLQFHJROGH[LVWVULJKW
-QRZ LV ZLGHO\ WUDGHG DQG FDQ EH XQWUDFHDEOH ODUJHO\ UHVLVWDQW WR FRXQWHUIHLWLQJ DQG \HW LV ZLGHO\
-XVHG WKRXJK QRW DV D FXUUHQF\ SHJ  E\ WKH YHU\ QDWLRQVWDWHV DQG FHQWUDO EDQNV WKDW %LWFRLQ
-DGYRFDWHV VD\ WKH\ DUH LQ WKH SURFHVV RI GLVPDQWOLQJ -XVW DV UHYHDOLQJ DUH VWDWHPHQWV OLNH WKRVH E\
-VHOIGHVFULEHG ³FXUUHQF\ WUDGHU DQG HFRQRPLFV QHUG´ %ULDQ .HOO\ ZKR LQ 7KH %LWFRLQ %LJ %DQJ
-LQDFFXUDWHO\DWWULEXWHVWKHWKUHHIROGQDWXUHRIPRQH\WRFXUUHQF\DQGGHVSLWHWKLVDIWHUOD\LQJRXWWKH
-FDVHWKDW%LWFRLQRQO\VHUYHVWKHPHGLXPRIH[FKDQJHIXQFWLRQVXJJHVWVWKDW³ZHDUHWRRWHWKHUHGWR
-WKH FRQYHQWLRQDO GHILQLWLRQ RI D FXUUHQF\ DV D PHGLXP RI H[FKDQJH D VWRUH RI YDOXH DQG D XQLW RI
-DFFRXQW´  %LWFRLQWKHUHIRUHLVDWRQFHHYHU\WKLQJWKDWPRQH\LVEXWWRWKHGHJUHHLWWXUQV
-RXW QRW WR EH HYHU\WKLQJ WKDW PRQH\ LV WKH GHILQLWLRQ LV ZKDW¶V ZURQJ 7KH SUREOHP LV WKDW WKH
-GHILQLWLRQSURYLGHGE\HFRQRPLVWVLVGHVFULSWLYHQRWQRUPDWLYHLWVD\VWKDWWKHPRQH\IXQFWLRQDV
-ZH XQGHUVWDQG LW LV RQO\ ILOOHG E\ REMHFWV WKDW KDYH WKRVH WKUHH FKDUDFWHULVWLFV QRW WKDW WKLV LV KRZ
-WKLQJVVKRXOGEH7KLVNLQGRIVHPDQWLFSOD\LVW\SLFDORILGHRORJLFDOFRQVWUXFWLRQVEXWQRWRIVHULRXV
-DQDO\VLV
-   ,QGHHGWKHVWRU\WROGVRIDUKDVLIDQ\WKLQJWLOWHGWKHVWRU\WRRPXFKLQ%LWFRLQ¶VIDYRU)RUZKLOH
-WKHWH[WERRNDFFRXQWRIPRQH\LQFOXGHVWKHWKUHHFULWLFDOIXQFWLRQVZHKDYHPHQWLRQHGWKHPDMRULW\RI
-H[SHUWHFRQRPLFWKHRU\VLPSO\GHILQHVPRQH\DVFXUUHQF\WKDWLVLVVXHGE\DVRYHUHLJQJRYHUQPHQW
-7KLVWKHRU\LVNQRZQDV³0RGHUQ0RQHWDU\7KHRU\´ 007 RU³QHRFKDUWDOLVP´DQGKDVLWVURRWVLQ
-HFRQRPLFVJRLQJEDFNDWOHDVWWR-RKQ0D\QDUG.H\QHVZKRVHYLHZVKDYHSHUSHWXDOO\EHHQDPDMRU
-WDUJHWIRUHYHU\VRUWRIDWWDFNIURPULJKWZLQJWKLQNHUV$FFRUGLQJWRWKLVYLHZWKHGLIIHUHQFHEHWZHHQ
-PRQH\DQGFXUUHQF\LVWKDWPRQH\LVFXUUHQF\LVVXHGE\WKHVWDWHDQGLQGLFDWHVWKHIRUPRIFXUUHQF\
-LQZKLFKWD[HVPXVWEHSDLG,WLVSUHFLVHO\WKHSHJJLQJRIDJLYHQQDWLRQDOFXUUHQF\WRIDFWRUVOLNH
-WD[DWLRQQDWLRQDOLQGXVWULDOSURGXFWLRQDQGLQWHUQDWLRQDOWUDGHWKDWHQDEOHVWKHVWRUHRIYDOXHDQGXQLW
-RI DFFRXQW IXQFWLRQV RI PRQH\ 7KDW LV QDWLRQVWDWH VRYHUHLJQW\ DQG WKH YHU\ LGHD RI PRQH\ DUH
-LQH[WULFDEO\ OLQNHG LQ RXU ZRUOG DQG VR WKH QRWLRQ RI PRQH\ WKDW LV QRW LVVXHG E\ D QDWLRQVWDWH LV
-HVVHQWLDOO\ D FRQWUDGLFWLRQ /LNH PRVW ULJKWZLQJ GLVFRXUVHV %LWFRLQ UKHWRULF WKULYHV RQ VXFK
-SDUDGR[LFDOFRQVWUXFWLRQV>@
-   2QH RI WKH SODFHV LQ ZKLFK WKLV FRQXQGUXP LV PRVW YLVLEOH LV LQ WKH FODLPV RI %LWFRLQ DGYRFDWHV
-DERXW³ILDWPRQH\´DOVRDQLPSRUWDQWWURSHLQULJKWZLQJH[WUHPLVP$VDJHQHUDOLGHDWKHQRWLRQRI
-³ILDW FXUUHQF\´ KDV D ORQJ KLVWRU\ LQ HFRQRPLFV )RU H[DPSOH GHFDGHV SULRU WR WKH GHYHORSPHQW RI
-%LWFRLQ OLEHUDO HFRQRPLVW -RKQ .HQQHWK *DOEUDLWK    RIIHUHG WKH IROORZLQJ W\SRORJ\ RI
-PRQH\
+5. Software as Political Program WHILE WE HAVE SO FAR DISCUSSED it as currency, its advocates frequently promote Bitcoin as a nev orm of money (see, e.g., Emery and Stewart 2015; Smart 2015). Money and currency are no dentical. “Money,” as we use the word today and as economists define it in standard textbooks serves three critical functions: medium of exchange, store of value, and unit of account (see, e.g. Abel, Bernanke, and Croushore 2008, 248—49).|1| Medium of exchange means that a token (whicl 1eed not be physical; a token might be nothing more than an entry in an accounting ledger) can be usec o buy or sell products and services; store of value means that the tokens can be saved, and (despite < sertain level of inherent volatility) can be relied on to maintain their purchasing power. Unit o wccount, sometimes also called measure of value, refers to the fact that the market uses the token 11 letermining the value of products, which 1s to say, their prices. It is worth noting that, in circulai ‘easoning typical of ideological constructions, these textbook definitions of money are frequenth ‘ejected by Bitcoin advocates, even as they insist that Bitcoin is money. That is, though Bitcoin fail: o meet the criteria we have long used to identify money, we are told that we must accept that Bitco11 s money (see, e.g., both “Myths”; and Smart 2015 for conspiratorial redefinitions of “money’’). Of these three classical functions, it is arguable that Bitcoin serves only as a medium of exchange tis possible to buy and sell products using Bitcoin. Speaking very roughly, “medium of exchange’ night well be thought of as the “currency function” of money. As many economists have pointed out hough, virtually anything can serve as a medium of exchange, and nonmonetary media of exchangs yroliferate in our world: from frequent flyer miles to credit card bonus point programs, from grocery store coupons to high-value goods like fine art, precious metals, and gems.(2} None of thes« ilternative currencies poses any threat whatsoever to national sovereignty over money, let alone rational sovereignty itself. Yet Bitcoin advocates frequently attempt to redefine money as if the tern ‘efers only to medium of exchange. Whether Bitcoin serves the unit of account or measure of value function is much less clear. It 1: ‘are, though not unheard of, for markets to exist that price their goods only in Bitcoin, and rarer stil or those prices to exist in relation to nothing other than Bitcoin: that 1s to say, even the infamous deey veb drug marketplaces like Silk Road and its various offshoots clearly set the Bitcoin prices for thet xoods according to their value in official world currencies, despite having prices nominally listed 11 3itcoin (1.e., those prices rise and fall with changes not just in Bitcoin’s valuation, but in the price o {rugs in national currencies). Exactly because Bitcoin lacks any relationship to bodies that need the surrency to exist in relationship to mechanisms of international exchange, or of state-internal matter: ike taxes, Bitcoin on its own floats free of any anchor to ordinary valuing processes. If Bitcoin-onlh >conomies were to develop, in which labor were priced in raw relation to Bitcoin regardless o 3itcoin’s exchange value with world currencies (1.e., labor is priced at | BTC an hour regardless o vhether 1 BTC is worth US$10 or US$1,000), this situation might change, but this presents the same shicken-and-egg problem we see throughout Bitcoin propaganda: if states were to go away and i ntire economies existed in Bitcoin, then it could become money; but it is simultaneously said to be 3itcoin that will cause states to wither away and that will produce those economies. The third function, store of value, is Bitcoin’s fundamental and most interesting obstacle, and the ylace where conspiratorial economic thought becomes most clearly implicated in the structure anc 
 
-           :ULWHUVRQPRQH\KDYHUHJXODUO\GLVWLQJXLVKHGEHWZHHQWKUHHW\SHVRIFXUUHQF\
-              WKDW ZKLFK RZHV LWV YDOXH DV GR JROG RU VLOYHU WR DQ LQKHUHQW GHVLUDELOLW\
-           GHULYHG IURP ZHOOHVWDEOLVKHG VHUYLFH WR SULGH RI SRVVHVVLRQ SUHVWLJH RI
-           RZQHUVKLS SHUVRQDO DGRUQPHQW GLQQHU VHUYLFH RU GHQWLVWU\   WKDW ZKLFK FDQ
-           UHDGLO\EHH[FKDQJHGIRUVRPHWKLQJRIVXFKLQKHUHQWGHVLUDELOLW\RUZKLFKFDUULHV
-           WKH SURPLVH OLNH WKH HDUO\ 0DVVDFKXVHWWV %D\ QRWHV RI HYHQWXDO H[FKDQJH DQG
-             FXUUHQF\ZKLFKLVLQWULQVLFDOO\ZRUWKOHVVFDUULHVQRSURPLVHWKDWLWZLOOEH
-           UHGHHPHGLQDQ\WKLQJXVHIXORUGHVLUDEOHDQGZKLFKLVVXVWDLQHGDWPRVWE\WKH
-           ILDWRIWKHVWDWHWKDWLWEHDFFHSWHG
+Isage ot the software itself. Part ot why Bitcoin 1s so well-known 1s precisely because of It volatility: it was Bitcoin’s remarkable climb to over US$1,000 that brought it to general public ittention. Despite the fact that this is seen by many Bitcoin promoters as a “positive” change in value i change is a change regardless of direction. An instrument that grows to 400 percent of its origina value (from US$200 to US$1,000) in under a year can and will lose 80 percent of its value in ¢ similar time period. A person storing their savings or profits from business in Bitcoin has absolutel: 10 reason to expect that that value will be maintained over even a short time frame, and in fact ha: >very reason to expect that it will not. 
 
-1RWHWREHJLQZLWKWKDW%LWFRLQGRHVQRWFRQIRUPWRDQ\RIWKHVHGHVFULSWLRQV$WEHVWLWLVDYDULDWLRQ
-RQ  VLQFHZKDWGLVWLQJXLVKHV  ³ILDWPRQH\´IURPWKHRWKHUWZRLVWKDWZKDWHYHUWRNHQLVEHLQJ
-H[FKDQJHG KDV QR ³LQWULQVLF YDOXH´²WKDW LV ZKHUH WKH WRNHQ XVHG DV FXUUHQF\ IRU WKDW PRQH\ KDV
-GHPRQVWUDEOHYDOXHLQDQRWKHUFRQWH[W7KHPRVWW\SLFDOH[DPSOHRIQRQILDWFXUUHQF\LVJROGEHFDXVH
-JROGKDVPDQ\XVHVDQGLVVWLOOYDOXDEOHHYHQZKHQQRWLQFLUFXODWLRQDVFXUUHQF\SDSHUPRQH\RQWKH
-RWKHUKDQGLVWDNHQWREHILDWEHFDXVHWKHSDSHURQZKLFKLWLVSULQWHGLVQHDUO\YDOXHOHVVDVSDSHU
-   )UHTXHQWO\ LQ %LWFRLQ GLVFXVVLRQV RQH UHDGV WKH FLUFXODU DVVHVVPHQW WKDW ³ILDW´ LQ ³ILDW PRQH\´
-UHIHUVWRWKH³ILDW´RIWKHVWDWH²WKDWLVDQRIILFLDOGHFUHH²WKDWWXUQVDFXUUHQF\LQWRPRQH\:KLOH
-WKHUHLVDQHOHPHQWRIWUXWKWRWKLVLWGRHVQRWUHIOHFWWKHKLVWRU\DQGXVDJHRIWKHWHUP³ILDWPRQH\´
-VLQFH PRQH\ LV LQKHUHQWO\ D FUHDWLRQ RI WKH VWDWH UHJDUGOHVV RI ZKHWKHU LW LV EDVHG RQ D WRNHQ RI
-LQWULQVLF YDOXH HYHQ D JROG VWDQGDUG ZRXOG EH ³ILDW FXUUHQF\´ DFFRUGLQJ WR WKLV GHILQLWLRQ 2QH
-VXVSHFWVWKDW³ILDWE\WKHVWDWH´LVXVHGLQWKHVHGHILQLWLRQVEHFDXVHWKHWKRXJKWRIVRPHQRQVWDWHDFWRU
-GHOLEHUDWHO\VXJJHVWLQJWKDWLWFRXOGIORXWQDWLRQDOODZDQGGHFODUHLWVRZQFXUUHQF\WREH³PRQH\´
-ZRXOG KDYH EHHQ XQWKLQNDEOH XQWLO YHU\ UHFHQWO\ %XW WKHUH LV QR ZD\ DURXQG WKH IDFW WKDW %LWFRLQ
-DGYRFDWHVKDYHQRPHFKDQLVPH[FHSWILDWE\ZKLFKWRGHFODUHWKHLUFXUUHQF\WREHPRQH\7KHSRLQW
-RI WKH ³ILDW´ ODEHO LV WR GLVWLQJXLVK FXUUHQFLHV ZLWK ³LQWULQVLF YDOXH´ IURP WKRVH ZLWKRXW LW EHFDXVH
-WKHVH RWKHUZLVH QHDUO\ ZRUWKOHVV WRNHQV KDYH EHHQ GHFODUHG WR EH RI YDOXH E\ VRPHRQH¶V  ILDW
-)XUWKHU WKLV GHILQLWLRQ LV WKH RQH WKDW KDV ZLGH XVDJH LQ FRQVSLUDF\ WKHRULHV ZKLFK DOOHJH WKDW WKH
-IDLOXUHWRSHJ³ZRUWKOHVV´SDSHUPRQH\WRDFRPPRGLW\ZLWKLQWULQVLFYDOXHLVSDUWRIZKDWGHSULYHV
-RUGLQDU\ FLWL]HQV RI WKHLU ZHDOWK $FFRUGLQJ WR WKHVH VWDQGDUG XVDJHV %LWFRLQ FRXOG RQO\ EH ILDW
-PRQH\6FKURHGHU Q ZULWHVWKDW%LWFRLQ³FDQEHFRQVLGHUHGDILDWFXUUHQF\LQWKDWLWDOVR
-KDV QR XQGHUO\LQJ DVVHW´ <HW EHFDXVH RI WKH DSSHDO RI FXUUHQFLHV ZLWK LQWULQVLF YDOXH WR WKH ULJKW
-ZLQJRQHRIWKHPRVWIUHTXHQWREMHFWVRI%LWFRLQGLVFRXUVHKDVEHHQHLWKHUWRUHGHILQH³ILDW´VRDVWR
-H[FOXGH%LWFRLQ VHHHJERWK.HOO\DQG&R[IRUWKLVVRUWRIDGKRFUHGHILQLWLRQ RUWR
-UHGHILQH³LQWULQVLFYDOXH´VRWKDWVRPHDVSHFWRIWKH%LWFRLQVRIWZDUHV\VWHP HJWKHHQHUJ\SXWLQWR
-PLQLQJRUWKH³WUXVW´SXWLQWRWKHV\VWHPE\LWVXVHUV FDQTXDOLI\
-   7KH VXSSRVHG SUREOHP ZLWK ILDW FXUUHQF\ ZKLFK KDSSHQV WR EH D IDYRUHG WDONLQJ SRLQW RI
-FRQVSLUDWRULDO OLEHUWDULDQV OLNH 5RQ 3DXO DQG 5DQG 3DXO 6KRII   LV WKDW LW LQWHUIHUHV ZLWK WKH
-VWRUHRIYDOXHIXQFWLRQRIPRQH\:LWKRXWWKHVWDELOLW\RIYDOXHWKDWWKH\ HUURQHRXVO\ FODLPSURFHHGV
-IURP HLWKHU WKH XVH RI YDOXDEOH FRPPRGLWLHV DV FXUUHQF\ HJ JROG XVHG IRU FRLQDJH  RU DV D
-JURXQGLQJ PHFKDQLVP IRU PRQH\ HJ D ³JROG VWDQGDUG´  QRW MXVW HFRQRPLF LQVWDELOLW\ EXW DFWXDO
-WRWDOLWDULDQSROLWLFDOSRZHULVWKHLQHYLWDEOHUHVXOW$V5RQ3DXOSXWLWLQLQDVSHHFKEHIRUHWKH
-86 +RXVH RI 5HSUHVHQWDWLYHV ³,I XQFKHFNHG WKH HFRQRPLF DQG SROLWLFDO FKDRV WKDW FRPHV IURP
-FXUUHQF\GHVWUXFWLRQLQHYLWDEO\OHDGVWRW\UDQQ\´
-   :KDWSHRSOHOLNH3DXOFULWLFL]HDERXW³ILDW´FXUUHQFLHVLVWKDW³FHQWUDOEDQNHUV´FDQPDQLSXODWHWKH
-YDOXHRIWKHFXUUHQF\ZKLFKLVSXUSRUWHGO\QRWWKHFDVHZLWKDVVHWEDFNHGFXUUHQFLHVOLNHJROG7KH
-ZKROH SRLQW RI WKLV LV WR KDYH D VWDEOH FXUUHQF\ RQH ZKRVH YDOXH GRHV QRW IOXFWXDWH ZLOGO\ %XW
-EHFDXVHWKHYDOXHRI%LWFRLQFDQQRWEHPRGXODWHGH[FHSWE\PDUNHWWUDQVDFWLRQVLWFDQQRWVHSDUDWHLWV
-DVVHWIURPFXUUHQF\IXQFWLRQV7KLVPDNHVLWWRRYRODWLOHWRXVHDVDVWRUHRIYDOXHGHVSLWHWKHIDFW
-WKDWDGYRFDWHVUHFRPPHQGLWIRULWVVXSHULRUVWDELOLW\
-   7KHVH SDUDGR[HV DUH HQGHPLF WR ULJKWZLQJ UKHWRULF DERXW PRQH\ PXFK RI ZKLFK HQFRXUDJHV
-SXVKHVSHRSOHWRDEDQGRQQDWLRQDOPRQH\VDQGWRSXWWKHSURFHHGVLQSUHFLRXVPHWDOVOLNHJROG VHH
-HJ 0HQFLPHU  RQ *OHQQ %HFN¶V SURPRWLRQ RI JROG  EHFDXVH WKH\ DUH VXSSRVHGO\ VWDEOH LQ
-YDOXH <HW KLVWRU\ VKRZV WKDW JROG VWDQGDUGV WKHPVHOYHV DUH UHJXODWRU\ LQ QDWXUH DQG QR PRUH IUHH
-IURP PDQLSXODWLRQ GHULYDWLRQ DQG VSHFXODWLRQ WKDQ DUH DQ\ RWKHU FXUUHQFLHV JROG LWVHOI SURYLGHV
-FOHDUHYLGHQFHRIWKLVLQLWVUHFHQWSULFHYRODWLOLW\ VHH$OOHQDOVRVHH$QGROIDWWRRQWKH
-SDUDOOHOV EHWZHHQ %LWFRLQ DQG JROG SULFH YRODWLOLW\  DV GR WKH ZLOGO\ IOXFWXDWLQJ SULFHV RI DOO UDUH
-FRPPRGLWLHV
+Bitcoin’s status—or lack of status—as store of value is a crucial site at which to observe the surrency’s ideological functions. One of the most frequent conspiratorial frames for the promotion o 3itcoin is gold itself, or “the gold standard,” itself a critical nexus point for conspiratorial financia heory. Bitcoin is routinely promoted as if it constitutes or could constitute a “real” or “sound” stor« »f value the way gold purportedly does, and is often championed in the same right-wing media tha sells precious metals as an alternative to the “debased” nation currencies that are said to have lost al heir value via inflation. Bitcoin advocates make repeated reference to the superiority of gold-backec noney, despite the fact that governments fixed even the price of gold at many moments in history tc ame volatility, and in the face of current stories about gold and silver prices being part of the Libo: yrice-fixing scandal.(3} This preference for gold versus what they somewhat inaccurately call the “fia currency” of nation-states only shows the ideological nature of their assertions, since gold exists righ 10W, 1s widely traded and can be untraceable, largely resistant to counterfeiting, and yet is widels ised (though not as a currency peg) by the very nation-states and central banks that Bitcoi1 idvocates say they are in the process of dismantling. Just as revealing are statements like those bi self-described “currency trader and economics nerd” Brian Kelly, who in The Bitcoin Big Ban naccurately attributes the threefold nature of money to currency, and despite this, after laying out the sase that Bitcoin only serves the medium-of-exchange function, suggests that “we are too tethered tc he conventional definition of a currency as a medium of exchange, a store of value, and a unit o iccount’” (2015, 13). Bitcoin therefore is at once everything that money is, but to the degree it turn: yut not to be everything that money is, the definition is what’s wrong. The problem is that the lefinition provided by economists is descriptive, not normative: it says that the money function a: ve understand it is only filled by objects that have those three characteristics, not that this is how hings should be. This kind of semantic play is typical of ideological constructions, but not of seriou: inalysis. Indeed, the story told so far has if anything tilted the story too much in Bitcoin’s favor. For while he textbook account of money includes the three critical functions we have mentioned, the majority o >xpert economic theory simply defines money as currency that is issued by a sovereign government [his theory is known as “Modern Monetary Theory” (MMT) or “neochartalism’ and has its roots 11 >conomics going back at least to John Maynard Keynes, whose views have perpetually been a majo. arget for every sort of attack from right-wing thinkers. According to this view, the difference betwee noney and currency 1s that money is currency issued by the state and indicates the form of currenc: n which taxes must be paid. It is precisely the pegging of a given national currency to factors like axation, national industrial production, and international trade that enables the store of value and uni »f account functions of money. That is, nation-state sovereignty and the very idea of money aré nextricably linked in our world, and so the notion of money that is not issued by a nation-state 1: ssentially a contradiction. Like most right-wing discourses, Bitcoin rhetoric thrives on sucl yaradoxical constructions.[4] 
 
+Une ot the places 1n which this conundrum 1s most visible 1s 1n the claims ot Bitcoin advocate; ibout “fiat money,” also an important trope in right-wing extremism. As a general idea, the notion o ‘fiat currency” has a long history in economics. For example, decades prior to the development o 3itcoin, liberal economist John Kenneth Galbraith (1975, 63) offered the following typology o noney: Writers on money have regularly distinguished between three types of currency: (1) that which owes its value, as do gold or silver, to an inherent desirability derived from well-established service to pride of possession, prestige of ownership, personal adornment, dinner service or dentistry; (2) that which can readily be exchanged for something of such inherent desirability or which carries the promise, like the early Massachusetts Bay notes, of eventual exchange; and (3) currency which is intrinsically worthless, carries no promise that it will be redeemed in anything useful or desirable and which is sustained, at most, by the fiat of the state that it be accepted. Note to begin with that Bitcoin does not conform to any of these descriptions. At best it is a variatio1 yn (3), since what distinguishes (3), “fiat money,” from the other two, is that whatever token is bein; »xchanged has no “intrinsic value’”—that is, where the token used as currency for that money ha: Jemonstrable value in another context. The most typical example of non-fiat currency is gold, becaus« xold has many uses and is still valuable even when not in circulation as currency; paper money, on the yther hand, is taken to be fiat because the paper on which it is printed is nearly valueless as paper. Frequently in Bitcoin discussions, one reads the circular assessment that “fiat” in “fiat money ‘efers to the “fiat” of the state—that is, an official decree—that turns a currency into money. Whil« here is an element of truth to this, it does not reflect the history and usage of the term “fiat money” since money is inherently a creation of the state, regardless of whether it is based on a token o ntrinsic value, even a gold standard would be “fiat currency” according to this definition. Onc suspects that “fiat by the state” is used in these definitions because the thought of some non-state acto: leliberately suggesting that it could flout national law and declare its own currency to be “money vould have been unthinkable until very recently. But there is no way around the fact that Bitcoi1 idvocates have no mechanism except fiat by which to declare their currency to be money. The poin »f the “fiat” label is to distinguish currencies with “intrinsic value” from those without it becaus« hese otherwise nearly worthless tokens have been declared to be of value by (someone’s) fiat ‘urther, this definition is the one that has wide usage in conspiracy theories, which allege that the ailure to peg “worthless” paper money to a commodity with intrinsic value is part of what deprive: yrdinary citizens of their wealth. According to these standard usages, Bitcoin could only be fia noney; Schroeder (2015, 1n2) writes that Bitcoin “can be considered a fiat currency in that it alsc as no underlying asset.” Yet because of the appeal of currencies with intrinsic value to the righ ving, one of the most frequent objects of Bitcoin discourse has been either to redefine “fiat” so as tc »xclude Bitcoin (see, e.g., both Kelly 2015; and Cox 2013 for this sort of ad-hoc redefinition), or tc ‘edefine “intrinsic value” so that some aspect of the Bitcoin software system (e.g., the energy put intc mining, or the “trust” put into the system by its users) can qualify. The supposed problem with fiat currency, which happens to be a favored talking point o -onspiratorial libertarians like Ron Paul and Rand Paul (Shoff 2012), is that it interferes with the 
 
-$V%LWFRLQKLWDQDOOWLPHKLJK DOEHLWEULHIO\ RI86RQ1RYHPEHU ³+LVWRU\RI
-%LWFRLQ´  LW ZDVQ¶W KDUG WR ILQG²LQ IDFW LW ZDV GLIILFXOW WR DYRLG²F\EHUOLEHUWDULDQ EHOLHYHUV
-FHOHEUDWLQJ WKLV VXUJH DQG VLPLODU RQHV LQ WKH SDVW DV SURRI RI %LWFRLQ¶V LPSRUWDQFH VHH HJ
-)DONYLQJH E  :KLOH WKH VXUJH FHUWDLQO\ GLG LQGLFDWH VRPHWKLQJ LW ZDV UHPDUNDEOH WR UHDG
-FHOHEUDWLRQVRIWKHVXUJHDVLILWGHPRQVWUDWHG%LWFRLQ¶VIHDVLELOLW\DVZKDWLWLVDGYHUWLVHGWREHD
-QHZIRUPRIPRQH\RUFXUUHQF\8QGHUDQ\FRQYHQWLRQDOHFRQRPLFWKHRU\VXFKVXUJHVSURYHQRWWKDW
-%LWFRLQ LV D QHZ JRYHUQPHQWWRSSOLQJ FXUUHQF\ EXW WR WKH FRQWUDU\ WKDW LW FDQQRW SHUIRUP WKRVH
-IXQFWLRQVLWLVWRRYRODWLOHWRVHUYHDVDVWRUHRIYDOXHDQGWKLVIXQFWLRQLVFULWLFDOWRPRQH\/LNHVR
-PDQ\RWKHUDVSHFWVRIF\EHUOLEHUWDULDQSUDFWLFHWKHFDVHIRU%LWFRLQ¶VVXSSRVHGSRZHULVVRSHUFKHG
-RQFRQWUDGLFWLRQVWKDWLWLVVXUSULVLQJWRILQGSHRSOHWDNLQJLWVHULRXVO\DQG\HWLIDQ\WKLQJH[SRVXUHRI
-WKHVH FRQWUDGLFWLRQV VHHPV RQO\ WR LQVSLUH UHQHZHG VHULRXVQHVV DQG PLVVLRQDU\ ]HDO RQ WKH SDUW RI
-%LWFRLQDGYRFDWHV
-   7KHWHQVLRQEHWZHHQLWVIXQFWLRQDVFXUUHQF\DQGDVLQYHVWPHQWKDYHLQIRUPHG%LWFRLQGLVFXVVLRQV
-IURPWKHEHJLQQLQJEXWSDUWLFXODUO\LQWKHZDNHRILWVH[WUHPHYRODWLOLW\GXULQJDQGDIWHU,QWKH
-HDUO\VWDJHVRIRQHRILWVVXUJHVXSZDUGLQSULFH3LUDWH3DUW\IRXQGHUDQGVHOIGHVFULEHG³SROLWLFDO
-HYDQJHOLVW´5LFN)DONYLQJH E SRVWHGDSLHFHRQKLVZLGHO\UHDG)DONYLQJHQHWEORJWLWOHG³7KH
-7DUJHW9DOXHIRU%LWFRLQ,V1RW6RPHRU,WLVWR´)DONYLQJHDSSHQGV
-KLV%LWFRLQSLHFHVZLWKDQRWHVD\LQJWKDWKH³KDVDVLJQLILFDQWLQYHVWPHQWLQ%LWFRLQ6SHFLILFDOO\KH
-ZHQWDOOLQWZR\HDUVDJRDIWHUKDYLQJUXQWKHVHYHU\QXPEHUV´UHIHUULQJWRKLVVWDWHPHQWLQ0D\
-WKDWKHZDV³SXWWLQJDOORI>KLV@VDYLQJVLQWR%LWFRLQ´ )DONYLQJH ,QWKDWHDUOLHUSLHFHKHPDNHV
-WKHW\SLFDOO\SDUDGR[LFDOFODLPWKDW%LWFRLQ³LVDFXUUHQF\EXWDQHQWLUHO\QHZNLQGRIFXUUHQF\´DQG
-WKHQH[SODLQVWKDWKHLV³LQYHVWLQJDOORIWKHPRQH\>KH@KDGVDYHGDQGDOOWKDW>KH@FDQERUURZLQWRWKH
-FXUUHQF\´,QERWKSLHFHVDQGPDQ\OLNHWKHP)DONYLQJHDSSHDUVXQDZDUHWKDWKHLVVLPXOWDQHRXVO\
-DGYRFDWLQJIRUWZRGLDPHWULFDOO\RSSRVHGHQGVIRU%LWFRLQ¶VZLGHDGRSWLRQDVPRQH\IRUZKLFKLW
-PXVW EH DEOH WR PDLQWDLQ D VWDEOH YDOXDWLRQ DQG IRU LWV GHVLUDELOLW\ DV D JHWULFKTXLFN LQYHVWPHQW
-ZKLFKGLVTXDOLILHVLWDVPRQH\,WLVQRVXUSULVHWKDWLQWKHVDPHSLHFHZKHUH)DONYLQJH  FODLPV
-WKDW%LWFRLQ³ZLOOUHSODFHWKHFXUUHQWILQDQFLDOV\VWHP´KHQRWHVWKDW³LQWKHSDVWIRXUWHHQPRQWKVWKH
-YDOXHKDVPRUHWKDQWKRXVDQGIROGHG´DQGSUHGLFWVWKDWLQ³WKHFRPLQJ\HDUVWKHYDOXHRID%LWFRLQ
-ZLOO LQFUHDVH DQRWKHU WKRXVDQGIROG´ ZLWKRXW HYHQ D KLQW RI DFNQRZOHGJPHQW WKDW VXFK LQFUHDVHV E\
-GHILQLWLRQZRXOGUXOHRXW%LWFRLQDVDIRUPRIPRQH\
-   3HUKDSV HYHQ PRUH UHPDUNDEO\ LQ WKH VDPH SLHFH )DONYLQJH FODLPV WKDW %LWFRLQ FDQ ³VDIHJXDUG
-IXQGDPHQWDO FLYLO OLEHUWLHV IRU WKH ZKROH SRSXODWLRQ´ ZKLOH VLPXOWDQHRXVO\ QRWLQJ WKDW WKH ³VHFRQG
-ZDYH´ RI %LWFRLQ DGRSWHUV ZLOO EH ³SHRSOH ZKR GRQ¶W ZDQW RU DUH QRW DOORZHG WR XVH WKH OHJDF\
-EDQNLQJV\VWHPIRUWKHLUHYHU\GD\WUDQVDFWLRQV´6LQFHPDQ\RIWKHUHJXODWRU\PHDVXUHVEXLOWLQWRWKH
-OHJDF\ EDQNLQJ V\VWHP H[LVW VSHFLILFDOO\ WR SURWHFW ZKDW PRVW RI XV ZRXOG UHJDUG DV FRUH FLYLO
-OLEHUWLHV HJWRKDYHRXURZQHUVKLSRIRXUSURSHUW\SURWHFWHGE\GHSRVLWLQVXUDQFHDQGFUHGLWFDUG
-FKDUJHEDFNV WKHLGHDWKDW%LWFRLQSURWHFWVFLYLOOLEHUWLHVE\HQFRXUDJLQJWKRVHZKRDUH³QRWDOORZHG
-WR XVH WKH OHJDF\ EDQNLQJ V\VWHP´²D FDWHJRU\ WKDW PRVWO\ LQFOXGHV SHRSOH FRQYLFWHG RI LOOHJDO
-DFWLYLWLHV²LVRQHWKDWRQO\DGHHSO\FRPPLWWHGLGHRORJXHZRXOGPDNH
+store ot value tunction ot money. Without the stability ot value that they (erroneously) claim proceed: rom either the use of valuable commodities as currency (e.g., gold used for coinage) or as < sxrounding mechanism for money (e.g., a “gold standard”), not just economic instability but actua otalitarian political power is the inevitable result. As Ron Paul put it in 2003 in a speech before the J.S. House of Representatives, “If unchecked, the economic and political chaos that comes fron surrency destruction inevitably leads to tyranny.” What people like Paul criticize about “fiat” currencies is that “central bankers” can manipulate the value of the currency, which is purportedly not the case with asset-backed currencies like gold. The Whole point of this is to have a stable currency, one whose value does not fluctuate wildly. Bu »ecause the value of Bitcoin cannot be modulated except by market transactions, it cannot separate it: isset from currency functions. This makes it too volatile to use as a store of value, despite the fac hat advocates recommend it for its superior stability. These paradoxes are endemic to right-wing rhetoric about money, much of which encourage: yushes people to abandon national moneys and to put the proceeds in precious metals like gold (see >.g., Mencimer 2010 on Glenn Beck’s promotion of gold), because they are supposedly stable 11 value. Yet history shows that gold standards themselves are regulatory in nature, and no more fre« rom manipulation, derivation, and speculation than are any other currencies; gold itself provide: slear evidence of this in its recent price volatility (see Allen 2013; also see Andolfatto 2013 on the yarallels between Bitcoin and gold price volatility), as do the wildly fluctuating prices of all rar« >ommodities. As Bitcoin hit an all-time high (albeit briefly) of US$1,124.76 on November 29, 2013 (“History o 3itcoin’), it wasn’t hard to find—in fact it was difficult to avoid—cyberlibertarian believer: -elebrating this surge and similar ones in the past as proof of Bitcoin’s importance (see, e.g. ‘alkvinge 2013b). While the surge certainly did indicate something, it was remarkable to reac -elebrations of the surge as if it demonstrated Bitcoin’s feasibility as what it is advertised to be, < 1ew form of money or currency. Under any conventional economic theory such surges prove not tha 3itcoin is a new government-toppling currency, but to the contrary, that it cannot perform thos« ‘unctions: it is too volatile to serve as a store of value, and this function is critical to money. Like s« nany other aspects of cyberlibertarian practice, the case for Bitcoin’s supposed power is so perchec yn contradictions that it is surprising to find people taking it seriously, and yet if anything exposure o hese contradictions seems only to inspire renewed seriousness and missionary zeal on the part o 3itcoin advocates. The tension between its function as currency and as investment have informed Bitcoin discussion: rom the beginning, but particularly in the wake of its extreme volatility during and after 2013. In the sarly stages of one of its surges upward in price, Pirate Party founder and self-described “politica ~vangelist’” Rick Falkvinge (2013b) posted a piece on his widely read Falkvinge.net blog titled “The farget Value for Bitcoin Is Not Some $50 or $100: It is $100,000 to $1,000,000.” Falkvinge append: us Bitcoin pieces with a note saying that he “has a significant investment in Bitcoin. Specifically, he vent all-in two years ago after having run these very numbers,” referring to his statement in May 2011 hat he was “putting all of [his] savings into Bitcoin” (Falkvinge 2011). In that earlier piece he make: he typically paradoxical claim that Bitcoin “is a currency, but an entirely new kind of currency,” anc hen explains that he is “investing all of the money [he] had saved and all that [he] can borrow into the currency.” In both pieces and many like them, Falkvinge appears unaware that he is simultaneoush: 
 
+idvocating tor two diametrically opposed ends: tor Kitcoin’s wide adoption as money, tor which 1 nust be able to maintain a stable valuation, and for its desirability as a get-rich-quick investment which disqualifies it as money. It is no surprise that in the same piece where Falkvinge (2011) claim: hat Bitcoin “will replace the current financial system” he notes that “in the past fourteen months, the value has more than thousandfolded” and predicts that in “the coming years . . . the value of a Bitcoi1 will increase another thousandfold” without even a hint of acknowledgment that such increases bi lefinition would rule out Bitcoin as a form of money. Perhaps even more remarkably, in the same piece Falkvinge claims that Bitcoin can “safeguar« undamental civil liberties for the whole population,” while simultaneously noting that the “seconc wave” of Bitcoin adopters will be “people who don’t want or are not allowed to use the legac: yanking system for their everyday transactions.” Since many of the regulatory measures built into the egacy banking system exist specifically to protect what most of us would regard as core civi iberties (e.g., to have our ownership of our property protected by deposit insurance and credit carc chargebacks) the idea that Bitcoin protects civil liberties by encouraging those who are “not allowec o use the legacy banking system’—a category that mostly includes people convicted of illega ictivities—is one that only a deeply committed ideologue would make. [he comparison with gold opens the door to the right-wing theories that underlie too much writin; ind thinking about Bitcoin. Many of its most vociferous advocates rely on characterizations of the *ederal Reserve as a corrupt idea in and of itself, a device run by conspiratorial bankers who wan ‘the state to control everyone’s lives” (Weiner 2013). These claims are grounded in rhetoric yropounded in the United States and across the world by far-right politicians like Ron Paul, a voca idvocate of Bitcoin (Borchgrevink 2014), whose bald declarations about the Federal Reserve are fai nore ideological than substantive in nature. Paul claims to want the abolition of the Fed anda returi o the gold standard, as if this would result in the kind of absolute economic freedom libertarian: Jemand, which is itself a line of argument with deep connections to racist conspiracy theories 11 which Paul has long been implicated (see, e.g., “Ron Paul Sites” 2011). Such beliefs require one to ignore the direct evidence of one’s own eyes. Precisely because it 1: yutside of legal regulatory structures, Bitcoin is particularly prone to the kinds of hoarding, dumping lerivation, and manipulation that characterize all instruments that lack central bank control anc ‘egulatory oversight by bodies like the SEC. Contrary to the advocates’ claims, unregulated securitie: nstruments are everywhere in contemporary finance; there is convincing evidence that the inability o he Commodities Futures Trade Commission to establish regulatory authority over CDOs and CMO: s the proximate cause for the economic crisis of 2008 (Frontline 2009). Now the lack of regulatio1 »f Bitcoin means that hoarders (as of December 2013, half of all Bitcoins were owned bi iproximately 927 people, with such proletarian heroes as the Winklevoss twins of Facebook infanx unong them; see Wile 2013) can use all sorts of sophisticated trading methods to manipulate the narket. This means that fly-by-night operations can come and go, stealing huge amounts of Bitcoin fo: hemselves, as allegedly did the operators of both the short-lived Silk Road drug supermarke ‘eplacement ironically called the Sheep Marketplace (Madore 2015) and the CEO of the most widel: ised Bitcoin exchange, Mt. Gox (Sarkar 2015). 
 
-7KH FRPSDULVRQ ZLWK JROG RSHQV WKH GRRU WR WKH ULJKWZLQJ WKHRULHV WKDW XQGHUOLH WRR PXFK ZULWLQJ
-DQG WKLQNLQJ DERXW %LWFRLQ 0DQ\ RI LWV PRVW YRFLIHURXV DGYRFDWHV UHO\ RQ FKDUDFWHUL]DWLRQV RI WKH
-)HGHUDO5HVHUYHDVDFRUUXSWLGHDLQDQGRILWVHOIDGHYLFHUXQE\FRQVSLUDWRULDOEDQNHUVZKRZDQW
-³WKH VWDWH WR FRQWURO HYHU\RQH¶V OLYHV´ :HLQHU   7KHVH FODLPV DUH JURXQGHG LQ UKHWRULF
-SURSRXQGHGLQWKH8QLWHG6WDWHVDQGDFURVVWKHZRUOGE\IDUULJKWSROLWLFLDQVOLNH5RQ3DXODYRFDO
-DGYRFDWHRI%LWFRLQ %RUFKJUHYLQN ZKRVHEDOGGHFODUDWLRQVDERXWWKH)HGHUDO5HVHUYHDUHIDU
-PRUHLGHRORJLFDOWKDQVXEVWDQWLYHLQQDWXUH3DXOFODLPVWRZDQWWKHDEROLWLRQRIWKH)HGDQGDUHWXUQ
-WR WKH JROG VWDQGDUG DV LI WKLV ZRXOG UHVXOW LQ WKH NLQG RI DEVROXWH HFRQRPLF IUHHGRP OLEHUWDULDQV
-GHPDQG ZKLFK LV LWVHOI D OLQH RI DUJXPHQW ZLWK GHHS FRQQHFWLRQV WR UDFLVW FRQVSLUDF\ WKHRULHV LQ
-ZKLFK3DXOKDVORQJEHHQLPSOLFDWHG VHHHJ³5RQ3DXO6LWHV´ 
-   6XFKEHOLHIVUHTXLUHRQHWRLJQRUHWKHGLUHFWHYLGHQFHRIRQH¶VRZQH\HV3UHFLVHO\EHFDXVHLWLV
-RXWVLGHRIOHJDOUHJXODWRU\VWUXFWXUHV%LWFRLQLVSDUWLFXODUO\SURQHWRWKHNLQGVRIKRDUGLQJGXPSLQJ
-GHULYDWLRQ DQG PDQLSXODWLRQ WKDW FKDUDFWHUL]H DOO LQVWUXPHQWV WKDW ODFN FHQWUDO EDQN FRQWURO DQG
-UHJXODWRU\RYHUVLJKWE\ERGLHVOLNHWKH6(&&RQWUDU\WRWKHDGYRFDWHV¶FODLPVXQUHJXODWHGVHFXULWLHV
-LQVWUXPHQWVDUHHYHU\ZKHUHLQFRQWHPSRUDU\ILQDQFHWKHUHLVFRQYLQFLQJHYLGHQFHWKDWWKHLQDELOLW\RI
-WKH&RPPRGLWLHV)XWXUHV7UDGH&RPPLVVLRQWRHVWDEOLVKUHJXODWRU\DXWKRULW\RYHU&'2VDQG&02V
-LVWKHSUR[LPDWHFDXVHIRUWKHHFRQRPLFFULVLVRI )URQWOLQH 1RZWKHODFNRIUHJXODWLRQ
-RI %LWFRLQ PHDQV WKDW KRDUGHUV DV RI 'HFHPEHU  KDOI RI DOO %LWFRLQV ZHUH RZQHG E\
-DSSUR[LPDWHO\SHRSOHZLWKVXFKSUROHWDULDQKHURHVDVWKH:LQNOHYRVVWZLQVRI)DFHERRNLQIDP\
-DPRQJ WKHP VHH :LOH   FDQ XVH DOO VRUWV RI VRSKLVWLFDWHG WUDGLQJ PHWKRGV WR PDQLSXODWH WKH
-PDUNHW7KLVPHDQVWKDWIO\E\QLJKWRSHUDWLRQVFDQFRPHDQGJRVWHDOLQJKXJHDPRXQWVRI%LWFRLQIRU
-WKHPVHOYHV DV DOOHJHGO\ GLG WKH RSHUDWRUV RI ERWK WKH VKRUWOLYHG 6LON 5RDG GUXJ VXSHUPDUNHW
-UHSODFHPHQWLURQLFDOO\FDOOHGWKH6KHHS0DUNHWSODFH 0DGRUH DQGWKH&(2RIWKHPRVWZLGHO\
-XVHG%LWFRLQH[FKDQJH0W*R[ 6DUNDU 
-   %LWFRLQ¶V LQFUHGLEOH YRODWLOLW\ DQG ODFN RI UHJXODWLRQ FHOHEUDWHG E\ F\EHUOLEHUWDULDQV DFWXDOO\
-SUHYHQW WKH FU\SWRFXUUHQF\ IURP EHLQJ XVHG LQ MXVW WKH ZD\ LWV DGYRFDWHV FODLP 7KH YHU\ UHDVRQ
-FHQWUDOEDQNVUHJXODWHWKHYDOXHRIFXUUHQFLHVLVWRHQVXUHWKH\VHUYHDVVWDEOHVRXUFHVRIYDOXH7KH
-%LWFRLQ H[SHULPHQW GHPRQVWUDWHV DQ HQGXULQJ SULQFLSOH RI ILQDQFH DEVROXWHO\ IUHH PDUNHWV SURGXFH
-H[WUHPH ERRPDQGEXVW F\FOHV ,I %LWFRLQ EHFRPHV UHJXODWHG HQRXJK WR VHUYH DV D VWDEOH VWRUH RI
-YDOXHDQGWRHQVXUHWKDWGHEDFOHVOLNH0W*R[GRQ¶WKDSSHQLQWKHIXWXUHLWPD\EHXVHIXODVDJOREDO
-V\VWHPRISD\PHQWV EXWVRDUHJHQHUDOO\QRQWUDQVIRUPDWLYHWHFKQRORJLHVOLNH3D\3DODQG'ZROOD 
-%XWWKDWZLOOKDUGO\VKDNHZRUOGSROLWLFDOVWUXFWXUHVDWWKHLUIRXQGDWLRQV,ILWUHPDLQVRXWVLGHRIDOO
-IRUPVRIERWKYDOXHDQGWUDQVDFWLRQDOUHJXODWLRQ%LWFRLQZLOOFRQWLQXHWREHDYHU\GDQJHURXVSODFH
-IRUDQ\EXWWKHPRVWULVNWROHUDQWDPRQJXV LHWKHYHU\ZHDOWK\ZKRVHLQWHUHVWLQ%LWFRLQVKRXOG
-LQGLFDWHWRDGYRFDWHVKRZDQGZK\LWFDQQRWEHHFRQRPLFDOO\WUDQVIRUPDWLYH WRSXWWKHLUKDUGHDUQHG
-PRQH\
+Bitcoin’s incredible volatility and lack of regulation, celebrated by cyberlibertarians, actually yrevent the cryptocurrency from being used in just the way its advocates claim. The very reaso1 -entral banks regulate the value of currencies is to ensure they serve as stable sources of value. The 
 
+41tcoin experiment demonstrates an enduring principle ot tinance: absolutely tree markets products >xtreme boom-and-bust cycles. If Bitcoin becomes regulated enough to serve as a stable store o value and to ensure that debacles like Mt. Gox don’t happen in the future, it may be useful as a globa system of payments (but so are generally non-transformative technologies like PayPal and Dwolla) 3ut that will hardly shake world political structures at their foundations. If 1t remains outside of al orms of both value and transactional regulation, Bitcoin will continue to be a very dangerous plac« or any but the most risk-tolerant among us (1.e., the very wealthy, whose interest in Bitcoin shoulc ndicate to advocates how and why it cannot be economically transformative) to put their hard-earnec noney. tis beyond ironic, indeed it is symptomatic, that Bitcoin has experienced dramatic deflationary anc nflationary spirals just as it is being promoted as a corrective to inflation and deflation. Politically his points to the resistance of ideologies to being disproven by contrary facts. Practically, it show: hat the problems with currencies actually aren’t formal, or mechanical, or algorithmic, despite wha 3itcoin propagandists want us to believe. They are social and political problems that can only be solved by political mechanisms. That is why, despite the rhetoric of Bitcoin advocates, today mos iational currencies are far more stable than Bitcoin will ever or can ever be. Many economists recognize something that appears to have been beyond the inventors anc idvocates of Bitcoin. Without direct supply-based regulatory structures that discourage an instrumen rom being used as an investment (aka “hoarding’”), any financial instrument (even gold) will be subject to derivation, securitization, and ultimately extreme boom-and-bust cycles that it is actuall he purpose of central banks to prevent. In fact, there 1s an underlying general proposition that applie: 1ot just to Bitcoin but also to other tradeable commodities: “investment” and “currency” function: yppose each other. Despite this, it becomes increasingly clear that a majority of Bitcoin enthusiasn >merges not from its utility as a currency but as a highly speculative investment (Glaser et al. 2014) lespite the arguments in its favor focusing almost exclusively on Bitcoin’s currency-lik« characteristics. In fact, because the cycles of rapid deflation and inflation provoke constant exchanges of Bitcoi1 or other stores of value, usually national currencies, Bitcoin can more readily be understood no nerely as a commodity, as just one among many other digital commodities, but also as a kind o lerivative itself—an option or futures contract related to the value of other instruments and on whicl nvestors of all sorts can speculate and, depending on the volume of transactions, even manipulate the narket. Given Bitcoin’s foundational anti-legal regulatory stance, it is almost inconceivable tha najor players are refraining from such manipulation. No less a prominent Bitcoin advocate than Ricl ‘alkvinge himself, who after claiming in March 2013 (Falkvinge 2013b) that the correct price of one 3itcoin could eventually be as high as US$1 million, wrote in September of the same year (2013a hat its valuation had become “unwarranted by several orders of magnitude” due to “illegal price: ixing,” even though “for many Bitcoin enthusiasts, the Bitcoin market’s unenforceability o xovernmental rules is a feature, not a bug” and that in manipulating the market, some Bitcoin trader: vere engaging in “cheating of some kind, a breaking of the social contract.” Thus the involvement o ugh-profile players like the Winklevoss twins, too, cannot be a cause for celebration of Bitcoin’: tential as a currency, but rather demonstrates its utility as a commodity that established capital cai ‘eadily manipulate to its own ends. In this sense, it becomes a tool for existing power to concentrat« tself, rather than a challenge to the existing order: as some better economically informec 
 
-,WLVEH\RQGLURQLFLQGHHGLWLVV\PSWRPDWLFWKDW%LWFRLQKDVH[SHULHQFHGGUDPDWLFGHIODWLRQDU\DQG
-LQIODWLRQDU\VSLUDOVMXVWDVLWLVEHLQJSURPRWHGDVDFRUUHFWLYHWRLQIODWLRQDQGGHIODWLRQ3ROLWLFDOO\
-WKLVSRLQWVWRWKHUHVLVWDQFHRILGHRORJLHVWREHLQJGLVSURYHQE\FRQWUDU\IDFWV3UDFWLFDOO\LWVKRZV
-WKDWWKHSUREOHPVZLWKFXUUHQFLHVDFWXDOO\DUHQ¶WIRUPDORUPHFKDQLFDORUDOJRULWKPLFGHVSLWHZKDW
-%LWFRLQ SURSDJDQGLVWV ZDQW XV WR EHOLHYH 7KH\ DUH VRFLDO DQG SROLWLFDO SUREOHPV WKDW FDQ RQO\ EH
-VROYHGE\SROLWLFDOPHFKDQLVPV7KDWLVZK\GHVSLWHWKHUKHWRULFRI%LWFRLQDGYRFDWHVWRGD\PRVW
-QDWLRQDOFXUUHQFLHVDUHIDUPRUHVWDEOHWKDQ%LWFRLQZLOOHYHURUFDQHYHUEH
-   0DQ\ HFRQRPLVWV UHFRJQL]H VRPHWKLQJ WKDW DSSHDUV WR KDYH EHHQ EH\RQG WKH LQYHQWRUV DQG
-DGYRFDWHVRI%LWFRLQ:LWKRXWGLUHFWVXSSO\EDVHGUHJXODWRU\VWUXFWXUHVWKDWGLVFRXUDJHDQLQVWUXPHQW
-IURP EHLQJ XVHG DV DQ LQYHVWPHQW DND ³KRDUGLQJ´  DQ\ ILQDQFLDO LQVWUXPHQW HYHQ JROG  ZLOO EH
-VXEMHFWWRGHULYDWLRQVHFXULWL]DWLRQDQGXOWLPDWHO\H[WUHPHERRPDQGEXVWF\FOHVWKDWLWLVDFWXDOO\
-WKHSXUSRVHRIFHQWUDOEDQNVWRSUHYHQW,QIDFWWKHUHLVDQXQGHUO\LQJJHQHUDOSURSRVLWLRQWKDWDSSOLHV
-QRW MXVW WR %LWFRLQ EXW DOVR WR RWKHU WUDGHDEOH FRPPRGLWLHV ³LQYHVWPHQW´ DQG ³FXUUHQF\´ IXQFWLRQV
-RSSRVHHDFKRWKHU'HVSLWHWKLVLWEHFRPHVLQFUHDVLQJO\FOHDUWKDWDPDMRULW\RI%LWFRLQHQWKXVLDVP
-HPHUJHVQRWIURPLWVXWLOLW\DVDFXUUHQF\EXWDVDKLJKO\VSHFXODWLYHLQYHVWPHQW *ODVHUHWDO 
-GHVSLWH WKH DUJXPHQWV LQ LWV IDYRU IRFXVLQJ DOPRVW H[FOXVLYHO\ RQ %LWFRLQ¶V FXUUHQF\OLNH
-FKDUDFWHULVWLFV
-   ,QIDFWEHFDXVHWKHF\FOHVRIUDSLGGHIODWLRQDQGLQIODWLRQSURYRNHFRQVWDQWH[FKDQJHVRI%LWFRLQ
-IRU RWKHU VWRUHV RI YDOXH XVXDOO\ QDWLRQDO FXUUHQFLHV %LWFRLQ FDQ PRUH UHDGLO\ EH XQGHUVWRRG QRW
-PHUHO\ DV D FRPPRGLW\ DV MXVW RQH DPRQJ PDQ\ RWKHU GLJLWDO FRPPRGLWLHV EXW DOVR DV D NLQG RI
-GHULYDWLYHLWVHOI²DQRSWLRQRUIXWXUHVFRQWUDFWUHODWHGWRWKHYDOXHRIRWKHULQVWUXPHQWVDQGRQZKLFK
-LQYHVWRUVRIDOOVRUWVFDQVSHFXODWHDQGGHSHQGLQJRQWKHYROXPHRIWUDQVDFWLRQVHYHQPDQLSXODWHWKH
-PDUNHW *LYHQ %LWFRLQ¶V IRXQGDWLRQDO DQWLOHJDO UHJXODWRU\ VWDQFH LW LV DOPRVW LQFRQFHLYDEOH WKDW
-PDMRUSOD\HUVDUHUHIUDLQLQJIURPVXFKPDQLSXODWLRQ1ROHVVDSURPLQHQW%LWFRLQDGYRFDWHWKDQ5LFN
-)DONYLQJHKLPVHOIZKRDIWHUFODLPLQJLQ0DUFK )DONYLQJHE WKDWWKHFRUUHFWSULFHRIRQH
-%LWFRLQFRXOGHYHQWXDOO\EHDVKLJKDV86PLOOLRQZURWHLQ6HSWHPEHURIWKHVDPH\HDU D
-WKDW LWV YDOXDWLRQ KDG EHFRPH ³XQZDUUDQWHG E\ VHYHUDO RUGHUV RI PDJQLWXGH´ GXH WR ³LOOHJDO SULFH
-IL[LQJ´ HYHQ WKRXJK ³IRU PDQ\ %LWFRLQ HQWKXVLDVWV WKH %LWFRLQ PDUNHW¶V XQHQIRUFHDELOLW\ RI
-JRYHUQPHQWDOUXOHVLVDIHDWXUHQRWDEXJ´DQGWKDWLQPDQLSXODWLQJWKHPDUNHWVRPH%LWFRLQWUDGHUV
-ZHUHHQJDJLQJLQ³FKHDWLQJRIVRPHNLQGDEUHDNLQJRIWKHVRFLDOFRQWUDFW´7KXVWKHLQYROYHPHQWRI
-KLJKSURILOH SOD\HUV OLNH WKH :LQNOHYRVV WZLQV WRR FDQQRW EH D FDXVH IRU FHOHEUDWLRQ RI %LWFRLQ¶V
-SRWHQWLDODVDFXUUHQF\EXWUDWKHUGHPRQVWUDWHVLWVXWLOLW\DVDFRPPRGLW\WKDWHVWDEOLVKHGFDSLWDOFDQ
-UHDGLO\PDQLSXODWHWRLWVRZQHQGV,QWKLVVHQVHLWEHFRPHVDWRROIRUH[LVWLQJSRZHUWRFRQFHQWUDWH
-LWVHOI UDWKHU WKDQ D FKDOOHQJH WR WKH H[LVWLQJ RUGHU DV VRPH EHWWHU HFRQRPLFDOO\ LQIRUPHG
-FRPPHQWDWRUVFRQVLVWHQWO\SRLQWRXW%LWFRLQIXQFWLRQVPXFKPRUHOLNHDVSHFXODWLYHLQYHVWPHQWWKDQD
-FXUUHQF\ :RUVWDOO<HUPDFN DOWKRXJKZKDWRQHLVLQYHVWLQJLQEH\RQG%LWFRLQLWVHOILV
-QRWDWDOOFOHDU
-
+-ommentators consistently point out, Bitcoin tunctions much more like a speculative investment than < surrency (Worstall 2013; Yermack 2014), although what one is investing in, beyond Bitcoin itself, 1: i0t at all clear. 
+

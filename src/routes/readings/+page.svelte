@@ -23,7 +23,7 @@
 	});
 </script>
 
-<div class="mx-auto max-w-3xl px-6">
+<div class="mx-auto max-w-3xl px-4 sm:px-6">
 	<header class="pb-12 pt-12">
 		<a
 			href="/"
@@ -78,7 +78,7 @@
 					</a>
 					<a
 						href="/week/{reading.weekNumber}"
-						class="shrink-0 font-mono text-xs text-rule no-underline transition-colors hover:text-white tabular-nums"
+						class="shrink-0 font-mono text-xs text-muted no-underline transition-colors hover:text-white tabular-nums"
 					>
 						{String(reading.weekNumber).padStart(2, '0')}
 					</a>

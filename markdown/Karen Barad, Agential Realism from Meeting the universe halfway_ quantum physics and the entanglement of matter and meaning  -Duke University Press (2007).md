@@ -1,2438 +1,244 @@
-                                       ֞‫ࣰ ޚ‬ư౔
+FOUR Agential Realism: How Material-Discursive Practices Matter Where did we ever get the strange idea that nature—as opposed to culture— is ahistorical and timeless? We are far too impressed by our own cleverness and self-consciousness. . . . We need to stop telling ourselves the same old anthropocentric bedtime stories. —STEVE SHAVIRO, Doom Patrols Language has been granted too much power. The linguistic turn, the semiotic turn, the interpretative turn, the cultural turn: it seems that at every turn lately every “thing”—even materiality—is turned into a matter of language or some other form of cultural representation. The ubiquitous puns on “matter” do not, alas, mark a rethinking of the key concepts (materiality and signification) and the relationship between them. Rather, they seem to be symptomatic ofthe extent to which matters of“fact” (so to speak) have been replaced with matters of signification (no scare quotes here). Language matters. Discourse matters. Culture matters, There is an important sense in which the only thing that doesn’t seem to matter anymore is matter. TAKING MATTER SERIOUSLY: MATERIALITY AND PERFORMATIVITY What compels the belief that we have a direct access to cultural representations and their content that we lack toward the things represented? How did language come to be more trustworthy than matter? Why are language and culture granted their own agency and historicity, while matter is figured as passive and immutable or at best inherits a potential for change derivatively from language and culture? How does one even go about inquiring after the material conditions that have led us to such a brute reversal of naturalist beliefs when materiality itself is always already figured within a linguistic domain as its condition ofpossibility? It is hard to deny that the power oflanguage has been substantial. One might argue that it has been too substantial, or perhaps more to the point, 
 
+- AGENTIAL REALISM 133 
 
-                                               +' D P0!:Z ' ! < 0 O B Z
+- too substantializing. Neither an exaggerated faith in the power of language nor the expressed apprehension that language is being granted too much power is a novel feature of the late twentieth century and the early twentyfirst. For example, during the nineteenth century, Nietzsche warned against the mistaken tendency to take grammar too seriously: allowing linguistic structure to shape or determine our understanding of the world, believing that the subject-and-predicate structure of language reflects a prior ontological reality of substance and attribute. The belief that grammatical categories reflect the underlying structure of the world is a continuing seductive habit of mind worth questioning. Is it not, after all, the common-sense view of representationalism—the 
 
-                                                FVZ!P' L0 ! <  0O$S LO 4U'Z
+- belief that representations serve a mediating function between knower and known—that displays a deep mistrust of matter, holding it offat a distance, figuring it as passive, immutable, and mute, in need of the mark of an external force like culture or history to complete it? Indeed, the representationalist beliefin the power of words to mirror preexisting phenomena is the metaphysical substrate that supports socia! constructivist, as well as traditional realist, beliefs, perpetuating the endless recycling of untenable options. Significantly, social constructivism has been the object of intense scrutiny within both feminist and science studies circles where considerable and informed dissatisfaction has been voiced.* A performative understanding of discursive practices challenges the repre- 
 
-                                               L!$P5$'OZ!PP'LZ
+- sentationalist belief in the power of words to represent preexisting things. Unlike representationalism, which positions us above or outside the world we allegedly merely reflect on, a performative account insists on understanding thinking, observing, and theorizing as practices of engagement with, and as part of, the world in which we have our being. Performativity, properly construed, is not an invitation to turn everything 
 
+- (including material bodies) into words; on the contrary, performativity is precisely a contestation ofthe excessive power granted to language to determine what is real. Hence, in ironic contrast to the misconception that would equate performativity with a form of linguistic monism that takes language to be the stuff of reality, performativity is properly understood as a contestation of the unexamined habits of mind that grant language and other forms of representation more power in determining our ontologies than they deserve.” 
 
+**==> picture [407 x 328] intentionally omitted <==**
 
-   >ó  óó &ó ó ó   ó 1 ó  ó  2 só   ó ó 2 9 2 í
+**----- Start of picture text -----**<br>
+134 INTRA-ACTIONS MATTER<br>7 . ; —<br>RIEL», osS BOREte 4 TE ES<br>IBBS - > (jg IGS<br>13 This Niels Bohr centennial celebration f aeere mere ry eeee See<br>posterdepicts<br>j the scientist in his youth,j ec ieee.<br>oms.absorbed in the task ofconstructing at- P|es , Bo| EeENSe;<br>of In his hands and along the length an PP, rhe " z=<br> his arm are discrete electron orbit- é ra ai f 7 “Sd “oS a }<br>als, the basis of his model of the atom, ft i, 3 name) Ve<br>which applies quanturn ideas to mat- ft aia ff TON OT os<br>ter. Bohr won the Nobel Prize in 1922 TAY fd SL OE<br>for his model of the atom. Reprinted with oe i: 2° depen inthe Papas<br>permission of the artist Liam Roberts, courtesy a/P oe \ / eat heblorena:><br>' aN Jo noeRRSTONE<br>**----- End of picture text -----**<br>
 
-   W  ó    Eó Í ó f ¡ % E|ó>óÖó  ó ó 1 % Ó  ó 6!ó 2 ó ó  & ó
-      ó    12 ó4 u  4 ó>ó  ó ó  ó  F 7 ó ç ×¼&ó fó %ó  F ó
 
-            1 ó6   ¢ %  ó 14ó
+HUMANIST ORBITS Gazing out into the night sky or deep down into the structure of matter, with telescope or microscope in hand, Man reconfirms his ability to negotiate immense differences in scale in the blink ofan eye. Designed specifically for our visual apparatus, telescopes and microscopes are the stuff of mirrors, reflecting what is out there. Nothing is too vast or too minute. Though a mere speck, a blip on the radar screen of[all][thatis,][Man][is][the][center][around] which the world turns. Man is the sun, the nucleus, the fulcrum, the unifying force, the glue that holds it all together. Man is an individual apart from all the rest. And it is this very distinction that bestows on him the tnheritance of distance, a place from which to reflect—on the world, his fellow man, and himself. A distinct individual, the unit of all measure, finitude made flesh, his separateness is the key. Representationalism, metaphysical individualism, and humanism work hand in hand, holding this worldview in place. These forces have such a powerful grip on contemporary patterns of thought that even some of the most concerted efforts to escape the grasp of these anthropocentric forces have failed. Niels Bohr’s philosophy-physics poses an energetic challenge 
 
+AGENTIAL REALISM 135 not only to Newtonian physics and metaphysics but to representationalism and concordant epistemologies, such as conventional forms of realism and social constructivism, as well. Poststructuralist theorists such as Michel Foucault and Judith Butler blast the tenets of humanism and representationalism in an attempt to harness the force of this explosion to garner sufficient momentum against the threshold escape velocity. Each of these powerful attempts rockets our cultural imaginary out ofa well-worn stable orbit. But ultimately the power ofthese vigorous interventions[is] insufficient to fully extricate these theories from the seductive nucleus that binds them, and it becomes clear that each has once again been caught in some other orbit around the same nucleus. Suitably energetic to cause significant perturbations, nonetheless, the prized ionization is thwarted in each case by anthropocentric remainders. What is needed is a rigorous simultaneous challenge to al! components ofthis gripping long-range force.’ In this chapter, I propose a posthumanist performative approach to understanding technoscientific and other naturalcultural practices that specifically acknowledges and takes account of matter’s dynamism.* The move toward performative alternatives to representationalism shifts the focus from questions of correspondence between descriptions and reality (e.g., do they mirror nature or culture?) to matters ofpractices, doings, and actions. Such an approach also brings to the forefront important questions of ontology, materiality, and agency, while social constructivist and traditional realist approaches get caught up in the geometrical optics of reflection where, much like the infinite play of images between two facing mirrors, the epistemological gets bounced back and forth, but nothing more is seen. Moving away from the representationalist trap of geometrical optics, I shift the focus to physical optics, to questions of diffraction rather than reflection.’ Diffractively reading the insights of poststructuralist theory, science studies, and physics through one another entails thinking the cultural and the natural together in illuminating ways. What often appears as separate entities (and separate sets of concerns) with sharp edges does not actually entail a relation of absolute exteriority at all. Like the diffraction patterns illuminating the indefinite nature of boundaries—displaying shadows in “light” regions and bright spots in “dark” regions—the relationship of the cultural and the natural is a relation of“exteriority within.” This is not a static relationality but a doing—the enactment of boundaries—that always entails constitutive exclusions and therefore requisite questions of accountability. One of my aims is to contribute to efforts to sharpen the theoretical tool of performativity for science studies and feminist theory endeavors alike, and to 
 
-                                                      ˻ ࡀࢫ Ր ǰ ļ ౔ࡁ ؄ Ѽǰ ٖ ߳‫౔ ˈ ޞ‬ԐଫȰે౔ߋॖ௝୷ବમத౔
+136 INTRA-ACTIONS MATTER promote their mutual consideration. Crucially, an agential realist elaboration of performativity allows matter its due as an active participant in the world’s becoming, in its ongoing intra-activity. And furthermore it provides an understanding of how discursive practices matter. Refusing the anthropocentrisms of humanism and antihumanism, posthumanism marks the practice of accounting for the boundary-making practices by which the “human” and its others are differentially delineated and defined.® In invoking this contested term, I want to be clear thatIam not interested in postmodernist celebrations (or demonizations) of the posthuman as living testimonies to the death of the human, nor as the next stage of Man. No uncritical embrace of the cyborg as the ironic liberatory savior is at issue here.” Posthumanism, as | intend it here, is not calibrated to the human; on the contrary, it is about taking issue with human exceptionalism while being accountable for the role we play in the differential constitution and differential positioning ofthe human among other creatures (both living and nonliving). Posthumanism does not attribute the source ofall change to culture, denying nature any sense ofagency or historicity. In fact,[it] refuses the idea of a natural (or, for that matter, a purely cultural) division between nature and culture, calling for an accounting of how this boundary is actively configured and reconfigured. Posthumanism does not presume that man is the measure of all things. It is not held captive to the distance scale of the human but rather is attentive to the practices by which scale is produced. Posthumanism has no patience for principled claims presuming the banishment or death of metaphysics, especially when such haughty assertions turn out to be decoys for the covert resurrection ofMan as the unspoken measure of what is and isn’t observable or intelligible.* It doesn’t abide by prohibitions against talk of ontology, restricting all deliberation to the epistemological (moored at the safe harbor of Man). Posthumanism eschews both humanist and structuralist accounts ofthe subject that position the human as either pure cause or pure effect, and the body as the natural and fixed dividing line between interiority and exteriority. Posthumanism doesn’t presume the separateness of any-“thing,” let alone the alleged spatial, ontological, and epistemological distinction that sets humans apart. In fact, the agential realist ontology thatI propose does not take separateness to be an inherent feature of how the world is. But neither does it denigrate separateness as mere illusion, an artifact ofhuman consciousness led astray. Difference cannot be taken for granted; it matters—indeed, it is what matters. The world is not populated with things that are more or less the same or different from one another. Relations do not follow relata, but 
 
+**==> picture [387 x 694] intentionally omitted <==**
 
+**----- Start of picture text -----**<br>
+AGENTIAL REALISM 137<br>the other way around. Matter is neither fixed and given nor the mere end<br>result of different processes. Matter is produced and productive, generated<br>and generative. Matter is agentive, nota fixed essence or property of things.<br>Mattering is differentiating, and which differences come to matter, matter in<br>the iterative production of difterent differences. Changing patterns of differ-<br>ence are neither pure cause nor pure effect; indeed, they are that which<br>effects, or rather enacts, a causal structure, differentiating cause and effect.<br>Difference patterns do not merely change in time and space; spacetime is an<br>enactment of differentness, a way of making/marking here and now.<br>AN AGENTIAL REALIST ONTOLOGY<br>Reality is bigger than us.<br>—IAN HACKING, Representing and Intervening<br>\ think the world is precisely what gets lost in doctrines of representation and<br>scientific objectivity.<br>— DONNA HARaAwaAy, “The Promises of Monsters”<br>Representationalism takes the notion of separation as foundational. It sepa-<br>rates the world into the ontologically disjunct domains of words and things,<br>leaving itself with the dilemma of their linkage such that knowledge is<br>possible. If words are untethered from the material world, how do represen-<br>tations gain a foothold? If we no longer believe that the world is teeming<br>with inherent resemblances whose signatures are inscribed on the face of<br>the world, things already emblazoned with signs, words lying in wait like so<br>many pebbles of sand on a beach there to be discovered, but rather that the<br>knowing subject is enmeshed in a thick web of representations such thatthe<br>mind cannot see its way to objects that are now forever out of reach and all<br>thatis visible is the sticky problem of humanity’s own captivity within lan-<br>guage, then it becomes apparent that representationalism is a prisoner of<br>the problematic metaphysics it postulates. Like the frustrated would-be run-<br>ner in Zeno’s paradox, representationalism never seems to get any closer to<br>solving the problem it poses because it is caught in the impossibility of<br>stepping outward from its metaphysical starting place. What is needed is a<br>new starting place.<br>The postulation ofindividually determinate entities with inherent proper-<br>ties is the hallmark of atomistic metaphysics. Atomism hails from Democ-<br>ritus.° According to Democritus, the properties ofall things derive from the<br>**----- End of picture text -----**<br>
 
-Ťϔ ϔ 3ϔ /ϔ /ϔ ϔ & Uϔ ϔ   / ϔ / Ȇϔ /ϔ  σ
-Ɓϔ*qϔϔA* \â~ϔ Ôϔ /ϔ ϔ ɜϔ /ϔϔ//ϔ/ϔ~\ϔ/ ϔ
-/ϔ~\ϔǃµ Ǆȯ~ϔ/ ˹ƒMµȰ ϔ/ ϔ/ϔϔ*ϔ1̼ϔ*ϔ
-ϔ/ ϔ1 ϔ 1ϔ/ 4ϔ \          //¡¼ϔϔ 3JĠ /ϔ ϔ ϔ ǅ  /τ
-*§ϔ ϔ ȇϔ %¹ϔ  ̨ϔ ϔ / ¡ϔ 1ϔ/ϔ ϔ   /ϔ Ï/  /ϔ ϔ
-  ˊ/ Łϔ ϔ /ϔ /  ϔ 3&ϔ /ϔ ʍ `ϔ ϔ ϔ ϔ 3ϔ
- // ϔ1ϔ/ ϔΰ//ϔ/ϔ& ϔ // ϔ1ǆ1/ĳϔ Ïϔ/ϔ ěϔ~ϔ3ϔ
-\ ϔ & ϔ ΀/ ϔ 1ϔ  ˋ/ ϔ Ïϔ  ϔ Ġ/ϔ    × ϔ Ťϔ
-// Uϔ Ù*ϔ/*ϔ ½̽ ϔ /* Ŕϔ ʐÞ*ϔϔϔA *ϔͺϔϔ
-&¡ϔ /ϔϔ/ ϔ//ϔ ĸ / ϔϔ/ϔ // ϔ ϔ ϔ// ªϔ
 
+138 INTRA-ACTIONS MATTER properties of the smallest unit—atoms (the “uncuttable” or “inseparable”). Liberal social theories and scientific theories alike owe much to theidea that the world is composed of individuals with separately attributable properties. An entangled web of scientific, social, ethical, and political practices, and our understanding of them, hinges on the various differential instantiations of this presupposition. Much hangs in the balance in contesting its seeming inevitability. Niels Bohr won the Nobel Prize for his quantum model of the atom, which marks the beginning ofhis[seminal][contributions][to][ the][ development] of the quantum theory. Crucially, however, in a stunning reversal of his intellectual forefather’s schema, Bohr rejects the atomistic metaphysics that takes “things” as ontologically basic entities. For Bohr, things do not have inherently determinate boundaries or properties, and words do not have inherently determinate meanings. Bohr also calls into question the related Cartesian belief in the inherent distinction between subject and object, and knower and known. Indeed, Bohr’s philosophy-physics poses a radical challenge not only to Newtonian physics but also to Cartesian epistemology and its representationalist triadic structure of words, knowers, and things.*° It might be said that the epistemological framework that Bohr develops rejects both the transparency of language and the transparency of measurement; however, even more fundamentally, it rejects the presupposition that language and measurement perform mediating functions. Language does not represent states of affairs, and measurements do not represent measurementindependent states of being. Bohr develops his epistemological framework without giving in to the despair of nihilism or the dizziness of relativism. With brilliance and finesse, Bohr finds a way to hold on to the possibility of objective knowledge as the grand structures ofNewtonian physics and representationalism begin to crumble. Bohr’s break with Newton, Descartes, and Democritus is based not in “mere idle philosophical reflection” but on new empirical findings in the domain of atomic physics that came to light during the first quarter of the twentieth century. Bohr’s struggle to provide a theoretical understanding of these findings resulted in his radical proposal that an entirely new epistemological framework is required. Unfortunately Bohr does not explore the crucial ontological dimensions of his insights but rather focuses on their epistemological import. I have mined his writings for his implicit ontological views (see chapter 3) and here elaborate on them in the development of an agential realist ontology. 
 
+- In this section, I present a brief overview of important aspects of Bohr’s 
 
-                   b    ?; N + { J        bb  [ { _  [ 0 R o _ Hw        {
+**==> picture [384 x 702] intentionally omitted <==**
 
-            J      h! [<     @ 3hw{       Q { Z " [ & R [          b 0 q < i w{
+**----- Start of picture text -----**<br>
+AGENTLAL REALISM 139<br>account and move on to an explication of an agential realist ontology. This<br>relational ontology is the basis for my posthumanist performative account of<br>material bodies (both human and nonhuman). This account refuses the<br>representationalist fixation on words and things and the problematic of the<br>nature of their relationship, advocating instead a relationality between specific<br>material (re)configurings ofthe world through which boundaries, properties, and mean-<br>ings are differentially enacted (i.c., discursive practices, in my posthumanist<br>sense) and specific material phenomena (i.e., differentiating patterns of matter-<br>ing).'' This causal relationship between the apparatuses of bodily produc-<br>tion and the phenomena produced is one of agential intra-action.*? The<br>details follow.<br>According to Bohr, theoretical concepts (e.g., position and momentum) are<br>not ideational in character but rather specific physical arrangements.*? For exam-<br>ple, the notion of position cannot be presumed to be a well-defined abstract<br>concept; nor can it be presumed to be an individually determinate attribute<br>of independently existing objects. Rather, position has meaning only when<br>an apparatus with an appropriate set of fixed parts is used. And furthermore,<br>any measurement of position using this apparatus cannot be attributed to<br>some abstract, independently cxisting object but rather is a property of the<br>phenomenon—the inseparability of the object and the measuring agencies.<br>Similarly, momentum is meaningful only as a material arrangement involv-<br>inga specific set of movable parts. Hence the indeterminacy of simultaneous<br>position and momentum measurements is a straightforward matter of the<br>material exclusion ofposition and momentum arrangements (one requiring<br>fixed parts, and the complementary arrangement requiring those same parts<br>to be movable).<br>As I argued in chapter 3, the primary ontological unit is not independent<br>objects with inherent boundaries and properties but rather phenomena. In my<br>agential realist elaboration, phenomena do not merely mark the epistemo-<br>logical inseparability of observer and observed, or the results of measure-<br>ments; rather, phenomena are the ontological inseparability /entanglement of intra-<br>acting “agencies.” That is, phenomena are ontologically primitive relations—<br>relations without preexisting relata.‘* The notion of [intra-action] [(in] [contrast]<br>to the usual “interaction,” which presumes the prior existence of indepen-<br>dent entities or relata) represents a profound conceptual shift. It is through<br>specific agential intra-actions that the boundaries and properties of the<br>components of phenomena become determinate and that particular con-<br>cepts (that is, particular material articulations of the world) become mean-<br>ingful. Intra-actions include the larger material arrangement (i.e., set of<br>**----- End of picture text -----**<br>
 
 
-  ϔƘ ä  ϔϔ 3i1ϔϔ&ϔ˜~ϔϔ  ϔϔ/ϔ /*ϔ              /Ƹ
-µĒϔϔ/ ϔ/ϔ/ϔ&ϔ Äϔ/& ϔ/ϔµÞJϔ                 ͒Şϔ&ϔϔ
-ϔϔ/ϔ 3ϔ ϔ/ È& /ϔϔ // ϔ                 ϔ\ϔiϔϔ
-iƩ ϔ Ɲϔ  ϔ&ϔϔϔ /*¡È©ϔ &¡ϔ// ϔ¡ϔˌ ϔ ϔ
- ~ϔϔ /3ϔ ϔ/ϔ3ϔ  Jϔϔ /̾ϔ1 ϔϔ*˺~J~iϔ
-˕ϔϔϔ / ϔ+ϔ ϔ ϔ ~ϔϔ3/ϔ Ġ                   ϔ1\ϔϔ
-ͪ %ϔ /ϔ È/ϔ  ~ϔ ϔ ϔ ϔ ϔ ϔ 3 /ϔ ~ ϔ BϔÈ  /ϔ
-31ϔ &ϔ /  µϔ Bϔ ϔ &ϔ *ϔ ʴá*ϔ &Þϔ ϔ i ϔ
- ϔϔ ϔ/ϔ1ϔ  3  ϔ
-   cϔ ϔ *ϔ Èϔ ϔ//ϔϔ & ϔ B ϔ ϔ 3ϔ 3/Ē»ϔ Àϔ
-˻ / ϔ*ϔ //ϔϔ ϔ3ϔϔ 3µ Ȉϔ \ϔ * ϔƘ \ϔ ϔ ϔ  /ȉϔ
-                             $ 1     3 )     .   3   3
+140 INTRA-ACTIONS MATTER material practices) that effects an agential cut between “subject” and “object” (in contrast to the more familiar Cartesian cut which takes this distinction for granted), That is, the agential cut enacts a resolution within the phenomenon of the inherent ontological (and semantic) indeterminacy. In other words, relata do not preexist relations; rather, relata-within-phenomena emerge through specific intra-actions. Crucially, then, intra-actions enact agential separability—the condition of exteriority-within-phenomena. The notion of agential separability is of fundamental importance, for in the absence ofa classical ontological condition of exteriority between observer and observed, it provides an alternative ontological condition for the possibility of objectivity. Moreover, the agential cut enacts a causa] structure among components of a phenomenon in the marking of the “measuring agencies” (“effect”) by the “measured object” (“cause”). It is in this sense that the measurement can be said to express particular facts about that which is measured; that is, the measurementis a causal intra-action and not “any old playing around.”*® Hence the notion of intra-action constitutes a reworking of the traditional notion of causality.*® In my further elaboration of this agential realist ontology, I argue that phenomena are not the mere result of laboratory exercises engineered by human subjects; rather, phenomena are differential patterns of mattering (“diffraction patterns”) produced through complex agential intra-actions of multiple material-discursive practices or apparatuses of bodily production, where apparatuses are not mere observing instruments but boundary-drawing practices— specific material (re)configurings of the world—which come to matter. These causal intra-actions need not involve humans. Indeed, it is through such practices that the differential boundaries between humans and nonhumans, culture and nature, science and the social, are constituted.” Phenomena are constitutive of reality. Reality is composed not of thingsin-themselves or things-behind-phenomena but ofthings-in-phenomena.* The world is a dynamic process of intra-activity and materialization in the enactment of determinate causal structures with determinate boundaries, properties, meanings, and patterns of marks on bodies. This ongoing flow of agency through which part of the world makesitself differentially intelligible to another part of the world and through which causal structures are stabilized and destabilized does not take place in space and time but happens in the making of spacetime itself. It is through specific agential intraactions that a differential sense of being is enacted in the ongoing ebb and flow of agency.’ That is, it is through specific intra-actions that phenomena come to matter—in both senses of the word. 
 
+AGENTIAL REALISM. 141 The world is an open process of mattering through which mattering itself acquires meaning and form through the realization of different agential possibilities. Temporality and spatiality emerge in this processual historicity. Relations of exteriority, connectivity, and exclusion are reconfigured. The changing topologies ofthe world entail an ongoing reworking of[the][notion] of dynamics itself. Dynamics are a matter not merely of properties changing in time but of what matters in the ongoing materializing of different spacetime topologies. The world is intra-activity in its differential mattering. In summary, the primary ontological units are not “things” but phenomena —dynamic topological reconfigurings/entanglements/relationalities/(re)articulations of the world. And the primary semantic units are not “words” but material-discursive practices through which (ontic and semantic) boundaries are constituted. This dynamism ts agency. Agency is not an attribute but the ongoing reconfigurings of the world. The universe is agential intra-activity in its becoming. In what follows, I provide a detailed explication of this agential realist ontology. I begin with a detailed examination of the nature ofthe apparatus, including two significant analytical shifts that are important emendations to Bohr’s formulation: (1) a shift from linguistic representations to discursive practices; and (2) a shift from apparatuses as static prefab laboratory setups to an understanding of apparatuses as material-discursive practices through which the very distinction between the social and the scientific, nature and culture, is constituted. 
 
-xhhs}*sw)gxG)\GGg: $/>x</l) g /)::/l)x/. 2)Gx; G g x;/ih/lh 3 \ )g:}):/
-ghl x;/ /il/ss/. )iik/;/gs?hg x;)x ])g:}):/ Gs */Gg: :l)gw/. xhh f}+;
-ih/l Gs ) gh/\ 3/)w}k/ h2x;/\)x/w/gxG/x; +/gw}l)g. w;0 /)l] |/gw
-8lsx !hl/ )fi^/ .}lGg:y</ gGg/x//gx; +/gx}p $H/xs+;/)lg/. ):)?gsx
-w=/ f@sw)V/g w/g./g+ wh w)W/ :l)ff)l xhh t1lAh}s\ )\]hGg: ]Ag:}GsxB+
-swl}+w}l/ wh s;)i/ hk ./x/lfGg/ h}l }g./lsw)g.Gg: h3w;/ hk\. */\C/Dg:
-w;)wx;/s}*T/+x)g.il/.A+)w/swl}+x}k/h2_)g:}):/l/5e/+xu)ilGhlhgxh]h:G
-+)\l/)\G{h3s}*sw)g+/ )g.)xxkA*}w/';/*/^H/3x ;)w:l)ff)wG+)]+)w/:hlG/s
-l/5e/+w w;/ }g ./k_Gg:sxk}+x}l/ h3x;/ hk\. Gs ) +hgwGg}Eg: s/.}+y>/ ;)*Fx
-h3f Gg.hlw;j}/swGhgGg:
-   # s  Gw ghw )3w/l )\^ w;/ +hffhgs/gs/ G/ h2l/il/s/gx)y@hg)]Gsfy;/
-*/\R/2w;)wl/il/s/gx){Ihgs s/q/) f/.G)xAg: 3} g+wGhg*/w//gWgh/l)g.
-Xghgw;)w.Gsi\)s) .//i fGswl}swh3f )ww/l ;h\.Gg:Hxh7) x) .Gsx)g+/
+THE NATURE OF AN APPARATUS 
 
-4S:}lHg: Hw )s i)ssG/ Gff}w)*`/ )g. f } x/ Ag g//. h2x;/ f)lY h2 )g
-/w/kg)^ 3hl+/ \GZ/ +}aw}l/ hk;Gsxhmwh +hfi\/w/ Gw  #g.//.  w;/ l/il/s/gw)
-wGhg)\Gsw*/\H/2Ggw;/ih/lh3 hl.swh fGllhlil//Gs{Ag:i;/ghf/g)Isy</
-f/w)i;sG+)b s}*s{k)w/ x;)w s}iihlws sh+J)d +hgs{l}+wGGsx )s /]\ )s xl).A
-wGhg)\ k/)\Ksw  */^G/3s   i/li/w})wLg: w;/ /g.^/ss l/++\Hg: h2}gx/g)*\/ hi
-xGhgs &G:gG9+)gw] sh+G)a +hgsxk}+w@Gsf ;)s *//g w;/ h*U/+x h2Agx/gs/
-v+l}y@gAw;Gg*hw;3/fGgGsx)g.s+G/g+/sw}.G/s+Hl+\/s;/l/+hgsG./l)*\/
-)g.Gg 3hlf/..?ss)wHs3)+xHhg ;)s*//ghG+/.
-   ϧ S7QVGh*lt }g./ksx)g.Gg:h 3 . Hs+}lsG/ik)+wG+/s+;)d\/g:/s x;/ l/il/
-s/gw)wGhg)^Asx */\H/3Hg x;/ ih/l h3hl.s wh l/il/s/gw il//GsxGg: w;Gg:s
-(gcHW/ l/il/s/gx)xBhg)\Gsf ;A+; ihs M xHhgs }s)*h/ hl h}wsG./ w;/hl\.
-/)]\/:/.]f/l/\l/5e/+whg )i/l3hkf)wG/)++h}gxGgsGsxsh g }g./lsx)g.
-Gg: x;AgWGg:  h*s/o?g:  )g. x;/hkHGg: )s ik)+x?+/s h3/g:):/f/gwGw; 
-)g.)si)lxh6 x;/hl\.Ng;G+;/;)/h}l*/Gg:
-   %/l3hlf)xGAz ikhi/l]+hgswk}/. Gsghx)gBgGw)xOhgwh x~kg //rw;Gg:
-Gg+^}.Gg: f)x/lG)] *h.G/s Ggxh hk.s hg x;/ +hgxl)p i/l3hkf)xGAw Gs
-il/+As/\) +hgx/sx)wGhgh3x ;//+/ssG/ ih/l:k)gx/.yh])g:}):/wh ./w/l
-fAg/;)xAs l/)^ "/g+/ PgGkhgH++hgxl)sxxhx;/fQs,hg-/iyGhgw;)xh}^.
-/j})w/i/k2hlf)wGA{Hw;) 3hnf h2] Ag:}GswG+ fhgGsf x;)xw)[/s ])g:}):/
-wh */ w;/ sw}7h2l/)^G{  i /l2hlf){RH{ As inhi/k] }g./lsxhh. )s ) +hgx/s
-z)xGhg h3x;/ }g/)fGg/. ;)*Gxs h2fGg. w;)w :n)gx ])g:}):/ )g. hz</k
-3hlfs h2l/il/s/gx)x@hg fhl/ ih/k Gg ./x/kfAgHg: h}l hgwh^h:H/s w<)g
-w;/./s/o/
-                                    ΅ύϢ౔       ઎ ో ࢩ  Ĉ ˺ ѻ Ә ࢪ ɓ ‫ ޝ‬Ǝ ࠿ ౔ ‫ ܔ‬ĈǙǙ Տ ߲ ౔
+The opportunity to know the apparatus better. ... That isan integral part of knowing how to create phenomena. 
 
+**==> picture [383 x 179] intentionally omitted <==**
 
+**----- Start of picture text -----**<br>
+|||||||||||||||
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|IAN|HACKING,|Representing|and|Intervening|
+|What|is|an|apparatus?|Is|it|the|set|of|instruments|needed|to|perform|an|
+|experiment?|Is|ita meditating device|that allows|the|object|world|to|give|us a|
+|sign|ofits|nature?|Is|[it]|a|prosthetic|extension|of our|sensing|abilities?|Shall|
+|we|understand|an|apparatus|in|terms|of|Kantian|grids|of|intelligibility?|
+|Aristotelian|schemata?|Heideggerian|background|practices?|Althusserian|
+|apparatuses?|In|Foucault’s|sense|of discursive|practices|or|dispositif (appara-|
+|tus)?|In|Butler’s|sense|of the|performative?|As|Latour’s|inscription|or|trans-|
+|lation|devices?|Or|as|Haraway’s|apparatuses|of|bodily|production?|Bohr’s|
+|notion|of an|apparatus|is|unique|among|these|theorizations,|and|yet|there|
 
+**----- End of picture text -----**<br>
 
-                                                                                       
 
+142 INTRA-ACTIONS MATTER are some interesting reverberations among these possibilities worth exploring. Reverberating at different frequencies, these differing lines of thought can productively be read through one another for the patterns of resonance and dissonance that illuminate new possibilities for understanding and for being. Since apparatuses play such a crucial, indeed constitutive, role, it is imperative that we understand their precise nature. In this chapter I argue that apparatuses are not mere instruments or devices that can be deployed as neutral probes of the natural world, or determining structures of a social nature, but neither are they merely laboratory instruments or social forces that function in a performative mode. Apparatuses are not merely about us. And they are not merely assemblages that include nonhumans as well as humans. Rather, apparatuses are specific material reconfigurings of the world that do not merely emerge in time but iteratively reconfigure spacetimematter as part of the ongoing dynamism of becoming. THE BOUNDARY OF AN APPARATUS Bohr specifies certain specific criteria for apparatuses. According to Bohr, apparatuses are macroscopic material arrangements through which particular concepts are given definition, to the exclusion of others, and through which particular phenomena with particular determinate physical properties are produced. The far-reaching conclusion of Bohr’s proto-performative analysis is that the apparatus plays a much more active and intimate role in experimental practices than classical physics recognizes. Apparatuses are not passive observing instruments; on the contrary, they are productive of (and part of) phenomena. Yet despite the centrality of the apparatus to Bohr’s analysis, he never fully articulates its nature. Questioning the basis of the Newtonian tradition, Bohr refuses to take for granted the delineation of the “object” and the “agencies of observation” and makes the constitution of[this][“inside”][boundary][the][centerpiece][of][ his] analysis. In particular, he emphasizes that the cut delineating the object from the agencies of observation is enacted rather than inherent. On the other hand, Bohr does seem to help himselfto the “outside” boundary of[the] apparatus. That is, while focusing on the lack of an inherent distinction between measuring instrument and measured object, Bohr does not directly address the question of where the apparatus “ends.” Is the outside boundary of the apparatus coincident with the visual terminus of the instrumentation? What if an infrared interface (i.e., a wireless connection) exists between the measuring instrument and a computer that collects the data? Does the appa- 
 
+AGENTIAL REALISM 143 ratus include the computer? Is the printer attached to the computer part of the apparatus? Is the paper that is fed into the printer? Is the person who feeds in the paper? How about the person who reads the marks on the paper? Or the scientists and technicians who design, build, and run the experiment? How about the community of scientists who judge the significance of the experiment and indicate their support or lack of support for future funding? What precisely constitutes the limits of the apparatus that gives meaning to certain concepts at the exclusion of others? One ofthe questions, perhaps the question, that Bohr finds most pressing in his investigation of measurement practices is how it is possible to secure the conditions for the possibility of objectivity given that “subjective elements” such as human concepts play a productive (though not determining) role inthe outcome of measurements. In other words, what is at stake for him in the challenge posed by quantum physics is nothing less than how we can account for the fact that science works. Crucial to Bohr’s analysis of the subject-object distinction is his insistence that concepts are materially embodied in the apparatus. In particular, Bohr insists that only concepts defined by their specific embodiment as part of the material arrangement—which includes instrumentation (e.g., photographic plates, pointers, or digital readout devices) that marks definite values of the specifically defined properties and can be read by a human observer—are meaningful. That is, the larger material arrangement enacts a cut that resolves the inherent ontic-semantic indeterminacy through which the “subject” and the “object” emerge. Apparatuses are the conditions of possibility for determinate boundaries and properties of objects and meanings of embodied concepts within the phenomenon. Indeed, this embodiment of concepts as part of the apparatus is ultimately what secures the possibility of objective knowledge, as defined in terms of Bohr’s epistemic criteria of reproducibility and communicability.”° One pronounced limitation of Bohr’s account, then, is that the human is thereby cemented into the very foundations of the quantum theory and the far-reaching philosophical implications ofhis proto-performative account of scientific practices. Observation and communication, the contingencies of visibility and invisibility, ofconcepts and utterances, are crucial to this formulation: man isn’t merely the measure of all things; man’s finitude is implicated in the very conditions of possibility of measurability and determinability. It is as if in the desire to compensate for the shortcomings of classical mechanics—which erroneously jettisons the observer from the scene of observation—Bohr overshoots his mark and places the human not merely back in the picture where she or he belongs, but atthe centerof all that is. 
 
-΂ό౔    #Ri    $4Si H  M i ?V ? @ % 5 i 6M V&H@i
-
-      JHSWNi K'\SiV iS(@X)SYi*?i +SidH_V!i
-
-      SH Mi , @ iV!iZ U3iHi H?TWO`[- Ai\f
-
-      H ; Si  ? i! . U i!?Ui Bi 6HCiV!i 7BW i
-
-      Hi /Ri M<i Mi  & RPVi 8VMH@i HM&Vg
-
-       9RiV i  R)RiHi! ) S i<H6iHiX!i VH<i
-
-      c"0 i    JJ: 'Ri L ` D Y a = i 1Si XHi < Yh
-
-      VMi H! Mi cH@i V!i     H6i    M2ei '?i ΄зßß౔
-
-      IMi ! ' U i >H6i HiV!i VH<  i '+"/6 06
-
-      '(! -$#6 %616 ,-26 ‫΃ۓ‬ଇહ౔ $,-6 &3,-56 řͰʛά
-
-      э઺਱ਲਲ਼ଈ౔ 6)* 4.6
-
-
-
-
-                                              ࣶ  ; H ū P Ǟ౔ ‫ ߻ ޠ‬Ҳ ū Ǟ P ౔
-
-
-      ɹ'ٕ&N‫ &ٶٶ(ٶ«(ٶ‬N?‫»ٶ‬p!‫ٶ)(ٶ‬QQ4‫ٶ(ٶ‬Á˱(‫>ٶ‬Q‫ؙ»ٶ‬:ųAwų)Q‫ٶ[(ٶ‬ł 'wwQ:ǔ‫ٶ‬Á>‫ٶ‬
-      ?QQA(4Q‫  ٶ)( ٶ‬A‫(נ‬A(4Q‫ ٶ‬բ&‫ ٶ&' ٶ‬ď'&‫) ٶ‬A(&ӻ)ł»‫ ٶ‬Á‫ ٶ( ٶ!? ˌ' ٶ‬N(?'Q‫ٶ‬
-       Q»Q‫ ٶ‬ӝӞQ)QAQ‫ ٶ‬ȕ‫ٶ‬A'Q‫ٶ‬ȇ&‫ٶ‬Q‫ٶ‬ZȎ‫ٶ'ٶ[(ٶ‬Q!QŚ‫ٶ‬ċQ»ZN‫ٶ‬4QA ¤էA'!‫ٶ)([ٶ‬
-      (‫ظ‬:‫ ٶ‬f˄ »‫'ٶ֤'ط‬44':'>˽½‫ ٶ‬wA(4Q‫˅ ٶ' ٶ‬A)(A(4Q‫'ٶ‬:Q‫ ٶ‬Q‫« ٶ‬ʚ‫ٶ)())ٶ[(ٶ‬
-      )QԄQA&N‫(ٶ» ٶ'ٶ‬H‫ٶ‬Q)QЋ‫ ٶ‬ʁ(գN‫ ٶ((?ٶ)(ٶ»'¬ ٶ((? ٶ» ٶ‬Áų>QŚ‫˽(҇ٶ‬N‫ٶ' ٶ‬
-      Q)Q‫ٶ‬4QA²Ϗ‫ٶ'ٶ‬Å 4‫ٶ&(ٶ‬Q‫')ٶ‬.')‫ٶ‬A)QQ‫ٶ'?ٶ 'ٶ[(ٶ‬ɒ‫ٶ‬ď'‫ٶ‬դ‫ٶ‬Q‫ٶ‬A?Q)‫ٶ«()'ٶ‬
-      A‫?ٶ‬Q‫)«ٶ)(ٶ‬n‫ٶ‬ď'‫?ٶٶ‬Q‫ٶ‬H&‫?ٶ‬Q‫«&ٶ‬AQ«ϐ‫?ٶ‬Q‫«[ٶ‬A)«ɘ‫?ٶ‬Q‫ٶ‬H& ӡ &N‫ٶ‬
-      ӛ(:Aϑ‫ ٶ‬wQ‫ٶ‬N˕ųQ‫>ٶ‬Ҡ>‫(ٶ‬9‫ٶ‬Y>‫ٶ'ٶ‬w(NQw8Q)n‫ٶ‬ď '‫'«¬ٶ'ٶ ٶ‬Ȓ‫'ٶ‬4')?‫[ٶ‬:(‫ٶ' ٶ‬
-      ?Ǹ‫)ٶ‬Q‫ٶ&ٶؚ‬Z?‫¬ٶ ٶ ٶ‬Q‫ٶ!ס‬.ĶAZ(&‫ٶ‬ҡ?‫ٶ(ٶ( »ٶ‬Áł‫ٶ‬Q‫ٶ‬եQ)Áw'&Aӊ‫ٶ[(ٶ‬
-       '&AƁ‫ٶ'ٶ‬4_'A‫()[ٶ‬ł‫ ٶ‬A‫)ٶ(ٶ‬ԅQAƄ(‫ٶ)(ٶٶ‬s‫ٶ‬ӜӌȒÅ(‫&'ٶ‬ϒ‫ٶ&'ٶ‬
-       Qӟ‫  ٶ ٶ‬A?‫ ٶ‬Á¬ «'Ȓϓ‫ٶ‬Q‫ ٶ֧˕'ٶ[׀ٶ؛ « ٶ‬łQ'‫)ع‬ɘ‫ٶ‬Ӽ&?«Q‫ٶ'ٶ‬ԆĐɐ‫ٶ‬
-      Á‫»ٶ‬Q4':'?QֶQ‫ٶٶ‬wQ‫ٶ‬²Q!ɨ‫ٶ‬
-         ѺQ4)QQ&?' ('֥ Zϔ‫ ٶ‬Q'4!»A'¨‫ ٶ‬Z ¬ «'¨ ɖ‫ ٶ&'ٶ‬ųł'ַ‫(ٶ‬:p‫ٶ‬
-      '‫' ٶ ٶ‬ŕ‫( ٶ‬Ås&N‫¬¨)( ٶ ?ٶ‬Q‫ ٶ& ٶ‬4¨'AQǟ‫ ٶ‬ƏQ‫)([ ٶ‬AQ‫¬' ٶ‬Q‫ ٶ‬HA‫ٶ' ٶ‬
-      4(:[« ‫ٶ‬N)Á4‫ٶ( ٶ‬A(ʓ4()'u!‫ٶ‬4'?‫«(?ٶ[(ٶע‬N‫ ٶ' ٶ‬Q¬&‫( ٶ‬Ǹ‫?ٶ[(ٶ‬Q‫ٶ‬
-      (‫ٶ‬A(AQ:˱Q‫ٶ‬Qʚ(u>‫ ٶ(> ٶ‬QA'4Q‫ٶ‬w‫ٶ‬N:'4‫>ٶ[( ٶ‬Ӌ‫ָ'ٶ‬w:(4(A?: A‫)([ٶ‬AQ‫ٶ‬
-      '¬Q‫¨ '[ٶ‬Qn‫ ٶ‬ʁZQ‫ٶ‬T()Ͳ»‫ٶ‬4 ((4B!Ĩ4!զA‫ٶ‬4(Q‫ٶ&'ٶ‬ʓ)NQ˅A‫ ٶ‬A'˓֦QN‫ٶ‬
-                             % 2     3 ʬ Ƥ @ Ȼ άȍ ˋ ɜ ά   .
-
-
-ɘ(ɘɘ ¼-ɘ(+ ɘ 'ɘ (Ȧs ɘ !Ⱥɘɘ ǰ+ɘ
-'ɘ   'ɘÄǱĨɘ @ ɘɘ Gǲɘ0 9ɘ0ɘ6Ǎɘ'ɘ
- +6ɘ  +a+Pɘ ɘ -??Vɘ ½   6ɘ  ɘ  ɘ ɘ Ƙ B)ɘ
-¸ )ɘ 'ɘ Ɩ'ɘ l6 ɘ !wɘ Lɘ ȭɘ 0ɘ9ɘ 'ɘ Iɉ
-Ǹɘ ɘ ɘ Ȑɘ ɘ  ɘ Bɘ 0Ȓ ɘ 0ɘ:ɘ Àȿ:ɘ yɘ  ɘ
-ƻ :ɘ 99ɘ ɘ ɘ  )'ɘ  ɘ G[ ȷEɘ Ɗ ɘ 0ɘɘ
-- 0?ɘȧɘ  Kɘ ɘ 6?ɘ +Ø(ɘɘ0ɘɘ -))g- ɘ !)ɘ
-!sŞɘl@ɘ?+ǳ(ɘɘ-ɘ0ɘ ɘG ɘ;  âLɘÅɘ@Ƽ ɘ
-ɘ0[)(ɘɀ : ɘɘ ɘ ȓ9ɘ ɘ'@ Gɘ @ ?@ɘɘ!+'ɘ >ɘ
-'ɘ +ɘ! ɘ ?Iɘ Bɘ >ɘ Bɘ  ɘɘ !ɘ Bɘ ɘ 9ɘ ɘ
-!+ɘ 'ɘ ɘ ɘ  [ Vɘ ¾+!?(ɘ  + ɘ ɘ ɘ qǎ ɘ  |
- !eɘ ?ĩɘ ɘ  +{'ɘ +:{ɘ ǅɘ >- Ȯ'ɘ ;ɘ  >ɘ ɘ !(ɘ
-BI   ɘ 9' Vɘ pɘ ɘ ''ɘ ɘ ɘ ɘ +9?ɘ
- 6[ɘyɘ?ɘ ɘ0ɘ >:ɘ :ɘ6Ř ɘ0             Ťċɘ
-   ºɘ >+ɘ Īɘ ?À ɘ ɘ CAPZ!`9>-OZjC/@G9Z.dj   ɘ ɘ @' æ
-'ɘ > sr ɘ'ɘ Bɘ Ô ?@)ɘ I  ɘ ɘ ǆq ǹ(ɘ
- K-6'ɘ 'ɘ Kɘ       ɘ 0ɘ9 Ċɘ '(9 9şɗɘoɘ 9Gɘ - 'ɘ
-0 9Gɘ?I+Gɘɘ  L)ɘ B0ɘ >ɘ 0 ɘ0I9ɘxɊ
-ɘ0ɘ  ' ɘ!ɘ ' ++ɘ'ɘI6ɘĚEŠ Pɘ 'ɘB(ɘ9 + ɋ
-  ɘ  ɘ  ɘ @ Ƃdɘ ɘ  ɘ 0ɘ  y īɘ 'sĬɘ 'ɘ  šɘ ƙ ɘɘ
- >ɘ ?ɘ !I+ɘɘ>ɘ0 0 ɘ9 ɘxɘ 0ɘ )(ĭɘ ç
- )Dɘ 'ɘ  (Įɘ -+?ɘ  +?ɘ   :a+ɘ 'ɘ  ')ɘ 6ɘ Ɍ
-  ɘ ɘ @ɘɘ ɘɘIǇ 6ɘ ǈ ɘ0ɘ ǁ L3ɘ- fɘ 9 Bɘ
-Ǻ+ɘɘ; Jɘ6(ɘ0ɘɘ !ɘL-ɘ0ƣ+ɘ9 + įɘɘ:9Ǵ}
-+ 6ɘ ɘ !@ 'ɘ ! vɘ 'ɘ 0 Bİɘ !ɘ ;ɘ  ɘ ɘ Ţɘ QGɘ -(ɘ
-0 9ɘ ɘ Ȕ:[ɘɘ 0ɘ9 + 6ɘ : ıɘ ºɘ  >+ 0ɘ ɘ Ȏ ɘ ɘ
->(+ 6ɘ + Dɘ ɘ xǉɘ 0ɘ'Ƴ +ɘ ɘ ɘ ǂ +hɘıά ƉÆƴ  ɍ
-+â6(ɘ '3ɘ >ɘ Ǌɘ 0ɘ  6ɘ "(Ĳɘ   ɘ 'ªɘ 'ɘ
-( ɘ  >ɘ ɘ >ɘ :6ɘ >+ɘ ɘ 6 )ɘ 'ɘɘ @ 6ɘ
- ɘ ɘ ǋ))9:ɘ-(hɘ pɘȰɘ ɘ ɘ ɘ ;+ɘ ě'ɘ
- ɘɘ 0ɘ  dɘ-ɘ ɘ'ɘ'ɘɘ ǻ)(ɘ+?ɘɘ ȕ)+ɘ
-0ɘ!)ɘɁ::(ɘɘ ǵǼ Vɘ ƗÇKɘ ɘ '+Ƶ ɘ  ɘ :)Ô@9ɘ ɘ
-+'rɘ @ ɘ0ɘ! ':¯':(+ɘ>'-ɘ ɘê6+ëɘ Øɘ'ɘ
-! >ɘ ɘ ɘ ì'ǭ¡ɘ ǌřɘ ):+ɘ 0ɘ >ɘ 66ɘ 'ɘ Bɘ
-ÙǶɘ +ɘɘ 6+ɘ 0ɘíb  (ɘ- ± î ɘoɘ :ɘ ɘɘ : ɘ 6+):ȸɘ
-!ɘɘ '+¯yɘ 9ɘ0ɘ! 'Ȗ;ɘ6-(ɘ Ƿɘ @Gɘ
-ɂ +ɘ 'ɘ >"0 ɘ x+ȯɘ ×Èɘ 0ɘ          !)(ţɘ nɘ 0ɘ9(ɘ
-9ɘ ɘ ɘ  !ɘ ɘ ƶ ɘ ɘ  ɘ ɘ  6ɘ 6ɘ 0ɘ 0ȗɎ
-:a+L(ɘ 0 ɘ  : Àɘ 'ɘ 'ɘ 09:ɘ Ùɘ 'G ɘ ):Kªɘ 'ɘ ɘ
-                       Βϐí౔     ȋ ɸ ˹ x ? ¾ Ř ų ˺ Ȍ ʑ ɹ ˊ ά ɛ ? ˻ ˼ ƣ xά
-
-
-
-~}z}G¦ UG[¦ zAx¦ C}{ VFGA]}{#¦ 4CXAq q¦ A{¦ ASG{XAq¦ GAx Z ¦ GqAB}A
-[}{¦ }L¦~GL}zA[X¦ Axx} ¦ zAG¦ W ¦ FG¦ A ¦ A{¦ ACVG¦ ~A]Ch~A{¦ X{¦ UG¦
-}rF ¦BGC}zX{S¦ X{¦X ¦}{S}[{S¦X{A ACY[$¦ 2{F¦LUGz}G¦[¦~}XFG ¦
-A{¦{FG A{FX{S¦}L¦_FX C [G¦~AC[CG ¦zAG%¦
-     >GL X{S¦UG¦ A{U}~}CG{X z ¦ }L¦UzA{Z z¦ A{F¦ A{XU zA{Z z¦ a_ow
-/VY1pW zAk ¦ UG¦ ~ADXCG¦ }L¦A CC}{X{S¦L}¦ UG¦ B}{FA zAkX{S¦ ~AC
-[CG ¦ B¦U[CU¦ UG¦ UzA{¦ A{F¦ X ¦ }UG ¦ AG¦ FVOGG{XAxx¦ FGxX{GAHF¦ A{F¦
-FGP{GF&-¦ 6{¦ X{}l[{S¦ U[ ¦ C}{G GF¦ Gz¦ 6¦ A{¦ }¦ BG¦ CqGA¦ UA¦ 7¦ Az¦ {}¦
-Z{GG GF¦[{¦~} z}FG{ \ ¦CGyGBA[}{ ¦ }¦FGz}{[A[}{ ¦ }L¦ UG¦~} U¡
-zA{¦A ¦xXX{S¦G ]z}{XG ¦}¦ UG¦FGAU¦}L¦ UG¦UzA{¦ {}¦A ¦UG¦{G¦ ASG¦}L¦
-9A{$¦;}¦ {C]ZCAx¦ GzBACG¦ }L¦UG¦CB}S¦A ¦ UG¦Z}{XC¦x^BGA}¦ A[}¦[ ¦A¦
-X    G¦ UGG,1¦ <} UzA{X z¦ A ¦ 7¦ X{G{F¦ X¦ UGG¦ [ ¦ {}¦ CAxXBAGF¦ }¦ UG¦
-UzA{/¦}{¦UG¦C}{A¦ [¦[ ¦AB}¦Am[{S¦ [          G¦[U¦UzA{¦GCG~_}{Ax] z¦
-U[xG¦ BGX{S¦ACC}{ABuG¦ L}¦ UG¦}sG¦G¦~uA¦[{¦ UG¦FXOGG{XAx¦ C}{ X]}{¦
-A{F¦F[OGG{XAx¦~} `]}{X{S¦}L¦ UG¦UzA{¦Az}{S¦}UG¦CGAG ¦ B}U¦r [[{S¦
-A{F¦{}{xXa{S &¦=} UzA{X z¦F}G ¦ {}¦AXBG¦ UG¦ }CG¦}L¦Arr¦ CUA{SG¦}¦
-CqG¦ FG{V{S¦ {AG¦A{¦ G{ G¦}L¦ASG{C¦}¦UX }XCX'¦ 8{¦ LAC¦ X¦GL G ¦
-UG¦]FGA¦ }L¦A¦ {AAr¦ }¦ L}¦ UA¦zAG¦ A¦~Gt¦CxAx¦ FXX X}{¦ BGGG{¦
-{AG¦A{F¦Cr G¦CAux[{S¦L}¦A{¦ACC}{[{S¦}LU}¦UX ¦B}{FA¦[ ¦AC[Gr¦
-C}{QSGF¦ A{F¦GC}{NiSGF(¦ <} UzA{[ z¦ F}G ¦{}¦~I zG¦UA¦zA{¦ X ¦
-UG¦ zGA G¦ }M¦Aqx¦ Ub{S $¦ 6¦ X ¦ {}¦ UGxF¦ CA~ cG¦ }¦ UG¦FX A{CG¦ CAxG¦ }L¦UG¦
-UzA{¦ B¦ AUG¦ X ¦ AG{XG¦ }¦ UG¦ ~ACXCG ¦ B¦ UXCU¦ CAxG¦ X ¦ ~}FCGF$¦
-<} UzA{X z¦UA ¦{}¦~AXG{CG¦L}¦~X{CZ~xGF¦CxAXz ¦~I zX{S¦UG¦BA{X U¢
-zG{¦}¦FGAU¦}L¦z GA~U ]C ¦G ~GCVAxx¦UG{¦ CU¦UASU¦A               G]}{ ¦{¦
-}¦}¦ BG¦FGC} ¦L}¦UG¦C}G¦G GC}{¦}L¦: A{¦A ¦ UG¦{ ~}nG{¦zGA G¦
-}L¦UA¦] ¦A{F¦ X {   ¦}B GABrG¦ }¦[{Guu[S[BrG$.¦6¦F}G {¦AB[FG¦ B¦ ~}U[B[£
-X}{ ¦ASAX{ ¦Axn¦}L¦} {}q}S¦ G XCX{S¦Arx¦FGqXBGA]}{¦}¦UG¦G~[ Gz}x}SX£
-CAt¦ z}}GF¦ A¦ UG¦ ALG¦ UAB}¦ }L¦:A{  ) ¦ <} UzA{X z¦ G CUG ¦ B}U¦ U¤
-zA{[ ¦A{F¦ CAt[ ¦ACC}{ ¦ }L¦UG¦ BjGC¦UA¦~} XZ}{¦UG¦UzA{¦A ¦
-G]UG¦~G¦CA G¦}¦~G¦GOGC¦A{F¦UG¦B}F¦A ¦UG¦{AAx¦A{F¦RGF¦FXXFX{S¦
-x[{G¦BGGG{¦ [{G[}d¦A|F¦ GGe}V*¦ <} UzA{X z¦ F}G {¦~G zG¦ UG¦
-    G~AAG{G   ¦ }L¦A{!UX{S¦ xG¦ Ax}{G¦ UG¦ AuxGSGF¦ ~A[Ar¦ }{}u}S[CAu¦ A{F¦
-G~X Gz}r}S[CAu¦F[ f{C[}{¦UA¦ G ¦ UzA{ ¦A~A+¦
-     7{¦LAC¦ UG¦ASG{gAv¦GAxg ¦}{}x}T¦UA¦7¦ ~}~} G¦F}G ¦{}¦AoG¦ G~AAG¥
-{G     ¦ }¦ BG¦ A{¦ [{UGG{¦ LGAG¦ }L¦U}¦ UG¦ }xF¦ X %¦ 3 ¦ {GXUG¦ F}G ¦ X¦
-FG{[SA G¦ G~AAG{G         ¦A ¦z GG¦Xxx ]}{¦A{¦A]LAC¦}LUzA{¦ C}{ C[} {G        ¦
-rGF¦ A A%¦ 5XOGG{EG¦ EA{{}¦ BJ¦ApG{¦L}¦SA{GF0¦ X¦ zAG "[{FGGF¦ [¦G³
-UA¦zAG +¦ @UK¦ }xF¦ X ¦ {}¦~}~xAGF¦ XU¦ UX{S ¦ UA¦AG¦ z}G¦ }¦ wG        ¦
-UG¦ AzG¦ }¦F[OGG{¦L}z¦ }{G¦A{}UG$¦ ?GxAX}{ ¦F}¦{}¦L}us}¦ GrAA¦ B¦
-                                ы ‫ ע‬Ս ‫ ُࢨ ݜ‬ѹ ‫߯౔ ۑ‬ՎѺ‫౔ ܓ ࠾ ِے‬           ΁ϋД౔
-
-
-˨ ˨ ,3˨  ¼˨ ą ˨ ˨  ˨ tń˨ ˨8'˨ ʧ˨@˨6 ˨ ˨
- "˨˨  ˨ + ˨ Ç ˨ ˨ + ˨˨ + 8'˨  ˨
-˨ 8'¼˨ ą ˨^˨=8'ƛ˨ ˨˨ Ȯa˨˨ ˨+ + Ü3˨ ˨P˨
-ÇÍʨ˨˨  Ɯ˨ ˨,@8@˨  ˨6˨˨6 Ɲ˨ 6 ˨˨
-@˨8 8'˨+ ˨˨^ȨȜ ˨  P˨Ā^˨+ ˨˨ 8ȩ ±
-˨  ˨ 8 ˨ + ˨ "˨  ˨ + ˨  ǜ˨ ƞ˨ 3˨  č˨ ˨ ,˨
-Ȧï˨  ˨ v ˨î˨ ˨ "˨  " Ɵ˨ ɓȧ ^˨"˨˨ Ēǂ˨
-đ ˨+ ˨˨ ˨6 Õ3˨˨8˨ 86˨˨+ǝ˨+6˨˨˨
-6˨˨ ^Ē ˨˨,3˨˨6Òǆ 6 Ħ8˨v ˨˨,ǃ˨
-
-
-
-                    M {      '  Nb.         @{ [      @ / ] c{ R O b R A R ( w {
-
-
-   ǿʃɔ˓˨   ó ² T c h    óê Oó
-                                               ˸ ْ  G ౔ ‫  ؂‬ӗ ‫ ٓ ڰ‬G ‫߰౔ ˆ ף‬ȇȲ¸Ȉஎȉ૗ɂȘ.ȑ౔ ǵ.ঔ౔ ّ.ɂȈ¸ఁȉ.Ș.ȑ౔
-
-
-
-   َ౔ (V  ^ óhVó c`ó  ó³È3ó/(óåó É (ó´  ó  (Ù bóóÚ(æ7ób ó
-
-     (µ óº (7ì7(3yó
-
-                                      ˹ ԃ ‫ ޜ‬G G l ౔‫߱  ؃‬lउlकˇ౔ VÚŁ äΌ  d 8 Ζά ˨Ç     Α r
-
-
-+ ^6˨ Ò˨ ˨ [˨˨+ ˨˨ Øc˨Å˨+°
- ĸ˨vq˨, !˨˨v˨x3˨Cɞ"˨6˨˨,  ˨˨8Ơ˨
-ī'˨ ˨,C=˨ ˨ 66˨ ˨@^ ˨ ʈA˨ ˨ ˨ Ò,˨ ˨
-+Ĺ-k˨ Ą˨, ˨ ˨"@ ˨ȣ 6˨@˨6 ˨, !ơ˨@,˨˨ + ˤ
-˨˨˨ ʄ¿˨ ă˨,˨ ˨  ˨-'˨ ˨ ˨ , Ø˨ ˨ 6˨
-,˨8@ ˨ 6-˨ ,@˨ ķ8 ˨  ˨ x 8-˨ ˨ @˨ ˨ ˨
-˨, ʅï˨@˨Ø 3˨6ȎʆV˨,v˨ɕƢ˨, ˨ʇ3C˨˨,˨Õy˨˨
-63˨+--×˨ ˨˨ʖ˨˨ -@˨ ˨˨ -˨' F˨ -˨ @ ˨[˨˨
-y,˨"-ɟ˨C˨6@˨x˨˨@ɤ˨,-˨˨ + [C˨"˨ @˨˨
-68˨Ȓ˨˨˨,3˨˨-ɠ˨@˨ č˨,˨ ' ˨X˨˨ @˨ ˨˨
-˨˨'8-×˨8˨ ˨ 8ĦŅ˨+ -!6˨ ˨"6[3Ų˨,˨+'˂˨ˉC8˨à
-ƣ˨ @˨ ˨ -6˨ ++ ˨˨ +  6˨ ^˨ ˨ + ^ ˨Ȥ˨
-@˨+ -!6˨6+@3x˨8  ˨+ĸ"k˨ xy˨@˨ " ˨,"-˨ "˥
- ˨8˨ ȉä˨+ ː˨ + Ĺ6˨' ˨6˨ ˨ ˨3˨ ˨˨
-'8˨ ˨ + -6˨ ˨ +˨ -˨ ˨ 8˨ ˄@˨ 8˨ @˨ 6+-xİ8Ņ˨ ˨
-++˨ ", ˨  6˨ 8˨6+3İ˨ 8 ˨+ò˨ p˨ ˨Í˨ɖ˨˨
-,˨ ˨+!P˨
-   Ȇ˨+"«˨˨ '!ʉ3˨ 6˨8˨,C[˨@ ˨+ + °
-8˨ 8  ˨@˨@ʊ6 ɥ˨˨ 68˨6+38c˨ m66˨ v˨  6˨ Í6ŋ
- 8k˨̜ऺ ǣ Ĝ˨˨ 6 "å˨ @˨+ + ˨ ˨ «˨@˨ʩ8'˨ 6˨˨
-                      ΀æТ౔    ٍ ƍ ࢦ Ʋ 9 ˷ 9 Ӗ ǘ Ũ ‫ ޛ‬ƍ ࠽ ౔‫ ܒ‬9ࢧǘ Ļ Ʋ ౔
-
-
- 'F'Jϔ 1ϔ ϔ; ϔ?Õϔ ǫ ϔ Ĵ ?ϔ34ĵϔ 'ϔĴJ '34Ķϔ
-ʉ3'ϔAϔ { 'Aϔ$ϔtˍϔ 'AÇϔ4ƌϔTϔ; ϔϔ ϔJ$ϔ ϔ
-{ ϔT'$ϔ ϔ; $ϔ1 $ b $,4ϔT  ϔ 'ϔ> 3Ƭ34ϔ ' ' ªϔ
-vϔ $ϔT3ϔ 1ϔ A¯Ȋϔ Aϔ       4`ϔ $ϔ 4AJϔ 'Ƃňϔ $ϔ
-'ϔ$'$Aϔ1ϔ ;qϔ Jϔϔ ϔb' ?ϔ$ ʺ'AϔA_ ϔ
-1ϔ ϔ '7       Uϔ? ϔ ϔJϔ ϔ34ϔJϔAϔJϔ;Aϔ
-b34Λϔ
-    « ϔ a 'ϔ Tϔ  ϔ «3ϔ ¬'Ƃκϔ 1'ϔ Jϔ [??;ϔ $4ϔ 1ϔ t ϔ tŊϔ
-T    ϔ;'Äϔ ϔ3  ϔ1ϔ ϔ; ϔʞ'J3 ϔϔϔ$b ʨϔ
-1ϔ ϔ [{;ϔ  ƠĀϔ ½' 4ȋϔ       Tb'ŋϔ ϔ ϔ  ϔ 'b'ϔ  1 ϔ ϔ
- ?ϔ1>1 'Ǚϔ ;Ȍϔ a 'ϔ'ϔ ϔ;AAϔŨ           Aϔ ϔ
-Ãϔ Ǉ{ Đǈϔ ϔ É444ϔ 3ϔ ĨAŗϔ ɴ'ϔ a '`ϔ { ϔ $ϔ ϔ bϔ
-J 'ϔ $' Aϔ 3$> ϔ >ϔ F' >tƁŇϔ $ϔ T>ŭϔ $ϔ ϔ bϔ
-J  'ϔ $'; ϔ JUϔ w 'ϔͻϔ ϔ mϔ [, ϔ  ϔ '4$ϔ
-½'Aϔ 3 1ϔ_ϔ ϔ A 'ϔ$J _ϔ 3΃Tϔ 3ϔ $ϔ 3ȍϔ $ϔ
-T'ϔ$ϔÄTĀϔc$$Ōϔa 'ǚϔF            F ȱ     AϔFϔϔ'$ ϔ Í
-4ϔϔ4ϔϔ«TÉϔ           ϔ 3?Êϔϔ ϔ ½' ϔ  ;ϔ$ϔ
-ϔ' 'ĨJ4 ϔ' $ϔĨ'?'ϔ1ϔT >$ȎϔzT>ōϔ$ϔt ϔŇ ΃ ά
-    cϔJ ϔ 3ϔ J$ϔ  ϔ ϔ    4 4ϔ 1'T'rϔ  ϔ w 'ϔ $b4 ϔ
-'̝{ϔ 3 ϔ  ϔ ' 'ϔ 1ϔϔ $ϔ  ϔ 'F'ϔ 1ϔ; 'υ
-;Êɥϔ Tb'ōϔ bϔ ;'ϔ 1?$¹ϔ Aϔ '̞ϔ  ϔ F'F __ϔ  ϔ
-4?ϔ$ϔ >tϔFͲ>;ϔ$@ ϔ1Σɂϔʊ?ϔ$ϔϔ
-' 'ϔ{ũϔ1ϔ ÂĐ'Ŋϔ$ϔ7'tϔ$ϔϔ> 'ϔ;?';φ
-$ $ϔϔ 1ϔ3A»ϔ a 'ϔ $b ϔ          ϔ  A ƒϔ 1';T>Äϔ
-T  ϔ b ϔAϔϔ ϔ$ A'ϔ1ϔJ A ϔ'ϔ ϔ$ Aϔ1ϔ'4Ab ŖϔA ϔ
-3>4 ũϔ$ϔ¯ŉϔ w 'ϔ¯$ϔϔTϔϔ 4$ϔϔϔ ϔF_3_ Μϔ1ϔ 3{_bϔ
-ƌT4$ϔϔ΁ ϔ'$ϔÊ'?>ϔ1«&Ê ϔ             ϔ$ϔ'F'Jχ
-ϔ 3_ϔϔ>?3ϔ
-    w 'Ľϔ 3'ϔ TJ{ ϔ «TÓϔ Ă'ȏϔ $ϔ Ù;'_?ϔ ϔ 3$ϔ Êϔ ϔ
-ǉ'ϔ $ϔ F    4     ϔ '˓{AǊϔ 3?ϔ ϔ Tϔ FA'_ϔ ¯$ ϔ Jϔ  ϔ
-$; ϔ 1ϔ;Aϔ       Jϔ  ϔϔ ϔ   ϔ $,'Jϔ ϔ¯'ϔ[''ϔ 1ϔ ϔ
-ÉTtt ϔ {7Ơϔ a  >Ľϔ'4ϔϔ 'b $ϔ ϔ > ϔ?$'$_ϔ1ϔ
-                                                     Ǜ
- ϔ¯$ ϔ'?4$ϔJϔ ϔ'$  ϔ > 4ϔÉ  ϔϔÉ' ϔTϔF ;ψ
-4 ϔ 1';T'Äϔ Aϔ '[A'$Řϔ Ĉ1'Θϔ a 'ϔ $ϔ ϔ Ƴ 4>ϔ  ϔ
-'? ϔ  ϔ $ƃ;_ϔ 1ϔ ϔ   ϔ 3ϔ ' 'ϔ 1ϔ ϔ   'ϔ
-F_;4 ϔ  'ϔcϔ bϔ $ϔ          ϔT'AAϔ1'ϔ Aϔ ; 4J ϔ_ω
- ϔ b_Tϔ Ǭϔ  'ϔ ¸‫ٶ‬$ϔ 'ϔ3'ϔϔ ;ϔ _ϔ  ϔ $bFϔ1ϔ
-͓ϔ ϔ> A΂ϔt »ϔ
-    ʀϔ  Jϔ { `ϔ ţϔ 'ϔϔ 3'J1ϔbͳ Tϔ 1ϔ; 'ϔ ϔ 1ϔa 'ǜϔ
-                         ŗǟ ǖ ɷ ˸ ȉ > ȹ ά ʫ Ƣ>Ⱥ Ȋ ˉ ɚ ά     I
-
-
-Wsϧ   ϧ,@ϧ ϧϧ  ϧXÒĞϧ   ϧ  ϧ ϧ B(Eϧ E( ψtϧ jçΙϧ
-B}< (ϧ( IϧϧϧϧBϧ,IϧVƿs,ϧB,@ϧWsϧϧ
-wET<}ϧ ϧ Ýkϧ 3, ϧ ϧ        3, ùtϧ jϧ WW3ϧ T3ϧ ϧ
-BVTΚ < }EϧXEͭϧ ϧbTϧ ϧE         ϧϧ ϧVB(,EWϧ ˩ϧϧ
-sBϧ ϧBϧ T(©£ϧ @ ϧ ϧ t Ve3PJ *eot cmLt[R:t
-G dU(=tWPL;#iV(L#\tTe$tnPY>te$XPj#$tn$'$tPiLV2]tRUPRVc3at LtGJq
-(J#^t Yt 89UJe(DEot Jet Ýɣţ{ϧ <W3@ϧ VB<WÁϧ < ϧ ,Iϧ VE3,ϧ
-Λțϧ Jt]R4"t GeU)?tR$JPGJt Ýtɤ{ϧ <Ɓ E<Eç     ϧVEE ϧ ϧ,EEBǈ
-   ¢ ¯ɷũϧ jϧ3(ϧ BEΜ<ϧ ïˊ͜˜ϧ ϧBEsϧ ϧ<Iϧ TsWǈ
-ϧ ϧ ϧ ,ϧ VTsWϧ ϧ ϧ ϧ E(ϧ BɑW Þϧņ čά jkϧ
-E}ϧ ­Ób¯ϧ
-    WWĜ    ϧEϧ nkBȪϧ e$PYe(@t PJReZt Ȏ¯ ɥ{ϧ V<EƔϧ ϧ ,,3,¢ϧ ϧ
-ϧ©«(ϧ ϧWTWTϧ3ϧTTϧ_ Rs!tR$o]*AtYYM#GJe` tŰϧX,ϑ
-V(Ōϧ kϧϧϧ5ϧ ϧϧ B3,ϧϧ ϧ ϧb(ɒϧWϧ
-W WVʏϧ ϧW ϧ ϧϧ 3,ϧ ϧ ϧ ϧ Ɠ@3}IϧT, ϧEEBsϧ
-ϧ< V  }IϧX<E     ϧ éWE]ϧ ÆkT{ϧ V< ϧ ϧ , < ϧ ZIϧb ϧ
-ϧVVTsϧbƿϧ ϧVTVEϧEϧϧ XϧVTϧ»ϧstϧ ϧ3BkB,ōϧ
-Iϧ ,s,ϧ ϧ ϧ Ø© ϧ kϧ 3ϧ W ϧ ϧ BsEϧ ϧ
-,ϧ ȫϧ    EIϧXE       ϧ ̿WEϧ sEϧ BTϧ <ϧ ϧ VBVB×ϧϧϧ
-R$JPGJPJ     g%t <äV(<ǅϧ ϧ Eϧ ̀WEϧ  ϧ ϧ ,3< ϧ  WĄϧ
-ď,+(IŌϧ ,, E3,ϧ»ϧ, < 3+ϧ }Iϧϧϧ ,ET(ϧTB            , EϧƔ @}ñǉ
-   ϧϧWÇªϧϧϧ,@(ϧVT]ϧ ϧEϧ© ,« Iϧϧ <,3ÒE sϧ
-V<ϧ ϧ ,, 3,ϧ ,3,ϧ ©ϧ ϧ B ͻbBϧ ,Tϧ ϧϧ
-,ıƕëϧXĦ3<ϧϧV < ϧϧ,, E3,ϧ ,Eϧ ¡ ϧB~sB< ϧ
-XϧBÀϧϧϧW,V(, ƸΒϧTT ,EϧB3<B<                ϧkϧ,ϧVBϧ
-ϧϧ,@}ùŤϧ
-    ϧ¤ϧT sϧϧ Wϧ Ƨĝϙ ϧ<,Γϧ} (ϧ 3ϧϧ ϧϧ
-ïΝϧb<EkϧB ϧ3 T<äϧ ϧBϧ3ϧkBϧR$LPGL t Ųϧ,Iϧ
- E»ϧTĦϧÒEº ýϧ Vk, ϧ ϧ Eϧ,T}Iϧ,Tģϧkϧ V<,Ǌ
-( W(ϧ  VTEIϧ ˪ϧƶTϧϧ ƶȬϧ Tϧ  ϧ T3}ϧ ϧ,3®
-, Eūϧ B{ϧ R$LPGJt Wtf$tPLfP@P#+@t,JaRU-B.eptt JeJ#CGJftT t*JeUr
-e/J#t#J0Z  tjkEϧ <{ϧ V, ϧ Bϧ E( (Iϧ ,««@ϧ T(E«ϒ
-+ï<ϧbksEϧVTX<E<       ϧ }Etũʁϧjϧ E ϧϧ' JfU f1PJt ȏ< ϧ WBϧ
-Eϧίϧ33}ϧ Ǘ EBWEȭ ôϧ bWϧ VB3,ϧ ĲϧVϧ X<EWϧ ϧ< V ǋ
-ϧïıϧ BϧT(¢ϧ Tϧ ϧVBsϧWWVE3}ϧ«Þϧ Ųϧ<ϧ kTs ϧ
-VW<Wϧ  E͛ϧ TśWϧ ϧ ϧ sBϧ ϧ VBBϧ ϧıkϧ
-,VEϧ ϧ V,ϧ W,ϧ ,§ϧ ϧ ϧ B<W3(Bϧ Wϓ
-ϧ Ȑϧ ̟{ϧ VBƸ3ÒTϧ,Tϧ<3ÒE<ϧ ϧ kϧbBĦùϧ W,ϧ, ó
-   3Ţϧ ¤TɓW©ϧ ħsϧ kϧ ħB ϧ ,Bħϧ BB ,ϧ Ý<Ć] {ϧ ϧ ϧ
-                        Ûa\౔    ‫ ࠒ ࣔ ݿ ڗ‬o ̐ o Ө © ‫ ܥ ౔ ࡛ ހ ަ ژ‬o ©© ռ ࠓ ౔
-
-
-PWiPºPS¡SWºfPºW`WSºPº5F#.ZOFZRWªWWº ¤Rz WSºPTºRzWSº
-hºSPºº fWº Wº [PphPºFPWiPºS¤ºªfhSfº P~Wº fiº ViiSjº
-[ºdPWT7ºMfPºhº fWºPdWiPºS¤ºWPSºPº W¤iºU$G $5ZfWºfW´
-Wº [ºfWº h fWWº dkSPº PTº WPuSº hTWWiPS¯8º º fWº
-ªUº WPPº Tº º WW«lº WPpCº PfWº WPP+ªofm2fWWPº
-WWdWº f¥dfº WSo]ySº iP,PSh9º F¤SoP¯º fW  º pP-PSnº WPSº
-5G%/ZC;< +0%FWK"ZSThhº [ºG=%7<&GWU%G %5; 5735 ZMfWº hº
-[ºPdWoPºWPQRi x¯ºpº[[¥VPWPºpPSWº[ºiºfWºPRWSWº [ ºPº
-SPhSPºdhSPºSTppº[ºW¬Whh¯ºRWªWWºRW§WºPTº RW§WTº
-iº §hTWº Pº PWPi§Wº doSPº SVhhº [º fWº h Rhi ¯º [ºRµ
-{ WSi§h¯:º JW§W º fWº PdWpP º S¤º WPSº Pº SP¤Pº ¤S¤Wº PdºS´
-Wº [ºPº fWWº iº fWº Pidº [ºfWº WP¥qdº PdXShWº
-W`WSº R¯º fWº WP¥WVº R|WS º  SP¦W ;º Iº hº iº fpº WWº fPº fWº
-WP¥WWº SPº RWº PoVº º W­Wº PmS¤Pº [P Sº PR¤º fPº ªfiSfº p  º
-WP¥XTDºfPºh!ºfWºWP¤WWºh  ºPºSP¦PºhP/PShºP  V º   º P¯ºVº
-P¯odºP¤T 9º ÷ ŋ ά GWSWº G Z 68G%85Z 7Z %5G=H'75Z 75DH'GOFBZ Z =U8=-$5Z 7Z F Z
-HA(G%760Z67G)96Z7ZPB1%FW Y Z
-   Hº ¯º [¤fWº WPRPhº  [ ºfhº PdWkP º WPhº e°º Iº Pd¦WºfPº
-fWWPº PWº º fWº WWº W¦º [ºPRPº W®WShWº WdrWWWTº R¯º
-f¥Pº¤R}WSEºPfW"º ;!5735Z>Z            >5G( 1 Z;M?5EZ:Z3GL>%6Z Th`PS¶
-jºPW    ºV¥SWVºf¤dfºSW­ºPdWhPºhP0PShº[º ¦i Wº
-PWiP1VsS¤h§Xº PShSWº º PPP¥Wº [º RTi¯º T¥Sh#º ªfWWº
-;;<HQ4Z <Z 67HZ 3AZ 8C<T(5Z (5BH>O36HBZ  RIZ 7S5>W@U*5Z ;<G(BX
-C;,Z 3J<(2Z <75 P<(5BZ 7Z H!Z V7<0V!(!Z 73Z I7Z 3N> Z MfWWº SP¦Pº
-hP-PShº WWTº º h§§Wº f¤P=º HTWWT$º oº iº f¥dfº ¥Sfº PSoSWº
-fPº fWº Vh`WWhPº R¥VPhWº RW¨©WWº f¥Pº PTº f¤P%º S¤ ¤Wº
-PVºP¥W&º ShWSWºPVº fWº SiP'º PWºSo¥WT<Aº
-   KfWWPºPWºSi¥ i§Wº [ºWPh¯>º LWPi¯ºiº SWTºº[º fhd·
-i2fWW§Wººfpd3RWfiV4fWWPº R¥º[ fid3i5fWWP @º
-NfWºªTº iº Pº V¯PhSº SWº [ºhP6PS¢§h£º PTº PWhPi±Phº iº fWº
-WPSWº [ºTWWhPWº SP¥Pº ¥S¥Wº ªhfº TWWhPWº R¥TPhW(º
-WiW)º WPhd!ºPVº PWº [ºPº ºRTiW:ºMfhºdhdºcªº
-[ºPdWS¯ºf¤dfº ªfhSfºPº\ºfWºªVºPWºiW[ºT i`XWtP ¯ºhW o¸
-diRWº ºPfYºPº[ºfWº ªVº PVº f¥dfº ªfiSfº SP¥Pº ¤S¤Wº PWº
-PRhp²WVº PVºVWPRhh³WVº VZº ºPWºPSWº iºPSWºPVº hWº R¤ºfP¹
-Wº i  ºfWº Pidº[º PSWrWºhW_º Iºhºf¤dfºWSiaSºPdWiPº hP¸
-PSiº fPºPº Ti`WWiPº WWº [ºRWhdº uºWPSWTº iºfWº didº WRRº PTº
-^ªº[ºPdWS¯?BºOfPºi*º iºvº f¤dfº WShbSºwP2PSsºfPºfWXPº
-SWººPW.hº RfºWWº[ºgWºªV:º
-                              / < BÔ౔ B (B 7    ) B .  3   ÙϩΝ౔
-
-
-   jFϧbD[ϧ?)ϧϧϧD))ϧϧ,%D< ϧ%FJ> FϧbF5Fϧ,%D ϧ<)uϧ
-Ʊ>ğJ)ϧ , ϧ ϧ D,ϧ FJ> Fϧ Fϧ JÓ5ωfϧ ϧf¨Jϧ  <­ϧ
-))f<Ðf5)]ϧj,Ju5.ϧϧ)%5[5Iϧ,J ϧ 5ϧ%F)ϧJ))>[ϧF?)%D5Iăϧ
-ÆƧ)ϧ ϧXJ5J̠IȮϧ ?@?νþϧ ͮϧ X[>)Ġϧ Dϧ Bž >Jɦϧ jFϧ
-F ? ϧ[ ?)ϧϧ%FϧbDĨϧ̡Óϧϧ   ϧJbJ 5 ϧϧ Fϧϧ
-ϧ I,)ϧ%)[]ϧ ůI,5)ϧJϧϧ,Jϧϧ,JuIϧϧJJ?)ϧF ƌ ϧ
-fϧf,ϧ >%ϧϧb Fϧ,J)ϧ?ϧFϧ < ϧ,J5[fϊ? ϧϧ f¨Jϧ)®
-5,ϧ [ <)ɧϧ ŷFϧbD[ϧ f)ϧ%DĂ%@<.ϧ?ϧ?%)ϧ<¨D%ğuϧ,%%D? tϧ
-   ųϧ)>,,įxϧFϧD?,DIϧu uϧ><%)ϧJϧϧļ%F? )ǘϧ>%ϧF,ϧ
-ɔI,ϧ%[ ?[ϧD >D? )Ũϧ % u,)ŨϧJ [%5[<5)ɳϧøJ¢Dϔ
-?>[?)ϧϧ FϧbJutϧÅϧ%FϧJf,įϧ),?ϧ>?%)ϧJϧ%ϧǙbD)Ûϧ>%ϧ
-,D5­Ŝ<)>J)5@ϧD?)ϧ%FD> FϧbF5Fϧøϧ% 5ϧϧ),%Ɨ¶ϧ>D?)ϧ
-Jϧ )Ɩ%>%ťϧ jF5)ϧ I,<),ϧ ਭ஌౔  I¯ϧ Å żIϧ<)ϧ ϧϧJ<>ϧ >ϧFϧ
-  ϧJ˻ >DƖ )ϧϧ%FϧbDƧ ] ϧŷFϧ>5@D)ϧ)ϧ 5Ðϧ5  Bāf@f.ϧ5ϧ
-)ϧ,? ]ϧ
-   °ϧ bFϧ Ó­b)ȯϧ ً౔ D@<ϧ ϧ %­ϧ X[˖%ϧ ϧF̢)ϧ  ?uϧ D[?)%ϧ
-%[ Itϧ °ϧ ?ϧb5%Fϧϧ ?[ϧX,fϧϧ Fϧ>Jϧϧ FϧJ%>){ϧ
-?u>? ϧbϧ)? <ϧuI%f[ϧ)F<)ϧ FϧJϧf,Ƴϧ,%5)ϧ%ϧ
-nFJǳ)ϧD,>Ðfʅϧ Ð͔òϙ ϧ )F<ϧ Ƴ,ϧÓ5 >5)5ϧJJ)%5)ϧ %ϧ <)>D)<@ϧ
-D%<)ʐϧ ϧ G:tõ ϧ )F5%ϧD,ϧD%>))ϧ)ϧ)%ĜϧDϧuJDIϧ )>)ϧ
-%ϧϧ>D)%< ϧϧD%>))ϧ)ϧ,%D}Ś5)>J)@ϧD?ż)ϧ FD> Fϧ
-bF<Fϧ %Fϧ@įϧ <)%5ϧbϧ Fϧ )Zϧϧ Fϧ)f%<ƀªxϧ %>Jϧϧ
->u>Jxϧ 5)ϧ )f>]ϧ
-
-
-
-                  H .¸ x   «  + ¸ } < ¸  y ¸        «  ¸
-
-
-   [Cƛ ų  Ŗ J?ƛ?ƛ ©ŗ4ƛ?Cƛ  ? ƛL?0ƛG Ø Ù Û ƛ[ C ƛ #  ƛ  ƛ N ƛ Ŵƛ'ƛ
-
-   Ĺ4Jƛ4ƛ?ƛ6eNNƛ NN Úƛ
-
-                                            ‫ ڠ‬Ҡ ‫ ؑ ౔ ރ‬ҡ ӯ ‫߭౔ ˫  ބ ڡڵ‬Rଵ୑R஍Rȡ஽ਯȡȐ౔ सµও౔ٌµ஼R୒డ঴µ ਮ ૖Ȑ౔
-
-
-đFϧ )ϧ ϧ J%>)ϧ °)ϧ <ϧ Fϧ )%ϧ ϧğ)J>,%)ϧ ϧ ϧ JJ,ϧ ϧ
-ĵJ5,ϧ°)ϧ<΢ϧϧ,5%ˍ< ϧ@fϧ%F%ϧ[Ƣb)ϧ Fϧ́%ϧb D[ϧ¿౔ @ϧ>)ϧϧ
-)5 ϧ ϧ%)ϧ >Jϧ ¤)ϧ ?%ϧϧ J)%F5ϧX)Ɨϧϧ>Dϧ))? ϧ<u<%)ʓϧ ďF͝­ϧ
-bϧ >D)%ϧ ϧ D%>)ϧ ϧ %D,)ϧ ϧ ʲ̤ϧ                   D5)ϧ ϧ f%Z[5 ?u.ʔϧ
-ÅJ?)[?ϧ )F,ϧ 5            Jfϧ ģ D>ϧ Df)ϧ ÅʫϧΣ̐>))J<ϧ
-Dˎ>))ϧ°ϧŰ>>[%Ǵ)ϧ ))ϧ ϧ 5)>D)5@ϧD%?)ϧDϧ +:vt:c¦øD®
-%>)¶ϧ ¤ϧn >[ͼŁ)ϧ ))ϧ ϧ% FϧDD,%@ϧÅ)ϧ ʳ%>Jł)ϧ <)D?%?ϧDϧJ)Ú
-[%ϧ @?)ϧ čDϧ )ϧ JbIŃ)ϧ J%>))ϧ ϧ?}Iϧ J>ϧ nFJǵ)ϧ
-%?ϧ ϧϧͽ%>)ϧ <)ϧ >̣͵>ϧ, ϧF)˝ϧ %FJ<¾%f)¸ϧ ϧI%ϧDϧ
-                            )   ȇ ɵ ˶ w = ½ Ŗ Ų ˷ Ȉ ʐ ɶ ˈ ά ə = ơ w ά
-
-
-
-0ϧ"ϧ2 0 ̭          ϧ0U0L0S ϧ"        ϧ ϧ2LmC22ϧ1ϧ ςCBϞ
-S     tϧ Æñ0L0 ̯    ϧ ϧ2Ę ϧ̌~ RȽϧ ϧ S˳ˢ02               ϧ`2 ϧ ϧ ϧ
-dϧ mñCrϧLϧ0ϧ          0 ϧ  ϧ  0ϧ0ϧ        ϧ 0 ϧϧ0   ϧ
- ϧ 2  ϧ áϧ2C"2  ϧ 1ϧ#L2`2Sϧ 0ϧ 0  S                      ϧ ϧ 0ϧ
-LS      Äϧ
-      ʽ2 ϧ0ϧ `rϧ ϧ ϧ 02Cϧ 2 ϧ dm  2ñüϧ 0Cϧ ƛ ϧmϧ 4"ϟ
-mUϧϧ1ϧad ϧ 20ϧ2ϧ ϧ ų ϧ Sϧ0ϧoȼ0 ϧƼ ϧ
-0ϧ 0ϧ  ϧ "0ϧ S  0"             ϧ 0ϧ U2ϧ    ϧ  ϧ Lϧ Crϧ ϧ
-     `ϧ Lϧ ϧϧ 0Cϧ 10Cxϧ 0ϧ  0"2 2           ϧ  0ϧ ϧϧ S`ϧ
-    0xϧ Lϧ m 0ϧ ϧ rϧ "Crϧ `L0rϧ 2 0"             ϧ 0ϧ4ͤϧ ϧ
-    ϧ 2dϧ Sdϧϧ" 2Uϧ"ϧ0 ϧϧdĲϧ "0`rϧLϧ¹ϧ
- ϧ rϧ0ϧ ϧ "`rϧ "L` ϧ ϧ 2 Cϧ  a" ϧ ϧ 1`Cϧ ϧ
-    " Äϧ Æ ŕϧ 0 ϧ ϧ S̃ϧ "2Cϧ 0 æ 02d ϧ ˮϧ  ϧ
-1`ϧ ϧ ϧ ϧ"rϧ h ϧ 2 ϧ m"ϧ Lϧ22U`rϧ   ϧ Ǎ
-2""0ϧϧ áϧϧ ϧ            md ϧr "m"ϧϧL "2            ]ϧ
-
-
-ࢡ ‫ ؁‬Ռ౔ Ҭ ơ ǫ ƌ Ԃ  Ʊऔ౔ ơ ֠ ౔ ƌ౔  ޹ ޺ Ʊࢢ ǫ ࠺ ౔
-
-n ϧ 2æϧ 2 ϧ mæϧ 020mϧ ϧ 0ɫϧ 2d ϧ ϧ n 0ϧ
-áϧϧ"2ϧ"2`ϧ0                "dϧĲa            ϧ12ϧ èϠ
-Cϧ   ϧ ϧ 2U ϧ æ 2ƛ ϧ ϧ ϧ Ù2 ϧ ϧϧ  ϧ                    ϧ
-12 ϧ2`ϧ " ϧ12 ϧ2`ϧ"m ϧ  r2`ϧ 02ϧ
-ϧ 0]ϧ jϧ Ā 2            ϧ  `a2 ϧ ϧnńϧ ɝ"2Uϧ
- `r2ϧ 2ϧ ϧ  ϧ0ϧ rϧ ϧ h ϧ "ϧ mUϧ  ϧ 2 è"ϧ `ϧ 2 ϧ
-σ2" `ϧ èϧ  ϧ 2`ϧ r2ϧ              2ϋɬϧ aϧ ϧ
-dϧSοϧ Lîm           ϧ 2 " ʑϧ  ϧ  ϧ drȾϧ rϧ0ϧ aèUϧ ϧ
-¡ ϧ 0ϧ Ƞϧ   " ťϧ ˈ ϧ 2ϧ ϧ  2×ϧ ϧϧ ϧ ϧ
-n ńϧ `r2ϧ ϧ UϧC`rϧ0#a`ϧ2ϧ a0tϧ
-      ʻ 2 2     ϧ  ϧ Lmϧ ϧ    ϧ ʶ1  2 ϧ 022 ȿϧ n ϧ aϧ ϧ ͐ϧ
-ϧ  ϧ ϧC2 2dϧϧ ϧǤLéľϧ ϧ ϧǥ  mϧϧ LîS Ûϧ
- ϧ"͑ϧ ϧ 22 ϧϧ mϧ Ǧ2 mǧϧ L ƴrϧ ϧ 2ϧϧ 2ϧ
- `r2]ϧ ʬ ϧ m`ϧ ϧ "2όϧ  ϧ ϧ ϧ 2  m                ϧ ϧ Lϧ
-0"ϧ ϧ   Sϧ ϧLîS ϧ mϧ  ːϧ  ϧ  dϧ m  Äϧ č ϧ ϧ
- 0ϧ ϧn΁ϧϧ"ϧ ϧ`ϧ̮"ϧ ϧ ϧ Ǩ2ǩϧ Ld ƴrϧϧ ϧ
-0 ɭϧ ŵ  ϧ mɀϧ 12`ϧ 2          ϧ  ϧ  ϧ ì ϧ ϧ ϧ 2  ϧ 2 2  m ϧ
-L 1 ϧ"á02             ϧS  0"    ϧ ϧ"ϧLé őϧ n ϧϧ ϧ2Crϧ
-ϧ ϧ~ 4 ϧϧ1 ϧϧ ϧǪ  t ǫ ϧ¤ϧ ϧ2ϧL rϧ
-ϧϧ 0 sϧ2 4 ϧ12 ϧϧU2`ϧ "2 ϧϧ ϧS  0" 2 ʖϧ
-¦  ϧmϧϧ m 0ϧƕ 0ϧ ȕ2Ɂϧϧ12`ϧ            S ¢ϧ XS ϧ L1 ϧϧ
-"0S        ϧ4  " ϧ ϧϧ"ϧϧƦ  ϧ  ϧʗϧůϧ ϧş
-                        ‫‪ ౔ ,  3‬۝ ‪< Ǟ Ơ ɴ ˵ [ < ȸ ά  ՝ ċ‬‬   ‫‪3‬‬
-
-
-‫ٶٶ‪ 0-‬ٶ‪% -0‬ٶٶ‪-‬ٶ‪ -- %‬ٶ‪0+ -0‬ٶ‪-‬ٶ‪ĭ‬ٶ¡‪% -0‬ٶ‪-‬ٶ ‪+ %6‬ٶز‪0 -‬‬
-‫ٶٶ ‪0‬ٶ‪-‬ٶ‪ĭ‬ٶ¡‪u+ -0‬ٶ‪-‬ٶ‪ + -‬ٶ ٶ‪+‬ٶ‪- -‬ٶ‪ 0‬ٶ‪-‬ٶ‪ ѢƲ‬ٶ‪  0 - ѓ‬ٶ‬
-‫ٶ¡‪ 0‬ٶ‪-‬ٶ ٶ‪ 0ÊȜ‬ٶٶ ‪0‬ٶٶ ‪0‬ٶٶ  ٶ‪Ǭ‬ٶ¡‪ ę‬ٶ>ٶ ٶ‬
-‫ٶ¡‪ƻ0  -‬ٶ>ٶ ‪0‬ٶ ٶ{‪ Z6‬ٶ‪+ ΰ‬ٶٶ‪% +% Ʋ‬ٶ ٶ‪%Z -+-Ȝ‬ٶ‪-‬ٶ‪Ø0‬‬
-‫ٶ‪-‬ٶٶ‪ + ¤§% %‬ٶٶ ٶ ٶ ‪%ĺ‬ٶٶ‪ % ŧd‬ٶ‪-‬ٶ‪  -‬ٶ‪Ǭ‬‬
-‫ٶ¡  ٶ‪ - 0‬ٶ‪0‬ٶ‪ 0-‬ٶٶ‪ %Ê‬ٶ‪0‬ٶ‪ 0-‬ٶ‪-+0‬ٶ‪+ Z% -‬ٶ ٶ ‪0+‬م‬
-‫ٶ‪-‬ٶ ‪ +‬ٶ‪+,‬ٶ‪ -‬ٶ ‪  0 -‬ٶ‪-‬ٶٶ‪6++-‬ٶٶ ‪% +-‬ٶ‪0%Ժ6d‬ٶ ‪ҋ‬‬
-‫ٶ¡‪0‬ٶٶ ‪%ä +‬نٶٶ‪ -‬ٶ‪% %‬ٶ ‪%0 +‬‬
-    ‫ٶ ‪0+‬ٶ‪-‬ٶ‪ť Ĳ‬ٶ‪T0‬ٶ ٶ‪Εʸϙ + î‬ٶ ‪0‬ٶ‪ - ƀ‬ٶ‪-‬ٶٶ ‪Ø‬‬
-   ‫ٶ‪% 0‬ٶ‪-‬ٶ‪+6‬ٶ‪+‬ٶ‪+‬ٶٶ‪+‬ٶ‪0 %- %‬ٶ‪   0 -‬ٶٶ ‪ ,+ +‬ٶ‪+‬ٶ‬
-‫‪ Ëÿ‬ٶ‪ ̓ Ù%+,‬ٶ ‪ -‬ٶ ‪ ,‬ٶ‪Ù% , >d‬ٶ ٶ‪   ֜ d‬ٶ ٶ‪ 0‬ٶ    ‪ %‬ٶ‬
-‫ٶ‪0+ + Œ‬ٶ ٶ ‪ă‬ٶ‪0 %- ,‬ٶ ٶ‪ d‬ٶ‪% %-‬ٶ  ٶ ٶ‪ %‬ٶ‪ -ǈ‬‬
-‫ٶ‪+‬ٶ‪0‬ٶ‪- Ê‬ٶ‪ -‬ٶ‪+‬ٶ‪ -‬ٶ‪ 0Ĳǐ‬ٶ‪-0‬ٶ ‪ѣ‬ٶ¿‪   0 -‬ٶٶ‪ -%‬ٶ‪-‬ٶ ٶ‪06‬‬
-‫ٶ‪d‬ٶٶ ‪% 6‬ٶ‪-‬ٶ ‪±‬‬          ‫ٶ ‪%‬ٶٶٶ ‪-‬ٶ‪6‬ٶ ‪ -+‬ٶ ٶ‪d %‬ٶ ‬
-  ‫ٶ‪ T0ő‬ٶ ٶ‪ ƌ0 %± 6‬ٶ‪ 0ÊϾ‬ٶ‪ %  %‬ٶ ‪>8‬ٶ>‪  %‬ٶ ٶ‪ 0‬ٶ‪%% -‬‬     ‫ٶ‪-‬ٶ ٶ‪d+‬‬
-‫‪ǀ‬ٶ‪ -0Z 9gd‬ٶ‪ 0‬ٶ‪% %-‬ٶ ٶ‪ + Z %‬ٶ‪ Z‬ٶ ٶ ‪ Z %-s‬ٶ‪ Ƨ%-ŗյ%-‬‬
-‫ٶ §‪¤‬ٶ‪% %-‬ٶ‪ Äd‬ٶ‪- -‬ٶ‪+ +-‬ٶ‪T0‬ٶ‪ʊ0-/% 6 0ì‬ٶ ‪ĭ‬ٶ‪  0 - Ɔ‬ٶ‪-‬ٶ ‪+‬ٶ‪Ĳŧ‬‬
-‫ٶ‪ 00  -ϧ+%‬ٶ ‪ -0+‬ٶ‪-‬ٶٶ‪  0-‬ٶ ٶ‪+ -‬ٶ‪%ӵ%‬ٶ‪ -+0‬ٶ‪d‬‬
-‫ٶ‪  +- 6‬ٶ‪ 0‬ٶ{‪  -0‬ٶ‪  -Ĥ‬ٶ‪ 0  %‬ٶ‪ ăñϿǗ‬ٶ     ‪ ơ 0‬ٶ ‪+˙%Ä‬‬
-‫‪00Ğ‬ٶ §‪¤‬ٶ‪% ť% 9d‬ٶ ‪-‬ٶٶ  ­ٶ‪ť -‬ٶ‪ 0Ê‬ٶ ٶ‪, %Ƀ‬ٶ‪0  -‬‬
-‫ٶ‪ 00‬ٶٶ{‪+Ȝ‬ٶ‪ -‬ٶ‪ Z  Ѐ‬ٶ‪0Ǜ 0‬׬ٶ  ٶ ٶ‪d‬ٶ ‪0‬ٶٶ ‪%‬ٶ‪ Ĳ‬ٶ‪+‬‬
-‫ٶ‪Қ -%ħ -Z%‬ٶ ‪+ 0‬ٶ‪ -‬ٶ‪06,‬ٶ ‪-‬ٶ‪% -‬ٶ ٶ‪ %‬ٶ  ‪ 00‬ٶ‪ 0 6‬‬
-   ‫‪ Ğ‬ٶ¾‪0‬ٶͅ‪ˈ%‬ٶٶ ٶ̈́‪Ŏ ˈ%‬ٶٶ‪ %‬ٶ ‪0‬ٶ‪0+ %d‬‬
-‫ٶ ٶ ‪   0‬ٶ ‪ -0Ã‬ٶ‪ 0‬ٶ‪ʹ+Ŀ+>d‬ٶ ٶ ‪ % ++‬ٶ‪ -‬ٶ‪ 0‬ٶ ‪0 -‬‬
-‫‪٦‬ٶ‪-‬ٶ ‪+-+‬ٶ‪% %-‬ٶ‪+‬ٶ ٶ ‪  +‬ٶ ٶ‪Ù%-‬ٶ ٶ‪00-Z‬‬
-  ‫ٶ‪+‬ٶ ‪  C -‬ٶ‪-‬ٶٶ‪ 0-‬ٶ ٶ‪%  %-L‬ٶٶ‪ + -‬ٶ‪ؔԻ‬ٶ‪ ƍ Ĳɔ‬ٶ‪  n‬‬
-  ‫ٶ ‪+‬ٶ ‪ť‬ٶ ٶ‪ū ːĈ‬ٶ‪ Ľ%> ,‬ٶٶ‪ Ė±-d‬ٶ>ٶ‪% 0‬ٶ> ٶ‪6-ʹ 6d‬‬
-‫‪Čæά‬ٶ‪% +% 6 Ƴdn‬ٶ ٶ‪00 %+ Ä+-d‬ٶٶ ‪%0+-0+‬ٶ‪ ĺ-Z%‬ٶ‪T0ǉ‬ٶٶ‪-0‬‬
-‫ٶ ٶ   ٶ‪ -‬ٶ‪ - -‬ٶ‪ ơ‬ٶ‪ - ǖ‬ٶ{‪ %% -‬ٶͩ‪T0‬ٶ ٶ ‪ 6++- -‬ٶ‪ 0  %‬ٶ ‪Ø‬‬
-‫ٶ ‪-‬ٶٶ ‪  -+‬ٶ‪,ư‬ٶ‪-‬ٶ‪ -‬ٶ ‪%‬ٶ‪-0d‬‬               ‫ٶ‪-‬ٶ‪ Ĳ‬ٶ‪-ֿęd‬ٶ ‪-‬‬
-‫ٶٶ‪ %% -‬ٶ‪0Ϩ00  ,‬ٶ‪ȉ‬ٶ  ‪ Z%‬ٶ‪ 9/% 6‬ٶ ‪ 0Ĩ0 %‬‬
-‫ٶٶ‪%   %+‬ٶ‪-‬ٶ¶ ‪ % +% +‬ٶ ٶ ‪ Ø0, Z‬ٶ‪0 %Ē%ð‬ٶ‪%+ -+ʜ%‬‬
-‫‪0 ȩ‬ٶ‪௮౔-Ē‬ٶ‪%0^%+ ː‬ٶ‪ 0‬ٶ‪ --0 %Ĉ‬ٶ ٶ‪%  %-‬ٶٶ{‪+ ,ZZZ6+>d‬ٶ ٶ‪,ŧŧ +-d‬‬
-‫‪++٧‬ٶ‪+‬ٶ ‪¤Ĕ +‬ٶ‪ ż‬ٶ‪+ ѐ‬ٶ‪ 6‬ٶٶ‪  0‬ٶٶ‪06d‬ٶͪ ‪ +‬ٶ ٶ‪6   о‬‬
-‫‪0  Ëǃ‬ٶ ٶ‪   0  6 -d‬ٶٶ‪   6s-d‬ٶٶ    ‪%‬ٶ‪,Wd‬ٶٶ ‪+‬ٶ ‪%‬‬
-‫ٶ‪%  % 9‬ٶٶ ‪0-%‬ٶ‪ -‬ٶ‪0‬ٶ‪%  -‬ٶ‪-‬ٶ‪+0‬ٶٶ ‪+‬ٶ‪ ơ‬ٶ ٶ‪+‬ٶ‪ ĭƳ‬ٶ‪ŧ>dn‬‬
-‫‪ǅ‬ٶٶ ‪ %‬ٶ‪-‬ٶ‪0‬ٶ‪ Ņ0‬ٶ‪-‬ٶ ‪Ù--+‬ٶ‪00  d‬ٶ‪% %ϩ %‬‬
-‫ٶ‪ %Ê‬ٶ‪0d‬ٶ‪ -‬ٶ  ٶ‪-‬ٶ‪6 %‬ٶ ٶ‪ 0օ‬ٶ ٶ‪,0‬ٶ‪ˣ + ǛT0‬‬
-‫ٶ‪+ñ‬ٶ> >ٶ ٶٶ‪% >0‬ٶ ٶ> ٶ  ٶ‪6 α‬ٶٶ‪0‬ٶٶ‪0‬ٶ‪+%- 0‬ٶٶ ‪Z‬‬
-                          3   # , = 7     A % 3 / ; I   A A  7 I
-
-
-   ‫ܜ‬B w-ǧऺĊ wʈऺ­­ऺ  ऺ ऺwɶऺ ऺ"ऺ­­Bw"ऺ"Ûऺ
-­­Bऺ ऺÖऺ ­-Ľ tऺ ऺĽwČ-Øऺ ­ ­°ऺ ऺ Öĵऺ"ऺ
- ऺऺ ऺûBऺÖùऺ‫ڮ‬BsऺH ­Øऺ ऺ ऺpĵऺऺࢻ w" ­Øऺ  ޾ħ
-­ ʑऺ ĊÖՂऺ ऺ ­Øz ऺ  Ø ऺ  ऺ ऺ-Bࡲ ऺ B-"ऺ
-ŏĵऺ "ŝkऺ "ऺ "Öऺ " ऺ ऺ"ǳऺ "ऺ -ïऺ ­ऺऺ Čkऺ
-Öģऺ p"­ऺ "Öऺ Öऺ ­­ऺ B ऺ ऺ ­Č{ऺ  -ऺ ऺ ऺ ŝ ê
-ऺ {B"ऺ­Čɛ­ऺ-"sऺ-ǬऺऺÞ ऺ ऺ ऺ ऺ ऺ ऺ
-"ऺ ­ ऺ "Öwȏऺ ł"  ऺ Ċ wऺ"w"ऺ  ऺ wBऺ ģØऺऺ ऺ Č Øऺ -ब
-Bwģऺ kģ­ऺ"ÖऺwČऺ BØऺ{Øऺw-ऺ "ÖऺÖ ऺऺ‫ ێ‬B°ऺ ऺ "ऺ
-wऺऺ-"ऺw§B wऺ" ऺB Čऺऺऺऺ{B""ऺ"ऺw B­ऺwB"uऺ§Bwऺ
-ऺ  Û ֬ऺ ऺ -ģ­ϔऺ ऺ -Bǧऺ ऺ Bŀऺ Ўऺ ­" B"ģØ "ऺ Ƌ
-- ऺ ­6Ϛऺ -"ऺ ऺ Ø"wģƑऺ ऺ \ˎB-ŀऺ Ɩ"ऺ ģऺ
-ࡱǝऺ ऺ ऺ --6ऺ sऺ  -ऺ        ऺ Čऺ    ŝ ­ ҷऺ  ऺ -B{ŝØČėऺ Ўऺ ऺ
--6ऺƑऺ 6 ऺ Ċ ʊऺ Bऺ ČऺÖ-ĵ­ ऺ  ऺ ¾ऺ-ऺऺ
- ऺ ऺ ěBČ ԍऺ ̿B­ȏऺ‫­ऺ ہ‬ŝČ"ऺČऺऺØ s{ØऺÖB- ऺB{͗­ऺ ऺ
-޿ऺ -ऺ ɶ ऺऺ ­ ऺऺw "ऺ"Bऺ ऺ ऺ ŝkŝŝऺ  ऺ
-"ऺÖऺwB"ìऺ Ġ­ऺ"Öऺ"Bऺђऺऺ­ऺɶ ऺ­ģ"ऺ" ऺ {­Ûऺ ऺ
-࣯"­Öऺ "ऺÖÏऺ
-   ċऺÖ"Ɛऺ ĊÖऺ-ģ"ɪऺ" ऺwBऺ wऺ ऺ -ऺ{"Қऺ"Bùऺ ГΗ
-s­ØØऺ 6 ऺ ­߀ģт­ऺ Č"z-"tऺ ïऺ ­w­6Øऺ   B"ऺ ģ6k°ऺ
- B­˃ऺ 6ǳऺ  ऺ ऺÖऺ Ľ -"ऺ 6ऺ ऺ -ऺ ­ ऺ ऺ"Öऺ  {ˎ ­H kऺ
--wïऺ ģऺ  ऺ {ऺ 6Öऺ sB-"ʽĕऺċ 2ά Žऺ Ø ऺ ऺÞÖՃऺ ČČ6­ऺ ऺ
- ɪऺ Ø ŝ­Ø ऺ {B6ऺ Bऺ B ऺ ऺ ­-Øऺ  -ऺ ऺ
-ŝ  ģǝ ऺw-νऺ Öऺࡻŝт­ŝ ऺ­Bऺ ě 6Öऺ"Ԏऺ ¾ऺ-ऺ ऺ"Öऺ­ņkČ6ŝऺ
-ɶǳ"ऺ{ऺ Ľw -ऺ­ ­ऺऺwÛŀऺ¢ऺ ŏ­ÛČऺǬऺ
-
-   Г"ऺĽįďwģ-ď"qऺĴʊ" ߷ऺ-q"ऺǎऺ +ď $*ď̫ऺģҚďऺɞ qऺa? ďģqऺ Pď ǎď˩ऺ
-    ऺ R w$ ď ஻  ऺ $ď Ĵĵ̕ऺ
-      ]ď L$ ďď ࢳऺ ¥L Uď  Щď°ऺ݆ďऺȞĴऺ  _g&Sď+Aď* W * * ď
-   ĊࣣऺHď۰ऺ 4.ď ď }>ď sऺऺ  " ɔ ď):ď ̫ ऺ$ď ऺ@¿ Ε  jďऺ‫ऺܝ‬
-   ƗY ऺĴऺऺÝċďD ?ĆÃ#ď*ďࢠ  ďɥऺऺØऺ+£ďPjď
-      Zď ˡȞ˩ ďˡऺ ऺ ďऺ    Øqqऺ µ ď iWď \4ď ˈqऺ ĴqJऺȞऺ ARč
-    ď 3þďÄ#3 ďïĬऺ ]ɞЭď ď pऺ ऺऺͫÛऺ ऺĽįďws҅ďऺwÛऺ
-   Ċ˩ऺšďĥ šqऺ " ऺ Ȟࠬऺ߸ƗÛऺ߁qऺ # Eď ď Ïď ď O4ď R A ďsqऺˡɪ˱
-    Ïऺʬ Ұऺpऺऺwऺ ऺ {qࡿࣆǢऺ ģऺ "ɞЭऺ į ģ ɞ̓ǎʕ­s­ďऺBȞďऺ
-   ऺPď 8ď įqऺ ऺØ"p8ďØऺ m&ďmďhď ӄďp-ऺ ƗѧďƗďȏऺ ʩ"sऺĴऺ
-   K $#ď ï#ď ǎऺÜ÷Z2ď į ˄qį Մऺ į˄Ɨ"wऺ ऺӄďĥĵ-ďòĵqऺ
-   ɞĵऺ H +.ď ɪJ ऺ ǎऺ{qĥ8Ȟsऺ qऺ 3 ď ۱"qٔऺ " ऺ ƗऺɔĵØˈҰऺ "ऺ
-   į˄ЩÛऺ ࣤऺ ऺ gď ď #Tď  } ?Āąď ऺ    ď ď «ď   ¦ď Bď ď
-                            ć౔Ǫά ƽά ʏά ά ά ć౔ ‫ ౔߮ ౔ۏ‬Ļ౔9౔‫౔ې‬Ũ౔ -ά ɘά   (
-
-
-   6Ͷǃͫ6\ɯϧ˃ 6ϧ6τ6ͬĔ\6Pϧ̰ϧ ÿď 6ϧǬ˓6Ώ6PǭϧĕϧƜƾ8ͯCϧ Ɯ+İ .ϧ
-   aď; <ʏ̛8Ğϙ ˔ϧ΂ 6ϧ OďÞr ďďtóOď6]ϧ ʷĥ.ϧáď ď İϧ Ě Ωϧ
-   y4ď6ͷξz6ΪϧP\ĚϧP̱Ě ƽϧ<ϙ ď ˝=ϙ ďÅyÆďϧz͒6ϧ ď L§ðď _MòĎ
-
-      ]ϧ˄ ϧ <ϙď ¨˞=˜ɨōϙÏȀǅdƥ ěϙ ƛƦŽñϙ
-
- Pöϧ̄ P\ϧ Oϧ ϧPϧcpϧ #ϧ#6ī6ϧ \ϧ 9#9ÄϧĉĊά
-   j ϧ+P+ϧ c\²ϧ9\ 9=ϧ Oϧ ϧơ˙ϧϧ 6ϧp6ŠOQŠ \ϧ
-59ϧϧ \6ϧPϧ ϧP6ϧ c#ϧ #\ϧ P÷ϧ 66 =9+ϧ®
-ƽϧ ϧ #ϧ  ϧ1.ϧOϧ ϧ åPϧ ϧ 8ϧ ϧ 66PϧP\²\ ϧOϧ ϧ
-\BϧOϧ 96#̅9ϧ9#9ϧϧ+z6C.ϧ9ϧ Pϧ ϧPOϧ+ ²ǎ
-9+ϧ #cī#9#ϧ Oϧ #ϧ #6¹ϧ ʭϧ p ϧ Oϧ 6ϧ ϧ #9ϧ ϧ
-Ζϧ Oϧ         ϧ Àϧ 1 9 ϧ #9Pϧ cϧ 996ϧ 1# \ϧ #ϧ
-\ϧ1 #+6ϧ 69 ϧ 6ϧî6Pϧϧ  6ϧ xϧ  ϧ6#ęϧ  6ϧ+Oc6ϧ
-ŀơ9=ϧ+z6Ǯϧ ϧϧ ϧϧ cɂϧ \ ϧ 6ϧ.zcϧOϧ #9΃ϡ
-56ϧP9ƚ9ϧ ϧ  6ϧ 9ɞ˘ ϧ Oϧͅ9ϧ + ϧ1 ϧ 9ɮϧ   Pϧ
-6cϧϧ 6ϧ O ϧ #ϧ1\ϧ+6ϧ ϧ9ϧBϧϧ O ϧ ϧ 6zϧ
- .ϧ ­ϧP96ćϧ ¦ ϧ=ϧ66ϧϧ ϧ  zϧ 6P\# ϧOϧ ϧ
-P+ϧOϧ 6ϧϧϧOϧ 6ϧ  cϧϧ                      6ϧP+# #ϧ6ǁ6ϧ   z¹ϧ
-
-
-
-                    Ǘ M ई  + ! ౔   ౔  Œ Պ  ¦  Ć Ź ౔ + x  Ź  ¤ ¦౔
-
-              ࣱ  ! Ջ + ¤ ¦  !   Œ ౔M ֟ ౔ Ć Ʀ Ʀ  + Ǘ Ǫ ࠸ x ¤ ౔
-
-
-čϧ Ĥϧ  ϧ ϧ Oϧ ϧ 5ϧ ϧ O Bϧ 6C6ϧ  Pȁϧ cc+.ϧ
-#zϧ #         ϧ 1 #+ϧ 6c# ϧ  6ϧ +6ϧ Iϧ  P9P9ϧ Có
-cÀϧ #9Ĭ\ ϧ #ϧ 69ϧ ϧ  ϧ   #ϧ Oϧ c\ϧ 996ϧ ϧ
-³PP.ϧ  ą ϧϧ1ϧ ϧ\ōϧ #ϧ#ϧ Ĭϧ #zƲ ϧƼϧ ͓6ϧ²  ϧ99sϧ
- 6ϧ .c9ϧ ϧ 9cĬÙϧ Pϧ Oϧ96ėƒ9ϧ 9ě96¹ϧ ¥  ϧ 69ϧ .6Őϧ
-9P#9+ϧ 9+ϧ     ̲ϧ 6ϧ åPϧ 5=9ϧ 99ϧ Oϧ ϧ P99ϧ
-.ϧ1 9 ϧ c\= £ϧ PÁϧ ϧ 6ϧ BϧP96]ϧ Ŷ 6ϧ Pīzϧ ϧ
-  ϧ ϧ99ϧ P6ϧ6ϧϧz 6ϧϧϧ ϧOϧ  P96\P9ϧ
-cƾϧ ϧ 16ëCŤϧ ʤ΄ϧ 6Xzë£ϧ ʱ̳ ϧ   ³Ńϧ POBz 6ϧ 99ϧ Oϧ
-c| ϧ ͔ϧ ϧcϧOϧz 6M+#.ϧϧ #Ƈ9#ϧ  6 ϧ#ϧ Bϧ
-|³#+ .ʒϧ     1ŕϧ ͥ¿ϧ 99Pϧ #ϧ +c#ϧ ϧ  ϧ P9#ϧ Oϧ
- c\ϧ²6ϧȖϧ³.ϧ9̴ϧ9ϧOϧ ϧ9δŖϧϧ ņ ŗϧϧ 6ϧ
- ¾«ϧ Oϧz 6P+¾«ϧ ϧ  Ɲ9ϧ   ϧĊ9+¿ϧ ϧ  O ϧP ³ĺ
-Iϧ 1Pϧ ϧ 9#ϧ 9#9xϧ 1 ²9 ϧ Pϧ uc6ϧ ϧ  ϧ cϧ Oϧ
- z\ϧ9#Cϧ99tϧ ʥ BcP6£ϧ OBϧ  ϧ   +ϧϧĊ9+£ϧ  9.ϧ
-+ ϧ ĥ.ϧ ϧ  ϧ      zϧ cě£ϧ ϧ \6# ϧ ϧ  6ϧ 6ϧ  O ϧ
-9 9#Ƈ9ϧB9#9ϧ   ϧ 6#ϧO+.ϧ΅96ϧƂ69ϧϧ cϧ
-                          6 U s `     s ? Z V h  I m m ) ` 
-
-
-O ShT¢ L¢Tzz¢L¢eT¢L¢ l¢erPe¢eTT¢LPhPT¢LT¢STTz¢izhPLTS¢ j¢
-eL¢ P jT¢ eT¢ eL¢ LS¢  T¢ dTTLzz¢ eT¢  uid¢            W¢ T)¢
-HeL¢h¢ O e¢LPP ¢e  ¢eT¢LT"P{T¢OhL¢  ¢Sh\TV¢STdTT¢
-eTTO¢STXUhd¢ L¢ e  ded ld¢dTTL{ d¢ W¢k¢ SPk *¢(*° @PlL{z¢
-?zT¢ LS¢ C PLz¢ eT hT¢ YNh|¢  ¢  hST¢ L¢ LSTLT¢ LPP ¢ W¢eT¢
-T~Lj eh¢ OTTT¢SjPjT¢LPiPT¢LS¢LTjL}¢ eT TL¢ zTLShd¢
- T¢ ¢ ST¢hW¢? e¢h jde¢h ¢eT¢TO ShTS¢LT¢ W¢P PT¢mde¢
-WlW{{¢kTTT¢l¢el¢TdLS+¢KeL¢h¢ TTSTS¢ h¢L¢  eLl¢TW 
-LhT¢ LPP ¢ W ¢eT¢ LTnL{#ShPkT¢ LPkPT¢ W¢LTnd¢ kP{Shd¢
-e T¢eL¢dT¢zLOTzTS¢PjTi^P¢LS¢e T¢gL¢dT¢|LOTzTS¢ PiLz  , ¢
-   D  ¢eL¢W {z ¢D¢ Sj]LPiTz¢TLS¢eT¢kjde¢ W¢? e¢ C PLz¢?zT¢
-LS¢ eT¢k L¢ eT l¢ g de¢ T¢ L eT¢j¢ L¢ T\ ¢  ¢ LSLPT¢
- Pe¢ L¢ LQP 4¢ Iej¢ h{z¢ TLj{¢ l L¢ T uld¢         W¢eT¢  h ¢ W ¢
-LThLzh¢ ShPjT¢ LPiPT¢ LdTP¢ LS¢ PLL~h¢ L d¢ eT-¢ E  ¢
-LdTiL~¢ TLzh¢ TzLO Li ¢ W¢LLLT¢ TLiz¢ eT¢ W zz hd¢ idjZsQL¢
-STTz T¢ OT S¢ ? e ¢ W zLk 7¢ ȹɪŒ‫ ٶ‬LLLT¢ LT¢ TPh_P¢
-LTkL{$SkPnT¢LPlPT¢ eT¢LT¢ ¢TT¢{LO L ¢T¢eM¢T
-O S¢ eL¢ P PV¢ LS¢ LuT¢ TLTT8¢ rMJõ LLLV¢  SPT¢
-Sn]TTPT¢ eL¢LT%eT¢ LT¢ O SL&Lvhd¢ LPiPT¢ eL¢ LT¢ W 
-LnT¢ W¢LT¢ LS¢ TLhd¢  SQhT¢ W¢ LS¢ L¢ W¢ eT¢ eT TL¢
- SPTS9¢ 6¢ LLLT¢ LT¢LThL¢Q `dLl  5 SLlP¢ TP ad
-hd¢ W¢eT¢  ~ S : ¢ GOIõ LLLT¢ LT¢ eTTT¢ eT TL¢ P oTS¢
-LS¢ SLhPLzz¢ TP hTS¢ L¢ L¢ W¢eT¢ d jd¢ hL'LPjh¢ W¢eT¢
- zS  ; ¢ F ¢ LLLT¢ eLT¢  ¢ hohQ¢ O SLhT¢ O¢ LT¢       T(TSTS¢
-LPkPT <¢ LS¢ q;Jõ LLLT¢ LT¢  ¢z PLTS¢ j¢ eT¢ zS¢O¢LT¢LTlL{¢
-P bdLk ¢ ¢ TP [tdhd¢ W¢eT¢  zS¢ eL¢ T P cdT¢ LhLzn¢
-LS¢T Lzi¢L¢Tzz¢L¢ eT¢LSip L~¢  ¢ W ¢ SLpP¢ k)T.¢eT¢S ¢
- ¢ Tk¢ L¢ LkP¢ PT¢  ¢ S ¢ eT¢ TTz¢ W zS¢ ¢T ~T¢ h¢ LPT¢
-LS¢nT /¢
-
-
-
-  r    /  ] t D  ¸ ¸  }   H ¬ r  t N  ¸  *  = }  r   N ± & ¸
-
-     } « t  ¸ } = ¸ r  *  ^  j       " N   ­   N ± * ¸      N  * ¸
-
-
-AhP T¢ j¢  ¢ L¢  ¢ W ¢ zLdLdT0>¡¢ BkP T¢ S T¢  ¢ TWT¢  ¢
-~hdjhP¢ ¢ idh Ǽ id¢ T ¢ dLL ¢ TTPe¢ LP!¢        ¢ P TLn 1¢
-J ¢ eku¢ W¢ShP T¢L¢ TT¢ wT¢ ¢hT¢ S¢ W id¢STPjjT¢
-LTT¢n¢  ¢ TLP¢eT¢jLxT¢ W¢ TTTLh Lzh¢ehyqd2¢BiP T¢
-h¢  ¢eL¢l¢LhS =¢ k¢i¢eL¢flRe¢P Li¢LS¢TLOzT¢eL¢QL¢OT¢ LnS+¢
-BhPnT¢ LPkPT¢ STZtV¢ eL¢ P ¢ L¢ TLhdWz¢ LTT3¢ GLT$
-                         8 ‫ מ‬Ĺ Ƌ ǖ ‫ ن‬8  ౔߫Ĺ8  ‫౔ ܐ ࠷ ه‬    ; ϡñ౔
-
-
-$ऺ Uऺ ऺ  ऺ $Uऺ <U)ऺ ऺ ऺ U¹˃¹ऺ ))¹<ऺ ऺऺ
-<rŭ¿ ऺ< ˎ)٤ऺ U Uնऺ $ऺ ऺ< ߙ)ऺ$UऺU$ऺऺܑ‫ ऺऺ ހ‬rच
- rr ऺ Ñ rऺ ŭ¿ ऺ ऺr Ãrऺ rऺ ऺ Ƣr)ऺ Uऺ r<Uऺ <ऺU Uऺ rऺ ऺ
- $r)ऺ ऺ )rऺ$<rÃ)rìऺ
-   ‫))ٵ‬U ¹ऺ ऺ ‫<)<ڃ‬շऺ 3)<w¹8ऺ U)r)ऺ Uऺ  ऺ )ࠇऺ )r ÃU¹)ऺ
-$UÃऺ) ¹¹ऺ  ऺ ऺ  ऺ )Urऺ Ã)˓rơऺî ऺ U)ê
-˃)ऺ<) ऺऺ îոऺ U¹չऺ  rîѕǡऺ ))<Ãպऺ $<Uջऺ кUÃռऺ
- ऺ ))U¹ėऺ ř¹)<w¹8ऺ U)¹)ऺ w <)°ऺ w wऺ  ऺ $Uऺ ķ
-)UÃ ũऺ  ऺ < ˋ)ऺ  ऺ  ߚ)ऺ ऺî ऺ U)¹)ऺ ƕऺ ǯ<)<Φऺ )छ
-)<τऺ  ऺ ) rÒࢎऺUऺ $$ऺ ऺ ÃU)ऺ w wऺ  ऺ U)ê
- ऺUऺ $Ã)ŀऺЙ ऺÃսऺ ऺ Uऺऺ) r¹ऺÃऺƢ ऺऺऺ
- ¹Ur)ωऺ <¹8wĪऺ U)ऺऺ ŭ¿Ãऺ Ƣ ऺ¹ rrrऺ ऺƼU)ऺ
-Ť‫ڢ‬ñ ũऺ <ऺ)<ऺ ÃU3)ऺ ऺ)<<Uऺ)Ãܼ)ऺ)Ãऺ) Ãƛ‫ऺװ‬
-   ‫<)<ڄ‬Ԧऺ ))<ऺ ऺ Ã)<U«8ऺ U)¹)ऺ ऺ $ऺ U8)Ƣ38ऺ Uê
-)ऺ Ź ऺ $ऺ‫<ݏ‬¹<ऺ Ã)՛ऺr ऺŻ Uԧऺ ))<ऺऺU<ऺ
- ऺ  ऺ Uऺ  ऺ ऺ rऺ ऺ $U¹ऺU <)Ãऺ   ¹ऺ  ऺ $rŁऺ
-ǯUऺ̡ UɄऺ U<ऺUऺwÒ)<ࠈUऺ ¹)ऺUU$ऺ  ऺ¹8ऺ$ĸ
-3ऺऺ)UÃऺ))ऺ ऺ ऺ)<Ãऺऺ  U٥ऺ ऺUऺ ऺ )şऺ r)ऺ
-) r¹ऺ Ƣऺ     ऺ  ऺ )Urऺ î ऺw)r)ऺ <) ऺ ऺ ))ĸ
-࣒¹Ӊ¹ऺ ऺ $<U¹ȗऺ  ऺUऺU <)Ò8ऺ ऺŹ ऺUऺçऺ  ऺ  $ȸ
-ऺ U <) ٦ऺ ऺ )ऺऺ ) ऺ )<ऺ ऺ U <)ऺ ȅ ǖ)Ӭऺ ऺw¹)<Uऺ
-ü ऺ U)3)ऺ r rऺ  ऺ UƢ3)<Uऺ  $ऺ U <) ìऺ Жऺ v ऺ
- ऺ ऺ rऺ U< ऺ Òr ऺ  ऺ ǟ))˶ऺ Պ r) ऺ Uऺ )<ऺ  3)ऺ
-UU$çऺ  ऺ Κ ¹ƿऺ ऺ ऺ 8ऺ U$¹ऺ < UrĪऺ UUΑ
-"3Õऺ Uऺ $¹ऺ Uऺ U$ऺ  rUऺ$<< ऺ UǇ)rēऺ Ż UऺUऺ ऺ ऺ
-r$¹)Êऺ U$UÛऺ  ऺ )ऺ rऺ §<rऺ  ऺ < $ऺ ऺ ˎ)ȸ
-< ň)ҨÕऺ U‫ׅ‬îÕऺ <U‫<<)׆‬wÕऺ ऺU ‫ׇ‬U ùऺ
-   Ż UԨऺÃr ऺ ऺ))ऺ wऺऺ3 ࣃऺ <ऺwwऺ)<ࠉऺ  Ã) ऺ
-UU$ऺ3ऺ )Uऺऺ Ã¹Ĉ)ऺऺ v ऺ $UÃ«vऺऺ$¹ऺ$͛Ãऺ
-ऺऺ  ऺ ऺіऺ << ऺ $ऺ ऺ ऺ U§<ऺ U ऺ )$ȹ
-UUऺ UwÃऺ  ऺ UÒv˂ऺ  ऺ ߫rऺ Uऺ $UÃ ऺ U)¹)Ϧऺ łwऺ rऺ Ż  wऺ
-$U ऺ)Ã$˂ऺ v ऺ r)<Uऺ ऺ ȅ<U ӭऺ Uऺ ě< Ӯऺ ऺ $Ur ऺ
-w)3)վऺऺǯ<)<ऺ$ऺऺ<ऺŹ < ऺ ऺ<Uऺऺ rऺ <UऺÃऺ
-ऺ)rŭ¿ ζտऺ wऺ ऺ ¹)<w¹8ऺ ΰ )îU< çऺU)r)ऺ w$Ãऺ rȁ
-)<w¹8ऺ w)¹)րऺ ऺ $ऺ ˰rÃ‫׈‬w$ƛ)ऺ  ¹¬ wऺ <UUĖ‫ऺ࢏ؖ‬
-З Uցऺ Ż Uʇऺ rऺ ¹ऺ ऺ $<) ऺ $wऺ ¹r$ऺ wÊÃ Ãऺ vऺ
-))ऺ ऺ$UÃ Ã"ं°ऺ $Uऺ ऺ $¹ğऺ
-   ‫  ऺ ڷ‬Ãऺ U$ऺ r࣠Òvі)ऺ ))ऺ ऺ Ã)<Ur8ऺ U)˪)ऺ w8¹ ऺ  ऺ
-r ¹¹Ҩऺ ऺU¹ऺ Ż Uԩऺ ))<ऺU$ऺ rऺ UÒ)ऺ ऺ <$ऺ ))ऺ
-                      ÓϠР౔    ‫ ࢙ ݗ ل‬Ư k ˶ k Ӕ ࢚ Ŧ ‫ ܏ ౔ ࠶ ݘ ޙ‬k࢛ ࢜ Շ Ư ౔
-
-
-   ‫ٶ‬3‫ =ٶ‬/‫=    ٶٶ  ٶ‬U=‫ٶ‬/ ‫ٶ ٶ‬t­Ï‫ٶٶ‬3U‫ =ٶ‬tU‫ٶ‬tĈ‫ٶ‬3‫ؾ‬Ĥ‫ٶ‬
-F3U‫ ٶٶ  ٶ‬Z= =Z­‫ ٶ‬/U=‫ٶ‬t =‫ ʺ ٶٶ‬UG‫ٶ‬% U 6/ĝU‫ٶٶ‬
- ²‫ٶٶ  ٶ‬3/0‫ٶ‬/ / =/ ˑG‫ ٶ‬t / Ł‫ ٶ  ٶ‬ă ‫ ٶ‬T3Ì=‫ ٶ‬/ =3=‫ٶ ٶ‬
-3U6 6‫ٶ‬3UŒÏ‫ٶ‬3U‫=  ٶ‬%‫ٶ‬Լ ‫ ٶ‬/=‫ ٶٶ‬U= ‫ ٶ‬3 ‫ٶ‬j‫ٶ‬/=‫ٶ ٶ‬tUG‫ٶ‬3U‫ٶ‬% =U‫ٶ‬
-3 ‫ٶ‬3 t ‫ٶ‬% %=‫ ٶ ٶ‬tķU‫ ٶ‬/ ‫==    ٶ‬Ĉ‫ ٶ ٶ‬3‫ٶ‬3 ‫   ٶ‬Ō
- ==‫ ٶ‬E ^ /= =/­U‫  ٶ‬/={‫ ٶ‬3‫ ٶ‬3‫ ٶ‬6 ‫ ٶ‬U‫ ٶ‬U=‫= ٶ= ٶ‬ʝ‫ٶ‬
-t / ‫ ٶ‬0U ʟ / =‫ ٶ‬3 3‫ٶ‬3ƞ%3‫͆ ٶ‬ն=͇‫ =͈ ٶ ٶ‬ļ%=ȱ‫ ٶ‬U‫ ٶ‬ǂ
- n‫ٶ‬ǭ‫ٶ‬/Ä9‫ ٶ‬ӧU‫ =ٶ‬%3‫ ٶ ٶ‬â0 / ‫ٶ‬/ ‫ٶ‬3 ‫ٶ‬66=Ё‫ٶ‬Ş3Z=‫=ٶ‬3/Ԉ‫ٶ‬/ÄÄ‫ٶ‬Z % ‫ٶ‬
- ‫ٶ‬0=U‫=ٶ‬3 t /=‫ ٶ‬U0= / ‫ ٶٶ‬/= =/­U‫ ٶ‬%Z%=‫ٶ ٶ‬3U‫ٶٶ‬
-‫ٶ‬3‫ٶ‬3 t Ĉ‫ٶ= ٶ‬96‫=ٶ= ٶ‬tU‫ٶ‬30‫ٶ‬t0 ‫ٶ‬% =s0  =Ï‫ٶ‬3U‫   ٶ‬9‫ٶ‬
- 6Z=‫ ٶ‬G‫­ٶ‬/=‫= ٶ ٶ‬/=‫ٶٶ‬3‫ ٶ‬U== ‫ٶْז‬U â s =Ï‫ٶ‬
-    ö ‫ ٶ‬tG‫ ٶ‬U Ƣ ‫  ٶ‬6/=‫ ٶ‬â FƢ ‫ٶ ٶ‬T3ͫ=‫ ٶ‬% ì‫ ٶ‬DDEPTJ J^ E ^ P] ^
-?P F(9^ CA)Q*CAK^C$ ^D CKK+3;(P[^ A^ +?DCKK+*8+PZ^ C"^ @PP E,A ^ 3G‫ٶ‬U ‫ٶ‬3 ‫ٶ‬
- 0=‫ٶ ٶ‬3 ‫ٶ‬/=‫ ٶ‬6 ‫ ٶ‬0t‫ٶ‬t / ɧ‫  ٶ  ٶ==    ٶ‬/ ‫ٶ‬
- =‫ ٶ‬3 ‫ ٶ‬0 ‫ ٶ‬t/ U‫ ٶ‬â  /=‫> ٶ ٶ‬s=‫ ٶ ٶ‬ŐU /=ë‫ٶ‬
-3 ‫ ٶ‬3U t {‫ ٶ‬3UU‫ٶ‬3U t ͉‫ ٶ‬U‫ٶ‬3‫ ٶ‬/% 9‫ ٶ‬/ =U  âs6/G‫ٶ‬
-‫ ٶ‬U / 6G‫ٶ‬/  Ŗ / ‫ٶ‬t  =ƈ‫ٶ‬Ş3 ‫ٶ‬/= Ô‫  ٶ‬/ ‫ٶ‬% =‫ ٶ‬U‫ ٶ ٶ‬ү‫ٶ ٶ ٶ‬
-   ‫= ٶ‬t /%Ǡ‫ ٶ‬Ѥ‫  ٶ= ٶ‬6G‫ ٶ‬3 3‫= ٶ‬Zʠ‫  ٶ‬/ ‫ ٶ‬Z  Ĩ %/ =‫ ٶ‬3 ‫ ٶ‬3‫ٶ‬
-â  ĹU=‫ٶ ٶ‬/=‫ٶٶ‬ŏ%t  =ȴ‫ٶ ٶ‬3 t ‫ٶ‬UtU‫ٶ‬Ǆ
-t/ U‫ٶ ٶ‬3 ‫ ٶ‬0/% Ł ‫פ ٶ‬s% 9 F =‫ٶ‬Ut‫ٶ‬t   ŁЄ‫ٶ‬ǭ ‫ٶ‬3‫ٶ = ٶ‬
-‫ =ٶ‬U%/ʟ%‫  ٶ‬/ 6‫ٶ‬/  ħ %s =¶‫ٶ‬3=‫ٶ‬ʌ Խ%ƃ=Ut %‫ٶ‬â  /=‫˙ٶ ٶ‬Ǆ
-t/ Uɨ‫ ٶ‬ö ‫= ٶ‬3ɕ‫ ٶ‬3U‫ ٶ‬қ   =‫= ٶ‬%/ʡU=‫  ٶ ٶ‬/ 6‫ ٶ  ٶ‬3 ‫  ٶ‬%=‫ٶ ٶ‬
-= / ‫ٶ‬ąķ3/ ‫ٶ‬3‫ٶ‬3U tU  Ί‫ٶٶ‬3U‫=ٶ‬Ut /%ɔ‫ٶ= ٶ‬U6‫ٶ= ٶ‬ʌ /ǖ‫ٶ‬/ Ō
-U0t/ %Gɧ‫  ٶ‬A ^DDIQUN N^E ^CTAFZ ?7-A^DEQ* K ^
-    ʀÔ‫ٶ= ٶ‬T30‫ٶ ٶ‬Č  9‫ ٶ ٶ ٶ ٶ‬0ɋ‫ٶ‬t / ‫=ٶ‬3 9‫ٶٶ ٶ‬
-   U0=‫ٶ ٶ= ٶ‬00G‫ ٶ‬s­s Ł‫ٶ‬0=‫ٶ‬0‫ ٶ‬0 =‫ ٶٶ‬0=¿‫ٶ‬Ǯ s ‫ٶ‬/=‫ٶ‬
-  /3U0‫ٶ‬/  6/  Z=/ ֝G‫ٶ‬% ‫ =ٶ ٶ‬/֬G‫ٶ‬F   /=% ŁG‫ٶ‬0 %Ï‫ٶ‬
-ď Z ‫ ٶ‬/=‫ ٶ‬t ‫== ٶ‬/ÒU‫ ٶ‬3 3‫= ٶ‬U%/ʡ%‫ ٶ‬t / 6‫  ٶ‬/%U= Ѓ‫ ٶ‬Įt /%‫ٶ‬
-   Ò ==‫ ٶ= ٶ‬3/­U‫ٶ ٶ‬3 3‫ ٶ‬3‫ ٶ‬3 3=‫ ٶ ٶ‬t =‫ٶ ٶ‬
-s ­ ‫ٶ  ٶ=  ٶ‬3 3‫ ٶ‬/  ‫ٶ‬/= =/­‫  ٶ‬%>/U=¿‫ٶ‬Ǭ­ģ‫ ٶ‬3‫ٶ‬
-tt ‫ ٶ‬â/‫ٶ‬3 ‫ٶ‬/= =/­U‫ ٶ‬Fʺ%=‫ٶ ٶ‬t ķ =‫ ٶ‬0‫ٶ‬U% 9/ 9G‫ٶ‬3 t ‫ٶ‬
-3U tU ‫ ٶ‬ȸ‫ٶ‬Ç‫ٶ‬ѥ‫ ٶ‬s= =/­‫ ٶ‬%/%=‫׳  ٶ ٶ‬Ϫt ֆ/ ‫ٶ‬0 %Ƣ%=‫ٶ‬
-/ ‫ ٶ ٶ‬/‫ٶ‬ą =‫ٶ‬UÒÒ‫=ٶ= ٶ‬Ut ķ%Ƀ‫= =ٶ‬Uβ‫ٶ‬3U ‫ٶ‬3‫ ٶ‬%Ĺ%=‫ٶ‬âG‫ٶ‬3s%3‫ٶ‬3U‫ٶ‬3 t ‫ٶ‬
-   ‫ٶ‬3U‫  ٶ‬3 t ‫ٶ ٶ‬/À / 6G‫= ٶ‬/ ‫ ٶ‬                   ‫ٶ‬UG‫ ٶ ٶ ٶ‬/ ‫ٶٶ‬
-/=% 0=/­‫ٶ‬0 %j%=‫ٶ‬3 ‫ٶ‬3=‫ٶ‬/=‫ٶٶ‬0ά 0/0‫ ٶ‬/ ‫ ٶٶ‬3U‫ٶ‬3 ֭ ð‫ٶ‬Ɛ3 ‫ٶ‬/=‫ٶ‬
-  UUγ‫ٶ‬3 ‫=ٶ ٶ=ٶ‬3 a /=‫ ٶ‬U0= / ‫ ٶٶ‬s=% =/­‫ ٶ‬Ĺ=Ђ‫ٶ‬
-    ö ‫  ٶ ٶ‬/ ‫ ٶ‬ŁZ=‫ ٶ‬%% {‫ٶ‬.KVGL*W ^DEP/!K^E ^MD 6^?P E)9^E CB\
-TE0AK^ C#^ Q& ^ YCE<^ Q&FCT &^ Y&*'^ Q] ^  P E?*AQ*CA^ C"^CTAE* K^ DHCD FR1 L^ A^
-@ A*AK^*K^S H AQ*=>[^!AQ  ^҄3 ‫ٶ‬Ƣ=δ‫* ٶ‬KTIK*X ^DFQ4 K^E ^CA%C*A ^  AQ2:^
-                            ‫ פ‬Ց ‫ ݟ‬ǚ ũ  ‫ ߩ ౔ ۔‬Ն ѳ ‫౔࠵౔ͼ౔ ۊ‬Ž౔   ͽϟг౔
-
-Hk}Isl³ s,C0³ ­sb,³ XWXª X^IXª  LIYPmIª KLLYEIYLª EtWª ZXª
-I vLLEª [KLL^EIYLª ELª LEILKª gXYª XLª                    XLLEª 
-KILK&ª 9 Evª,J ¥~K«0³xG1³~0³!¥a³ # > " m ૵       XLªLEIªIEEvª
-ILªXWXªXYIXªLªI Lª XLª L QLI ªOª XLª XLL
-ª ELª ErLKª Hª XLª I Lª XLª  IELª \ª XL]ª KYRLL^Euª
-EYIvE_'ª ALE`Wª ^ª ª Eª        Lª Oªa K^^KEvª Kª ª W ª Oª
-Kª HªEª W\Wª LOEILªOªXLªvKª YªYª K^RLLYEvª KEILª Oª
-YL~vYW[HYw^ª EKª ^Lv|[WYH[v[(ª :ª bª IEEtª [E!EI]Yª           Eª Oª XLª
-vKª HLILª KLL^ELvª HKLKª EKª  LnLKª Yª Yª LLWLªY¡
-LvwYW[HYwYª ª EXLª Eª Oª XLª|KªXdxLª v[Lvª EL^Wª ]HYvY¢
-^LªEKªg YHYvYYLªELªLIPmWLK)ª7YI[Lª EI[ILªELªHKF£
-ErcWª EIYILª XEª XELª ª SEvYª Yª XLª WYWª KEYIª OªEWL[Evª
-YE"EIYY*ª
-   ;ª EKd^Eyª XEYª EIIª YLv|[WYH[v[ª L[Lª Eª eLwLI[Lª
-EWLª XEªªX[IXª LXdWªYª dLvvdWfHvLª EKª ]LvvLIYª Yª OELKªEª
-Eª  LIYPmIEx|ªXEªIE EIY+ª 6ªYªªEWL[E|ªLE|[ªEIIª YLt|[WdHev¤
-YªdªEªvWYIEzª LOEILª Oª XLªvKªYªdª WYWªEgI|Eh,ª =ª
-Yª ª Eª XE#KL LKLª JXEEIL^[Iª Hª Eª OLELª OªXLª{Kª ^ª dª
-KYRLLYEvª HLIYW-ª DXLªvKªEYI|ELª YLvOªKYRLLv-ª
-   8XLLª scWª KLª ª LYLª YLxvLIgª gª XLª XEgª
- LLªLYXL.ªCXLª rYWªYª Eª ELªOªK YVML[Evª L dLLª Eª
- LOEjLzªEhI{ELKªEKªEIIEHvLª ªXEªEL/ª5ª IXª EWL¥
-YEvª LE|Yª WLª HLKª HXª XE^ªEKª EYXEYª EIIª OªXLª
-rdWª HoLIª Eª Lv|ª Eª LILª dYWXª IILeWª XLª rLª Eª Eª
- XLYIEv|ªLXEILKªXE0ª>gWªYª ªEHªLL^WªOªEHLª ª
-YKLª ªLLª LLYWª OªEª XLhIE|vªLXEILKª XEª HK(ª ?¦
-dWª [ª Eª ELª Oª]E$EIYW1ª >]Wª LEgvª  LIYTIª EIYILª XWXª
-XYIXª XLª vKª Yª KdRLLiE|vª EjI|ELKª EKª EIILKª O)ª <ª Lª
-YEILª  XEª NLªHLYWªYXªHEkªLLWLªEª EErdWª
-[ªXLªvKªEIcLªLWEWLLªeª EIdILª Oªr fW,ªĈ öά @dWªLEY|ª
-KYRLLYE|ªL YLLªEKªEIIEHew[ªEª EªOªEªLrªOª LO§
-GIL2ª @YWª ]ª ªEª HKLKª ª IvLKª EIcILª HªEª WYWª L¨
-OEILªOª XLª|K3ª
-    7YIdLª     EI^ILª ELª ª  LLIXª EIª vYWldIª L LLEdª ª
-LLª vdWddIª LOEIL ª HLEYWªLª LIgPmLKªLvEYX] ªªE©
-LYExª EIYIL4ª7dIgLª EIdILªELª ªEX  XYIª vEILX{KLª
-OªXLª pLILKªEWLIªOªY KYYKE}ªHqLIªIvL ªª~EWEWL(ª9KLLKª
-XLª ELª ª XE%HELKª          EIcIL,ª Bª XLª IEª EWLYE}ª LEvYª
-  XEYª EIIª OªKYIYLª            EIYILª KLª ª Uª XLª HKEª
-                       1bÆ౔    ť Ɗ ǔ Ʈ j ˵ j ӓ ǔ ť ‫ ޘ‬Ɗ ࠴ ౔ ܎ j ǕǕ Յ Ʈ ౔
-
-
-AFFFrTp@r@rErsrTp@rAFHsxFTF@r@j}Z}FFuRF}sK TFRwsrE
-Aw@TFw@hos}HswTFts}}\ AVhVsH@RFrF@esRZC@f@r@e}V}sH TFp@Fw[@j
-EV}Cw}VFFpFwRFrCF sH TFTp@r' 5p@r AsEVF}@rETp@r}AbFC} Es
-rstwFFZ} @} }CT1 rsw@uF TF pFwF FrE twsEC}( 5p@r} @wF rFVTFw
-twFC@}FrswtwFFKFCAt@wsH TFsugEWrW}stFr"FrEFEAFCspWrR)
-   9}@}TFwF@wF rsswE}VT EFFwpVr@F pF@rXrR}eVrRVr@V@} }s
-p@r C@rEVE@F} Hsw @r @ttwstwV@F wFtwF}Fr@Vsr@h pspFr rFVTFw @wF
-TFwF TWrR}YT EFFupZr@FBsrE@u[F}@rEtustFw_F}TVueWrR@[peF}}i
-Vr TF sVE AFwFQ sH@RFrC TV}swVCV sw pF@r[rR TWCT @wF srj s BF
-AF}sFE Jysp TF s}VEF @} TFr TF @RFrC s H ;@r twsrsrCF} TF
-r@pF T@ @@CTF} s }tFCVOC AFVrR} Vr TF p@cVrR sHswE#TVrR t@Vw}*
-?TVrR} Esr  twFFZ}2TF@wF@RFr[@jhFr@DFE@rE BFCspFEFFupVr
-@Fe AsrEFE @rE twstFwVFE VTVr tTFrspFr@+ =}VEF sH t@w\Ck@w
-@RFrV@g Vrw@$@CYsr} swE}  @rE TVrR} @wF VrEFFwpVr@F, ;@Fw V}
-TFuFHswF rs s BF rEFw}ssE @} @ twstFu sHTVrR} A eVdF EV}Cw}VF
-tw@CVCF} p} AF rEFw}ssE Vr pswF Er@p[C @rE twsEC^F Fup}%[r
-Fwp}sHVrv@&@CVV-
-   7r ǘ̲ɸ˛ͽϙȺʶ{Cϙ p{CC͒Ěϙ :EVT 3eFw RVF} @ TsxsRT @CCsrVrR sHTF
-H@WjwF}s H } sCW@jCsr}wCW\}@CCsr}sH TFAsET@CVwCe@FVrHFpVrV}
-TFsw@rECT@leFrRF}IGpVrV}}s wFwrsTFrsVsrsHp@Fx+ 3AU[~
-xFwr }TF EsF} rs @EsC@F wFCe@VpVrRTF twFCxVVC@e VF T@ seE
-ts}]]sr p@Fu@}T@TVCT V}twVswsEV}Csw}F. >TF@wRF}T@@r}CT
-@Fpt s RxsrE HFpVrZ} Co@^p} @Bs }F@l EWLFxFrCF Zr }CT @ twF
-EV}Cx}VF}A}@rCFV}EsspFEsAF@CTV}FeHs rT@Fz}TsxF0p@Fw}TF
-Fte@Vr} V} @fwF@E Hee }FEVpFrFEVT EV}Csx}F} sr }F @rE F@hV
-T@txFPRxF@rE Csr}x@Wr TF }F} s T[CT T@ Fwp C@r AF t  3lFx
-ǿƤ ύϙ ƙï Ŋϙ 8r}F@E3lFxtwsts}F} T@FrEFw}@rEp@Fx@} @ tusCF}}
-sHp @FwV@eV@YsrT@}@AVeVF}sFxVqFstxsECFTFFMFCsHA srE@{
-OV @rE }wH@CF F C@ee p@Fx  S. >TF Fte@\r} T@ TFw Ce@Vp T@
- p@Fx V} @m@} p@FuZ@nWFE T@} ) ) / s BF TsRT _r xFl@ Vsr s TF
-twsECVF @rE VrEFFE p@FwV@eVVrR FNFC} sHxFRk@s| tx@CWCF} Wr TF
-4sC@lV@r }Fr}F Î  ĺƆż ð ŋƚ ƻϙ
-   3eFx} xFCsrCFt@l[@Vsr sH p@Fw @} @ twsCF}} sH p@FwV@lV@ Vsr
-Bw`rR} sTFHswF TFWptsw@rCFsHw FCsRrZZrRp@FuWrZ}TW}s wVCa@rE
-EVwFCl CT@eeFrRF} wFtwF}Fr@Vsr@lV}q} Csr}w@e sHp@Fw @} @ t@}}`F
-@rE Ae@rd }e@F @@VVrR TF @CVF Vr}CwVt`sr sHChwFTFxFA TF xFe@
-Zsr}TZt BFFFr p@FwV@hW @rE EV}Csw}F V} ORwFE @} srF sH@A}seF
-FFwVswZ+ 3hFw} @CCsr FptT@}WF} TF HsejsVrR V ptsz@r tsWr})
-<@Fw  eVdF pF@rVrR! V} rs@r VrEVVE@el@xVCe@FE sw}@VC FrV' 6  V}
-                                     ą ő Ճ ‫ ق ࢘ ݖ‬Ѳ ‫ ߨ౔ ۈ‬Մ ą ‫౔ ܍ ࠳ ك ۉ‬               ÑϴÒ౔
-
-
-   ɘ)`) ɘ !ɘ ɘ           ĳɘ  ɘ ɘ !\ vɘC  Ĵɘ /                 ɘ  ɘ ɘ 4 , C2ɘ - ;1ɘ
-.Ǐƽ           1 ž ɘ /ɘ 1ɘ .ɘ ɘ   ƪɘ  ɘ ư ɘ   $uJ «ɘ  11ĵɘ  ɘ
-      ɘ  /t Eɘ ĶęŬ  /ɘ .ɘ ɘ . !) ɘ  ɘ 4 ., hɘ ¼ ɘ .ɘ ɘ ɘ Jb ɘ
-44 ķɘ )            .ĸɘ          Dɘ  ɘ            ɘ ɘ  . !.C(ɘ/ɘ   ťɘ Ƒɘ ɘ
-ɘ/ × ./ ɘ  ɘ  /vɘɘ ɘ b / Cɘ /                            ɘ<1Z ɘ ǽ     ɘ/ɘȤɘ ɘ 4) ɘ
-1iɘQ  /ɘ;ɘ )- 2ɘ Ǿ/               2ɘ ɘÉɘ.  2ɘ
-      Ɯ   )2Ĺɘ - ,                Pɘ ·]        ČȨɘ Úɘ).  )2ɘ               u      !Ƥɘ   /ɘ ɘ ɘ
-4 ., ɘ 4  ɘ ɘ1 /Ƚ ɘ 4/                        .    ɘ /  /ɘ  ɘ ɘ ɘ               1, ɘ  ɘ 4 /}
-`Ë 14 ǐɘ1ɘ ɘ, 2ɘ4                 ɘɘ              1 6U 1jɘŻ o.ɘ J .  2ɘɘ24è
-  ɘɘ ɘ. 4ǿ  ɘ   ɘɘ  ɘ                               Cɘ       ɘ ɘ          . C.U 1ɘ ɘ
- ɘ . 4)  ɘ Ș - Z;ɘɘï                        ȃ1(¢ɘ Êɘ              ;ɘ ɘ / ɘ ɘ .ɏ
- /1, ɘ 4/          ;    ɘ ~ ɘ         ; ɘ 4   ¨ɘ Éɘ   ɘ4  t,.(Ŧɘ Ƌ                              é
-/ ĺɘ·C           čɘ 2ɘɘ           . Ȁ(ɘ.ɘ). ɘɘ ɘ                ɘɘ  ɘ  /. )1U é
-ɘ ɘ!Ʀ ɘ/Dɘ/ ɘ                             /  C2Ļɘ ɘ ɘ / ɘɘ  ɘ  ɘ
-ɘ  ɘ  ɘ !2jɘ Q/ , șɘ ɘ                              ɘ      1ɘ ɘ               ).2ɘ .ɘ    ɘ   ɘ
-A           )1 ɘ     ȁ  2ɘ 4        .      ɘ  Z ɘ C              ļɘ  ɘ 4          ɘ  ɘ  /ɘ /ɘ
-     ɘ        ɘ )2ɘ  ɘ  u \ɘ 4              Í     ɘ       !2ɘ /          È!1ɘ  ɘ ,      (ɘ       ç
- )/ ɘ ; 2ɘ ɘ-Ǒ ɘ ɘ  dEɘ  Ë )ɘ  \.ɘ4 , ɘ ɘ 
-      ɘ ɘ             ).U Ýɘ ɘ ȩɘ! 2ɘ ɘ  4                                  . ɘ). ɐ
-.ɘl\              ¥ɘ  2Eɘ ¾11J         C2Dɘ1ɘ          1Ɇ ɘ  /¥ɘ2 1ŧɘ
-      ƒɘ ɘ  ; )ɘ            );ɘ      Ľɘ   /ɘƧ ɘ ɘ                   ɘɘ ɘ Jã ɘ !              ſɘ
-      /Dɘ d,x¦:¦! i",¦;i¦ <¦:iy #=,¦!,#sd=i is¦¦5>i¦ !¦¦ )s?i¦ ¦
-"si,Y@i¦s/¦,j#¦,z¦:¦¦!AYL¡Bi¦i)¦), !CYO¢Ci¦v{s",¦s/¦B,zC,¦Bi}¤
-#MM¦ ½    ɘ Û 6Ȅ ɘ   /u Ȃɘ ɘ ~                                       6 1 6ɘ ð  £ ¨ ɑ
-   ɘ  ɘ             ɘB ɘɘ4               ɘɘ .ɘ.           g         .,$(±ɘ ñQ     òɘ ɘ
-ɘ           ɘ ɘ ɘ .         Dɘ Jb ɘ 4/4             ȹɘɘ !          ¬ɘ ; 4  )2ɘ ã1ɘ
-!ǩ       Ûƀɘ      /ľɘ d,x¦zW,z ¦s¦v5,isd,i¦Di¦6,Ex¦sis:i3¦d,xFZ:£;si¦
-      Q         ɘ;ɘɘ4)2ɘó ɘZ.ɘɘ ǒ Ýt )2¡ɘ Ĝl)                           ɘ"     ƨīϙƏƮćĬϙ ɘ            ɘ
- Ʒ ɘ ɘ ɘ !Í Pɘ /ɘ  ɘ ɘ 4/ ɘ ɘC.;t ɘ  ɘ 1 /;, ɘ                                           Ũɘ
-Q           ɘ ɘ `ɘ ɘ .11 ɘ   1ɘ !ɘ ɘ   1, ɘ 4  .ɘ .ɘ  ɘ
-4      ɘ ɘ1  , ɘ4                            .     ɘ     ɘ  ), ɘ  /. )ɘĝ/ © ɒ
-J ɘ ɘ ɘ - Cɘ  ɘ -1 ɘ ǃ ɘ                                     ; 1ɘ ɘ !               1 Ŀɘ
-4 4          1 Dɘ ɘ        ;ɘ Ǔɘ  ƸƫȚ  )2ɘ                     Eɘ o ɘPɘ   , ɘ 4/            |
-`;    ɘ ɘ !           2° ZÇɘ 4                  ɘ      ɘ )\2ɘ .4)       ɘ ɘ  ɘ 2 . ɘ ɘ
-       Ś    .,.2ɘ  ɘ - ɘ 4   ɘ  ɘ ɘ   ũɘ ƛ ɘ 2 Ê ɘ ɘ
-`/ ś         1,.2ɘ  )ɘ          ɘ ɘ ɘ         ;, ɘô  ¤ɘ1ɘɘɘ                     Ì 6U $jɘ
-n ɘ/  /ɘ d,x¦G¦¦)idH"¦Cix #:,¦!,"sd<i¦ 5¦: ¦:evZ:#,)¦i)¦,i/s[),)¦Ii¦
-J¦:,xO,¦!,#sdKi¦,|:i¦L ¦¦)idB#¦zN#\:si 0#si2}:si¦s/¦5,¦s}[)¦
-mɘ          ɘ-/ŀɘ            )(ɘ;ɘ1 /1, ɘ§1j hŁɘ                  Æ )ɘ 4   ɘ               ɘ 4Ŝ
-                            ]   - < O @     S ) = 9 I] 5  M T  A ]
-
-
-
->˦M˦˦       7˦  >˦  ×Ǭ˦ ˦C &˦7˦ģ¾˦ ˦
- ˦˦  ˦M˦˦ &¿˦˦,&˦Ĥ¨&7,˦ ˦   ºÀ˦^   ˦
-˦ R{"!˦       "˦  ˦ >˦ U ˦ ˦ }L   ~ ˦ ˦  ˦ &&˦
- R˦ țĞ˦ &&˦  ˦1˦ `O i˦ "7 "!˦             "˦  ˦ IĩY˦
- ˦ ˦ ˦ ˦˦˦U ˦ ˦ S I˦˦˦Ē˦ú˦
-x/'Xx(g2K 6¡ɷϙ x/'%3q"er3( f'X ఀ x 6 MU3XbN3"x'%5Yy/'%YX3"q`-3Yxg"y33x
-Ò˦  ˦ `˦ 1˦  ĩ˦  ˦ ˦  T!˦ ¥˦ ˦  ˦I<˦
-L˦ Ȏ˦ !˦           ˦ ˦  >˦      ˦ ˦ ˒
-I<&"<®˦ {˦ Cʀ,"˦          " L˦ ˦˦˦   ˦ ˦ ˦ P˦
-˦ ǔ˦ ˦˦  ŀ˦ ˦ ˦ ˦  ˦˦ ɀ!">& ˦ ˦ "˦
-   &˦˦L˦ ˦˦Ň ˦  ˦ >˦ ˦˦˦ ˦
-I˦{ǭ˦CII ˦ ˦"&˦ ˦²>˦  ˦
-   ę˦  ˦  ˦ ŖZT˦ ˦ Cô˦ "">ŏ˦ ˦,˦
-} &û˦  ˦S b˦˦˦ ˦P˦ &³˦                    Öº˦˦
-" ³˦ P ˦ ˦ ˦       ˦ P˦ "|B˦Ğåά ęʠ˦  ˦
- ƛ˦ ˦˦˦Ţ           ţ˦ lī ˦ " ˦ ˦ ˦êN˦ ŀ˦
-,!˦ ˦ ˦ ˦ ¥˦  ˦ g˦ ˦ ˦ Xxy'g "`X'p y`
-Xxy'f 1Ň&˦ ˦ T "!˦ B{ƾ"!ŏ˦ P˦˦   ˦ ˦ ˦ &˦ c˦
- ˦ ˦ ˦ ˦ ˦ ˦ ˦  l˦ ˦ P˦ ˦               ""˦ ௭౔
- !˦ ē˦  ü˦ ˦ ˦˦ 1˦ ß ˦ ƿ !˦7˦
-P˦ ¦Ɯ˦  "TƝ˦ ˦          ÖǓ˦c˦P˦˦ ˦  ˦ 7 
-!˦ ʭ˦  ˦ Sʁ˦ ˦` ˦ ˦˦Œ˦"C" ˦!­Ī "˦
-M˦˦ 1˦ ˦˦  Cȧ˦ ! ˦¢˦M˦˦  ˦  
-Ɂ!˦ IʡL˦% $
-   Ė&˦ >ż˦  G|×˦ P˦ "˦ ˦ "˦ "˦ ˦
-˦ ˦  ˦ ˦  Ö˦  ˦  ʺ˦ ˦ &˦ ˦
- T §&˦I  §§®˦  ɂ ×"˦C ˦ T&˦˦   ˦
- ˦C ˦&!˦  ˦ ˦` ˦ ˦`7˦P­&˦˦ 1˦<R>˦
-˦ ˦  U˦ *˦ P ˦ ,˦ P˦ ˦   ˦ ˦ ˦ ˦
-l ˦  ˦ Œ˦ ʲ˦ "˦ ċ˦ ȕ˦"J˦           ˦ ˦  ˓
-˦  ˦ ˦  R˦ `­ ˦ ˦ ¶  Ť˦ !˦ ¢  ˦               ˦ <Ŏ˦ & ś
-˦˦`˦˦           ˦Ȗ˦˦  ˦  R˦˦ M ˦˦ ,˦  ˦
-"˦I˦ˌ˦P˦˦  ˦³ˁ&&&˦&˦P˦ ˦  >˦` L˦c˦
-  7|ȝī ˦  ˦  łI˦ȳȨ  ˦ ˦˦˦ "˦˦˦˦
-  ®˦` ˦ ˦˦&ý˦ ˦˦˦˦˦    &˦
-I˦ I ˦ ɰR!˦ {P³˦ ¦˦     ƞ˦ ˦ ˦ &˦ · Ł˦
-&!ǀť˦P˦˦ ɱ˦`  ]˦6 4ά
-   of¬ `%3'q Y`xX'h'O /XZ !`%3'p  #`X'y`X'gy/g`/y/'`gL% p3y'hy3'
-˚¡Ώ͑6ĸɐɰ;κ;Αφ Ĺ;ΐͼϙ a 'n`gXx3 4x ȗy˦ "˦  ˦ ˦ U˦ P˦˦  M˦  ˦ Å
-                             #  9 T.  1 ]@         1 ) H 6 ]    (
-
-
-´ ˦ M˦˦  4˦ ˦ ˦ M˦˦   4˦ $  ˦ ˦ M˦ M˦$˦               14n)On4Ɵ˦
-R)U ,˦˦! 4˦ŦŽž˦ M˦R˦ $,˦A $˦ ˦˦ĺ)ʳǲ˦¥˦ ˦
-´  Ƀ˦  ˦            .ē˦ 4˦ ˦  nĆ Ʉ) ;!˦ 1]˦ ŧȁŜ
-²Ũ˦  $˦  ˦ ˦ $ 4˦             $¢ ˦ M ˦ ũŪ˦ L˦ ˦
-)ʮR˦˦˦Ɠ ˦˦»˦ ˦ ˦Ŗ ˦ ˦                          ,!˦. þ ˦
-˦ . ˦ $˦ $  ˦˦ ȰʢćȽĮ,˦ $ U4L˦ ˦   ˦  ˦˦ $  ˦ ˦ ˦ $˔
- ȸ ˦       )˦4˦1.)˦ǁ ˦U $,R)˦                   ))˦ } U4˦ 
-   ˦ $˦ ˦  )$ȹ ˦4»˦,˦˦                     )˦ $!˦  R˦  ˦
- .4˦)˦ ˦ 1 ˦1˦ 4B)˦ Q˦$  Ĉ).!.ï˦.˦B˦ ɅU$ïđ˦
- .˦       ˦        )˦  .O˦ ˦  ,˦  )$)˦ )˦
-. ǂ).Á˦ 1 ˦ ū .<Ŭ˦ B˦O4˦ ʂ  4˦ Bʃć B) B!ǃŐȾğŐ˦#BW
-Q!HW $HW3 5CWI;W d ğ௶΋ i˦ c .˦˦Q)˦ˇ)´.!Ń4˦˦˦  $Ś.˦
-Q˦1˦  $˦Ĭ˦1˦) ).˦ .˦1˦˦! 4˦                      )B)˦ 4˦1B)˦˦
- $ȴ .˦   .˦ Q˦1˦ ˦  ˦ 1˦ ˦  ˦                            ˦  ˦
-<4˦   4˦ . <) ˦ .˦           WɆ)< ˦  ;ʄ.|.Ǖ˦ c1˦             ȵȩ .˦
-)B.˦ Q˦ 1˦ ˦ ˦.˦4ŋ˦)) . ˦4˦ W.)< ˦
-ˈ)V˦ ˦V4˦  ˦˦)$i˦c.˦ .˦˦ W<˦ Q˦ 1˦  ˕
-$B)˦)O˦  ˦ M˦,.O˦. Ǆ)RƠ˦˦ ) ).U˦ ɇ˦1˦HÀ ¬˦´ ˦
-˦˦)˦˦,)4˦ ˦)V$4˦ Ħ ˦
-
-
-
-                             đ M ! ‫ ۍ ى‬ओ౔ đ M Ǫ  ! ѵ + ‫ ي‬x ࠹ ౔
-
-
-   ?   ó  ó ó  Ê   }óM N z ó¶ ó·ó  ó  A  ó  ] 4ó = ó  ó  ró Ë¸&óZ ó Û ó  +ó
-
-     ó& ãó »@ óóó        ó     óD jóó ¹  ó  ó@ó  A Oó
-
-                                        ˼ ֢ļख‫܌౔ݝ‬i‫ ౔ގ‬ՂǓ౔i ‫ ౔ ˄ ̛ ۇ‬R646W IP@EW<5W !SD%EW
-
-
-   ó   óÜE`3ó  W  _ó  ó ó 3óó  @  + ó  ó ó ó D  Ì  ó   D  óó ó
-
-    3óó  )  'r
-                                                            ‫ך‬ĄऒiǓ ߧ ‫ँ ف ޸ ࠲ ౔ ـ‬Ą ‫¸ ౔ ˅ گ‬Ȅ˦˦ʜ Ȧŭ˦
-
-
-c˦JĬ˦Q .ʅ4˦  .˦1˦A ſ˦))ċ˦Bń˦A ˦@˦
-˦ ¬˦Q ˦,  ˦˦,.!˦Q1˦ . ˦  4˦Q˦ 1˦                       h˦1$˦
-)) .˦Q˦1˦ɻ ˦.˦ .              ˦.1˦ <! ˦².,.$˦1˦ń˦
-ˆ˦  ˦˦ ˦ Ń i˦ Ñ˦ ˦ ˦  ¾˦ A1 ˦)).!˦ Q˦˦   ˖
- ˦˦˦ . ˦  ! Á˦˦. U˦1˦ɲ)˦˦Q ʆ4˦)1˦
-,˦ Bł˦            ˦  ˦˦  ˦ )˦ ˦ ˦ 1˦ U.,˦
- á˦ ˦  Rh˦ .)˦ )˦ ˦ .,4˦ ).) ˦ ˦ QG˦
-)ĭB˦˦˦ )J)˦Q˦1˦ ).)˦ .˦Q˦  )< ˦1˦
-)) ˦$˦˦          Ç˦cB˦)) ˦ M ˦˦B,˦ɳ)˦B˦˦Ɉ˦
-M ˦A ƀ˦Į ß)!˦B˦M˦ ß)ĭ!BïǮ˦1˦˦ɴ)˦B˦˦Ⱥ$˦
-                            Σ  ౔      & . < 2   8 ' 0 . 5 @ + ? 8 8  3 @
-
-
-@ȼ ȼ Uȼ                ȼ   ȼ ȼǌs ȼ   ×ȼ ȼ L                 ȼ     ȼ ĸȼ a ȃȼ
-R* ȼ-ȼ           ȼƏ -ȼ4 *44-ȼ ȼ                            ȼȼȼ    R ȼ*ȯ
-¹ȼ  %        ȼ   ȼ ȼ   Ïȼ % Ȅȼ ȼ %fȼƟ ȼ*āeȼ òȼ
-Ʒ  ȼ> ȼ                 Ǎȼ  ȼ         ȼ      sȼs*Lȼȼ æȼȼ           7À
-*ȼȼȼ  ȼ D ȼȼ4*ùȼ 4ȼȼ                                       ȼ z*ȼ
-ȼă       7FȼƠ ȼ-Íȼ      ȼ T ȼȼ          ȼ   ȼ ȼ țȜ ȼ  ȼ Ȱ
-P ȼ _ R ȼ           ȼ L Lȼȼȼ *ȼ ȼ                      ȼ ȼ        ȼ     -sȼ ȱ
- ȼȼ ȼ *ȼ                       ×ȼp           ȼ ȼ -ȼ´ # ȼǃ ȼ ȼ *Ȳ
-T ȼ Ɣ ȼ       ȼ       D ȼ Żȼ             ȼ ȼ           ȼ        *ȼ ȼ      ȼ *ǎ ȼ
-ȼÝȼȼ           ȼ *u ȼȼ 4ȼȼ             ȼ  ȼ ȼ  ȼ ȼ D  ȼ
- 7* ȼ         -scȼ -L7ÕĹȼ 7ȼ -ȼ                  ȼ u ȼ ȼ * ȼ  Ąč ȼ  ȼ
-  ȼ        ȼ       L*Ƌȼ ß * ȼ               Lȼ R ȼ J 7´ȫȼ q- ĺȼ ƨ*ȼ *ȼ
-*T ȼ       ȼȼ  ȼ*Iȼȼ>ȼ  ªȼƚȼ%Ƭȼ                                      ȼ
- D*ȼĠȼ #I Fȼȼ                  ȼ Iȼ *ȼu ȼ ȼ *ȼ Ãȼ
-*ȼȼƐ7 ȼ*Ǡ ȼ ȼIÝȼ
-     ƕȼ ȼ -Ļȼ ‫ ౔ؿ‬7Ư- %ȼȼ JǴȼ ǲȼȼȼ *>P ȼ ȼ >>  ȼȼ
-      ȼ #*óȼ            ȼ ȼ  ȼ ȼ                  ȼ    7  ȼ -#  ȼ ȼ
-2ȼ * Fȼ° ȼ *ȼ ȼ   ȼ ȼ  ȝȞ ȼ ȼ ȼ U ȼ ȼ
-ƶȼ        ȼ * ȼ ȼȼ   ȼ  Iȼ  ȼ  Fȼ ­ȼ                           ȼ zȼ
- ļȼ Ɩȼ R _*RȼLȼL         ȼ ·¹ȼ  ȼ ȼ  7Äȼ DDȼȼ                               ȼ 2 ȼ
-* ȼ ȼ%         ȼ      ȼ      ȼ ůȼ
-     á  >Ðȼ a ȼ  ȼ                  ȼ¶ ȼ ȼ                ȼRȼ _%       ȼ *ȳ
-T ȼȼ T ȼ 2ȼ ȼ  ȼ ȼ ȼ  Õ  -Iȼ z 2 ȼ   ȼ ȼ ȼ
-  7>ȼ*  Fȼà ȼ z >ȼ  D ȼȼ Rȼ%ȼ**>ȼ
-    zJ*-# ȼ%ȼRȼȼ         ȼȼȼ7ǧȼRDȼLȼ* *2Jȼ-Ôȼ%- ȼȼ_-Uȼ7ȼ
- Ùȼ  ȼ 2ȼ ȼ ȼ              ȼ     ȼ ȼ * ȼ           ȼ ǏUȼȼ  _ó ȼ ȼ%ȼ
-ȼ        ȼȼȼ ȼ                 ȼ UȼƽDȼȼ ǐȼ Ľȼ ȼ%  ȼ  ȼ                     ȼ
-PUȼ Ǒȼ 4 >ȼ * ȼ ȼ  ȼ ȼ ȼ                         ȼ ĕ ô ľmȼ ȼ         ȼ ȼ  ȼ
-  ȼ ȼ 2ȼL           ȼòõȼ2 2ȼȼ   ȼȼ * Ŀȼ ȼ % - ȼ ȼ                         ȼUȼ
-ȼ     ȼ ĖT Áȼ ȼ  Rą- Ú ȼ
-
-     -Kà      ȼ  Ùà  D DƩ ȼ ] ȅ ȼ ] ȼ ²K³7·e à ) ȼ çXȼ   ȼ£²Ù>^ ¢Za²·² à
-     % ]ȼ ąç¹ȼ) ȼ ȼ ȥ4   ȼ%                     ȼ D4ȼ)ȼ ȼ D ȼȼȼUȼ
-       ªà ¿- ȼ 0ά ³ Øȼ p        ȼ    ȼ 1PǔUȼ -ȼ        úȼ  ) ³ 8 ઌ ȗ஺౔ 4
-                                                                                 r          ā1ȼ )ȼ ȓǂ ȼ ²K³Kà )ȼ
-       .* ȼ )ȼ < ȼ 7à )ǡ Fȼp        Ðȼ ¿ # ¦ȼ ȼǒȼ ] ´ȼ ƾDǳeÑȼ k ȼ ¡³Kà ¹]Kà  ȏLì)ȼ
-      _]ȼ fºàc³à ȼ SªKcZà <DÙ à 7Dà ] ȼ g£§K³³hà Sà)*]ȼ <K=K´à     i7 Kȼ
-     >7 cÝKDà ȼ] ȼ 4)ȼ¿ K Kà ·]Kà Ǩȼ ȼ )* ȼ _] ȼ <DÙà ÅDK¨à kÎK³¸kZ7Þ
-       »jà )]©à$"7à 2$$à 1ƥ ŀȼ $$à
-
-     ơ     ȼ D *_Ƞȼ y2#Pȼ ȼă              ȼ %ȼ -è  Lȼ ƪ ȼ -ȼ #  Øǵġȼ¯                     ȼ
-ȗUȼȼ* *2Iȼ Ąč ȼȼȼ_* ȼȼ   Ǔȼȼ  ȼȼ ȼȼ
-                          !  , 8 $  ( @1   ) % 5 + @      @
-
-
-ȐȌ+ȼǕFȼƢ ȼ Ƕ +ȼƤȼ Ǣȼ!   ȼTȼ+ȼȼ\ȦÒȼ   ȼȼ!ȼ ȼ
-ȼ ȼ Ê+«FÒȼ !ȼ ! !ȼ ȼ +ȼ+ȼ! Ĩ Ł ȼ ȼ++\ȼ +ȼȼ
-!!Rȼȼȼ!ȼ!+!üüȼ \ȼ!ȼ!ȼȼȼ+#ȼ Ȇ!ªȼ
-Ɨȼ ȼ  !ȼ ȼ ǩ ȼ ȼ ȼ  !ȼ a ȼ ȼ Ǫ+ȼ !ȼ     ȼ !ȼ  ȼ
-ǖ ȼ!ȼȼ?ȼ±ȼ ȼ ȼ@½ȼȼ ȼÀ
-!+ȼ   ȼ !+?!ȼ  @!¸ȼ ź Űȼ ß  ȼȼ ȼ!vȼȼ
- +ȼ !ȼ  ȼ !ȼ ȼ »ȼ u +#ȼ l ¸łȼ  ȼ ȼ ȼ
-   ȼȼ ȼ       ?+Åȼfȼğ 7ά
-   ã%Ńȼ ȼǣȼ  ȼȼhȼ¢ !ȼ ȼȼȼȼȼ ȼ
-Ĥ!ȼ%ǹ@ȼȼȼ vÌȼȼȼȼȼ!ȼ ȼ ȼ ¶+ȼ ȼ  ȼȼ
-ȼ ȼėTĘȼdȼ ȼvȼȼ?ȼdȼȼ ȼ+ȼȼȁȼȼ
-!#ȼƆȼ ȼȼȼEȼ +ȼȼ!ȼl ȼȼ ȼȼȼ ȼ
-l ȼ!ȼȼ!ȼP ȼȼ  |l!Jęȼ!@ȼ ƍȼ ȼȼ!P ȼ
-%ȼ ȼ ȼ ȼ ȼȼ ȼ l JƂȼ% ȼȼ!ȼȼ ȼ éƭ@ȼ
-?ȼ +ȼ Çȼ ȼ?ȼ ȼ !ĩ Eȼ ȼ ȼ ȼ ȼ P  ȼ
-ȼu#ȼȧ ȼȼP ȼ+#!?ȼ !ȼôȼ   ȼ+  ȼȼ
-ȼƸȼ !@ȼ \!ȼ ȼ?!ȼ ȼ ȼ !Óȼ
- ȼP ȼ!Jȼ½ȼȼȼ !ȼȼ!ȼȼȼȼPvȼƙÃȼƳǼȼ
-ȼȼ Ʋcȼ @ȼ ȼ P ȼ#!hȼ !ȼ  !hȼ
- ȼȼ¢ ȼȼȼ űȼ
-   Þȼ\ȼ?¦ȼ ȼȼ!¸ȼȼ!ȼ ȼ!ȼȼ#+Óȼȼ
-#P?Fȼ β౔ èȼ ȼ ȼ ȼ ȼ ȼ ȼuȼȼ ?ȼ»ȼ
-  Jȼȼ!ń¢ +ȼvȼȼ ȼȼȼ Eȼ ȼȼ#?ȼȼȼȼ
-ȼ !ȼ ȼ  RJȼ      Ņȼ ȇȼ !ȼ ȼ ȼ @+ȼ ?Jȼ  ȼ
- ȼ ȼ ­ȼ ȼ !ȼ ȼ ȼ !@ȼ #ȼ ȼ !ȼ ȼ ȼ
-éƮȼ+ ?ņȼ Ȕ§ȼ!ȼl ȼPdȼȼ ȼ
-#ȼ ȼ ȼ ȼ ǷhŲȼ p ȼ ȼ ȼ Ȣ+ȼ ȼ ȼ ȼ ȼ
- Ǹȼ ȼ @ȼ ȼ %ȼ  ȼ ȼ  ûȼ ȼ  +\ȼ        ȼ ȼ
-ȼȼ ȼJȼȼ% ȼ ȼ%Jȼ å Ñȼ ȼ ȼ  ȼ
-!ȼ@ȼ ȼ ȼdȼ?Ť#ȍȼȼȼ JȼÀ
-!§ȼȼ ȼȼ#!@ȼ d#Ïȼ ȼ ȼ 2ȼȼ ȼ  ȴ
-+ȼ ȼĥ !@ȼȼ +Ǻ`ȼ  \ȼ +?ȼ ųȼ ­ȼ ȼ ȼ
-Ňȼ  ȼ % ȼ Ȭȼ ȼ %+ȼ ȼ \ňȼ       +     +ûŉȼ
-  ddŊȼ ȼ l !@ȼ ȼ ȼ  ȼ ?ȼ ?¥
-#ȼ ȼ ȼ#%«ȼ ã       @ŋȼ      JEȼ   @ȵ
-ȼ   Eȼ @!?Ōȼ ¦ȼ }ȼ ōȼ ȼ !?½ȼȶ
-Ǘȼ @!§ȼȼ  ?¢ȼ ǘȼ!ȼ!ȼ ȼ ȼȼ ȼ
- !ȼ ȼȼ ȼȼ  ȼ !2ȼ ȼȼ
-ȼ@ȼ !+ť ǻJȼ ȼ Fȼ ȼ  ȼ !ȼ ȼ
- ȼ% ȼƿȼ+ȼ öȼȼȼ ȼ fȼĝ İά
-                          ΏϷЈ౔     ٦ Ƒ ࢸ Ƶ m ̃ ҄ ğ ࢹ ٧ Ƣ Ƒ ࡇ ౔‫҅ܚ‬ǝǝ ՘ Ƶ ౔
-
-
-     ǬD˨a/(!Ƥ˨ $C ¨$$˨ $"3C ˨˨ " ˨ ˨$ ģ˨'˨!˨[[ [ ˨
-˨˨=˨˨= ˨$˨/"˨/D˨˨=˨Û"$= ˨˨,7˨˨-3˨ $˨  ˨
-/$˨ I˨3l˨Ǵ ˨ /( ˨ ˨(3$C©˨ /I $/˨ ˨$ Cƥ˨˨ǻ-˨
-! 7˨ (3$$˨7˨ǭ3 / ˨ı$˨  ˨ Û"$ʼ ˨ ˨ !˨  7 ˨
- ˨$!Ƹ' CD3˨ " ˨˨-!3˨-" 7$Ǖ˨
-
-     /\Mà S7=Áà ¼\7½à·\M§Mà l²à 7à M\8=MM·à Sà?·Æ­±à 3dà ·\Mà Ó§~mZ±à Tà·\Mà
-     Ðk²Æ7à ²Ú±·M±à Uà £7«¿=Ç 7 7˨ ͒  C 7 5 $i˨ ¨ = Ξ E Zà \Ç7²4à \7²à Zà <MMà
-     Ó&à nà S7=·à l·à l²à 7à §M7§7<Mà ·\lZà ·\7¾à \7²à <MMà =M·MEà à <Úà
-     £±Ú=\Zo²·³à7Úà·dM±à ,à§EM§à·àE §7Óà7à;}M=· à ÓMà`7ÐMàÚà·àE «7Óàl·²à
-     ÇÀdMà +Óà Ç²MEà ÓMà 7®Mà ·à dZà7·à£ p=¿È§M±à ˨ \7ÏMà Úà ·\Mà Ç»tMà
-     0\8·à$˨ ·˨Ä·dM(àȇ˨ˆ ˨$˨Úà·\MàMEZMàEdXM§M=Mà<MÀÓMMà  \ ˨7Eà
-     E7­à « àMà=©à7Eà7¿_M«à ȅ¹ϙ1>$*5>2+#5%> %6>6>3>&+7>  <>8>*->&+6>
-     9 6> =.> +  > 4> > "'> /+:(> 9> 0>2> ' , > 2; > !)> ‫ؾ‬ஹ౔ l³à Úà tà Ç§à Óà
-
-     £³Ø=_Zt=7à /7~ "£à ·\7·à ·_M§Mà l²à 7à tMà *MÛ7à $"! à  %  "  ¬  ' à q·8l=²à
-     rMà
-
-Á3 / ˨ 7$ $˨˨/$z ˨-˨ ˨=˨'                         q$$˨˨- ¨3˨-" °
-7$˨ ˨ -˨ ˨  ˨˨ / ˨($3Ȕ!3l˨ W˨7ų$˨ ˨ ʷ(( ˨7ǖ˨
-(3$$˨$˨"$˨˨$˨D˨-" 7$˨8®Nà ˨=D/ ˨D˨ !à
-!3˨7˨'$"!ʌ3ö˨ p ˨˨/$˨ =˨=I˨Ş  ȝş˨ -,q ˨˨T˨/"˨ ˨
-˨I è˨˨$˨ ˨˨ID˨ ˨a˨ "/-Z˨˨ /$˨˨- ˨˨˨¬˨  3˨
- "/-7˨ ˨/$˨ ˨ -ʍ ˨ ˨ =˨ T˨/"Ǆ˨ Á"7 /7ì˨ $˨ ,˨ '˨
-$ ¶˨ I7˨ 7ȓ˨ "3˨ ˨ $I7(˨ $˨ '$"Öı3˨ MI7ü˨ ˨˨ ,ʎ!ð  V˨
-˨˨( 3$|˨([$˨˨˨ ˨!z$˨$3˨˨ ˨Š iá˨,˨ ˨$$˨$˨
- =˨˨$ (˨ -X D3˨-=, ˨I=˨ ˨7z˨-˨DD˨˨$D$˨C˨ ˨
-7z˨- $ƹ˨C$Ʀ˨˨T C ˨(=                  ˨Ĝ ĺ ά
-     Ǩ' ˨ 7˨ ˨ !/˨ ˨$C ˨ $˨  ˨ I'/ ˨˨ $"=$˨ D/˨
-$(t˨ -!3˨ / $˨,˨˨,7!Ƨ˨ ˨$˨ ˨/Z3˨˨Ĥ '-!˨
-Z$"!˨˨ I˨ 73˨˨I˨'$!˨((D"$˨  !"8 ˨˨($˨˨ ˨3ç˨
-$(t˨ "D|C˨ $C$˨  ˨ =˨ -7 ƨ˨  ˨ ((D(7˨                       [8 $˨ -Ň
-, ˨ /i˨/$˨ /˨ /"8(˨ '$[CC $˨  I"/ ˨ ˨  I"/ ˨
-$C=˨ ĂD˨ˑ/(¶˨ D˨ D˨ "/ =˨ " $˨ ˨ '"!$˨ ,I˨ 7q˨
--     ˨ -| ˨7˨|$˨$˨˨ ˨ !3˨˨ ˨Z'˨ ( ='˨(  $˨=Z˨
- ˨!˨ ,˨ ˨!˨ ˨7$=7 ˨ I7˨ $¢˨  !3˨ ˨ $'D˨ I=˨ ' ˨ Z˨
-I˨7$  ˨˨ ˨C 7ŀ3˨˨=I˨'$"!˨((7=$˨ $˨$˨ ˨//˦
-¨3˨ ,P˨ Ė˦ D˅ʋ˨ Z'ģ,˨ ˨˨ !=7" ˨  ˨ ˨ (7( ˨ ˨$(˨
- ˨ $(˨  "ȕ˨ -3˨ pŌϙ ' ˨ É  ˨ ´ʪȵùž˨ sà ǉ  ǎ ǌ ˨ |Z3˨ $˨ ɗ$˨
-( /  l˨ ˨Ã Dg˨ ˨Ƕ ˨ÃP˨pʏ˨´Ǌ ù Ǐ ſ Ʃ ˨ ˨ǼĨC' ˨Éz$˨
-Ÿǋǐ˨ ´,Zz ˨,C˨Ĥ7˨Ã Z3 F˨ '˨|$˨ $ ="C˨ $Cŀ˨D$=Dʽ l˨
-                                 /=*B7+ : . B               Ïϳð౔
-
-
-OdZ¨ ZºQUU°«¨ºQ   ºQ©©Z¨©º«  º©dZº`QU©º©dQ©º©dZº­r¨º `º SZUª¨º `QUZ¨º ¨QUZº
-¨k¸Zº Xk¨ªQUZº QXº XZªdº Z UZªkº QZº ZQkbZ¨¨º ©º Qº Z ¨º ´dº dQ¨º
-
-Z³Z  º¨ZZº SZ` Z)º 1tE: sÁ Å ´Zº Xºªº ¨ZZº ZZ·º´k«dº°ºZ·Z¨*º >«ZQUªhbº
-´~«eº  º Q«eZº k«QQU©kbº ´k©dº QXº Q¨º Qªº `º ©dZº ´Xº k¨º Q¦«º QXº
-
-Q UZº `º¨ZZic+º GSZUª¨ºQ[º«ºQ^QX·º©eZZ:º ­eZ·ºZZ bZº«d°beº¨ ZUhaUº
- QU ΤU E ¨ ŉϙX ƴϙ
-    MZº ` ºª dZºZº³k³kXº[¶QZ¨º `º«dZº jdZZ«ºkXZ«ZhQV·º ` S Xh·º
-S°XQlZ¨º Q k¨Zº kº ZQªkº ªº ¨«eZ«kVºZdQUZZª¨º `ºXh¨QSZXº SXkZ¨,º
-PeZ¨[º QQ·¨Z¨º Q Zº  `ªZº °¨Z`°º ©º·º hº eZhbº°¨ºªº°XZ ¨©QYº ¨¹
-©fZ©kUºZSXkZ©ºS°©ºQ¨ºhºZQShcº°¨º«º ¨ZZº«QZ `!b QªZYº`ZQ«°Z¨º
- `  ¡Qº ZSXhZ«-º
-    HdZZbk¨ª¨º kZº =°UQ°© ¨º ©ZQUdZ ºBQ°hUZº B ZZQ°"I­·º Qb°Zº
-©eQ«º «fZº ¨°UUZ¨¨`°  º Z` QUZº `ºZ³Z·XQ·º SXl·º ©Q¨¨º XZZY¨º º ©dZº
-°­°Qº hU¢£Qªmº  ` º«eZº n ¨ «¤°Z©¨º °¨ZXº «º Z` º Qº ©Q¨º kªº ªdZº
-SX·º QXº ©fZº YhQ«hº `º °¢º SZob#h$®dZ%´Xº h«º «eZº h¨©° Z©º
-ªdZ¢ZS·º °XZ pqbº«dZº ©QZ!`&b¢QªZXº Yh¨«rU­kº SZ«´ZZº «eZº s¨tXZº
-QXº °©¨kXZº`ºªdZº SX·,º >ªZ¢Z¨ªkb·º B Z ZQ°'J©·º ©QZ¨º °º³kª°Q·ºªdZº
-¨QZº ZµQZº ©eQ©º ;eº °¨Z¨9º Qº ShXº Qº ´eº °¨Z¨º Qº ¨«kVº ©º Q³kbQªZº
-Q¨ZW«¨º `ºdh¨º UQº¨°§°Xub¨,07ºCZZQ°(J¯º«Z¨º ©eQ©ºkº¨°Ueº Qº UQ¨Zº
-
-     «OEÅ ;~`CÅ      :¢Å ¨©kV ºgQ¨º ?E:¢ECÅ ¤Å ;EÅ :Å ;nE?¤Å JÅ OT      Å :CÅ a¢Å Å u MEÅ
-
-     E?EU¸ECÅJÅ V¥¢EsJ.Å v©¨º S¥ÅO:¢Å =E?       EÅ QºQZQº JÅ¨ Z¨k«³kª·º Zµ©EC ৩౔£OEÅ
-
-     ¢?EÅ :CÅ :?¤X¸EÅ :CY°¢Å JÅ¤±?O Å :CÅ ¸cCaMÅ :Å ::y{EvÅ ¤Å ¡aMO¤Å 3Å ¤OEÅ
-
-     E½w:¤aÅ  JÅ¤f a  M¨  ¤OEÅ wEM¤OÅ JÅ¤f EÅ ¨ªwVº CE¢Å ¦Å E©EÅ E¾E¢¢sÁÅ :¢Å :Å
-
-        ZCCwEÅ¤E     Å" !   Å8ÅME¤Å °¢ECÅ ¤Å:Å O:¤ Å :Å?:ÅÅ Qº¨ªkVºk¨º¤Å;EÅ¤:x:¤ECÅa¥Å
-
-     ¤OE     ÅÅ?¸E¢ EsÁÅ ¤ÅW?:§EÅ¤PE      ÅW¤Å¤OEÅ;°xpÅJÅ °Å¼Å;CÁÅ 2:;W¤Å
-
-     EÀE¢¢E¢Å °Å ¼EÅ JÅCYy Q©[MÅ ±Å ;E\MT¨OE¼zC Å   Å ?O Q Ma  MÅ °Å
-
-     EÀW¢¤E?EÅ;ÁÅ:Y:ª^MÅJEOÅ ]¢ª²E¥¢!Å Í B E: Q±! ޶ Ύυϙ1 863º 254º
-
-
-     NxhQºh©¨º eQ³ZºSZZºQYZºS·º¨ZºXh¨QSZYº ZZº QXºQX³UQ«Z¨º`º
-Yy¨QSlk­·º hbe©¨.º ?º UZ«kbº º FQU·º CQl¢¨ ¨ º Lks ; 9 MZ s:.^dP$ 
-Aj¨Qº <kZX¢kUeº Z¶Qz¨º ©dQªº ªdZº ´dZZUdQ{º ©dQ©º DQk¨º  °¨Z¨ º Qº UQU©º
-ZZV«¢|UºXZºUQZYºQº L±~UkZº J¥º º
-
-     ਬ஋౔¤ÅwÁÅ:ÅE¿¤E¢TÅ JÅOEÅ;CÁÅÅ : Å;CX~ÁÅ:° ¶  W: ஁ę r R¨º E E  ͜:²  K Ψϙ
-
-     ?:wt¢ÅQº ;|bCÅ ]¨¨º VQZº ;±¤Å fQ¨º ; U EÅ ^?:£ECÅ          :DEÅ :Å:ªÅ JÅOEÅ
-
-     ;CÁ¢Å         ³?OÅ ¨º ¤O:¥Å¼OEÅ ¥OEÅ7±b?oSEÅ޷୐଄ଅ౔ T\Q¨º C¼Å T¤Åa Å ¤OEÅ ;E:qÄ
-
-     C¼Å §Å ¢V      ÁÅ JÅQ º}¨©¦°Z¬ºZ      6º͢Yº ;ÁÅ¤OEÅ ;CÁÅ S²«º JÅ6:V¢¡Å¸EÁÅ
-
-     ¢EwJ Å/??CaMÅ¤Å6:W¢Å ¦OEÅ¼OEE}?O:XÅ4Å EÀETE?EÅS¢Å¥Å  ²§Å¤OEEÅ KÅ             EÅ
-
-     ¥Å<¢E¹EÅ:ÁÅ        EÅ¤O:Å ¤OEÅ Z¨ªº J Å ÁÅ ;CÁ Å :CÅ @º _¸:X:;wÁÅ¢O?qECÅ:¤Å
-                           )   6 L m `     k 7 Y L c  I km   ` 
-
-
-   ÁteÙ¿otÂÙ«fÙ§Ñ½e¡fÙrÈ©^tc_Ùu¨Ù{À½Ù ]\^Ùf°\¤eÎ«»Ù«gÙ 6Y=*>Z=g ©_Ù¬\½À^Ù
-   Ñ¨Ŏϙ ĉÖñ‫<ٶ‬ď sdµÙTÇ^weÙ[ñď)DLg+Mg\ÁÙ«©eÙ\©_ÙÁt ď ď 9hďçøÇ È`ďâ`ď
-   K,PZQ! g )?g ÁteÙÎ«µb5Ù Jweb±v^tÙ ć   Ί ´ ά B²D*²pÙ
-
-
-   Kwe_µw^tÙ­«w©Â¾Ù «ÈÂÙÂt\ÂÙh«µÙR\~µ¾ÙÂteÙUÈw^weÙS¹««Ù~¾Ù©«ÂÙ¥eµeÑÙ\Ù]«_wÑÙ
-\ÈÏy¢ x\¼Ù]ÈÀÙ\©Ùy©Âeqµ\Ù­\µÂÙ«hÙR \yµ¾ ¾Ù]«_Ñ6Ù tƫÎ\©ÂÙÂ«Ù¾Èqqe¾ÂÙÂt\ÂÙÂ teµeÙ¥\ÑÙ
-]eÙz¥®«µÀ\©ÁÙ{©Áe³Æ~©e_Ù«©Á««q{^\Ù\©_Ù eÀt{^\Ù ­«w©Â¾ÙÂ«Ù ]eÙ¥\_eÙ teµeÙ Át\ÂÙ
-q«Ù ]eÑ«©_ÙÀteÙ¯Èe¾Ã«©Ù «fÙÁteÙ©\ÀÉµeÙ«iÙw ©`|Ìw_È\Ù¾È]e^Â~ÌeÙ tÈ¥\©Ù eÐ­eµyÔ
-e©^e7Ù Kwe`µ}^tÙ e¥­t\¾wÓe¾Ù ÃteÙw¥­«¸Â\©^eÙ«hÙÀ te¾eÙ¯Èe¾Ây«©¾Ù©«ÁÙ«©ÑÙÀ«ÙÁteÙ
-_\wÑÙ wÌe¾Ù «hÙ­e«®eÙ Ît«Ù t\ÌeÙ µe^«q©wÓe_Ù _w¾\]ywÂwe¾Ù ]ÈÂÙ \¾«Ù h«µÙ \]eÕ
-]«_~e_Ù­e«­e8ÙWt«¾eÙ~©ÙÂteÙ\ÂÂeµÙ^\Âeq«·ÑÙ\ÂÙe\¾ÁÙÈ­ÙÂ«ÙÂtw¾Ù­«w©ÂÙw©ÙÂtewµÙ
-wÌe¾Ù« fÂe©ÙÂe©_ÙÂ«Ù]eÙÈ©µek£e^Â|ÌeÙ\]«ÈÂÙÂte¾eÙw¾¾Èe¾7ÙXteÙÈÏÈ´ÒÙ«hÙÂ\w©qÙh«µÙ
-qµ\©Áe_ÙÁteÙ©\ÀÈµeÙ«hÙÀteÙ]«_ÑÙ\¾Ù{ÂÙ©eq«Äw\Âe¾Ù\ÙÎ«µ_Ù^«©¾ÂµÈ^Âe_Ù¾­e^yj^\ÑÙ
-ÎwÂtÙ\©Ùw¥\qeÙ«i© «³¥\Ù e¥]«_z¥e©ÀÙ©Ù¥{©_Ùw¾Ù e©\]e_Ù]ÑÙÀteÙ­´{Ì{eqe¾Ù
-«hÙ\ ]e~¾¥9ÙOÂÙw¾ÙÎte©ÙÂteÙ]«_ÑÙ_«e¾©ÂÙÎ«µ+Îte©ÙÂteÙ]«aÑÙ]µe\¾Ù_«Î©Ù
-,Ât\ÂÙ ¾É^tÙ ­µe¾É­­«¾wÂ~«©¾Ù qe©eµ\ÑÙ ¾Èµh\^e:Ù PÂÙ~¾Ù «hÂe©Ù «©ÑÙÎte©Ù Àtw©q¾Ù
-¾Â«­ÙÎ«µw©qÙÂt\ÂÙÂteÙ\­­\µ\ÂÉ¾Ùw¾Ùnµ¾ÂÙ©«Â^e_;ÙZte©Ù¾È^tÙ w©Ù« ­­«µÂÈ©wÂ|e¾Ù
-\µz¾eÙÂteÙe©Â\©qe_Ù©\ÂÉµeÙ«hÙ­ te©«¥e©\Ù\©_ÙÂteÙw¥­«µÂ\©^eÙ«hÙÂ teÙ\qe©Âw\Ù
-^ÈÀÙ\©_ÙÂteyµÙ^«µ«\µÑÙ^«©¾ÃwÂÈÀyÌeÙeÏ^È¾{«©¾Ùe¥eµqe¾<Ù QÁÙÁte©Ù]e^«¥e¾Ù^e\µÙ
-Àt\ÀÙ\]e-]«_~e_©e¾¾ Ù¾Ù©«ÀÙ\Ù©\ÀÈ¶\Ù ¾Á\ÁeÙ «iÙ]e~©qÙ ]ÈÀÙ\Ù ¾®e^~n^Ùi«µ¥Ù «hÙ
-e¥]«_w¥e©ÂÙÂt\ÂÙ~¾Ù ^«.^«©¾ ÃÀÈÀe_Ù Àtº«ÈqtÙÂteÙ ]«È©_\¼.¥\~©qÙ­µ\^À^e¾Ù
-Ât\ÂÙ_w¾Ây©qÉw¾tÙ \]e/]«_we_ Ù hµ«¥Ù _w¾\]e_?Ù L«^È¾~©qÙ«©Ù ÂteÙ ©\ÀÈµeÙ « f Ù
-ÂteÙ¥\Áeµ~\wÂÑÙ«hÙ\ ]eÙ]«_we¾Ù\ ¾ Ù­te©«¥e©\Ù© « Â Ùy ©_wÌw_É\Ù«]e^Â¾ @Ù¾È]e^Â¾Ù
-¥\e¾ÙyÂÙ^e\µÙÎt\ÂÙwÁÙ¥e\©¾Ù Á«Ù ]eÙ\]e0]«_we_FÙÁt\ÂÙÂteÙÌe¼Ù©\ÂÈµeÙ«hÙ] ey©qÙ
-\]e1]«_{e_Ù{¾ÙÁ«ÙzÌeÙÎzÀt@y©Ù\©_Ù\¾Ù­\µÂÙ«hÙÂ teÙ­te©«¥e©«©ÙÁt\ÂÙw©^È_e¾ÙÂteÙ
-^ÈÀÙ\©_ÙÎt\ÀÙ{ÀÙeÐ^È_e¾ Ù\©_Ù Àteµei«µe!ÙÀt\ÀÙÎt\ÁÙ{¾Ù eÐ^È_e_Ùw¾Ù©eÌeµÙµe\ÑÙ
-«Àteµ"Ù ©«ÂÙ~©Ù \©Ù\]¾«ÈÀeÙ¾e©¾e#Ù \ª_Ù Àt\ÀÙz©Ù\©Ùz¥­«µÂ\©ÀÙ ¾e©¾e$Ù Áte©%Ù ]e{©qÙ
-\]e2]«_ye_Ù ¥e\©¾Ù ]ew©qÙ w©Ù \Ù ­µ«¾ÂteÂ~^Ù µe\Ây«©¾tw­Ù ÎwÁtÙ ÂteÙ _w¾\]e_<Ù
-M«ÎÙ_ymeµe©ÂÙ eÂt~^¾Ù ««¾Ù hµ«¥ÙÂteÙÌ\©Â\qeÙ­«w©ÁÙ«hÙ^«©¾ÂwÂÉÂwÌeÙ e©Â\©qeÖ
-¥e©Â¾ =Ù Zt\ÂÙÎ«È_Ù ~ÂÙ¥e\©Ù Â«Ù\^©«Îe_qeÙÂt\ÂÙÂteÙ \]e3]«_we_Ù _e®e©_Ù
-«©ÙÂteÙ_~¾\]e_Ùh«µÙÂte~µÙÌ e·ÑÙe Ïy¾Âe©^eGÙZt\ÂÙÎ«È_Ù~ÂÙ¥e\©ÙÂ«ÙÂ\eÙ«©ÙÂt\ÂÙ
-µe¾­«©¾]z ~ÄÑGÙZt\ÀÙÎ«É _Ù wÁÙ¦e\©Ù Á«Ù _e©ÑÙ«©e ¾Ù µe¾®«©¾w]yzÂÑÙ Â«Ù ÂteÙ«ÂteµÙ
-«©^eÙÁteµeÙ~¾Ù\Ùµe^«q©wÂw«©ÙÁt\ÂÙ«©e¾ÙÌe¸ÑÙe¥]«_z¥e©ÀÙz¾Ù©Àeq³\ÑÙe©Á\©qe_Ù
-ÎwÄtÙÄteÙ«ÂteµGCEÙ
-   H¾ÙÎeÙt\ÍeÙ¾ee©&ÙÂseÙ¯Èe¾Âw«©Ù«hÙÂ teÙ© \ÂÈ·eÙ«hÙe ¥]«_w¥e©ÂÙ~¾Ù©«Â\Ù¥eµeÙ\µÂ×
-h\^ÂÙ«hÙÂteÙ©eÎÙÂe^t©««qye¾Ù]ÈÂÙ\´w¾e¾Ùhµ«¥ÙeÐ\¥­e¾Ù^«¾eµÙÂ«Ùt\©_<Ù Fº«©eÂteÔ
-e¾¾Ù ¾«¥eÙ ©eÎeµÙÂe^t©««qye¾Ù t\ÌeÙ\ÙÎ\ÑÙ«hÙ]¸y©q©qÙ ÄteÙ w¾¾Èe¾Ù ~©Â«Ù q³e\ÂeµÙ
-·ezelÙ I«ª¾_e³'Ù f«·Ù eÐ\¥­e(Ù V\©_ÑÙ VÀ«©e¾Ù _e¾^µ{­À«©Ù«hÙe©^«È¨Âeµz©qÙ VÂeØ
-­te©ÙN\Î©qÙ\ÂÙ\Ùe^ÀË·eÙqwÌe©Ù\ÀÙÀreÙY©zÌe³¾ÅÑÙ«iÙI \wi«·© \)Ù V\©À\ÙIµÊÓ[>AÙ
-   M\Î~©qÙt\¾Ù ]e^«¥eÙ \Ù eqe©_Ùw©Ùtw¾Ù «Î©Ù Áz¥e%Ù ©«ÀÙ«©ÑÙi«µÙ t¾Ù µe¥\·4
-                            ǝ  ɳ˴ ȅ  ȵ ά ʪƞ ȶ Ȇ ˇ j ά        1bв౔
-
-(ϧ  i3 ϧ ϧ IYϧ 3Aϧ (ϧ 3ϧ ϧ ϧ  Aĝ 3ϧ Aϧ   ϧ ϧ
-XAiY iY(Iϧi3AYϧIYYAϧ3?             ϧYϧ C    ŜAwϧ Ai3     CϧN?Aϧ ҕ ۫ ౔
-ȑʴ3ϧài5 ¿ϧYȜÃϧˆ (ϧA  ϧpϧ3ϧ : ϧ-ϧ(                ϧåźϧ ĕϧ
-ϧ Ŏϧ N͌Y        ϧ ww3 ϧ A3 ϧ  ϧ i˼Y(ϧ ϧ ϧ
-((ϧ ď ŸÙ]ϧʚϧ ʼA ϧiϧ Aϧ ŏϧϧ3Y3wϧNiϧNp                   ϧ
-Yϧ pY   ϧYϧÇª(Cϧ Aϧ ϧiYwýϧ  ϧ Ĩ3pϧ ϧ ϧ C˗ϧ3Aϧ ϧ
-Aϧ CN Őϧ Nϧ ϧ Ü¾?(CY ľϧ (ϧ ϧ ϧ ɇ౔ 5A Ąϧ Đϧ 3 CIϧ
-ϧ ϧϧ  ǶϧN ϧϧ ϧ3ϧ (            ϧ ϧϧ ޻౔ IwȰϧ  ϧϧ
-ϧ pϧ Y ϧϧ3Ƙ3wϧϧAϧϧ  ϧ Ü3ÐìIϧ ϧNpY                   ϧ ϧ
-ϧ (͍ɨǚϧ Đϧ Niwϧ ϧ NIϧ  ?ϧ  ϧ w  ϧ Aϧ ϧϧ :i AɕNϧ A¯ϧ
-ĐA ϧ˱ϧA̥ϧ? ϧ:ϧϧǄ̦ ʆϧ
-
-   ;ď èď   ď 1Ê ď          ď ď ď-(ôď ď ď  Mď F ď 0  Ð(ď
-    Ñď !© ď :ưϧ ĝƷϧ ¯¿ď ãď ď É)8DËď Bď ď Ö ď ď ď ď
-   °×ď ď ď cď ¬ď,ď ,ď ď ޼  ౔ ) ď   Tď zSS&dď  ď ď
-   ŸΥÙǷϧĠ )ďF 3  ſ k Ŧϧ
-       ;ďϧ̩ƭ̍ϧ b ͡ ƭƷϧ ď ͪIϧ:ďQ!uÒ(ďKUď ‫  ౔ػ‬Iϧ ď Ĉk´ď EMď 1%Č
-    oXď;ď<ď Iϧ͞˞ϧϧ ďď ď9ªď0 tdXď=ď¾ď, ď,oď ď Ó%¸              ϧ
-   3ϧ é@ď ď ď  ď <ď ď   ď ď YÌ ď  ď İưϧ âſ              ϧ
-   Y%,ď  ď ď @Cď ­ď ¹ď )ď /  iď ϧ ď ~căď ǆÔď Íeď
-   º»Fĉď ĂuGďǆϧAď(ď0 ď!kď!     ď bďāď ďªďďKďď
-   ϧ :ďn3Τϧď0ď iϧƯ:ϧ1 i ď@Qùď  ď ďQď  ď ď(ąϧďď
-   ď  {Jď 1% ď ¼ &l ď ď ď ď BÕl½ď ď 8ď ®  ď8ď
-   )ďzď ď ď Vď= ďďď äď= ďď ďď
-
-   ĿđIϧ 3(ϧ 3ϧĞϧ  ϧ AϧAϧ Ĥ? þϧ ϧ ƨ3ϧ ϧAϧAiϧ                ϧ
- 3CAϧIϧ ͏? ʕĽϧ pϧ ϧ3Aϧ : ÜˁϧŮI ϧČ :A] ô ϧʞ                   ϧ
-ϧ w ( YAϧN(ϧiY               ϧϧ ƙ ϧ:3iȱϧ iNIϧi 3ϧ
-ϧϧ  YA ϧAϧAϧ ?ϧ  ϧYaϧ (Iϧ3 ΔϧAAϧ ϧAϧAϧ
-p ϧ:(ϧAϧ      Y¾ϧAϧIǸϧ ?ƄϧA3A ϧ ? ϧϧN(ćϧ  3Aϧ:ϧ
-ʧNIþϧ Ǜ?-3γ ϧ Yϧ ϧ C:ɖ A{ϧ iϧ w(Iϧ ǹ {Ǻϧ ˉ3ˋϧ (ǌ
-NIϧiY5C{ ǜϧ ǝAϧ͎Y ϧ :ϧ   AϧNϧpϧ ϧN                ϧNϧǻ  Ŏ Ǽϧ
-ǽ ixöϧϧ Iϧ3A3ϧY Ʊ3(ǂϧ» ϧϧ Y (p»                ϧƙ˽ϧ?  ϧ ϧ
-â3YĨϧY AϧϧNCɗYţ¹Ȳϧ Aϧõ  Ǿϧ ϧõöϧϧi3ϧϧϧA?{ϧ
-3ϧ õ ©Ġ¾ϧ  ÷ϧϧϧVYϧAϧ3?Ïϧ N(ϧ  ϧ ϧ? ϧ wϧ
-NIϧ iϧA ϧ ȳϧƹAϧ Aϧ3̧(ƹϧY ϧ ϧ  ϧϧ ϧπYϧ
-Y ϧ ϧ ϧNķÞϧ ϧ  ϧ ϧ wp ûϧ          ϧϧ wɩϧĥ2ά űϧ NIȴϧ
-Üww Aϧ Yϧ 3Aϧ Ƙ            ?˾ ƺϧ VAǞϧ ȒɸĈĈɹ¸ϧ ɺ Ĉ ʂ ¢ ŝ?ϧ ? ϧ ƺϧ
-wpY     ϧϧ iϧAϧ:iwϧ?ϧA3ϧ :ϧ²CIϧi3 Ŧϧ
-   ° ϧ NAϧ :CCNýϧ 6¦ 3ϧ ǿϧ 3(ϧ Y ? Aϧ 3Aϧ ϧ 3A ϧ :ϧ
-CIϧ3 ?ϧ ϧ  3ϧ AAϧ 5ϧ ((ϧ 3w ?Aϧ ̨ ϧ :ϧ3w ϧ
-                         ΓЊ͜౔        ‫ ߿ ࢿ ݫ ٶ‬Ҋ ̆ n ӡ ࣀ ‫ ޣ ٷ‬Ɣ ࡌ ౔ ̡ɴΔ n Ǡ Ǡ գ ࠀ ౔
-
-
-& 3ɪʤʤ@&ȧ ʤ3ʤʤ .ʤ#&HEʤʤmɘ  ʤʤʤ  #ʕ
-ʤ:ʤʤ ʤ ĩ :Y Ī ʤß6 Uąȸ2ʤ ¦ʤ (Hʤ :ʤ. .ʤI«ʤ .:ʤ ʤ
-I ʤ : ʤ ʤ &=2ʤ &6ʤ Uʤ ʤ =2ʤ ʉ XIÎʤ Xʤ =2ʤ
-  ťʤ&:ʤ= Ɗ( ʤʤʤ:ʤʤʤ_ʤUʤʤʤʤ
- ʤ :Xʤ ʤ=ĢŦʤ .ʤ 2ʤ ʤ ʤ ʤ :ʤ Q  ʤ ʤ :ʤ
-#ʤʤ ʤ(HʤJġʤV ʤ#ʤʤB (ʤ. ʤ&2ʤʤ 3ʤ
-ʤ "#ʤ ʤVBʤ(ʤʤ ʤ Xʤ ʤB (ʤ&ɫʤʤ V#ʤ ʤ
-(V ʤI ʤ(ʤ ʤ.«Eʤ ʤx Ãʤ ʤ Bʤ(ʤooeʤī&UƋÕ ƌ(=ŧÀʤ
-ʤÁç3  . ƍ(=ĬË  ʤäBʤ Ïʤ. ʤ ʤ :ʤʤ 2ʤ # ʤ ʖ
- ʤ  ʤ I6ʤ ʤI ʤ &2ōʤ H3ʃpʤ PÙ (3ʤ #ʤ . ʤ V'ʤ Hʤ
-ʤ !ɱ  7B ȷ ; 7ɲ*      Bʤ ʤ ʤʤ;2ʤI:Nʤ J2ʤĭʤ ǁʤ Æʤ
-ʤ °:ʤ2ʤ ʤ _ʤ ʤ  Eʤ ɤ;Eʤ ʤ ʤ ʤ ʤ
-  g .ʤ 3:U ʤ ß: ÷=H2Ũʤ 2ʤ @ʤ ʤI 3ʤ ʤ ʤ ʤ Bʤ ʤ
-Xʤ*ʤ I ʤʤ  ʤ (I ʤ =ʤ'ʤ d@ʤ ´Ǻ@ʤ ʤ @H.2ũʤ
-I2Eʤ  2Eʤ 2 Eʤ ʤ  =ʤ  j#fNʤ ŗrʤʤf¿
- ʤ       ʤ :3ʤʤ ʤʤ                  ʤБ౔Önʤr#´.BEʤʤ
-#ʤ  ʤ . 3 ʤ 3ʤ ʤ  g2ʤ &@ʤ &Hʤ .3ʤ 3ʤ .ʤ ʤ B:
-ʤ ğ f ʤ ʤ ʤ (=Ʋʤ  Xzʤ fʤʤʤ d:ʤ ʤ.X3Hʤgʗ
-ʤ ʤ B(ʤ  Bʤ VXƎ 3ʤ ɚʤ ʤ  ʤ  j@ʤ   ʤ 
-Ūʤ  Vʤūʤ ʤʤʤ ʤ ʤ ʤ  ʤ ==ʤ ʤʤ&ʤʤI ʤ
-;ɥʤ(XHʤʤɻʤ(oʤ ǂ3 ʤʤ.Bʤ  ʤ3ʤ ʤ d:Iʤ ʤ ʤ
-&6ʤ ʤ #ʤ ʤ (ʤ ʤ                  6ʤ ʤ (ʤ Bʤ éǶ.Uʤ
-&#ʤʤ          .4.#Eʤ  #ʤUV6ʤT ʤBʤʤʤĮB6ʘ
-įʤ ´:éoʤ ŘWʤ B Vʤ ¥ʤ ʤ ʤ ʤ  #ʤ ʤ ʤ   gʤ ¿
- Ȅ 'qyʤ¦ʤ. ʤʤʤI «3ʤ .¬ʤʤBʤğŬʤǃʤ.#ɐʤ2ʤ..ʤ
-ʤʤ ʤd#ʤʤ ʤ&:ʤʤ ʤ                     :Nʤ
-    J ʤ ʤ ʤ d#&ʤ 6ʤ ʤ                  6ȅʤ ʤ  ʤ :ʤ
-&:ġʤ ʤ  ʤ           @Eʤ ʤ muÀ;Q7W B¥j;p¡³ ʤ  ʤ #ʤ :        ʤ ʤ
- :      I4pʤ ¦ʤ J Ŏʤ          #ŭʤ ʤ Ȇʤ ʤ 3ąʤ .ʤ #ʤ  ʤ ʤ
-&Ȩ ʤ ʤ Vʤ &:ʤ ʤ  ɠ÷ʤ ʤ I ʤ & ʤ ʤ ʤ
-  3j ʤ 6BʤBʤʤʤNʤt ʤ &:ʤ ʤ
-  IUʤ ʤʤ İçĂ  Âʤ ʤ.¬ʤ 2ʤ(Bʤ ʤ ʤ ʤʤʤ ʙ
-V 6ʤ     Nʤ ǒ Ůʤ &2ʤ Bʤ Ą ʤ ʤJ Æʤ (ʤ g2ůʤ .Bʤ
-&6ʤ ʤ  Xʤ ʤʤ                 #ʤ ʤ Vʤ(ʤ jʤ 6ʤ ʤ
-ʤ(I ʤʤʤ                Nʤ
-   â.ÇʤHʤ"ʤ ʤ 3Vʤʤ =H2Öʤ J ʤ3ʤ . ʤʤ ı:&::ʤ
-ǗooEʤ &±  ;Ǚʤ     :ʤʤ X ʤd6:ʤ Bʤ :.Ðʤ   ʤ 3 3 ³Ñʤ
-U =:ʤ ʤ   ʤ ʤ=ʤ ;ʤ #ʤ ʤ ʤ Q Xʤ 
-Ãʤ J ʤƤ  Ƭ ¤ ʤ ǘ ƥ  ƪ ¥ ʤ 2ǚ Űʤ ƨn Nʤ ǋ(Eʤ ʤ ʤ =ʤ Vʤ ;ʤĥ
-6Eʤ 3.ʤ3ʤ  2ʤʤ B bʤ" ʤUʤ¼ 3ʤ                  #ʤřʤʤ
-                             h ‫ י‬Կ ‫ ࢓ ݓ‬Ť h Ÿ ౔ߦՀh Ÿ ‫ ࠰ غ‬ż ౔          )
-
-
-!ʤ C=ʤʤL.@/!ʤʤ ʤ/C;1yʤ7*ʤȇ;C;4ʤ\ʤ( ȈGʤʤĆ/ʤ 
-Nʤåʤ!ʤĕʤ         /ʀ!ʤʤ!ʤʤ7ʤ  bʤ×Nʤ!6šʤ6!ʤ
-7ʤ. ʤx7± ʤLʤ 7!;41ʤ(ȉʤ!ʤ=/ʤ 1ʤ;C;31ʤ3!ʤ
-ȊƏ 41ʤ(ʤ1ʤ6Q*ʤ            /6!Nʤå!ʤ3!ʤ !!ɦʤ!ʤʤʤ7ȩ ʤ
-     /6!Ĳʤ (3ʤ ʤ //ʤ 1ʤ ª !ʤ 3!ʤ !ʤ ʤ ʤ
-Ä /ʤ LʤɳȀʤ Cʤ 11ʤ ( ʤ  =6!ʤ  ʤ6Q4=4/*ʤ                         @!y qʤ
-Ǆ1ʤ /ʤ (!eʤ ʤ !6/ʤ !ʤ / /3!. !ʤ Ê!ʤ                  /ʤ Lʤ ʤ C/ʤ    ʚ
-1yzʤ ʤ Cʤ            ĝ!ʤ ʤ d@!ě1ʤ (6Cʤ ;ʤ ʤ 7 ʤ ʤ
-ĳ7Ȫ ʤ Lʤ ;!ʤ ʤ !ʤ 1Ɛ 4ʤ (ʤ 1ʤ @Q3C3/*ʤ                     6!Eʤ
-7*ʤ;C;ʤʤ41ʤ!ʤCʤ 1Nʤ W31 ʤGʤ!ʤ ʤ !!ø7cʤL/ʤ
-ʤ      6!ʤ ʤ !ȋ6v@!C*ʤ 7ʤ 7ʤ !@/ʤ 7ȫ ʤ ʤ !6ʤ
-G!6űʤ ʤ          6!ʤ 1ʤ 7ʤ L@C=*ʤ / 4bʤ 1ʤ L@ 4ʤ  ʛ
-    /ʤʤ 4!ʤ x/41CĴÌʤ 6/ !ʤ !36C@!C*qƩƧʤ Ǎʤ ʤ @ʤ3ʤ 1ʤ
-(*Eʤ *ʤ.. ʤʤ !@/ʤ ʤ ĵ/G4CÅʤ                /6!Ç!ʤ / /4!4 !ʤ (4==ʤ
-d@/ʤ!ʤ;ȹ;ʤ(1ʤʤȺ//ʤ 1ʤ(7*ʤʤ!ʤ !G1ʤ
-!ʤ ʤ 7Ȭ ʤ Lʤ4;!­ĕŲʤ ɛ7*ʤ Q C@Ȍʤ !ʤ Ȼʤ !ʤ ʤ  *ʤ Lʤ
-7!ĔG1Nʤäʤ!@ʤLʤ. ʤ                 /.@!ʤ14v!ʤʤ}/ʤ 1ʜ
-ʤ Lʤ ʤ /ȍ\Cʤ 1Òʤ ʤ ʤ  4ʤ Lʤ.ʤ .(ʤ GǷǦ1ʤ Ħ
-1ʤ (@Cʤ /d@/ʤ ʤ 3ųʤ *ʤ Cʤ 111ʤ GCʤ !Ƙʤ
-s1 ʤ ʤ Ķ 6!øķʤ 7@1ɧzʤ Ⱦ3Ȱʤ ɴʤ 3!ĸʤ 7ĝ*Ŵʤ !ʤ ʤ /\
-1ʤ ʤ ʤ 7! ʤ Lʤ!ʤ 1;C;1ʤ 1ʤ ʤ ȼʤ 11Yʤ ʤ ʤ
-(/!Óʤ s3*h* i*_c 6_tj7`p8 dza(k9K ʤ ;ʤ(ʤ G!ʤ xG!Ĺʤ ʤ(ʤ G!ʤ
-@!3ĺʤ/ʤ/3ɬ vC*ʤ3/41qʤǓʤȽU ʤLʤJ /ŏ!ʤ(ʤ6ʤ
-6/ 6!ʤ . ʤ   1ʤ Lʤʤ              6!ʤ !ʤ ʤ !3 ʤ1ʤ 76ʤ =7ħ
-/Ģʤ!.6 ʤ 1ʤ .ʤ61ʤ!ʤʤ!ʤ!31ŵʤȎ /Ŷʤ ʤ! ²! /!ʤ
-Lʤʤ L/ ʤLʤ1 6/Yʤ
-
-
-
-               I *¸  } § t "   [ *  ¸ } > ¸  t ¸        §                  ¸
-
-                 }¸  *  Y ¸ t  *           ¸ ¸ § t 0 ¸ ! Y D¸
-
-
-      ï ƛ  + 9 ĥƛ=ƛ $ƛt ĦƐ9¤gƛ$ ,ƛƛ  ƛ,p. ŵhƛ,+iƛħ  ƛ
-
-      ƅ ǄƘSϙ!  ƛë9ƛí,ƛƛň ,ƛ,±$ Æƛ, ©ƛ+bBƛ ƛbƑÿƛ ƛƛ6b§$l«ƛ
-      F, +  ƛ  ƛ    ƛ Dƛ  ƛ Ű¥$ƛ Pƛ =ƛt 9+ƛ  D$:ƛ ì          ƛ ƛ
-
-       ƛF 2 +  ƛ Dƛ ƛ ċƛ $Dƛ =,ƛ  ŉ Bƛ $a)9_ƛ   +  & n6D?Üƛ ű+ƛ ƛ
-
-      +  Pƛ H ƛ 4ƛ D  9_ ±$Kƛ z¦ƛ ƛ ƛ     ƛ .ƛ. & ƛ ^ J$Ĩƛ =ƛ
-
-      t  +ƛ$a$Ýƛòƛzaƛ+aBƛ + n $ ƛ D$§Çƛzwƛ=4ƛ9ƛ ƛ4 ƛ=ƛ
-
-       ƛ J  ĩ$qƛ  ž¤$Ũƛ9 9ƛ  $ƛ ƛ +ƛ=ƛ ƛvƛƛ ƛHJBƛ
-
-      Ŋƛƛ-,Þƛ+Bƛ ƛŶĪ\  &  dƛ,ƛƛ4 +ƛ Hƛ õ÷ƛƛHƛ$2Pdƛ
-                                                                                  Yß;;ƛ
-
-                      ˳ Ҫ  Ծ ǒ ‫ ط‬ǁ ‫ۅ‬Ѭऀ౔ ֛  ‫ ظ‬w ĥ  ‫ ع‬ĝ  ౔ѭ ‫ ݒ‬Ĥ౔ Ĥ ࣯ ĥ ‫ۆ‬w ऑ ౔ w ߥǁ ӑ ‫౔ ؀‬ҫ Ѯ ĝ  ˃ ౔
-
-                                                                           ÄǑɜċʤ͑ ċêʤ8 ୏? 0 $  3 ª
-                              %      &    # +  '%   !+
-
-
- ɵɵ 8Ǻɵɵ3 ɵɵɵû4ɵ'ɵ 4%ɀɵɵɵ ɵɵ[ɵ ɵĘ6 ɵ
-Gɵ ÿęɵÈɵIɵǜɵ%,§%ɵ8 %ɵ 8,ɵ ɵǨ3ɵG8 ɵ[ɵ
-/ɵ  /ɵ %8ɵ/ɵ/4ã% ɵ  ɵ ɵõ6ɵ3ɵ'ɵ/ 4@ª ɵ ªɵ
- 3ɵ 8ɵ ɵ   ;§ Őɵ 33Vɵ  ɵ   D4ɵ %6«%6ɵ /4%ɵ  /ɵ ē
-'D7ɵ G 8ɵ,7Ů / ɵǄ ɵ Q Iɵ %% ɵ Ø53ɵ £MD%/ɵ ɵ 3´
-'3ɵ ɵ 7;Eɵ č3 ɵ  ɵQ 3ɵ @v ɵ ,'ɵ%%'E>ɵ 8D7ɵ 7%ǻ ɵ
-EG8%5D4ɵ@ɵ ɵ G ɵ 3 %6ɵ7ɵ %D%6ɵ Ë ĚĥĦɵ c/;ɵ
-ɵ ɵ M, ɵ ð ɵ @4ɵ T  /I¹ɵ ǃ@6ɵ Öx;bůɵ 76ɵ 'ɵ ɵ  Ɔɵ
-T/3ºɁɵ Eɵ 6,%ɵ 'ɵ ɵ ɵG 8ɵ , ɵ ɵ 3ɵ @w7ɵ
-/;ɵ ɵ7ɵč6ɵ'Mɵ@ ɵ ɵ @;6 4ɵ'ɵ ɵɵ7ɵɵ%ɵ
-%3&ɵ 'ɵ47IƇɵ ɵ T/Ĺɵ 76Àɵ ɵ  ɵ ;ɵ ɵ ě 4ɵ 63ɵ 4 Ĝɵ
- ɵ ɵ % ôɵE%>ɵ I8  ɵ @4ɵ ɵ ,%Iɵ ɵ 'ɵ%%3,%ɵ 6%3ɵ
-¶3@; 6  P ĝ ɵ cɵ @Ȼ7ɵ 4 Mɵ % MEɵ %ɵ @ɵ 67ɵ @4ɵ ;ɵ
-%% ɵ [ɵ66ɵ @6ɵ 6% ɵ Ğtğ Ű ɵőɵ ·G88ɵ 6Ġű[3ɵ
-ɵ ,%Ȱ ɵI@ >ɵŀǿ Ɗ  Ë F ɵ34ɵDvŅɵɵ/3 Ɩƚɵƭ,ɵ ɵ8 %%ɵ[ɵ
- /ɵ TMɵ  5ɵ 7ɵ  ɵ ɞ ɵ @4ɵ Q3'67ɵ 7ɵ Ò@4|ɵ  ɵ  3ɵ
-/ɵ 'ɵ ɵ 67ɵ GE Eɵ MFɵ %6E7;ɵ Ʈ; ĺɵ Ɠ@6ɵ Ö3bɦ
-;ɵ vɵ 'ɵ/ɵ 5% ú%ɵ %ɵ »,%ɵ   8%7ɵ ɵ ɧ
- ɵ 'ɵɵ  lɵ Mɵ D; ɵ GĊlɵ ;ɵ 4;%ņɵ 4;%¬ɵ 3ɵ 8 IĔ
- 7@64ɵ ; ɵ ɵ ɵ Eɵ ɵ G8%54ɵ ɵ %6 %6ɵ /4%ɵ /%/ɵ 7ɵ
-37ɵ ɵ @ɵɵ C 3I73,64ɵ8%%'Ețɵ 6û$ɵ 'IMðɵ 'ɵ E%ɵ
-'ɵ ɵ 3 ɵ'ɵ /4;%6ɵ /Fɵ Ǟȱɵ /ɵ36ɵ 'ɵ ɵ>4ɵ@7;ɵɵ
- /ɵĀ74ɵ7ɵ663kɵE 6ɵ%3 ɵCD3 ɵ[ɵ /ɵ ;%ɵ7ɵɵ
-7Iɵ 4ƈƗƜɵ ǌ, ,ɵ /;ɵ /4@3; ɵ 7ɵ M; D4ɵ 6ɵ ú67;Œɵ ɵ T/ɨ
-QM'D7ŲÒ@4ɵ 7ôɵ 'ɵ /ɵɵ 3 7ɵ ɵ 3Ȁ%E>Iɵ 8bbDɵ ɵ
-7ɵ;;ǝn%ɵ @ ƣɵɵC6 ;ɵ %ED ɵ @ɵɵ'ɵ /ɵ'%ɵ/ ɵ
- ɵMȩ,ɵ 'ɵɵ6ɵ [ɵ ɵ D% 3ɵ 3@ ɵɵ 6 7ɵ ɵ 7%3 ɵD8lɵ
-;ɵ /ɵ D4ɵ I;%E>ɵ;ĄǼɵɵ %ɵ 3ɵ D>7ƪɵ ǅ,ɵ
-@ ɵ / /ɵ/ɵ jɵ @@7ɵ ġ%ɵ GE«b l Ģ ɵɵ ɵ 3°ɵ
-/ɵMɵ/ /3ɵ; ɵ64ɵ4@6b7ɵ ɵ /3ɵ/ɵ ɵ
-4ɵ ǘɵ >8 ɵ 4% ɵ ǉ/ɵ Q IųƲID%/ɵ Mɵ  ɵ ɵ
-73 ɵ%ɵ Gǽɢɵ ɵ ɵ 36ɵ /ɵ z ɵ /ɵ 3;ɵ 'ɵ
- ɵíĄ$ɵ ;{ Pɵ Q 3ɵ [6 ɵ / ɵ;'ɵɵ%U ɵ 3 ɵ /ɵ 36; ɵ 'ɵɵ
-Ǚɵɵ 3'7Ȝ4ɵ%v,%5ɵɵ %ɵG,b ¿ɵ /ɵ %5Ē
-%6ɵɏ4ɵED7ɵ/ɵ ɵ4;67ɵ ɵ ɵ ɵ /4%ƉƘƝɵ
-   Q 3 ºɵ 7ɵ [ɵ ɵ C3 ɵ%Ā DD;b7ɵ Eɵ /ɵ 7; ɵ ɵɵ
-%/,D64ɵ 3Ǿɵ ģɵ %> ɵ ɵ ɵ ɵ [ɵ@  P Ĥɵ c/ɵ %ɵ 'ɵ /ɵ ; ɵ ɵ
-Ma7ɵ/ɵ « ;ɵɵ ɵ8ɵɵɵɵ@ɵ'ɵ %ɵG8 ,bĕ
- Pɵ Ƴɵ C 6ɵ 7;ɵ ;ɵ @ ɵɵ /ɵ '66;ɵ %% 86ɵ  DÏɵ
-ɵ I@ eɵ 5%ɵ 85 ɵ 3 %ɵ ɵ ,4ɵ  %ɵ §6 Fɵ %/ɵ 57ɵ
-                           @@ @ (@ 9@@@ %@ 0@ @ @ &@ @ 2@ Ž౔   ͺЃω౔
-
-°gW¡WPÈÒ¢ÁpVWÒMÒ gMV WÒY¡Ò°gWÒMo½M°pÒYÒ°g WÒM°Ò°g¡½egÒp°ªÒi°W¡Î
-MR°pÒÄo°gÒMÒWÇ°W¡MÒMeW°jSÒ\WVÒ BÒ M¡°pR½M¡Ò p¯ÒSR½¡¡WVÒ¯Ò F°W¡Ò ¯gM°Ò
-
-PÈÒ ½ªpeÒMÒ M¡¯pR½M¡ÒM¢¡MeWW¯Ò [ÒMeW¯® Ò WÒ R½  V Òk  Ò°gW¡È Ò Vl« MÈÒ
-°gWÒ Vm®S¡W¯WÒ ¡pW¯Mµs ªÒ YÒ°gWÒ MWªÒ YÒ°gWÒ ¢Pp³oeÒ WWR°¡®Ò PÈÒ °MoeÒ
-MVÁM°MeWÒYÒ°gWp¡ÒVn^W¡W°ÒMoeW°ªÒÄp°gÒ¯gWÒWÇ¯W¡MÒ\WVÒ¯Ò®WM¢M¯WÒ¯gWÒ
-WWS°¡ªÒ Äp¯gÒ Vp_W¡W¯Ò ¡qW¯N¯pª Ò >WÒ ¡®WVÒ °Ò ¼ªWÒ MÒ PWMÒ YÒ®rÁW¡Ò
-M¯ªÒMVÒMÒWÇ°W¡MÒ\WVÒR\e½¡M°pÒª½SgÒ °gM°Ò°gWÒ¯ÆÒ ªªpPWÒ¡rW°MÏ
-¯oªÒ YÒ°gWÒWWR°¡ªÒ¡Pp¯peÒ°gWÒ ½ SW½ªÒ Y Ò± gWÒ ªrÁW¢ÒM¯ªÒÄ½VÒ ZÅÒ
-
-ªWM¢M°WÒ M¯gªWWS°¡ªÒÄr°gÒ WÒ ¢rW¯N°sÒ ¡WM°pÁWÒ¯Ò°gWÒMeW¯pRÒ\WVÒ
-Ä½VÒ PWÒ VWdWS°WVÒ ½ÄM¡V Ò MVÒ WWR°¡®Ò Äp°hÒ °gWÒ ®p°WÒ ¡pW°M°tÒ
-Ä½VÒ PWÒ VW]WS¯WVÒ VÄÅM¡V!Ò AÒ ¯gW¡Ò Ä¡Vª Ò ¯gWÒ PWMÒ YÒ ªpÁW¢Ò M°ªÒ
-
-MªªreÒ¯g¢½egÒ °gWÒ WÇ¯W¡MÒ cWVÒ R¡WM¯WVÒ PÈÒ°gWÒ MeW°ªÒÅ½VÒ PWÒ ªp°Ò oÒ
-ºÒ WMÁreÒ °ÄÒ ªWM¡M°WÒ °¡MRWªÒ Ò ³hWÒ VW°WS°peÒ ªS¡WWÒ ÄgrSgÒ ÄMªÒ MÒ eMªªÒ
-M°WÒbe½¡WÒ£0"Ò
-   F¯W¢Ò Wrª¯WVÒ ¯gWÒ WÇW¡rW°MÒ °MW°ªÒ  Y ÒJM°gW¡Ò <W¡MRg Ò ÄgÒ ÄMªÒ
-W¡Y¡ueÒ M°pRÒ PWMÒ WÇW¡jW°ªÒ pÒ °hWÒ P½pVreÒ MVMSW¯Ò °Ò 7¡ªÒ
-Aª°p°½°WÒ YÒHgW¡W°vRMÒ DgÈªpSªÒ pÒ :¡MY½ ¡°Ò ÄgW¢WÒF¯W¡Ò Å¡WV#Ò 8ÁWÐ
-rW°È Ò <W¡MRgÒ gMVÒ MÒ MeW°rRÒ MM¡M°½ªÒ ¯hM°Ò ª½p°WVÒ F°W¡ªÒ ¼¡ªWª$Ò
-
-JgpWÒF¯W¡ªÒ rVWMÒÄMªÒ ª°¡Mweg°Y¡ÄM¡VÒ W½egÒr°ªÒ ¡MS¯pRMÒ¢WMpÌM±xÒÅMªÒ
-MÒ SWÇ Ò M¡V¼½¬Ò MVÒ ¯WVr½ªÒ M¯°W¡&Ò CWÒ YÒ<W¡MRgªÒ ªµ½VW¯ªÒ WY°Ò ¯gWÒ
-YÄreÒ¯Wª¯rÈÒ¯Ò¯gWÒ°¢rMªÒ grªÒ¡[Wªª¡ÒgMVÒ¯ÒÁW¡RW4Ò
-
-   6ÉWÒÄgÒgM­Ò°ÒQWWÒ¯g¢½fgÒp¯ÒSM°ÒM°ÒMÒpMfpWÒgÄÒf¡WM°ÒÄW¡WÒ°gXÒ
-   VoaS¼¯oW®Ò Ä{°gÒ MÒÂWÒ¯ÒgWM°Ò°gWÒ ®oÁW¡Ò¼Ò % & ' ÒÄ{°gpÒMÒ MM¤M±½ªÒ ÄgrRgÒ
-   S¼VÒ°ÒPWÒ [½ÈÒgWM¯WVÒ K¯gWÒ®WM®ÒÄ½VÒW¯LÒ MVÒÄgW¢WÒMÒÂMS½½Ò % ( % ÒgMVÒ
-   ¯Ò QWÒ¡V¾SWVÒ MVÒMp°M{WVÒ[¡Ò® WÁW¦MÒg¼¡®Ò! ) !  ÒI gWÒ½ªÒÄW¡WÒMVWÒ
-   [ÒfMªªÒMVÒ½p²WÒ[°WÒ²gWÈÒQ¡WÒ Wo²gW¦Ò[¢Ò°gWÒ¯g¦½®°Ò[ÒQy{fÒW¡S½¡ÉÒ
-   % % $ Ò ¡Ò[¡Ò¯gWÒV¡ryfÒ[ÒS VW®WVÒÄM°W¡ÒÁ M¦!ÒBÒ°gM°ÒSM®WÒ³gWÒ® WÂW¦MÒVMÈÒ
-   W`¥°Ò[Ò½zf Ò ¡W½{¡WVÒV½¦{fÒ²gWÒ ÄM¦ {fÒ½Ò MVÒ gWM¹fÒ[Ò·WÒ ÂW Ò
-   ÄMªÒ®°%Ò 6®Ò WÒS ½VÒQ W ÒQÈÒÒWM®ÒSW¦¯M{Ò³gM°Ò°gWÒÃWÒÄ½VÒ¯ÒQ½¡Ò
-   °g¡¼fgÒ V½¦yfÒ°gWÒ[½¡ °ÒWlfg¯g½¡ÒWÇ®½¡WÒ °pW*ÒIgWÒP´gÒ°gWÒ½Ñ
-   lfÒ MVÒ ²gWÒ g WM°ofÒ [Ò¸WÒ ÁWÒ gMVÒ °Ò QWÒ ®°M¨±WVÒ [¡Ò ®S¦M²Rg+Ò A¯ÒÄM®Ò MÒ
-   FpªÈ g½®pWÒ MQ¦ÒMVÒ ´gWÒ MyÒ MVÒ MVÒ ¦Wª®{Q{y»ÒÄM®Ò TM¢¡yWVÒ Ò °gWÒ
-   Q¡MVÒ ®g¿VW¡®Ò [ÒE¡[W®®¡Ò =W¢MSgÒ% % % ( Ò? WÒ Ä½VÒ fW°Ò {Ò MQ½°Ò 3Ò  %  , Ò
-   W ½|WVÒÄo¯gÒMÒzWÒ[Ò¡W¢y°®ÒMVÒQ®-Ò9½¡{fÒ°gWÒ}fg°ÒgWÒ°gWÒ¢WMVÒ ¯gWÒ
-   ¦[®ÒMVÒ¡WÁ{WÄªÒÄ¡°WÒMW¡®Ò ¦WM¡WVÒ WS°½¡W®ÒV¡MÒW¶ÊÒ[ÒS UMÒ ¡ Ò
-   °WMÒM  V Ò®WVÒMÒ ¯ ÒJgWÒ BÒ M¡¡~ÁWVÒ ¯gWÒWÇ°ÒVMÈÒM°Ò°gWÒB®²~´¾²WÒ gWM§VÒ °gWÒ
-   l°|M²WÈÒ[M{xM¡Òp®WÒ[Ò² gWÒ¨½pfÒ½®ÒMVÒ[½VÒ=W¡MSgÒ®°oÒ{Ò °gWÒ
-   MQ Ò{²ÒÄM®ÒMÒfVÒ®pf5Ò¯gpeÒQ¡WÒV½¡{fÒ¯gWÒ{fg°Ò ÌɇϙGSgÀ¯Í Ò ½¯WVÒ{Ò
-   ;¦yWV¡SgÒMVÒ @W¨®RgPMRgÒ .332Ò/13Ò
-                                               ÏЄê౔            ‫ ࢔ ݔ ؼ‬ƭ ѯ ˴ Ѱ Ӓ ࢕ ‫ ܋ ౔ ࠱ ݕ ޗ ؽ‬ѱ࢖ ࢗ Ձ ƭ ౔
-
-                                                                                                                                                 ϓϙ
-                                                                                                                                  ࠭ ॻ ୍র঱૓౔            ©³ά
-
-                                                                                                       ¤ά                                        Ȅά
-                                                                                                       ‫౔ص‬                                        ‫౔س‬           À˂౔
-                                                                                                       pÀ                                      ઊ౔ bcrͅ౔     ‫౔ش‬
-
-                                                                                                                                                     
-                                                                                                                                           
-
-
-
-
-                                                                                                        Ü Ý Þ ß ά!"# $ %& ' (
-                                                                                                                                      
-                                                                                                                              
-
-                                                                                   
-
-
-
-
-     Ǐ¶̱ ϙ
-                                        )                                                                                )
-              
-                    )
-                                               
-
-
-
-
-                                                                                                                                               ˺˙ϙ ూয౔
-                                                                            Zr   [[[r
-
-
-
-
-     Ǘʎzϙ
-                                                                                                                                       \]]^_        &%r
-
-                                                                                                                                                 ͨά
-                                                                                                                                                  £ά
-
-                                                                                     ȓzʯ̚ʍ¶ϙ
-
-
-
-͹Ϟ౔ ࠮ǿȓȆશ श½ਪॼ౔ଃড়౔½ ৼল౔࠯½®ȶ૕˲‫ ט‬঳ȶઋषǿȓ౔®ర଴®୎ਫ ષȆ૔ஸ̚౔ %!""( '(   ( (& ((# (%$(
-
-
-
-
-      >¬Á »ÁR k R Á¬jTÁ ¨µOOV¨¨Á XÁ¬ jVÁV¹V nV°Á Vµl TÁ ²jVÁ ²VIOl´Á JRÁ ¨}s¨Á X Á
-     4V IOj  ¨ Á IL ¨ Á Mµ°Á m°ÁI  ¨  Á RVVRTRÁ Á JÁ O·T gVOVÁ XÁ¬jT Á XIO¬ ¨ ,Á
-      .gÁ °jVÁ J °nOµ I ¨Á I PÁ JÁ ¸I Á LVRÁ JÁ MIRÁ OmgI Á IÁ ¬nV »Á ¨°OI RÁ JÁ
-          Jn JRÁ¨­ l~VÁJRÁ IÁµOI»ÁO¨l JO»ÁX?I­µ¢VÁ 2 lVR lOjÁ JRÁ 7V ¨Oj¿
-     LIOjÁ &$$'  Á@VÁYÁ°jVÁ V»ÁXIO¬ ¨Á ¸J¨Á Vº¬V I Á Xµ RngÁ X   Á°jVÁ 4V JÁ
-     .V nOIÁ7V »Á5 RIÁ IÁXµRV ÁXÁ4RIÁ AIOj¨ÁIRÁ¬jVÁ gVn¬ Á
-      Z °jVÁE¸ ¬jÁ OjIoÁ X Á¨ ¬¡V¨ Á4RJ¨ÁO°¢pLµ°l¨Á¸V VÁ O µOlI Á ®Á
-      ¨µ¨¬JnngÁ4T JOj  ¨ Á£V¨VI OjÁmÁ¬jVÁZIOVÁZÁ¬ jVÁmO VI¨qgÁ_yIOnIÁRn¨J                                                                                   J»Á
-     ZÁ¬ jVÁ5V IÁ VO »(Á1n©¬VnÁ¸I¨ÁJ¨Án¨¬ µV°I Á  ·nRngÁIÁg I °Á
-      [   Ájr¨Ás¨¬l¬µ­TÁnÁ/V nÁ¬Áªµ °Á­jVm ÁVa °¨Á
-              .¨Á XJ¬VÁ ¸µRÁ jI·VÁ n°Á ¬jUÁ ° IOV¨Á XÁ¨JOTÁ µJ­t½J°nÁ RnRÁ ¬Á V·TIÁ
-      °jV¨V·T¨Á °Á 4V IOjÁ 8¸V·V Á J¨Á A¬V Á TOµ¯¨Á °jT VÁ ¸I¨Á IÁ I ¯kOµI Á
-     uOnRV­Á OOV ngÁ ±jw¨Á I Rµµ¨Á ¨OnV¬ncOÁ IR·V°µ VÁ ¬jI¬Á ¸µRÁ TI·VÁ n¬¨Á
-     J ÁÁj v  - Á
-
-              .\²V Á·V¬whÁ¬  Á V VI¨VÁ³ i V Á·JQ¶µÁ6V JQiÁ V·VSÁ³jVÁSV¬WQ² ÁeIhWÁ0¶°Á
-              jVÁQµRÁ «WWÁ  Á¬ JQVÁ XÁ° iVÁ¨l·W ÁJ¬Á MVJÁJRÁjJSVSÁ ¬jVÁ fJhVÁ¬ÁVÁ
-              Fn²jÁ6V JQjÁ whÁ·V Á »Á¨j¶RV ÁJ«Á ‫ ౔ض‬VV VRÁ Q«V»ÁJ¬Á²iVÁ J¬VÁ ¸VÁ
-              ¸V VÁ «µ  w«VSÁ¬Á ¨VWÁ h JSµJ»ÁVW hVÁ ±jVÁ ¬¤IQVÁ ]Á°jWÁ MVJÁ                                                                   !  Á3 nJ »Á¸WÁ
-               VJn¾VRÁ ¸jJ°Á GiJRÁ jJVVRH "Á :Á ¸J¨Á ¬jVÁ ¬jVÁ V¶w·IV¬Á ]ÁJÁ J¨«n¨¬I¬Á
-               ]V¨¨ Á =»Á ¨JJ »Á ¸J¨Á ¬Á ¸Á ௬౔ Jb¤SÁ gRÁ QlhJ ¨ Á «Á ;Á ¨VSÁ MJSÁ
-              QwhJ¥¨#ÁBjW«VÁjJSÁJÁ¬ÁYÁ¨ µ ^µ ÁwÁ²iVÁ «Á¼ÁN VJ²iÁÁ ²jVÁ J³WÁ³¶ VSÁ²jWÁ
-              ¨l·V Án¬Á ¨n·V Á ¨¶`zSVÁ ¸jwOjÁ w ¨ Á|V¬Á N JQÁ ¨Á VJ¨w »Á·{¨nNVÁ <²Á¸J¨Á nVÁ SVÀ
-              ·VnhÁKÁj°h¦JjnQÁd!Á 3§wVR¤xQiÁJSÁ9 V ¨QjMJQiÁ ͓dĜϙ *)+ Á
-
-              CjVÁ V¨µ ®¨Á4V IOjÁ j V R Án  Ájn¨Á jJRÁ¸V TÁO¨VÁ Mµ®ÁÁOngJ ÁDjVÁ® JOV¨Á
-      »Á g¢IRµJ »ÁVV gVRÁ¸jVÁA®V Á jV RÁ ®jVÁ J®V¨Á nÁ jv¾ê jIR¨ÁIRÁ ¨°µRmVRÁ
-                                     ďB ց L Ǧ ‫ ڜ‬ď ۵ ౔ࠔŇҞ ۶ ‫ ڝ‬Ǌ ‫౔ ܨ‬              1ìb౔
-
-
-
-
-͸ ϲ ౔ À )l®řÙŚżQ+ +-ż Dżż,-,ż D ż ż Æ I¯Àjĭżŵ&?Č +¢ż ?30 ż   ż?ż
-     C śĮ"ż ,C ( )  żâ ż ż )(Ŝż Dż+ż &&?( ¸ż p0ż ZHa,ż 0 ) ^Ķ ( ż +ż C @(^<įż
-     .{ ż ň+:č Y(Ď.ż Oż_ż:Aż Éż :& ŝű×ďYĐİđ+"ż Oż+żŶ& ŞĒ )+ż&)ż)ż ż
-
-     Z ?ż&@ ŉ,Aż Åż"żeżēşż Ĕ ı  ż»żż aż ( Ĳ D( ż .2)2żãżż ,&ż,ĕ żĖ żCj(m
-
-     , ė  ķ ; ż ¾e ũ£ż )2Ęĳ ę   ¤ żŊ ¥ż )ż 2ż &S2-, ż Oż+- S0 H¦ż Hż@ż3Š YT§ż
-
-     jżĸĹż &ţżDż!  - ż & :( żn   Ěż   żżż "żżdĴż šĵWżO^@ żìŲ@żP  żżż
-
-       r"ż : ż ż2żŪrHż ě¹ż ‫ ټ‬ફ બఞ஠ௗ୵॔௘੪ȯ૯౔२స౔‫ݭ‬੕অଚ੖ડ৊౔ࠄǻ౏োȸ౔Ǯ˭¼ȁAʦ̷Aϙ௃৿¯౔ɕβΝʹ̸Aŗϙ
-
-
-
-
-     $ɘ$ɘɘ$#ɘ=ɘ#ɘɘ$$ɘɘ=$ÁɘHɘơ&!ɘ$ɘɘɘ
-     X&#Ďɘ H&3ɘ !& łɘ $&#ǔ#ɘ$ɘ 3#$ɘ #&=2ɘ #,3!=Ńɘ =,&ɘ$ȜȪɘ  # $ɘ
-     Ǫ$ɘ !=Rɘ ,&ɘ =ƾɘ $&ŷżɘ ¿ɘ =ɘ ɘ ɘMɘ M$&Mɘ Ƀ&
-     #$ɘ #ɘ #ɘ ɘ ɘ Ğ3&ġɘ $&3Rɘ §r&ɘ ͐ͻíňϙ Ɠɘ$ɘ #¦ɘ !#ɘ &ɘ
-     X&#ďɘ $!ɘ !3$ɘ =ɘ O3$ɘ ɘ &=$Ï,ɘ M,&M#$ńɘ $ɘ ɘ
-     3ɘ,ɘ,#ɘ ɘɘɘq #M#ɘ#2ɘ$&ɘ ɘ ɘ^#ǕU$3# Ņ ɘOÏɘ
-     &ɘ 0౔ Oɘ 3Sɘ3#ɘ ɘ !#ɘ ɘɘ ȅ3$$ɘ ==ɘ ǫH#ɘ &ɘ $ɘ
-     &¦ɘ=&ɘŪɘį Υά
-         ɘɘzȆɘɘn ɘX&#Đɘɘ3&ɘǮɘ^ɘ ##$ņɘ $R#ɘ
-     &ɘ &#$ɘ $$ɘ $ɘ $ɘ !#&2ɘ ɘ$ɘ &$ɘ #ɘ $ɘɘ õ!|
-     ,öɘ~,Hdɘ&Î#Ňɘ &ɘ$$ɘ$ɘ!ȍȥɘǖ&&!ɘ#S2ɘ$$ɘɘɘ
-     3ɘOɘS&#ɘ $ɘ SǗɘ #&ɘ÷^;#$øɘ ǘ#ɘ =!&Úɘ z&ɘ Ǚ#ɘ 3#ɘ
-     ȈPɘ $&$#ɘ &ɘ H3=ɘ #$3$3#­ɘ &ɘ $&#3#­ɘ #ɘ ,ț22ɘ Ʉ&3}
-     #ɘɘ33$ȇ2ɘ&ɘɘù&úɘ3#ɘ1$ɘ#&$å«ɘ Rɘ#ɘ}
-     3!=ɘ$ɘ3=H3#ɘɘɘ &#ȶ#ňɘ #=3#ɘû $ɘȏ!,üɘ#ɘ ý $ɘ
-     ,Î3!=ŉ ¢ ɘ &!2ɘ 3,&3#ɘ #3#ɘ &  ɘ ɘ &H3åɘ ɘ$ɘ &ɘ 2ɘ !2ɘ
-     vɘ#ɘ 3&&&ɘ ğ&ɘɘ=$ɘR®ɘ =Ŋɘ #ɘ =,&ɘ  $© fɘ O&ɘ$ɘ
-     þRɘ&#ÿɘǚ=ɘǛ ɘɘ M#3q#$ɘ&ɘɘ ɘ&ɘϷ ؈ऺ
-         X3#r#$S2ŋɘ ɘ X&#°Ǝ&Sɘ z&#$ɘ 3ɘ #$ɘ Å#ɘ Ɲ$ɘ23=ɘ $ɘ zg
-                                      @     %@ -@ 9@1@@   @@:@ @ @ ,@ 6@ +@ ;@˳ά ά ˁά
-
-
-S ʤ +# Eʤ  +ʤ (ʤ  ʤ ʤ ñȏ Pʤ Mg W +ʤ ʤ                              ?¡ʤ Ʒ        # ʤ W +ʤ
-++ȱʤ , ,ʤ, ʤ #                     ʤ Mʤ +ʤQS+ ʤ( #ʤ Ļ  ʤ#Z#P                         *ʤ
-7ʂʤ , ʤ ZĞ,Ğʤ ,  +,Kʤ ʤ KHȐKʤ P( ŷÅʤ (  ʤ                                      ʤ Q 7        Ȳʤ
-        # ʤ Ő,ʤ,ù ʤʤ, ,ʤʤ?+f]µ*ʤ8? Ēėʤ7*ʤW,8ʤʤh 8                                      ʤȑʤ
-     ʤ    (ʤ P ʤ Mʤ7ʤ ?=] ]{ʤ t  ʤ ]Ÿʤ                              ʤ Ȓ,Rʤ +#H ʤ ʤ          ʤ
-ɭ#?? + ʤ        ʤZ# #ʤ ( +P(ʤ ʤ W ǧ+ʤ #+                               ʤ  Yʤ ʤ * ʤF 'BT +#= ʤ
-(ʤ       ʤ ʤ     ʤ7ʤj Pʤ Mʤʤ Pʤ+# ƭʤ
-
-     Þʤ B +"ઉ- =  Jg E"K[7RgF"BA IS" g bgP$G>g > g  " Ή ͛ ʤëʤ ɒ ʤ (A (ʤ B 3>&g íʤ
-     ,õʤ "=g )>VAg A=BA>">VM g ǅ ʤ ) g (A_!^#Hg M'A_g g HA ">" g "=g MBAW g
-     ("bgA>;\ " g V(Qg ;Q'AZ&(g g "*ʤ æëʤ ɑ                          ʤ "=A@MVFP$ g  BS)=ʤ C\>V-de
-     S3A>g Q("bg( g BGA]3 " g  "] "> K"g ö ʤ õʤ M .;]"Gg VA=g BAMM"ON"Mgg =&>"T3g
-
-     =A=">V g ŚÞƙʤŽ G> k. > g                 g
-
-
-(Ug   Î ʤ Q *ʤ ʤ             ʤ K  H#ʤ , ,ʤ S,ʤ Z#,b  ʤ ʤ                   ʤ ʤ +ʤ ª    ʤ
-Ǳɶ8ʤ Hʤ śʤ ò,]P*ʤ  Ţ qʤ ǆ,ʤ ļW,8ʤ ʤ h8gK ʤ ʤ ?w Pĥ
- ʤ ʤ         ʤ ??+ #Źʤ ?+ U #R8*ʤ ʤ 8?=K]ʤ ʤ 8 #ʤ 7ʤ =,ʤ 7*ʤ ʤ
-+    #ȿ+ʤ ʤ             ʤPʤʤ#K ʤ  8ʤ I*Ľʤ 7 ƚ n ƛ ʤʤ                       ]ʤʤ?ʤ
-    ªʤʤ?Ʈʤ        ʤ 8 ¬P*ʤ  +ʤ +                 ñ#+ʤ Mʤ          ʤSS+ #ʤ đ Pʤ
-,ȁʤ 7+ ʤ 7ʤ ? ,ʤ                           ʤ ( ʤ     ?  Ðʤ  +*ʤ 8( +ʤ                  +ʤ
-K  #ȓ {ʤϹ á౔ J#,ʤĖ  Èʤ ࡉ Hऺ( 8ʤ, ʤ8 *ʤK K8ʤ                                    \ʤ*ʤ j
-ǻʤ ¼?8 ʤ                       ?{ʤ        # ʤ P8 #*ʤ Pµ*ʤ Z#,#ʤ ? * ʤ ʊ,ʝ
-7     ʤ ʤ      ʤ W +Ƒh+K ʤQS8 ʤʤ ʤ Ǽ ʆǨʤʤ  +                               M 8(8ʤ
-+# ʤ S# ʤ ʤ 7#              ʤ ʤ          ʤ (  ʤ SSn źʤ  ʤ(ʤ *ʤ*+ʤ M +(+ʤ
-, ,ʤ      ʤ +# ʤ (+ʤ Pʤ                 ú+ʤ #++ ʤ  +?+   Úʤ W +ʤ ʤ h+                     ʤ
-    ʤ ?8 #Kʤ PKʤ                    ʤ M +ʤ S ʤ Z# ʑɼ ʤ 7# ʤM +ʤ                 ʤ Q  ʤ Mʤ
-     ʤ?ʤ #+ʤ I#yʤ Mʤ ʤg ,+ Ɯʤ
-
-     8 /R bg;<g ZGG">VgV"aQAA5Og "MG)"g V("gV"G>"G8(gMB80WV0>&g Mg "=f
-
-      8 Ȕôʤ";"PGA>gMB)>g_)X'A\QgBA3>Q3>&gAZPgL!MTF"T(7I=;)T<=*47J>CT "T
-     8:T +T ,KT QDTE;,7T F#FTF#RT #T -@:P?TY Ö × Ø ά("g&IV3%.>&g&G""=">VgíʤV("g
-
-     V"G> "H:(g B 7 3,W4= &g _3Q(g W("gA9 g S("AJgଳ 8A Ρ"ʤ,ʤ 7ʤ T O/RT :.7,7TÙ Ú ¡ Ûά
-
-     < ǀ 8"g Y! # Mg ( ʤ NB 1 K # Δά 3>g >g \>>>cg`b g F2" I3(g > g "HM'(g
-            g8" ͐ 88>&    ²ά    æKʤ= " n Įěά
-
-     Ǐ ,*Żʤ ʤ(ʤ  +ʤM +ʤQS8 ɀʤ? * ʤ ʤ                                ʤǖ]P+ *ʤ Mr8
-M#8 ʤ(ʤ ʤ M 8ʤ W Ēʤʤ h+K pʤ t ʤ  +ʤ SZ#ʤM +ʤ                                       ʤ K +ʤ
-#ʤ      ʤ µ*ʤ Mʤ, ʤ SHU ʤ 7ʤ , ʤ                       (ʤ W +ʤ ʤhđK ʤ ʤ S?  ʤ
-eʤ *7 ¾ʤ                  ʤ ??  ʤ 8 ,] ʤ ʤ 7*ʤ IȂʤ Ė( ʤ ? *UK,ʤ ʤʤ
-8#R ʤ Mʤƿ 8ʤ 8]ʤ                  ʤ ? (+Yʤ| ǌ       ʤ #ȳʤ     ʤ  8ʤ         ʤ O#ɵʤ ʤ , ʤ
-8   Sʤ MʤJ              +ʤʤ ǀ78żʤ W +ʤ ʤ h8                        őʤ 8   ?ʤ#Mƒ
-                         ă‫ח‬ĸ  ࢒ ‫ ز‬ă ‫౔ ۄ‬ʸMCɉ _ ˝ ɡ ά            @
-
-
-'ǋ 'iǋ  )ǋ )ņĿ.ǋ . ǋ - ǋ "ǋ 0sǋ Kǋ ųGǋ _ æǋ 0ǋ
-Ī0ũ ǋ ǋ 0ǋ 'ǋ ǋ )Rǋ CX Qǋ <8Wǋ `)(çǋ .ǋ ǋ
-C$ǋ-8ǋ  ǋ0ǋFǋ?~Gǋ `Ū(^ǋC?U ǋ Ɖ$ǋ ǋŷǋƊǋ
-ūǋ0¢ǋŀŁǋǋ:X ǋǋ -<ǋ ((ǋ'ǋC$Ćǋ zǋ'ǋ C  nǋ
-0 ǋ  .ǋ 0ǋ Ƌ$ǋ  Uǋ ($ǋ        )ǋ 0Gǋ ǋ  ǋ 'ǋ Kh
-C= ǋ ƹ 8èǋ 0ǋ        3ǋ ǋ 'ǋ ǋ ĭ) Èǋ ǋ  ǋ
- ǋ ǋ 0ǋ ǋ 'ǋ  ǋ ǋ = ǋ Cǋ .)ǋ D¦ǋ 0Ŭ ǋ
-`.(\ǋ )?ǋǋĤǋ` )?ǋ($ǋ ǋF<.ǋ'ǋ'ǋ ǋ0ğƦǋ
-   F    -ǋ ǋ ǋ  ǋ ($ǋ  ǋ (-ǋ ǋ $  )ǋ ǋ 'ǋ 
-ǋ ¥Pǋ )d:<$ǋLǋǋ LIǋ Fǋ  ǋ:3ǋ)ǋ
-'ǋN ǋ KûC< ǋ       ǋ 8d^ǋ ǋ  ǋ )ǋ ǋ  ǋ Ƨ ǋ
- <ǋ ǋ ǋ=:ǋǋ ǋ .ǋǋǋ'ǋ ǋƺ ¢ǋDǋ
-L-ǋ ͏ ͺ ìŇϙ Sǋ$ǋ dƞǋ0 <ǋ Iǋ zéǋ  ǋ 3ǋ8ǋ ǋ »ŭ¼üǋ
-½ǋ .o ¾ǋ ǋ3ǋ0ý'ǋ ǋ 0G)ǋ 'ǋ  ǋ            -oǋ ) ǋ
-=^ǋ )3Pǋ .mǋ ǋ iǋ <ǋ 'ǋ0 ) ǋ ǋ ǋ ǋ 'ǋ )ǋ
-KC ǋ      -ćǋ ı ) ǋ)ǋ ǋǋ$ǋ ǋĴƎ?ǋ?:ǋ'ǋL-ǋ.ǋ
- ǋǋ0$ǋǋ0) ǋ ǋǋ0. tǋ{ ǋ  ǋ-ǋ'ǋ £ǋ ő-ǈ
-B.ǋDdĈ  ĉ ê ǋǋ  łŴǋ .\ǋ ưIǋSǋ.ǋ3ǋǋ-ǋ ǋV<ǋ'ǋ
-)ǋ  ǋ -ǋ 'ǋ ǋ :¤ ǋ z^ǋ .ǋ 0-ǋ (ǋ ǋ
-.Gǋǋ-ǋ ǋ ǋ'ǋ ǋ)Œǋ.ǋ ǋ8ǋǋǋ$(=ǋ'ǋ
- ǋ'ǋ ǋN ǋ O  Éǋ .)ǋ£.N$ǋDIĊQǋ )ǋ iǋǋ=\ǋ3ǋ
-ǋ))ǋ'ǋ)ǋ ǋ -ǋ'ǋB ǋƻ  Rǋb             ǋŮǋ0?ǋ(ǋ
-8ƨǋ 8ǋ:ǋ3 ǋ0$Ěǋ3  ǋ)- ǋ ǋ-ǋ'ǋ ǋ
-?ëǋ VV:V-ƌǋ ůnǋ ))¯Pǋ $ǋ ǋ=3N$sǋ DFìǋ $íǋ 'ǋ
-oǋǋ0ǋW3ǋ ǋǋW8ǋ'ǋ8ǋ'ǋ ǋǋ? ǋ'ǋ ǋ
-ǋ( 3ǋ0. ǋ ǋǋ-;'--ǋ( ǋǋ ǋǋ =ǋ0-=ǋ :ǋ
-(Űǋ ǋǋvǋĥǋ(ǋ ǋ'ǋ$ǋ'.)ǋǋ-ǋ 03IǋSǋ
-.ǋ ǋ 3ǋ ǋ0 ǋ ǋ<Ʃǋ= W=$ǋǋ ǋU8Pǋ :ǋ  ǋċÓǋb ǋ
- .ǋ. Qǋ  Pǋ  ǋ .ǋ  .ǋ îǋ ¥<ǋ U8ǋ  ǋƯ)(ǋ ǋ  ǋ
- 8ǋ'ǋ ǋ3): ?ǋ;ǋű(ǋǋǋ3<Ųk.ǋ'ǋ
- )ǋ .-Xǋ33Lǋ -=ǋD[rr p r þW.¿\ ě ǋ[(ǉ
-ŸÀǋ ǋ Á Ƴ(ŹÂǋ ǋ  -ǋ       - ǋ  )Lǋ G ǋ 'ǋ3
-88:ǋ  ǋ K« Ê  ǋǋǋƏǋ  'ǋ'ǋ -X.Ǌ
-c¯ǋDRČQǋ  ǋ 8ǋ8ǋž3ǋčǋDb .ǋ.ǋǋǋ-ƪǋ ǋ ǋ
-G3ǋ'ǋ  ǋ)ǋ0ǋ ǋ<$ǋ 3(=ǋ3$ǋ ǋU?ǋ :ǋ
- = ǋ ǋ , 3-ƍ$ǋ : ǋ  ǋ Xïǋ (-ǋ 3ǋ 0ǋ ǋ 'ðǋ 3Gǋ $ǋ
- ǋ'Qǋ )  ǋ ǋ  : $ǋ 'ǋ 8ǋ-<Ďǋb ǋ  ǋ3ǋ ǋ ǋ ǋ ǋ
-?ǋ)ǋ ǋ$ǋ0 ǋ <ǋ:=-ǋ  ǋ ǋ           Nǋ  B¤Ëǋ (ǋŇǋ
-ǋ . ǋǋ:ÿ3 ǋǋ(N0ǋ ǋ ǋ8ǋ'ǋ-iǋǋ
-                       1ìõ౔   6 K k ^     k 6 Y K b  I lk  _ 
-
-
-#&a&Ĭऺł @ऺ & ऺऺ# #& ऺƈऺऺͮ&˔tͼĄऺ ऺऺ@&˔ऺȧऺ t-ŅŅ ऺ
-ऺ  @ ऺ ऺ ऺ@-  Ąऺ ऺ ऺ ऺÑऺǗ ऺ ऺ ïÀMऺ-éƥ
-ǗĄऺ͌‫ऺݺܐ‬#&&ऺ ऺa&ऺ ऺM ऺ ऺ##ऺÀ ऺऺ#aʀ
-M ®ùऺ Å&ऺऺ#Oऺऺ !̓!ऺऺ  ऺǀऺ!&˔Ąऺ  Ǘऺ&ऺ ऺ #ऺ ऺ
-#Àʵ#ऺ @-ऺͼऺMaऺ - ऺ @aѳĄऺ Ñ̓ऺ ĚƎ:ऺ ऺ ऺ ऺ-!3˔ऺ
-##ऺ ऺ -Ǘऺ #À#ʌऺ  ऺ  ƈ ऺ û&#ऺ ऺ ±ऺ -Çऺ  # ऺ
-@À ٣ऺ ऺǗ ऺ ऺ-ऺ ऺऺÀ ऺ  ऺ ऺ ऺऺ &À źऺÑऺ
- #ǴDऺ  ऺ !ऺ #é!3Ƃ#ऺ @ऺ # Ȍ# 3ƈ& ऺ ÑĄऺ @ऺ - ऺ  MϚ &ऺ
-@ऺɠऺ û&ऺ - ऺ &ùऺ Ő@խऺ aĄऺ@ऺ M ǴMςऺ ֺ  σऺ .M  ऺ
--ऺ@#À#ǫऺÑऺM ऺ ऺ@ @ऺ  ऺ & @ ऺȀɣ#ऺ #ɣʵ#ऺ-ȁ
-ऺ##ऺ-@ऺ ऺ ȀऺĄऺ-ƈ!ėऺôऺ ऺ̾ ऺÀऺऺ@Ǿ#&ऺ#ऺ
-ńऺ !!ऺM ऺ  -!Ƥ3:Ąծऺ - Mऺ ऺ - ऺ# ऺ # & Mऺĸ
-&ԣऺ@ -3ƤÀͻँկऺȀऺऺ-!Êऺ#! @ऺǒऺO3ऺ#t ܸ#ऺ &O# ࠻ź‫ऺطح‬
-   Ñऺ -ऺ ऺ Ąऺ &!ऺ ऺ Ą-À#ऺ &@ऺ ऺ #À̾#ऺ#ȸ
-#ऺ  ऺ ऺ #Ǘऺ ऺऺ -Àऺ & ऺ         & ˠĄऺ  ऺ ऺ @&ऺ &ऺ
-  ऺ #DࠄĄऺ &MMऺ !!ऺ &-ऺ @ऺ  ऺ ऺ &Ş˕Ąऺ  - ʎऺ Mऺ
-& û#ऺ &!ऺऺ  & û#ऺ !Ȍ#3ƤǷĄऺ # ֻ# OĚ!& ऺ  &Mऺ !ऺ -!@éØख
- #&@ÀƤऺ@#ɣ#ऺऺ ĄऺMMऺÀऺ AÒ Ȁé ऺ @ऺऺ&MMÀ ऺ&@ऺ
-ऺऺऺ# Ïऺ
-
-
-
-           b ,  { N    jp [  { R % {     N {   UU     [   b p ]{      N  {    {
-
-         YR]k,pL          N < ] k {[R I ! { % R [ {k ,  { ,p J                N {
-
-
-̨ĄÀ#Ě!ऺ  ऺ  !&#&@Àऺ @ऺƤĄऺ Àȡ@ऺ@ ऺ @ऺÀ@ऺ-&&ऺ
-û#± ऺ ऺ &-À-źऺ̠ऺ@ऺऺĄĚ# Oऺ@ऺ# #@ ǣऺ!ऺ&-ऺऺ ऺ
-#ऺÀऺऺ @#!    ऺĄ#ऺ ˠऺऺ#é-ऺa ऺࣲéऺऺȀ @Ǘ3Mऺ ऺ
-&@ऺ Æ  ĳऺ ऺऺऺ Ű& ऺ #@ÀĄऺ ऺ &-ऺÀ@Ƥ ऺÀऺऺ
- @-ऺ ऺ# #!&˕ऺ - Çऺ ऺ-&@MऺÀa@&-ּǾऺ#&ۢऺ
-# !@ÀƤ#ऺ ̷ऺÊ      a `ऺ@#Ěֽ ऺOऺ & !® ऺ ऺґ &&-ऺĄÀ#ऺ
-ऺ# ń&ऺ ऺ ऺ  @ऺऺ- aऺ# -- ऺ# -Şऺ MÀऺĊ @Ԥऺ
-@@é ऺ     ऺ Ʒ&&-ऺ -##ɉऺ8 9 ά ū &#&@!ʏऺ      ऺ ऺ     ±ऺ
- ĳऺ     û#!ऺ ऺ ऺ ŞÀ ˕ऺ &-ऺû& À#ऺ ऺ   ऺ ऺ & û#ऺ ऺ
-& ѳĄऺ # ! !&! ऺ  @ऺʺ!ऺ MM-OऺĚऺ  # ऺ#ͻĚ#Ïऺʫऺ ̷#:ऺ ऺ
-ŞÀऺ Àऺ ऺ  éÀ ऺ ऺऺ ˠ ऺ ऺ ȀऺÀऺऺƤˠĄऺ # ͼÀ!&±3 ऺ ऺ!ऺ ӣ& Α
-û#ź Ǟ‫ऺڍऺـخ‬   ऺ #uऺऺ  Mऺ&-ऺ-ऺ@ऺÇ ऺa ऺऺ˕&@ऺ
-! ऺ## &ऺ ऺऺ@##ऺ &MऺÀ#ऺ           & ऺ@ऺ@     &# ̇ऺ À#& ʀ
-ÀMऺऺ-3!r ऺ ऺ̓ ऺ!ऺ# O3!&O3Ƥऺ#ࠅ& ऺ                 & ‫־‬-ÇÀMऺ
-@##ऺ-ėऺ
-   ȜÀMéɚ#!Ąɇऺ #ऺ ऺऺ #@ÀaÀऺ @#±éƤऺ éऺ M ऺ Àऺ éऺ Ȁऺ
-                            " ,    . #    . '  .     .
-
-
-
- Bǎ{Ǵ 3Ǵ ţ  Ǵ BOǴ Y%Ǵ ; Ǵ Ǵ Ǵ
-    BǴ ;  Ǵ  ĎǴ Ǵ Ǵ Ǡ Ǵ ;  Ǵ  (Ǵ -Ǵ
-
- ( %Ǵ Ǵ NǴ Ǵ   LǴ UǴ (Ǵ 1Ǵ Ǵ Ǵ             Ǵ ;Ǵ
- Ǵ Ǵ ǴÎǴ;Ǵ ǴǴ Ǵ?Ǵ;ǴǴ Ǵ
-S1|Ǵ ų ?%OFǴ ǴǴ  %Ǵ Ǵ ǴǴ %ƈ Y Ǵ ;Ǵ Ǵ ; Ǵ
-U÷Ǵ (Ǵ -Ǵ -  Ǵ Ƭ (Ǵ Ǵ  Ǵ d1Ǵ ;Ǵ Ǵ (Ǵ
- Ƒ1Ǵ 9 LǴ Ǵ (Ǵ mǴ Ǵ?%Ǵ ƒÇǴǴ Ǵ  %Ǵ
-;Ǵ Ǵ (Bp%$Ǵ ;Ǵƭ%1Ǵ N-3 ĭǴ %3Ǵ  (Ǵ Ǵ
- ǴǴ J Ǵ ǴǴ %OǴ ĽǴĭ łά ·ǴǴ Ǵ 9ǥ
-(Ǵ  Ǵ  Į Ǵ                į 3       LǴ  Ǵ B9©Ɠ(VǴ (g
-(ľǴ ¸Ǵ   Ǵ Ǵ  Ǵ   Ǵ  Ǵ Ǵ ǴǴ
-$%Ǵ     Ǵ  BďǴ Ǵ 9Ǵ Ǵ ǂƂǴǴ 1ªǴǴ Ǵ !2
-Ǵ 1>Ǵ
-   HǴ-Ǵ1ǴLǴ        ǴǴǴB           %Ǵ 1(FǴBVǴd 
-Ǵ Ǵ(Ǵ ZǴǴ ǴÚǴ           Ǵ ǴǴÚǴ %Ǵ Ǵ
- ƔǴ Ǵ %Ǵ Ǵ  %Ǵ àǴ  Ǵ#Ǵ KǴ
-O GǴ>Ǵ H      KǴ Ǵ Ǵ Ǵ (Ǵ % Ǵ   %Ǵ
-3%((Ǵ Ǵ Ǵ 9GǴ  Ǵ Ǵ ? %Ǵ %|öǴ Ŧ  vǴ Ǵ
-%1Ǵ     Ǵ  Ǵ ǴǴ ƊYǴ% 9 Ǵ%ǴǴ %Ǵ ǴǴ
-Ǵ Ǵ Ǵ ã( %V> äǴ U Ǵ ( Ǵ Ǵ Ǵ Ǵ Ǵ   Ǵ            SǴ Ǵ
- O(Ǵ Ǵ Ǵ(ǴǴ       ǴǴ Ǵ ZǴ ǴǴ Ǵ  Ǵ
-Ǵ (Ǵ ;Ǵ 9(pǴ  Ǵ %Ǵ Ǵ ZY-%Ǵ  Ǵ HZ  Ǵ Ǵ
-¹  vǴ ÖǴ  OĐǴ %ǴÆ%Ǵ1ǊǴ %ƆǴ Ǵ ǴǴ ć­Ǵ ŧǴ (Ǵ -Ǵ
- %Ǵ Ǵ Ǵ Ǵ -Ǵ Ǵ Ǵ ǡƲ            Ǵ å( BVæǴ ÇǴ %Ǵ
-Ǵ ( %Ǵ Ǵç9èǴ vǴ  Ǵ Z%N-BǴ Ǵ ǴǴ-Ǵ
-ǴYǴ -Ǵ -%Ǵ  Ǵ  %ÀÈǴ  (Ǵ ?              Ǵ O1 Ǵ (9Ǵ
- %Ǵ ā(O      %ǴO;İ1-#Ǵ (3Ǵ   1(Ǵ Ǵ Ǵ -ƯǴ
- (Ǵ-Ǵ 3ǴK(pǴ %pǴ1(3Ǵ ǴƳǴ ;Ǵ -Ǵ KǴ Ǵ
-ǴÐ Ǵ Ǵ đǴ  LǴ  Ǵ ǢK9$ ®Ǵø Ǉ˨H       KǴǴ %Ǵ  Ǧ
-9Ǵ Ǵ;ǴǴ      9Ǵ - Ǵ SǴ (9Ǵ    ÖǴ Ǵ 5(( %9Ǵ
-ƾ Ǵ Ǵ      ǚK9SǴ  MǴ ŵ(V3 Ǵ %Ǵ Ǵ %ZǴ %Ǵ ǧ
- ĒǴ Ǵ %Ǵ ;ǴǴ       SKǴ Ǵ Ǵ #Ǵ Ǵ %Ǵ 1%%Ǵ
-àǴǴ9Ǵ ǴǴ%VFǴ Ǵ  Ǵ ǴǴ ēǴ KSǴ
- Ǵ Z {ǴH      ǴǴ Ǵ  Ǵ  Ǵ-%Ǵ Ǵ %1ǴSǴ
-      ­Ǵ Ŷ(Ǵ K9Ǵ ưǴ %Ǵ ÐǴ Ǵ Ǵ Ǵ YǴ
- (Ǵ ;ǴÆǴ Y© P 1Ǵ Ǵ Ǵ -(Ǵ Ǵ ( 5 Ǵ
- %ǴǴ S       iǴ
-   ŨǴǴ%9Ǵ dƱ( Ǵ ¡Ǵ OPRbk[\wSw\P4+wCcT1?wKF,kSc1JF[w
-JUwSc.SwuGC1wUJF,kU1F\wJ(wb. wsJU@wd.VJk . ws.2.wJ1\wUw3FeU c1qAuw
-                          C   AC . < C5C    < CBC ] /C :C +C  < C<C C 5C
-
-
-
-5 N@ 0]` &ȼ 5Ĭȼ      $'=ȼ 7ȼ '&ȼ 4/ ĂǄ ȼ ưȼ '¼/ëȼ Ă&$&ȼ
-6& &ȼ Y+ȼ ȼ "YǅZȼ$ȼ ȼ ȼ 6 ȼ ȼĆ =Bȼ
-7Yȼ ȼ6&ȼ  Ěȼ "` fȼ $ȼ ȼ           ȼ ȼ ' $ȼ 6Eȼ           $ȼ $ȼ
-'$ì>ȼ Ģ"` ê "ȼ $ȼ5 =7#ȼ " '+ȼ '&'ȼ 7B= ȼ'"C2ȼ 4&æĊ
-ȼ ȼ  $ȼ g$>ȼ  bnȼ ä&ȼ "ȼ 4$ Bȼ &$&ȼ
-  5Ʊc ȼ øȼ $ř ȼ +##ȼ 42ȼ  4$ȼ ȼBȼ 4"¤
-= nȼ '$ ȒCȼ $ȼ Vȼ ģ'ȼB'$í'+Ëȼ 'D'ȼ'&/&ȼ
-6& &ȼ Z$Śś&©4" Ŝŝ ȼ ȼ Bȼ 'ȼ Bȼ ǮBBȼ
-^ȼ $'&$ȼ '"25Ĉ' Ūſżȼƞ&ȼ5}ȼ Ʀ           "=ȼ$ȼ 5 NA 4G SBHV`?A          ^
-N I RH -`6NB  N=6I`NB=S `Z `5 QNC`H`*ND NW1[` 6`P,E7O 22[` EN! T_
-- O` A=<SA*78` O` 5 NB" -*I UBJX`.` =` ?=KJ* #3*N#J` 9` #5?=LL$ /N%H`
-&6` O` =6='6` [: 5( I` =` )7OF  O*Y*O\` O O` +M` ; \` Þ4 $ȼ $ȼ ȼ
-=ȼ Ǟ ȼ "ȼ '$ "ƅȼ &ȼ "ȼ  ©Bȼ 7 '5 fȼ ¯&ȼ " ċ
-7ȼ ȼ&ȼ 6$Yȼ ȼ 6&ȼ ªȼ ®¼Z$ěȼ +ȼ +ȼ y¤
- =¼52Íȼy=$'ĭȼ ȼ4$ê ūȼ
-   ȼYȼ$÷Ȏ  Ĝ  ȼ$   =>ǆĈ'5ȼȼD '$²³îZĮȼ $ȼîȼZï#ȼ
-ȼ "Ô #ȼ ®$ȼ ȼ ȼ  ȼ "Ş #ȼ  ȼ &ȼ #"ȼ +ȼ
-Zb³şȼ ïȼ " \"5ȼ  ȼ y Bȼ Ȫȼ 5$ȼ  4ȼ ȼȭ
- ȼ²ȼ6& &ȼg ȼV6ȼ =ȼBŠšBįȼȼȼ6 5 &ȼ'&ȼƧVȼ5ȼ
-ȼ "&$6$ȼ ȼ =Ț$ȼ ȼ&ȼ  >Fȼ ®"ĝȼ ȼ bȼ
-7'5#ȼ Ā'ȼ 72ȼ5ȼ'&ȼȼȼ$ðǁȼ6ȼ ȼȼ&ȼ6"ȼȼ
-ȼ &ȼ ȼ ȼ$bȼ $&ȼ 6ȼ 6"İȼ   ȼȼ 5  ȼ ȼ 5ȼ
-" ="ȼ >` &±ȼ 6ȂBȼ bȼ ȼ ȼ  ȼ vȼ &$ȼ  ȼ ȼ '&ȼ
-6$BŮȼ &ȼ /ȼ 'ȼ Ǉ Vȼ 5'Bȼ 5ȼ "ȼ  Bȼ Îȼ                    "5 "ȼ #$Ȯ
-fȼ å&"}ȼ |#b$Ďȼ ȼ ď BĐȼ $ȼ '"Ţ +#Vȼ ţ '5ċ
-ȟȼ ȼ Çđ&Ēȼ ē#"} Á ȼ$ȼ &76`ȼ "ȼ'">ȼ Ĕ $Ğğȼ
-Ƶȼ 7ȼC ȼ"ƺ="ǈȼ ~ȼ 6&'ȼFƀŽȼ
-   Ɠ $>ıȼ         "'ȼ "ȼ &>#ȼ &Ŭȼ ȼ ȼȼ 4 ƻČ
- >ǰȼ  ' ȼ y Ĳȼ          $ȼ $ȼ ȼ "$ȼ " &ȼ
-ǟ 'ȼ '&'ȼ 5'ȼ ȼ ȼ &ȼ 65'5ȼ 'ȼ $#ȼ ȼ             $5 $ȼ 4"4ĳȼ ȼ ȼ
-y "2ȼ6+2ȼ "ŭȼƌ4 "'=ȼ"ȼ '='ȼ'&"=&ȼ47 V"ȼ
- "  ȼ &ȼ"ȼ $ =ȼ  ȼ ȼ "$"Ĵȼ "$ '}ȼ ȼ
-'&7ȼ "67UíFȼ ¯ Cȼ 5ȼ $'ȼ   ȼ'&ȼ /Zñȡð'ȼ ȼ ñƹ ZȼȼB5ȼ  +Č
- Ùȼ+ȼ ȼ$ȼ'ȼ6$Ǧȼȼȼ $ǉ ="ȼ6ȼ"ȼȼ4$Zë >"ȼ
-4" ȼÈ6& &ȼȼ6ȼ4ȼȼ&ȼ ȼȼ &ȼ="ȼZ ȼ
-Ć4"CD 'ȼ ȼ g7Ā'ȼ b5&'ȼ /ȼ Ì f ȼ ¬/ ""ĵȼ ȼ $5 "ȼ
-4 "ȼ ȼ 6ȼ ȼ &ȼ 4" ȼ   ȼȘ© +ȼ 6+'&ȼ &"ȼ                     "=Ķȼ
-ȼ&ȼǯȼ É"#`ȼ bĉȼ               ȼÉ6&+ &ȼȀȼȼ$ȼ
- "ȼ ö"'$5ķȼ Ǳ'/ȼ 7ȼ  YǊ'ǋ Vȼ  ȼ Vȼ ȼ Ƽȼ '&ø#ȼ
-g">ȼ '$ĉ`ȼ ȼ ¶=ȼ C"²ȼ ȼ "' "ȼ $ + ȼ
-                        œά ǜά Lά ɲά ˲ά ȃά Ŕά eά ʩά Lά ŕά eά õά {ά ż౔   ÎАÎ౔
-
-
-G[I¢ cE¢ Y\M¢ ]¢ YI¢ E^GrE¢ EEE¢ ]¢ Ie¢ EH¢
-YIIMI¢ e¢ YI¢ EI¢ M¢YI¢ eEEG_¢ YE¢Is¢e¢YI¢HG`¢ M¢
-I¢YIIE¢EH¢¢'¢ 6HE]I¢H¢¢c¢ctt'¢
-   5XIaEt¢cEEGe¢EJ¢IGeUG¢GEEu¢EIeEr¢IEGI¢YE¢E¢¢
-E¢¢ ]vI¢ YE '  ¢AYI¢ Ie¢ c.¢ YE¢HI¢ Ye¢ etII¢
-IE]s4¢ :] ¢ 6¦ FeIO¢ LeI¢ I¢ M¢YI¢ H]SGteI¢ IH¢ F¢ I¢ M¢ YI¢
-I¢ Et¢EEGYI¢ ¢ HIEH]X¢YE¢FlIG0¢ YI¢ BÒ evr¢ Ive
-GEI¢ YI¢EI¢M¢ YI¢YE]¢vI¢M¢ YI¢YE(¢
-   @YI¢GI]¢YE¢EEEI¢EI¢HGcI¢M¢ YIIE¢E¢FI¢YI¢
-GI¢ M¢I¢H]GM¢M¢ZI¢Y¢ EI¢ EGGIH¢¢ YE]¢EH¢
-EfYEe¢EGG'¢;E]¢EGG¢HIEH¢Ye¢HG\¢E¢E¢
-HeIG¢ GIIGI¢ M¢YE¢ EGe ¢ GYeGI ¢ bIc ¢ GbI ¢
-cHIE¢ EtI¢ GGI¢ FIteIM¢ I]]¢ XEw¢ EH¢ YI¢ teoI(¢ 7
-E¢¢ Y]¢cI¢ >º tH¢EXI¢YE¢HII]EIx¢FHIH¢EH¢IeIH¢
-YE¢ FmIG¢ H¢ ¢ Ie¢ e¢¢ YIe¢ evII¢ e¢ EEtGrEt¢
-EGcGI)¢ 5y¢ FvIEcG¢ c¢ YI¢ EdYE]¢ cI¢ YE¢ IGEXI ¢ ¢
-HI¢¢TG]Iy¢HcGEXI¢ YI¢eEoI¢FIzcIM¢YE¢YE¢FHcI¢EH¢
-Fn IGe]cI¢ EI¢ YI¢ IQIG¢ M¢YE FEIH¢HbGeI¢ EGeGI *¢ =]pI¢YIe¢
-YEe¢GIE¢YII¢EGG¢IeGcFI¢YI¢EI!GrI ¢YE
-YE¢ EcEI"cEcEI¢ FeEeI¢ EH¢ YI¢ 9x]XYII¢ EvI¢
-EH¢EoJ¢YE¢E]YEc¢ IIo¢¢ HIEFe{eI'¢
-   <¢E¢EXIcEt¢IE{c¢EGG¢ YE¢FlIG¢EI¢I]YI¢cHI¢FI¡
-I¢ M¢E EEI¢¢eHIIHI¢FlIG¢YE¢cIII¢e¢YI¢ocX¢M¢
-E¢EEE¢¢YI¢HG¢M¢ GeEx¢IGYtXeI¢YE¢HGI¢YI+¢>¢
-e¢YI¢ eI¢IIv¢E¢ EI¢M¢c GEcX¢FY¢YE¢EH¢YE¢
-e¢YI¢EEE¢M¢F Hcy¢HGc(¢AYI¢]¢f¢E¢Mxr/¢¢YI¢II¢
-YE¢ GGI¢ vEFE¢ EexEe¢ FIEeEt¢ eIIb¢ EH¢
-YI¢YE¢  EGcGI¢YEJ¢E¢tI¢¢vE¢ c¢]¢E¢ E¢M¢ YI¢tEXI¢EIcEt¢
-GVXEc¢ M¢YI¢ |H,¢ BYE¢ ]¢ YI¢ YIIE¢ HGIH¢ EI¢ ¢ YI¢
-GIIGI¢M¢Y E¢cvr¢¢cI]Etc¢ ¢YI¢IQIG¢M¢YI¢IEg¢
-M¢8xI¢ =EXEXI¢ ¢?I*¢ ;E¢H¢ ¢IIr¢ EIFtI¢ HcRKI¢
-EEEI¢M¢EeP]X¢EcGyE¢qyIHXI¢mIG1¢YI¢YIItI¢EI¢
-E¢M¢ YI¢X]X¢IGNkXeX¢M¢ YI¢xH(¢CYI¢EeG}E¢GWXEb¢
-YE¢E¢EEE¢ EoI¢ e¢ ¢E¢ EFeE¢ GGg¢ M¢ ¢ GY]X'¢
-DYcGY¢]¢¢¢E¢YE¢YE¢EG]GI¢YEI¢¢rI¢¢rE2¢I¢l¢YEI¢¢
-FI¢ GtIE¢EF¢YI¢ EI¢ M¢YE¢~I-¢}ćŽ5EEI¢ EI¢ ¢EIF~EXI¢ M¢
-YE¢ EH¢ YE3¢ YI¢EI¢ I#IHIH¢ EGbGI¢ eyeX¢ IGjNkG¢
-eE$EGc¢ M¢YE¢ EH¢ YE¢ YII¢ YI¢ H]QIIhE{¢ Ge
-]¢ M¢YE¢ EH¢ YE¢ HIeXEI¢ EeG~E¢ YIIE¢ YE¢ EI¢
-YIIxI¢ eeGEIH¢ e¢ YI¢ HEcG¢ M¢eE%EG]]¢ ]GtHiX¢YIc¢ I&
-                     ÒВ_౔    & . C 8     D # 3 . : I * ED  8 I
-
-
-  \=˦  ˦ '*F/F˦ j˦ ˦ '*x=/'F=˦  ˦         {/]ǠƁ˦ Ș˦ ɉơ˦
-/˦ g˦ɯ˦˦'˦ ÿ˦'˦˦ʻ˦˦'˦/ ':˦
- ˦ ' {:˦ /˦ ˦ ˦*J/\'˦ *:£*˦/ '˦ ˦ ' '˗
-F˦ '/=6˦6˦ Å  ˦ *˦ ˦F ʽÅ*m:!FČ˦ /˦ '˦ '˦ ˦
-6˦' ǅ ˦ *˦˦o˦ *˦'/*/':]˦
-   ˦ Ɋ˦ ˦ ˦ /˦ !˦ ˦ ' jµ˦ '˦ ˦ /*˦  ˦
- *ɍ£*˦ '*\*Ì˦ ȅ ˦6˦ <: '<˦ 6/˦ ** :˦  ˦6˦ /^*˦ ˦
-*˦˦ ʨ*/'˦        '/˦˦*˦˦ */˦ >FF=˦6˦à*˦ '˦
-˦ =*˦  ˦ è˦ ˦ / ˦j=b˦ ˦ ˦˦ ˦/˦
-/Ļ *˦'˦ '˦ ˦ :˦˦=˦  g˦!:*˦  ˦ 6˦˦ '*:*˦
-6˦ ' /*˦˦ ˦ =˦!sF=s Ì˦'˦˦ ë˦*ľ˦˦ J/'˦
-~˦ ˦ ˦ w>j=˦j ˦ M˦m ˦ *6 ˦  !'Ƣ˦ ˦  ˦ Ŝ
-ƣ˦ ˦ é˦˦  b˦ '˦oŅ /˦'˦˦ **' *˦6˦˦
-'˦ <g˦ ˦6˦Y<˦F˦ F ˦ ˦ ˦ ʇµ˦ ˦*ľ˦ ˦*˦
-6˦  '˦ '=ĕ˦Ò˦ '˦˦ *6˦  ˦˦ J/\˦ F˦ * ˘
- Z˦]˦ Ñ˦6˦ *' g˦ :˦˦˦p'Z˦ 6/j˦** ˦ ˦ 6˦/^*~˦
-˦6˦ =\˦ '˦ û˦ 6˦ */'=˦ ˦ :˦ ˦ ' \Z:˦
-=\˦  ˦  ˦ ˦ ˦ <> />˦ /Ġ^ *s˦ 6˦ o˦   o ˦ ˦ ' ˦ ˦ *ś
-J/*˦  ˦˦ *:]˦ =*˦ :˦ ˦ 6=˦ 6˦ /˦  ˦ !˦
-˦ /˦!˦˦!r\=˦ ='È˦ ˦=*˦:˦˦˦:r˦ ' m:g˦
-\'˦˦'˦ȶǖ˦ǽ/ 'Ƥ˦' įF<©˦F˦˦ʴ6˦*/F!˦'F=6Ā˦ =ñ
-ƥ˦ '˦ :o˦  ˦6/˦ ˦'˦ *:˦˦6:˦ *6 '˦ ˦* '˦
-¥ÌƝʤ c˦ ' Â˦ 6/˦ /^*˦ ˦ !˦ ˦ '˦ ˦ b˦ :  ˦˦ */m:!˦
-'ZÃ˦ /˦˦6!˦˦ ˦ *<'˦/˦6˦ /'˦  ˦s˦']˦
-   ˦=:˦':˦/ ' ɋ=˦ ˦ ˦˦ ˦=*˦:<˦˦F=Fxŝ
-*˦''=˦  ˦6˦ ' ˦ ** j]˦ ɵ ˦ j*/˦ o˦ ˦ :˦
-' '˦ ˦ '  ˦˦ 6˦ J/˦ **':=˦' :::˦':*/ ˦
-6'˦ A /˦˦ '< ˦ J/İ˦ 'İ˦˦Ę˦ ˦˦    '˦ £'Ǩ˦ Î ˦6˦6/˦
-*˦ ˦ '/ ˦ '˦ 6˦ /˦  ˦ :˦ ˦ ='˦ * ˦ ˦ ˦
- / ˦  ˦˦ 6r˦ 6˦˦         ˦ ˦ à*©!Ì˦Ò˦Øb˦ :˦ /'˦
-/ F=˦ ˦s˦6/©˦** ˦  ˦ ˦/ļ*g˦!Ƃ˦˦ /£ ˦˦
- ˦Ǵ'õ˦ ' ˦'ɼ˦˦ */'˦m+˦ ^*!\m˦ M˦*F*Ʀ˦ F*˦ 6˦ <*˦ ê6˦
-/˦ ˦˦ *'˦  ˦\˦ '/^*:!˦ ' '\=˦  ˦^ *ëɎ!jĕ˦ ˦ 
-ɵ*m!Ɍ˦˦*'Fx* ǳ˦
-
-
-
-      R  =   d 0 q 1bw{      O  {    ) Ob2       B{]  U     [     3 C 3bw{
-
-
-A'˦/ ' ˦ë˦ J/mį˦ ˦Ļ *F!ʾ˦˦ *ʙ/˦˦ ˦ ˦ ''µ˦
-*=ĉ: ˦˦ c. w ':'˦ *=ĉ ˦˦ ˦ J//˦ 'µL˦ Ǿ'˦
-A6'~˦ m˦7˦˦J7˦ '=6 ʫ' ǩ˦: ˦J 7/˦ :*˦*˦7˦6˦
-                              ), %  &  ,                    ,
-
-
-
- #˦  ;Z˦ #$>˦  ^)#;!˦ Z#˦ $)˦ # ˦$# ˦#˦
- $˦) " Ȫ #$ ˦˦˦               ˦1ı ˦       T #˦"˦ee ¼h˦#1˦#˦
-!r˦      "$<$œ˦      ˦# ˦ ^$!$˦    ˦ ;˦;˦#˦#¬L˦Ȇ˦#˦           G h˦Ï˦ ȷ ˦
-˦      ˦ #$G ˦ "" ˦        1 ˦A 1f˦#˦#$˦<ʊ,ā˦ ˦‫ ౔ر‬,˦##˦
-²˦   ,;)<˦   ",˦             ˦A  õ˦  #$ ˦         ˦   ˦$˦#˦ $˦                ˦˦
-#     ,f˦ )  # ",˦          ˦ ɶ)#"$#ðƧ˦ "  ˦˦           #1ɏ#˦ ñ
-) $ h˦"˦) # #˦# ˦ǵ 1 ö˦ Ĳ#$˦Ċ ˦   ;,i˦
-     ě1˦ #$ ˦  ˦ " "  ˦               #˦ #ŕ˦ A 1f˦  ˦ Ǻ"#$˦
-f)1 ˦ "#˦ ")G˦ $˦ ´ ¼ ¹ S Ł ˦ ǻ$$~˦ ȏ                   Â˦  ˦  ˦ wȑƘ˦
- ¯$ ˦˦eef˦#˦˦$#  ˦# ˦1¬˦ 1")$#ƃ˦,f ",˦ ¡ĳ ˦
-"˦J#˦# rƄƅŮ˦ě˦ė˦)1<G,˦ "˦ #˦ ʞ#$ ˦                            ˦# 1˦# ˦         ˦
- $˦  ˦ #˦ J#˦ $˦ #¯G˦ ˦  #˦ ɐ#č˦ $)"#˦  ˦ 1"˙
-<       1f˦       ˦ $˦ !˦  # ˦ #1˦ #˦ Í˦ e ˦ a                 ˦ w$#"Ɔ˦
- $ G ˦ #˦ J#˦ );˦ ˦  ˦ ¯G ˦  $<Z˦    ˦
-#˦ # ˦ ) $)˦ ©#˦           ˦  1 ˦ }"]h˦ a)1,˦ Ù                $ ˦ $˚
-## ˦ $˦ $,˦!$ >$ ˦               ˦#˦ e;Z˦ # r˦             ˦ Z#"!"#Ǘ˦ Ǹ ˦
-Ȃ         h˦ ˦ 1"Ņ  e1 ˦        ˦)$Ă˦  ,˦ ˦ Í""Ƈ˦              $r˦  ) ˦
-GG˦  )˦        ˦ ˦     ú˦      ˦  #G˦ $Ǫ˦ ˦ !$ Z" ˦                   ˦#˦
-# 1$˦ "##˦ ˦  #:ʈ˦  "Zı#É˦ [                          ˦w ɑ#;h˦  #$G˦ ˛
- ;<$#ƙ˥˦$˦ #1ɒ,˦G˦#˦#˦  $#$ ˦                  ˦ ^)#;!$ðĎ˦           ˦ˉ G$ǫ˦
-
-     ȍ"˦ Ł ʛ˦ tmbŁ %rŁ ɓƨ˦ ÁâMŁ ʯeʰ˦ Ł×Ł #Ł 4# Ł î;Ȣ˦
-        ɔ ! Γά ;˦Ł Ò^%ŁŁŁ4ùŁ ķ>" Łî ĖĄ        r    ŁŁ ŁŁ  ŁO!ŁŁ
-      ˦˦ Ł://ŁŁ Ł]M đ ÐÖŁŁŁĕk§Ł Ł%/Ł   Ł
-        ŁŁI/à!Ł| Ł  ŁOl+ŁŁ %u*¨_Ł@P  Ł`Ł #ɕ˦ ĺĽ
-      ĀêĪ« ŁÂŁLĤŁ ĩtŁuāŁ ʵ:˦#ʉɽ˦  a   # ȗ  ŁŁ%ŁŁP/@ã*Ł
-                                                                              r
-
-
-
-       4­Ł ¿ P  ŁÛ 4ŁUŁ a  ŁŁ Ł L FŁ UĸodŁ äŁ Ł "Ł Ł
-       dúŁ  RŁ  ŁŁ  %ĂĳŁ          $ !b l  5Ł ! "ŁŁŁĴ
-                                                                   r
-
-
-
-        "Ł c   ŁĹ]!Ł ÜŁ k#Ł åŁ I@   Ł Ł Ł Ł |Ł
-      Ł  4 Ł ˦ Ł !,Ł Ł Ł [æûŁ  `üŁ çġ"Ł "Ł
-       Ł 4Ł FŁ Ç!ŁŁ4ýèŁ ##˦ %ĢŁ Ł%+ Ł>ŁLľ
-      #*ŁjŁ    * Ł >È&/Ł !þŁŁŁŁŁ>ŁM  Ŀ
-       ˦ Ł @    Ł   ŁŁ >%nļŁ ; !" mŁ n/Łî;˦Ł    !Ł
-      Ł oăŁŁ éÑÿŁ¬ŁÄ ŁµGTSŁ¶G¸©GºŁ
-
-      Ę˦ # ˦         ˦  #˦ # ;     y˦ $˦ #˦ )  $y ˦             ˦ ɷ)#y!$#˦       ˦
-Í$#"˦ Ȓ #$â˦   " ˦  ˦ # < ,")<˦   $<$œǯ˦ 4˦ #ŕ ˦ 4˜
-#˦ e#y<˦   # ˦ ˦  ˦ )˦ ˦ ˦$¡¨$#yZ˦  #;G˦ ;fG˦ G
-˦       ˦   #G˦ # "#˦ ÈǡĐ˦ )h˦ "˦ w""ƈ˦ ˦                             ˦
-#1$ɾ$,Ʃ˦ ˦  #"<˦ e #ɖ ˦            ˦ f! ˦  ˦  ! ˦ , #˦ y ˦
- # ¯ ,$)G˦ f$G$#ð˦ ˦ J#<˦) ˦#˦  $#$ ʚ˦                              ˦ #˦     ǆ
-                            Ððê౔     ) 9 U C     V / = 9 J ] 5 WW  C ]
-
-
-
-(""Ŕ˦ 9 ˦ Ľ o!"ʶi˦ A˦ɗ9˦  ˦ -"" ˦ 9 W˦ à "!oǇ ˦ W Jɘ( ˦  ˝
- ˦ 9˦ ˊ  əŔ˦              ˦ ( ň! ˦-˦ ( ň! -˦˦ W -˦˦ ˦ S"  ˦
-    9˦- (Ú˦( ˦ 9˦ k˦(         -˦ (( (Æ(˦˦(˦  &˦k -˦ ˦
-J  ƪ˦  ˦ ɸ !˦(            (˦ t ˦&˦  Ù k˦˦ ˦ k ĎǢǦ˦
-        A ˦ -ª-˦  ˦ x-˦ Ǽ"(  Ɖ˦   (˦  &˦  ( ˦ A ˦ -ª-˦  ˦
- ˦ 1 ˦(@ ˦   1Úã˦  YĴ 9 i ˦[ ˦A À˦ Õ ˦ ǈ -˦                     ˦
- @ ˦                  ˦( ʍ˦(      -˦( ˦"˦ S d" -˦˦ ˦ 9˦
-˦  ˦  & -˦ (            -˦ ( (˦  ˦  ˦  k˦(     ˦ ˦ ă˦ ˦ ˦
-ů ¹˦         9˦  ˦        Čǣǧ˦ [   ƫ˦ 9 ˦ A b˦              q ª!˦ ˦  ˦
-  -˦ ˦ ( Rã˦         ""L˦ ǿ ˦  ˦Õ&ý˦ ˦ A Ɗ(˦ Ƭ˦ w ˦ɚ(˦
- ˦  -˦ ˦1  ˦ @ d9˦ ˦   "@ ˦ - " " (˦ "- ˦ 1 ˦ J"(" ˦
- -« (˦ 9 ˦  ˦ ŗ«(  ǘ˦ [t   Ä˦ -!- ˦ "(˦  ˦˦&! ˦ ˦
- ˦ ã˦ 9˦           ¡¨˦ (˦  -˦ ˦ ˦ a         k˦ & @ L˦ A ˦
-&& ((˦ ˦ -¢  ˦( ˦ 9˦ ˦ 9 ˦ q !L˦ ȇ˦A Ƌ(˦  ƭ˦ q Ş
-ê!ʿ˦¦(˦ ˦  ˦ 9˦Õ ˦ @"& (˦  @ ˦ 9˦ ˦  ((˦ 9˦ ˞
-     - ˦ ŗ          W@ (ǜǝ˦
-        Ĝ˦(Ʈ˦ q «!˦9 ˦A ˦˦ ˦˦@ ˦ 9˦ &˦˦˦  ! ˦9W @˦˦
-     ˦ (˦ (-&˦ ˦  - ˦  - -˦ ˦ ((˦ ((ö˦ @  ˦
- ʋ 9Ĵ˦-!-( ˦ ˦˦ J ( ˦ 9˦t ˦Ù& ˦   ˦
-    9˦ ˦  (˦ 9˦        -¦k ˦ a         ɛ@ (˦ ˦  (˦  ˦        ((˦ 9˦
-        -§˦-˦@& ˦ @" ˦"(˦ ˦A «˦˦  -˦
-˦  ˦         (L˦Ľ ôά ș ˦ Y˦       ˦ ˦ ˦  ˦ ˦ a     @ ˦ "(˦     ş
-9  -˦ -˦  ˦ -   ˦ ! (˦ 9˦ ˦ ƌƍ                  ˦ @_˦ L L i ˦ Ħ˦ ˦
- - (Ű˦ ȣ˦  -˦ ˦˦ ˦  è ˦ ˦ "& (˦ -ȫ  ˦ 9˦ ˦
-      @  ˦"(˦ʔ- ˦              ("Y ˦˦ ˦9˦˦ ˦       ˦  !"- (˦ ˦˦
- ( Yt ˦ 9˦ ˦   ˦ -  W˦                      ˦ q ˦ -˦ &  ˦       9˦
-    ( é ˦˦  ˦ &˦     ˦  - ˦˦ ( ɜ ˦ 9 ˦  ˦ Š
-    ˦  ˦ -  Ą˦ ( ˦ ˦   ˦ S(˦  Yǉ- ¡ĳ -˦                   (˦ ˦
-˦ ˦( -˦ ˦ ļ ! ˦- ( ˦ ˦ ((Ǚ˦Ĝ˦(Á˦  ˦t ˦     ˦
--˦  ˦  - -˦                 ˦˦W ˦ -˦  ˦ - (" ˦ ˦ ˦ -"  -˦
-˦  ˦-˦ ˦(@ ˦               ˂(˦ Ɣ ˦   ! ˦ ˦"  ˦@"&t" ( iǤÊ˦
-        ǹ&˦ ˦  ˦  Y &Y˦ - ( (˦ 9˦A Ǝ(˦ 9  ɿ˦  !- ˦
- ˦       (Y˦ 9˦( & &˦  ˦   ˦ 9˦ q R!v˦  !-&˦ ˦   ˦
- (˦            ˦  ˦ ˦   ˦  ɹ ª!"tL˦ Ð˦k ˦ (˦  ˦ -- -˦
-  x˦ 9˦ ˦-             -&˦ ˦˦@˦  é ǚ˦ Ě&"xYÄ˦  ˦d Ŏ! ˦ઈ౔
-          ( ˦    !- (˦  ˦       (˦    9˦  @ !&˦     ʌ @"˦ 1@˦  Š
-@ ˦ ˦ A Ə(˦  ˦-˦ ! -&˦ @ ˦ 9˦ ˦  (˦  ! ˦  ˟
- ˦ 9˦A ô(˦                  Ǌ ((˦  ˦(x&˦ q !tǥǟ˦ Ȉ˦@˦
-& "­˦  d(˦ k W" Ư˦ Ȟ˦                ˦ ˑw( " Ɛ ( ˦9!  -»˦ ( Y˦    Ċ
-                            $ ! 9 X )  2 ]C   3 ) K 4 ]            ]
-
-
-
- ;b;Xऺ  ऺ! ऺ!;#ऺ# Â!;ऺZऺ  û# 8 !Xऺ  ऺ(Zz6Ps(cl!HR7zZ
-(Zz8SN )[#z)& `[{`N`1#N s(d i !9Q:z ;z/<Z z/( c/(Z`X(Z`Z Ġ û#Â8 ¼Xऺ ऺ
-¼ऺ#1 ŭ‫ݪ‬# ऺ  ऺ! ऺ ZƄऺ ऺ$ , X;#ŲऺÂ Â8Â ;$ऺłऺ#;#¬ऺ
-Ƅ #Ƅऺ #  ऺऺ Ƅऺ 1 ɹऺ Ӏऺ ȶऺ ऺ 8 ऺ
-ǂ  ऺ ऺ! ऺ $, X;#ऺ Zऺ          ȶ    ऺ ,ऺ çऺ ऺ §1 Îऺ Ñ ऺ
-##;¬ऺ , !ऺऺ ऺ ऺ,,!ऺ#ऺऺ ऺ#ϖऺƄ!ऺZऺ ऺ
-!͆#ऺ; $;#Xϖ࣭‫ऺ ऺࡂݧ͂ࢤݩ‬, $Ǣऺ  ऺ (\{7 t(cm!=K>z
-z/()Zz? TM(]#{(%X|(j@N$`Z%1zA_Z`-,{*h:`kA{Bz0:Zd/(Z`X(Z ch`C%(s
-{/( #`Z%D}`Z.`h {0*c`uvE!FUI{ `. `!J+#~G  ǌ     ऺ!Ųऺ#!ऺऺ #!ऺ ऺ#ऺ
-#ऺ#1ऺ  ऺ¼ ऺ$ ऺZऺ ऺ R ऺ $!ऺĩ¾#!δऺ Xऺ ऺ
-$  ऺ  û#¼ऺ ǂ#۹çऺ  ऺ ӟ#Ğʁऺ $ऺ                  ऺ ऺ , $ėऺ ƕऺ
- ऺ,,!ऺ ऺ#  Ʌऺ ऺ ऺऺ#1, ;ऺ# ऺ ऺ ऺ Ğऺ#ऺ
- ऺ 1Zऺ ऺ ! ऺ ;!;ऺZऺ ˌ#!ऺZ$ऺ #;ऺ ऺ ɴ!ऺ  ऺ
- ऺ#ऺ!#1ऺƏ ऺ #ऺ  ऺ,;                ;! ऺ ऺ Ȅ! ऺ ऺ  8‫ݨ‬1ऺऺ
- ऺ X$˶çऺ # ऺ Xऺ  ऺ #ऺ ř ऺ ΃ऺ #!ऺ , #ऺ ;!ऺ
-, $ėऺ Ǯ# ƄXդऺ  ʌऺ  ऺ ,,ऺ ऺ ¼ ऺ #ƄƄXऺ Â Ƃ#ऺ Ə,ӌ
-8   ऺ ऺ# ;;ऺZऺ#!ʼऺऺ#Ğऺ#ऺ!#Ƨऺ Z%  ऺ#                     ऺ
-ऺ! ऺ,; ; XऺZऺ! ऺ û #!;8ऺ #;,!͆ऺZऺR  ऺ, $ŧऺ ,;Ĳ
-ऺ! ऺऺ;$,!ऺ1##я!;ऺZऺ ऺǮ!;ऺ,!;ऺZऺ; !b Ĳ
-    ÂXऺ ऺ$!b ¼X°ऺ  ऺƄऺ !ऺZƄėऺ
-     Ñ ऺ $,Ğ# ऺ Zऺ      ऺ ,, ऺ             ऺ ऺ ऺ #        ¼ʼऺ Zऺ
- Ѭ#;8Xऺ ऺ   ;Т¬ऺ  ऺ 1ϗ#            Ėऺ Ð˦   #ऺ  ऺ $,Ğ # ऺ
-Z͠¬;ऺऺ ;# ऺऺ ऺ!;¬ऺ ऺ ! ऺZऺ ۨXऺ
-
-
-
-               J '¸ t  ¦ ¯  ' ¸ } @ ¸           } " ¯  a } t ¸  t " ¸
-
-                  ¦ J 4 ¸   } " ¯   a } t ¸ } = ¸ t ¦ ¯  5  ¸
-
-                          B 5 t  µ¸  t " ¸   ¯   o O ¦ µ¸
-
-
-ô Ȳऺ ;ऺ! ऺ ȲऺZऺ#B¬ʼXऺ##1          ऺ!ऺ  ऺ ##!Șऺ ô !ऺ,              ;Âऺ
- ऺ ऺ #XĪऺ Zऺ ;1ǩ#;ऺ ;ऺ  ऺ ऺ ,ࡹऺ ऺ ऺ ԡ  ऺ #$;Șऺ
-ô ऺ ऺ  ऺ ऺऺ,             ȲXऺ ऺ ##!           Xऺ !ऺ;ٰऺ
-     ǮĞ ȲXऺ  ऺ$!ऺऺ й ऺऺऺ 1Ăऺ ࣓ऺ ;#ऺ! ! ‫ ऺש‬ž1ऺ
-$,¬եऺ ;ऺ  ऺ !#;ऺ ¼Ӏऺ            #ऺ  ˪ऺ  ऺ ऺ ऺ$             Ƃऺ
-ƏŘĔƐऺ ͠8ऺ;!ऺ$1ऺçऺ! ऺ! Xऺ ;ऺ ; ऺ!ऺ ऺ! ऺ#ऺ Zऺ ऺ #!ऺ
-Ƅ‫ ! ऺ ! ऺ ऺݑ‬1Ϥऺ ‫ऺ!ٶ‬## ;ऺ!ऺ ! ऺ ¬;$ēऺ ,Xऺ $ ऺ
-! ¼ऺ   ऺ ¼ऺ ,Â¼ऺ   ऺ ;ĺ#! Ĕऺ Ȝऺ ऺ ऺ ऺ !ऺ ! ;ऺ  ऺ
-# Xऺऺ     ऺ##̞ऺ
-     Ġऺऺ!ऺ ;!ऺ##Ȉऺ #ऺ  ऺ #ऺ ऺ   ऺZऺऺ
-,#;ŭ¿#ऺ1Т;ऺ ΅ऺ  ऺ û#!ٟऺ ऺ#ࠀऺ;ऺ#;Xऺ
-                      ͷïЂ౔    ‫ ࢐ ݐ د‬Ƭ ѩ ˱ Ѫ Ӑ ࢑ ‫ ܊ ౔ ࠬ ݑ ޖ ذ‬ѫǑǑ Խ Ƭ ౔
-
- EŽ Ž Į Ž   Ž Ž   Ž  1Ž  Ž  šŽ Ž  Ž .Ž
-%Ž    &Ž ŽŽ   Ž .Ž % Ž Ž ų
-)^ŽŽM  Ž Ž A7HÌŽ Ž @ĬŽIK  4)Ž Ž          ?Ž ?Ž
- Ž ÍŽŽ )rŽ5Ž(&Ž45IK {Ž bŽ@Ž)ŽŽŽ QĵŴ
-Ž Y1&Ž =ŽŽ  LŽ ŽŽV &Ž  ').Ž .emŽ [Ž   Ž  Ž
- Ž  Ž  ŽXŽ. ''ŰŗŽp: ¬Ž .'XŽ ŽŽ Ž©
-¢= ŽŽ &Ž Ž  Ž '[Ž ­®Ž A.Ž ¯ g °RŽ % 'Ž CŽ
-öŽ Ž ŊŽŽŽ¦Ž'Ž Ž ŞŽ A.Ž :RŽ  Ž
-'Ž [Ž '1 ŽŽ  ŽŽ ¡5ĭŽ ŽŽŽŽAŽR 7Ž
-cŽŽ3 YXŽ) GÎŽ 'Ž ŽŽL%Ž ŽŽ úŽ AĚÏŽ Ž
- )ŽŽ   Ž'Ž )Ž Ž  ŽŽ ŽŽŽ  1¢èť)TrÁĈŽ
-U  Ž Ž' Ž1ŽŽ ŽŽ ?Ž ŽŽ [ŽŽ Ž= ŽL)Ž
- (Ž4.(8fŽ Ž   Ž  Ž )Ž Ž Ž :   Ž' '&Ž
-Ž Y4¨dÐŽ4ŽŽF ŽŽ  7Žĉ }Žė@ Ž%&ÑŽ% ŽŽ   Ž
-ŽŏŽ  w1'Ž5Ž Ž± Ž ŽĲŽŽ@  ² č ŽĶŽ@: ŵ
- &Ž '¨ŽŽ      Ž  Ž Ŧ Ž% EŽŽŽ EŽŽ Ž4 WŽ
-ŽŽ X Ž .1Ž Ž)17Ž Ž VŽ : Ž Ž  Ž
- é.^Ž` Ž ê Ž Ž Ž ÷Ž
-   Ĥ4Ž Ž    Ž 4: Ž )Ž 4WŽ  Ž  Ž Ž Ž
-Ž Ž (ţŽ n   &Ž )Ž hŽ4  4 mŽŽ Ž )Ž
-Ž  Ž %'N^Ž ģŽ  Ž Ž§ Ž Ž ĺNŽ ¤1-Ž M&Ž Ž Ž
- ¤&Ž Ž Ž n  J '1&TŽ Ę Ž GsŽ 'Ž .Ž ' FJŽ Ž Ž
-. ='ÒŽ  Ž Ž ĪĻ Ž Ž Ž G  Ž  Ž  Ž Ž e=Ž
- yŽ  Ž5ŽŽ' &Ž')Ž ŽŽŽŽ% ŽV  Žn'Ž'Ž&Ž
-  -Ž  Ž  Ž@śŽ  L@Ž&Ž  øŽ ěŽ Ž Ž Ž)Ž .ª
-Ž )'¦o?Ž Ž Ž =ŠŽ ŭ5 Ž  ŋŽ Ž f) FŽh3FŽ Ž) -Ŷ
-7Ž AĜŽ Ž?Ž Ž  Ž 1ŽEN&ŽCŽ .Ž Ž  Ž .&Ž
- ı Ž Ž  Ž Ž 1Ž  Ž Ž1 Ž ³´Ž  Ž µ  ¶Ž  Ž  Ž
-À Ž  &Žp ·Ž7RŽ Ž Ž  Ž ÓŽ 3Ž  ŽŽ Ž G1Ž
- SŽ Ž Ž =Ž Ž%Ž - Ž Ž Ž . &Ž Ž GŽ %Ž
-  Ž V)Ž 4(oŽ Ž FŽ Ž%eŽ 5ŽŽ hŐ&Ž )&Ž
-3 '?Ž &tŽ  zŽ U1Ž 3Ž Ž 5Ž Ž1Ž   5ĔŽ Ž
-  Ž Ž . ķ-Ž Ž NŽ  Ž £ =ĎŽ .Ž 81£oŽ Ž.Ž  ŷ
-   &ŽŽŽŽ  ĸŽŽ Ž:1ŽŽ  ŽÔŽ  ŽŽŽŽ)  Ž
-Ž ŧ ÕŽ  Ž  Ž.Ž SŽ %Ž)Ž Ž Ž Ž Ž  ŽŽ
-4(@TŽ
-   ĕ) YŽ  Ĺi4&Ž  Ž   Žő '=Ž Ž Ž 3 &Ž ¡Ÿ
-d)ù~~Žĝ Ž 1Ž Ž. ŽŽ N ŽG. ' &Ž Ž Ž    &Ž
-ŽŽŽŽŽ  ŽŽ  ŽŽ  Ž   d E&Ž  ŽŽŽŽ
-                         ŒǛ Ɯ ɱ ˱ ȁ  ȳ ά ʨ Ɲ  ȴ Ȃ ˆ ɗ ά   ొЏï౔
-
-ŽŽ -x3Ž  # HċČŽġ ŽļIK#?Ž            !$  "$
-!Ž Ž *Ž $Ž ʠ΍ʌ͎˖̰ͬµτϙ ξ˗µʵ˘̙ϙ     $   Ž Ž !Ž   Ž  Ž
-#ë-ÖŽ  Ž! !P&Ž !Ž!- Ž Ž  *Ž *l&Ž *Ž >mďŽ
-Ž  Ž Ž      Ž  Ž  7Ž B Ž Ž  Ž  #Ž  #! Ž Ž
-
- # ŽQ * *!&Ž P0Ž Ž ¸¥jŽ* ¹ ŽŽŽ º Ž:  × » Ž <Ž
-Ž!Ž iŽ $ ŽŽl0 ØŽŽ* *ŽŽ  Ž  M jŽŽ
- $Ž $ #Ž0 Ž ŽPŽ !$ #Ž Ž $ # Ž  Ž #${Ž
-BŽ   # #Ž Ć Ž    Ž Ž Ž  OŽ $ŽP         ÂŽ ©
-fuŽŽĞŽ 0!(Ž Q#7Ž bŽŽ Ž($(ŽŽŽ  !Ž Ž  ŽŽ Ž$ĦŽŽ
-CŽ Ž $Ž !(Ž ! ÙŽ0Ž * Ž> Ž  sŽ*Ž
-Ê ËŽ Ž $Ž Ž    Ž  Ž ,  Ž   Ž Ž $  -Ž  !Ž
-, $  ŽŽ $  ûŽ
-   ,Ľ(\Ž  Ž #Ž Ž  !> Ž  ( Ž Ž Ž - Ž O!Ų üŽ
-BŽŽŽ3 ,Ž vŽŽŘ Ž Ž #Ž* ÚŽŽ ŽŽ $Ž Ž
-3Ž ĴŽ *,Ž Ž Ž  Ž Ž Ž  Ž ,33#Ž  #Ž  ' yŽ
-Ė  ,Ž,ľŽ$l *Ž!ŽŽŽĿŽ* #3Ž  Ž $Ž j&Ž        Ž Ž
-ħLŽ ZŽ Ž  Ž,! (Ž  Ž    0 Ž  ŜŽ Ž $,Ž0O#Ž Ž
-* <Ž  ŽŽ#  Ž:Ž0Ž $ Ž Ō'Ž Ž  #ÛŽ Ź
-#!&ÜŽ Ž  !(&7Ž c,ì Ž #0Ž 3(ŽOŽ Ů ÝŽ Ž
- Q#! Ž $   ŽŽ !(&Ž $Ž ,!uŽ -!!Ž Ž !F Ž
- $ŽŽ Ž $|ĊĳŽ aŽ Ž Ž Ž Ž >,řŽ  !# Ž ŽŽ
-- Ž  ĀŽğ ÞŽ ,í Ž  ,Z> Ž*  Ž0ŽŽ  # Ž
-Ž0Ž!Ž!  î  ! Ž Ž ŽŽ(OHŽĢŽ0Ž Ž<ōŽŽŽ
- ŽŽ Ž!ï  Ž Ž  !!ŽŽ Ž *ŀHŽ aŽŽ ŬŽ
- $ŽŽŽ    ÃŽ Žg3 Ž Ž Ž Ž $¼ ÄÅŽ <Ž Ž Ž
- $Ž # &7Ž  ! Ž,  qŽ,, 0 ŽŽ Ž< #űJ ĐŽ 0Ž #ź
-Ž Ž   Ž Ž  Ž ŽDŽ - Ž       Ž  ŒŽ * Ž  0Ž ů(Ž
- J# Ž < Ž   Ž Ž ,  W7ŽŁäά B ,Ž Ž Ž -P&Ž  Ž  Ž
-#!-  Ž   $Ž!<w>ßŽ  Ž Ž  Ž Ž $ŽŽ 0Ž $ Ž $Ž-#àŽ Ž
-*ŽŽ  Ž $ŽŽ 0Ž CŽ $Ž#>  T½ÆŽBŽ0  qŽ :ş \Ž Ž
- Q <Ž-  áŽ Ž > Ž Ž ŁCŽ *Ž |Ž` Ž >Ž
- đŽ Ž Ž - Ž ¾Ž 7 ¿Ž BŽ   Ž $Ž<ð3 Ž  $  Ž  Ž
-*!! Ž   Ž $Ž !Ž Ž ŽŽ Ž  Ž,  IK,Ž $ Ž
- ŽŽC#Ž   ŽŽ !#ýŽ
-   ĠŽ Ž  ZŽ  Ž \Ž Ž Ž Ž #     Ž $* Ž !Ž *! Ž
-JŽ ,þŽ `ŽŽ  Ž# Ž 0Ž Ž  Z #&Ž Ž gª
-!-!&ÿŽ  *Ž  ¥Ž Ž  Ž #Ž *IK Ž     Ž  ,Ž  įŽ 3Ž   $Ž
- -Ž03!ŽŽ #Ž ,Ž $ Ž+łHŽ ŽŽ $Ž ŽŽ Ž
- #Ž##Ž  ŽŽ Ž ## 0 Ž $ Ž Ž a ÇŽ  $ <- Ž ñ
-                           ]   )] ; Y ]@]  [ ]  O ]_ά ïά 8] E] 7  O O " D ]
-
-
-
-Kư˦ ȱ ˦ aC >Ã˦ 3˦>Ʊ˦ Dȿ ˦ E ˦                   DT,>4Ʋ˦  , ˦ ˦ ˦
->$3 ˦ $˦           ˦ ȓ,.ĥK>4Ƴ˦ CKD˦.˦ ˦,.!˦?D˦;2˦ K˦
- $!˦ C |;È˦ [ N C Ă˦ ˦ ?K ˦ $˦ DHd4˦  ˦ E˦ !D4˦
-E b˦ H˦ ˦  ˦ ˦ ?˦? 4˦H˦ ˦  H˦ ˦ ˦ ˦  ˦ VV$š
-˦ ? ˦  ˦ HC L˦  g˦ $˦;˦ ˦˦EN˦ ˦?˦ ǋ!4˦
-ǐ!˦2˦           ˦ Ȥ˦      C 4˦ ? ,ƴ˦,*4˦˦ ˦Ȳ H˦
-[DKD Ƶ˦ K˦  ˦  ˦,4˦ .˦ ˦ DK .EH˦ K˦ ˦ 3G˦ ? ˦
-˦KØ˦A˦ɝED˦˦ TE˦C d4˦˦˦K˦,4˦Nd ˦3˦, H˦
-˦ C˦ ˦ V˦ ˦  ˦  ˦ E6E˦ ,ġ4˦ ˦ 3˦ $Dɞ3ġH˦ !D˦
-˦ H˦ ˦? C˦ĝ˦˦˦b˦  ƶ˦  ˦˦ ĵ3˦
-? ˦ ˦  !˦ 2, 2,˦?˦˦ C ;Vɟˀ˦ ?˦~˦ 2b˦ 4ˠ
-3D,2Ʒ˦  ˦  ˦ ˦ ? C˦ VH2,˦ ˦ , Ř˦ ű2Ų˦ }¸ŝ
-2òƚ˦ ĥˋ ˦  ˦˦d˦ DC;,˦˦˦½˦ a ˦˦ K ˦ 2,˦ ?˦
- 3K˦ 2˦  !2ÿ˦ d.H,˦ .  2K˦ ;ç2;2˦  ˦K6˦ Dá.,˦ ģ˦
-,4ď˦
-    Ƕ 4˦ 1*a :q\uv*lc.;aul u:a2  :u :q a *a w]*auacuqc],u4<a1u4u
-qc]*ca*clqc]*u4:a1 4q Ï˦*2˦3˦ ,H˦˦2˦ $3˦?˦ 3ĺ˦ ˦
-3ĽK˦ ƕ˦ 4˦ H˦ 2˦      a;˦˦ ½ č˦ Ȋ˦;˦ 2˦2˦ 3˦ ! ˦
-2 *b  7q )c=a2cl*>b1 7_ ?xq?aul  v> |7u Wu:qu4**au^*_uc.:u*lu@}*4a1*q
-
-uc goAzQjgj v7*q     Bu*ju:|*j*'c_1{j7_2q c. vcgcZe2=!R ]_Lc S )q c. qg ,wC]*
-]uv*l l*Tu:f_q    u5jcz15 u4* )a\:q c. :auj"v7|7u  *a :q czv #5_1Da1
-gcqq7:U;u;*q c. 4a2* *_u:X*) :a j*c[02 zj7_2 \u*lA S):qzjq:~* ggluzq*q c.
-c)DUgjc)zwEca:_Tz)7a1u4*cz_)l nu:zTu:c_q_)-Uzq:c_qu4uj*]lO*)
-w4cq*gjv7$*q 7aw5+*au]*auc. zqT qujzwzj* Ȑ  ˦ 3˦? ˦
-Ɩɠ2EDǌ¼ʼ,˦a;˦E˦ʣŘ˦CCEĄ˦ ˦N˦2,2,˦ 3˦E;˦
-2˦ TV˦ 3.,T2˦ K˦ 2E Ǎ˦ D 2Ġʎ4˦ T2˦ E˦ Dd ÷˦ 3Ī2,ą˦ ˦
-˦2H˦  _˦˦ çE ˦ H˦ ˦ T˦ a  ˦? ˦ ĵ,˦
-    Ȕ2˦  ˦,2V˦˦  ;ʐŚ˦ H 2˦ ¤22Æ Û 2˦
- Ŀ˦˦ 3 Æ ˦2 ǎ2˦ ˦2˦ 4˦˦˦˦Ŀ˦ ˦
-EN ? ˦ 2 ˦˦ ;˦?˦á 2$2,ǰ˦  ¿˦  ˦2 Ǐ2˦2 3˦
-E˦ ʹ˦ .D2E.G˦ȟ ED;,˦?˦¤˦ H˦ M*%wD}7u\*aq *:a1 $$czavT*.cl
-\ jPq ca c)F,r w5u :q  qg*%N& \v*jGYGyc_q =a v4*Hl )J/*m*_vIV ] vv*lDb1 ĝ˦
- ˦  23ʏ˦? ˦ ˦ ˦ E˦˦  ˦˦2˦3˦˦ ˦ N˦  Ş
-,˦ } ˦      ˦   ˦  ˦  23V 4˦ 3˦ ¸ų˦  ˦ Ŵ ¹˦ 34˦
-C ½ b ˦ 3˦ 3˦˦ ˦ 2˦ ,2ÛV˦  ˦ ?˦˦  V˦ 3ç2,˦?˦E˦
-2T ˦ ǷK˦  ˦ ,;V4˦ H˦ ˦ 34˦ $°°?˦ $H!H˦ 3˦ 34˦ ˦
->D, ˦ CED;>˦ D 2,2K˦ ?˦NN˦ ŵ`ò˦  ˦˦ ·  É¹˦ Ț˦ ˦ ¤˦ ˦
-  ; ˦ Û2˦2,˦ED˦ ȉ2  ă˦ Ú˦ 22˦3˦3K˦D 2 ;,˦˦
-˦  ˦ ˦ ?˦ ˦  ˦ ˦ ˦ HØ<˦ . ˦ E˦ ˦ <?ď˦ ėK¤.˦ .˦ ˦ ˦
-                          άǚά ƛά ɰά ˰ά Zά ά ȱά ʧά Kά ά Ȳά Zά F] 4]   o
-
-
-$a1;Q¬ऺ QͣQ&¬¼ś٠ऺ Κǽɝ1Λऺ 1ऺ81ऺ8Xऺ *1ऺ *$ऺ ţ & Ⱥ ʟ ऺӠa XȺऺ  ऺ
-ӡƌऺ 1ऺ QʕQaJa&a ऺ  ऺ a¬ ऺa 1& ऺ E ऺ8}XऺQ&aऺ ΜǞऺ ࠁ,ऺ aऺ
-QaĖऺ ż&aऺ Q&aऺȅa ;Ӣऺ aa ऺ  ऺ,a‫ ऺת‬ż&aऺऺ aऺQa ऺ *$ऺ a ऺ
-&a; ʍऺ ऺऺa ‫ۺ‬Xऺ8ऺQa ऺ Qऺ ऺ*ऺÝऺ
-
-
-
-               Ȯ ǩ Ë ǝ Ƞ Ș ë ǭ Ǽ ǲ Ʉ t ǽ ș ǳ ϙ Ȳ ȧ ǎ Ǟ j ė ϙ x Ǿ o j Ęϙ
-                                     g Ț ǥϙ o g x ȹ Ǫ t ϙ
-
-Ǩ$;Qऺऺ &aऺQ Ďऺȝऺ ,Q;‫ऺݒ‬1ऺa& Xऺa ऺ X$;Qऺ*ऺऺ Xa$ऺ ;ऺ
-aऺ Xऺ $aɝrऺ  &aऺ a ऺ a&ऺ *ऺ ऺ ,; ;;arऺ *1ऺ Q ŀऺ ǌ ;ऺ
-ɟQ& ऺ ,Q; hल;+ऺ a ऺ +a&ऺ *ऺQ&a;+ξऺ a ऺ a&1ऺ *ऺa ऺ Q&ऺ ǽ aऺ
-QHऺQ +̇ऺ Ȳ ऺ,; ɟ¬‫ݫ‬Eऺ*ऺ aऺQ+ऺQ +ऺ+ ऺ ऺ ;aऺQ+ऺQ +èऺ
-a ऺ+aҸ1ऺ ऺ1ऺ*ऺ, ; ¬ऺQ ʍऺ  ऺ a ऺQ ѐa;ऺ a aऺ,1 &Qऺ
-Q Ďऺǌ ऺ a& Xऺ*ऺ X+$rQuऺ ऺśaऺ;ऺ XऺQ+Q,aҸ¬ʽȷ ऺ;a ;ऺa ऺ
-+a&Êऺ Q;+QɆऺ ;ऺ Q+Q1+ ऺ ;a ऺ ऺ a ऺ 8&ऺ *ऺ,a;Q&ऺ8; ऺ
-Q ऺ81ऺ ҳ$ऺ ऺऺ 1&Ŕaऺ *ऺa ऺQ;+ऺ *ऺƻa¬ऺ *1Qʍऺ  1ऺ a;$ऺ ;ऺ
-,1&$ ऺ aऺ $1Q ऺ +ऺ ऺ ऺ ˯a+ऺ ,1$a1Ïऺ ‫ٴ‬ǽ;ऺ 1Ŕ;$ऺ ऺ
-+aऺ;$,Xऺ,ऺऺ ;+aऺ X+$;Qऺ ǃ& a;a&aÒ+ऺ ऺ aऺ *ऺऺ *ऺ ê
-a 1ñ١ऺ¦aऺÃ+a1 ࣝQऺऺaa 1ऺ ;1aऺ& 1a+ ;ऺ*ऺ X+$;QŘऺЋaऺ;ऺ
-aऺ$1Xऺa aऺa ऺ *1$ऺ *ऺa ऺ Q&ऺ 1¬a;ऺ ऺ ऺ Q  ʎऺ &aऺa ऺ
-8ơऺ ¼;ऺ *ऺQ&‫ݮ‬aXĪऺ ऺƃŔऺऺ QXऺ ,Qզऺ Eʽ$ēऺ + ऺ $΄1ǅऺ 1ऺ ऺ
-Ç Řऺ ċ  ǆऺ;+ऺǽ ;ऺ ۘQQ&+aǣऺ a ऺ8Xऺ a&ऺ *ऺQ +ऺ+ ऺa ऺ ,Jȸ
- ;¬;íऺ *1ऺ Q ऺ Q mऺ ;ऺ ऺ +;+ऺ * ऺ ऺ ,aऺ *ऺaɝऺ  Ⱦऺ
-;+a1ǪQƇ;8ऺ X$;$Ëऺ
-   Æ+¼̏QHJऺ1ऺ1 ;࣌ғXէऺ + a1$;+ÒǽÒQऺQ&ऺQH$+aऺa 1& ऺ
- ;Q ऺ$aaʖ;+ǩa Ǉ,Qǩ*Ȍ Q$;+ऺ;ऺ;aar8Xऺ*  ऺ;+aऺ;aऺ +Ώ
-;ऺ ;ғࢽऺ $H;ȥȷɟ+ğऺ ó&Q ऺ ऺ X+$;Qऺ ;ऺ +aऺ $͛ ऺ Xऺ +ऺ
-ƻa;ऺ,$aऺ Q¬ ऺ Eɠ$Īऺ 1ऺ ऺ ;aऺ aߩऺ ,¬Qऺ ;ऺ ऺ Q+a̭;ऺ Q¬ ऺ
-,QŘऺŐa èऺ L0T«2³Mm!Nsl³"³C0³-®ljN#³C}s¦BC³­CN!C³0jxscN®³m-³
-xOdO®³}0³xs-¦$3-³n-³N0}N«3c®³0$sm@B§}0-³P m ³C0³j2}QbN²Qsm³s>³xD0osj0l³
-l.³C4³ 0j`NlB³ s?³j2}Re .O$¨}S«5³ s¦l-O0³ n.³C0N}³$tmN¨N«2³ =$f¦Ntm ³
-ʢQ&;+ऺऺQ+a;a&a‫ݬ‬8ऺÊ$+aऺ*ऺa ऺ X+$;Qऺ ;a1,Xऺ ĩ‫ݭ‬a1ƒ,ŔXñऺ *ऺ
- a}$;QXऺ ऺ;+ a$;QXĎऺ ċ a$͋+QXऺ;ऺ 8ऺæÊ8 ऺQऺ+ ऺ*ऺ
-‫̢ ऺ׫‬ƻQ&;ऺ Qa;a&aऺ +ऺ ,ऺ ,Qऺ *ऺ+QX٢ऺ ƇɝXऺ 1ऺ a ऺ Q ;+ऺ
-Q ;a;ऺ *ऺ,Ȥ ;;ɹऺ *ऺQ ;+ऺ,; J¬;E; Ýऺ ô 1ऺ Q +ऺ ;ऺ aऺ ऺ
-Q+a;&&ऺ $&aaÒ+ऺ *ऺ aऺ ऺ ऺ Eɝऺ &18ʾ+ऺ *ऺ aऺ;Ŕऺ οऺ 1ऺXऺ
-Ç;+ ऺ *ऺ Qa;&&ऺ a*$aɠऺ rऺ ࡚ऺ a & ऺ a;$ũऺ                 &aऺ a ऺ ;aaÒ8ऺ
- ;‫ۻܤ‬1a;ǽ;ऺ *ऺ,Qa;$$࣍1;ĔऺЋऺ aऺ*ƅĪऺ Î˦  1aऺ+ऺa ऺ
-Q¬;$ìऺ
-                         ͻõÆ౔     ' , F 5     G ' 4 . ; I + ==  5 I
-
-
-      yŇ'ƫ &ƫ  ƫƫ P     & ƫ "ƫDƫ  ƫ &D&3Cƫ ' 8(qƫ tKƫƫ  ƫ
-8ƫ ƫƫ   ƫ 2ƫ'Q2nƫ ƫ  G              P3ƫQ"       'ƫDƫ ( ƫ
-ƫ ƫ ƫ ƫ "  ƫ       ƫ ƫ    Vƫ  8&>ƫ &ƫ ƫ ƫ
-ƫƫ ƫƫC ƫtƫ8ƫňŦƫ ƫ                  Yƫ ƫ ƫƫ ƫ &ƫ
- ƫ ' Wƫ ((ƫ ƫ ƫ  ƫ  ƫ  ƫ  =Qƫ Cƫ 2>ƫ H" = ƫ
-Đ;½ ąƫ $¡2Âƫ ƫ ƫ ƫ O  (& ƫ 8Dƫ 8( ƫ  ƫ ƫ Góƫ
-' Gƫ "ƫ ƫƫ 8ƫ uƫ $ƫ $Ãƫ K&(ƫƫ (8 $|Oƫ' ƫ
- ƫƫ          ƫ" 2ƫƫ 'ƫ "ƫ ƫ& ƫ "$ Dl[þùƫ
-      Čƫ 3 Q3ƫ&ƫƫ  >      ƫ  & Rƫ8 @ ƫƫ  ƫƫƫ             ƫ
-     ƫ'Vƫƫ       ƫ "ƫ 2' ƫe ƫ "ƫ Q ƫbC >ƫ  b\ƫ
-w =Llƫ"ƫ ƫƫ"       ƫƫ' &@ ìƫĢƫ' ƫ "ƫ'  ƫ ƫ
- V2ÿƫ ƫ  Ł ƫ  $ƫ "ƫƫ  ƫ           IC  ƫ "ƫƫ  ¨
-Pƫ "ƫ 3;ƫ             (< Äƫ< ƫ2ƫ V>ƫ  ƫƫƫ                ƫ
- "ƫ  &@oƫ8 ƫ ƫƫ' &@L& ƫ "ƫ( ƫ I ƫ ƫ Ĳƫ
- ƫ ƫ  ƫ ƫ  Åƫ & ƫ ' ƫ  ƫ ƫ  &ƫ' =§& ƫ "ƫƫ
- 2ƫ ƫƫ & á L&>ƫ       pƫ& ƫGƫ ƫ 3ĺ  ƫƫC6 ƫ
- ƫ "ƫ82pƫ ƫ ƫ ĆƫƫZƫ' ƫƫ " ƫ & ƫ"ƫƫ ƫ
-  ƫ ( &@L| \ƫ ƫ  >ƫ " =ƫ "ƫ &I ƫ 82V@ƫ
- ƫ  ƫ $ ¡ ƫ "ƫ8( W&@ ƫ ' ƫ ( ƫ ( ƫ  ł ƫ "ƫ(ƫ
- ;@ ƫ ƫ 2  b]ýúƫ ĕƫ Ɖ żOÆƫ ƫ ( >ƫ " 3ƫ             "ƫ(2ƫ
-     ƫ  ƫ 82[ƫ Ĝ ƫƫ ƫ'ƫ( 2lƫ "ƫ   ƫǻϙ <ƫ
-^% ƫ>ƫ"           ƫ&ƫƫ   3±ƫ3e2ƒƫ       '&[ƫ `      'ƫƫ  ƫ
-ƫ P " =ƫ ;ƫ |'ƫ Ɠƫ ƫ &0P&=ƫ 'ƫ "ƫƫ " ƫ "ƫ
-'2ƫ
-      ģ' $W&Lƫ <ƫ        ¥(ƫ ($    ƫ ƫ     ²ƫ  >ƫ 2â DO]ƫ
-w( ³ƫ 3'ƫ ƫ W (ƫ <ƫ <(ƫ 2           (& rƫĤ' $&Kƫƫ$ 3C ƫ
-       ƫ ƫ  <>ƫ " ŧƫ "ƫ  ƫ $Gƫ (ƫ 3;O&ƫ
-     =& lƫ "ƫ3e ƫ ƫ " :«ûƫ_ƫ ƫ ƫ "ƫL ƫ ţƫ
-ƫ3'ƫ Žƫ "ƫ  ƫ ã & ƫƫƫƫjƫ "ƫ ƫ                   =Çƫ
- ƫ 8KK ƫ        ƫ ƫ "ƫ   ƫ'3ƫ     ƫ "ƫ   ƫj  ƫ
-($ ¥ƫ & ƫ ƫ ƫ $          ƫ ƫ 2ƫ "ƫƫ  ƫ           &ƫ ƫ ©
- 3ƫƫ   3ƫŉƫ(ƫ           '^¬ƫĥ&ƫƫƫ( Ƈrƫ Ēbƫƫ3 ´ƫ
-'Gƫƫ ƫ         Qƫ'ƫƫƫ         ƫ "ƫD}ƫ 3ƫ (ƫ              ƫƫ
-ƫ 0 ƫ 2'2ƫƫ  ƫ ƫ' < ƫ ĳƫ( ƫƫ ƫ 20ƫ
- sƫĖ ä  ƫ ƫ'             Ũƫ  ƫƫƫ ƫ ƫƫD ƫ "ƫ  CƠ
- ƫ     2ƫ ƫ ƫ 'ćƫ 2Yƫ  ƫ             Kƫ      'ƫ  ƫ 'K ƫ &ƫ
-       ¾I   ƫƫƫDjƫôƫ 2Gƫ "ƫ8sƫ
-      ğ&ũX=Èƫ  ƫ&ƫ (ƫƫ      =W  ƫ "ƫ X0ƫ  ƫƫ Pƫƫ ƫ I0ƫ
- (jÉƫ ƫ ŻXÊƫ ƫ ;(ƫ$Ëƫ " $ƫ O(Xƫ( ƫ Ŋíƫ w(Xƫ<µƫ(C(ƫ
-                         ҙ ‫ ׷‬պ ‫ ࣓ ݾ‬ੴ Қ ۭ ౔ࠑ ջ қ ‫ ۮ‬લ ࡚ ‫౔ ܤ‬   ÚШΤ౔
-
-
-˨   ˨. ! Ǘ˨  ˨  ˨. ɫ 9˨ 9˨ ˨  ! )c˨ p˨  ˨ ˨  A ˨
-T˨ ˨ ˨ .M˨ ˨ SÓ"  ˨  ˨  ˨ 2X˨ ˨ ˨  ˨  ˨ ô˨
-ǱYƪ˨ Ë˨*s˨ 2"  ș˨  A˨˨ ˨˨U U 9)˨
- ˨ ˊ  )ƀ˨   Î ˨ ˨ UK992˨  ˨ ˨ "ɬ9U2!Ɓ˨ ˨
-  9˨  ˨˨  /`Púø˨ ÿ9"Ü9'˨ S!"˨*˨˨ *˨
- ˨ ˨9!˨ t" ˨ ˨2"  P˨ m˨ 2"  ˨  ˨ s°
-X  F˨ ō9_9 á˨  ˨ ŎS  ²˨Y˨ Y. A º˨ o˨ å˨  "˨˨ɦ ˨
-˨* Ƃ˨˨* ˨˨˨ )˨˨ '˨ ð')æ˨ ˨ ˨
-˨ŏ  Ő˨  ˨ âS  ő˨ ˨ Y˨ *Y'9"˨ Ęò˨ o˨ 2" Ň
- ˨ ˨  ˨  ˨  ˨ ˨ 2 ˨    9U˨ 2"˨ *9t˨  9!˨
- /Ĵ˨ `˨ vÀ*˨2"˨ʗȟ˨ *j˨ È*9!>˨ ˨  ƫ¡'!)˨*  " k˨
-Ä˨˨˨˨* ˨ ˨˨Yɧ˨  ŹsȺ" 9˨ ˨2"  Ƭ˨
- '˨ Ŵ  X" ˨ ˨*ĘG˨ !M»˨ ǯ˨ *!9)˨ ȶ˨ s ˨ ˨
-!)˨  ˨ ˨ ˨2 " Y˨2"˨˨˨ ˨˨S"¼˨
-   È*ƃ˨Ƅ˨ ˨ ˨ ˨"")˨" ˨ X˨˨ )/4˨˨
- '˨ ¹Ł'9)ó˨o˨*M˨/9! ˨9˨9 ')˨ ȏȪ"  ˨˨
-` ˨˨ .˨ U! ė" 9'˨* ˨˨˨ k˨o˨ )˨ ˨
-K ˨'!'˨˨ t" ˨˨˨')˨˨ ˨*±
- ˨ ! ˨ !˨˨ ˨ *!˒˨  ˨ ˨ / ˨˨ 9˨ ˨
-*˨ ˨˨V˨˨˨2"  ˨ ˨ 9˨Uź˨ Ä˨" ˨˨2˨
-*Y" ˨ ˨ 9 ˨ ˨  ˨ !˨ ˨ ˨ ˨ ˨ ! ˨  ˨
-""c˨">˨*!)˨˨9* ˨ ½˨ÿ˨ ˨˨!ħ.˨˨
-""˨ ˨  ˨ ˨ '˨ *  ˨˨  ˨  F˨  ˨ ˨ )˨ K.˨
-/˨ħ!!˨Ĵɘ~)ƭ ˨ ˨˨ ə ˨
-   ȁ˨Ú"Ï˨˨ ˨" ˨˨ ˨ 2Y˨ "˨2A˨ " ˨˨˨˕
-*ʜ˨ ˨˨ Y˨ ˨ o˨ * ˨ ˨ /˨˨ 2˨ 'Ï'˨ ˨Ë˨  9ß
-/9˨* ˨ ˨2¡ó˨ Ä˨ *_9"!_˨ ˨ *˨˨ ˨˨ Aǅ˨
- A9˨˨ ˨˨˨Kȷ')˨ ˨* ˨˨ ! ¾˨Ǥ"˨˨* ˨˨
-!˨ ! ˨ ˨ ˇ ˨ * ˨ .)˨ ˨ )˨ ˨ M˨ ˨ ˨ ˨ 2˨ ɡ˨
-! Ĩɭ)˨˨ * ǘ˨  ç˨ ˨˨ Î  ˨ ˨ ˨ '˨ ˨ * '˖
-˨˨ A˨.˨ ǩ ˨˨!ɮƅ˨ `˨*˨ȸ˨ ˨`˨`U˨Ë'˨˨ A˨˨ 9˨
-. ˨  ˨ / ˨ F˨ '9˨˨ ˨ ˨ ʐ˨˨.˨ ˨ T˨
-˨ ˨ S ɨ˨  ˨ ˨ c˨ È ˨ ȹ˨ ˨ ˨ * ˨ ˨
-  T 9!˨ Y9P˨ Ȃ˨*˨  ˨  ˨˨ ˨ ˨X" Ɔ˨ 2"˨˨*˨
-M˨ '_˨ɩĔ˨ 2 Ƈ˨ 'ʝ˨ s ˨ ˨  ˨  ˨  F ˨  ˨ ˨ "" ˨ ˨ ˨
-.˨.K˨/˨˨2˨  ˨˨"ɪ ˨˨ ˨* ˨/Ǚ˨  ˨˨*˨
- ˨ ˨ "`" ˨_˨!  ˨ * Ȼ*˨ ˨``_h˨ ė '˨ 2˨ ˨
-*!)˨˨ 9"Ï˨˨ ˨ }""˨ _ ˨ S* ¢˨˨* ˨ŝĪ‫ٶ‬
-   m_˨* ˨!˨  ˨˨˨*_˨ ˨˨˨M   Ʈ
-                      ÐОκ౔    & 9 L @     M ' = 9 F ] 4  N N  @]
-
-
-
-<     Ǵ Ǵ <.$Ǵ 7 .Ǵ $$Ǵ 0Ǵ 4ǴǴ $  Ǵ Ǵ 0Ǵ
-ǴǴ >Ǵ U   ǴǴ'Ǵ1Ǵ Ǵ Ǵ #.     .Ǵ ÁǴ* *$Ǵ.Ǵ EǴ2ǅ7Ǵ 2ǴǴ
-é J  Ǵ PEB  Ǵ ĂǴ1dǴ*ǴǴ .##hǴǴǴ eǴ2Ǵ Ǵ#4              g
-Ǵ 2Ǵ Ǵ 2ǴǴ  #IǴ Ǵ Ǵ PƴǴ            ǏŗǴ ##Ǵ Ǵ
-#     Ǵ Ǵ Ǵ Ǵ Xw2ı0#Ǵ 4Ǵ 2Ǵ  TǴ P¢Ǵ TǴ
- Ƶ.ĔǴ #Ǵ 0FǴ ǀ#Ǵ  Ɛ£Ǵ $0ĕǴ  #Ǵ ĿǴ ă¼Ǵ # Ǵ
-<Ǵ < ?*AǴ.0ǴǴ *Ǵ . * 4$Ǵ 00 ǴǴ 0Ǵ Ǵ
-Ĳ'Ǵ Ǵ Ǵ .  Ǵ #. * şª q#Ǵ 'Ǵ #<  Ǵ $Ǵ #.g
- ǴǴPǴǴeǴ2Ǵ Ǵ'Ǵ#e          ŋǴ #0ŠǴkǴǴǴ$Ǵ
-  Ǵ70ǴǴ J Ǵ Ǵ 4Ǵ Ǵ # 4sǴ EǴJ Ǵ  Ǵ g
- 7 sǴ2Ǵ * ǴǴǴǴ           ǴǴ Ǵ En  FǴ ǴǨ
-  Ǵ'$Ǵ${hǴ»  Ǵ ǴǴƮ  Ǵ ą0ǴǴ7@@hǴ 0Ǵ Ǵ
-#Ǵ $>Ǵ HǴ IǴ $$Ǵ êR ëǴ ƏǴ Ǵ *$ÑǴ $Ǵ Ǵ Ǵ Ǵ
-C1bǴ 0Ǵ 7Ǵ    Ǵ $Í$Ǵ 2<Ǵ x'Ǵ Ǵ $y ¯Ǵ k
-# ĖǴ Ǵ Ǵ EnǴ #Ǵ Ǵ Ǵ      ǴǴ fǴ .fǴǴ 'Ǵ  Ǵ
-'Ǵ IMǴU Ǵ Ǵ ǴǴ'ǴXǴ Ǵ 1Ǵ Ǵ J >Ǵ Ǵ7XǴ
-ǴJ  Ǵ Ǵ XǴǴǴǴ$ǴǴǴǴ#$Ǵ'ǴǴǴ
-J .ǴǴ' Ǵ Ǵ'Ǵ$Ǵ           ŀǴ½Ǵ ǴǴǴǴǴsǴx @Ǵ
-2Ǵ$. .Ǵ #Ǵ # . * TǴ  <Ǵ  Ǵ . 4ėǴ              EǴ
- Ǵ 47 .PR*fǴǴ$)$ Ǵ Ǵ l *AǴ   *$$.0Ǵ2Ǵ Ǵ
-'#¯ǴǴǴ     ǴǴǴ'£Ǵ 2ǴǴB# <.Ǵ        <ǴǴ? ǴǴ. Ǵ
- Ǵ Ǵ Ǵ Ǵ   Ǵ 2Ǵ@sǴ #Ǵ I$ĘǴ Ǵ Ǵ #Ǵ
-#7PFǴ Ǵ PEǴ#Ǵ7 *@ęǴ Ǵ EǴ #Ǵ*@ǩ
-$Ǵ'Ǵ$  tǴ Ǵ#E Ǵ4Ǵ ǴǴǴ y##Ǵ 
-0ǴÁǴ Ǵ'CR Ǵ'.ǴC$Ǵ R4$ǴǴ ǴǴ .7}Ǵ
-      HǴ# #Ǵ<<\Ǵ0Ǵ.ǴǴ Ǵ2Ǵ ^.A^$Ǵ  Ǵ            ǴǴ Ǵ
-#7Ǵ @#Ǵ *Ǵ ǣ *iǴ H#Ǵ 0ĚǴ .ǁǴ Ǵ  ěǴ .Ǵ Ǵ
- Ǵ 0CǴ  Ǵ Ǵ 4Ǵ Ǵ Ǵ 0Ǵ 4 #°Ǵ ]Ǵ C
-'X40Ǵ 2Ǵ 4Ǵ @Ǵ Ǵ Ǵ Ą#  hǴ 0Ǵ Ǵ
-    Ǵ RÄǴ2Ǵ$ Ǵ' øǴ0iǴU Ǵ$Ǵ10ǴǴ ǴǴ1ǆǴ
-77$~Ǵ ũ 4Ǵ #Ǵ ? <n<ĜǴ $¤Ǵ <$LǴ  Ǵ 2  FǴ Ǵ $$1Ǵ  g
-##Ǵ #Ǵ C'X ĝǴ  fǴ 1<Ǵ R^$#Ǵ u#Ǵ 1CǴ À? #Ĉ±Ǵ Ū ĳ .Ǵ
-Â0 Ǵ Ǵ .nǴ 2Ǵ 0MǴ ūǴ 2¤Ǵ 4 y.Ǵ  Ǵ ƶǴ <
-Â0 Ǵ  Ǵ  Ǵ Ƌ0 Ǵ 'Ǵ 4Ǵ }Ǵ ·$Ǵ Ǵ
-    Ǵ2Ǵ$ Ǵ2CǴǴǴ'@#ŘǴǴ@@Ǵ $Ǵ  Ǵ#ǴǴd 4ǴǴ CǴ
-  ' Ǵ MǴ ¼CǴ Ǵ Ǵ  $4Ĵ$ Ǵ #Ǵ $Ǵ Ǵ  ##Ǵ 27Ǵ Ǵ
- ƕqƖ Ǵ Ǵ'$Ǵ 7$ eŁǴ » $ƗǴ Ǵe 4ƷtǴ  Ǵ  44$Ǵ
-     Ǵ 7R1Ǵ '.Ǵ 1<Ǵ ^.A^třǴ Ǵ 7 Ǵ *Ǵ R.1Ǵ '^$Ǵ           2
-2Ǵ ÑǴ 2ǴfǴ'#ùǴÄǴ Ǵ #lC ǴCƌ0 .0ǴǴ
-'$Ǵ ǴǴǴ łǴΒļά
-                              )) ) ) $)) ) ) !) )) ) ઝ౔ǅ౔‫౔ܝ‬       ¸
-
-
-
-                                       } t  p­  _ } t  ¸
-
-
-ǐ Ǵ Ǵ  && Ǵ  + Ƙ ĞǴ  &                Ǵ  , & TǴ +b ,ǇǴ  , & ¥Ǵ  Ǵ & & Ǵ
-Õ "Ǵ  ØǴ Ǵ Ǵ  Ǵ 'Ǵ ,I Ǵ'"EǴ  Ǵ "Ɖ +E:ǴǴ "Ǵ Ǵ
-  Ǵ '"Ǵ  Ǵ ì' " Ǵ Ǵ  Ǵ 'Ò ±Ǵ Ǵ  Ǵ  Ǵ  TǴ   Ǵ ƙǴ Ǵ
- á       Ǵ       " Ǵ 0౔ ¿  Ǵ  Ǵ            )Ǵ  Ǵ  Ǵ "Ǵ NQ                 Ǵ  Ǵ
- M>aǴ  Ǵ  :ĉǴ ?)       Ǵ Ǵ uǴ 'r['           Ǵ , Ǵ:ĊǴ  Ǵ cÉ&Ǵ Ǵ EǪ
-
-Ǵ "ǴǴ ,I, §Ǵ " FǴ  Ǵ ":ğǴ Ǵ " :ǴǴ+" " Ib:Ǵ /ǫ
-  Ǵ Ǵ  ǴǴ  Ǵ +           Ǵ , Ǵ&Ǵ  Ǵ             Ǵ ǴW &ǴǴ':Ǵ Ǵ            , Ǵ
-Ǵ +Ǵ'Ǵ W,          °Ǵ ¶Ǵ ' Ǵ "      &ƅǴ  Ǵ ""Ǵ  Ǵ QĠǴ "Ǵ  Ǵ  Ǵ
-+ aǴ ÕǴ ) , xN'ƀ  Ǵ &Ǵ ) Ǵ  +                          &/&GšǴ U,Ǵ      )       Ǵ & Ǵ ,Ǭ
-     ¦Ǵ "Ǵ  Ǵ  ¡Ǵ       QǴǴ:Ǵ   ÙǴ   Ǵ Ǵ Ǵ [/
- )ġǴ & Ǵ &Ǵ Ǵ   Ǵ  Ǵ           ÓǑǴ )Ǵ  Ǵ ,+Ƹ" ǒǴ Ǵ"ƃÈ)            Ǵ )"_)o ŚǴ
- FǴ ƚǴ"Ǵ Ǵ/ ÙǴ á"            ǴǴW ƛ+       Ǵ Ǵ Ǵ       W     ǴǴ          ŃǴ ¶, Ǵ
-     ǴƜǴƹX"Ǵ Ǵ &FǴ ƝǴ&Ǵ "  Ǵ Ǵ                   Ǵ Ǵ                Ǵ Ǵ,Ǵ
-'Ǵ " ńǴ kǴÊǴǴ "Ǵ  Ǵ ǴǴ`               &/ Ǵ':Ǵ Ǵ                +rQ Ǵ           ŔǴ
-  Ǵ :Ǵ  )Ǵ Ǔ         Ǵ Ǵ  Ǵ  Ǵ m/ ƁǴ Ǵ 7 &" "Ǵ Ǵ  Ǵ c Ǵ  Ǵ
-ǈ ")" Ǵ        ) ǴQ >Ǵ
-     kǴ/ Ǵ           ǴǴ  ,& Ǵ           +ǴǴ         ǘ(/GǴǴ _  Ǵ
- Ǵ " &&Ǵ Ǵ            &b)tǴ Ǵ &  Ǵ Ǵ &/ Ǵ Ǵ Ǵ   Ǵ l Ǵ Ǵ,Ǵ
-  :ŅǴ ŬǴ Ǵ   "9Ǵ  I&Ǵ           +TǴ c "":Ǵ"Ǵ Ǵ / Ǵ  Ǵ "Ǵ 
-   Ǵ Ǵ7         &bƟ ƠMǴ Ű, Ǵ *Ǵ É  Ǵ Ǵ &/ Ǵ +                  Ǵ '"&Ǵ  Ǵ
-NǴǴ ,+ ǴǴ Ǵ  Ǵ  + ǴǴ ,+Ǵ                                 >Ǵŷ Ǵ & Ǵ  Ǵ
- , Ǵ QǴ + Ǵ  Ǵ )+ r Ǵ  Ǵ Ǵ _Ǵ                          Ǵ Ǵ &"ƍ           Ǵ  Ǵ
-  Ǵ  "        Ǵ "Ǵ +[+ Ǵ   :Ǵ  " " Ǵ  Ǵ  + ĵ ,+ Ǵ +"Ǵ  Ǵ
- )" Ǵ / Ǵ         &/ :Ǵ            MǴ űĢǴ Q&_`:¢Ǵ Ǵ Ǵ ,z+Ǵ
- " m ËǴ  Ǵ  «'"            Ǵ Ǵ :Ǵ  ǋǴ Ǵ `"Ǵ Ǵ N Ǵ                     +Ǵ Ǵ
-ÛÛ Ǵ )Ǵ Ǚ¿Ǵ +_ƺ Ǵ Ǵ "Ǵ "ǔ"I&G>Ǵ ŸǴ                    +c Ǵ Ǵ &/ Ǵ       ") &Ǵ
- '     Ǵ  , Ǵ  Ǵ +Ǵ "Ǵ Ǵ                  Ǵ  Ǵ         & ,[ Ǵ  Ǵ + ǭ
- , + Ǵ ,&Ǵ&Ǵ            Ǵ , "Ǵ Ǵ )"Ǵ Ø§Ǵ                    "ǴǴ   Ǯ
-:ǴǴ'Ǵ , Ǵ Ǵ +I + TǴ ,Ǵ  Ǵ+¦Ǵ Ǵ                                      iǴ ť        Ǵ
-:Ǵ     "/ Ǵ         ,Ǵ'Ǵ "Ǵ Ǵ', Ǵ  Ǵ "[Ǵ /"                 ǴǴ "   Ǵ
-, Ǵ             " Ǵ/`, Ǵ"Ǵ"Ǵ,  o}Ǵ
-     HǴ + "rǴ      Ǵ Ǵ Ǵ       &/ Ǵ           +Ǵ Ǵ Ǵ / Ǵ                  Ǵ "Ǵ Ǵ
- "N&Ǵ Ǵ Ǵ oǴ Ǵ ) + &/ Ǵ                    &     Ǵ  Ǵ  )Ǵ         Ǵ
- Ǵ  Ǵ [") Ǵ '              Ǵ cņǴǴǴ o`Ǵ `Ǵ                 ,FǴ " ,Q/ Ǵ
-  ƞ    Ǵ  Ǵ Ǵ,Ķ               Ǵ )/&& Ǵ + Ǵ          &Ǝ Ǵ "Ǵ u  ċ W+ǯ
-"Ǵ Ǵ  Ǵ' Ǵ+Ǵ 'Ë Ǵ + &  Ǵ                          " ģǴ  Ǵ  &Ǵ Ǵ
- "l   Ê_:Ǵ              MǴ  Ǵ         Ǵ "Ǵ  Ǵ Ǵ W?        Ǵ      śǴ  ĤǴ  Ǵ Ǵ
-,         Ǵ "ǴǴ " z &/ Ǵ     &ķǴǴ &Ǵ+ǴǴ "¥ǴǴ  [ĸ
-                     )    ) ) /ά zάIά È Iά Ƃά̚ά ) ) ) F] ɖά ő ˮ ά˯ά ƚά ʦά
-
-
- &‫!&ٶ ٶ‬ř‫ ٶ‬à# ‫ٶ‬C‫ ٶ‬C‫ͳٶ‬W΀&Ɠ W&‫ٶ‬C‫ٶ‬.  CY,‫ٶ‬Wǀ
-   ‫ ٶ‬I ‫ٶ‬C. ‫ٶ‬Ⱥ& .‫ٶ‬C‫ٶ‬# ‫ ٶٶ‬C‫ ٶ& ٶ&&"ٶ‬3ԕC‫& ٶ‬Ś‫ٶ‬
-ċ C ,‫ٶ‬C ‫&ٶ‬.‫ ٶ‬C ‫ٶ&&"ٶ‬.‫& ٶ &ٶ‬.‫ٶٶ& ٶ‬C &" ‫ٶ‬
-‫̀ٶ‬lÜ&¨ >!‫ ٶ ٶ‬3‫ ٶ‬ICɴ‫ ٶ‬I‫֨ ٶ‬üW ‫& ٶ‬.‫ ٶ‬3‫ ٶ‬.  C ,‫ ٶ‬C‫ٶ! ٶ‬
-  Z .‫ ٶ& ٶ‬I‫ ٶ‬.!& ‫ & ٶ ٶ‬CϘl , !ϲ‫ ٶ & ٶ& ٶ&× ٶ‬C¨Yl‫& ٶ‬lÓ‫ٶ‬
-CC , !‫ & ٶ ٶ‬.C .‫ ٶ ٶ & ٶ‬Z Cl,‫  ٶ‬l & !‫ ٶ‬ȺT kC΁‫ٶ ٶ ´ ٶ‬
-  & ) !'#) ×& Cħ &‫ٶ‬C‫&ٶ‬l,ì‫& ٶ‬.‫ٶ‬3&‫ٶ" ٶ& ٶ‬Cǁ
- ‫ٶٶ‬. ù!‫ٶ‬C.  &‫ ٶ‬W‫ٶ‬C‫&ٶ‬ȂÚ‫   ٶٶٶٶ‬k‫ٶ‬
-&.‫ٶ" ٶ‬C&ɱ‫ٶ‬. ţC& ‫ ٶ‬ƑWƚϙ.  C ,‫ٶ‬C ‫ٶ‬C. ‫ٶ‬.ZŤC&‫ٶ‬
-lC‫&ٶ‬¥ #Z&‫ ٶٶ‬I‫ٶ‬C.Î‫ٶ‬.ZӢC& ‫ٶ‬. ÀC&Ќ . ÀClԖ&‫ؤٶ‬C&ф‫ٶ‬
-lƖ!‫ٶ‬.‫ٶ &ٶ‬Ck!‫ٶ‬C. ‫ٶ‬. ţC& ‫ٶ‬.C  &ð‫ٶ‬Øļ , l!‫&ٶ‬.‫ ٶ!&ٶ‬C‫ٶ‬
-ê&.‫ ٶ‬ê‫ ٶ‬I‫ٶ ٶ  ٶ‬W& k lŵ‫& ٶ‬.‫!   &  ٶ‬Ï‫ ٶ‬à &   l!‫ٶ‬
-  ‫ " ٶ ٶ‬I ‫ ٶ& ٶ ٶ‬W‫ٶ ٶ‬I ‫ ٶ‬W‫& ٶ‬.‫ ٶ‬3>‫ٶ‬ƛ‫ ٶ‬Ĝȏ ..‫ ٶ‬W‫ٶ‬
-l CȂ&Ɔ‫ٶ‬
-     ×&‫&ٶ& ٶ‬l k‫ ٶ‬C  ‫ ٶٶ & ٶ‬I& & Y¥‫ ٶ‬# í‫ ٶ‬I‫ ٶ‬Ê&C‫ٶ‬
-.‫&ٶ& ٶ‬.‫ ٶٶ& ٶ‬WÚ &‫ ٶ ٶ ٶ‬Ĝ C&Ú !‫ ٶ ٶ‬3‫ &ٶ‬C‫ ٶ‬C.ٖ
-  IC‫ٶ" ٶ&ٶ ٶ‬ĜlCĶC‫ٶ‬Ƒ‫& ץ‬9‫& ٶ‬ln‫ٶ‬:;í Ə3‫&ٶ‬.ƛ&‫ٶٶ‬ȃĶ9ʪ>!‫ٶ‬
-C‫ٶ‬ļl,Z !‫ ٶ ٶ‬ICC‫ ٶ &ٶ‬l‫ٶ‬ĜlC Cl!‫ ٶ‬l‫&ٶ‬l ‫ٶ‬C!ٗ
- Ĝ C C ŵ‫ٶ‬Zl" &‫ٶ‬3&&n̡г‫ٶ‬Ɛ‫ٶ‬C‫& ٶ‬l‫  ٶ‬.‫˜ٶ‬,C‫ٶٶ‬lI‫ٶ‬C.ř‫ٶ‬
-÷ƚ"W‫ٶ‬C‫ ٶٶ‬kŵ‫ٶ‬9 .‫ٶ ٶ‬W  kC‫ٶ‬Ú‫ٶ" )ٶ‬C.х‫ٶ‬C "C‫ٶٶ‬C‫ٶ‬
-W ‫ֻٶ‬ӏ‫ٶ‬lI‫ٶ‬W9.‫& ٶ&&ٶ ٶ& ٶ‬lCϚ, !ϳ‫ ٶ‬Ѿ3 ‫÷ٶ &ٶٶ ٶ‬ù‫ٶ‬T"W‫ ٶ‬C .‫ٶ‬
-  ‫ٶ ٶ‬l‫ٶ‬Z &‫ٶ "ٶ‬ԗ& &‫ٶ‬l"l‫ ٶ‬C‫ ٶ  ٶ!  ٶ‬p‫& ٶ‬l‫ٶ ٶ" ٶٶ‬
-  I ‫ ٶٶ‬C‫ ٶ ٶ‬W>‫ & ٶ " ٶ ٶ‬C‫ ٶ ٶ‬Ê‫& ٶ ٶ‬.C &.Ɔ‫&҈ ٶ‬Cl &lk!‫ٶ‬
-I,W‫ ٶ‬T3C‫ ٶ  ٶ‬IW‫ ٶ‬W & ‫ ٶ‬I &  ‫& ٶ " ٶ ٶ&   ٶ‬ǂ
- "l‫ ٶ& ٶ‬I ‫   ٶ‬9!‫& ٶ & " ٶ‬.W &.Z&‫ٶ ٶ‬l"‫ ٶ‬ġnğ‫҉ٶ‬ƚŪ‫ ٶ‬ɼ W!‫ٶ‬
-ń & g!‫ ٶ‬W Z  ‫ ٶ‬l3 ‫ ٶ‬C & ‫  ٶ‬I &  ‫ &  ٶ‬з‫ ٶ‬ŏ×͞‫ ٶ‬WŵĶ&‫ٶ ٶ‬
-  ‫  ٶ" ٶ‬k !‫ٶ& "ٶٶ‬.&l ŵ‫"ٶٶٶ‬#‫&ٶ‬.‫&ٶ&ٶ{&ٶ‬.‫ٶ‬
-&.‫ٶ‬¥ &ZI.‫ٶ‬W.ê Ô‫ ٶٶ‬Ú‫ٶ‬C‫ ÷ٶ& ٶ‬Cĩ‫ٶ‬ØC‫ٶ‬,&‫ٶ‬ñ ϴ ϵ ‫ٶ& " ٶٶ‬
- I &‫ ÷ٶ‬CƇ‫ ౔خ ٶ‬.&͘l‫&ٶ‬l‫ ٶ‬l3‫ ٶ& " ٶ‬l‫÷ ٶ& ٶ ٶ‬lêWɆ‫ ÷ٶ ٶ ٶ‬W‫ٶ ٶ ٶ‬
-& &Cn‫× ٶ‬.&  !‫ٶ‬Z‫& ٶ‬IC&lÛ!‫ & ٶ‬gΔ‫ ٶ‬. ţC&l  .ɇ‫ ٶ‬.C.¶‫&ٶ‬.‫ٶ!ٶ‬
- C&k!‫ٶ‬3C&l·‫  ×ٶ‬Ԙ ‫ ͙ٶ!ٶ‬3 ‫ ÷ٶ ٶ‬C‫{ ٶ‬Ì‫ٶ&ٶ‬ßC &‫ٶ!  ٶ " ٶ‬
-.& ‫ٶٶ‬CC ,‫ &ٶ‬Ú ‫&ٶ‬.‫ ٶ‬3 ȶ‫ٶ‬3!‫ٶٶ‬, .‫ٶ‬l®‫ ×ٶ‬Ż,‫ٶ!  ٶ‬
-&Z .‫ ٶ‬3‫&ٶ͛ ͚ ٶ‬.‫ ٶ‬,&‫   ٶ‬.‫ ٶ‬l3l‫͜ٶ‬I&² &͝‫& ٶ‬Ă‫  ٶ"ٶ‬IC‫ٶ ٶ‬
-&l Cn‫ٶ‬ǯ C‫ٶ‬CC‫ٶ ٶ‬.ZÀC&l!ñ ̢дЎ‫ٶ‬
-    3‫ ٶ‬Cl  C‫& ٶ‬¥ C &‫ ٶ‬I ‫ ٶ&ٶ‬C ‫ ٶ‬Ȍ‫ ٶ‬Z‫ ٶ&ٶ & ٶ‬ClC‫ٶװ‬
-&Cê &‫ ٶ ٶ‬C‫ٶ‬3 &ц‫&ٶ‬C‫ ٶ" ٶ ٶ ٶ‬C  ‫ٶ! ٶ ٶ‬.lC&  ‫ٶ‬
-C‫ ٶ‬W ˨ Cǝ‫ٶ‬Ǫ &‫ٶ‬.‫ٶ&ٶ‬ƛ!‫ٶٶ‬.ZÀC&‫ٶ‬W ‫ٶ‬W‫ٶ‬
- ZǼZ&‫ٶ‬C  C‫ٶ‬p&.‫ٶ‬Cļl‫ٶ  ٶ‬C‫ ٶ‬I,‫ٶ‬Ɠ‫ٶ‬C ‫ٶٶ‬
-l3‫ٶ‬Ck.Ì‫ٶ& &ٶ‬C&¥ C &n‫ٶ‬ѿ‫ ٶ‬I‫ٶ‬.C‫ ٶ‬Il‫ٶ‬C ‫ \&ٶ!׊‬Õ
-                           Ґ ‫ ױ‬կ ౔с౔ࣉ౔‫౔ڄ‬ґ౔ ۧ౔   ౔հ౔¶͊ Ɇ ș | ά)          )
-
-
-!6tŽ     9-MŽ !     ŝū  âŽ  6SŽ "/Ž   Ž +Ž                    Ž
-
-"- Ž Ž M Ž Ž kvŽ Ž Ž " Ž  ŽŽ Ž "    (Ž W+Ž Ž Ž%k/ŽŃŽ
-2 Ž x!Ū Ž  zŽ ę+" Ž  Ž Ž Ž2 Ž %/ò/Ž 6 Ž Ž ŤÉŽ
-"Ž 2+§2āŽ
-   ĥ  Ž  Ž Ž Ĩ Ž       6 Ž Ž%Ž2             Ž Ž;%DŽ "Ž +ŔŽ
- Ž k /Ž  Ž +"Ž         ãŽ Ž (Ž  "+              Ž% Ž +6 Ž +"Ž  Ż
-  Ž 5Ž +Ž 6Ž+Ž +          Ž;%8Ž Ž"Ž " ŽŽ ŽŽ  Ž%/Ž
-;8Ž     œŽ  8 Ž2Ž"  Ž_Ž              ŽŽŎ %Ž"Ž Ž Ž
-Ž  " ĒŽ  Ž Ž ++"((Ž  _Ž U Ž ÈŽ"Ž ;%( 8 Ž Ž
- 2"/DŽ +     / Ž  Ž %ŕēŽ % Ž ;%Ž  "+            Ž % Ž  Ž Śī  Ž %i/_Ž U Ž 9 Ž
-"ŽŽ  Ž%/Ž 5Žń Ž  9 "Ž  ĂŽ Ž Ţ 9"Ž Ž   «
- 8Ž Ž  (8Ž 6Ž "Ž 9 -  9" ŅŽ ŽŽ  2 6Ž "Ž  6+ 6Ž Ž
- 9 Ž /   Ž  %          Ž +"Ž "Ž +?Ž + Ž "Ž  ]Ž
-5Ž/Ž /]Ž " 9Ž/Ž / Ũ            ăŽ 6J;>&BK4;-; TM"W +/ŽŽż
- 6Ž Ž;%Ž Ž  ó Ž"ŽŽ                 Ž%"Ž Žņ;Ž"+Ž Ž;ŇŽ
-Ž+   2" Ž Ž% Ž           /Ž Ž  Ž Ž 2 96Ž%52Ž %Ž  İŽ 2«
- Ž22 ĄŽ äŽ Ž "Ž         åŽ% Ž% Ž            /Ž Ž  Ž(; ŽŽ J!&;V
-;6L;?'BH4;.; U8W " 5" DŽ Ž Ž  %8Ž Ž 4 æŽ ;%çŽ
-"/Ž  Dô  Ž Ž õŽ    ]Ž D Ž Ž                     ň 6Ž Ž %" Ž
- Ž%ŖŽ Ž  Ž(ŽũŽŉŽ2 Ž"+                Ž2Ž  / 6Ž Ž "Ž  Ž
-Ž  Ž         Ž 2Ž  Ž "Ž  Ž %E/Ž  Ž  / Ž "8"SŽ  "+               Ž  Ž
- 8ŽŽ  Ž%9Ž Ž"Ž           (Ž 2Žĩ 9ąŽ
-
+144 INTRA-ACTIONS MATTER Furthermore, Bohr’s conception ofthe apparatus does not accurately take account of the complexities of experimental practice, despite his apparent intentions to do just that. Quite atypical of the writings of theoretical physicists, Bohr’s papers include detailed drawings of measuring instruments. His attentiveness to the details of the apparatus makes perfect sense given his insistence that the concepts used to describe phenomena are not ideations but specific material arrangements: for Bohr, word and world are tied to each other. Nonetheless Bohr treats the apparatus itself as an ideal measuring device that springs full blown from the head ofZeus, operates itself or at most requires the pushing ofa few buttons to produce results, requires no tinkering, no maintenance, no muss, no fuss. Its constitutionality remains constant—no rearrangements, no alterations, no adjustments. It is frozen at a moment in time, denied its historicity and mutability. In an important sense, then, Bohr’s apparatus is hermetically sealed off from any and all “outside” influences. The scientist is a liberal humanist subject who is merely there to choose an appropriate apparatus for the investigation and note the results. Once the apparatus is in place, the scientist stands back and watches what happens. In short, Bohr mistakes the apparatus for a mere laboratory setup. Magically, the scientific instrumentation works correctly without intervention, reducing the role of the experimenter to a mere recorder of the objective marks displayed by the instrumentation.”: For all of Bohr’s insistence on thinking realistically about apparatuses, refusing to contemplate them as idealized forms, he artificially cuts “the apparatus” off from all the activities that enable experimental practice to work. As Hacking notes: Most experiments don’t work most of the time. To ignore this fact is to forget what experimentation is doing. To experiment is to create, produce, refine and stabilize phenomena. .. . But phenomena are hard to produce in any stable way. That is why I spoke of creating and not merely discovering phenomena. That is a long hard task. Or rather there are endless different tasks. There is designing an experiment that might work. There is learning how to make the experiment work. But perhaps the real knack is getting to know when the experiment is working. That is one reason why observation, in the philosophy-of-science usage of the term, plays a relatively small role in experimental science. Noting and reporting readings of dials—Oxford philosophy’s picture of experiment—is nothing. Another kind of observation is what counts: the uncanny ability to pick out what is odd, wrong, instructive or distorted in the antics of one’s 
+
+AGENTIAL REALISM 145 equipment. The experimenter is not the “observer” of traditional philosophy of science, but rather the alert and observant person. Only when one has got the equipment running rightis one in a position to make and record observations. That is a picnic. (1983, 230) Bohr’s figuration of the apparatus makes it inoperable in practice.?? The liberal humanist conception of the subjectand the taken-for-granted static and bounded apparatus that are embodied in Bohr’s theoretical apparatus get in the way of his efforts to provide a deeper understanding ofthe nature ofscientific practices and ultimately cut short the prof ound ontological implications of his ideas. In taking for granted an intrinsic outside boundary ofthe apparatus, which incorporates human concepts within[its] bounds while ejecting the observer to the outside, Bohr reifies the selfsame “subjective elements” he sets out to tame, ignoring the dynamismof discursive practices and the co-constitution of subjects along with objects. Bohr seems to have forgotten his own lesson that cuts are part of the phenomena they help produce. What is needed is a posthumanist understanding of the role of the apparatus and of the human and the relationship between them. TOWARD AN AGENTIAL REALIST UNDERSTANDING OF APPARATUSES One task that stands before us is to further elaborate Bohr’s immensely important insights while removing the less savory anthropocentric elements, including his dependence on the notion of human concepts and laboratory setups. As we have seen, it is also important to take into account the dynamic and complex nature of scientific practices. In recent years, critical social theorists have offered sophisticated accounts of the practices by which meanings, boundaries, and bodies are produced. The problem is that these accounts are invested and enmeshed in a host of anthropocentric assumptions as well. For example, Judith Butler’s performative account of mattering thinks the matter of materiality and signification together in their indissolubility; however, Butler’s concern is limited to the production of human bodies (and only certain aspects oftheir production, at that), and her theorization of materialization is parasitic on Foucault’s notions of regulatory power and discursive practices, which are limited to the domain of human social practices. Furthermore, for both Butler and Foucault, agency belongs only to the human domain, and neither addresses the nature of technoscientific practices and their profoundly productive effects on human 
+
+146 INTRA-ACTIONS MATTER bodies, as well as the ways in which these practices are deeply implicated in what constitutes the human, and more generally the workings of power. That is, both accounts honor the nature-culture binary (to different degrees), thereby deferring a thoroughgoing genealogyofits production.”? Crucially, Butler’s and Foucault’s theories fail to provide an adequate account of the relationship between discursive practices and material phenomena, leading one to wonder if Bohr’s insights into the embodied nature of concepts might fruitfully intervene in this regard. What is needed is a posthumanist perf ormative account of the material-discursive practices of mattering (including those that get labeled “scientific” and those that get labeled “social”). In what follows, I diffractively read the insights of Bohr, Foucault, Butler, and other important theorists through one another in an effort to advance such an account. This will entail important reworkings of the notions of materiality, discursive practices, agency, and causality, among others. My agentia! realist elaboration of apparatuses entails the following significant developments beyond Bohr’s formulation: (1) apparatuses are specific material-discursive practices (they are not merely laboratory setups that embody human concepts and take measurements); (2) apparatuses produce differences that matter—they are boundary-making practices that are formative of matter and meaning, productive of, and part of, the phenomena produced; (3) apparatuses are material configurations/dynamic reconfigurings of the world; (4) apparatuses are themselves phenomena (constituted and dynamically reconstituted as part of the ongoing intra-activity of the world); (§) apparatuses have no intrinsic boundaries but are open-ended practices; and (6) apparatuses are not located in the world but are material configurations or reconfigurings of the world that re(con)figure spatiality and temporality as well as (the traditional notion of) dynamics (i.e., they do not exist as static structures, nor do they merely unfold or evolve in space and time). 
+
+MATTERING: A POSTHUMANIST PERFORMATIVE ACCOUNT OF MATERIAL-DISCURSIVE PRACTICES Discourse is not a synonym for language.** Discourse does not refer to linguistic or signifying systems, grammars, speech acts, or conversations. To think of discourse as mere spoken or written words forming descriptive statements is to enact the mistake of representationalist thinking. Discourse is not what is said; it is that which constrains and enables what can be said. Discursive practices define what counts as meaningful statements. State- 
+
+AGENTIAL REALISM 147 ments are not the mere utterances of the originating consciousness of a unified subject; rather, statements and subjects emerge froma field of[possi-] bilities. This field of possibilities is not static or singular but rather is a dynamic and contingent multiplicity. According to Foucault, discursive practices are the local sociohistorical material conditions that enable and constrain disciplinary knowledge practices such as speaking, writing, thinking, calculating, measuring, filtering, and concentrating. Discursive practices produce, rather than merely describe, the subjects and objects of knowledge practices. In Foucault’s account, these conditions are immanent and historical rather than transcendental or phenomenological. Thatis, theyare not conditions in the sense of ahistorical, universal, abstract laws defining the possibilities of experience (Kant), but actual historically and culturally specific social conditions. Foucault’s account of discursive practices has some provocative resonances (and some fruitful dissonances) with Bohr's account of apparatuses and the role they play in the material production of bodies and meanings. For Bohr, apparatuses are particular physical arrangements that give meaning to certain concepts to the exclusion of others; they are the local physical conditions that enable and constrain knowledge practices such as conceptualizing and measuring; they are productive of (and part of) the phenomena produced; they enact a local cut that produces “objects” of particular knowledge practices within the particular phenomena produced. On the basis of his profound insight that “concepts” (which are actual physical arrangements) and “things” do not have determinate boundaries, properties, or meanings apart from their mutual intra-actions, Bohr offers a new epistemological framework that calls into question the dualisms of objectsubject, knower-known, nature-culture, and word-world. 
+
+- Bohr’s insight that concepts are not ideational but rather actual physical 
+
+- arrangements is clearly an insistence on the materiality of meaning making that goes beyond what is usually meant by the frequently heard contemporary refrain that writing and talking are material practices. Nor is Bohr merely claiming that discourse is “supported” or “‘sustained” by material practices, as Foucault seems to suggest (though the nature ofthis support[is] not specified), or that nondiscursive (background) practices determine discursive practices, aS some existential-pragmatic philosophers purport.”* Rather, Bohr’s point entails a much more intimate relationship between concepts and materiality, matter and meaning. The shift from linguistic concepts to discursive practices provides the 
+
+- possibility of freeing Bohr’s account from its reliance on human concepts 
+
+148 INTRA-ACTIONS MATTER 
+
+and the static nature of apparatuses in one move. At the same time, however, the notion of discursive practices must be appropriately reconceptualized to take account of their intrinsically material nature (and Bohr’s insights are helpful here). The basic idea is to understand that it is not merely the case that human concepts are embodied in apparatuses, but rather that apparatuses are discursive practices, where the latter are understood as specific material reconfigurings through which “objects” and “subjects” are produced. I will offer such an elaboration in what follows. This shift will include a proposed posthumanist understanding of discursive practices and the role of the human, as well as some other important considerations. The agential realist ontology provides a basis for the necessary elaborations. In my agential realist elaboration of Bohr’s account, apparatuses are the material conditions of.possibility and impossibility of mattering; they enact what matters and what is excluded from mattering. Apparatuses enact agential cuts that produce determinate boundaries and properties of “entities” within phenomena, where “phenomena” are the ontological inseparability of agentially intra-acting components. That is, agential cuts are at once ontic and semantic. It is only through specific agential intra-actions that the boundaries and properties of “components” of phenomena become determinate and that particular articulations become meaningful. In the absence of specific agential intra-actions, these ontic-semantic boundaries are indeterminate. In short, the apparatus specifies an agential cut that enacts a resolution (within the phenomenon) of the semantic, as well as ontic, indeterminacy. Hence apparatuses are boundary-making practices. Now, as Bohr and Foucault would no doubt agree, meaning should not be understood as a property ofindividual words or groups of words. Meaning[is] neither intralinguistically conferred nor simply extralinguistically referenced. Meaning is made possible through specific material practices. Semantic contentfulness is achieved not through the thoughts or performances of individual agents but through particular discursive practices. However, the common belief that discursive practices and meanings are peculiarly human phenomena won’t do. If discursive practices are boundary-making practices in an ontic (as well as semantic) sense, then the practices by which the human and the nonhuman are differentially constituted cannot rely on a notion of discursive practices that helps itselfto a prior notion of the human. What is needed, then, is a posthumanist understandingofdiscursive practices. In an agential realist account, discursive practices are specific material (re}configurings of the world through which the determination of boundaries, properties, and meanings is differentially enacted.?° That is, discursive practices are ongoing agential 
+
+AGENTIAL REALISM 149 intra-actions of the world through which specific determinacies (along with complementary indeterminacies) are enacted within the phenomena produced. Importantly, discursive practices are causal intra-actions—they enact causal structures through which some components (the “effects”) of the phenomenon are marked by other components (the “causes”) in their differentia] articulation. Meaning is not a property of individual words or groups of words but an ongoing performance of the world in its differential dance of intelligibility and unintelligibility. In its causal intra-activity, part of the world becomes determinately bounded and propertied in its emergent intelligibility to another part of the world, while lively matterings, possibilities, and impossibilities are reconfigured. Discursive practices are boundarymaking practices that have no finality in the ongoing dynamics of agential intra-activity. In traditional humanist accounts, intelligibility requires an intellective agent (that to which something is intelligible), and intellection is framed as a specifically human capacity. But in my agential realist account, intelligibility is an ontological performance ofthe world in[its] ongoing articulation.[It] is not a human-dependent characteristic but a feature of the world in its differential becoming. The world articulates itself differently. Furthermore, knowing does not require intellection in the humanist sense, either. Rather, knowing is a matter of differential responsiveness (as performatively articulated and accountable) to what matters. As such, agential realism goes beyond both humanist and antihumanist accounts of the knowing subject as well as recent insights concerning the knower as a prosthetically enhanced human. Knowing is not about seeing from above or outside or even seeing from a prosthetically enhanced human body. Knowing is a matter of intra-acting. Knowing entails specific practices through which the world is differentially articulated and accounted for. In some instances, “nonhumans” (even beings without brains) emerge as partaking in the world’s active engagement in practices of knowing.’ Knowing entails differential responsiveness and accountability as part of a network ofperformances. Knowing is not a bounded or closed practice but an ongoing performance ofthe world. Discursive practices are not speech acts, linguistic representations, or even linguistic performances, bearing some unspecified relationship to material practices. Discursive practices are not anthropomorphic placeholders for the projected agency of individual subjects, culture, or language. Indeed, they are not human-based practices. On the contrary, agential realism's posthumanist account of discursive practices does not fix the boundary 
+
+150 INTRA-ACTIONS MATTER between human and nonhuman before the analysis ever gets off the ground, but rather allows for the possibility ofagenealogical analysis of the materialdiscursive emergence of thehuman. Human bodies and human subjects do not preexist as such; nor are they mere end products. Humans are neither pure cause nor pure effect but part of the world in its open-ended becoming. Just as there are no words with determinate meanings lying in wait as so many candidates for an appropriate representational moment, neither are there things with determinate boundaries and properties whirling aimlessly in the void, bereft of agency, historicity, or meaning, which are only to be bestowed from the outside, as when the agency of Man pronounces the name that attaches to specific beings in the making of word-thing pairs. “Things” don’t preexist; they are agentially enacted and become determinately bounded and propertied within phenomena. Outside of particular agential intra-actions, “words” and “things” are indeterminate. Matter is therefore not to be understood as a property of things but, like discursive practices, must be understood in more dynamic and productive terms—in terms of intra-activity. 
+
+- In Bodies That Matter, Judith Butler gives a thorough accounting of the 
+
+- failures of social constructivist accounts of the body that circulate in feminist theory and challenges feminists to return to the notion of matter. But by this “return” she does not advocate reclaiming the precritical view that would position matter as that which is prior to discourse. She argues that any such attempt to ground feminist claims about sexual difference in such a prediscursive substance is doomed to beach itselfon that very shore: matter, she explains, is already “fully sedimented with discourses on sex and sexuality that prefigure and constrain the uses to which that term can be put” (Butler 1993, 29). Instead Butler proposes that we understand matter as a “process of materialization that stabilizes over time to produce the effect of boundary, fixity, and surface we call matter” (9g). She explains that her claim that “matter is always materialized has . . . to be thought in relation to the productive and, indeed, materializing effects of regulatory practices in the Foucaultian sense” (g—10).”° Butler’s reconceptualization of matter as a process of materialization 
+
+- brings to the fore the importance of recognizing matter in its historicity and directly challenges representationalism’s construal of matter as a passive and blank slate awaiting the active inscription of culture whereby the relationship between materiality and discourse is figured as one of absolute exteriority. Butler’s account emphasizes the following important points. Matter, like meaning, is not an individually articulated or static entity. It is 
+
+AGENTIAL REALISM 151 not little bits of nature, or a blank slate, surface, or site passively awaiting signification; nor is it an uncontested ground for scientific, feminist, or economic theories. Matter is not immutable or passive. Nor is it a fixed support, location, referent, or source of sustainability for discourse. It does not require the mark of an external force like culture or history to complete it. Matter is always already an ongoing historicity. Unfortunately, however, Butler’s theory ultimately reinscribes matter as a passive product of discursive practices rather than as an active agent participatingin the very process of materialization.*° This deficiency is symptomatic ofan incomplete assessment ofthe causal factors of materializationand an incomplete reworking of“causality” in understanding the nature ofdiscursive practices (and material phenomena) in their productivity. Furthermore, Butler’s theory of materiality is limited to an account of[the][materializa-] tion of human bodies or, more accurately, to the construction of the contours of the human body. Moreover, as her reading of materiality in terms of Foucauldian regulatory practices makes clear, the processes that matter for her are only human socia! practices (thereby reinscribing the very natureculture dichotomy she wishes to contest). Agential realism provides an understanding of materialization that goes beyond the anthropocentric limitations ofButler’s theory. Significantly,[it] recognizes matter’s dynamism. In an agential realist account, matter does not refer to a fixed substance; rather, matter is substance in its intra-active becoming—not a thing but a doing, a congealing of agency. Matter is a stabilizing and destabilizing process of iterative intraactivity. Phenomena—the smallest material units (relational “atoms”)— come to matter through this process of ongoing intra-activity. “Matter” does not refer to an inherent, fixed property of abstract, independently existing objects; rather, ‘matter’ refers to phenomena in their ongoing materialization. Matter is not simply “a kind ofcitationality” (Butler 1993, 15), the surface effect of human bodies, or the end product of linguistic or discursive acts. Matter is not a linguistic construction but a discursive production in the posthumanistsense that discursive practices are themselves material (re)configurings of the world through which the determination of boundaries, properties, and meanings is differentially enacted. That is, discursive practices as boundary-making practices are fully implicated in the dynamics of intra-activity through which phenomena come to matter. The dynamics of intra-activity entail matter as an active “agent” in its ongoing materialization. Or rather, matter is a dynamic intra-active becoming that is implicated and enfolded in its iterative becoming. Matter(ing) is a dynamic articulation/configuration ofthe world. In other words, materiality is discursive (i.e., material phenomena are insep- 
+
+152 INTRA-ACTIONS MATTER arable from the apparatuses ofbodily production; matter emerges out of, and includes as part ofits being, the ongoing reconfiguring of boundaries), just as discursive practices are always already material (i.e., they are ongoing material [re]configurings of the world). Discursive practices and material phenomena do not stand ina relationship ofexternality to each other; rather, the material and the discursive are mutually implicated in the dynamics ofintra-activity. The relationship between the material and the discursive is one of mutual entailment. Neither discursive practices nor material phenomena are ontologically or epistemologically prior. Neither can be explained in terms of the other. Neither is reducible to the other. Neither has privileged status in determining the other. Neither is articulated or articulable in the absence of the other; matter and meaning are mutually articulated. Material constraints and exclusions and matter’s historiality and agency (including, for example, the material dimensions ofregulatory practices) are important factors in the process of materialization.*® Material conditions matter, not because they “support” particular discourses that are the actual generative factors in the formation of bodies, but because matter comes to matter through the iterative intra-activity of the world in its becoming. The point is not merely that there are important material factors in addition to discursive ones; rather, the issue is the conjoined material-discursive nature of constraints, conditions, and practices. The fact that material and discursive constraints and exclusions are intertwined points to the limited validity of analyses that attempt to determine individual effects of material or discursive factors.™ Agential realism’s conceptualization of materiality makes it possible to take account of material constraints and conditions once again without reinscribing traditional empiricist assumptions concerning the transparent or immediate givenness of the world and without falling into the analytical stalemate that simply calls for recognition of our mediated access to the world and then rests its case. The ubiquitous pronouncements that experience or the material world is “mediated” have offered precious little guidance about how to proceed. The notion of mediation has for too long stood in the way ofa more thoroughgoing accounting of the empirical world. The reconceptualization of materiality offered here makes it possible to take the empirical world seriously once again, but this time with the understanding that the objective referent is phenomena, not the seeming “immediately given-ness” of[the][object][ world.3*] All bodies, not merely “human” bodies, come to matter through the world’s iterative intra-activity—its performativity. This is true not only of the surface or con- 
+
+AGENTIAL REALISM 153 tours of the body but also of the body in the fullness of its physicality, including the very “atoms” of its being. Bodies are not objects with inherent boundaries and properties; they are material-discursive phenomena. “Human” bodies are not inherently different from “nonhuman” ones. What constitutes the human (and the nonhuman) is nota fixed or pregiven notion, but neither is it a free-floating ideality. What is at issue is not some illdefined process by which human-based linguistic practices (materially supported in some unspecified way) manage to produce substantive bodies or bodily substances, but rather the dynamics ofintra-activity in its materiality: material apparatuses produce material phenomena through specific causal intra-actions, where “material” is always already material-discursive—that ts what it means to matter. Theories that focus exclusively on the materialization of human bodies miss the crucial point that the very practices by which the differential boundaries of the human and the nonhuman are drawn are always already implicated in particular materializations. The differential constitution of the human (nonhuman) is always accompanied by particular exclusions and always open to contestation. This is a result of the nondeterministic causal nature of agential intra-actions, a crucial point thatI take up in the section on agency and causality hereafter. BODILY BOUNDARIES What is the outline? ... it is not something definite. It is not, believe it or not, that every object has a line around it! There is no such line. — FEYNMAN ETAL., Feynman Lectures on Physics If one really thinks about the body as such, there is no possible outline of the body as such. “ . GAYATRI SPIVAK, “In a Word The question ofbodily boundaries haunts Bohr’s account. While Bohr seems totake for granted the givenness of theoutside boundary ofthe apparatus, his conception ofthe knower is riddled with unresolved ambiguities that unsettle what seemed to be settled. On the one hand, Bohr conceives of the experimenter as an outside observer, a liberal] humanist subject who freely chooses among possible apparatuses and then stands back and notes the resulting marks on bodies, which can be unambiguously communicated to fellow scientists as a consequenceofthe specific embodiment of particular human concepts in the apparatus. This conception ofthe knowing subject is the basis for Bohr’s intersubjective notion ofobjectivity; the human subject is the finite 
+
+154. INTRA-ACTIONS MATTER 
+
+limit holding back the threat of infinite regress. On the other hand, Bohr argues against the Cartesian presupposition that there is an inherent boundary between observer and observed, knower and known. That boundary is differently articulated depending onthe specific configuration ofthe[ appara-] tus and its corresponding embodimentof particular concepts to the exclusion of others. That is, the object and the agencies of observation are co-constituted through the enactment of a cut that depends on the specific embodiment of particular human concepts. Where does this leave the human subject? Inside the phenomenon? As part of the apparatus? On the outside looking in? Is the subject a part of the agencies of observation that emerge through specific intra-actions, or is the subject an outside observer that chooses the apparatus? Human concepts are clearly embodied, but human subjects seem to be frustratingly and ironically disembodied. No wonder the ambiguity isn’t resolvable. Is the liberal humanist subject that haunts Bohr’s account a Cartesian subject after all? In this section, I review a small sampling ofa multitude of challenges to 
+
+the individualistic conception of bodies and the presumed givenness of bodily boundaries. This discussion is intended to serve as a backdrop for clarifying the nature of my proposed agential realist intervention. In the next section, I return to the quandary posed by Bohr’s humanism and the related question of where the apparatus ends. Interestingly, Bohr addresses the question of the boundary between sub- 
+
+ject and object directly in one ofhis less-technical examples intended for a general audience. He explains complementarity by considering two mutually exclusive ways for a person in a dark room to usefully intra-act with a stick or cane: one possibility is for the person to use the stick to negotiate his way around the room by holding the stick firmly in his hands, in which case the stick is properly understood to be part of the “subject,” or he can instead choose to hold the stick loosely to sense its features, in which case the stick is the “object” of observation: One need only remember here the sensation, often cited by psychologists, which every one has experienced when attempting to orient himself in a dark room with a stick. When the stick is held loosely, it appears to the sense of touch to be an object. When, however, it is held firmly, we lose the sensation that it is a foreign body, and the impression of touch becomes immediately localized at the point where the stick is touching the body under investigation. (Bohr 1963a [1929 essay], 99) The mutual exclusivity of these two different practices is evident.*> The 
+
+stick cannot usefully serve as an instrument of[observation][if][one][is][intent][on] 
+
+AGENTIAL REALISM 155 observing it. The line between subject and object is not fixed, but once a cut is made (i.e., a particular practice is being enacted), the identification is not arbitrary but in fact materially specified and determinate for a given practice. It is important to keep in mind that Bohr is making a point about the inherent ambiguity of bodily boundaries and the resolution of those boundaries through particular complementary cuts/practices. He is not making a point about the nature of conscious subjective experience, that is, about phenomena in the phenomenologist’s sense.** Now, the objection might be raised that the outside boundary ofa person (as well as a stick) is in fact determinate and that the question of whether or not the “‘subject” includes the stick is really only a pedantic musing and not a substantive issue; that is, at best, it is an example about the nature of human experience and not about the nature of “external” reality. But there is another way to understand the point of this example: what is at issue is differential material embodiment (and not merely of humans), not in the sense of the conscious subjective experience ofthe individual human subject butin terms of different material configurations of ontological bodies and boundaries, where the actual matter of bodies is what is at issue and at stake. Let’s briefly consider some significant challenges to the individualistic and mechanistic conception of[the][nature][of][ embodiment.] At first glance, the outside boundary ofa body may seem evident, indeed incontrovertible. A coffee mug ends at its outside surface just as surely as people end at their skins. On the face of it, reliance on visual clues seems to constitute a solid empirical approach, but are faces and solids really what they seem? In fact, an abundance of empirical evidence from a range of different disciplines, considerations, and experiences strongly suggests that visual clues may be misleading. What may seem evident to some is not simply a result of how things are independently of specific practices of seeing and other bodily engagements with the world. Rather, it has become increasingly clear that the seemingly self-evidentiary nature of bodily boundaries, including their seeming visual self-evidence, is a result of the repetition of (culturally and historically) specific bodily performance. In point of fact, the twentieth century has witnessed serious scientific, philosophical, anthropological, and experiential contestations of this seemingly selfevident point of view. Neurophysiologists, phenomenologists, anthropologists, physicists, postcolonial, feminist, queer, science, and disability studies scholars, and psychoanalytic theorists are among those who question the mechanistic conception of embodiment and the presumably inherent nature of bodily boundaries—especially human ones. Cyborg theorists are among those who find it deeply ironic to stop there.?® 
+
+- 156 INTRA-ACTIONS MATTER 
+
+- For example, scientists studying the nature of sight have called attention 
+
+- to the fact that there is much more to the question of where a body ends than meets the eye. In contemplating the physical mechanism of sight, the Nobel laureate physicist Richard Feynman calls into question the alleged inherent and self-evidentiary nature of bodily boundaries: The fact that there is an enhancement of contours [in the workings of the visual systems of particular animals, including humans} has long been known; in fact it is a remarkable thing that has been commented on by psychologists many times. In order to draw an object, we have only to draw its outline. How used we are to looking at pictures that have only the outline! What is the outline? The outline is only the edge difference between light and dark or one color and another. It is not something definite. It is not, believe it or not, that every object has a line around it! There is no such line. It is only in our own psychological makeup that there is a line. (Feynman 1964, 1:36-11; italics mine) 
+
+- Feynman understands the mistaken beliefin the givenness ofbodily boundaries to be an artifact of human psychology. But there’s no stopping there: physics tells us that edges or boundaries are not determinate either ontologically or visually. When it comes to the “interface” between a coffee mug and a hand, itis not that there are x number ofatoms that belongto a hand and y number of atoms that belong to the coffee mug. Furthermore, as we have seen, there are actually no sharp edges visually either: it a well-recognized fact of physical optics that if one looks closely at an “edge,” what one sees is not a sharp boundary between light and dark but rather a series oflight and dark bands—that is, a diffraction pattern.** Evidence for the claim that seeing is an achievement that results from 
+
+- specific bodily engagements with the world, and is not merely the inevitable result of the integrity of the visual apparatus (including the optics ofthe eye, specific neurological sites in the brain, and appropriate connections between them), comes from multiple investigations of human and nonhuman sight. For example, there are documented accounts of individuals who are born blind or lose sight at an early age and receive reparative operations later in life with the goal of restoring their sight only to discover that even after the restoration ofthe integrity of the visual apparatus, sight does not immediately follow. A careful review of the literature on the perception of space and shape conducted by M. von Senden (1960) in 1932 already notes this phenomenon. Richard Gregory and Jean G. Wallace (1963), and Oliver Sacks (1993) (working with Richard Gregory), have also studied sight restoration. 
+
+AGENTIAL REALISM 157 
+
+These accounts all attest to the fact that the notions of objects, faces, space, size, distance, and depth perception are meaningless to a person who has never seen before. Clearly, we do not see merely with our eyes. Interacting with (or rather, intra-acting “with” and as part of) the world is part and parcel of seeing. Objects are not already there; they emerge through specific practices.*” Some ofthe more vivid examples ofthe inherent indeterminacy of[bodily] boundaries arise in relation to prosthetic enhancements of disabled bodies. These analyses are often useful not only in helping us to understand prostheticembodiment but also in enabling us to see taken-for-granted features of “normal” embodiment. Phenomenologists like Foucault’s teacher Maurice Merleau-Ponty argue that the successful performance of everyday bodily tasks depends on the mutual incorporation of the instruments used to perform a task into the body and the dilation of our “being-in-the-world” into the instrument, thereby undermining the taken-for-granted distinction between the inside and outside of the body. Interestingly, Merleau-Ponty takes up virtually the same example that Bohr uses: a blind man who usesa stick to navigate aspects ofhis local surroundings.*® Merleau-Ponty notes that in such a case, the blind man’s stick has ceased to be an object for him, and is no Songer perceived for itself; its point has become an area of sensitivity, extending the scope and active radius of touch, and providing a parallel to sight. In the exploration of things, the length of the stick does not enter expressly as a middle term. . . . To get used to a hat, a car or a stick is to be transplanted into them, or conversely, to incorporate them into the bulk of our own body. Habit expresses our power of dilating our being-in-the-world, or changing our existence by appropriating fresh instruments. (Merleau-Ponty 1962, 143) Similar points have been made by some disabled people and advocates of disability rights. In commenting on Nancy Mairs’s Waist-High in the World, Lisa Diedrich explains that the wheelchair that Mairs “uses,” “a compact electric model called a Quickie Proo,” is not only an extension ofher body or “a bodily auxiliary,” as Merleau-Ponty calls a blind person’s cane, but has become incorporated, madea part of her body—so much so that when the Quickie Proo breaks down, it is the breakdown not simply of an instrument employed by the body but of Mairs’s very self. According to Mairs, “the wheelchair I experience is not ‘out there’ for me to observe, any more than the rest of my body, and !’m invariably shocked at 
+
+158 INTRA-ACTIONS MATTER the sight of myself hunched in its black framework of aluminum and plastic” (p. 46). In her Quickie Proo, Mairs is at one and the same time positioned and situated in the world. (Diedrich 2001, 218-19) Diedrich points out that for Mairs the Quickie Proo is not merely a bodily auxillary but an integral part of Mairs’s body. I wantto suggest thatthere may be important intertwined ontological and ethical points to be made here that go beyond the question of the nature of individual subjective human experience. Diedrich emphasizes the importance of these questions not only to the daily lives of people who have recognized disabilities but also for “ablebodied” people. Those in the latter category (at least up to this point in their lives) often tend to be unreflective about these issues. The luxury oftaking for granted the nature of the body as it negotiates a world constructed specifically with an image of “normal” embodiment in mind is enabled by the privileges of ableism. It is when the body doesn’t work—when the body “breaks down”’ —that such presuppositions generally surface. It is often only when things stop working that the apparatus is first noticed. When such (in)opportunities arise the entangled nature of phenomena and the importance of the agential cut and their corollary constitutive exclusions emerges. It then becomes clear that “able-bodiedness” is not a natural state of being but a specific form of embodiment that is co-constituted through the boundary-making practices that distinguish “able-bodied” from “disabled.”’ Focusing on the nature of the materiality of able bodies as phenomena, not individual objects/subjects, makes it clear what it means to be able-bodied: that the very nature of being able-bodied is to live with/in and as partof the phenomenon that includes the cut and what it excludes, and therefore, that what is excluded is never really other, not in an absolute sense, and that in an important sense, then, being able-bodied means being in a prosthetic relationship with the “disabled.” How different ethics looks from the vantage point of constitutive entanglements. What would it mean to acknowledge that the “able-bodied” depend on the “disabled” fortheirvery existence? What would it mean totake on that responsibility? What would it mean to deny one’s responsibility to the other once there is a recognition that one’s very embodimentis integrally entangled with the other??° As wehaveseen, the question ofthenature ofembodiment is nota mere artifact ofthe new technologies but arises from examples closer to hand. Nonetheless some newer technologies have a way of bringing the issues into greater relief. Consider, for example, Sandy Stone’s description of encountering Stephen Hawking ata lecture given at the University of California, Santa Cruz.*° Hawking has become a legend in his own time, not only for his remark- 
+
+AGENTIAL REALISM _ 159 able contributions to physics but also because he has continued to be an extraordinarily productive physicist during his long-term struggle with ALS (Lou Gehrig’s disease). Unable to speak because ofthe[debilitating][effects][of] the disease, Hawking communicates through an artificial speech device called a Votrax. As Stone describes the event, the auditorium where Hawking is speaking is filled to the brim, and loudspeakers have been placed out on the lawn, where a “zillion” people have gathered to listen. She suddenly decides that she doesn’t want to sit outside listening to a Pa system, and so she sneaks into the auditorium so that she can “actually hear Hawking give the talk.” She worms her way inside and manages to get a front-row seat. Stone offers this description of her experience: And there is Hawking. Sitting, as he always does, in his wheelchair, utterly motionless, except for his fingers on the joystick of the laptop; and on the floor to one side of him is the PA system microphone, nuzzling into the Votrax’s tiny loudspeaker. And a thing happens in my head. Exactly where, I say to myself, is Hawking? Am Iany closer to him nowthan Iwas outside? Who[is][it] doing the talking up there on the stage? In an important sense, Hawking doesn’t stop being Hawking at the edge of his body. There is the obvious physical Hawking, vividly outlined by the way our social conditioning teaches us to see a person as a person. Buta serious part ofHawking extends into the box in his lap. No box, no discourse; Hawking’s intellect becomes a tree falling in the forest with nobody around to hear it. Where does he stop? Where are his edges? “Why should our bodies end at the skin, or include at best other beings encapsulated by skin?” asks the author of“The Cyborg Manifesto.” Echoing the phenomenologists while pressing their insights further, Haraway argues that the insistence that there is an obvious bodily boundary that ends at the skin fails to recognize the body’s specific situatedness in the world. But for Haraway, “situation is never self-evident, never simply ‘concrete,’ [but] always critical,” “the kind of standpoint with stakes in showing how ‘gender,’ ‘race,’ or any structured inequality in each interlocking specific instance gets built into the world—i.e., not ‘gender’ or ‘race’ as attributes or as properties, but ‘racialized gender’ as a practice that builds worlds and objects in some ways rather than others, that gets built into objects and practices and exists in no other way. Bodies in the making, not bodies made.’’*? For Haraway, “embodiment is about significant prosthesis” (1991, 195)—bodies in the making are never separate from their apparatuses of bodily production. In what follows, I use Bohr’s crucial insight about the production of bodily boundaries to argue that his liberal humanist conception of human 
+
+**==> picture [385 x 719] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+160 INTRA-ACTIONS MATTER<br>bodies and subjects is in fact untenable, andI propose instead a posthuman-<br>ist understanding of the “human.” Crucially, I will argue that the nature of<br>the production of bodily boundaries is not merely experiential, or merely<br>epistemological, but ontological—what is at issue and at stake is a matter of<br>the nature of reality, not merely a matter of human experience or human<br>understandings of the world. Beyond the issue of how the body is positioned<br>and situated in the world is the matter of how bodies are constituted along<br>with the world, or rather, as “part” of the world (i.e., “being-of-the-world,”<br>not “being-in-the-world”). That is, the central issue for my purposes con-<br>cerns the nature of the body’s materiality. I will argue that matter itself<br>entails entanglements—that this is its very nature. By “entanglement” I don’t<br>mean just any old kind of connection, interweaving, or enmeshment in a<br>complicated situation. Crucially, my use of this term goes to the agential<br>realist ontology thatI propose with all its requisite refigurings of causality,<br>materiality, agency, dynamics, and topological reconfigurings. (For an im-<br>portant technical discussion of entanglement, see chapter 7.) Furthermore, I<br>argue that ethics is not simply about responsible actions in relation to hu-<br>man experiences of the world; rather, it is a question of material entangle-<br>ments and how each intra-action matters in the reconfiguring of these en-<br>tanglements, that is, it is a matter of the ethical call that is embodied in the<br>very worlding ofthe world. Intrinsic to these concerns is the question of [the]<br>boundaries of nonhumans as well as humans and how these differential<br>boundaries are co-constituted, including situations where there are no “hu-<br>mans” around. (See chapter 8 for a detailed discussion of the ethical im-<br>plications.) In the remainder ofthis section and the next, [I]  tum my attention<br>again to the question of the boundaries of the apparatus.<br>Bohr is on questionable grounds in presuming an intrinsic outside<br>boundary to the apparatus, for his own argument in fact undermines such a<br>presupposition. In Bohr’s account, one is not entitled to presume that an<br>object has determinate boundaries and properties in the absence of their<br>specification through the larger material arrangement. The boundaries and<br>properties of an “object” are determinate only within and as part of a par-<br>ticular phenomenon. Therefore, by the logic of Bohr’s own analysis, the<br>boundaries and properties of an apparatus are not well defined outside its<br>determination within a larger phenomenon.<br>Let’s look at this point more closely. Bohr insists that an “unambiguous<br>[i.e., objective] account of proper quantum phenomena must, in principle,<br>include a description of all relevant features of the experimental arrange-<br>ment” (Bohr 1963c [1958 essay], 4). Now, to determine all its relevant fea-<br>tures, it is necessary to characterize the entire experimental apparatus (or at<br>**----- End of picture text -----**<br>
+
+
+AGENTIAL REALISM 161 leastall the features thatare relevant) by involving it within a larger phenomenon. That is, the apparatus thatis to be characterized (i.e., measured) must be the “object of observation” within some larger phenomenon involving its intra-action with an auxiliary apparatus. This is necessary so that the “object apparatus” within the larger phenomenon effects its marks on another “part” of the larger phenomenon (which includes the auxiliary apparatus). In other words, to measure its characteristics (as part of a larger phenomenon), the original apparatus in question would have to become the “object” of investigation in its intra-action with an auxiliary apparatus, thereby involving it in some larger phenomenon. Since it is not possible for the apparatus to simultaneously be both measured object and measuring instrument, the apparatus cannot be fully characterized and function according to its (“original”) purpose simultaneously.*? Or to put it another way, any attempt to measure the “original” apparatus’s characteristics will require its involvement within a larger phenomenon whereby it is positioned as the object of investigation, thereby excluding its role as an agency of observation. The measurement ofthe[ apparatus][entails][a][different] phenomenon from the original one, and the connection of the two different phenomena would require a third, yet larger phenomenon entailing these. Hence the “outside” boundary, like the “inside” boundary, is not determinate in the absence of its involvement in a larger phenomenon. In other words, there are no intrinsic boundaries, and even what is “inside” and what is “outside” are intrinsically indeterminate. The logic of Bohr’s own argument undercuts the conception of the apparatus as a static and bounded laboratory setup and the human as the set designer, interpreter, and spokesperson for the performance of nature. 
+
+THE BOUNDARIES OF AN APPARATUS, OR ‘‘CECI N’EST PAS UNE CIGAR”? The demonstration of space quantization, carried out in Frankfurt, Germany, in 1922 byOtto Stern and Walther Gerlach, ranks among the dozen or so canonical experiments that ushered in the heroic age of quantum physics. Perhaps no other experiment is so often cited for elegant conceptual simplicity. From it emerged both new intellectual vistas and a host of useful applications of quantum science. Yet even among atomic physicists,very few today are aware of the historical particulars that enhance the drama ofthe story and the abiding lessons it offers. Among the particulars are a warm bed [and] a bad cigar... —~BRETISLAV FRIEDRICH AND DUDLEY HERSCHBACH, “Stern and Gerlach’’** 
+
+162. INTRA-ACTIONS MATTER It was during a period in the history of physics known as the time of[the][“old] quantum theory”—an era ofscientific uncertainty during the first quarter of the twentieth century when physicists tried on al] manner of hybrid notions dressing up a dignified, proper, and stately classical physics with newfangled quantum ideas—that Otto Stern convinced Walther Gerlach to perform a tedious experiment that Stern believed “if successful, would decide unequivocally between the quantum theoretical and classical views.’’** This is a period marked by Bohr’s Nobel Prize-winning model of the atom. Bohr’s ingenious application of the new quantum ideas to matter enabled him to provide explanations for both the stability of the atom and the atomic spectrum of hydrogen. In Bohr’s model, an atom is a “tiny solar system” with a central nucleus surrounded by a discrete set of concentric electron “orbitals.” The observed hydrogen spectrum can be explained by taking account of all possible electron ‘“‘jumps”—that is, “quantum leaps”—from one discrete orbital (i.e., energy level) to another.** Despite the successes of the Bohr model and its extension by Sommerfeld and Debeye, and other triumphs of the old quantum theory, including Einstein’s Nobel Prizewinning explanation of the photoelectric effect (which introduced the notion of a photon, or light quantum, into physics), physicists were understandably hesitant to give up so quickly on classical physics, which had proved to be an extraordinarily successful explanatory framework for much of the rest of physical phenomena, from the realm ofthe[heavenly][bodies][to] the everyday and smaller, until certain explorations of the atomic domain got under way.*® Within this hybrid and rapidly evolving worldview, the BohrSommerfeld-Debeye mode! of the atom presented a particular puzzle that spawned significant debate: what explanation could be given for the fact that the orientation of the plane of the electron orbit is limited to discrete values, meaning that only particular orientations in space are allowed? Questions about whether this phenomenon, dubbed “space quantization,” was a real phenomenon or whether it merely symbolized some other phenomenon not yet understood plagued physicists. The Stern-Gerlach experiment dared to understand space quantization as a real phenomenon (against the grain of the majority opinion). Stern felt that if one could demonstrate the reality of a phenomenon so profoundly nonclassical as space quantization, then classical theory would have to yield to a new physics.*” Stern’s idea for the experiment crystallized during his meditations on a chilly morning ‘‘too cold to get out of bed.” The essence of the idea that sparked his imagination was to use magnetism as a probe ofspace quantization. His experimental design is based on the following conceptual model: an orbiting electron should produce a tiny magnetic field, which would 
+
+AGENTIAL REALISM _ 163 thereby provide a handle for the manipulation ofthe atom through its interaction with an external magnetic field. In particular, it occurred to Stern that by using a particular arrangement of magnets, one could, in theory, display the discrete orientations of the planes of the orbiting electrons by taking advantage of their different alignments with the external field to separate the electrons with different orientations. He proposed to use a beam of silver atoms and an external field configuration such that the two possible orientations ofthe[electrons][orbiting][the][nucleus][of][ the][silver] atoms[would][follow] separate paths—electrons with one orientation relative to the magnetic field would be deflected upward, and electrons with the opposite orientation would be deflected downward. In other words, the beam of silver atoms passing through the external field created by the magnets would be split in two, leaving two separate traces on the detecting screen, which was a glass plate (figure r4). Stern enlisted the experimental talents of Walther Gerlach, who was performing atomic beam experiments in the building adjacent to Born’s Institute of Theoretical Physics in Frankfurt, where Stern worked. Conveniently, Gerlach had a magnetic apparatus that suited Stern’s purposes. While Stern’s idea was straightforward enough, its practical realization was a complex, arduous, and tedious matter. One of Gerlach’s students left the following testimony to the trials his professor had to overcome: Anyone who has not been through it cannotat all imagine how great were the difficulties with an oven to heat the silver up . . . within an apparatus which could not be fully heated [the seals would melt} and where a vacuum. . . had to be produced and maintained for several hours. . .. The pumps were made of glass and quite often they broke, either from the thrust of boiling mercury ... or from the dripping ofcondensed watervapor. In that case the several day effort of pumping, required during the warming up and heating of the oven, was lost. Also, one could be by no means certain that the oven would not burn through during the four- to eight-hour exposure time. Then both the pumping and the heating of the oven had to be started from scratch. It was a Sisyphus-like labor and the main load and responsibility was carried on the broad shoulders of Professor Gerlach. . . . He would get in about 9 p.m. equipped with a pile of reprints and books. During the night he then read the proofs and reviews, wrote papers, prepared lectures, drank plenty ofcocoa or tea and smoked a lot. When J arrived the next day at the Institute, heard the intimately familiar noise of the running pumps, and found Gerlach still in the lab, it was a good sign: nothing broke during the night. (W. Schtitz, quoted in Friedrich and Herschbach 1998, 179) 
+
+**==> picture [13 x 10] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+��<br>**----- End of picture text -----**<br>
+
+
+**==> picture [4 x 3] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+�<br>**----- End of picture text -----**<br>
+
+
+AGENTIAL REALISM 165 
+
+**==> picture [216 x 163] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+an Screen | \<br>Sa Magnet | S|<br>Cigar<br>**----- End of picture text -----**<br>
+
+
+15 Anext-order iteration of the schematic of the Stern-Gerlach experiment, revised to more accurately account for the nature of the apparatus. This schematic includes the crucial agential contributron of the cigar. The reproducibility of the experiment depends on the cigar’s presence. Not any old cigar will do: the high sulfur content ofa cheap cigar fs crucial. Class, nationalism, gender, and the politics of nationalism, among other variables, are all part of this apparatus (which is not to say that all relevant factors figure in the same way orwith the same weight). Illustration by Nicoile Rager Fuilerfor the author. 
+
+them at a distance close enough so that the plates could absorb the fumes of Stern’s sulfuric breath, turning the faint, nearly invisible, silver traces into jet black silver sulfide traces.*° The magical success of this historic experiment depended ona cheap (cigar) trick (figure 15). If it hadn’t been for Stern’s tobacco habit coupled with his relative impoverishment, the duo might have given up hopeoffinding any trace of space quantization, which refused to show itself in the absence of a little helpful cajoling from the cigar’s sulfurous fumes.*° As the example of Otto Stern’s cheap cigar makes quite poignant, taking for granted that the outside boundary of the apparatus ends at some ‘“‘obvious” (visual) terminus, or that the boundary circumscribes only that set of items we learn to list under “equipment” in laboratory exercises In science classes, trusting our classical intuition, our training, and everyday experience to immediately grasp the “apparatus” in its entirety, makes one susceptible to illusions made of preconceptions, including “the obvious” and “the visible,” thereby diverting attention from the reality of the role played by smoke and mirrors (or at least smoke, glass, and silver atoms), where the “smoke screen” itselfis a significant part of the apparatus.** Significantly, the Stern-Gerlach experiment did not in fact yield the ex- 
+
+166 INTRA-ACTIONS MATTER pected result, nor was it as definitive as Stern had hoped. Although Stern remarked that the success of their experiment would “decide unequivocally between the quantum theoretical and classical views,” what the textbook accounts don’t mention is thata preliminary report by Stern and Gerlach did not show evidence of beam splitting. That is, the initial results did not support the quantum worldview as Stern understood it. And yet this result was not taken to be definitive ofa negative result: A preliminary result reported by Stern and Gerlach did not show splitting of the beam into components. It did, however, show a broadened beam spot. They concluded that although they had not demonstrated spatial quantization, they had provided “evidence that the silver atom possesses a magnetic moment.” (A. Franklin 2002) That is, they did not conclude that spatial quantization is not a real effect after all (and definitively so). Instead “Stern and Gerlach made improvements in the apparatus, particularly in replacing a round beam slit by a rectangular one that gave a much higher intensity” (ibid.). And this idea paid off in spades: this relatively minor reconfiguring of the apparatus resolved the broadened beam spot into two components, entirely reworking their conclusion.*? But that’s not where the irony concerning this allegedly fielddefining experiment stops. Although virtually every quantum physics textbook hails the Stern-Gerlach experiment as a definitive and straightforward result (push a button and note what happens), it was only years afterward that the results were given their current interpretation: Stern and Gerlach had produced evidence not for space quantization but for the existence of the spin (angular momentum) ofthe electron. 
+
+- Practically all current textbooks describe the Stern-Gerlach splitting as demonstrating electron spin, without pointing out that the intrepid experimenters had no idea it was spin that they had discovered... . The gratifying agreement of the Stern-Gerlach splitting with the old theory proved to be a lucky coincidence. . . . Nature thus was duplicitous in an uncanny way. (Friedrich and Herschbach 2003; rearranged, italics mine)*? Recently, a new center for experimental physics at the University ofFrank- 
+
+- furt was named for Stern and Gerlach. The memorial plaque for the center uses the imagery of the split beam to show Stern and Gerlach on opposite sides, symbolizing the opposite directions taken by the two physicists as a result of Hitler’s rise to power.** Not unlilce the strain that resulted on the relationship of Bohr and Heisenberg, Stern and Gerlach’s relationship suf- 
+
+AGENTIAL REALISM 167 fered from their differing positions during the war. Stern, like Bohr, was Jewish and was forced to emigrate. Gerlach, like Heisenberg, remained in Germany during the war. And like Heisenberg, Gerlach played a major role in wartime efforts to develop a nuclear bomb for Germany. In fact, Gerlach, whose reputation was greatly enhanced by his work on the famed SternGerlach experiment, was appointed head of the Reich’s nuclear research program and was one of the ten leading German scientists (along with Heisenberg) detailed at Farm Hill by the Allied forces after the war.*° Apparatuses are not static laboratory setups but a dynamic set of openended practices, iteratively refined and reconfigured. As the revised diagram of the Stern-Gerlach apparatus indicates, a cigar is among the significant materials thatare relevant to the operationand success ofthe experiment (see figure 15). Not any cigar will do. Indeed, the cigar is a “condensation”—a “nodal point,” as it were—of the workings of other apparatuses, including class, nationalism, economics, and gender, all of which are a part of this Stern-Gerlach apparatus. Which is not to say that all relevant factors figure in the same way or with the same weight. The precise nature ofthis configuration (i.e., the specific practices) matters. Nor is itto suggest that social factors determine the outcome of scientific investigations. Indeed, it would be a mistake to understand the presence of the cigar in the diagram as a symbol of thefactthattheexperimenter’s intrinsic identity (e.g., his gender and class) is a determining factor intheoutcome ofthe experiment. This reading would be mistaken in several important ways: it misunderstands the nature of gender, class, individuals, practices, materiality, agency, and causality. (And, yes, of course, a woman smoking the same kind of cigar f orthe same length oftime and breathing with the same sulfurous breath on the same plate would have obtained the same result. Far be itf orany feminist to suggest otherwise. Nor is the point thatwomenare less likely tosmoke cigars, even cheap ones.) The point is, rather, that in this case, material practices that contributed to the production ofgendered individuals also contributed to the materialization of this particular scientific result (““gender-and-science-in-the-making”): “‘objects” and “subjects” are coproduced through specific kinds of materialdiscursive practices. Stern’s gendered and classed performance of masculinitv (e.g., through his cigar smoking) mattered. (This is not to suggest thatthe smoking ofcheap[cigars] was[the][only][possible][contingency][ that][ could][have] helped to serendipitously develop the plate, but it was a factor, like many other factors, in the discovery ofthis result.) The point[is] not that there are leaks in the system where social values seep in despite scientists’ best efforts to maintain a vacuum-tight seal between the separate domains of nature and 
+
+168 INTRA-ACTIONS MATTER culture. Nor should we conclude that the quality of the results is diminished in proportion to the permeability of this barrier. This kind of thinking mistakenly reifies culture and nature and gender and science into separate categories. But the fact is that the world isn’t naturally broken up into social and scientific realms that get made separately. There isn’t one set of material practices that makes science, and another disjunct set that makes social relations; one kind of matter on the inside, and another on the outside. The social and the scientific are co-constituted. They are made together—but neither is just made up. Rather, they are ongoing, open-ended, entangled material practices. The goal is therefore to understand which specific material practices matter and how they matter. What we find in this particular case is that gender performativity, among other important factors including nature’s performativity, was a material factor in this scientific outcome.*° This example not only illustrates the dynamic nature of scientific practices and the lack of a determinate outside boundary to the apparatus but also clearly suggests that humans enter not as fully formed, preexisting subjects but as subjects intra-actively co-constituted through the materialdiscursive practices that they engage in. I will explore this suggestion further in the next section. THE NATURE OF AN APPARATUS AND A POSTHUMANIST ROLE FOR THE ‘‘HUMAN”? Physicists and poststructuralists offer very different reasons for their mutual rejection ofhumanism. As far as physicists are concerned, the human has no place in a respectable physical theory that claims to explain the workings of nature. Indeed, it is the distasteful centrality of human interventions in the form of conceptual frameworks and measuring instruments—the artifactual contrivances of laboratory exercises—in the foundations ofquantum physics that constitutes the basis for the most common complaints against Bohr’s interpretation of quantum mechanics.*’ Poststructuralists, on the other hand, object to the liberal humanist prejudice that positions the subject as fully constituted before its engagement in social practices. The defect here lies in the elision of the role of power in the very constitution of the “subject.”>* In both cases, the offending humanist elements are linked to a failure to account for the practices through which boundaries are produced, including an examination of how the constitutive exclusions of boundary-making practices matter. Significantly, each of these critical perspectives is entangled in its own 
+
+AGENTIAL REALISM 169 anthropocentrisms. While Foucault’s genealogical analysis focuses on the production of human bodies, to the exclusion of nonhuman bodies whose constitution he takes for granted, Bohr is attentive to the production of nonhuman phenomena and takes for granted the prior existence of a human observer. Paradoxically, the latter assumption is not a difficulty for many of Bohr’s critics who would jettison the human observer from the physical universe altogether, staging him in some exterior position as the condition for the possibility of objective knowledge—hence ironically according the human a unique position among physical systems.*° Each of these formulations presumes human-nonhuman, nature-culture, and social-scientific dichotomies. Each stops short of understanding humans and nonhumans in their mutual constitution, as integral parts ofthe universe—not as beings in the universe. As we have seen, apparatuses are not inscription devices, scientific instruments set in place before the action happens, or machines that mediate the dialectic of resistance and accommodation between human and nonhuman laboratory actors. Apparatuses do not possess inherent outside boundaries limiting them to laboratory spaces or experimental practices.” Indeed, a given apparatus need not be specifically implicated in any practice that goes by the name “scientific.” But neither are they to be understood purely as technologies of the social (as opposed to the natural) in the sense suggested by theorists of political and social practices (following either Althusser or Foucault, for example, in their very different uses of the term). It is worth noting the degree to which these scholars exclude “scientific” practices in their consideration of “social” practices, and likewise the degree to which many scholars who write about scientific practices exclude relevant social dimensions (including self-avowed social constructivists and actor network theorists who neglect crucial social variables and relations of power such as those related to race, gender, and sexuality).°' Apparatuses are neither neutral probes of the natural world nor social structures that deterministically impose some particular outcome. Significantly, in an agential realist account, the notion of an apparatus is not premised on inherent divisions between the social and the scientific, the human and the nonhuman, nature and culture. Apparatuses are the practices through which these divisions are constituted. This formulation makes it possible to perform a genealogical accounting of the material-discursive practices by which these important distinctions are produced. 
+
+**==> picture [383 x 30] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+||||||||||||
+|---|---|---|---|---|---|---|---|---|---|---|
+|In|an|agential|realist account,|apparatuses|are|specific|material|configurations,|
+|or|rather,|dynamic|(re)configurings|of|the world|through|which|bodies|are|intra-actively|
+
+**----- End of picture text -----**<br>
+
+
+170 INTRA-ACTIONS MATTER materialized. That is, apparatuses are the practices of mattering through which intelligibility and materiality are constituted (along with an excluded realm of what doesn’t matter). Or to put it another way, apparatuses are material (re)configurings or discursive practices that produce material phenomena in their differential becoming. Phenomena are produced through specific causal intra-actions involving multiple apparatuses of bodily production. Intra-actions are causal (but nondeterministic) enactments through which matter-in-the-process-of-becoming is sedimented out and enfolded in further materializations.®* That is, apparatuses are material-discursive practices—causal intra-actions through which matter is iteratively and differentially articulated, reconfiguring the material-discursive field of possibilities and impossibilities in the ongoing dynamics of intra-activity that is agency. Apparatuses are not bounded objects or structures; they are open-ended practices. The reconfiguring of the world continues without end. Matter’s dynamism is inexhaustible, exuberant, and prolific. In agential realism’s reconceptualization of materiality, matter is agentive and intra-active. Matter is a dynamic intra-active becoming that never sits still—an ongoing reconfiguring that exceeds any linear conception of dynamics in which effect follows cause end-on-end, and in which the global is a straightforward emanation outward of the local. Matter’s dynamism is generative not merely in the sense of bringing new things into the world but in the sense of bringing forth new worlds, of engaging in an ongoing reconfiguring of the world. Bodies do not simply take their places in the world. They are not simply situated in, or located in, particular environments. Rather, “environments” and “bodies” are intra-actively co-constituted. Bodies (“‘human,” “environmental,” or otherwise) are integral “parts” of, or dynamic reconfigurings of, what is.°? Importantly, apparatuses are themselves phenomena. To take a specifically scientific example, apparatuses are not preformed, interchangeable objects that sit on a shelf waiting to serve a particular purpose, as any experimentalist will confirm. Apparatuses are constituted through particular practices that are perpetually open to rearrangements, rearticulations, and other reworkings. This is part of the creativity and difficulty of doing science: getting the instrumentation to work ina particular way for a particular purpose (which is always open to the possibility of being changed during the experiment as different insights are gained). Furthermore, any particular apparatus is always in the process of intra-acting with other apparatuses, and theenfoldingof(relatively) stabilized phenomena (which may be traded across laboratories, cultures, or geopolitical spaces only to find themselves differently materializing) into subsequent iterations of particular practices 
+
+AGENTIAL REALISM 171 constitutes important shifts in the particular apparatus in question and therefore in the nature of the intra-actions that result in the production of new phenomena, and so on. Boundaries do not sit still. Agential intra-actions are specific causal material enactments that may or may not involve “humans.” The question is: what does this “involvement” entail? First, I briefly review some of the difficulties posed by some of the more usual approaches to understanding human subjects; then I will explicate the nature of the posthumanist role of the human. The contention that apparatuses are productive ofphenomena may be the source of some discomfort for those who are accustomed to humanist and antihumanist accounts. Humanist accounts understand this production as a direct consequence of human actions, choices, intentions, commitments, ideas, values, concepts, beliefs, presuppositions, goals, and the like. Contrary to this view, I would argue that determinately bounded and propertied human subjects do not exist prior to their “involvement” in naturalculrural practices. Also problematic is the antihumanist view that encourages, or does not sufficiently discourage, the mistaken belief that human bodies and subjectivities are the effects of human-based discursive practices. Like their humanist counterparts these accounts reinscribe the nature-culture, humannonhuman, animate-inanimate binaries and other Enlightenment values and stakes that antihumanism seeks to destabilize. In an agential realist account, human subjects are neither outside observers ofapparatuses, nor independent subjects that intervene in the workings of an apparatus, nor the products of social technologies that producethem. Nor is the issue merely a matter of incorporating both humans and nonhumans into the apparatus ofbodily[ production.] The[ point][is][ as][follows:][to][ the][extent] that concepts, laboratory manipulations, observational interventions, and other human practices havea role to play, it is as part of the larger material configuration of the world. That is, the phenomena produced are not the consequences of human will or intentionality or the effects of the operations of Culture, Language, or Power. Humans do not merely assemble different apparatuses for satisfying particular knowledge projects; they themselves are part of the ongoing reconfiguring of the world. The particular configuration that an apparatus takes is not an arbitrary construction of “our” choosing. Which is not to say that human practices have no role to play; we just have to be clear about the nature of that role.** Apparatuses are not assemblages of humans and nonhumans; they are open-ended practices involving specific intra-actions of humans and nonhumans, where the differential constitutions of human and nonhuman designate particular phenomena that are themselves implicated in the dynamics of intra-activity, including their en- 
+
+172. INTRA-ACTIONS MATTER folding and reconstitution in the reconfiguring of apparatuses.®* That ts, human bodies, likeall other bodies, are not entities with inherent boundaries and properties but phenomena that acquire specific boundaries and properties through the open-ended dynamics of intra-activity. Humans are part of the world-body space in its dynamic structuration. Does this mean that humans have no responsibility for the outcomes of specific practices? If the liberal humanist conception of the subject who chooses a particular apparatus that enacts a cut delineating the object from the agencies of observation is found wanting, does that mean that human subjects are merely pawns in the gameof life, victims of the same practices that produce the phenomena being investigated? Are we not back to square one, to the Enlightenment ideal of the detached observer, the modest witness, who intervenes as needed, either willfully or in accordance with some master plan, and when all is said and done simply stands back and watches what temporally emerges? The answer to each of these questions is decidedly no. On the contrary, it is the liberal humanist conception ofthe[subject,] not the agential realist one, that encourages the notion that responsibility begins and ends with a willful subject who is destined to reap the consequences of his actions. Agency is not something that humans and even nonhumans have to varying degrees. And agency is not a binary proposition, either on or off. Futhermore, responsibility is not the exclusive right, obligation, or dominion of humans (see later sections in this chapter and chapter 8). To repeat, human subjects do havea role to play, indeed a constitutive role, but we have to be clear about the nature of that role. An agential realist understanding ofthe notion ofagency entails a significant reworking of the traditional conception. I will discuss this in detail hereafter and respond to the questions concerning responsibility articulated here. But a related question arises thatI want to address first: If the human cannot be presumed from the outset and is no longer cemented into the foundations of the theory, then what happens to objectivity? That is, in our undoing of the humanist conception ofthe[subject,][haven’t] we[nullified][all] of Bohr’s hard work to secure the objectivity of science, since he places the human at the center of his intersubjective rendering of objectivity? Has objectivity been sacrificed? 
+
+- OBJECTIVITY AND AGENTIAL SEPARABILITY 
+
+- Bohr understood the question of objectivity to constitute one of the primary challenges—if not the primary challenge—of the new quantum theory. For Bohr, the issue was quite straightforward: if quantum physics teaches us that 
+
+**==> picture [386 x 720] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+AGENTIAL REALISM 173<br>measurements necessarily entail subjective elements (which enter into the<br>physical considerations by way of theirembodiment in apparatuses), then the<br>very possibility of the objectivity of science is at stake. In what follows, I offer<br>a more detailed discussion ofhow Bohr meets this challenge, and I argue that<br>my ontological rendering of Bohr’s notion of phenomenon is the basis fora<br>stronger ontological understanding of objectivity, indeed a posthumanist con-<br>ception, in contrast to Bohr’s epistemic human-based rendering.<br>The sustained and impassioned debate between Bohr and Einstein<br>reached its pinnacle in 1935 when Einstein, Podolsky, and Rosen (EPR)<br>published a paper that was intended to shake physicists’ growing confidence<br>in quantum theory.”® The EPR challenge raises the question of the nature of<br>reality and what quantum mechanics tells us about it. Physicists and phi-<br>losophers of physics have noted that the EPR paper expresses Einstein’s<br>displeasure that quantum mechanics seems to allow spatially separated<br>states to communicate with one another (i.e., exchange information) in-<br>stantaneously, in seeming violation of the special theory of relativity. Don<br>Howard, a philosopher of science, argues that Einstein’s primary concern<br>actually touches on a deeper, more fundamental issue: a violation of the<br>metaphysical commitment to spatial separability. For Einstein, spatial sepa-<br>rability is nothing less than the condition for objectivity. Howard explains:<br>Like so many realists before him, Einstein speaks of the real world which<br>physics aims to describe as the real “external” world, and he does so in such a<br>way as to suggest that the independence of the real—its not being dependent<br>in any significant way on ourselves as observers—is grounded in this “exter-<br>nality.” For most other realists this talk of “externality” is at best a suggestive<br>metaphor. But for Einstein, it is no metaphor. “Externality” is a relation of<br>spatial separation, and the separability principle, the principle of “the mutu-<br>ally independent existence of spatially distant things,” asserts that any two<br>systems separated by so much as an infinitesimal spatial interval always<br>possess separate states. Once we realize that observer and observed are them-<br>selves just previously interacting physical systems, we see that their indepen-<br>dence is grounded in the separability principle along with the independence<br>ofall other physical systems. (Howard 1985, 192-93)<br>In other words, absolute exteriority is the condition of objectivity for<br>Einstein. Spatial separation ensures ontological separability; any two sys-<br>tems spatially separated by so much as an infinitesimal spatial interval al-<br>ways possess separately determinate states.®’ Hence, in Einstein’s way of<br>thinking, the spatial separation of observer and observed guarantees their<br>ontological separability and consequently secures the condition for the pos-<br>**----- End of picture text -----**<br>
+
+
+174. INTRA-ACTIONS MATTER sibility of objectivity. But if the condition for objectivity—the requisite relation of exteriority between observer and observed as secured by the existence of distinct states of spatially separated systems—is what is being called into question, then objectivity seems to hang precariously in the balance.®* Bohr did not find Einstein’s concerns troubling because Bohr did not share the same metaphysical beliefs. For Bohr, the so-called instantaneous communication between spatially separated systems is explained by the fact that these allegedly separated states are not really separate at all, but rather “parts” of one phenomenon.®® Furthermore, for Bohr, objectivity is not secured by spatial separability. For one thing, in Bohr’s account, Einstein is not entitled to help himself to spacetime descriptions outside the requisite conditions for their existence. Furthermore, individuation is not a given but the result of specific cuts enacted by the experimental arrangement. Bohr suggests a different set of criteria for objectivity. In Bohr’s account, objectivity is a matter of the unambiguous communication of the results of reproducible experiments.”° That is, objectivity for Bohr is not a matter of being ata remove from what one is studying, a condition predicated on classical physics’ metaphysical beliefin individualism, but a question of the unambiguous communication of the results of reproducible experiments. What secures the possibility of reproducibility and unambiguous communication is the Bohrian cut enacted by the apparatus.” The crucial point is that when an experiment is performed and the determinate values of the ‘permanent marks... left on bodies” are read by a human observer, an unambiguous description of the phenomenon is made possible by the fact that the apparatus provides both a resolution of the inherent indeterminacy between object and agencies of observation within the resulting phenomenon anda resolution of the inherent semantic indeterminacy, so that there exist well-defined concepts that can be used to objectively describe the results. That is, both the phenomenon and the embodied concepts that are used to describe them are conditioned by one and the same apparatus (which resolves the inherent ambiguities).’” Drawing out the ontological dimensions of Bohr’s framework provides the possibility of strengthening the notion of objectivity, providing a more robust conception rather than mere intersubjectivity. It also has the added benefit of not depending on a human observer. Significantly, the alternativeI propose provides the possibility of removing problematic humanist elements in Bohr’s account and avoiding some of the most controversial elements of Bohr’s philosophy-physics without sacrificing objectivity.”* In my agential realist elaboration, what replaces (Einstein’s favored) spatial sepa- 
+
+AGENTIAL REALISM 175 rability as the ontological condition for objectivity is agential separability—an agentially enacted ontological separability within the phenomenon.’* Objectivity is not sacrificed with the downfall of metaphysical individualism. No classical ontological condition of absolute exteriority between observer and observed (based on the metaphysics of individuated separate states) is required. The crucial point is that the apparatus enacts an agential cut—a resolution of the ontological indeterminacy—within the phenomenon, and agential separability —the agentially enacted material condition of exteriority-within- phenomena—provides the conditionfor the possibility of objectivity. This agential cut also enacts a local causal structure in the marking of the measuring instrument (effect) by the measured object (cause), where “local” means within the phenomenon. If the apparatus is changed, there is a corresponding change in the agential cut and therefore in the delineation of object from agencies of observation and the causal structure (and hence the possibilities for “the future behavior of the system”) enacted by the cut. Different agential cuts produce different phenomena. Crucially, then, the apparatus is both causally significant (providing the conditions for enacting a local causal structure) and the condition for the possibility of the objective description of material phenomena, pointing toward an important reconciliation of the Cartesian separation of intelligibility and materiality, and all that follows. The implications of this proposed understanding of the conditions for objectivity are substantial and far-reaching. I discuss these implications following a discussion of the agential realist understanding ofagency. THE NATURE OF PRODUCTION AND THE PRODUCTION OF NATURE: AGENCY AND CAUSALITY What is the nature of causality according to this account? What possibilities exist for agency, for intra-acting in and as part of the world’s becoming? Where do the issues of responsibility and accountability enter in? Causality is most often figured as a relation between distinct entities. For example, in the interaction between distinct entities the one that modifies (e.g., leaves its mark on) another entity is said to be the cause of the effect left on the other. But according to agential realism, separately determinate entities do not preexist their intra-action. So how are we to think about causality on this account? On an agential realist account, causal relations cannot be thought of as specific relations between isolated objects; rather causal relations necessarily 
+
+176 INTRA-ACTIONS MATTER entail a specification of the material apparatus that enacts an agential cut between determinately bounded and propertied entities within a phenomenon. The larger apparatus (e.g., the specific configuration of barriers, slits, particle sources, and screens) is causally significant. It is not that a preexisting entity receives a mark from a separately determinate entity but rather that the marking or specific materializing “effect” identifies the agencies of observation as agentially separable from its “cause” (the “object”) within the phenomenon. The marks left on the agencies of observation (the effect) are said to constitute a measurement of specific features of the object (the cause). In a scientific context, this process is known as a measurement. (Indeed, the notion of measurement is nothing more or less than a causal intra-action.)” Whether itis thought ofas a measurement, or as part of the universe making itself intelligible to another part in its ongoing differentiating intelligibility and materialization, is a matter ofpreference.’* Either way, what is important about causal intra-actions is that “marks are left on bodies”: bodies differentially materialize as particular patterns of the world asa result of the specific cuts and reconfigurings thatare enacted. Cause and effect emerge through intra-actions. Agential intra-actions are causal enactments. This causal structure differs in significant respects from the common choices of absolute exteriority and absolute interiority and of determinism and free will. Some forms of cultural and social constructivism rely on a geometry of absolute exteriority. For example, in the inscription model of constructivism, culture is figured as an external force acting on passive nature. There is an ambiguity in this model as to whether nature exists in any prediscursive form before its marking by culture. If there is such an antecedent entity, then its very existence marks the inherent limit of constructivism. (In this case, the rhetoric might usefully be softened to more accurately reflect the fact that the force of culture “shapes” or “inscribes” nature but doesn’t materially “produce” it.) On the other hand, if there is no preexistent nature, then it behooves those who advocate such a theory to explain how culture can materially produce that from which it is allegedly ontologically distinct, namely, nature. What is the mechanism of this production? The other usual alternative is also not attractive: the geometry of absolute interiority amounts to a reduction of the effect to its cause, or in this case nature to culture, or matter to language, which amounts to one form or another of idealism. 
+
+Agential separability presents an alternative to these unsatisfactory options.” It rejects the geometries of absolute exteriority or absolute interiority and opens up a much larger space that is more appropriately thought ofas a 
+
+AGENTIAL REALISM 
+
+177 
+
+dynamic and ever-changing topology.”* More specifically, agential separability is a matter of exteriority within phenomena. Note that since phenomena are material-discursive, no priority is given to either materiality or discursivity; neither one stands outside the other. There is no geometrical relation of absolute exteriority between a “causal apparatus” and a ‘body effected,” or an idealistic collapse of the two, but rather an ongoing topological dynamics of enfolding whereby the spacetimematter manifold is enfolded into itself. This topological dynamics/dynamic topology is a result of matter’s dynamism, as I will explain. It may be helpful at this point to take in the fact that the apparatuses of bodily production, which are themselves phenomena, are (also) part of the phenomena they produce: phenomena are forever being reenfolded and reformed. Crucially, matter plays an agentive role in its iterative materialization. This is an important reason, but not the only reason, that the space of agency is much larger than that postulated in many other critical social theories. Another crucial factor is that the agential realist notion ofcausality does not take sides in the traditional debates between determinism and free will but rather poses an altogether different way of thinking about temporality, spatiality, and possibility. Intra-actions always entail particular exclusions, and exclusions foreclose the possibility of determinism, providing the condition of an open future.”° But neither is anything and everything possible at any given moment. Indeed, intra-actions iteratively reconfigure what is possible and what is impossible—possibilities do not sit still. One way to mark this is to say that intra-actions are constraining but not determining. But this way ofputting[it] doesn’t do justice to the nature of “constraints” or the dynamics ofpossibility. Possibilities aren’t narrowed in their realization; new possibilities open up as others that might have been possible are now excluded: possibilities are reconfigured and reconfiguring.® There is a vitality to the liveliness of intra-activity, not in the sense ofa new form of vitalism, but rather in terms ofa new sense of aliveness.*’ The world’s effervescence, its exuberant creativeness, can never be contained or suspended. Agency never ends; it can never “run out.” The notion of intra-actions reformulates the traditional notions of causality and agency in an ongoing reconfiguring of both the real and the possible. In an agential realist account, agency is cut loose from its traditional humanist orbit. Agency is not aligned with human intentionality or subjectivity. Nor does it merely entail resignification or other specific kinds of moves within a social geometry of antihumanism. The space ofagency is not only substantially larger than that allowed for in Butler’s performative ac- 
+
+178 INTRA-ACTIONS MATTER count, for example, but also, perhaps rather surprisingly, larger than what liberal humanism proposes. Significantly, matter is an agentive factor in its iterative materialization. Furthermore, the future is radically open at every turn, and this open sense of futurity does not depend on the clash or collision of cultural demands. Rather, itis inherent in the nature ofintra-activity —even when apparatuses arc primarily reinforcing, agency is not foreclosed. Furthermore, the space ofagency is not restricted to the possibilities for human action. But neither is it simply the case that agency should be granted to nonhumans as well as humans, or that agency can be distributed over nonhuman and human forms. What is at issue, rather, are the possibilities for the iterative reconfiguring of the materiality of human, nonhuman, cyborgian, and other such forms. Holding the category “human” (“nonhuman”) fixed (or at least presuming that one can) excludes an entire range of possibilities in advance, eliding important dimensions of the workings of agency. Crucially, agency is a matter of intra-acting; it is an enactment, not something that someone or something has. It cannot be designated as an attribute of[subjects][or] objects (as they do not preexist as such). It is not an attribute whatsoever. Agency is “doing” or “being” in its intra-activity. It ts the enactment of iterative changes to particular practices—iterative reconfigurings of topological manifolds of spacetimematter relations—through the dynamics of intra-activity. Agency is about changing possibilities of change entailed in reconfiguring matertal-discursive apparatuses of bodily production, including the boundary articulations and exclusions that are marked by those practices in the enactment of a causal structure. Particular possibilities for (intra-)acting exist at every moment, and these changing possibilities entail an ethical obligation to intra-act responsibly in the world’s becoming, to contest and rework what matters and what is excluded from mattering. Since different agential cuts materialize different phenomena—different marks on bodies—our intra-actions do not merely effect what we know and therefore demand an ethics of knowing; rather, our intra-actions contribute to the differential mattering of the world. Objectivity means being accountable for marks on bodies, that is, specific materializations in their differential mattering. We are responsible for the cuts that we help enact not because we do the choosing (neither do we escape responsibility because “we” are “chosen” by them), but because we are an agential part of the material becoming of the universe. Cuts are agentially enacted not by willful individuals but by the larger material arrangement of which “we” are a “part.” The cuts that we participate in enacting matter. Indeed, ethics cannot be about responding to the other as if the other is the radical outside to the self. Ethics is not a 
+
+AGENTIAL REALISM 179 geometrical calculation; “others” are never very far from “us”; “they” and “we” are co-constituted and entangled through the very cuts “we” help to enact. Cuts cut “things” together and apart. Cuts are not enacted from the outside, nor are they ever enacted once and forall. RE(CON)FIGURING SPACE, TIME, AND MATTER Dynamics are about change. To specify or study the dynamics of a system is to say something about the nature of and possibilities for change. This includes specifying the nature of causation, the nature of the causes that effect change, the possibilities for what can change and how it can change, the nature and range of possible changes, and the conditions that produce change. The study of dynamics, as it is generally conceptualized within the natural sciences, is concerned with how the values of particular variables change over time asa result of the action of external forces, where time is presumed to march along as an external parameter. Agential realism does not simply pose a different dynamics (substituting one set of laws for another); it introduces an altogether different understanding of dynamics. It is not merely that the form of the causal relations has been changed, but the very notions of causality, as well as agency, space, time, and matter, are all reworked. Indeed, in this account, the very nature of change and the possibilities for change changes in an ongoing fashion as part of the world’s intra-active dynamism. Intra-actions are nonarbitrary, nondeterministic causal enactments through which matter-in-the-process-of-becoming is iteratively enfolded into its ongoing differential materialization. Such a dynamics is not marked by an exterior parameter called time, nor does it take place in a container called space. Rather, iterative intra-actions are the dynamics through which temporality and spatiality are produced and iteratively reconfigured in the materialization of phenomena and the (re)making of material-discursive boundaries and their constitutive exclusions. Exclusions are constitutive elements of the dynamic interplay (intra-play) of determinacy and indeterminacy. Indeterminacy is never resolved once and for all. Exclusions constitute an open space of agency; they are the changing conditions of possibility of changing possibilities. Where change is not a continuous mutation of what was or the unraveling of what will be, or any kind of continuous transformation in or through time, but the iterative differentiatings of spacetimemattering. In what follows, I elaborate on these claims. 
+
+180 INTRA-ACTIONS MATTER Time is not a succession of evenly spaced individual moments. It is not simply there as substance or measure, a background uniformly available to all beings as a reference or an ontological primitive against which change and stasis can be measured. In my agential realist account, what is at issue is not merely that time and space are not absolute but relative (following Einstein); rather, it is that intra-actions themselves matter to the making/ marking of space and time. In other words, spatiality and temporality must also be accounted for in terms of the dynamicsof intra-activity. As discussed in a previous section, materialization is not the end product or simply a succession of intermediary effects of purely discursive practices. Materiality itself is a factor in materialization. The dynamics ofmattering are nonlinear: the specific nature of the material configurations of the apparatuses of bodily production, which are themselves phenomena in the process of materializing, matters to the materialization of the specific phenomena of which they are a part, which matters to the ongoing materialization of the world in its intra-active becoming, which makes a difference in subsequent patterns of mattering, and so on; thatis, matter is enfolded into itselfin its ongoing materialization. The iterative enfolding of specific materializing phenomena into practices of materialization matters to the specifics of the materialization it produces.*? In short, the iterative enfolding of matter comes to matter. Matter is the sedimenting historiality of practices /agencies and an agentive force in the world’s differential becoming. Becoming is not an unfolding in time but the inexhaustible dynamism of the enfolding of mattering. Temporality is constituted through the world’s iterative intra-activity. Matter’s dynamism is implicated in its production. Temporality is produced through the iterative enfolding of phenomena marking the sedimenting historiality of differential patterns of mattering.** As the rings of trees mark the sedimented history oftheir intra-actions within and as part of the world, SO matter carries within itself the sedimented historialities of the practices through which it is produced as part of its ongoing becoming—it is ingrained and enriched in its becoming.®** Time has a history. Hence it doesn’t make sense to construe time as a succession of evenly spaced moments or as an external parameter that tracks the motion of matter in some preexisting space. Intra-actions are temporal not in the sense that the values of particular properties change in time; rather, which property comes to matter is re(con)figured in the very making/markingoftime. Similarly, space is not a collection of preexisting points set out in a fixed geometry, a container, as it were, for matter to inhabit. Matter isn’t situated 
+
+AGENTIAL REALISM 181 in the world; matter is worlding in its materiality. What matters is marked off from that which is excluded from mattering but not once and for all. Intra-actions enact specific boundaries, marking the domains of interiority and exteriority, differentiating the intelligible from the unintelligible, the determinate from the indeterminate.® Constitutive exclusions open a space for the agential reconfiguring of boundaries. As boundaries are reconfigured, “interior” and “exterior” are reworked. That is, through the enfolding ofphenomena, as part of the dynamics of iterative intra-activity, the domains of “interior” and “exterior” lose their previous designations, The boundaries that are enacted are not abstract delineations but specific material demarcations not in space but of space. Spatiality is intra-actively produced. It is an ongoing process of the material] (re)configuring of boundaries—an iterative (re)structuring of spatial relations. Hence spatiality is defined not only in terms of boundaries but also in terms of exclusions. Space, time, and matter are mutually constituted through the dynamics of iterative intra-activity. The spacetime manifold is iteratively (re)configured in terms of how material-discursive practices come to matter. The dynamics of enfolding involve the reconfiguring of the connectivity of the spacetimematter manifold itself (a changing topology), rather than mere changes in the shape or the size ofabounded domain (geometrical shifts). It should not be presumed that either the manifold itself or changes to the manifold are continuous. Discontinuity plays an important role. Changes do not follow in continuous fashion from a given prior state or origin, nor do they follow some teleological trajectory—there are no trajectories. The question ofthe nature of change brings us backaround to the metaphor of the tree rings. This metaphor is meant to be evocative of the sedimenting process of becoming. In particular, the point is that the making! marking oftime[is] a lively material process ofenfolding. But the metaphor[is] also limited in several important ways. (In any case it is not to be taken literally as representation; rather, it is offered as an evocation and provocation to think with.) First of all, the point is not that time leaves its mark as it were and marches on, leavinga trail of sedimentation to witness the effects of the external forces of change. Sedimenting is an ongoing process of differential mattering. The past matters and so does the future, but the past is never left behind, never finished once and for all, and the future is not what will come to be in an unfolding of the present moment; rather the past and the future are enfolded participants in matter’s iterative becoming (see especially the discussion of the quantum eraser experiment in chapter 7). Another important limitation is that this metaphor does nothing to inter- 
+
+182 INTRA-ACTIONS MATTER rupt the persistent assumption that change is a continuous process through or in time. But as we have seen the disruption of continuity in the form ofa “quantum discontinuity” (a very tiny one indeed) is the source of the disruption of many of the foundational notions of classical physics; indeed it disrupts no less than taken-for-granted notions of space, time, matter, causality, and agency, and epistemology, ontology, and ethics. (The double or paradoxical namingofthis discontinuity suggests a disconcerting aporia —what is a discontinuous discontinuity?—should we understand this discontinuity to contain the trace ofits own disruption/undoing? In a sense the troubled naming seems quiet apt since a discontinuity that queers our presumptions of continuity cannot be the opposite of the continuous, nor continuous with it.) Quantum leaps aren’t jumps (large or small) through space and time. An electron that “leaps” from one orbital] to another does not travel along some continuous trajectory from here-now to there-then. Indeed, at no time does the electron occupy any spatial point in between the two orbitals. But this is not what makes this event really queer. What makes a quantum leap unlike any other is that there is no determinate answer to the question of where and when they happen. The point is that it is the intra-play of continuity and discontinuity, determinacy and indeterminacy, possibility and impossibility that constitutes the differential spacetimematterings of the world. Or to put it another way, if the indeterminate nature of existence by its nature teeters on the cusp of stability and instability, of determinacy and indeterminacy, of possibility and impossibility, then the dynamic relationality between continuity and discontinuity is crucial to the open-ended becoming of the world which resists acausality as much as determinism. As discussed earlier, agency is the space of possibilities opened up by the indeterminacies entailed in exclusions. And agency, in this account, is a much larger space of possibilities than that generally considered. The reworking of exclusions entails possibilities for (discontinuous) changes in the topology of the world’s becoming. But not everything is possible at every moment. Interior and exterior, past, present, and future, are iteratively enfolded and reworked, but never eliminated (and never fixed). Intra-actions reconfigure the possibilities for change. In fact, intra-actions not only reconfigure spacetimematter but reconfigure what is possible. Ethicality is part ofthe[fabric][of][the][world:][the][call][to][respond] and[be][responsible][is][part] of what is. There is no spatial-temporal domain that is excluded from the ethicality of what matters. Questions of responsibility and accountability present themselves with every possibility; each moment is alive with different possibilities for the world’s becoming and different reconfigurings of what may yet be possible.*’ 
+
+AGENTIAL REALISM 183 CONCLUSIONS Scholars in feminist studies, science studies, cultural studies, and critical social theory are among those who struggle with the difficulty of coming to terms with the “weightiness” of the world. On the one hand, there is an expressed desire to recognize and reclaim matter and its kindred spirits (e.g., the body) exiled from (or swallowed up by) the familiar and comforting domains of culture, mind, and history, not simply to altruistically advocate on behalf of the subaltern but in the hopes of finding a way to account for our own finitude. Can we identify the limits and constraints, if not the grounds, of discourse-knowledge in its productivity? But despite its substance, in the end, according to many contemporary attempts at its salvation, it is not matter that reels in the unruliness of infinite possibilities; rather, it is the very existence of finitude that gets defined as matter. Caught once again looking at mirrors, it is either the face of transcendence or our own image. It is as if there are no alternative ways to conceptualize matter: the only options seem to be the naiveté of empiricism or the same old narcissistic bedtime stories. Ihave proposed a posthumanist account of performativity that challenges the positioning of materiality as either a given or a mere effect of human agency. In an agential realist account, materiality is an active factor in processes of materialization. Nature is neither a passive surface awaiting the mark of culture nor the end product of cultural performances. The belief that nature is mute and immutable and that all prospects for significance and change reside in culture merely reinscribes the nature-culture dualism that feminists have actively contested. Nor, similarly, can a human-nonhuman distinction be hard-wired into any theory that claims to take account of matter in the fullness of its historiality. To presume a given distinction between humans and nonhumans is to cement and recirculate the natureculture dualism into the foundations of feminist theory, foreclosing a genealogy of how nature and culture, human and nonhuman, are formed. Hence any performative account worth its salt would be ill advised to incorporate such anthropocentric values in its foundations. A crucial part of the performative account that I have proposed is a rethinking of the notions of discursive practices and material phenomena and the relationship between them. In an agential realist account, discursive practices are not human-based activities but specific material (re)configurings of the world through which boundaries, properties, and meanings are differentially enacted. And matter is not a fixed essence; rather, matter is substance in its intra-active becoming—not a thing but a doing, a congeal- 
+
+184 INTRA-ACTIONS MATTER ing of agency. Apparatuses are material (re)configurings or discursive practices that produce (and are part of) material phenomena in their becoming. Discursive practices and material phenomena do not stand ina relationship of externality to each other; the material and the discursive are mutually implicated in the dynamics of intra-activity. In an agential realist account, performativity is understood not as iterative citationality (Butler) but as iterative intra-activity. Intra-actions are agentive, and changes in the apparatuses of bodily production matter for ontological as well as epistemological and ethical reasons: different matcrial-discursive practices produce different material configurings of the world, different difference/ diffraction patterns; they do not merely produce different descriptions. Objectivity and agency are bound up with issues of responsibility and accountability. Accountability must be thought of in terms of what matters and what is excluded from mattering. In an agential realist account of technoscientific practices, the knower does not stand in a relation of absolute externality to the natural world— there is no such exterior observational! point.** The condition of possibility for objectivity is therefore not absolute exteriority but agential separability— exteriority within phenomena.* We are not outside observers of the world. Neither are we simply located at particular places in the world; rather, we are part of the world in its ongoing intra-activity. ‘This is a point Niels Bohr tried to get atin his insistence that our epistemology must take account ofthe fact that we are a part of that nature we seek to understand. Unfortunately, however, Bohr cut short important posthumanist implications of this insight in his ultimately humanist understanding of the “we.” Vicki Kirby eloquently articulates this important posthumanist point: “I’m trying to complicate the locatability of human identity as a here and now, an enclosed and finished product, a causal force upon Nature. Or even... as something within Nature. [ don’t want the human to be in Nature, as if Nature is a container. Identity is inherently unstable, differentiated, dispersed, and yet strangely coherent. If I say ‘this is Nature itself,’ an expression that usually denotes a prescriptive essentialism and that’s why we avoid it, I’ve actually animated this ‘itself? and even suggested that ‘thinking’ isn’t the other of nature. Nature performs itself differently.”°° The particular configuration that an apparatus takes is not an arbitrary construction of our choosing; nor is it the result of causally deterministic power structures. Humans do not simply assemble different apparatuses for satisfying particular knowledge projects but are themselves specific parts of the world’s ongoing reconfiguring. To the degree that laboratory manipula- 
+
+AGENTIAL REALISM 185 tions, observational interventions, concepts, and other human practices have a role to play, it is as part of the material configuration of the world in its intra-active becoming. Humans are part of the world-body space in its dynamic structuration. There is an important sense in which practices of knowing cannot fully be claimed as human practices, not simply because we use nonhuman elements in our practices but because knowing is a matter ofpart[of][the][world] making itself intelligible to another part. Practices of knowing and being are not isolable; they are mutually implicated. We don’t obtain knowledge by standing outside the world; we know because we are of the world. We are part of the world in its differential becoming. The separation of epistemology from ontology is a reverberation of a metaphysics that assumes an inherent difference between human and nonhuman, subject and object, mind and body, matter and discourse. Onto-epistem-ology—the study of practices of knowing in being—is probably a better way to think about the kind of understandings that we need to come to terms with how specific intraactions matter. Or, for that matter, what we need is something like an ethicoonto-epistem-ology—an appreciation of the intertwining of ethics, knowing, and being—since each intra-action matters, since the possibilities for what the world may become call out in the pause that precedes each breath before a moment comes into being and the world is remade again, because the becoming of the world is a deeply ethical matter. 
+

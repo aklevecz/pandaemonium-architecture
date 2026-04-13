@@ -1,1868 +1,551 @@
-Chapter 10
-Human-Computer Interaction Design
-and the Cybersemiotic Experience
-
-Claudia Jacques
-
-
-
-
-Abstract Advances in artificial intelligence and ubiquitous computing are expand-
-ing human-computer interaction (HCI) in everyday life; turning phones, TVs, cars,
-etc., into computer interfaces. Such changes affect how humans perceive and inter-
-act with digital information. Influenced by Marcel Duchamp’s conceptual-interactive
-art experiments and Roy Ascott’s technoetic art, this text deploys Søren Brier’s
-Cybersemiotic framework to bridge practice and theory. Cybersemiotic provides a
-powerful framework for comprehending and interpreting changes in human experi-
-ence and consciousness wrought by the digital revolution. It achieves this by
-enabling an understanding of humans as complex adaptive systems; consequently,
-anything that involves or is involved with humans becomes an integral part of the
-system. A practical implication of this statement reveals the need to consider all
-internal and external variables within interactive hybrid environments. Even such
-minor factors as slow Internet connection or inadequate text size affects how human
-users perceive information or relate to an interface and consequently to the whole
-system. Through the lens of the Cybersemiotic a series of visual representations are
-introduced to highlight the interactions among user, information and interface, here
-addressed as meta-environment, with the potential for an ever-changing system,
-demonstrating the manner in which a change in one element affects each and every
-other part of the system. The analyses of the elements of the meta-environment
-reveal characteristics of a complex adaptive dynamic system promoting the expan-
-sion of human knowledge and consciousness here called Cybersemiotic Experience.
-
-Keywords Creative act · Consciousness · Cybersemiotic experience · User-
-interface design · Human-computer interactions · Interactive hybrid environment ·
-Meta-environment · Roy Ascott · Semiotic dance
-
-
-
-
-C. Jacques ( )
-Knowledge Art Studios, CUNY–Bronx Community College, SUNY–Westchester Community
-College, New York, NY, USA
-
-© Springer Nature Switzerland AG 2021                                              241
-C. Vidales, S. Brier (eds.), Introduction to Cybersemiotics: A Transdisciplinary
-Perspective, Biosemiotics 21, https://doi.org/10.1007/978-3-030-52746-4_10
-242                                                                                      C. Jacques
-
-
-10.1 Introduction
-
-    “Alexa, play WNYC!”1
-
-Alexa2 is the latest addition to my collection of digital household appliances. “She”3
-is the Voice Service used in the Amazon Echo family of gadgets intended to mediate
-our every interaction with the world. Alexa is a multimedia servant waiting for our
-voice commands to deliver facts, switch the lights, open the front door, snoop on the
-children, find the keys, remind us of our overdue tasks, or whatever new skills the
-system can learn from us and that we have the patience to implement. In my house-
-hold, the concept of using voice commands instead of a graphic interface to perform
-mundane tasks seem excitingly appealing, especially since my husband suffered a
-vision impairment in 2016 which has made navigating through simple tasks such as
-inserting a key in a door lock daunting. A native of Brooklyn, New York, and a
-scholar of African-American literature, my husband4 has no problem communicat-
-ing with Alexa. He knows the correct words to use, has the proper American English
-accent and intonation, and can think linearly, just like she does. I, on the other hand,
-have a very hard time interacting with her. The fact that I speak with a heavy
-Brazilian accent seems to bother her immensely as she more often than not
-dismisses my commands or performs a completely different “action”5 from what I
-requested.
-    Being dyslexic,6 having ADHD,7 and suffering from hearing loss add a level of
-complexity to my interactions with Alexa that seldom falls short of being extremely
-frustrating. The truth is that the problem is with me. As a designer of interactive
-
-1
-  WNYC is the name of a local National Public Radio—NPR—station in New York City. http://
-www.wnyc.org/
-2
-  Amazon Echo Show is the proper name of this gadget. Detailed information about Amazon Echo
-and the different skills the Voice Service Alexa can potentially learn are documented on Amazon’s
-website. It offers videos and detailed information on the Echo family (https://www.amazon.com/
-Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E)
-3
-  Here is an example of how the language of embodiment applied to the digital world is, at a mini-
-mum, misleading. It should be the proper pronoun used to address and describe the cloud voice
-server named Alexa, but the entire discourse surrounding the voice server intentionally leads the
-user to embody the experience as relating to a woman.
-4
-  Richard A. Courage, PhD., The Muse in Bronzeville: African American Creative Expression in
-Chicago, 1932 to 1950 (2011, Rutgers University Press) and Root, Branch and Blossom: Social
-Origins of Chicago’s New Negro Artists and Intellectuals (forthcoming, University of Illinois Press).
-5
-  Here is another example where the language of embodiment applied to the digital world seems
-misleading. How can an inanimate box which processes bits of energy deliver an action? The word
-content seems more appropriate to me since it refers to digital information, but the context of the
-sentence gets lost.
-6
-  “People with dyslexia have been found to have problems with identifying the separate speech
-sounds within a word and/or learning how letters represent those sounds, a key factor in their read-
-ing difficulties” (https://dyslexiaida.org/dyslexia-basics/).
-7
-  ADHD or Attention Deficit Hyperactivity Disorder “is a brain disorder marked by an ongoing
-pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or develop-
-10   Human-Computer Interaction Design and the Cybersemiotic Experience                     243
-
-
-hybrid environments, I can attest that I am, more often than not, far from the optimal
-user whom interface and user-experience designers design for; Amazon Voice
-Service doesn’t seem to change this reality. The combination of my disabilities has
-a great impact on my short-term memory, affecting how I retrieve words and com-
-pose sentences; spoken commands are not the most appropriate or effective form of
-interaction for someone like me. Parallel to that, I experience severe high frequency
-hearing loss, making female voices hard to hear. The scenario of a person who is
-hearing-impaired, dyslexic and has a short attention and memory span dealing with
-Amazon Echo fits perfectly as the premise of a comic TV skit but not as an optimal
-example of human computer interaction.
-    The reality is that we can’t escape the phenomenon of ubiquitous computing, and
-human-computer interaction (HCI) permeating every aspect of life and mediating
-how we perceive and interact with the world (Ascott 2005, 2007, 2008; Lovejoy
-2004). But just like my personal experience with Alexa, new users of such gadgets
-frequently have to learn new ways to interact with the interface (whether a watch,
-computer application, website, car, refrigerator, etc.) usually experiencing dissocia-
-tion between the conceptual potential of the medium and our actual experience of it.
-The question arises: What exactly is missing from this process of meaning creation
-promoted by technological innovations? How can we optimize such exchanges? It
-is clear that we are in a transitional era and as art historian Margot Lovejoy (2004)
-points out, “Consciousness of the way the world is understood changes at different
-moments in history relative to the available knowledge of that period. A major shift
-in consciousness can change the premises about how we should seek to understand
-the world, what is important to look at and how we should present it” (p. 13).
-    Based on the philosophical framework of Cybersemiotics (see Fig. 10.1), this
-essay employs an aesthetic analysis to explore the cultural and perceptual shifts
-leading to and resulting from interactive hybrid environments such as Alexa, and it
-proposes ontological and methodological reconceptualization of elements and rela-
-tionships involved in such environments.
-
-
-
-10.2 Contextualizing Interactions
-
-In his 1957 “Creative Act” lecture, Marcel Duchamp established the concept of
-interactivity introducing a pseudo-arithmetical equation to explain the relationship
-between artist, spectator, and artwork. Aiming to stay neutral in judging the value of
-the work, he called the artwork the “art coefficient” [Ac], which reflects the differ-
-ence between the artist’s “unexpressed but intended” [UbI] concept and the “unin-
-tentionally expressed” [UE] work (product).
-
-        UbI – UE Ac
-     Creative Act Equation
-
-ment”     (https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/
-index.shtml).
-244                                                                                            C. Jacques
-
-
-
-
-Fig. 10.1 Søren Brier’s Cybersemiotic Star (2008, redesigned by Jacques in 2013). (Used with
-permission)
-
-   This “art coefficient” is a personal expression of art “`a l’état brut,” that is, still in raw state
-   which must be “refined” … by the spectator … [who] experiences the phenomenon of
-   transmutation; through the change from inner matter into a work of art, an actual transub-
-   stantiation has taken place, and the role of the spectator is to determine the weight of the
-   work on the aesthetic scale. (Duchamp 1957, p. 139)
-
-Duchamp’s eagerness for interactivity is seen in his ludic interactions with the spec-
-tator, questioning form and content, and consequently meaning, extended beyond
-visual arts into language. Throughout his career, Duchamp’s use of signs was a
-constant and significant element. It was a means of converting his static artwork into
-dynamic dialogue (interaction). As Sanouillet and Peterson (1989) states,
-“Duchamp’s subversive fervor has been directed against language. We will see how
-he intends to re-form (not reform) our most common means of expression” (p. 5).
-Sanouillet goes on to say that Duchamp’s intention was to give “to each word and
-each letter an arbitrary value to the point of total divorce between the expression and
-the expressive content which we customarily attribute it” (p. 6).
-   Even though Joselit (1998) attempts to connect Duchamp’s playful usage of lan-
-guage to Saussure’s signified–signifier (concept-word) dyadic understanding of
-semiology (Chandler 2007, p. 14; Cobley and Jansz 2012, p. 21), his analysis actually
-reinforces Duchamp’s aim of reflecting triadic relationships, and he proposes “to
-incorporate three interrelated levels of exchange: the linguistic, the economic, and the
-erotic” (Joselit 1998, p. 34). Thus, by attributing value to Saussurian dyadic semiol-
-ogy, Joselit inadvertently reflects Charles Peirce’s triadic theory of signs or semiotics.
-“Whereas Saussure’s sign (signified/signifier) needs to combine with other signs to
-take part in the flow of meaning, Peirce’s version of signification has an in-built
-10    Human-Computer Interaction Design and the Cybersemiotic Experience                           245
-
-
-dynamism” (Cobley and Jansz 2012, p. 25). Peirce’s semiotics refers to the study of
-signs through a triadic relationship among the “[1] Representamen (the sign itself)
-which has a relation to an [2] Object, which relation entails an [3] Interpretant. [In
-other words,] the sign or representamen is quite simply, something which stands to
-somebody for something in some respect or capacity” (Chandler 2007, p. 14; Cobley
-and Jansz 2012, pp. 21–22). Peirce’s semiotic thus explains Duchamp’s readymades.
-    Duchamp’s readymades questioned the meaning of art, bringing to light the pos-
-sibility of an object representing and meaning different things, both for the artist and
-the spectator. Artist and spectator become co-creators exchanging passive and active
-roles as meaning creators and vehicles of meaning (see Fig. 10.2). Take for example
-the case of the Fountain (1917), a stand-alone porcelain urinal which Duchamp
-signed “R. Mutt” and titled Fountain. The porcelain receptacle (object) which we
-call urinal (representamen) is known as a place for men to urinate (interpretant) yet,
-by signing “R. Mutt” and re-titling the object Fountain, Duchamp introduces a new
-art object (interpretant). In turn, this new meaning (interpretant) becomes the sign-
-vehicle (representamen) for the spectator who by reading the title can choose to
-embrace the object as an art object, thus expanding the creative act and the relation-
-ship among artist, artwork and spectator to a dynamic dance among object, meaning
-creation (representamen) and meaning (interpretant), (see Fig. 10.3). This semiotic
-dance8 between representamen and interpretant is what makes the object tangible
-and knowable, allowing for this relationship to be expanded even further by the
-understanding that individually changing any of the expected elements in this tri-
-adic relationship also affects the outcome of the whole exchange9 (see Fig. 10.4).
-     Figure 10. 2. Creative Act scenarios analyzed under columns: “unexpressed but intended”
-     [UbI] concept, the “unintentionally expressed” [UE] and the “art coefficient” [Ac] in the
-     production of meaning. In Scenario I only the artist interacts with the artwork in raw state
-     but without a spectator the work doesn’t transmute or transubstantiate into Ac (new mean-
-     ing.) In Scenario 2 both artist and spectator interact with the artwork in raw state but as the
-     spectator doesn’t engage with the artwork, it stays in raw state. The spectator’s feedback to
-     the artist reveals that the artwork doesn’t promote the Ac. Scenario 3 represents the ideal
-     Ac, where artist and spectator interact through the artwork and transmute and transubstanti-
-     ate the work into Ac, and both experience new meaning.
-
-   Semiotic implications may also be observed in Duchamp’s use of language.
-Playing with the meaning of words, he worked with Peirce’s triadic semiotics10 by
-questioning the object (the actual brute fact, word–index associated with Secondness)
-to change its representamen (potential for meaning–symbol creation and associated
-
-
-8
-  The term semiotic dance was proposed in an informal conversation by Jeanette Bopry, editor of
-Cybernetics and Human Knowing journal (Jacques 2018).
-9
-  This understanding will later be crucial on the analysis of the elements in interactive hybrid
-environments.
-10
-   Joselit (1998) attempts to explain Duchamp’s usage of language through Saussure’s dyadic sig-
-nified-signifier semiotics. Duchamp’s triadic usage of signs in the creative act, along with his writ-
-ings and readymades through object reinterpretation, coupled with the usage of language in his
-titles seem to be evidence that if he was not directly knowledgeable of Peirce’s understandings of
-signs–semiotics, he had at least the same triadic understanding of signs. A deeper investigation of
-this matter is not relevant for this research but it is an attractive future research.
-246                                                                                       C. Jacques
-
-
-
-
-Fig. 10.2 Creative Act scenarios analyzed under columns: “unexpressed but intended” [UbI] con-
-cept, the “unintentionally expressed” [UE] and the “art coefficient” [Ac] in the production of
-meaning. In Scenario I only the artist interacts with the artwork in raw state but without a spectator
-the work doesn’t transmute or transubstantiate into Ac (new meaning.) In Scenario 2 both artist and
-spectator interact with the artwork in raw state but as the spectator doesn’t engage with the art-
-work, it stays in raw state. The spectator’s feedback to the artist reveals that the artwork doesn’t
-promote the Ac. Scenario 3 represents the ideal Ac, where artist and spectator interact through the
-artwork and transmute and transubstantiate the work into Ac, and both experience new meaning
-10   Human-Computer Interaction Design and the Cybersemiotic Experience            247
-
-
-Fig. 10.3 Representation
-of the process in which
-artist and spectator
-collaborate as co-creators
-of meaning: user based on
-Duchamp’s creative act
-
-
-
-
-Fig. 10.4 Semiotic
-Interaction. Duchamp’s
-Creative Act seen under
-Peirce’s semiotics
-
-
-
-
-with Firstness) to change the interpretant (what we associate with– icon, quality
-given to the object, Thirdness). The title Fountain changes the denotation when used
-to represent a urinal, in this case, changing how the spectator perceives the objects
-being re-presented by Duchamp. Removing the object from its context and attribut-
-ing a new name (representamen), Duchamp “altered the object’s identity and value”
-(Stile and Selz 1997, p. 804) offering to the spectator a new representation (interpre-
-tant). Just like Peirce’s semeiosis, Duchamp’s interplay of object, representation,
-and meaning is not static. Once the spectator starts to perceive the object with a new
-meaning, this object becomes an object d’art (representamen) with endless possible
-representations (interpretants) (Chandler 2007, p. 31; Cobley and Jansz 2012, p. 25,
-Zics (2014, n.p.). This semiotic dance reflects Umberto Eco’s (1989) open art-
-work—Semiotic Openness—which presents the concept of the active spectator and
-as such a multiple semiotic creation process yielding the possibility of multiple
-meanings, the possibility of infinite relationships between spectator, artwork, and
-artist (see Fig. 10.5).
-248                                                                                     C. Jacques
-
-
-
-
-Fig. 10. 5 Semiotic Dance visualization where artist and spectator become co-creators of mean-
-ing. The unlimited semiosis interplay reflects a mobius spiral in constant change yet circumscribed
-by the user. Left, top view; right vertical view
-
-
-10.3 A Technoetic Aesthetic
-
-Duchamp’s desire to exchange with the spectator is today the foundation of any and
-every human-computer interaction. The advent of new telecommunication tools has
-been quickly adding new possibilities for rendering aesthetic meaning and inten-
-tionality in artmaking.11 Lovejoy (1997) revisits Walter Benjamin’s essentially dys-
-topian view of the influence of technologies on aesthetic practices and a resulting
-loss of meaning and intentionality. But Lovejoy counterbalances Benjamin’s ideas
-with Marshall McLuhan more utopian views of the aesthetic potential of new tele-
-communications media, concluding that “[T]he computer shattered the existing
-paradigm of visual representation by converting visual information about reality
-into digital information about its structure, modeling the visual rather than copying
-it and allowing for interactivity as a new aspect of representation” (p. 213). Lovejoy
-(1997) suggests that in modeling visual representation and converting visual into
-digital information, interactivity emerges as a vitally creative aspect of representa-
-tion, “defining a new arena of consciousness and feeling” (p. 214).
-    It is in the realm of the digital and telecommunications that Roy Ascott (2005)
-brilliantly refocused representation toward a more balanced relationship among
-subject matter, form and content, while also expanding the aims of representation to
-embrace interactive systems. “Of the myriad universes of discourse that constitute
-
-11
-  These two terms refer back Lovejoy’s (2004, p. 15; 1997, p. 14.) quote shared under the subsec-
-tion 2.3.1. Introduction:
-    “The way we see is shaped by our worldview, which governs our understanding of what repre-
-sentation is. Thus, we can say that representation is a form of ideology because it has inscribed
-within it all the attitudes we have about our response to images and their assimilation; and about
-art-making in general, with all its hierarchies of meaning and intentionality” (2004, p. 15;
-1997, p. 14).
-10    Human-Computer Interaction Design and the Cybersemiotic Experience                         249
-
-
-whole cultures and countries, only those open to change and adaptation are likely to
-survive the step change in evolution exerted by scientific development and techno-
-logical innovation. If countries and communities are to avoid homogenization in
-this process, it will need to be a syncretic process that maintains the plurality of
-difference” (n.p.). Attempting to engage in an active communication with the spec-
-tator, Ascott’s artworks and conceptualizations often directly reveal his thought and
-artmaking processes. This inherently self-disclosing practice (reflecting Pasmore’s
-influence) shows Ascott’s engrained understanding of second order cybernetic com-
-munication processes and its relevance in his work as feedback to engage and con-
-textualize the spectator’s interpretation (Ascott 2007; Shanken 2007). Shanken
-(1997) explains the core insight of cybernetics in this manner:
-     Cybernetics introduced a method for thinking about the relationships amongst the various
-     interrelated elements of a system, concentrating on the regulation of these elements in order
-     to control the outcome of the system. Primary to the management of the system was the
-     ability for each element to offer the system feedback about its own status. In this way, the
-     elements could communicate with each other and provide information which would enable
-     the regulation of the system as a whole (n.p.).
-
-    As interactivity, information and ultimately meaning are the results of this new
-form of representation of reality (Lovejoy 1997), this dependency on the spectator,
-creates the assertion of a need for a holistic and integrated consciousness experience
-associated with qualia. As Ascott (2007) points out, it is “the artist’s imperative to
-explore every aspect of new technology that might empower the [user] through
-direct physical interaction to collaborate in the production of meaning and the cre-
-ation of authentic artistic experience” (p. 357). Ascott uses a four-sided model to
-represent the different aspects of interactive art and its influences on the construction
-of human consciousness as a complex adaptive system. This syncretic reality, as
-Ascott calls it, is composed of physical, vibrational, tele- and apparitional presences.
-These four presences are merely starting points as the final goal is a syncretic under-
-standing of the self (see Fig. 10.6). The intended outcome of this complex multi-
-level dialogue is what Ascott calls a technoetic aesthetic. “Technoetics is a convergent
-field of practice that seeks to explore consciousness and connectivity through digital,
-telematic, chemical or spiritual means, embracing both interactive and psychoactive
-technologies, and the creative use of moistmedia” (Ascott 2008, p. 204).
-    A further development of syncretic, anthropophagic aesthetic practice and pro-
-cess may be seen in Ascott’s understanding of the shift from artistic visual represen-
-tation to behavioral experimentation (Ascott 2007, p. 110.) This is expressed
-through an interactive, participatory art experienced as a “perpetual state of transi-
-tion” (Ascott 2007, p. 111). It is a liminal zone that relies on second-order feedback
-exchange processes among artist, medium, and spectator and that opens doors to
-telematic art, where isolated interactions or systems can interact with other systems
-promoting broader systems of connectivity. These in turn allow for the inclusion of
-digital technologies as tools and means of exchange, augmenting human perception
-to cyberperception. A technoetic art is the result, one that you see, touch, feel, or
-sense and are part of, that enhances and expands perceptions allowing for this per-
-ception to be swallowed, digested and returned as a unique experience or qualia.
-250                                                                                C. Jacques
-
-
-
-
-Fig. 10.6 Syncretic Reality (2008) slide reproduction shared at Plymouth Art Centre show The
-Syncretic Sense, Roy Ascott (used with permission)
-
-    The creation of interactive hybrid environments is concerned with systems where
-artist, spectator, and medium generate and exchange perceptions and processes. It
-focuses on expanding the creative act to the spectator-user. The user’s understand-
-ing of the world—semiosis—is what changes perception of the artwork. It’s what
-connects the syncretic, technoetic art of Roy Ascott with the cybersemiotic philoso-
-phy of Søren Brier (see Figs. 10.1 and 10.6). The aim of syncretic art is to promote
-new perceptions, with the capability of a holistic experience integrating diverse pro-
-cesses and perceptions.
-
-
-
-10.4 Interactive Hybrid Environments
-
-Addressing Roy Ascott’s (2010) call for artists “to navigate consciousness and cre-
-ate new structures, images and experiences within” (p. 4) their art practices explor-
-ing the concept of cyberperception,12 it is necessary to define interactive hybrid
-environments, contextualize the phenomena surrounding the development of such
-
-
-12
-   Cyberperception is defined as “the emergent human faculty of technologically augmented per-
-ception” (Ascott 2007, p. 376).
-10      Human-Computer Interaction Design and the Cybersemiotic Experience         251
-
-
-environments, and define their elements, calling attention to the ontological and
-methodological issues that arise from attempting to accord them appropriate and
-balanced attention. Interactive hybrid environments should be understood as aes-
-thetic constructions aiding human attempts to navigate consciousness. Interactive
-refers to the fluid exchanges between its elements as well the collaboration between
-artist and spectator dynamically creating meaning through perceptions and/or pro-
-cesses. The word reflects Ascott’s understanding of interactive art as a “cybernetic
-system, consisting of [art, culture and society as interconnected systems of] feed-
-back loops that included the artist, the audience and environment (Shanken 2007,
-pp. 26-–27). It also reflects Peirce’s “semiotic paradigm … focuse[d] on the possi-
-bilities of meaningful communication in living and social systems” (Vidales 2017).
-    The term hybrid is inescapable when promoting cyberperception and compels us
-to look at these elemental characteristics: spatiality, temporality, essence, sign pro-
-cesses, embodied cognition, and level of dynamic complexity.
-– Spatiality refers to how an element manifests as either physical (matter) or
-  energy (digital).
-– Temporality refers to the distinction between temporal and atemporal qualities,
-  as well as synchronous and asynchronous interactions.
-– Essence refers to the elements’ core biological atoms or bits (Negroponte 1995).
-– Sign processes refer to the linguistic-cultural-social structuralism (semiotics)
-  and constructivism, relating to subjective or objective sign interpretation and
-  meaning creation.
-– Embodied cognition reflects how we embody information (meaning) as opposed
-  to disembodied digital information.
-– Dynamic complexity refers to creativity, aesthetic, design, usability and purpose
-  of such environments, focusing on the predictability and linearity of their inter-
-  actions (Brier 2008; Vidales 2017).
-   In practice, hybridity reflects the physical (atoms, hardware, peripherals, humans)
-and/or digital (bits, software, data transmission) characteristics; as well as how
-information is perceived, either as individualized meaning—qualia (perceptions) or
-data (processes). The term also relates to how space and time are presented, as
-space-time continuum where physicality may not always be linear and
-synchronous.
-   The term environment is essential due to the complexity of the elements and
-processes observed in such artworks, experienced, perceived and embodied by their
-users (creator and spectator),13 revealing autopoietic systems structurally coupling
-human-human, human-information, information-information, human-computer,
-information-computer, computer-computer interaction (Dubberly and Pangaro
-2015). Whether creating or analyzing interactive hybrid environments, the boundar-
-ies between artist-artwork-spectator, information and computer become fluid and
-translucent, making us rethink their respective roles. As Ascott (2007) argues, “Art
-
-
-13
-     Term user is elaborated later in this chapter.
-252                                                                             C. Jacques
-
-
-does not reside in the artwork alone, nor in the activity of the artist alone, but is
-understood as field of psychic probability, highly entropic, in which the viewer is
-actively involved not in the act of closure in the sense of completing a discrete mes-
-sage from the artist (a passive process) but by interrogating and interacting with the
-system “artwork” to create meaning” (p. 179).
-    Interactive hybrid environments need to be detached from the concept of the art-
-ist creator where the artworks are seen as unique pieces of creative insight. Instead
-they should be embraced under the perspective of telematic aesthetics, where phe-
-nomenological collaborative exchanges aim for production of meaning (Shanken
-2007; Ascott 2007). From a telematics perspective, the creative process is decentral-
-ized in interactive hybrid environments and as such the artistic practice becomes
-inherently a collaborative practice, no different in kind from exchanging on crowd-
-sourcing environments, social networks, or content and learning management sys-
-tems. Alexa, Amazon’s Echo intelligent personal assistant introduced earlier, is
-trained by its user in the household, who asynchronously collaborates with the user-
-creator (designers developing the interface and its skills), making Alexa unique in
-the production of meaning for each of its various end users in the household. Alexa
-and the different social media and content management systems that employ
-dynamic databases, rely on the user-spectator exchange to asynchronously collabo-
-rate with the user-creator in the production of meaning. In such interactive hybrid
-environments, the creative process and outcomes are collaborations outputting
-unique meanings. Christiane Paul (2015) argues that “One of the inherited charac-
-teristics of digital art is the tension between the hierarchical structure of instructions
-and data sets and the seemingly infinite possibilities for reproducing and reconfigu-
-ration the information contained in these structures” (p. 179).
-    The potential of different meanings and relationships to the user introduced ear-
-lier as the semiotic dance is flatten out when we focus on the language of computer
-science employed by Paul—“hierarchical structure of instructions and data
-sets…information contained in these structures”— to describe human creation of
-meaning. Such language focuses on processes and indicates that an expansion
-beyond aesthetic domains is needed in order to observe and describe these environ-
-ments. In 1964, Ascott recommended cybernetics as a field that would help artists
-ground their understanding and language when creating interactive environments
-because of its integrative characteristics.14 Over fifty years later, interactive hybrid
-environments have permeated all aspects of life, from artistic practices to self-driven
-cars, video-games and watches, to name a few. This expansion broadened the areas
-of approach to many different fields, including biological and chemical. In this
-sense, interactive hybrid environments can also refer to moistmedia “compromising
-bits, atoms, neurons, and genes in every kind of combination” (Ascott 2007, p. 363).
-The challenge is to include such broad fields in creative practices while respecting
-the demands of scientific fields that inform such practices without reducing the
-sphere of creative practice. Artists and designers of interactive hybrid environments
-
-
-14
-     Ascott was referring to second-order cybernetics.
-10   Human-Computer Interaction Design and the Cybersemiotic Experience           253
-
-
-need a framework that allows a non-reductionist approach to the elements and pro-
-cesses involved in the creation of meaning.
-
-
-
-10.5 Human-Computer Interactions (HCI)
-
-The commoditization of digital information through dynamic databases such as
-Google Amazon, Facebook, and Ebay, among many others, has added greater com-
-plexity and urgency to the study of Human-Computer Interactions (HCI). In gen-
-eral, the study of humans and digital machines tends either to focus on logical
-processes, paying little attention to phenomenology and experiential consciousness
-or, alternatively, to focus on cognitive perceptions, disregarding self-organization,
-autopoiesis, and feedback loops (Brier 2008). The field of HCI seem at first to ade-
-quately address such divides in the study of the interaction between humans and
-digital machines, but on closer examination, we see a complex evolving system with
-boundaries shifting fluidly among contrasting fields, thus revealing itself to be what
-I characterize as pseudo-transdisciplinary field. I explain my claim in the next
-paragraphs.
-   Our understanding of HCI is continually evolving as digital technologies increas-
-ingly permeate the different domains of life, from art, media and education to trans-
-portation, security surveillance, medicine, and health, to name a few. HCI is
-pseudo-transdisciplinary as it borrows theories, methods and ontologies from differ-
-ent fields such new media, computer science, cybernetics, information systems and
-theory, artificial intelligence, cognitive psychology, library science, linguistics,
-communications theory, and semiotics, and so forth. Unfortunately, these fields do
-not necessarily share the same methods or fundamental views about what is involved
-in describing and analyzing such exchanges between humans and machines. A
-major influence on HCI is our need for embodiment which has made us perceive
-computer interfaces as extensions of ourselves, restricting digital technologies
-potential in expanding our perceptions of space and time beyond the linear contin-
-uum introduced in the mechanical age. HCI attempts to comprehend such diverse
-hybridity by offering different ways to reconcile the integration of computational
-processes with meaning creation. However, HCI is self-limiting insofar as it exam-
-ines distinct aspects of such interaction without taking the whole into consideration.
-“Human-computer interaction is a discipline concerned with the design, evaluation
-and implementation of interactive computing systems for human use and with the
-study of major phenomena surrounding them” (Hewett et al. 2009, n.p.).
-   Quite often HCI is the filter for discussions involving the design of digital tech-
-nologies ranging from artistic practice to medical science because of its broad reach.
-Initially presented as a specialized concern within several disciplines and conse-
-quently framed as an interdisciplinary area with different emphases (Hewett et al.
-2009), HCI does at first glance seem to be the encompassing field to which artistic
-practitioners should turn when working with interactive digital technologies. Artists
-certainly need to have a domain of this nature available in order to develop such
-254                                                                                    C. Jacques
-
-
-artworks. Just as painters need to have a deeper understanding of brushes, canvases
-and paints, as well as light to represent value and color; artists creating interactive
-hybrid environments need a deeper understanding of human computer interactions
-in order to enhance the experience of such works.
-   At this point, there is a need to create a clearer distinction among the adjectives
-multidisciplinary, interdisciplinary and transdisciplinary employed to describe how
-diverse academic disciplines can be combined to create knowledge.
-Oxforddictionaries.com defines multidisciplinary as “combining or involving sev-
-eral academic disciplines or professional specializations in approach to a topic or
-problem.” Interdisciplinary is defined as “of or relating to more than one branch of
-knowledge” and transdisciplinary as “relating to more than one branch of knowl-
-edge.” The boundaries seem vague but Willie Caldwell (2015) further elaborates on
-such differences.
-   Multidisciplinarity contrasts disciplinary perspectives in an additive manner, meaning two
-   or more disciplines each provide their viewpoint on a problem from their perspectives.
-   Multidisciplinarity involves little interaction across disciplines.
-
-   Interdisciplinarity combines two or more disciplines to a new level of integration suggest-
-   ing component boundaries start to break down. Interdisciplinarity is no longer a simple
-   addition of parts but the recognition that each discipline can affect the research output of
-   the other.
-
-   Transdisciplinarity occurs when two or more discipline perspectives transcend each other
-   to form a new holistic approach. The outcome will be completely different from what one
-   would expect from the addition of the parts. Transdisciplinarity results in a type xenogen-
-   esis where output is created as a result of disciplines integrating to become something
-   completely new (n.p.).
-
-The examination of the proper term to define how interactive hybrid environments
-are created is relevant to this discussion since it summarizes the way we have been
-addressing the ontology and methodology employed in combining the many differ-
-ent fields involved in such environments. When in 1992 the Association for
-Computing Machine (ACM) Special Interest Group on Computer-Human Interaction
-(SIGCHI) developed its curricula for Human-Computer Interaction, it saw the field
-as interdisciplinary.
-   Because human-computer interaction studies a human and a machine in communication, it
-   draws from supporting knowledge on both the machine and the human side. On the machine
-   side, techniques in computer graphics, operating systems, programming languages, and
-   development environments are relevant. On the human side, communication theory, graphic
-   and industrial design disciplines, linguistics, social sciences, cognitive psychology, and
-   human performance are relevant. And, of course, engineering and design methods are rel-
-   evant (Hewett et al. 2009, n.p.).
-
-As a counterpoint to the understanding that HCI is an interdisciplinary field, Wania
-et al. (2007) introduce it as multidisciplinary, combining theories and practices from
-computer science, cognitive and behavioral psychology, anthropology, sociology,
-ergonomics, and industrial design. It is revealing that Wania et al. (2007) call HCI
-multidisciplinary, attesting that is a unique field with many different
-10    Human-Computer Interaction Design and the Cybersemiotic Experience                          255
-
-
-sub-communities or specializations. By drawing the parameters of HCI so broadly,
-theorists of the field attempt to prevent the design of such interactions from being
-divorced from the context and problems being addressed in the design (Hewett et al.
-2009), yet it privileges some aspects while ignoring others in order to integrate its
-many domains. John M. Carroll (2003) critiques such attempts at broad scale inte-
-gration in HCI in his analysis of the scientific fragmentation of the field:
-     An ironic downside of the inclusive multidisciplinarity of HCI is fragmentation. This is in
-     part due merely to the expansion of the field and its scientific foundations. In the 1980s, it
-     was reasonable to expect HCI professionals, particularly researchers, to have a fairly com-
-     prehensive understanding of the concepts and methods in use. Today, it is far more chal-
-     lenging for individuals to attain that breadth of working knowledge. There are too many
-     theories, too many methods, too many application domains, too many systems. Indeed, the
-     problem of fragmentation may be a bit worse than it has to be. Some HCI researchers, faced
-     with the huge intellectual scope of concepts and approaches, deliberately insulate them-
-     selves from some portion of the field’s activity and knowledge. This tension between depth
-     and breadth in scientific expertise is not unique to HCI, but it clearly undermines the oppor-
-     tunity for multidisciplinary progress (Carroll 2003, p. 6).
-
-The consequences of the fragmentation of HCI are sometimes most acutely observed
-in the fields of neuroscience and artificial intelligence, where the same language is
-employed to define and describe radically different elements and processes. The
-following text is an example of how a language of computer science is appropriated
-to describe biological phenomena in an attempt to connect the two fields as if they
-share the same ontology and methodology. “According to the researchers, the new
-learning theory may lead to advanced, faster, deep-learning algorithms and other
-artificial-intelligence-based applications, and also suggests that we need to reevalu-
-ate our current treatments for disordered brain functionality. The brain learns com-
-pletely differently than we’ve assumed, new learning theory says” (The Brain
-Learns Completely Differently than We’ve Assumed, New Learning Theory Says
-2018, n.p.).
-    Flattening the two fields as if their essences are one is broadly parallel to how
-humans use the techniques of linear perspective to represent the three-dimensional
-world in a two-dimensional medium. The technique is a great solution for the prob-
-lem of 3D representation but falls short of being a reproduction of reality. Such
-techniques are just attempts to create realistic representations of reality. This
-Renaissance technique has helped humans perceive the 3D world through more
-realistic 2D representation. It has also taught us to simplify reality and accept the
-absurdity of the distorted planes created with linear perspective.15 In the case of
-embodying digital technologies the absurdity lies on assuming that the digital can
-be the unique mediator of interactions. The dissonance continues with the subject
-matter of phenomena, which focuses on a dyadic human-computer relationship but
-ignores the depth and breadth of information. Søren Brier critiques the manner in
-
-
- The techniques of atmospheric perspective, value pattern sizing and overlapping when employed
-15
-
-with linear perspective help reduce the visual distortion it creates and consequently visually render
-more realistic representations of reality.
-256                                                                                          C. Jacques
-
-
-which technological developments not only create extra layers of complexity but
-also affect communications and information.
-      The scientific endeavor in the postmodern age is becoming increasingly complex and trans-
-      disciplinary. Researchers and practitioners within the fields of the arts and natural, medical,
-      and social sciences have been forced together by new developments in communication and
-      knowledge technologies that broke the traditional limits of professional knowledge. They
-      are further forced together by problems arising from the limitation of the kinds of knowl-
-      edge that we have cherished so far. The shortcoming of traditional information and com-
-      munication analysis based on data or information-flow theories is raising fundamental
-      problems with respect to the construction and organization of knowledge systems. New
-      concepts of communication can help us understand and develop social systems such as self-
-      organizing and self-producing networks, and we need a deeper understanding of the ethics
-      and aesthetics foundational to the existence of these new systems. Instead of communica-
-      tion of information, we might speak of a jointly actualized meaning (Brier 2008, p. 20).
-
-A painter attempting to reproduce a landscape will spend time observing the envi-
-ronment and sketching what is seen in a much-simplified form in order to establish
-the composition. In this research study I propose to simplify subject matter in HCI
-by focusing on the three main elements addressed in interactive hybrid environ-
-ments, so they can be defined and isolated for ontological clarification. These three
-elements are the user, the interface and the information.
-
-
-
-10.6 The Meta-Environment16
-
-The communicability among these three elements (user, information and interface)
-reveals a complex adaptive system with many levels of exchange among them. I call
-this relationship the meta-environment since it involves the processes of storing,
-relating, inputting, and outputting information as well as the users’ actions and the
-many elements of the interface, such as software and hardware. The meta-environment
-includes the relational processes of data (information), metadata, database, applica-
-tions, user interaction, and information communication existent in the triadic rela-
-tionship amongst user, information, and interface. In an attempt to sketch the subject
-matter of interactive hybrid environments and elaborate on its elements, the ontologi-
-cal use of the terms user, information and interface is introduced as following.
-(a) User
-    Duchamp’s Creative Act established the inclusion of the spectator in the artistic
-creation of meaning, which through the lens of Peirce’s semiotics reveals the poten-
-tial for a semiotic dance among object, representamen and interpretant with the
-possibility of infinite exchanges among the artist, the artwork and the spectator. For
-Duchamp (1957) as well as for Ascott (2008), the artwork is only completed when
-the spectator is included in the process. Artist and spectator become, then,
-
-
-16
-     The meta-environment concept was first introduced in Jacques 2012.
-10   Human-Computer Interaction Design and the Cybersemiotic Experience              257
-
-
-co-creators of meaning and thus the terms artist and spectator seem inadequate to
-capture the potentiality of this co-creation process. Calling for a reconceptualization
-of terms due to the advent of digital technologies, Stephen Wright (2013) argues
-that “with the rise of networked culture, users have come to play a key role as pro-
-ducers of information, meaning and value, breaking down the long-standing opposi-
-tion between consumption and production” (p. 1).
-    Artists and art historians (Ascott, Lovejoy, Paul, Shanken, etc.) use the terms spec-
-tator, participant, viewer, audience and user almost interchangeably to describe the
-person experiencing an artwork, but such usage obscures the potential of co-creation
-in the production of meaning. These terms are associated with their ontological
-medium, often restricting the experience of co-creation. Spectator seems to be the
-most widely adopted term, yet it too falls short of adequately conveying the dynamic
-potentiality of co-creating Duchamp’s coefficient of art. In a discussion of the terms
-employed today to identify the people involved in the coefficient of art and conse-
-quently the passive (consumption) and active (production) roles they play, Stephen
-Wright (2013) acknowledges that “spectatorship continues to enjoy almost self-evi-
-dent status in conventional discourse as a necessary component of any plausible art-
-world” (p. 60). Yet he rejects the dominant ontology of spectatorship, arguing instead
-that contemporary art “practices seem to break with spectatorship altogether, to which
-they increasingly prefer the more extensive and inclusive notion of usership” (p. 60).
-    The Merriam-Webster Dictionary defines user as: “one that uses.” Assuming that
-the definition refers to one who uses something, the something used in this context
-is related to the interface as well as to the information. The term user is borrowed
-from HCI and computer sciences and embraced by User Interface Design (UI) and
-User Experience (UX) curricula, which are more appropriate foundations for the
-design of interactive hybrid environments. The concept of the user in UI and UX is
-further expanded by the semiotic view of the sign user, which reflects “Peirce’s defi-
-nition of the sign [as] something that stands for something else in some capacity for
-someone (or some organism) [user]. It could never leave the user” (Cobley 2010,
-p. 11). The user is any and every person who experiences and relates to the informa-
-tion and interface in any of a variety of dynamic ways. This definition is more
-expansive than the passive recipient of information mediated by a computer, known
-in HCI and Computer Science as the end-user. It includes not only the person who
-interacts with the interface and passively consumes digital information (end-user)
-but also the one(s) originally producing the interface and information. From the
-perspective of Duchamp’s coefficient of art, user can refer to the passive end-user as
-well as the professionals developing and implementing information and interfaces,
-with the understanding that at a certain point the roles will change and exchange in
-the production of meaning—the semiotic dance.
-    Ubiquitous computing has been continuously thinning the line between passive
-or end-user and active front and back-users (designers, programmers and profes-
-sionals developing interfaces) through open source and server-based applications,
-apps and widgets. For example, a user might be a student researching an academic
-topic on the web, a client doing online banking, a financier managing someone’s
-money, a designer developing a web interface, an educator implementing an online
-258                                                                                            C. Jacques
-
-
-course, a computer programmer developing an application, a teenager hacking an
-I-phone app, and so forth. Cybernetics17 contributes the illuminating concept of
-structural coupling, which describes “recurrent interactions leading to the structural
-congruence between two (or more) systems” (Maturana and Varela 1992, p. 75).
-This concept reinforces the user’s (artist-spectator) co-creation potential, which
-may be further considered an organism constituted in an autopoietic fashion and
-developing relationships of mutuality with the other elements of the meta-
-environment (Guddemi 2000; Bopry 2007). The user, from both a semiotic and
-cybernetic perspective, actualizes the potential of the interface and information
-(Huhtamo 2007).
-(b) Information
-   Today, the concept of information is somewhat like the child of divorced parents
-who is pressured to conform to the views of one parent at a time but never both at
-the same time. With the advent of digital technologies, this “child” has grown up
-enough to be its own entity, yet the parents’ lack of communication among them-
-selves still constrains its voice from standing on its own. In this analogy, the parents
-are human perceptions, on one hand, and technological processes, on the other.
-Each offers a fundamentally different view of information. This reflects C. P. Snow’s
-famous account of the divide between the two cultures of the sciences and the
-humanities. Despite the manner in which the advent of human-computer technolo-
-gies and interactions have been closing this divide (Vesna 2011), information fre-
-quently appears to still be subject to a bitter custody dispute. Comprehending
-information as seen in the meta-environment requires that we look at communica-
-tion processes through the lens of human beings, digital technologies and the
-exchange between human beings and digital technologies as systems. Semiotics,
-cybernetics and systems theories each address such processes but only through their
-individual lenses, which obscure as much as they reveal about the potential of such
-interactions.
-   In 1948, when introducing cybernetics, Norbert Weiner (1965) defined digital
-information as zeros and ones transmitted by electromagnetic signals with infinite
-options of decisions, communication and control. Later, Weiner (1954) advanced the.
-      … thesis that the physical functioning of the living individual and the operation of some of
-      the newer operation machines are precisely parallel in their analogous attempts to control
-      entropy through feedback. Both of them have sensory receptors as one stage in their cycle
-      of operation: that is, in both of them there exists a special apparatus for collecting informa-
-      tion from the outer world at low energy levels, and for making it available in the operation
-      of the individual or of the machine…In both of them, their performed action on the outer
-      world, and not merely their intended action, is reported back to the central regulatory appa-
-      ratus. This complex of behavior is ignored by the average man, and in particular does not
-      play the role that it should in our habitual analysis of society; for just as individual physical
-      responses may be seen from this point of view, so may the organic responses of society
-      itself. I do not mean that the sociologist is unaware of the existence and complex nature of
-
-
-
-17
-     Second-order cybernetics.
-10    Human-Computer Interaction Design and the Cybersemiotic Experience                        259
-
-     communications in society, but until recently he has tended to overlook the extent to which
-     they are the cement which binds its fabric together (p. 26–27).
-
-First-order cybernetics understands information as a statistical property of a particu-
-lar message, but the message itself (what is exchanged and its meaning) is irrelevant
-to the theory (Vidales 2017). Wiener (1965) continues:
-     One of the simplest, most unitary forms of information is the recording of choice between
-     two equally probable simple alternatives, one or the other is bound to happen—a choice, for
-     example, between heads and tails in the tossing of a coin. We shall call a single choice of
-     this sort a decision. If we then ask for the amount of information in the perfectly precise
-     measurement of a quantity known to lie between A and B, which may with uniform a priori
-     probability lie anywhere in this range, we shall see that if we put A = 0 and B = 1, and
-     represent the quantity in the binary scale (0 or 1), then the number of choices made and the
-     consequent amount of information is infinite (p. 61).
-
-Looking at information from a systems perspective, Claude Shannon (1949) added
-entropy to quantify information in any form of communication. “The concept of
-information applies not to the individual messages (as the concept of meaning
-would), but rather to the situation as a whole, the unit information indicating that in
-this situation one has a freedom of choice, in selecting a message, which it is con-
-venient to regard as a standard or unit amount” (Shannon 1949, p. 100). Based on
-Weiner and Shannon’s concepts of information, we can define information in the
-meta-environment as that entropic transmission of data and metadata in binary for-
-mat that generates communication as a whole. Metadata is not only the description
-of the content but also the description of the structure of the content. Of course,
-using an extra layer of information to describe information is not new. Footnotes,
-references, bibliographies, and key words are some of the extra layers of informa-
-tion that have been routinely found in academic texts since long before the birth of
-the digital age. The index organization in a book can be considered a meta-structure
-describing that content. In the context of this study, digital information refers to data
-and metadata—as meta-content and meta-structure—and also to the ways that data
-and metadata together reflect digital information as a whole.
-    Second-order cybernetics thoroughly addresses information from a human per-
-spective: “Information is, of course, the process by which knowledge is acquired,
-and knowledge is the processes that integrate past and present experiences to form
-new activities, either as nervous activity internally perceived as thought and will, or
-externally perceivable as speech and movement” (Von Foerster 2003, pp. 200–201).
-The shift from “the science of observed systems” in cybernetics to “the science of
-observing systems” in second-order cybernetics (Von Foerster 2003, p. 298) adds
-living systems with the potential of autopoiesis, self-organization, and the emer-
-gence of meaning (Brier 2008) to the understanding of information. Different fields
-approach information in different ways. In cybernetics, computer science, and natu-
-ral sciences information is seen as “an objective, quantitative information concept
-and works with algorithmic models of perception, cognition, and communication.
-Semiotics, in contrast, is based in human language’s meaningful communication
-and is phenomenological as well as dependent on a theory of meaning” (Brier
-2008, p. 42).
-260                                                                                    C. Jacques
-
-
-   When 2nd Order cybernetics is complemented by the semiotic study of signs and
-language, information and communication evolve beyond being a description of
-human information processes because the observer is the one creating meaning
-(Guddemi 2000; Bopry 2007; Brier 2008; Vidales 2017). “We could add to Wiener’s
-statement that (in itself) ‘information is information, neither matter nor energy’—
-that information is also not meaning until it has been interpreted by a living system”
-(Brier 2008, p. 76). The description of sign processes and entropic transmission of
-data and metadata in binary format allows for one understanding of information in
-the meta-environment. The creation of meaning is seen as separate from informa-
-tion since it relies on the user experience (observer) to emerge.
-(c) Interface
-   According to the Encyclopedia Britannica, interface is described in physics as a
-“surface separating two phases of matter.” As matter can only be applied to machines
-but not digital applications, the use of the term interface here reflects a concept in
-computer science where it encompasses the physical machine—computer, cell
-phone, tablet, etc.— as well as the software, applications and processes utilized by
-these machines to facilitate the interaction between humans and information. This
-understanding of the term also reflects how more and more the physicality of com-
-puters is being immediated (Bolter and Grusin 1999). In other words, as we embrace
-digital technologies, the computer-mediated interface has become more and more
-transparent to the user. “In this sense, a transparent interface would be one that
-erases itself, so that the user is no longer aware of confronting a medium, but instead
-stands in an immediate relationship to the contents of the medium” (Bolter and
-Grusin 1999, pp. 23–24).
-   Pervasive computing, also called ubiquitous computing, is the growing trend of embedding
-   computational capability (generally in the form of microprocessors) into everyday objects
-   to make them effectively communicate and perform useful tasks in a way that minimizes
-   the end user's need to interact with computers as computers. Pervasive computing devices
-   are network-connected and constantly available (Rouse et al. 2016, n.p.).
-
-In this case, the interface, with its immediated components, becomes one unit with
-the task of mediating humans and information. The curriculum of interface design
-expresses such relationship by including the term user before interface in an attempt
-to more strictly define their connection. Speaking to the understanding, emergent
-within the field of computer arts that a computer or any digital product does not
-function only as a medium. On the contrary, the digital machine “operates simulta-
-neously as medium, tool and context, in addition to its organizational and interactive
-elements” (Lambert 2009, n.p.), Tidwell affirms that
-   [E]ach time someone uses an application, or any digital product, he carries on a conversa-
-   tion with the machine. It may be literal, as with a command line or phone menu, or tacit,
-   like the “conversation” an artist has with her paints and canvas—the give and take between
-   the craftsperson and the thing being built. With social software, it may even be a conversa-
-   tion by proxy. Whatever the case, the user interface mediates that conversation, helping
-   users achieve whatever ends they had in mind (Tidwell 2013, p. 1).
-10    Human-Computer Interaction Design and the Cybersemiotic Experience                             261
-
-
-In attempting to interrogate and fully comprehend the elements in interactive hybrid
-environments, a cybersemiotic approach (Brier 2008) is used here, taking into con-
-sideration that a human, either the creator or participant in such an environment,
-carries the same weight in creating meaning as the other elements of such environ-
-ments. In order for this to happen, information must be seen as a physical expres-
-sions of computer or human language, signs and symbols, which through feedback
-loops allow the communication (Guddemi 2000; Bopry 2007; Brier 2008; Vidales
-2017) mediated by an interface to be established. Any sustained attempt to combine
-such hybrid elements reveals autopoietic systems structurally coupling and emerg-
-ing within systems (Guddemi 2000; Bopry 2007; Brier 2008; Vidales 2017). The
-term meta-environment is here then introduced to express such strict relationship
-among user, information and interface with its infinite potential. As Jennifer Tidwell
-(2013) observes:
-     As the user interface designer, then, you get to script that conversation, or at least define its
-     terms. And if you're going to script a conversation, you should understand the human's side
-     as well as possible. What are the user's motives and intentions? What "vocabulary" of
-     words, icons, and gestures does the user expect to use? How can the application set expecta-
-     tions appropriately for the user? How do the user and the machine finally end up communi-
-     cating meaning to each other? (p. 1).
-
-The long-established segmentation of information has in fact restricted how we
-embrace interactive hybrid environments by either relating information to human
-perception or to interface processes. This study proposes meta-environment as a
-complex system that encompasses the triadic relationship, interactions and pro-
-cesses among user, information and interface and addresses the concerns posed by
-Søren Brier (2008):
-     …whether the functionalistic and cybernetic research must be viewed as complementary to
-     a phenomenological-hermeneutical-semiotic line of theorizing on signification and mean-
-     ing that ignores ontological questions outside culture, or whether these might be united
-     within one paradigmatic framework through a revision of the ontological and epistemologi-
-     cal foundations of both classical and modern sciences, as Peirce attempts (p. 37).
-
-Today, the term meta-environment is used in the field of computer science to
-describe “the interactive development environment for constructing language defi-
-nitions and for generating and testing particular testing environments” (Klint 1991,
-p. 109). It refers to a series of processes and syntaxes that not only describe but also
-facilitate the exchange of information in complex information systems. I propose to
-expand the concept of meta-environment to include the relational processes of data/
-information, metadata, database, applications, user interaction, and information
-communication existent in the triadic relationship among user, information, and
-interface. In practice, this concept implies the overall communicability among the
-different elements involved in the processes of storing, relating, inputting, and out-
-putting information as well as the user’s actions and the many elements of the inter-
-face, such as software and hardware.
-262                                                                                         C. Jacques
-
-
-10.7 Learning to Embody Digital Technology
-
-To ground a critical interrogation of narratives of embodiment and the different
-mediation capabilities of the meta-environment requires another brief examination
-of recent history. Marshall McLuhan (1964) provided one starting point from which
-to understand how and why space-time perceptions need re-examination when he
-observed that “During the mechanical ages we had extended our bodies in space.
-Today, after more than a century of electric technology, we have extended our cen-
-tral nervous system itself in a global embrace, abolishing both space and time as far
-as our planet is concerned” (McLuhan 1964, p. 3). It is fascinating consider that in
-1964, twenty years before Apple’s first graphical interface computer, McLuhan
-believed that the future of new communications media and digital technologies
-would involve abolishing perceptions of space and time grounded in the embodied
-experience of the mechanical age. This is understandable as in 1964 embodied
-space-centric perceptions were inscribed and reinscribed by media and communica-
-tions developments in photography, film, TV, radio, telephone, and so forth.
-Perceptions of time as linear and interval-based and the perceived qualities of these
-communications media (electric technologies) were qualitatively different from the
-Euclidian space-centric and cyclical time perceptions, and it seemed logical that
-new understandings needed to emerge.
-    Interesting enough, even as we transition to the digital age, instead of negotiating
-new space-time understandings, we chose to immediate18 the experience by repre-
-senting digital media through embodied narratives and by pretending that the media
-exhibit qualities identical to those of the physical world and the consciously embod-
-ied humans experience. Our need for embodiment restricts our perception of digital
-information to being physically constrained, linear in scope, and synchronous. In
-The Language of New Media, Lev Manovich (2002) defines some tendencies in
-digital information: numerical representation, modularity, automation, variability,
-and transcoding, which suggests that digital information is potentially omnipotent
-(not subject to physical limitations), omniscient (capable of knowing all things at
-once), and omnipresent (manifesting anywhere and at any time). These descriptions
-obviously depict a bodiless entity. We can even diverge here a moment to acknowl-
-edge the god-like qualities being attributed to a putative digital entity, reimagined as
-an almighty being that can navigate on a plane reserved for the sacred.
-    Despite the profound implications of such attributions, information -with its vast
-possibilities— remains bound by the medium, whether human or machine, where
-sign-objects are seen as representing either brain or computer processes. It is diffi-
-cult to disentangle information from embodiment, particularly for the human
-
-18
-  The practice of attempting to make the medium transparent to the user is not new. According to
-Jay David Bolter and Richard Grusin (2000), immediacy is a “transparent interface [that] would
-(be one that) erases itself, so that the user is no longer aware of confronting a medium, but instead
-stands in an immediate relationship to the contents of that medium …the desire for immediacy
-itself has a history that is not easily overcome. At least since the Renaissance, it has been a defining
-feature of Western visual (and for that matter verbal) representation” (p. 24).
-10    Human-Computer Interaction Design and the Cybersemiotic Experience                        263
-
-
-observer who is intimately involved in bringing meaning to the exchange even as it
-is happening. This close proximity does not allow the observer to perceive form and
-details with maximum clarity (Merleau-Ponty 2015). But what if in our need to
-represent reality as we see it, we are too close to the subject matter to see the whole?
-Or just as in the use of linear perspective, introduced earlier to exemplify how in
-attempting to reproduce reality humans actually learned to see it in a distorted man-
-ner, our need for embodiment may be restricting the possibility of developing new
-paradigms of space and time representation.
-    On January 24, 1984, Apple Computer introduced Macintosh,19 the first personal
-computer with graphical interface. This was an historic event because the advent of
-graphic interfaces freed the user from having to learn computer languages and codes
-and to think in terms of linear digital processes. In effect, this also released the user
-from being a conscious mediator in HCI. Even though this event can be considered
-a milestone in the development of digital computer interfaces, much of the research,
-hopes and expectations for digitally mediated technologies were already in full
-development at that time. Four years earlier, at the 7th ACM SIGGRAPH Conference
-proceedings, Richard Bolt described Nicholas Negroponte and the MIT Architecture
-Machine Group “Media Room”20 as “a physical facility where the user’s terminal is
-literally a room into which one steps, rather than a desk-top CRT before which one
-is perched” (Bolt 2003, p. 434).
-    The “Media Room” was an early attempt to address HCI issues and create an
-environment that was more intuitive and appealing for the user. Two decades later,
-Bolt’s article was republished, this time with an introduction by Nick Montfort
-(Wardrip-Fruin and Montfort 2003). Montfort’s introduction is revealing. It offers
-some clues on the reasons we have been interacting with computer interfaces as if
-they are physically embodied mediators of HCI experiences, and it unintentionally
-suggests a key point that we have been missing.
-     Data is represented spatially on all graphic computers today, but it is almost always repre-
-     sented in two-dimensional space. The Media Room set up by Nicholas Negroponte at
-     MIT’s Architecture Machine Group, and described by Bolt’s essay, was spatial in at least
-     two ways. It used two-dimensional screens to provide a view into a simulated three
-     dimensional-space. It also employed an arrangement of screens and speakers situated in the
-     architectural space of the room. By creating an extravagant computing environment, rather
-     than doing more focused study of specific communications modalities considered sepa-
-     rately, researchers in the Architecture Machine Group were able to arrive at a surprisingly
-     different, and extremely useful, concept of human-computer interaction, in which these two
-     types of space are experienced by the user as one (Wardrip-Fruin and Montfort 2003,
-     p. 233; emphasis added).
-
-In an attempt to create a more user-friendly interactive experience, Negroponte and
-the Architecture Machine Group decided to ignore the specific individual qualities
-
-19
-  Source: The original TV advertisement for the first Apple Computer Macintosh (Apple 1984).
-20
-  Led by Nicholas Negroponte, MIT – Massachusetts Institute of Technology Architecture
-Machine Group was an avant-garde research center for the study of human-computer interactions
-and is the precursor of today’s MIT Media Lab. https://www.theverge.com/2012/5/24/3040959/
-dataland-mits-70s-media-room-concept-that-influenced-the-mac
-264                                                                              C. Jacques
-
-
-of the different elements (communications modalities) in the Media Room while
-representing the HCI experience as if it were physically embodied via a simulated
-three-dimensional architecture. It was a brilliant solution at the time, but it left a
-legacy of conceptual and terminological confusion to describe the new layer of
-embodiment in HCI, which didn’t necessarily exist, thus limiting the medium exclu-
-sively to its physical qualities.
-
-
-
-10.8 Semiotics of Embodiment
-
-Apple’s graphic interfaces and MIT’s Media Room are examples of how we have
-learned to perceive the computer interface as an embodied mediator in HCI. Thirty-
-five years after Bolt’s article, art and design practitioners working with digital inter-
-faces as well as scholars addressing HCI and related fields such as cybernetics,
-information theory, semiotics, and new media still rely primarily on physical narra-
-tives emphasizing embodiment to describe and represent the architecture of digital
-information environments and HCI. Apple, Microsoft, Adobe, Autodesk, Google, to
-name a few, have invested extensively to develop graphic user interfaces (GUI) and
-in the process have adopted a sign system of icons and terminologies, all referring
-to physical objects and qualities to represent the digital world. Again, the creation
-of a system of representation that relies heavily or even exclusively on the physical
-world to define completely new actions, processes and perceptions introduced by
-digital technology has facilitated the development of human-computer interactions,
-yet as time has passed and new generations are born into the digital age, much of the
-commonly employed language begins to seem obsolete. Nevertheless, we keep
-introducing it the same way over and over again. Digital technologies appear to call
-on our bodies to position ourselves in the manner and relationship that best facili-
-tates our perceiving and experiencing them (Merleau-Ponty 1978).
-    The history of personal computers and GUI and the attendant terminologies con-
-sistently reflect symbolic representations of the physical world. Terms such as desk-
-top computer or laptop computer refer to a physicality that is specific to the human
-body in the physical world. Almost thirty years ago, when I started to teach graphic
-design applications such as Adobe (formerly Aldus) PageMaker,21 it made sense to
-employ certain specific terms to describe the interfaces since they attempted to
-mimic a designer or draftsperson’s working table with a tool box on the left, letterset
-types on the top of the table, the pasteboard area around the document, and color
-palettes to mix colors. These terms allowed a much easier transition from the physi-
-cal world to the digital world, but today, when introducing graphic design to stu-
-dents, these same terms seem obsolete, as they do not represent anything for the new
-apprentices in the field.
-
- Initially developed by Aldus in 1985 (Fox 2015) and later (2004–2005) bought by Adobe
-21
-
-Systems, PageMaker was a desktop publishing application introduced with Apple Macintosh com-
-puters. Today Adobe PageMaker is superseded by Adobe InDesign.
-10    Human-Computer Interaction Design and the Cybersemiotic Experience                         265
-
-
-    The evolution of the graphic interface has been accompanying the advent of digi-
-tal environments. We can observe such evolution through the lens of Peirce’s semi-
-otic sign objects and an analysis of how our human need to embody the world
-through signs affects our embracing of the digital world from icons, to indexes, to
-symbols.
-     One very important triad is this: it has been found that there are three kinds of signs which
-     are all indispensable in all reasoning; the first is the diagrammatic sign or icon, which
-     exhibits a similarity or analogy to the subject of discourse; the second is the index, which
-     like a pronoun demonstrative or relative, forces the attention to the particular object
-     intended without describing it; the third is the general name or description which signifies
-     its object by means of an association of ideas or habitual connection between the name and
-     the character signified (Peirce 1991, p. 181).
-
-In the initial need for embodiment, these signs may have the same likeness as the
-physical world, imitating in form and purpose what they stand for. For example, the
-term leading, which refers to a metal bar made of lead used to separate the lines of
-text in hot type press printing,22 can be said to initially be a sign-icon as the word
-refers to and resembles the metal used. In the sixties, even though hot presses were
-already in decline in favor of cold type presses,23 the term leading was still used to
-reference the physical object. As the hot and cold type press processes gave way to
-digital processes, the term became a sign-index, a synonym of separating lines of
-text. Today most people only know the sign-symbol for leading as the space between
-lines. The context changed, and so did the observer, who now can’t find the same
-meaning in these sign objects. A parallel conversation can be added about the semi-
-otics of emoticons but that would detour from the aim of this discussion, which
-attempts to highlight the choices to describe and communicate the digital world and
-experiences.
-    In Amazon Echo voice service, Alexa, the system is embodied as a female server
-defining how it is potentially used. The female servant of the master’s desires
-impinges on social-political-cultural issues that are deeply ingrained in our society
-and full of implication for feminist or cultural studies investigation, although this is
-not the purpose or approach of this discussion. In Alexa’s case, the disembodied
-gadget, embodied as a female servant, at first glance may seem to be a clever mar-
-keting ploy, but in reality, such embodiment reinforces social and cultural represen-
-tational norms difficult to ignore or detach from. Much of the terminology employed
-in the digital world correlates closely with the physical world, yet the original rea-
-sons for such terminology are slowly fading away with the rapid development of
-digital technologies. As these new technologies continue to permeate our everyday
-
-
-22
-   Hot type press is a somewhat obsolete printing press process where the type setting composition
-is made of metal melted into type molds where the text is composed manually, character by char-
-acter. In the late 1800, the Linotype machine, a line by line metal press, was introduced revolution-
-izing the newspaper industry (Roberts 1980).
-23
-   Cold type presses appeared in 1960s and are officially known as phototypesetting. There is a
-great movie from the era introducing the new system to the press labors. https://vimeo.
-com/127605644
-266                                                                           C. Jacques
-
-
-lives, they strengthen the relationship and interaction among user, information, and
-interface and expand the mediation capabilities of the meta-environment. At the
-same time, its interaction with the physical world, objects or actions diminishes or
-ceases to exist, giving rise to new challenges and opportunities to reconceptualize
-how we represent the digital realm.
-   It is interesting to realize that the user’s presumptive need for a language and
-aesthetics of physicality (Heidegger 2010; Merleau-Ponty 2015) dictates processes
-and perceptions that reinforce the space-time continuum representational paradigm
-which is limiting and linear in scope, restricting information’s potential and pre-
-venting a more balanced integration among user, information, and interface. How
-we embodied space and time in the past and are experiencing them today are shaped
-by the technologies around us and expressed in the aesthetic creations that emerge
-from such experiences. When, in the sixteenth century, Giorgio Vasari documented
-Leonardo da Vinci’s technological advances in aerial perspective, foreshortening,
-and use of light and darks to create volume and depth, he was contextualizing the
-employment of new technologies and highlighting the new aesthetic experiences
-that artists were promoting (Vasari 1998). Da Vinci’s artworks maximized the
-potential of the technologies of his time and, along with some of his peers, helped
-change how humans perceive space and their sense of self in it. Since the Renaissance,
-naturalistic representations of space have been the norm, and, such representations
-advanced quickly with the advent of the mechanical age and the many news tools
-and innovations brought to bear in artistic creation, leading to changes in human
-consciousness regarding aesthetic perceptions of space and time and the self in rela-
-tion to space and time.
-
-
-
-10.9 Space and Time Aesthetics
-
-The creation of aesthetic structures and experiences that emphasize space allow the
-artist to communicate our embodied perception of the world. The creation of aes-
-thetic structures and experiences that emphasize time allow the artist to navigate the
-changes we actually perceive in the digital age. Over human history, we have learned
-to perceive space and time differently. Eastern and ancient indigenous cultures
-relied on the knowledge of nature to guide their aesthetic understanding of space
-and time. In Zen teachings, space may be empty but at the same time carry the
-potential for entropy and as such for life and death (empty again) (Shlain 2007). The
-Japanese principle of Notan, which is “the interaction between positive (light) and
-negative (dark) space,” offers the potential of balance and harmony. The Chinese
-symbol Yin-Yang embodies the principle of Notan. The opposing forces “that have
-equal and inseparable reality” (Bothwell and Mayfield 1991, p. 6), suggesting that
-space is infinite and so is time. Variations of the Egyptian or Greek symbol
-Ouroboros (a serpent swallowing its own tail) can be found in different Eastern and
-indigenous civilizations to represent infinite time. In Aztec culture, the circle appar-
-ent in Ouroboros reinforces the whole and represents the infinite cycles of life; the
-10    Human-Computer Interaction Design and the Cybersemiotic Experience                  267
-
-
-return of the seasons, of the sun, of the flowers and fruits; time without beginning or
-end, sustained by the balance between the all and nothingness.
-    Initially, in the ancient Greek civilization, time and space were entangled with
-the gods, existing in non-linear time in a space without earthly boundaries, yet shar-
-ing the essence of the Ouroboros. “Aristotle straightened out the arabesque shape of
-time [by demythologizing] the Three Daughters of Necessity. These three Fates
-were Lachesis, who guarded what had been, Clotho, who guarded what is, and
-Atropos who oversaw what is yet to come” (Shlain 2007, p. 32). In doing so,
-Aristotle straightened the circle of time, giving the sequence of past, present, and
-future. Giving birth to geometry, “Euclid organized space by connecting it through
-an imaginary web of straight lines that in fact do not exist in nature” (Shlain 2007,
-p. 31). Euclid’s geometric straight lines coupled with Aristotle’s arrow of time
-shifted the original notion of atemporal and boundless space to the understanding of
-space represented on one plane and with time movement in one direction. The new
-geometric space and linear time aesthetics of the ancient Greeks were reflected in
-their sculptures, architecture, and proportional forms. Euclidean points in space
-instigated the all or nothing duality embraced by Christianity.
-    Early in the history of Christianity, Saint Augustine brought God into the percep-
-tion of space and time. Space was no longer measured but instead split between
-heaven and hell. Time lost its linearity as it became God’s divine and eternal events
-supported by Genesis and Judgment Day. Human events ceased to be relevant.
-Pagan artworks were destroyed along with books and knowledge of earthly events.
-Illiteracy called for simplified images to tell Jesus’ story on earth and the story of
-heaven and hell. This new aesthetic of time and space gave rise to segmented pieces
-that only have meaning when experienced in their totality. Tapestries, mosaics, and
-triptych paintings reflected this segmentation of space, which became reflected in
-the socio-political hierarchies of the feudal system. The Dark Ages (A.D. 400 to
-A.D. 1250) utilized art to represent the divine, tell its story, and define its under-
-standing of time. The science of the ancient world was replaced by a theological
-system of belief (Shlain 1991; Heelan 1988).
-    The vacuum created in Medieval times instigated a need to rediscover the knowl-
-edge of the ancient Greeks, giving way to “Renaissance artists [like] Giotto di
-Bondone (1276–1337), Alberti (1404–1472), and Leonardo da Vinci (1452–1519)
-rediscovering the science of pictorial perspective and predictive measurement of
-space that ultimately enable Copernicus (1473–1543) to correctly identify the cen-
-ter of the solar system” (Shlain in Mauldin 2011, n.p.). Space and time became
-again linear, converging in the horizon and on to death. The technologies introduced
-in the Renaissance changed human perception, the artist unique point of view
-became the divine, freezing time on a canvas, wall, and ceiling. Linear perspective,
-use of value scale to portrait volume, added a third dimension of space, depth.
-     In the nineteenth century Manet (1932–1883) and Cezanne (1839–1906) begin to flatten
-     pictorial space and deny the use of a single viewpoint and mathematical perspective (a
-     stylistic standard for centuries). Their stylistic achievements lead Georges Braque
-     (1882–1963) and Pablo Picasso (1881–1973) to develop cubism representing completely
-     fractured space and time and perspective. Physicists exploring non-Euclidean space and
-268                                                                                        C. Jacques
-
-   Einstein’s (1879–1955) development of his theory of relativity (and proof of physical
-   impossibility of a single viewpoint of space) follow these great changes in traditional use of
-   pictorial space. Not that any particular physicist studied the paintings of Giotto, Cezanne or
-   Picasso, but that the painting styles of these artists provide a visual representation of devel-
-   opments in theoretical physics (Shlain in Mauldin 2011, n.p.)
-
-The advent of the mechanical age gave rise to enhanced aesthetic perceptions of
-space and time intrinsically connected along a continuum and represented by linear
-perspective positioning the viewer as an observer outside the frame and experienc-
-ing one specific moment in time. Our sense of episodic memory expanded through
-the mnemonic aid of the space-time continuum and developing media and commu-
-nications such as photography, film, TV, radio, and the telephone. When in 1964
-McLuhan wrote of “a global embrace, abolishing both space and time” (McLuhan
-1964, p. 3), human computer interactions were not yet mediated by graphic user
-interfaces. Thus, McLuhan’s notion of abolishing both space and time reflected the
-raw qualities of the digital medium as nonembodied, atemporal bits. My own
-research suggests that abolition of space and time is closer to a futuristic fantasy. A
-more grounded, defensible, and productive formulation is found in Thomas Kuhn’s
-(1970) notion of a paradigm shift. The developing technologies of the digital age are
-underpinning a transformative shift in human perceptions and aesthetic representa-
-tions of space and time. The development of GUI (Graphic User Interface) was—
-somewhat paradoxically—accompanied by narratives of physicality and
-embodiment that McLuhan had not foreseen. Decades before McLuhan’s bold
-prophecy, Henri Bergson approached the question this way:
-   If you abolish my consciousness … matter resolves itself into numberless vibrations, all
-   linked together in uninterrupted continuity, all bound up with each other, and traveling in
-   every direction like shivers. In short, try first to connect together the discontinuous objects
-   of daily experience; then, resolve the motionless continuity of these qualities into vibra-
-   tions, which are moving in place; finally, attach yourself to these movements, by freeing
-   yourself from the divisible space that underlies them in order to consider only their mobil-
-   ity – this undivided act that your consciousness grasps in the movement that you yourself
-   execute. You will obtain a vision of matter that is perhaps fatiguing for your imagination,
-   but pure and stripped of what the requirements of life make you add to it in external percep-
-   tion. Reestablish now my consciousness, and with it, the requirements of life: farther and
-   farther, and by crossing over each time enormous periods of the internal history of things,
-   quasi-instantaneous views are going to be taken, views this time pictorial, of which the most
-   vivid colors condense an infinity of repetitions and elementary changes. In just the same
-   way the thousands of successive positions of a runner are contracted into one sole symbolic
-   attitude, which our eye perceives, which art reproduces, and which becomes for everyone
-   the image of a man who runs (Bergson 1994, pp. 208–209).
-
-Bergson and McLuhan mark different moments within the larger context of a shift
-in representational paradigms and also different methodological emphases.
-McLuhan emphasized the transformative role of communications media in them-
-selves, whereas Bergson focused on the centrality of human consciousness, which
-is to say that he proceeded from a phenomenological-hermeneutic perspective.
-10   Human-Computer Interaction Design and the Cybersemiotic Experience              269
-
-
-10.10 Combining Perceptions and Processes
-
-Examining technological change in an earlier era of human history, Wolfgang
-Schivelbusch (2014) describes how the advent of the railroad changed the way
-humans perceive time and space. “Annihilation of time and space was the topos
-which the early nineteenth century used to describe the new situation into which the
-railroad placed natural space after depriving it of its hitherto absolute powers.
-Motion was no longer dependent on the conditions of natural space, but on mechan-
-ical power that created its own new spatiality” (Schivelbusch 2014, p.10).
-Schivelbusch’s theory is based on what was once the radically new experience of
-connecting two cities through a train ride. As people began to travel from one point
-to another at much higher speeds than by earlier means of transportation, the time
-they spent in travel diminished quantitatively. And as more areas were incorporated
-along the track line, people also had quantitatively expanded access to towns and
-cities previously inaccessible. The impact on human consciousness was that,
-through the expansion of access, “Space [was] killed by the railways,” (Schivelbusch
-2014, p. 37) leaving only time. Traveling had become little more than a subjective
-experience, reduced to the perception of the time spent between departure and
-arrival. This contradiction between expanding access to new spaces and diminishing
-the time spent between two points transformed perceptions of the time-space
-continuum.
-    Examining digital technological innovation, Paul Virilio (1995) suggests that we
-may be experiencing a new and very different annihilation: the destruction of human
-interaction. He argues that the advent of the cyber world is distracting our percep-
-tions and alienating us from one another. Virilio believes that, because of digital
-technological tools, authentic perception is lost, leaving only a fundamental disori-
-entation (Virilio 1995), a physical state of numbness, as human interaction ceases to
-occur, even with ourselves. Virilio’s rationale is that easy access to electronic
-devices and technological tools from cell phones to virtual reality interfaces may be
-amplifying our interaction with the various media, but concurrently diminishing our
-interactions with ourselves and others. Means of electronic communication are get-
-ting faster and cheaper, allowing us to isolate ourselves from reality. Instead of
-being in the here and now, we are each in our own isolated world, with our phones,
-headphones, computers, and e-books, attempting to relate to something, but not
-necessarily to ourselves or anybody in particular. This phenomenon represents an
-expansion of technological interaction but an annihilation of human interaction.
-    Ascott has long argued that computers already mediate human interactions and
-that this is the stark reality we must confront. In an article entitled “The Architecture
-of Cyberperception” (Ascott 2007), he described how human perception was being
-transformed by the advent of information technologies and the internet, especially
-the influence of cybernetics feedback processes. Ordinary perception, “... the aware-
-ness of the elements of the environment through physical sensation, [was becom-
-ing] computer-mediated and computer enhanced” (Ascott 2007, p. 320). Ascott’s
-concept of cyberperception may have seemed futuristic and utopian in 1994, but in
-270                                                                            C. Jacques
-
-
-2019 it is commonly accepted that our perception of reality is indeed thoroughly
-integrated with the computer world, totally mediated by computer and information
-technologies. The question artists must confront is how best to effect a balance
-between mind and matter, how to call attention to the enormous positive potential in
-the use of technological tools to generate and enhance human interaction.
-    In the previous sections, the experience and practice of embodiment in the meta-
-environment were introduced, highlighting the dissimilarities among user, informa-
-tion, and interface and the knowledge that it is the user who actualizes the interactions
-in the meta-environment. As a system, the syncretic interactions among the ele-
-ments in the meta-environment experience structural coupling, yet it is “the role of
-the individual interpreter [user] that grounds both semiotics and second-order
-cybernetics in the phenomenology of experience” (Bopry 2007, p. 35). Constrained
-in the humanities/art and science divide, which was exposed by C. P. Snow in The
-Two Cultures and the Scientific Revolution (1959), it is almost impossible to break
-this divide without re-thinking how we address human users, information, and inter-
-face. In his search for a generative and integrative framework, Paul Cobley asserts,.
-“Cybersemiotics is a truly transdisciplinary project. It is not so much that it criss-
-crosses the sciences and the humanities and invokes knowledge from both (although
-it does do that), but rather it is transdisciplinary because it explores, through exper-
-tise in philosophy of science, concepts which have a purchase right across nature
-and culture” (Cobley 2010, p. 2045).
-    In the implementation of web interfaces, information is translated to the user
-through a design environment that assumes embodiment. In this case, the user’s need
-for physicality appears to dictate processes and perceptions that are limiting and
-linear in scope, restricting information’s potential, and consequently the need arises
-for a more balanced integration among the elements in the meta-environment: user,
-information, and interface. Analyzing the meta-environment’s triadic relationship
-through the lens of cybersemiotic reveals as a complex adaptive system, leading to a
-multitude of interacting elements that can possibly expand space-time perceptions
-and facilitate the conversion of information into knowledge. When we rethink how
-the elements of the meta-environment relate to each other and their representational
-properties of space and time, we start seeing the implications that these elements
-have on each other and on our human understanding of consciousness.
-
-
-
-10.11 The Cybersemiotic Framework
-
-Through HCI it is a challenge to determine how to address the different facets of inter-
-active hybrid environments and simultaneously embrace their complexity and potential
-to promote qualia without an integrative framework. The terms human-computer inter-
-action (HCI), user interface (UI), user experience (UX), and graphic user interface
-(GUI) are commonly used to describe and define interactive hybrid environments.
-Ontologically, these terms describe the elements and properties of humans interacting
-with physical interfaces that mediate digital information, yet they all have an
-10    Human-Computer Interaction Design and the Cybersemiotic Experience                           271
-
-
-exclusively dyadic human-machine focus wherein information is either conceived as
-human cognitive perception or as a logical process. Søren Brier elaborates on this divide:
-     Science is still faced with the problem of meaning. The background of cybersemiotics is the
-     recognition that Western philosophy of science is in a state of crisis. Western culture is at a
-     turning point when it comes to taking the final step into a knowledge culture based on infor-
-     mation and communication technology. Rather than basing our culture on the conception
-     that the highest goal of knowledge is an abstract, non-embodied and globally available
-     (artificial, impersonal) intelligence of information programs, I believe that we should
-     ground our culture(s) on embodied human living (personal as well as interpersonal), i.e. on
-     semiotic intelligence as part of both living nature and human culture, rather than only on the
-     physical science and the worldview behind it.
-
-     The current dominant objectivist science, which to me includes physicalism, eliminative
-     materialism, cognitive sciences based on the information processing paradigm, cannot
-     encompass self-aware consciousness and social-communicative meaning as causal agents
-     in nature. Current cognitive science attempts to explain human communication from the
-     outside without recognizing the phenomenological and hermeneutical aspects of existence.
-     Its conception of human (meaningful) language and communication as a sort of culturally
-     developed program for social information processing between computational brains/ minds
-     cannot explain the evolution of embodied consciousness and (meaningful) human language
-     and communication (Brier 2013, p. 222).
-
-While researching potential frameworks to integrate perceptions and processes, I
-resonated with the statement that cybersemiotics provides: “a transdisciplinary the-
-ory of Information, Cognition, Meaning, Communication and Consciousness that
-integrates Cybernetics and Peircean Semiotic paradigms in a common framework”
-(Brier 2008, p. 20). Insights from cybersemiotics enabled me to highlight the cogni-
-tive dissonance between human perception and interactive hybrid environment to
-examine and accord equal weight to interactive hybrid environments, in general,
-and to the elements of the meta-environment in particular.
-     All the ontological attempts to create objective concepts of information result in concepts
-     that cannot encompass meaning and experience of embodied living and social systems.
-     There is no conclusive evidence that the core of reality across nature, culture, life and mind
-     is purely either mathematical, logical or of a computational nature. Therefore, the core of
-     the information concept should not be based only on pure logical or mathematical rational-
-     ity. We need to include interpretation, signification and meaning construction in our trans-
-     disciplinary framework for information as a basic aspect of reality alongside the physical,
-     chemical and molecular biological (Brier 2015, p. 1).
-
-Brier’s explanation enables my understanding that humans are a complex adaptive
-system and anything that involves or is involved with humans becomes an integral
-part of this system. This statement can be translated into practice by taking into
-consideration that, when dealing with dynamic interactive hybrid environments, the
-manner in which we perceive the information or relate to the interface can be sig-
-nificantly affected by such subjective factors as a headache, excessive noise, a feel-
-ing such as anger, the type size of text (if one is reading), the amount of light in the
-environment, and so forth. Failure to comprehend that humans are essentially a
-dynamic complex and adaptive system has limited the full understanding of our
-existence and exchanges with the world.
-272                                                                                    C. Jacques
-
-
-10.12 An Integrative Framework
-
-Earlier in this chapter the idea that the primary motivation of the artist and the art-
-object is to connect with the audience was introduced, thereby engendering interac-
-tion and communication among artist, artwork, and audience (Ascott 2007). This
-idea draws on Duchamp’s notions of the role of interaction in art and also helps
-support an interpretive stance on the artwork emphasizing relativity and change
-(Shanken 2007). This stance refocuses representation from static to dynamic and
-acknowledges the manner in which form gives life to meaning through the artist’s
-and spectator’s individual perceptions and consciousness (qualia). Ascott’s call to
-integrate the user-creator with the user-spectator in interactive artworks derived
-from the need he sees of applying second-order cybernetics to such art practices.
-Defined as “the study of the control and communication of complex systems,
-whether they are living organisms, machines or organizations, paying special atten-
-tion to feedback as the main way of regulation” (Díaz Nafría 2009, n.p), first-order
-cybernetics allowed the integration of processes between humans and machines and
-consequently might have seemed the appropriate framework to study HCI. Initially
-concerned with observing the feedback processes that self-regulate and control the
-system, cybernetics evolved into second-order cybernetics in order to include the
-observer in the system. Elaborating on the differences between first and second
-order cybernetics, J. M. Díaz Nafría interprets Heinz von Foerster pointing out that
-first-order cybernetics questions “What and how are the mechanisms of feedback of
-the studied system?” whereas the second-order questions “How are we able to con-
-trol, maintain and generate this system through feedback?” (Díaz Nafría 2009, n.p.).
-    When developing interactive hybrid environments, the concepts employed by the
-discipline of user interface design (UI) attempts to address Brier’s concerns with
-first- and second-order cybernetics. A simple detail such as where a button to apply
-a change in the system is placed can be a continuation of the feedback processes or
-a break in the communication. Unfortunately, when a break happens, the user expe-
-rience gets compromised since the process is broken and communication ceases. At
-this point, we need to take into consideration that the user exchange with the system
-and with information happens on an objective level (informational) as well as a
-subjective level (phenomenological) (Brier 2008, 2011). This exchange—and con-
-sequently the information that is created—has the potential to be more than the
-amount of disorder or randomness in a system (entropy) as seen in cybernetics.
-Information can be perceived as meaning when “organized into something recog-
-nizable and useable (words, symbols, gesture, etc.)” (Danesi 2011, p. 312).
-   [Cybersemiotics] uses meaning as the overarching principle for grasping the complex area
-   of cybernetic information science for nature and machines AND the semiotics of all living
-   systems’ cognition, communication, and culture. Cybersemiotics is an integrated transdis-
-   ciplinary philosophy of science allowing us to perform our multidisciplinary research, since
-   it is concerned not only with cybernetics and Peircean semiotics, but also with informa-
-   tional, biological, psychological and social sciences (Brier 2013, p. 222).
-10   Human-Computer Interaction Design and the Cybersemiotic Experience          273
-
-
-The cybersemiotic framework allows the analysis of the elements of the meta-
-environment both individually and as a holistic system as it understands that infor-
-mation is not just “objective data, [since it needs] a context and a living system’s
-interpretation to yield meaning” (Garcia 2013, p. 34). Nicholas Lambert reminds us
-that for computer arts, the computer has a broader function than simply being a
-medium. It “operates simultaneously as medium, tool and context, in addition to its
-organizational and interactive elements” (Lambert 2009, n.p.), opening the possibil-
-ity that when examining interactive hybrid environments and the elements of the
-meta-environment, it may be discerned that the interface is not the only element
-mediating the interactions, that in fact human users and information mediate as well
-and meaning arises beyond data, beyond the exchange. This understanding reveals
-a complex adaptive system, which can only be fully comprehended through the
-integrative lens of cybersemiotics.
-
-
-
-10.13 Mediated Properties
-
-Cybersemiotics enables the understanding that the three elements in the meta-
-environment –user, information, interface– are part of a complex adaptive system
-and need to be equally balanced and analyzed, by factoring in the user’s essential
-influence in the system and by considering the manner in which information func-
-tions as both human perception and logical process. Broadly speaking, cybersemiot-
-ics seeks to close the gap between art and science through combining the four
-approaches below:
-1. A physico-chemical scientific paradigm based on third person objective empiri-
-   cal truth and mathematical theory but with no conceptions of experiential life,
-   meaning and first person, embodied consciousness and therefore meaningful lin-
-   guistic intersubjectivity.
-2. A biological and natural historical science approach understood as the combina-
-   tion of genetic evolutionary theory with an ecological and thermodynamic view
-   based on the evolution of experiential living systems as the ground fact, engaged
-   in a search for empirical truth, but with no theory of meaning and first person
-   embodied consciousness and thereby linguistic meaningful intersubjectivity.
-3. A linguistic-cultural-social structuralist constructivism that sees all knowledge
-   as constructions of meaning produced by the intersubjective web of language,
-   cultural mentality and power, but with no concept of empirical truth, life, evolu-
-   tion, ecology and a very weak concept of subjective embodied first person con-
-   sciousness, but taking conscious intersubjective communication and knowledge
-   processes as the basic fact to study (the linguistic turn).
-4. A phenomenological (Husserl) or actually phaneroscopic (Peirce) first person
-   point of view taking conscious meaningful experiences before any distinction
-   between subject and object as the ground fact, on which all meaningful knowl-
-   edge is based, considering all result of the sciences including linguistics and
-274                                                                                             C. Jacques
-
-
-      embodiment of consciousness as secondary knowledge. This includes an inter-
-      subjective base in that Peirce considers all knowledge as intersubjectively pro-
-      duced through signs only emotions are Firstness (Brier 2011, n.p.).
-   Thus, from a design perspective, I propose we rethink the mediation capabilities
-of the elements in the meta-environment and their space-time and/or physical-
-digital characteristics based on Brier’s cybersemiotic framework, which allows for
-the following analytical categories and correspondent mediation capabilities, as
-seen in Fig. 10.6. In this analysis, the meta-environment is seen as a closed system24
-with three distinctive interactive elements, and individually each element has many
-distinctive interactive parts. As such, it can be regarded as a dynamic complex sys-
-tem, where the influence of the individual elements on the system as a whole is
-greater than the sum of these elements (nonlinearity) and affects the system’s pre-
-dicted stability (chaos) (Gershenson and Heylighen 2005).
-1. Physico-chemical focus:
-   Spatiality – Refers to how the element occupies the space, physical matter or
-digital bits.
-   Temporality – Distinction between temporal and atemporal qualities.
+# **Chapter 10 Human-Computer Interaction Design and the Cybersemiotic Experience**
+
+![](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/reading-images/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/_page_0_Picture_1.jpeg)
+
+**Claudia Jacques**
+
+**Abstract** Advances in arti!cial intelligence and ubiquitous computing are expanding human-computer interaction (HCI) in everyday life; turning phones, TVs, cars, etc., into computer interfaces. Such changes affect how humans perceive and interact with digital information. In"uenced by Marcel Duchamp's conceptual-interactive art experiments and Roy Ascott's technoetic art, this text deploys Søren Brier's Cybersemiotic framework to bridge practice and theory. Cybersemiotic provides a powerful framework for comprehending and interpreting changes in human experience and consciousness wrought by the digital revolution. It achieves this by enabling an understanding of humans as complex adaptive systems; consequently, anything that involves or is involved with humans becomes an integral part of the system. A practical implication of this statement reveals the need to consider all internal and external variables within interactive hybrid environments. Even such minor factors as slow Internet connection or inadequate text size affects how human users perceive information or relate to an interface and consequently to the whole system. Through the lens of the Cybersemiotic a series of visual representations are introduced to highlight the interactions among user, information and interface, here addressed as meta-environment, with the potential for an ever-changing system, demonstrating the manner in which a change in one element affects each and every other part of the system. The analyses of the elements of the meta-environment reveal characteristics of a complex adaptive dynamic system promoting the expansion of human knowledge and consciousness here called Cybersemiotic Experience.
+
+**Keywords** Creative act · Consciousness · Cybersemiotic experience · Userinterface design · Human-computer interactions · Interactive hybrid environment · Meta-environment · Roy Ascott · Semiotic dance
+
+#### **10.1 Introduction**
+
+"Alexa, play WNYC!"1
+
+Alexa2 is the latest addition to my collection of digital household appliances. "She"3 is the Voice Service used in the Amazon Echo family of gadgets intended to mediate our every interaction with the world. Alexa is a multimedia servant waiting for our voice commands to deliver facts, switch the lights, open the front door, snoop on the children, !nd the keys, remind us of our overdue tasks, or whatever new skills the system can learn from us and that we have the patience to implement. In my household, the concept of using voice commands instead of a graphic interface to perform mundane tasks seem excitingly appealing, especially since my husband suffered a vision impairment in 2016 which has made navigating through simple tasks such as inserting a key in a door lock daunting. A native of Brooklyn, New York, and a scholar of African-American literature, my husband4 has no problem communicating with Alexa. He knows the correct words to use, has the proper American English accent and intonation, and can think linearly, just like she does. I, on the other hand, have a very hard time interacting with her. The fact that I speak with a heavy Brazilian accent seems to bother her immensely as she more often than not dismisses my commands or performs a completely different "action"5 from what I requested.
+
+Being dyslexic,6 having ADHD,7 and suffering from hearing loss add a level of complexity to my interactions with Alexa that seldom falls short of being extremely frustrating. The truth is that the problem is with me. As a designer of interactive
+
+<sup>1</sup>WNYC is the name of a local National Public Radio—NPR—station in New York City. http:// www.wnyc.org/
+
+<sup>2</sup>Amazon Echo Show is the proper name of this gadget. Detailed information about Amazon Echo and the different skills the Voice Service Alexa can potentially learn are documented on Amazon's website. It offers videos and detailed information on the Echo family (https://www.amazon.com/ Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E)
+
+<sup>3</sup>Here is an example of how the language of embodiment applied to the digital world is, at a minimum, misleading. *It* should be the proper pronoun used to address and describe the cloud voice server named Alexa, but the entire discourse surrounding the voice server intentionally leads the user to embody the experience as relating to a woman.
+
+<sup>4</sup>Richard A. Courage, PhD., *The Muse in Bronzeville: African American Creative Expression in Chicago, 1932 to 1950* (2011, Rutgers University Press) and *Root, Branch and Blossom: Social Origins of Chicago's New Negro Artists and Intellectuals* (forthcoming, University of Illinois Press).
+
+<sup>5</sup>Here is another example where the language of embodiment applied to the digital world seems misleading. How can an inanimate box which processes bits of energy deliver an action? The word *content* seems more appropriate to me since it refers to digital information, but the context of the sentence gets lost.
+
+<sup>6</sup> "People with dyslexia have been found to have problems with identifying the separate speech sounds within a word and/or learning how letters represent those sounds, a key factor in their reading dif!culties" (https://dyslexiaida.org/dyslexia-basics/).
+
+<sup>7</sup>ADHD or Attention De!cit Hyperactivity Disorder "is a brain disorder marked by an ongoing pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or develop-
+
+hybrid environments, I can attest that I am, more often than not, far from the optimal user whom interface and user-experience designers design for; Amazon Voice Service doesn't seem to change this reality. The combination of my disabilities has a great impact on my short-term memory, affecting how I retrieve words and compose sentences; spoken commands are not the most appropriate or effective form of interaction for someone like me. Parallel to that, I experience severe high frequency hearing loss, making female voices hard to hear. The scenario of a person who is hearing-impaired, dyslexic and has a short attention and memory span dealing with Amazon Echo !ts perfectly as the premise of a comic TV skit but not as an optimal example of human computer interaction.
+
+The reality is that we can't escape the phenomenon of ubiquitous computing, and human-computer interaction (HCI) permeating every aspect of life and mediating how we perceive and interact with the world (Ascott 2005, 2007, 2008; Lovejoy 2004). But just like my personal experience with Alexa, new users of such gadgets frequently have to learn new ways to interact with the interface (whether a watch, computer application, website, car, refrigerator, etc.) usually experiencing dissociation between the conceptual potential of the medium and our actual experience of it. The question arises: What exactly is missing from this process of meaning creation promoted by technological innovations? How can we optimize such exchanges? It is clear that we are in a transitional era and as art historian Margot Lovejoy (2004) points out, "Consciousness of the way the world is understood changes at different moments in history relative to the available knowledge of that period. A major shift in consciousness can change the premises about how we should seek to understand the world, what is important to look at and how we should present it" (p. 13).
+
+Based on the philosophical framework of Cybersemiotics (see Fig. 10.1), this essay employs an aesthetic analysis to explore the cultural and perceptual shifts leading to and resulting from interactive hybrid environments such as Alexa, and it proposes ontological and methodological reconceptualization of elements and relationships involved in such environments.
+
+## **10.2 Contextualizing Interactions**
+
+In his 1957 "Creative Act" lecture, Marcel Duchamp established the concept of interactivity introducing a pseudo-arithmetical equation to explain the relationship between artist, spectator, and artwork. Aiming to stay neutral in judging the value of the work, he called the artwork the "art coef!cient" [Ac], which re"ects the difference between the artist's "unexpressed but intended" [UbI] concept and the "unintentionally expressed" [UE] work (product).
+
+**UbI U**– **E A c** Creative Act Equation
+
+ment" (https://www.nimh.nih.gov/health/topics/attention-de!cit-hyperactivity-disorder-adhd/ index.shtml).
+
+![](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/reading-images/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/_page_3_Figure_1.jpeg)
+
+**Fig. 10.1** Søren Brier's Cybersemiotic Star (2008, redesigned by Jacques in 2013). (Used with permission)
+
+This "art coef!cient" is a personal expression of art "`a l'état brut," that is, still in raw state which must be "re!ned" … by the spectator … [who] experiences the phenomenon of transmutation; through the change from inner matter into a work of art, an actual transubstantiation has taken place, and the role of the spectator is to determine the weight of the work on the aesthetic scale. (Duchamp 1957, p. 139)
+
+Duchamp's eagerness for interactivity is seen in his ludic interactions with the spectator, questioning form and content, and consequently meaning, extended beyond visual arts into language. Throughout his career, Duchamp's use of signs was a constant and signi!cant element. It was a means of converting his static artwork into dynamic dialogue (interaction). As Sanouillet and Peterson (1989) states, "Duchamp's subversive fervor has been directed against language. We will see how he intends to re-form (not reform) our most common means of expression" (p. 5). Sanouillet goes on to say that Duchamp's intention was to give "to each word and each letter an arbitrary value to the point of total divorce between the expression and the expressive content which we customarily attribute it" (p. 6).
+
+Even though Joselit (1998) attempts to connect Duchamp's playful usage of language to Saussure's signi!ed–signi!er (concept-word) dyadic understanding of semiology (Chandler 2007, p. 14; Cobley and Jansz 2012, p. 21), his analysis actually reinforces Duchamp's aim of re"ecting triadic relationships, and he proposes "to incorporate three interrelated levels of exchange: the linguistic, the economic, and the erotic" (Joselit 1998, p. 34). Thus, by attributing value to Saussurian dyadic semiology, Joselit inadvertently re"ects Charles Peirce's triadic theory of signs or semiotics. "Whereas Saussure's sign (signi!ed/signi!er) needs to combine with other signs to take part in the "ow of meaning, Peirce's version of signi!cation has an in-built dynamism" (Cobley and Jansz 2012, p. 25). Peirce's semiotics refers to the study of signs through a triadic relationship among the "[1] Representamen (the sign itself) which has a relation to an [2] Object, which relation entails an [3] Interpretant. [In other words,] the sign or representamen is quite simply, something which stands to somebody for something in some respect or capacity" (Chandler 2007, p. 14; Cobley and Jansz 2012, pp. 21–22). Peirce's semiotic thus explains Duchamp's readymades.
+
+Duchamp's readymades questioned the meaning of art, bringing to light the possibility of an object representing and meaning different things, both for the artist and the spectator. Artist and spectator become co-creators exchanging passive and active roles as meaning creators and vehicles of meaning (see Fig. 10.2). Take for example the case of the *Fountain* (1917), a stand-alone porcelain urinal which Duchamp signed "R. Mutt" and titled *Fountain*. The porcelain receptacle (object) which we call urinal (representamen) is known as a place for men to urinate (interpretant) yet, by signing "R. Mutt" and re-titling the object *Fountain*, Duchamp introduces a new art object (interpretant). In turn, this new meaning (interpretant) becomes the signvehicle (representamen) for the spectator who by reading the title can choose to embrace the object as an art object, thus expanding the creative act and the relationship among artist, artwork and spectator to a dynamic dance among object, meaning creation (representamen) and meaning (interpretant), (see Fig. 10.3). This semiotic dance8 between representamen and interpretant is what makes the object tangible and knowable, allowing for this relationship to be expanded even further by the understanding that individually changing any of the expected elements in this triadic relationship also affects the outcome of the whole exchange9 (see Fig. 10.4).
+
+Figure 10. 2. Creative Act scenarios analyzed under columns: "unexpressed but intended" [UbI] concept, the "unintentionally expressed" [UE] and the "art coef!cient" [Ac] in the production of meaning. In Scenario I only the artist interacts with the artwork in raw state but without a spectator the work doesn't transmute or transubstantiate into Ac (new meaning.) In Scenario 2 both artist and spectator interact with the artwork in raw state but as the spectator doesn't engage with the artwork, it stays in raw state. The spectator's feedback to the artist reveals that the artwork doesn't promote the Ac. Scenario 3 represents the ideal Ac, where artist and spectator interact through the artwork and transmute and transubstantiate the work into Ac, and both experience new meaning.
+
+Semiotic implications may also be observed in Duchamp's use of language. Playing with the meaning of words, he worked with Peirce's triadic semiotics10 by questioning the *object* (the actual brute fact, word–index associated with Secondness) to change its *representamen* (potential for meaning–symbol creation and associated
+
+<sup>8</sup>The term semiotic dance was proposed in an informal conversation by Jeanette Bopry, editor of *Cybernetics and Human Knowing* journal (Jacques 2018).
+
+<sup>9</sup>This understanding will later be crucial on the analysis of the elements in interactive hybrid environments.
+
+<sup>10</sup> Joselit (1998) attempts to explain Duchamp's usage of language through Saussure's dyadic signi!ed-signi!er semiotics. Duchamp's triadic usage of signs in the creative act, along with his writings and readymades through object reinterpretation, coupled with the usage of language in his titles seem to be evidence that if he was not directly knowledgeable of Peirce's understandings of signs–semiotics, he had at least the same triadic understanding of signs. A deeper investigation of this matter is not relevant for this research but it is an attractive future research.
+
+![](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/reading-images/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/_page_5_Figure_1.jpeg)
+
+**Fig. 10.2** Creative Act scenarios analyzed under columns: "unexpressed but intended" [UbI] concept, the "unintentionally expressed" [UE] and the "art coef!cient" [Ac] in the production of meaning. In Scenario I only the artist interacts with the artwork in raw state but without a spectator the work doesn't transmute or transubstantiate into Ac (new meaning.) In Scenario 2 both artist and spectator interact with the artwork in raw state but as the spectator doesn't engage with the artwork, it stays in raw state. The spectator's feedback to the artist reveals that the artwork doesn't promote the Ac. Scenario 3 represents the ideal Ac, where artist and spectator interact through the artwork and transmute and transubstantiate the work into Ac, and both experience new meaning
+
+**Fig. 10.3** Representation of the process in which artist and spectator collaborate as co-creators of meaning: user based on Duchamp's creative act
+
+![](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/reading-images/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/_page_6_Picture_3.jpeg)
+
+**Fig. 10.4** Semiotic Interaction. Duchamp's Creative Act seen under Peirce's semiotics
+
+![](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/reading-images/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/_page_6_Figure_5.jpeg)
+
+with Firstness) to change the *interpretant* (what we associate with– icon, quality given to the object, Thirdness). The title *Fountain* changes the denotation when used to represent a urinal, in this case, changing how the spectator perceives the objects being re-presented by Duchamp. Removing the object from its context and attributing a new name (representamen*),* Duchamp "altered the object's identity and value" (Stile and Selz 1997, p. 804) offering to the spectator a new representation (interpretant). Just like Peirce's semeiosis, Duchamp's interplay of object, representation, and meaning is not static. Once the spectator starts to perceive the object with a new meaning, this object becomes an object d'art (representamen) with endless possible representations (interpretants) (Chandler 2007, p. 31; Cobley and Jansz 2012, p. 25, Zics (2014, n.p.). This semiotic dance re"ects Umberto Eco's (1989) open artwork—Semiotic Openness—which presents the concept of the active spectator and as such a multiple semiotic creation process yielding the possibility of multiple meanings, the possibility of in!nite relationships between spectator, artwork, and artist (see Fig. 10.5).
+
+![](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/reading-images/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/_page_7_Picture_1.jpeg)
+
+**Fig. 10. 5** Semiotic Dance visualization where artist and spectator become co-creators of meaning. The unlimited semiosis interplay re"ects a mobius spiral in constant change yet circumscribed by the user. Left, top view; right vertical view
+
+#### **10.3 A Technoetic Aesthetic**
+
+Duchamp's desire to exchange with the spectator is today the foundation of any and every human-computer interaction. The advent of new telecommunication tools has been quickly adding new possibilities for rendering aesthetic *meaning* and *intentionality* in artmaking.11 Lovejoy (1997) revisits Walter Benjamin's essentially dystopian view of the in"uence of technologies on aesthetic practices and a resulting loss of meaning and intentionality. But Lovejoy counterbalances Benjamin's ideas with Marshall McLuhan more utopian views of the aesthetic potential of new telecommunications media, concluding that "[T]he computer shattered the existing paradigm of visual representation by converting visual information about reality into digital information about its structure, modeling the visual rather than copying it and allowing for interactivity as a new aspect of representation" (p. 213). Lovejoy (1997) suggests that in modeling visual representation and converting visual into digital information, interactivity emerges as a vitally creative aspect of representation, "de!ning a new arena of consciousness and feeling" (p. 214).
+
+It is in the realm of the digital and telecommunications that Roy Ascott (2005) brilliantly refocused representation toward a more balanced relationship among subject matter, form and content, while also expanding the aims of representation to embrace interactive systems. "Of the myriad universes of discourse that constitute
+
+<sup>11</sup>These two terms refer back Lovejoy's (2004, p. 15; 1997, p. 14.) quote shared under the subsection 2.3.1. Introduction:
+
+<sup>&</sup>quot;The way we see is shaped by our worldview, which governs our understanding of what representation is. Thus, we can say that representation is a form of ideology because it has inscribed within it all the attitudes we have about our response to images and their assimilation; and about art-making in general, with all its hierarchies of meaning and intentionality" (2004, p. 15; 1997, p. 14).
+
+whole cultures and countries, only those open to change and adaptation are likely to survive the step change in evolution exerted by scienti!c development and technological innovation. If countries and communities are to avoid homogenization in this process, it will need to be a syncretic process that maintains the plurality of difference" (n.p.). Attempting to engage in an active communication with the spectator, Ascott's artworks and conceptualizations often directly reveal his thought and artmaking processes. This inherently self-disclosing practice (re"ecting Pasmore's in"uence) shows Ascott's engrained understanding of second order cybernetic communication processes and its relevance in his work as feedback to engage and contextualize the spectator's interpretation (Ascott 2007; Shanken 2007). Shanken (1997) explains the core insight of cybernetics in this manner:
+
+Cybernetics introduced a method for thinking about the relationships amongst the various interrelated elements of a system, concentrating on the regulation of these elements in order to control the outcome of the system. Primary to the management of the system was the ability for each element to offer the system feedback about its own status. In this way, the elements could communicate with each other and provide information which would enable the regulation of the system as a whole (n.p.).
+
+As interactivity, information and ultimately meaning are the results of this new form of representation of reality (Lovejoy 1997), this dependency on the spectator, creates the assertion of a need for a holistic and integrated consciousness experience associated with qualia. As Ascott (2007) points out, it is "the artist's imperative to explore every aspect of new technology that might empower the [user] through direct physical interaction to collaborate in the production of meaning and the creation of authentic artistic experience" (p. 357). Ascott uses a four-sided model to represent the different aspects of interactive art and its in"uences on the construction of human consciousness as a complex adaptive system. This syncretic reality, as Ascott calls it, is composed of physical, vibrational, tele- and apparitional presences. These four presences are merely starting points as the !nal goal is a syncretic understanding of the self (see Fig. 10.6). The intended outcome of this complex multilevel dialogue is what Ascott calls a technoetic aesthetic. "Technoetics is a convergent !eld of practice that seeks to explore consciousness and connectivity through digital, telematic, chemical or spiritual means, embracing both interactive and psychoactive technologies, and the creative use of moistmedia" (Ascott 2008, p. 204).
+
+A further development of syncretic, anthropophagic aesthetic practice and process may be seen in Ascott's understanding of the shift from artistic visual representation to behavioral experimentation (Ascott 2007, p. 110.) This is expressed through an interactive, participatory art experienced as a "perpetual state of transition" (Ascott 2007, p. 111). It is a liminal zone that relies on second-order feedback exchange processes among artist, medium, and spectator and that opens doors to telematic art, where isolated interactions or systems can interact with other systems promoting broader systems of connectivity. These in turn allow for the inclusion of digital technologies as tools and means of exchange, augmenting human perception to cyberperception. A technoetic art is the result, one that you see, touch, feel, or sense and are part of, that enhances and expands perceptions allowing for this perception to be swallowed, digested and returned as a unique experience or qualia.
+
+![](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/reading-images/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/_page_9_Figure_1.jpeg)
+
+**Fig. 10.6** Syncretic Reality (2008) slide reproduction shared at Plymouth Art Centre show The Syncretic Sense, Roy Ascott (used with permission)
+
+The creation of interactive hybrid environments is concerned with systems where artist, spectator, and medium generate and exchange perceptions and processes. It focuses on expanding the creative act to the spectator-user. The user's understanding of the world—semiosis—is what changes perception of the artwork. It's what connects the syncretic, technoetic art of Roy Ascott with the cybersemiotic philosophy of Søren Brier (see Figs. 10.1 and 10.6). The aim of syncretic art is to promote new perceptions, with the capability of a holistic experience integrating diverse processes and perceptions.
+
+### **10.4 Interactive Hybrid Environments**
+
+Addressing Roy Ascott's (2010) call for artists "to navigate consciousness and create new structures, images and experiences within" (p. 4) their art practices exploring the concept of cyberperception,12 it is necessary to de!ne interactive hybrid environments, contextualize the phenomena surrounding the development of such
+
+<sup>12</sup>*Cyberperception* is de!ned as "the emergent human faculty of technologically augmented perception" (Ascott 2007, p. 376).
+
+environments, and de!ne their elements, calling attention to the ontological and methodological issues that arise from attempting to accord them appropriate and balanced attention. Interactive hybrid environments should be understood as aesthetic constructions aiding human attempts to navigate consciousness. *Interactive* refers to the "uid exchanges between its elements as well the collaboration between artist and spectator dynamically creating meaning through perceptions and/or processes. The word re"ects Ascott's understanding of interactive art as a "cybernetic system, consisting of [art, culture and society as interconnected systems of] feedback loops that included the artist, the audience and environment (Shanken 2007, pp. 26-–27). It also re"ects Peirce's "semiotic paradigm … focuse[d] on the possibilities of meaningful communication in living and social systems" (Vidales 2017).
+
+The term *hybrid* is inescapable when promoting cyberperception and compels us to look at these elemental characteristics: spatiality, temporality, essence, sign processes, embodied cognition, and level of dynamic complexity.
+
+- Spatiality refers to how an element manifests as either physical (matter) or energy (digital).
+- Temporality refers to the distinction between temporal and atemporal qualities, as well as synchronous and asynchronous interactions.
+- Essence refers to the elements' core biological atoms or bits (Negroponte 1995).
+- Sign processes refer to the linguistic-cultural-social structuralism (semiotics) and constructivism, relating to subjective or objective sign interpretation and meaning creation.
+- Embodied cognition re"ects how we embody information (meaning) as opposed to disembodied digital information.
+- Dynamic complexity refers to creativity, aesthetic, design, usability and purpose of such environments, focusing on the predictability and linearity of their interactions (Brier 2008; Vidales 2017).
+
+In practice, hybridity re"ects the physical (atoms, hardware, peripherals, humans) and/or digital (bits, software, data transmission) characteristics; as well as how information is perceived, either as individualized meaning—qualia (perceptions) or data (processes). The term also relates to how space and time are presented, as space-time continuum where physicality may not always be linear and synchronous.
+
+The term *environment* is essential due to the complexity of the elements and processes observed in such artworks, experienced, perceived and embodied by their users (creator and spectator),13 revealing autopoietic systems structurally coupling human-human, human-information, information-information, human-computer, information-computer, computer-computer interaction (Dubberly and Pangaro 2015). Whether creating or analyzing interactive hybrid environments, the boundaries between artist-artwork-spectator, information and computer become "uid and translucent, making us rethink their respective roles. As Ascott (2007) argues, "Art
+
+<sup>13</sup>Term *user* is elaborated later in this chapter.
+
+does not reside in the artwork alone, nor in the activity of the artist alone, but is understood as !eld of psychic probability, highly entropic, in which the viewer is actively involved not in the act of closure in the sense of completing a discrete message from the artist (a passive process) but by interrogating and interacting with the system "artwork" to create meaning" (p. 179).
+
+Interactive hybrid environments need to be detached from the concept of the artist creator where the artworks are seen as unique pieces of creative insight. Instead they should be embraced under the perspective of telematic aesthetics, where phenomenological collaborative exchanges aim for production of meaning (Shanken 2007; Ascott 2007). From a telematics perspective, the creative process is decentralized in interactive hybrid environments and as such the artistic practice becomes inherently a collaborative practice, no different in kind from exchanging on crowdsourcing environments, social networks, or content and learning management systems. Alexa, Amazon's Echo intelligent personal assistant introduced earlier, is trained by its user in the household, who asynchronously collaborates with the usercreator (designers developing the interface and its skills), making Alexa unique in the production of meaning for each of its various end users in the household. Alexa and the different social media and content management systems that employ dynamic databases, rely on the user-spectator exchange to asynchronously collaborate with the user-creator in the production of meaning. In such interactive hybrid environments, the creative process and outcomes are collaborations outputting unique meanings. Christiane Paul (2015) argues that "One of the inherited characteristics of digital art is the tension between the hierarchical structure of instructions and data sets and the seemingly in!nite possibilities for reproducing and recon!guration the information contained in these structures" (p. 179).
+
+The potential of different meanings and relationships to the user introduced earlier as the semiotic dance is "atten out when we focus on the language of computer science employed by Paul—"hierarchical structure of instructions and data sets…information contained in these structures"— to describe human creation of meaning. Such language focuses on processes and indicates that an expansion beyond aesthetic domains is needed in order to observe and describe these environments. In 1964, Ascott recommended cybernetics as a !eld that would help artists ground their understanding and language when creating interactive environments because of its integrative characteristics.14 Over !fty years later, interactive hybrid environments have permeated all aspects of life, from artistic practices to self-driven cars, video-games and watches, to name a few. This expansion broadened the areas of approach to many different !elds, including biological and chemical. In this sense, interactive hybrid environments can also refer to moistmedia "compromising bits, atoms, neurons, and genes in every kind of combination" (Ascott 2007, p. 363). The challenge is to include such broad !elds in creative practices while respecting the demands of scienti!c !elds that inform such practices without reducing the sphere of creative practice. Artists and designers of interactive hybrid environments
+
+<sup>14</sup>Ascott was referring to second-order cybernetics.
+
+need a framework that allows a non-reductionist approach to the elements and processes involved in the creation of meaning.
+
+#### **10.5 Human-Computer Interactions (HCI)**
+
+The commoditization of digital information through dynamic databases such as Google Amazon, Facebook, and Ebay, among many others, has added greater complexity and urgency to the study of Human-Computer Interactions (HCI). In general, the study of humans and digital machines tends either to focus on logical processes, paying little attention to phenomenology and experiential consciousness or, alternatively, to focus on cognitive perceptions, disregarding self-organization, autopoiesis, and feedback loops (Brier 2008). The !eld of HCI seem at !rst to adequately address such divides in the study of the interaction between humans and digital machines, but on closer examination, we see a complex evolving system with boundaries shifting "uidly among contrasting !elds, thus revealing itself to be what I characterize as pseudo-transdisciplinary !eld. I explain my claim in the next paragraphs.
+
+Our understanding of HCI is continually evolving as digital technologies increasingly permeate the different domains of life, from art, media and education to transportation, security surveillance, medicine, and health, to name a few. HCI is pseudo-transdisciplinary as it borrows theories, methods and ontologies from different !elds such new media, computer science, cybernetics, information systems and theory, arti!cial intelligence, cognitive psychology, library science, linguistics, communications theory, and semiotics, and so forth. Unfortunately, these !elds do not necessarily share the same methods or fundamental views about what is involved in describing and analyzing such exchanges between humans and machines. A major in"uence on HCI is our need for embodiment which has made us perceive computer interfaces as extensions of ourselves, restricting digital technologies potential in expanding our perceptions of space and time beyond the linear continuum introduced in the mechanical age. HCI attempts to comprehend such diverse hybridity by offering different ways to reconcile the integration of computational processes with meaning creation. However, HCI is self-limiting insofar as it examines distinct aspects of such interaction without taking the whole into consideration. "Human-computer interaction is a discipline concerned with the design, evaluation and implementation of interactive computing systems for human use and with the study of major phenomena surrounding them" (Hewett et al. 2009, n.p.).
+
+Quite often HCI is the !lter for discussions involving the design of digital technologies ranging from artistic practice to medical science because of its broad reach. Initially presented as a specialized concern within several disciplines and consequently framed as an interdisciplinary area with different emphases (Hewett et al. 2009), HCI does at !rst glance seem to be the encompassing !eld to which artistic practitioners should turn when working with interactive digital technologies. Artists certainly need to have a domain of this nature available in order to develop such
+
+artworks. Just as painters need to have a deeper understanding of brushes, canvases and paints, as well as light to represent value and color; artists creating interactive hybrid environments need a deeper understanding of human computer interactions in order to enhance the experience of such works.
+
+At this point, there is a need to create a clearer distinction among the adjectives multidisciplinary, interdisciplinary and transdisciplinary employed to describe how diverse academic disciplines can be combined to create knowledge. Oxforddictionaries.com de!nes *multidisciplinary* as "combining or involving several academic disciplines or professional specializations in approach to a topic or problem." *Interdisciplinary* is de!ned as "of or relating to more than one branch of knowledge" and *transdisciplinary* as "relating to more than one branch of knowledge." The boundaries seem vague but Willie Caldwell (2015) further elaborates on such differences.
+
+Multidisciplinarity contrasts disciplinary perspectives in an additive manner, meaning two or more disciplines each provide their viewpoint on a problem from their perspectives. Multidisciplinarity involves little interaction across disciplines.
+
+Interdisciplinarity combines two or more disciplines to a new level of integration suggesting component boundaries start to break down. Interdisciplinarity is no longer a simple addition of parts but the recognition that each discipline can affect the research output of the other.
+
+Transdisciplinarity occurs when two or more discipline perspectives transcend each other to form a new holistic approach. The outcome will be completely different from what one would expect from the addition of the parts. Transdisciplinarity results in a type xenogenesis where output is created as a result of disciplines integrating to become something completely new (n.p.).
+
+The examination of the proper term to de!ne how interactive hybrid environments are created is relevant to this discussion since it summarizes the way we have been addressing the ontology and methodology employed in combining the many different !elds involved in such environments. When in 1992 the Association for Computing Machine (ACM) Special Interest Group on Computer-Human Interaction (SIGCHI) developed its curricula for Human-Computer Interaction, it saw the !eld as interdisciplinary.
+
+Because human-computer interaction studies a human and a machine in communication, it draws from supporting knowledge on both the machine and the human side. On the machine side, techniques in computer graphics, operating systems, programming languages, and development environments are relevant. On the human side, communication theory, graphic and industrial design disciplines, linguistics, social sciences, cognitive psychology, and human performance are relevant. And, of course, engineering and design methods are relevant (Hewett et al. 2009, n.p.).
+
+As a counterpoint to the understanding that HCI is an interdisciplinary !eld, Wania et al. (2007) introduce it as multidisciplinary, combining theories and practices from computer science, cognitive and behavioral psychology, anthropology, sociology, ergonomics, and industrial design. It is revealing that Wania et al. (2007) call HCI multidisciplinary, attesting that is a unique !eld with many different sub-communities or specializations. By drawing the parameters of HCI so broadly, theorists of the !eld attempt to prevent the design of such interactions from being divorced from the context and problems being addressed in the design (Hewett et al. 2009), yet it privileges some aspects while ignoring others in order to integrate its many domains. John M. Carroll (2003) critiques such attempts at broad scale integration in HCI in his analysis of the scienti!c fragmentation of the !eld:
+
+An ironic downside of the inclusive multidisciplinarity of HCI is fragmentation. This is in part due merely to the expansion of the !eld and its scienti!c foundations. In the 1980s, it was reasonable to expect HCI professionals, particularly researchers, to have a fairly comprehensive understanding of the concepts and methods in use. Today, it is far more challenging for individuals to attain that breadth of working knowledge. There are too many theories, too many methods, too many application domains, too many systems. Indeed, the problem of fragmentation may be a bit worse than it has to be. Some HCI researchers, faced with the huge intellectual scope of concepts and approaches, deliberately insulate themselves from some portion of the !eld's activity and knowledge. This tension between depth and breadth in scienti!c expertise is not unique to HCI, but it clearly undermines the opportunity for multidisciplinary progress (Carroll 2003, p. 6).
+
+The consequences of the fragmentation of HCI are sometimes most acutely observed in the !elds of neuroscience and arti!cial intelligence, where the same language is employed to de!ne and describe radically different elements and processes. The following text is an example of how a language of computer science is appropriated to describe biological phenomena in an attempt to connect the two !elds as if they share the same ontology and methodology. "According to the researchers, the new learning theory may lead to advanced, faster, deep-learning algorithms and other arti!cial-intelligence-based applications, and also suggests that we need to reevaluate our current treatments for disordered brain functionality. The brain learns completely differently than we've assumed, new learning theory says" (The Brain Learns Completely Differently than We've Assumed, New Learning Theory Says 2018, n.p.).
+
+Flattening the two !elds as if their essences are one is broadly parallel to how humans use the techniques of linear perspective to represent the three-dimensional world in a two-dimensional medium. The technique is a great solution for the problem of 3D representation but falls short of being a reproduction of reality. Such techniques are just attempts to create realistic representations of reality. This Renaissance technique has helped humans perceive the 3D world through more realistic 2D representation. It has also taught us to simplify reality and accept the absurdity of the distorted planes created with linear perspective.15 In the case of embodying digital technologies the absurdity lies on assuming that the digital can be the unique mediator of interactions. The dissonance continues with the subject matter of phenomena, which focuses on a dyadic human-computer relationship but ignores the depth and breadth of information. Søren Brier critiques the manner in
+
+<sup>15</sup>The techniques of atmospheric perspective, value pattern sizing and overlapping when employed with linear perspective help reduce the visual distortion it creates and consequently visually render more realistic representations of reality.
+
+which technological developments not only create extra layers of complexity but also affect communications and information.
+
+The scienti!c endeavor in the postmodern age is becoming increasingly complex and transdisciplinary. Researchers and practitioners within the !elds of the arts and natural, medical, and social sciences have been forced together by new developments in communication and knowledge technologies that broke the traditional limits of professional knowledge. They are further forced together by problems arising from the limitation of the kinds of knowledge that we have cherished so far. The shortcoming of traditional information and communication analysis based on data or information-"ow theories is raising fundamental problems with respect to the construction and organization of knowledge systems. New concepts of communication can help us understand and develop social systems such as selforganizing and self-producing networks, and we need a deeper understanding of the ethics and aesthetics foundational to the existence of these new systems. Instead of communication of information, we might speak of a jointly actualized meaning (Brier 2008, p. 20).
+
+A painter attempting to reproduce a landscape will spend time observing the environment and sketching what is seen in a much-simpli!ed form in order to establish the composition. In this research study I propose to simplify subject matter in HCI by focusing on the three main elements addressed in interactive hybrid environments, so they can be de!ned and isolated for ontological clari!cation. These three elements are the user, the interface and the information.
+
+#### **10.6 The Meta-Environment16**
+
+The communicability among these three elements (user, information and interface) reveals a complex adaptive system with many levels of exchange among them. I call this relationship the *meta-environment* since it involves the processes of storing, relating, inputting, and outputting information as well as the users' actions and the many elements of the interface, such as software and hardware. The meta-environment includes the relational processes of data (information), metadata, database, applications, user interaction, and information communication existent in the triadic relationship amongst user, information, and interface. In an attempt to sketch the subject matter of interactive hybrid environments and elaborate on its elements, the ontological use of the terms user, information and interface is introduced as following.
+
+#### (a) User
+
+Duchamp's Creative Act established the inclusion of the spectator in the artistic creation of meaning, which through the lens of Peirce's semiotics reveals the potential for a semiotic dance among object, representamen and interpretant with the possibility of in!nite exchanges among the artist, the artwork and the spectator. For Duchamp (1957) as well as for Ascott (2008), the artwork is only completed when the spectator is included in the process. Artist and spectator become, then,
+
+<sup>16</sup>The meta-environment concept was !rst introduced in Jacques 2012.
+
+co-creators of meaning and thus the terms artist and spectator seem inadequate to capture the potentiality of this co-creation process. Calling for a reconceptualization of terms due to the advent of digital technologies, Stephen Wright (2013) argues that "with the rise of networked culture, users have come to play a key role as producers of information, meaning and value, breaking down the long-standing opposition between consumption and production" (p. 1).
+
+Artists and art historians (Ascott, Lovejoy, Paul, Shanken, etc.) use the terms spectator, participant, viewer, audience and user almost interchangeably to describe the person experiencing an artwork, but such usage obscures the potential of co-creation in the production of meaning. These terms are associated with their ontological medium, often restricting the experience of co-creation. Spectator seems to be the most widely adopted term, yet it too falls short of adequately conveying the dynamic potentiality of co-creating Duchamp's coef!cient of art. In a discussion of the terms employed today to identify the people involved in the coef!cient of art and consequently the passive (consumption) and active (production) roles they play, Stephen Wright (2013) acknowledges that "spectatorship continues to enjoy almost self-evident status in conventional discourse as a necessary component of any plausible artworld" (p. 60). Yet he rejects the dominant ontology of spectatorship, arguing instead that contemporary art "practices seem to break with spectatorship altogether, to which they increasingly prefer the more extensive and inclusive notion of usership" (p. 60).
+
+The *Merriam-Webster Dictionary* de!nes *user* as: "one that uses." Assuming that the de!nition refers to one who uses something, the something used in this context is related to the interface as well as to the information. The term *user* is borrowed from HCI and computer sciences and embraced by User Interface Design (UI) and User Experience (UX) curricula, which are more appropriate foundations for the design of interactive hybrid environments. The concept of the user in UI and UX is further expanded by the semiotic view of the sign user, which re"ects "Peirce's de! nition of the sign [as] something that stands for something else in some capacity for *someone* (or some organism) [user]. It could never leave the user" (Cobley 2010, p. 11). The user is any and every person who experiences and relates to the information and interface in any of a variety of dynamic ways. This de!nition is more expansive than the passive recipient of information mediated by a computer, known in HCI and Computer Science as the end-user. It includes not only the person who interacts with the interface and passively consumes digital information (end-user) but also the one(s) originally producing the interface and information. From the perspective of Duchamp's coef!cient of art, *user* can refer to the passive end-user as well as the professionals developing and implementing information and interfaces, with the understanding that at a certain point the roles will change and exchange in the production of meaning—the semiotic dance.
+
+Ubiquitous computing has been continuously thinning the line between *passive* or *end-user* and active *front* and *back-users* (designers, programmers and professionals developing interfaces) through open source and server-based applications, apps and widgets. For example, a user might be a student researching an academic topic on the web, a client doing online banking, a !nancier managing someone's money, a designer developing a web interface, an educator implementing an online
+
+course, a computer programmer developing an application, a teenager hacking an I-phone app, and so forth. Cybernetics17 contributes the illuminating concept of structural coupling, which describes "recurrent interactions leading to the structural congruence between two (or more) systems" (Maturana and Varela 1992, p. 75). This concept reinforces the user's (artist-spectator) co-creation potential, which may be further considered an organism constituted in an autopoietic fashion and developing relationships of mutuality with the other elements of the metaenvironment (Guddemi 2000; Bopry 2007). The user, from both a semiotic and cybernetic perspective, actualizes the potential of the interface and information (Huhtamo 2007).
+
+#### (b) Information
+
+Today, the concept of information is somewhat like the child of divorced parents who is pressured to conform to the views of one parent at a time but never both at the same time. With the advent of digital technologies, this "child" has grown up enough to be its own entity, yet the parents' lack of communication among themselves still constrains its voice from standing on its own. In this analogy, the parents are human perceptions, on one hand, and technological processes, on the other. Each offers a fundamentally different view of information. This re"ects C. P. Snow's famous account of the divide between the two cultures of the sciences and the humanities. Despite the manner in which the advent of human-computer technologies and interactions have been closing this divide (Vesna 2011), information frequently appears to still be subject to a bitter custody dispute. Comprehending information as seen in the meta-environment requires that we look at communication processes through the lens of human beings, digital technologies and the exchange between human beings and digital technologies as systems. Semiotics, cybernetics and systems theories each address such processes but only through their individual lenses, which obscure as much as they reveal about the potential of such interactions.
+
+In 1948, when introducing cybernetics, Norbert Weiner (1965) de!ned digital information as zeros and ones transmitted by electromagnetic signals with in!nite options of decisions, communication and control. Later, Weiner (1954) advanced the.
+
+… thesis that the physical functioning of the living individual and the operation of some of the newer operation machines are precisely parallel in their analogous attempts to control entropy through feedback. Both of them have sensory receptors as one stage in their cycle of operation: that is, in both of them there exists a special apparatus for collecting information from the outer world at low energy levels, and for making it available in the operation of the individual or of the machine…In both of them, their performed action on the outer world, and not merely their intended action, is reported back to the central regulatory apparatus. This complex of behavior is ignored by the average man, and in particular does not play the role that it should in our habitual analysis of society; for just as individual physical responses may be seen from this point of view, so may the organic responses of society itself. I do not mean that the sociologist is unaware of the existence and complex nature of
+
+<sup>17</sup>Second-order cybernetics.
+
+communications in society, but until recently he has tended to overlook the extent to which they are the cement which binds its fabric together (p. 26–27).
+
+First-order cybernetics understands information as a statistical property of a particular message, but the message itself (what is exchanged and its meaning) is irrelevant to the theory (Vidales 2017). Wiener (1965) continues:
+
+One of the simplest, most unitary forms of information is the recording of choice between two equally probable simple alternatives, one or the other is bound to happen—a choice, for example, between heads and tails in the tossing of a coin. We shall call a single choice of this sort a decision. If we then ask for the amount of information in the perfectly precise measurement of a quantity known to lie between A and B, which may with uniform a priori probability lie anywhere in this range, we shall see that if we put A = 0 and B = 1, and represent the quantity in the binary scale (0 or 1), then the number of choices made and the consequent amount of information is in!nite (p. 61).
+
+Looking at information from a systems perspective, Claude Shannon (1949) added entropy to quantify information in any form of communication. "The concept of information applies not to the individual messages (as the concept of meaning would), but rather to the situation as a whole, the unit information indicating that in this situation one has a freedom of choice, in selecting a message, which it is convenient to regard as a standard or unit amount" (Shannon 1949, p. 100). Based on Weiner and Shannon's concepts of information, we can de!ne information in the meta-environment as that entropic transmission of data and metadata in binary format that generates communication as a whole. Metadata is not only the description of the content but also the description of the structure of the content. Of course, using an extra layer of information to describe information is not new. Footnotes, references, bibliographies, and key words are some of the extra layers of information that have been routinely found in academic texts since long before the birth of the digital age. The index organization in a book can be considered a meta-structure describing that content. In the context of this study, digital information refers to data and metadata—as meta-content and meta-structure—and also to the ways that data and metadata together re"ect digital information as a whole.
+
+Second-order cybernetics thoroughly addresses information from a human perspective: "Information is, of course, the process by which knowledge is acquired, and knowledge is the processes that integrate past and present experiences to form new activities, either as nervous activity internally perceived as thought and will, or externally perceivable as speech and movement" (Von Foerster 2003, pp. 200–201). The shift from "the science of observed systems" in cybernetics to "the science of observing systems" in second-order cybernetics (Von Foerster 2003, p. 298) adds living systems with the potential of autopoiesis, self-organization, and the emergence of meaning (Brier 2008) to the understanding of information. Different !elds approach information in different ways. In cybernetics, computer science, and natural sciences information is seen as "an objective, quantitative information concept and works with algorithmic models of perception, cognition, and communication. Semiotics, in contrast, is based in human language's meaningful communication and is phenomenological as well as dependent on a theory of meaning" (Brier 2008, p. 42).
+
+When 2nd Order cybernetics is complemented by the semiotic study of signs and language, information and communication evolve beyond being a description of human information processes because the observer is the one creating meaning (Guddemi 2000; Bopry 2007; Brier 2008; Vidales 2017). "We could add to Wiener's statement that (in itself) 'information is information, neither matter nor energy' that information is also not meaning until it has been interpreted by a living system" (Brier 2008, p. 76). The description of sign processes and entropic transmission of data and metadata in binary format allows for one understanding of information in the meta-environment. The creation of meaning is seen as separate from information since it relies on the user experience (observer) to emerge.
+
+#### (c) Interface
+
+According to the *Encyclopedia Britannica*, *interface* is described in physics as a "surface separating two phases of matter." As matter can only be applied to machines but not digital applications, the use of the term interface here re"ects a concept in computer science where it encompasses the physical machine—computer, cell phone, tablet, etc.— as well as the software, applications and processes utilized by these machines to facilitate the interaction between humans and information. This understanding of the term also re"ects how more and more the physicality of computers is being immediated (Bolter and Grusin 1999). In other words, as we embrace digital technologies, the computer-mediated interface has become more and more transparent to the user. "In this sense, a transparent interface would be one that erases itself, so that the user is no longer aware of confronting a medium, but instead stands in an immediate relationship to the contents of the medium" (Bolter and Grusin 1999, pp. 23–24).
+
+Pervasive computing, also called ubiquitous computing, is the growing trend of embedding computational capability (generally in the form of microprocessors) into everyday objects to make them effectively communicate and perform useful tasks in a way that minimizes the end user's need to interact with computers as computers. Pervasive computing devices are network-connected and constantly available (Rouse et al. 2016, n.p.).
+
+In this case, the interface, with its immediated components, becomes one unit with the task of mediating humans and information. The curriculum of interface design expresses such relationship by including the term user before interface in an attempt to more strictly de!ne their connection. Speaking to the understanding, emergent within the !eld of computer arts that a computer or any digital product does not function only as a medium. On the contrary, the digital machine "operates simultaneously as medium, tool and context, in addition to its organizational and interactive elements" (Lambert 2009, n.p.), Tidwell af!rms that
+
+[E]ach time someone uses an application, or any digital product, he carries on a conversation with the machine. It may be literal, as with a command line or phone menu, or tacit, like the "conversation" an artist has with her paints and canvas—the give and take between the craftsperson and the thing being built. With social software, it may even be a conversation by proxy. Whatever the case, the user interface mediates that conversation, helping users achieve whatever ends they had in mind (Tidwell 2013, p. 1).
+
+In attempting to interrogate and fully comprehend the elements in interactive hybrid environments, a cybersemiotic approach (Brier 2008) is used here, taking into consideration that a human, either the creator or participant in such an environment, carries the same weight in creating meaning as the other elements of such environments. In order for this to happen, information must be seen as a physical expressions of computer or human language, signs and symbols, which through feedback loops allow the communication (Guddemi 2000; Bopry 2007; Brier 2008; Vidales 2017) mediated by an interface to be established. Any sustained attempt to combine such hybrid elements reveals autopoietic systems structurally coupling and emerging within systems (Guddemi 2000; Bopry 2007; Brier 2008; Vidales 2017). The term meta-environment is here then introduced to express such strict relationship among user, information and interface with its in!nite potential. As Jennifer Tidwell (2013) observes:
+
+As the user interface designer, then, you get to script that conversation, or at least de!ne its terms. And if you're going to script a conversation, you should understand the human's side as well as possible. What are the user's motives and intentions? What "vocabulary" of words, icons, and gestures does the user expect to use? How can the application set expectations appropriately for the user? How do the user and the machine !nally end up communicating meaning to each other? (p. 1).
+
+The long-established segmentation of information has in fact restricted how we embrace interactive hybrid environments by either relating information to human perception or to interface processes. This study proposes meta-environment as a complex system that encompasses the triadic relationship, interactions and processes among user, information and interface and addresses the concerns posed by Søren Brier (2008):
+
+…whether the functionalistic and cybernetic research must be viewed as complementary to a phenomenological-hermeneutical-semiotic line of theorizing on signi!cation and meaning that ignores ontological questions outside culture, or whether these might be united within one paradigmatic framework through a revision of the ontological and epistemological foundations of both classical and modern sciences, as Peirce attempts (p. 37).
+
+Today, the term meta-environment is used in the !eld of computer science to describe "the interactive development environment for constructing language de! nitions and for generating and testing particular testing environments" (Klint 1991, p. 109). It refers to a series of processes and syntaxes that not only describe but also facilitate the exchange of information in complex information systems. I propose to expand the concept of meta-environment to include the relational processes of data/ information, metadata, database, applications, user interaction, and information communication existent in the triadic relationship among user, information, and interface. In practice, this concept implies the overall communicability among the different elements involved in the processes of storing, relating, inputting, and outputting information as well as the user's actions and the many elements of the interface, such as software and hardware.
+
+#### **10.7 Learning to Embody Digital Technology**
+
+To ground a critical interrogation of narratives of embodiment and the different mediation capabilities of the meta-environment requires another brief examination of recent history. Marshall McLuhan (1964) provided one starting point from which to understand how and why space-time perceptions need re-examination when he observed that "During the mechanical ages we had extended our bodies in space. Today, after more than a century of electric technology, we have extended our central nervous system itself in a global embrace, abolishing both space and time as far as our planet is concerned" (McLuhan 1964, p. 3). It is fascinating consider that in 1964, twenty years before Apple's !rst graphical interface computer, McLuhan believed that the future of new communications media and digital technologies would involve abolishing perceptions of space and time grounded in the embodied experience of the mechanical age. This is understandable as in 1964 embodied space-centric perceptions were inscribed and reinscribed by media and communications developments in photography, !lm, TV, radio, telephone, and so forth. Perceptions of time as linear and interval-based and the perceived qualities of these communications media (electric technologies) were qualitatively different from the Euclidian space-centric and cyclical time perceptions, and it seemed logical that new understandings needed to emerge.
+
+Interesting enough, even as we transition to the digital age, instead of negotiating new space-time understandings, we chose to *immediate*18 the experience by representing digital media through embodied narratives and by pretending that the media exhibit qualities identical to those of the physical world and the consciously embodied humans experience. Our need for embodiment restricts our perception of digital information to being physically constrained, linear in scope, and synchronous. In *The Language of New Media*, Lev Manovich (2002) de!nes some tendencies in digital information: numerical representation, modularity, automation, variability, and transcoding, which suggests that digital information is potentially omnipotent (not subject to physical limitations), omniscient (capable of knowing all things at once), and omnipresent (manifesting anywhere and at any time). These descriptions obviously depict a bodiless entity. We can even diverge here a moment to acknowledge the god-like qualities being attributed to a putative digital entity, reimagined as an almighty being that can navigate on a plane reserved for the sacred.
+
+Despite the profound implications of such attributions, information -with its vast possibilities— remains bound by the medium, whether human or machine, where sign-objects are seen as representing either brain or computer processes. It is dif! cult to disentangle information from embodiment, particularly for the human
+
+<sup>18</sup>The practice of attempting to make the medium transparent to the user is not new. According to Jay David Bolter and Richard Grusin (2000), immediacy is a "transparent interface [that] would (be one that) erases itself, so that the user is no longer aware of confronting a medium, but instead stands in an immediate relationship to the contents of that medium …the desire for immediacy itself has a history that is not easily overcome. At least since the Renaissance, it has been a de!ning feature of Western visual (and for that matter verbal) representation" (p. 24).
+
+observer who is intimately involved in bringing meaning to the exchange even as it is happening. This close proximity does not allow the observer to perceive form and details with maximum clarity (Merleau-Ponty 2015). But what if in our need to represent reality as we see it, we are too close to the subject matter to see the whole? Or just as in the use of linear perspective, introduced earlier to exemplify how in attempting to reproduce reality humans actually learned to see it in a distorted manner, our need for embodiment may be restricting the possibility of developing new paradigms of space and time representation.
+
+On January 24, 1984, Apple Computer introduced Macintosh,19 the !rst personal computer with graphical interface. This was an historic event because the advent of graphic interfaces freed the user from having to learn computer languages and codes and to think in terms of linear digital processes. In effect, this also released the user from being a conscious mediator in HCI. Even though this event can be considered a milestone in the development of digital computer interfaces, much of the research, hopes and expectations for digitally mediated technologies were already in full development at that time. Four years earlier, at the 7th ACM SIGGRAPH Conference proceedings, Richard Bolt described Nicholas Negroponte and the MIT Architecture Machine Group "Media Room"20 as "a physical facility where the user's terminal is literally a room into which one steps, rather than a desk-top CRT before which one is perched" (Bolt 2003, p. 434).
+
+The "Media Room" was an early attempt to address HCI issues and create an environment that was more intuitive and appealing for the user. Two decades later, Bolt's article was republished, this time with an introduction by Nick Montfort (Wardrip-Fruin and Montfort 2003). Montfort's introduction is revealing. It offers some clues on the reasons we have been interacting with computer interfaces as if they are physically embodied mediators of HCI experiences, and it unintentionally suggests a key point that we have been missing.
+
+Data is represented spatially on all graphic computers today, but it is almost always represented in two-dimensional space. The Media Room set up by Nicholas Negroponte at MIT's Architecture Machine Group, and described by Bolt's essay, was spatial in at least two ways. It used two-dimensional screens to provide a view into a simulated three dimensional-space. It also employed an arrangement of screens and speakers situated in the architectural space of the room. By creating an extravagant computing environment, *rather than doing more focused study of speci!c communications modalities considered separately*, researchers in the Architecture Machine Group were able to arrive at a surprisingly different, and extremely useful, concept of human-computer interaction, in which these two types of space are experienced by the user as one (Wardrip-Fruin and Montfort 2003, p. 233; emphasis added).
+
+In an attempt to create a more user-friendly interactive experience, Negroponte and the Architecture Machine Group decided to ignore the speci!c individual qualities
+
+<sup>19</sup>Source: The original TV advertisement for the !rst Apple Computer Macintosh (Apple 1984).
+
+<sup>20</sup>Led by Nicholas Negroponte, MIT – Massachusetts Institute of Technology Architecture Machine Group was an avant-garde research center for the study of human-computer interactions and is the precursor of today's MIT Media Lab. https://www.theverge.com/2012/5/24/3040959/ dataland-mits-70s-media-room-concept-that-in"uenced-the-mac
+
+of the different elements (communications modalities) in the Media Room while representing the HCI experience as if it were physically embodied via a simulated three-dimensional architecture. It was a brilliant solution at the time, but it left a legacy of conceptual and terminological confusion to describe the new layer of embodiment in HCI, which didn't necessarily exist, thus limiting the medium exclusively to its physical qualities.
+
+### **10.8 Semiotics of Embodiment**
+
+Apple's graphic interfaces and MIT's Media Room are examples of how we have learned to perceive the computer interface as an embodied mediator in HCI. Thirty- !ve years after Bolt's article, art and design practitioners working with digital interfaces as well as scholars addressing HCI and related !elds such as cybernetics, information theory, semiotics, and new media still rely primarily on physical narratives emphasizing embodiment to describe and represent the architecture of digital information environments and HCI. Apple, Microsoft, Adobe, Autodesk, Google, to name a few, have invested extensively to develop graphic user interfaces (GUI) and in the process have adopted a sign system of icons and terminologies, all referring to physical objects and qualities to represent the digital world. Again, the creation of a system of representation that relies heavily or even exclusively on the physical world to de!ne completely new actions, processes and perceptions introduced by digital technology has facilitated the development of human-computer interactions, yet as time has passed and new generations are born into the digital age, much of the commonly employed language begins to seem obsolete. Nevertheless, we keep introducing it the same way over and over again. Digital technologies appear to call on our bodies to position ourselves in the manner and relationship that best facilitates our perceiving and experiencing them (Merleau-Ponty 1978).
+
+The history of personal computers and GUI and the attendant terminologies consistently re"ect symbolic representations of the physical world. Terms such as desktop computer or laptop computer refer to a physicality that is speci!c to the human body in the physical world. Almost thirty years ago, when I started to teach graphic design applications such as Adobe (formerly Aldus) PageMaker,21 it made sense to employ certain speci!c terms to describe the interfaces since they attempted to mimic a designer or draftsperson's working table with a tool box on the left, letterset types on the top of the table, the pasteboard area around the document, and color palettes to mix colors. These terms allowed a much easier transition from the physical world to the digital world, but today, when introducing graphic design to students, these same terms seem obsolete, as they do not represent anything for the new apprentices in the !eld.
+
+<sup>21</sup> Initially developed by Aldus in 1985 (Fox 2015) and later (2004–2005) bought by Adobe Systems, PageMaker was a desktop publishing application introduced with Apple Macintosh computers. Today Adobe PageMaker is superseded by Adobe InDesign.
+
+The evolution of the graphic interface has been accompanying the advent of digital environments. We can observe such evolution through the lens of Peirce's semiotic sign objects and an analysis of how our human need to embody the world through signs affects our embracing of the digital world from icons, to indexes, to symbols.
+
+One very important triad is this: it has been found that there are three kinds of signs which are all indispensable in all reasoning; the !rst is the diagrammatic sign or icon, which exhibits a similarity or analogy to the subject of discourse; the second is the index, which like a pronoun demonstrative or relative, forces the attention to the particular object intended without describing it; the third is the general name or description which signi!es its object by means of an association of ideas or habitual connection between the name and the character signi!ed (Peirce 1991, p. 181).
+
+In the initial need for embodiment, these signs may have the same likeness as the physical world, imitating in form and purpose what they stand for. For example, the term *leading*, which refers to a metal bar made of lead used to separate the lines of text in hot type press printing,22 can be said to initially be a sign-icon as the word refers to and resembles the metal used. In the sixties, even though hot presses were already in decline in favor of cold type presses,23 the term *leading* was still used to reference the physical object. As the hot and cold type press processes gave way to digital processes, the term became a sign-index, a synonym of separating lines of text. Today most people only know the sign-symbol for leading as the space between lines. The context changed, and so did the observer, who now can't !nd the same meaning in these sign objects. A parallel conversation can be added about the semiotics of emoticons but that would detour from the aim of this discussion, which attempts to highlight the choices to describe and communicate the digital world and experiences.
+
+In Amazon Echo voice service, Alexa, the system is embodied as a female server de!ning how it is potentially used. The female servant of the master's desires impinges on social-political-cultural issues that are deeply ingrained in our society and full of implication for feminist or cultural studies investigation, although this is not the purpose or approach of this discussion. In Alexa's case, the disembodied gadget, embodied as a female servant, at !rst glance may seem to be a clever marketing ploy, but in reality, such embodiment reinforces social and cultural representational norms dif!cult to ignore or detach from. Much of the terminology employed in the digital world correlates closely with the physical world, yet the original reasons for such terminology are slowly fading away with the rapid development of digital technologies. As these new technologies continue to permeate our everyday
+
+<sup>22</sup>Hot type press is a somewhat obsolete printing press process where the type setting composition is made of metal melted into type molds where the text is composed manually, character by character. In the late 1800, the Linotype machine, a line by line metal press, was introduced revolutionizing the newspaper industry (Roberts 1980).
+
+<sup>23</sup>Cold type presses appeared in 1960s and are of!cially known as phototypesetting. There is a great movie from the era introducing the new system to the press labors. https://vimeo. com/127605644
+
+lives, they strengthen the relationship and interaction among user, information, and interface and expand the mediation capabilities of the meta-environment. At the same time, its interaction with the physical world, objects or actions diminishes or ceases to exist, giving rise to new challenges and opportunities to reconceptualize how we represent the digital realm.
+
+It is interesting to realize that the user's presumptive need for a language and aesthetics of physicality (Heidegger 2010; Merleau-Ponty 2015) dictates processes and perceptions that reinforce the space-time continuum representational paradigm which is limiting and linear in scope, restricting information's potential and preventing a more balanced integration among user, information, and interface. How we embodied space and time in the past and are experiencing them today are shaped by the technologies around us and expressed in the aesthetic creations that emerge from such experiences. When, in the sixteenth century, Giorgio Vasari documented Leonardo da Vinci's technological advances in aerial perspective, foreshortening, and use of light and darks to create volume and depth, he was contextualizing the employment of new technologies and highlighting the new aesthetic experiences that artists were promoting (Vasari 1998). Da Vinci's artworks maximized the potential of the technologies of his time and, along with some of his peers, helped change how humans perceive space and their sense of self in it. Since the Renaissance, naturalistic representations of space have been the norm, and, such representations advanced quickly with the advent of the mechanical age and the many news tools and innovations brought to bear in artistic creation, leading to changes in human consciousness regarding aesthetic perceptions of space and time and the self in relation to space and time.
+
+### **10.9 Space and Time Aesthetics**
+
+The creation of aesthetic structures and experiences that emphasize space allow the artist to communicate our embodied perception of the world. The creation of aesthetic structures and experiences that emphasize time allow the artist to navigate the changes we actually perceive in the digital age. Over human history, we have learned to perceive space and time differently. Eastern and ancient indigenous cultures relied on the knowledge of nature to guide their aesthetic understanding of space and time. In Zen teachings, space may be empty but at the same time carry the potential for entropy and as such for life and death (empty again) (Shlain 2007). The Japanese principle of Notan, which is "the interaction between positive (light) and negative (dark) space," offers the potential of balance and harmony. The Chinese symbol Yin-Yang embodies the principle of Notan. The opposing forces "that have equal and inseparable reality" (Bothwell and May!eld 1991, p. 6), suggesting that space is in!nite and so is time. Variations of the Egyptian or Greek symbol *Ouroboros* (a serpent swallowing its own tail) can be found in different Eastern and indigenous civilizations to represent in!nite time. In Aztec culture, the circle apparent in *Ouroboros* reinforces the whole and represents the in!nite cycles of life; the return of the seasons, of the sun, of the "owers and fruits; time without beginning or end, sustained by the balance between the all and nothingness.
+
+Initially, in the ancient Greek civilization, time and space were entangled with the gods, existing in non-linear time in a space without earthly boundaries, yet sharing the essence of the Ouroboros. "Aristotle straightened out the arabesque shape of time [by demythologizing] the Three Daughters of Necessity. These three Fates were Lachesis, who guarded what had been, Clotho, who guarded what is, and Atropos who oversaw what is yet to come" (Shlain 2007, p. 32). In doing so, Aristotle straightened the circle of time, giving the sequence of past, present, and future. Giving birth to geometry, "Euclid organized space by connecting it through an imaginary web of straight lines that in fact do not exist in nature" (Shlain 2007, p. 31). Euclid's geometric straight lines coupled with Aristotle's arrow of time shifted the original notion of atemporal and boundless space to the understanding of space represented on one plane and with time movement in one direction. The new geometric space and linear time aesthetics of the ancient Greeks were re"ected in their sculptures, architecture, and proportional forms. Euclidean points in space instigated the all or nothing duality embraced by Christianity.
+
+Early in the history of Christianity, Saint Augustine brought God into the perception of space and time. Space was no longer measured but instead split between heaven and hell. Time lost its linearity as it became God's divine and eternal events supported by Genesis and Judgment Day. Human events ceased to be relevant. Pagan artworks were destroyed along with books and knowledge of earthly events. Illiteracy called for simpli!ed images to tell Jesus' story on earth and the story of heaven and hell. This new aesthetic of time and space gave rise to segmented pieces that only have meaning when experienced in their totality. Tapestries, mosaics, and triptych paintings re"ected this segmentation of space, which became re"ected in the socio-political hierarchies of the feudal system. The Dark Ages (A.D. 400 to A.D. 1250) utilized art to represent the divine, tell its story, and de!ne its understanding of time. The science of the ancient world was replaced by a theological system of belief (Shlain 1991; Heelan 1988).
+
+The vacuum created in Medieval times instigated a need to rediscover the knowledge of the ancient Greeks, giving way to "Renaissance artists [like] Giotto di Bondone (1276–1337), Alberti (1404–1472), and Leonardo da Vinci (1452–1519) rediscovering the science of pictorial perspective and predictive measurement of space that ultimately enable Copernicus (1473–1543) to correctly identify the center of the solar system" (Shlain in Mauldin 2011, n.p.). Space and time became again linear, converging in the horizon and on to death. The technologies introduced in the Renaissance changed human perception, the artist unique point of view became the divine, freezing time on a canvas, wall, and ceiling. Linear perspective, use of value scale to portrait volume, added a third dimension of space, depth.
+
+In the nineteenth century Manet (1932–1883) and Cezanne (1839–1906) begin to "atten pictorial space and deny the use of a single viewpoint and mathematical perspective (a stylistic standard for centuries). Their stylistic achievements lead Georges Braque (1882–1963) and Pablo Picasso (1881–1973) to develop cubism representing completely fractured space and time and perspective. Physicists exploring non-Euclidean space and
+
+Einstein's (1879–1955) development of his theory of relativity (and proof of physical impossibility of a single viewpoint of space) follow these great changes in traditional use of pictorial space. Not that any particular physicist studied the paintings of Giotto, Cezanne or Picasso, but that the painting styles of these artists provide a visual representation of developments in theoretical physics (Shlain in Mauldin 2011, n.p.)
+
+The advent of the mechanical age gave rise to enhanced aesthetic perceptions of space and time intrinsically connected along a continuum and represented by linear perspective positioning the viewer as an observer outside the frame and experiencing one speci!c moment in time. Our sense of episodic memory expanded through the mnemonic aid of the space-time continuum and developing media and communications such as photography, !lm, TV, radio, and the telephone. When in 1964 McLuhan wrote of "a global embrace, abolishing both space and time" (McLuhan 1964, p. 3), human computer interactions were not yet mediated by graphic user interfaces. Thus, McLuhan's notion of abolishing both space and time re"ected the raw qualities of the digital medium as nonembodied, atemporal bits. My own research suggests that abolition of space and time is closer to a futuristic fantasy. A more grounded, defensible, and productive formulation is found in Thomas Kuhn's (1970) notion of a paradigm shift. The developing technologies of the digital age are underpinning a transformative shift in human perceptions and aesthetic representations of space and time. The development of GUI (Graphic User Interface) was somewhat paradoxically—accompanied by narratives of physicality and embodiment that McLuhan had not foreseen. Decades before McLuhan's bold prophecy, Henri Bergson approached the question this way:
+
+If you abolish my consciousness … matter resolves itself into numberless vibrations, all linked together in uninterrupted continuity, all bound up with each other, and traveling in every direction like shivers. In short, try !rst to connect together the discontinuous objects of daily experience; then, resolve the motionless continuity of these qualities into vibrations, which are moving in place; !nally, attach yourself to these movements, by freeing yourself from the divisible space that underlies them in order to consider only their mobility – this undivided act that your consciousness grasps in the movement that you yourself execute. You will obtain a vision of matter that is perhaps fatiguing for your imagination, but pure and stripped of what the requirements of life make you add to it in external perception. Reestablish now my consciousness, and with it, the requirements of life: farther and farther, and by crossing over each time enormous periods of the internal history of things, quasi-instantaneous views are going to be taken, views this time pictorial, of which the most vivid colors condense an in!nity of repetitions and elementary changes. In just the same way the thousands of successive positions of a runner are contracted into one sole symbolic attitude, which our eye perceives, which art reproduces, and which becomes for everyone the image of a man who runs (Bergson 1994, pp. 208–209).
+
+Bergson and McLuhan mark different moments within the larger context of a shift in representational paradigms and also different methodological emphases. McLuhan emphasized the transformative role of communications media in themselves, whereas Bergson focused on the centrality of human consciousness, which is to say that he proceeded from a phenomenological-hermeneutic perspective.
+
+#### **10.10 Combining Perceptions and Processes**
+
+Examining technological change in an earlier era of human history, Wolfgang Schivelbusch (2014) describes how the advent of the railroad changed the way humans perceive time and space. "Annihilation of time and space was the *topos* which the early nineteenth century used to describe the new situation into which the railroad placed natural space after depriving it of its hitherto absolute powers. Motion was no longer dependent on the conditions of natural space, but on mechanical power that created its own new spatiality" (Schivelbusch 2014, p.10). Schivelbusch's theory is based on what was once the radically new experience of connecting two cities through a train ride. As people began to travel from one point to another at much higher speeds than by earlier means of transportation, the time they spent in travel diminished quantitatively. And as more areas were incorporated along the track line, people also had quantitatively expanded access to towns and cities previously inaccessible. The impact on human consciousness was that, through the expansion of access, "Space [was] killed by the railways," (Schivelbusch 2014, p. 37) leaving only time. Traveling had become little more than a subjective experience, reduced to the perception of the time spent between departure and arrival. This contradiction between expanding access to new spaces and diminishing the time spent between two points transformed perceptions of the time-space continuum.
+
+Examining digital technological innovation, Paul Virilio (1995) suggests that we may be experiencing a new and very different annihilation: the destruction of human interaction. He argues that the advent of the cyber world is distracting our perceptions and alienating us from one another. Virilio believes that, because of digital technological tools, authentic perception is lost, leaving only a fundamental disorientation (Virilio 1995), a physical state of numbness, as human interaction ceases to occur, even with ourselves. Virilio's rationale is that easy access to electronic devices and technological tools from cell phones to virtual reality interfaces may be amplifying our interaction with the various media, but concurrently diminishing our interactions with ourselves and others. Means of electronic communication are getting faster and cheaper, allowing us to isolate ourselves from reality. Instead of being in the here and now, we are each in our own isolated world, with our phones, headphones, computers, and e-books, attempting to relate to something, but not necessarily to ourselves or anybody in particular. This phenomenon represents an expansion of technological interaction but an annihilation of human interaction.
+
+Ascott has long argued that computers already mediate human interactions and that this is the stark reality we must confront. In an article entitled "The Architecture of Cyberperception" (Ascott 2007), he described how human perception was being transformed by the advent of information technologies and the internet, especially the in"uence of cybernetics feedback processes. Ordinary perception, "... the awareness of the elements of the environment through physical sensation, [was becoming] computer-mediated and computer enhanced" (Ascott 2007, p. 320). Ascott's concept of cyberperception may have seemed futuristic and utopian in 1994, but in
+
+2019 it is commonly accepted that our perception of reality is indeed thoroughly integrated with the computer world, totally mediated by computer and information technologies. The question artists must confront is how best to effect a balance between mind and matter, how to call attention to the enormous positive potential in the use of technological tools to generate and enhance human interaction.
+
+In the previous sections, the experience and practice of embodiment in the metaenvironment were introduced, highlighting the dissimilarities among user, information, and interface and the knowledge that it is the user who actualizes the interactions in the meta-environment. As a system, the syncretic interactions among the elements in the meta-environment experience structural coupling, yet it is "the role of the individual interpreter [user] that grounds both semiotics and second-order cybernetics in the phenomenology of experience" (Bopry 2007, p. 35). Constrained in the humanities/art and science divide, which was exposed by C. P. Snow in *The Two Cultures and the Scienti!c Revolution* (1959), it is almost impossible to break this divide without re-thinking how we address human users, information, and interface. In his search for a generative and integrative framework, Paul Cobley asserts,. "Cybersemiotics is a truly transdisciplinary project. It is not so much that it crisscrosses the sciences and the humanities and invokes knowledge from both (although it does do that), but rather it is transdisciplinary because it explores, through expertise in philosophy of science, concepts which have a purchase right across nature and culture" (Cobley 2010, p. 2045).
+
+In the implementation of web interfaces, information is translated to the user through a design environment that assumes embodiment. In this case, the user's need for physicality appears to dictate processes and perceptions that are limiting and linear in scope, restricting information's potential, and consequently the need arises for a more balanced integration among the elements in the meta-environment: user, information, and interface. Analyzing the meta-environment's triadic relationship through the lens of cybersemiotic reveals as a complex adaptive system, leading to a multitude of interacting elements that can possibly expand space-time perceptions and facilitate the conversion of information into knowledge. When we rethink how the elements of the meta-environment relate to each other and their representational properties of space and time, we start seeing the implications that these elements have on each other and on our human understanding of consciousness.
+
+### **10.11 The Cybersemiotic Framework**
+
+Through HCI it is a challenge to determine how to address the different facets of interactive hybrid environments and simultaneously embrace their complexity and potential to promote qualia without an integrative framework. The terms human-computer interaction (HCI), user interface (UI), user experience (UX), and graphic user interface (GUI) are commonly used to describe and de!ne interactive hybrid environments. Ontologically, these terms describe the elements and properties of humans interacting with physical interfaces that mediate digital information, yet they all have an exclusively dyadic human-machine focus wherein information is either conceived as human cognitive perception or as a logical process. Søren Brier elaborates on this divide:
+
+Science is still faced with the problem of meaning. The background of cybersemiotics is the recognition that Western philosophy of science is in a state of crisis. Western culture is at a turning point when it comes to taking the !nal step into a knowledge culture based on information and communication technology. Rather than basing our culture on the conception that the highest goal of knowledge is an abstract, non-embodied and globally available (arti!cial, impersonal) intelligence of information programs, I believe that we should ground our culture(s) on embodied human living (personal as well as interpersonal), i.e. on semiotic intelligence as part of both living nature and human culture, rather than only on the physical science and the worldview behind it.
+
+The current dominant objectivist science, which to me includes physicalism, eliminative materialism, cognitive sciences based on the information processing paradigm, cannot encompass self-aware consciousness and social-communicative meaning as causal agents in nature. Current cognitive science attempts to explain human communication from the outside without recognizing the phenomenological and hermeneutical aspects of existence. Its conception of human (meaningful) language and communication as a sort of culturally developed program for social information processing between computational brains/ minds cannot explain the evolution of embodied consciousness and (meaningful) human language and communication (Brier 2013, p. 222).
+
+While researching potential frameworks to integrate perceptions and processes, I resonated with the statement that cybersemiotics provides: "a transdisciplinary theory of Information, Cognition, Meaning, Communication and Consciousness that integrates Cybernetics and Peircean Semiotic paradigms in a common framework" (Brier 2008, p. 20). Insights from cybersemiotics enabled me to highlight the cognitive dissonance between human perception and interactive hybrid environment to examine and accord equal weight to interactive hybrid environments, in general, and to the elements of the meta-environment in particular.
+
+All the ontological attempts to create objective concepts of information result in concepts that cannot encompass meaning and experience of embodied living and social systems. There is no conclusive evidence that the core of reality across nature, culture, life and mind is purely either mathematical, logical or of a computational nature. Therefore, the core of the information concept should not be based only on pure logical or mathematical rationality. We need to include interpretation, signi!cation and meaning construction in our transdisciplinary framework for information as a basic aspect of reality alongside the physical, chemical and molecular biological (Brier 2015, p. 1).
+
+Brier's explanation enables my understanding that humans are a complex adaptive system and anything that involves or is involved with humans becomes an integral part of this system. This statement can be translated into practice by taking into consideration that, when dealing with dynamic interactive hybrid environments, the manner in which we perceive the information or relate to the interface can be signi!cantly affected by such subjective factors as a headache, excessive noise, a feeling such as anger, the type size of text (if one is reading), the amount of light in the environment, and so forth. Failure to comprehend that humans are essentially a dynamic complex and adaptive system has limited the full understanding of our existence and exchanges with the world.
+
+#### **10.12 An Integrative Framework**
+
+Earlier in this chapter the idea that the primary motivation of the artist and the artobject is to connect with the audience was introduced, thereby engendering interaction and communication among artist, artwork, and audience (Ascott 2007). This idea draws on Duchamp's notions of the role of interaction in art and also helps support an interpretive stance on the artwork emphasizing relativity and change (Shanken 2007). This stance refocuses representation from static to dynamic and acknowledges the manner in which form gives life to meaning through the artist's and spectator's individual perceptions and consciousness (qualia). Ascott's call to integrate the user-creator with the user-spectator in interactive artworks derived from the need he sees of applying second-order cybernetics to such art practices. De!ned as "the study of the control and communication of complex systems, whether they are living organisms, machines or organizations, paying special attention to feedback as the main way of regulation" (Díaz Nafría 2009, n.p), !rst-order cybernetics allowed the integration of processes between humans and machines and consequently might have seemed the appropriate framework to study HCI. Initially concerned with observing the feedback processes that self-regulate and control the system, cybernetics evolved into second-order cybernetics in order to include the observer in the system. Elaborating on the differences between !rst and second order cybernetics, J. M. Díaz Nafría interprets Heinz von Foerster pointing out that !rst-order cybernetics questions "What and how are the mechanisms of feedback of the studied system?" whereas the second-order questions "How are we able to control, maintain and generate this system through feedback?" (Díaz Nafría 2009, n.p.).
+
+When developing interactive hybrid environments, the concepts employed by the discipline of user interface design (UI) attempts to address Brier's concerns with !rst- and second-order cybernetics. A simple detail such as where a button to apply a change in the system is placed can be a continuation of the feedback processes or a break in the communication. Unfortunately, when a break happens, the user experience gets compromised since the process is broken and communication ceases. At this point, we need to take into consideration that the user exchange with the system and with information happens on an objective level (informational) as well as a subjective level (phenomenological) (Brier 2008, 2011). This exchange—and consequently the information that is created—has the potential to be more than the amount of disorder or randomness in a system (entropy) as seen in cybernetics. Information can be perceived as meaning when "organized into something recognizable and useable (words, symbols, gesture, etc.)" (Danesi 2011, p. 312).
+
+[Cybersemiotics] uses meaning as the overarching principle for grasping the complex area of cybernetic information science for nature and machines AND the semiotics of all living systems' cognition, communication, and culture. Cybersemiotics is an integrated transdisciplinary philosophy of science allowing us to perform our multidisciplinary research, since it is concerned not only with cybernetics and Peircean semiotics, but also with informational, biological, psychological and social sciences (Brier 2013, p. 222).
+
+The cybersemiotic framework allows the analysis of the elements of the metaenvironment both individually and as a holistic system as it understands that information is not just "objective data, [since it needs] a context and a living system's interpretation to yield meaning" (Garcia 2013, p. 34). Nicholas Lambert reminds us that for computer arts, the computer has a broader function than simply being a medium. It "operates simultaneously as medium, tool and context, in addition to its organizational and interactive elements" (Lambert 2009, n.p.), opening the possibility that when examining interactive hybrid environments and the elements of the meta-environment, it may be discerned that the interface is not the only element mediating the interactions, that in fact human users and information mediate as well and meaning arises beyond data, beyond the exchange. This understanding reveals a complex adaptive system, which can only be fully comprehended through the integrative lens of cybersemiotics.
+
+#### **10.13 Mediated Properties**
+
+Cybersemiotics enables the understanding that the three elements in the metaenvironment –user, information, interface– are part of a complex adaptive system and need to be equally balanced and analyzed, by factoring in the user's essential in"uence in the system and by considering the manner in which information functions as both human perception and logical process. Broadly speaking, cybersemiotics seeks to close the gap between art and science through combining the four approaches below:
+
+- 1. A physico-chemical scienti!c paradigm based on third person objective empirical truth and mathematical theory but with no conceptions of experiential life, meaning and !rst person, embodied consciousness and therefore meaningful linguistic intersubjectivity.
+- 2. A biological and natural historical science approach understood as the combination of genetic evolutionary theory with an ecological and thermodynamic view based on the evolution of experiential living systems as the ground fact, engaged in a search for empirical truth, but with no theory of meaning and !rst person embodied consciousness and thereby linguistic meaningful intersubjectivity.
+- 3. A linguistic-cultural-social structuralist constructivism that sees all knowledge as constructions of meaning produced by the intersubjective web of language, cultural mentality and power, but with no concept of empirical truth, life, evolution, ecology and a very weak concept of subjective embodied !rst person consciousness, but taking conscious intersubjective communication and knowledge processes as the basic fact to study (the linguistic turn).
+- 4. A phenomenological (Husserl) or actually phaneroscopic (Peirce) !rst person point of view taking conscious meaningful experiences before any distinction between subject and object as the ground fact, on which all meaningful knowledge is based, considering all result of the sciences including linguistics and
+
+embodiment of consciousness as secondary knowledge. This includes an intersubjective base in that Peirce considers all knowledge as intersubjectively produced through signs only emotions are Firstness (Brier 2011, n.p.).
+
+Thus, from a design perspective, I propose we rethink the mediation capabilities of the elements in the meta-environment and their space-time and/or physicaldigital characteristics based on Brier's cybersemiotic framework, which allows for the following analytical categories and correspondent mediation capabilities, as seen in Fig. 10.6. In this analysis, the meta-environment is seen as a closed system24 with three distinctive interactive elements, and individually each element has many distinctive interactive parts. As such, it can be regarded as a dynamic complex system, where the in"uence of the individual elements on the system as a whole is greater than the sum of these elements (nonlinearity) and affects the system's predicted stability (chaos) (Gershenson and Heylighen 2005).
+
+#### 1. Physico-chemical focus:
+
+Spatiality – Refers to how the element occupies the space, physical matter or digital bits.
+
+Temporality – Distinction between temporal and atemporal qualities.
+
 2. Biological and natural historical science focus:
-   Life/Living System – Essence: The element’s core structure, matter (atoms)
-or bits.
+
+Life/Living System – Essence: The element's core structure, matter (atoms) or bits.
+
 3. Linguistic-cultural-social structuralist constructivism focus:
-    Sense/Meaning – Sign Processes: Relate to subjective or objective sign interpre-
-tation and meaning creation.
-4. Qualia: Phenomenological – phaneroscopic first-person point of view focus:
-   Embodied Cognition – The process of meaning creation from “one mental space
-to another” (Brier 2008, p. 303).
-5. Focus on the complexity of elements – user, information, interface – in relation-
-   ship to the whole system.
-   Dynamic Complexity – Distinction between predictable/linear dynamics and
-chaotic/nonlinear dynamics.
-      A common characteristic of models of complex systems is that they are nonlinear. This means
-      that the elements of a system interact in ways that are more complex than additions and sub-
-      tractions. In a linear system, we just add the properties of the elements, and we can deduce
-      and predict the behavior of the system. Nevertheless, when there are many interactions, and
-      these are nonlinear, small differences multiply overtime, yielding often chaos and unpredict-
-      ability. In a nonlinear system, causes are not directly proportional to their effects. Big changes
-      can have little or no effect, while small changes can have drastic consequences. This makes
-      complex systems to be not completely predictable. (Gershenson and Heylighen 2005, n.p.)
 
+Sense/Meaning – Sign Processes: Relate to subjective or objective sign interpretation and meaning creation.
 
-24
-     Meaning without exchange of matter.
-10   Human-Computer Interaction Design and the Cybersemiotic Experience                     275
+4. Qualia: Phenomenological – phaneroscopic !rst-person point of view focus:
 
+Embodied Cognition – The process of meaning creation from "one mental space to another" (Brier 2008, p. 303).
 
+5. Focus on the complexity of elements – user, information, interface – in relationship to the whole system.
 
+Dynamic Complexity – Distinction between predictable/linear dynamics and chaotic/nonlinear dynamics.
 
-Fig. 10.7 Mediation capabilities of the elements in the meta-environment and their characteris-
-tics. Source: Jacques, 2016, p. 69
+A common characteristic of models of complex systems is that they are nonlinear. This means that the elements of a system interact in ways that are more complex than additions and subtractions. In a linear system, we just add the properties of the elements, and we can deduce and predict the behavior of the system. Nevertheless, when there are many interactions, and these are nonlinear, small differences multiply overtime, yielding often chaos and unpredictability. In a nonlinear system, causes are not directly proportional to their effects. Big changes can have little or no effect, while small changes can have drastic consequences. This makes complex systems to be not completely predictable. (Gershenson and Heylighen 2005, n.p.)
 
-(Figure 10.7) shows the mediation capabilities of the elements of the meta-
-environment according to the categories presented above. It reveals that even though
-we have been relying on the interface as the sole mediator of spatiality, essence,
-embodied cognition, and temporality to promote human knowledge, information
-also mediates sign processes that convey cognitive meaning to embodied living
-beings (subjective) or binary codes (objective). In a similar manner, only the user
-can mediate dynamic experiential complexity, as it is the only element that presents
-predictable and linear dynamics as well as nonlinear dynamics.
+<sup>24</sup>Meaning without exchange of matter.
 
+| Categories/<br>Elements | User               | Information            | Interface              |
+|-------------------------|--------------------|------------------------|------------------------|
+| Spatiality              | Physical           | Digital                | Physical + Digital     |
+| Temporality             | Temporal           | Atemporal              | Temporal + Atemporal   |
+| Essence                 | Atoms              | Bits                   | Atoms + Bits           |
+| Sign Processes          | Subjective         | Objective + Subjective | Objective              |
+| Embodied<br>Cognition   | Embodied           | Disembodied            | Embodied + Disembodied |
+| Dynamic<br>Complexity   | Linear + Nonlinear | Nonlinear              | Linear                 |
 
+**Fig. 10.7** Mediation capabilities of the elements in the meta-environment and their characteristics. Source: Jacques, 2016, p. 69
 
-10.14 The Cybersemiotic Experience25
+(Figure 10.7) shows the mediation capabilities of the elements of the metaenvironment according to the categories presented above. It reveals that even though we have been relying on the interface as the sole mediator of spatiality, essence, embodied cognition, and temporality to promote human knowledge, information also mediates sign processes that convey cognitive meaning to embodied living beings (subjective) or binary codes (objective). In a similar manner, only the user can mediate dynamic experiential complexity, as it is the only element that presents predictable and linear dynamics as well as nonlinear dynamics.
 
-In exploring the mediation capabilities of these elements in Fig. 10.6, I started to
-look at the meta-environment with the new understanding that to expand conscious-
-ness within interactive hybrid environments, it is necessary to ensure that user and
-information are also being seen as mediators in the system. It also became apparent
-that the context26 surrounding the three core elements should also be accounted for
-as a fourth element influencing the meta-environment. The context can be described
-as external circumstances influencing user, information, and interface that are not
-regulated by them. Examples of context in interactive hybrid environments include
-lighting, temperature, background noise, and type of space. Integrating the four ele-
-ments in the meta-environment —user, information, interface, and context— allows
-for the expansion of consciousness as the Cybersemiotic Experience (Jacques 2016)
+## **10.14 The Cybersemiotic Experience25**
 
-25
-  An earlier version of this text can be found in Jacques, 2016.
-26
-  The Oxford Dictionaries online define context as: “The circumstances that form the setting for
-an event, statement, or idea, and in terms of which it can be fully understood and assessed”
-(Context 2016).
-276                                                                                C. Jacques
+In exploring the mediation capabilities of these elements in Fig. 10.6, I started to look at the meta-environment with the new understanding that to expand consciousness within interactive hybrid environments, it is necessary to ensure that user and information are also being seen as mediators in the system. It also became apparent that the context26 surrounding the three core elements should also be accounted for as a fourth element in"uencing the meta-environment. The context can be described as external circumstances in"uencing user, information, and interface that are not regulated by them. Examples of context in interactive hybrid environments include lighting, temperature, background noise, and type of space. Integrating the four elements in the meta-environment —user, information, interface, and context— allows for the expansion of consciousness as the Cybersemiotic Experience (Jacques 2016)
 
+<sup>25</sup>An earlier version of this text can be found in Jacques, 2016.
 
-of the Meta-Environment. This occurs simultaneously from outside, as active obser-
-vation with some control over the intended object of observation (linear dynamics),
-and from inside, as the user participating in and constituting part of a whole. In the
-latter case, the user has little control over how interpretation, signification, and
-meaning are constructed or how his or hers physical, chemical, and biological
-nature influence and are influenced by the interaction process (non-linear dynamics).
-    As a visual artist, I think the best way to explain and illustrate how this paradigm
-shift might change the way we perceive and relate to the meta-environment is by
-exploring a three-dimensional representation of the cybersemiotic star with the
-understanding that the arms of the star represent the four aspects (natural, biologi-
-cal, phenomenological, semiotic) that ground the cybersemiotic framework united
-in the center by the integration of human knowledge and consciousness. The
-Cybersemiotic Experience can be represented by a three-dimensional tetrahedron
-(see Fig. 10.8) where each side of the figure represents one facet of the cybersemi-
-otic star. This tetrahedron is an adaptive and dynamic self-regulating structure (see
-Fig. 10.9) that constantly experiences entropic changes in each of its four facets and
-is in constant change, becoming more or less pointy, expanding or reducing its sides
-in order to maintain its original structure (see Fig. 10.10).
-    Artistic and HCI practices not only rely on but also call for the Cybersemiotic
-Experience. When in 1967, Nelson Goodman founded Project Zero at Harvard’s
+<sup>26</sup>The Oxford Dictionaries online de!ne context as: "The circumstances that form the setting for an event, statement, or idea, and in terms of which it can be fully understood and assessed" (Context 2016).
 
+of the Meta-Environment. This occurs simultaneously from outside, as active observation with some control over the intended object of observation (linear dynamics), and from inside, as the user participating in and constituting part of a whole. In the latter case, the user has little control over how interpretation, signi!cation, and meaning are constructed or how his or hers physical, chemical, and biological nature in"uence and are in"uenced by the interaction process (non-linear dynamics).
 
+As a visual artist, I think the best way to explain and illustrate how this paradigm shift might change the way we perceive and relate to the meta-environment is by exploring a three-dimensional representation of the cybersemiotic star with the understanding that the arms of the star represent the four aspects (natural, biological, phenomenological, semiotic) that ground the cybersemiotic framework united in the center by the integration of human knowledge and consciousness. The Cybersemiotic Experience can be represented by a three-dimensional tetrahedron (see Fig. 10.8) where each side of the !gure represents one facet of the cybersemiotic star. This tetrahedron is an adaptive and dynamic self-regulating structure (see Fig. 10.9) that constantly experiences entropic changes in each of its four facets and is in constant change, becoming more or less pointy, expanding or reducing its sides in order to maintain its original structure (see Fig. 10.10).
 
+Artistic and HCI practices not only rely on but also call for the Cybersemiotic Experience. When in 1967, Nelson Goodman founded Project Zero at Harvard's
 
-Fig. 10.8 Proposed tetrahedron representation of the adaptive facets of the cybersemiotic star
-(Jacques 2016)
-10   Human-Computer Interaction Design and the Cybersemiotic Experience                   277
+![](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/reading-images/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/_page_35_Figure_4.jpeg)
 
+**Fig. 10.8** Proposed tetrahedron representation of the adaptive facets of the cybersemiotic star (Jacques 2016)
 
+![](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/reading-images/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/_page_36_Figure_2.jpeg)
 
+**Fig. 10.9** Proposed tetrahedron representation for the Cybersemiotic Experience (Jacques 2016)
 
-Fig. 10.9 Proposed tetrahedron representation for the Cybersemiotic Experience (Jacques 2016)
+![](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/reading-images/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/_page_36_Figure_4.jpeg)
 
+**Fig. 10.10** Representation of the cybersemiotic experience in the meta-environment: elements' facets interacting exchanges (Jacques 2016)
 
+Graduate School of Education "to study and improve education in the arts,"27 his aim was to expose viewers [users] to the artistic process, aiming to "increase their sensitivity and discrimination, to encourage inquisitive looking and listening, to induce the experience of perceiving works and a world anew" (Goodman 1984, p. 160). The Cybersemiotic Experience expands Goodman's aims beyond the artistic realm and into the information processing paradigm by attempting to reconcile:
 
+- 1. human meaningful information [with] meaningfully algorithmic processing of information;
+- 2. how humans embody information to make meaning, and how embodied and unembodied information differ;
+- 3. consciousness with perception and embodied human knowledge;
+- 4. culture and embodied knowledge … to integrate our knowledge of the role of !rst person experience, qualia, meaning and signi!cation in our scienti!c knowledge of the evolution of life [humans] (Brier 2011, p. 4).
 
-Fig. 10.10 Representation of the cybersemiotic experience in the meta-environment: elements’
-facets interacting exchanges (Jacques 2016)
-278                                                                                     C. Jacques
+#### **10.15 Conclusion**
 
+The theoretical and visual understanding of how the meta-environment functions in practice, is based on the cybersemiotic star's self-regulating capabilities an aim to balance in the system. Based on the understanding that interface mediation and representational paradigms that emphasize embodiment are limiting factors when representing the architecture of digital information environments and the userinformation-interface relationship and that most current frameworks for analyzing these elements utilize a reductionist approach makes clear the need for reconceptualization. Ubiquitous computing is expanding human-computer interaction to everyday life; turning refrigerators, cars, phones, doors, and so forth, into interfaces; which, in turn, is changing and affecting how humans perceive and interact with information. This expansion of HCI, coupled with Graeme Sullivan's assertion that artists theorize by using "intuition and intellect, grounded in context-speci!c circumstances [to] provide an experimental base for constructing new frameworks of understanding" (Sullivan 2005, p. 73), reinforces the need for creative new understandings of the relationship among user, information, and interface. Through the lens of cybersemiotics, it is possible to rethink how the elements of the metaenvironment relate to each other, to explain their mediation properties, and to start seeing the implications that these elements have for one another and for the possibilities of expanding consciousness.
 
-Graduate School of Education “to study and improve education in the arts,”27 his
-aim was to expose viewers [users] to the artistic process, aiming to “increase their
-sensitivity and discrimination, to encourage inquisitive looking and listening, to
-induce the experience of perceiving works and a world anew” (Goodman 1984,
-p. 160). The Cybersemiotic Experience expands Goodman’s aims beyond the artis-
-tic realm and into the information processing paradigm by attempting to reconcile:
-1. human meaningful information [with] meaningfully algorithmic processing of
-   information;
-2. how humans embody information to make meaning, and how embodied and un-
-   embodied information differ;
-3. consciousness with perception and embodied human knowledge;
-4. culture and embodied knowledge … to integrate our knowledge of the role of
-   first person experience, qualia, meaning and signification in our scientific knowl-
-   edge of the evolution of life [humans] (Brier 2011, p. 4).
+Grounded on the cybersemiotic star, the representations of the evolving and complex interactions among the elements of the meta-environment gave birth to the Cybersemiotic Experience. User, information, and interface can then be seen taking
 
+<sup>27</sup> "Project Zero" is still vibrant today. More about the Project can be found at http://www.pz.harvard.edu/who-we-are/about
 
+turns in mediating the interaction and promoting meaning through an inner-outer world exchange. Ascott describes this exchange as the "double gaze, seeing at once both inward realities and the outward surfaces of the world" (Ascott 2007, p. 358) and consequently promoting two distinctively different !elds of experience (double consciousness). Brier presents the outer world as *Umwelt*, based on von Uexküll's "objective life world of the animal mediated by interpretations in the context of what makes sense from a biological, evolutionary sense" (Garcia 2013, p. 167) which, according to Thomas Sebeok, the father of biosemiotics (Brier 2008, 2013; Cobley 2010; Cobley and Jansz 2012; Garcia 2013), brings forth an *Innenwelt* (inner world). In the creation of meaning, the possibility of new mediations and perceptions re"ects the semiotic dance and the in!nite possibility of interactions in meaning production. As interactive hybrid environments are shared physically and/ or digitally (networked), the potential is for a meta-environment to interact with other meta-environments, expanding the complexity in elements and interactions in the Cybersemiotic Experience and promoting the potential for shared consciousness.
 
-10.15 Conclusion
+#### **References**
 
-The theoretical and visual understanding of how the meta-environment functions in
-practice, is based on the cybersemiotic star’s self-regulating capabilities an aim to
-balance in the system. Based on the understanding that interface mediation and
-representational paradigms that emphasize embodiment are limiting factors when
-representing the architecture of digital information environments and the user-
-information-interface relationship and that most current frameworks for analyzing
-these elements utilize a reductionist approach makes clear the need for reconceptu-
-alization. Ubiquitous computing is expanding human-computer interaction to
-everyday life; turning refrigerators, cars, phones, doors, and so forth, into inter-
-faces; which, in turn, is changing and affecting how humans perceive and interact
-with information. This expansion of HCI, coupled with Graeme Sullivan’s assertion
-that artists theorize by using “intuition and intellect, grounded in context-specific
-circumstances [to] provide an experimental base for constructing new frameworks
-of understanding” (Sullivan 2005, p. 73), reinforces the need for creative new under-
-standings of the relationship among user, information, and interface. Through the
-lens of cybersemiotics, it is possible to rethink how the elements of the meta-
-environment relate to each other, to explain their mediation properties, and to start
-seeing the implications that these elements have for one another and for the possi-
-bilities of expanding consciousness.
-    Grounded on the cybersemiotic star, the representations of the evolving and com-
-plex interactions among the elements of the meta-environment gave birth to the
-Cybersemiotic Experience. User, information, and interface can then be seen taking
+Apple. (1984). *1984 Apple's Macintosh Commercial.* [video] Retrieved March 25, 2018 from https://www.youtube.com/watch?v=VtvjbmoDx-I.
 
-27
-   “Project Zero” is still vibrant today. More about the Project can be found at http://www.pz.har-
-vard.edu/who-we-are/about
-10   Human-Computer Interaction Design and the Cybersemiotic Experience                         279
+Ascott, R. (2005). Syncretic reality: Art, processes and potentiality. *Drain Magazine, 2*(2), Feature Essay. Retrieved April 21, 2018 from http://www.drainmag.com/contentNOVEMBER/ FEATURE\_ESSAY/Syncretic\_Reality.htm
 
+Ascott, R. (2007). In E. A. Shanken (Ed.), *Telematic embrace: Visionary theories of art, technology, and consciousness by Roy Ascott*. Berkeley: University of California Press.
 
-turns in mediating the interaction and promoting meaning through an inner-outer
-world exchange. Ascott describes this exchange as the “double gaze, seeing at once
-both inward realities and the outward surfaces of the world” (Ascott 2007, p. 358)
-and consequently promoting two distinctively different fields of experience (double
-consciousness). Brier presents the outer world as Umwelt, based on von Uexküll’s
-“objective life world of the animal mediated by interpretations in the context of
-what makes sense from a biological, evolutionary sense” (Garcia 2013, p. 167)
-which, according to Thomas Sebeok, the father of biosemiotics (Brier 2008, 2013;
-Cobley 2010; Cobley and Jansz 2012; Garcia 2013), brings forth an Innenwelt
-(inner world). In the creation of meaning, the possibility of new mediations and
-perceptions reflects the semiotic dance and the infinite possibility of interactions in
-meaning production. As interactive hybrid environments are shared physically and/
-or digitally (networked), the potential is for a meta-environment to interact with
-other meta-environments, expanding the complexity in elements and interactions in
-the Cybersemiotic Experience and promoting the potential for shared
-consciousness.
+Ascott, R. (2008). Editorial: Cybernetic, technoetic, syncretic: The prospect for art. Leonardo*,* 41(3), 204–204. Retrieved March 25, 2018 from http://www.jstor.org/stable/20206580.
 
+Bergson, H. (1994). Matter and memory*.* (Paul, N. M., & Palmer, W. S. Trans.). New York: Zone Books.
 
+Bolt, R. (2003). "Put-that-there":Voice and gesture at the graphics interface. In N. Wardrip-Fruin & N. Montfort (Eds.), *The new media reader* (pp. 433–440). Cambridge, MA: The MIT Press. Bolter, J., & Grusin, R. (1999). *Remediation*. Cambridge, MA: The MIT Press.
 
-References
+Bopry, J. (2007). The give and take between semiotics and second-order cybernetics. *Semiotica, 164*(1), 31–51.
 
-Apple. (1984). 1984 Apple’s Macintosh Commercial. [video] Retrieved March 25, 2018 from
-   https://www.youtube.com/watch?v=VtvjbmoDx-I.
-Ascott, R. (2005). Syncretic reality: Art, processes and potentiality. Drain Magazine, 2(2), Feature
-   Essay. Retrieved April 21, 2018 from http://www.drainmag.com/contentNOVEMBER/
-   FEATURE_ESSAY/Syncretic_Reality.htm
-Ascott, R. (2007). In E. A. Shanken (Ed.), Telematic embrace: Visionary theories of art, technol-
-   ogy, and consciousness by Roy Ascott. Berkeley: University of California Press.
-Ascott, R. (2008). Editorial: Cybernetic, technoetic, syncretic: The prospect for art. Leonardo,
-   41(3), 204–204. Retrieved March 25, 2018 from http://www.jstor.org/stable/20206580.
-Bergson, H. (1994). Matter and memory. (Paul, N. M., & Palmer, W. S. Trans.). New York:
-   Zone Books.
-Bolt, R. (2003). “Put-that-there”:Voice and gesture at the graphics interface. In N. Wardrip-Fruin
-   & N. Montfort (Eds.), The new media reader (pp. 433–440). Cambridge, MA: The MIT Press.
-Bolter, J., & Grusin, R. (1999). Remediation. Cambridge, MA: The MIT Press.
-Bopry, J. (2007). The give and take between semiotics and second-order cybernetics. Semiotica,
-   164(1), 31–51.
-Bothwell, D., & Mayfield, M. (1991). Notan: The dark-light principle of design. New York: Dover
-   Publications.
-Brain learns completely differently than we’ve assumed, new learning the-
-   ory says (2018, March 28). Kurzweil: Accelerating intelligence [electronic
-   newsletter].     Retrieved      March       31,    2018      from      http://www.kurzweilai.net/
-   the-brain-learns-completely-differently-than-weve-assumed-new-learning-theory-says
-Brier, S. (2008). Cybersemiotics. Why information is not enough! Toronto: University of
-   Toronto Press.
-Brier, S. (2011). Cybersemiotics and the question of knowledge. In G. Dodig-Crnkovic &
-   M. Burgin (Eds.), Information and computation: Essays on scientific and philosophical
-   understanding of foundations of information and computation (pp. 1–36). Hackensack: World
-   Scientific Publishing.
-280                                                                                      C. Jacques
+Bothwell, D., & May!eld, M. (1991). *Notan: The dark-light principle of design*. New York: Dover Publications.
 
-Brier, S. (2013). Cybersemiotics: A new foundation for transdisciplinary theory of information,
-    cognition, meaningful communication and the interaction between nature and culture. Integral
-    Review, 9(2), 220–263.
-Caldwell, W. (2015). Multi/Inter/Trans – disciplinary, What’s the difference? Retrieved March 25,
-    2018 from https://blogs.lt.vt.edu/grad5104/multiintertrans-disciplinary-whats-the-difference/
-Carroll, J. M. (2003). HCI models, theories, and frameworks. San Francisco: Morgan Kaufmann.
-Chandler, D. (2007). Semiotics: The basics. New York: Routledge.
-Cobley, P. (Ed.). (2010). The Routledge companion to semiotics. New York: Routledge.
-Cobley, P., & Jansz, L. (2012). Semiotics: A graphic guide. London: Icon Books.
-Context. (2016). Oxford Living Dictionaries [online]. Retrieved March 25, 2018 from http://www.
-    oxforddictionaries.com/us/definition/american_english/context.
-Danesi, M. (2011). The Cybersemiotic turn in semiotics: A note on Søren Brier’s new paradigm
-    for the study of semiosis. In T. Thellefsen, B. Sørensen, & P. Cobley (Eds.), From first to third
-    via cybersemiotics (pp. 303–328). Frederiksberg: Scandinavian Book.
-Diaz Nafia, J. M. (2009). Cybernetic. ColloquiumBITae. Retrieved March 25, 2018 from http://
-    glossarium.bitrum.unileon.es/Home/cibernetica/cybernetic
-Duchamp, M. (1957). The Creative Act. Retrieved March 25, 2018 from http://courses.ischool.
-    utexas.edu/kimsmith/2007/Fall/INF385H/Duchamp_CreativeAct.pdf (Lecture given at the
-    American Federation of the Arts, University of Texas, Houston, April 1957; Originally pub-
-    lished in ART-News, 56[4]).
-Dubberly, H., & Pangaro, P. (2015). Cybernetics and design: Conversations for action. Cybernetics
-    & Human Knowing, 22(2–3), 73–82.
-Dyslexia. (n.d.). Retrieved March 25, 2018 from http://dyslexia.yale.edu/whatisdyslexia.html.
-Eco, U. (1989). A theory of semiotics. Bloomington: Indiana University Press.
-Fox, J. (2015). 30 Years Ago,Aldus PageMaker Changed Life on Planet Earth. 30 Years. HuffPost.
-    Retrieved 3-25-2018 from https://www.huffingtonpost.com/john-fox/30-years-ago-aldus-
-    pagema_b_7880438.html
-Garcia, D. (2013). Intelligent Horses: A Cybersemiotic Perspective. Doctoral dissertation.
-    California Institute of Integral Studies.
-Gershenson, C., & Heylighen, F. (2005). How can we think complex? In K. Richardson (Ed.),
-    Managing organizational complexity: Philosophy, theory and application (pp. 47–62).
-    Greenwich: Information Age Publishing.
-Goodman, N. (1984). Of mind and other matters. Cambridge, MA: Harvard University Press.
-Guddemi, P. (2000). Autopoiesis, semeiosis, and co-coupling: A relational language for describing
-    communication and adaptation. Cybernetics & Human Knowing, 7(2–3), 127–145.
-Heelan, P. A. (1988). Space-perception and philosophy of science. Berkeley: University of
-    California Press.
-Hewett, T. T., Baecker, R., Card, S., Carey, T., Gasen, J, Mantei, M., Perlman, G., Strong, G.,
-    and Verplank,W. (2009). ACM SIGCHI curricula for human-computer interaction. Technical
-    report. New York: ACM.
-Interdisciplinary. (n.d.). Oxford Living Dictionaries [website]. Retrieved March 25, 2018 from
-    https://en.oxforddictionaries.com/definition/interdisciplinary
-Jacques, C. (2012). Meta-Environment. Technoetic Arts: A Journal of Speculative Research, 10(1),
-    93–99. https://doi.org/10.1386/tear.10.1-3.93_1.
-Jacques, C. (2016). Reflections on cybersemiotic experience in the meta-environment. Cybernetics
-    and Human Knowing Journal, 23(4), 57–75.
-Joselit, D. (1998). Infinite regress: Marcel Duchamp, 1910–1941. Cambridge, MA: The MIT Press.
-Lambert, N. (2009). Hypothesis. In A critical examination of ‘computer art.’ Doctoral dissertation.
-    Oxford University. Retrieved March 25, 2018 from http://computer-arts-society.com/static/cas/
-    computerartsthesis/index.html%3Fpage_id=5.html
-Lovejoy, M. (1997). Postmodern currents (2nd ed.). Ann Arbor: UMI Research Press.
-Lovejoy, M. (2004). Digital currents: Art in the electronic age. New York: Routledge.
-Manovich, L. (2002). The language of new media. Cambridge, MA: The MIT Press.
-10   Human-Computer Interaction Design and the Cybersemiotic Experience                        281
+Brain learns completely differently than we've assumed, new learning theory says (2018, March 28). *Kurzweil: Accelerating intelligence* [electronic newsletter]. Retrieved March 31, 2018 from http://www.kurzweilai.net/ the-brain-learns-completely-differently-than-weve-assumed-new-learning-theory-says
 
-Merleau-Ponty, M. (2015). Phenomenology of perception. London: Forgotten Books.
-Maturana, H., & Varela, F. (1992). The tree of knowledge:The biological roots of human under-
-    standing. Boston: Shambhala Publications.
-Mauldin, D. B. (2011). Practicing what I preach in art education: A narrative self-inquiry.
-    Doctoral dissertation, University of Houston, Houston,Texas. Retrieved March 25, 2018 from
-    https://uh-ir.tdl.org/uh-ir/bitstream/handle/10657/294/MAULDIN-.Pdf
-McLuhan, M. [1964] (1994). Understanding media:The extensions of man (2nd). Cambridge, MA:
-    The MIT Press.
-Negroponte, N. (1995). Being Digital. New York: Vintage Books.
-Paul, C. (2015). Digital art. New York: Thames & Hudson.
-Peirce, C. S. (1991). In J. Hoopes (Ed.), Peirce on signs. Writings on semiotic by Charles Sanders
-    Peirce. Chapel Hill: The University of North Carolina Press.
-Roberts, C. M. (1980, October 6). Modern technology ends reign of king linotype. The
-    Washington Post. Retrieved March 25, 2018 from https://www.washingtonpost.
-    com/archive/politics/1980/10/06/modern-technology-ends-reign-of-king-linotype/
-    a09abfeb-015f-4f01-9133-d7b30e2d2556/?utm_term=.60483de41f90
-Rouse, M., Shea, S. & Tang, A. (2016). What is pervasive computing (ubiquitous computing)? –
-    Definition from WhatIs.com. (2018). IoT Agenda. Retrieved March 25, 2018 from https://inter-
-    netofthingsagenda.techtarget.com/definition/pervasive-computing-ubiquitous-computing.
-Sanouillet, M., & Peterson, E. (Eds.). (1989). The writings of Marcel Duchamp. Cambridge, MA:
-    Da Capo Press.
-Schivelbusch, W. (2014). The railway journey: The industrialization and perception of time and
-    space. Oakland: University of California Press.
-Shanken, E. (1997). Technology and intuition: A love story? Roy Ascott’s telematic embrace.
-    Retrieved January 16, 2018, from https://www.leonardo.info/isast/articles/shanken.html
-Shanken, E. (2007). Telematic embrace: Visionary theories of art, technology, and consciousness
-    by Roy Ascott. Berkeley: University of California Press.
-Shannon, C. (1949). The mathematical theory of communication. In C. Shannon & W. Weaver
-    (Eds.), The mathematical theory of communication (pp. 19–125). Urbana: University of
-    Illinois Press.
-Shlain, L. (2007). Art & physics. New York: Harper Perennial.
-Sullivan, G. (2005). Art practice as research. Thousand Oaks: Sage Publications.
-Tidwell, J. (2013). Designing interfaces. Sebastopol: O’Reilly.
-Transdisciplinary. (n.d.). Oxford Living Dictionaries. Retrieved March 25, 2018 from https://
-    en.oxforddictionaries.com/definition/transdisciplinary
-Vesna, V. (2011). In C. Providers, M. Lovejoy, C. Paul, & V. Vesna (Eds.), Shifting media contexts:
-    When scientific labs become art studios. Bristol\Chicago: intellect.
-Vidales, C. (2017). Building communication theory from cybersemiotics. Cybernetics and Human
-    Knowing Journal, 24(1), 9–32.
-Virilio, P. (1995). The art of the motor. Minneapolis: University of Minnesota Press.
-Von Foerster, H. (2003). Understanding understanding: Essays on cybernetics and cognition.
-    New York: Springer.
-Wania, C., Atwood, M., & McCain, K. (2007). Mapping the field of human-computer interac-
-    tion (HCI). Proceedings of The American Society For Information Science and Technology,
-    43(1), 1–7. Retrieved March 25, 2018 from http://onlinelibrary.wiley.com/doi/10.1002/
-    meet.14504301233/full
-Wardrip-Fruin, N., & Montfort, N. (Eds.). (2003). The new media reader. Cambridge, MA: The
-   MIT Press.
-Wiener, N. (1965). Cybernetics or control and communication in the animal and machine (2nd
-   ed.). Cambridge, MA: MIT Press.
-Wright, S. (2013). Toward a lexicon of usership. Eindhoven: Van Abbemuseum.
-Zics, B. (2014). The transparent act. Unpublished manuscript, Hungarian University of Fine Art
-   Budapest.
-
+Brier, S. (2008). *Cybersemiotics. Why information is not enough!* Toronto: University of Toronto Press.
+
+Brier, S. (2011). Cybersemiotics and the question of knowledge. In G. Dodig-Crnkovic & M. Burgin (Eds.), *Information and computation: Essays on scienti!c and philosophical understanding of foundations of information and computation* (pp. 1–36). Hackensack: World Scienti!c Publishing.
+
+Brier, S. (2013). Cybersemiotics: A new foundation for transdisciplinary theory of information, cognition, meaningful communication and the interaction between nature and culture. *Integral Review, 9*(2), 220–263.
+
+- Caldwell, W. (2015). *Multi/Inter/Trans disciplinary, What's the difference?* Retrieved March 25, 2018 from https://blogs.lt.vt.edu/grad5104/multiintertrans-disciplinary-whats-the-difference/
+- Carroll, J. M. (2003). *HCI models, theories, and frameworks*. San Francisco: Morgan Kaufmann. Chandler, D. (2007). *Semiotics: The basics*. New York: Routledge.
+- Cobley, P. (Ed.). (2010). *The Routledge companion to semiotics*. New York: Routledge.
+- Cobley, P., & Jansz, L. (2012). *Semiotics: A graphic guide*. London: Icon Books.
+- Context. (2016). *Oxford Living Dictionaries* [online]. Retrieved March 25, 2018 from http://www. oxforddictionaries.com/us/de!nition/american\_english/context.
+- Danesi, M. (2011). The Cybersemiotic turn in semiotics: A note on Søren Brier's new paradigm for the study of semiosis. In T. Thellefsen, B. Sørensen, & P. Cobley (Eds.), *From !rst to third via cybersemiotics* (pp. 303–328). Frederiksberg: Scandinavian Book.
+- Diaz Na!a, J. M. (2009). Cybernetic. *ColloquiumBITae*. Retrieved March 25, 2018 from http:// glossarium.bitrum.unileon.es/Home/cibernetica/cybernetic
+- Duchamp, M. (1957). *The Creative Act*. Retrieved March 25, 2018 from http://courses.ischool. utexas.edu/kimsmith/2007/Fall/INF385H/Duchamp\_CreativeAct.pdf (Lecture given at the American Federation of the Arts, University of Texas, Houston, April 1957; Originally published in *ART-News, 56*[4]).
+- Dubberly, H., & Pangaro, P. (2015). Cybernetics and design: Conversations for action. *Cybernetics & Human Knowing, 22*(2–3), 73–82.
+- Dyslexia. (n.d.). Retrieved March 25, 2018 from http://dyslexia.yale.edu/whatisdyslexia.html.
+- Eco, U. (1989). *A theory of semiotics*. Bloomington: Indiana University Press.
+- Fox, J. (2015). 30 Years Ago,Aldus PageMaker Changed Life on Planet Earth. 30 Years. *HuffPost*. Retrieved 3-25-2018 from https://www.huf!ngtonpost.com/john-fox/30-years-ago-alduspagema\_b\_7880438.html
+- Garcia, D. (2013). *Intelligent Horses: A Cybersemiotic Perspective.* Doctoral dissertation. California Institute of Integral Studies.
+- Gershenson, C., & Heylighen, F. (2005). How can we think complex? In K. Richardson (Ed.), *Managing organizational complexity: Philosophy, theory and application* (pp. 47–62). Greenwich: Information Age Publishing.
+- Goodman, N. (1984). *Of mind and other matters*. Cambridge, MA: Harvard University Press.
+- Guddemi, P. (2000). Autopoiesis, semeiosis, and co-coupling: A relational language for describing communication and adaptation. *Cybernetics & Human Knowing, 7*(2–3), 127–145.
+- Heelan, P. A. (1988). *Space-perception and philosophy of science*. Berkeley: University of California Press.
+- Hewett, T. T., Baecker, R., Card, S., Carey, T., Gasen, J, Mantei, M., Perlman, G., Strong, G., and Verplank,W. (2009). ACM SIGCHI curricula for human-computer interaction. Technical report. New York: ACM.
+- Interdisciplinary. (n.d.). *Oxford Living Dictionaries* [website]. Retrieved March 25, 2018 from https://en.oxforddictionaries.com/de!nition/interdisciplinary
+- Jacques, C. (2012). Meta-Environment. *Technoetic Arts: A Journal of Speculative Research, 10*(1), 93–99. https://doi.org/10.1386/tear.10.1-3.93\_1.
+- Jacques, C. (2016). Re"ections on cybersemiotic experience in the meta-environment. *Cybernetics and Human Knowing Journal, 23*(4), 57–75.
+- Joselit, D. (1998). *In!nite regress: Marcel Duchamp, 1910–1941*. Cambridge, MA: The MIT Press. Lambert, N. (2009). Hypothesis. In *A critical examination of 'computer art.'* Doctoral dissertation. Oxford University. Retrieved March 25, 2018 from http://computer-arts-society.com/static/cas/ computerartsthesis/index.html%3Fpage\_id=5.html
+- Lovejoy, M. (1997). *Postmodern currents* (2nd ed.). Ann Arbor: UMI Research Press.
+- Lovejoy, M. (2004). *Digital currents: Art in the electronic age*. New York: Routledge.
+- Manovich, L. (2002). *The language of new media*. Cambridge, MA: The MIT Press.
+
+Merleau-Ponty, M. (2015). *Phenomenology of perception*. London: Forgotten Books.
+
+Maturana, H., & Varela, F. (1992). *The tree of knowledge:The biological roots of human understanding*. Boston: Shambhala Publications.
+
+Mauldin, D. B. (2011). *Practicing what I preach in art education: A narrative self-inquiry*. Doctoral dissertation, University of Houston, Houston,Texas. Retrieved March 25, 2018 from https://uh-ir.tdl.org/uh-ir/bitstream/handle/10657/294/MAULDIN-.Pdf
+
+McLuhan, M. [1964] (1994). *Understanding media:The extensions of man* (2nd). Cambridge, MA: The MIT Press.
+
+Negroponte, N. (1995). *Being Digital*. New York: Vintage Books.
+
+Paul, C. (2015). *Digital art*. New York: Thames & Hudson.
+
+Peirce, C. S. (1991). In J. Hoopes (Ed.), *Peirce on signs. Writings on semiotic by Charles Sanders Peirce*. Chapel Hill: The University of North Carolina Press.
+
+Roberts, C. M. (1980, October 6). Modern technology ends reign of king linotype. The Washington Post. Retrieved March 25, 2018 from https://www.washingtonpost. com/archive/politics/1980/10/06/modern-technology-ends-reign-of-king-linotype/ a09abfeb-015f-4f01-9133-d7b30e2d2556/?utm\_term=.60483de41f90
+
+Rouse, M., Shea, S. & Tang, A. (2016). What is pervasive computing (ubiquitous computing)? – De!nition from WhatIs.com. (2018). *IoT Agenda*. Retrieved March 25, 2018 from https://internetofthingsagenda.techtarget.com/de!nition/pervasive-computing-ubiquitous-computing.
+
+Sanouillet, M., & Peterson, E. (Eds.). (1989). *The writings of Marcel Duchamp*. Cambridge, MA: Da Capo Press.
+
+Schivelbusch, W. (2014). *The railway journey: The industrialization and perception of time and space*. Oakland: University of California Press.
+
+Shanken, E. (1997). *Technology and intuition: A love story? Roy Ascott's telematic embrace.* Retrieved January 16, 2018, from https://www.leonardo.info/isast/articles/shanken.html
+
+Shanken, E. (2007). *Telematic embrace: Visionary theories of art, technology, and consciousness by Roy Ascott*. Berkeley: University of California Press.
+
+Shannon, C. (1949). The mathematical theory of communication. In C. Shannon & W. Weaver (Eds.), *The mathematical theory of communication* (pp. 19–125). Urbana: University of Illinois Press.
+
+Shlain, L. (2007). *Art & physics*. New York: Harper Perennial.
+
+Sullivan, G. (2005). *Art practice as research*. Thousand Oaks: Sage Publications.
+
+Tidwell, J. (2013). *Designing interfaces*. Sebastopol: O'Reilly.
+
+Transdisciplinary. (n.d.). *Oxford Living Dictionaries*. Retrieved March 25, 2018 from https:// en.oxforddictionaries.com/de!nition/transdisciplinary
+
+Vesna, V. (2011). In C. Providers, M. Lovejoy, C. Paul, & V. Vesna (Eds.), *Shifting media contexts: When scienti!c labs become art studios*. Bristol\Chicago: intellect.
+
+Vidales, C. (2017). Building communication theory from cybersemiotics. *Cybernetics and Human Knowing Journal, 24*(1), 9–32.
+
+Virilio, P. (1995). *The art of the motor*. Minneapolis: University of Minnesota Press.
+
+Von Foerster, H. (2003). *Understanding understanding: Essays on cybernetics and cognition*. New York: Springer.
+
+Wania, C., Atwood, M., & McCain, K. (2007). Mapping the !eld of human-computer interaction (HCI). *Proceedings of The American Society For Information Science and Technology,* 43(1), 1–7. Retrieved March 25, 2018 from http://onlinelibrary.wiley.com/doi/10.1002/ meet.14504301233/full
+
+Wardrip-Fruin, N., & Montfort, N. (Eds.). (2003). *The new media reader*. Cambridge, MA: The MIT Press.
+
+Wiener, N. (1965). *Cybernetics or control and communication in the animal and machine* (2nd ed.). Cambridge, MA: MIT Press.
+
+Wright, S. (2013). *Toward a lexicon of usership*. Eindhoven: Van Abbemuseum.
+
+Zics, B. (2014). *The transparent act.* Unpublished manuscript, Hungarian University of Fine Art Budapest.

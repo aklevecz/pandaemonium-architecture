@@ -1,10 +1,17 @@
 name = "pandaemonium-architecture"
+main = ".svelte-kit/cloudflare/_worker.js"
 compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_als"]
+
+[[routes]]
+pattern = "a211h.yaytso.art"
+custom_domain = true
 
 [assets]
+binding = "ASSETS"
 directory = ".svelte-kit/cloudflare"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "pandaemonium-db"
-database_id = "local"
+database_id = "4b157896-5fef-4f9e-8c5a-0fc6b03b0335"

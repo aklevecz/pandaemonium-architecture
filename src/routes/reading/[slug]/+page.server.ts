@@ -56,7 +56,7 @@ export const entries: EntryGenerator = () => {
 		.map((slug) => ({ slug }));
 };
 
-export const prerender = true;
+export const prerender = false;
 
 export const load: PageServerLoad = async ({ params }) => {
 	const meta = metaMap.get(params.slug);

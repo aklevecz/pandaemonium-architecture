@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { getPdfUrl } from '$lib/data/syllabus';
-	import { page } from '$app/state';
 	import { browser } from '$app/environment';
 
 	let { data } = $props();
@@ -12,39 +11,129 @@
 		updated_at: string;
 	}
 
+	interface Highlight {
+		id: number;
+		text: string;
+		note: string;
+		created_at: string;
+	}
+
 	let notes: Note[] = $state([]);
+	let highlights: Highlight[] = $state([]);
 	let newNote = $state('');
 	let editingId: number | null = $state(null);
 	let editContent = $state('');
-	let loadingNotes = $state(false);
-	let showNotes = $state(false);
+	let viewMode: 'text' | 'pdf' = $state('text');
+	let sidebarOpen = $state(false);
+	let isMobile = $state(false);
+
+	// Highlight state
+	let selectionTooltip: { x: number; y: number; text: string } | null = $state(null);
+	let activeHighlight: Highlight | null = $state(null);
+	let highlightNoteText = $state('');
+
+	// Bookmark state
+	let savedPosition: number | null = $state(null);
+	let bookmarkSaved = $state(false);
+	let saveTimeout: ReturnType<typeof setTimeout> | null = null;
+	let bookmarkMarker: HTMLDivElement | undefined = $state();
 
 	const user = $derived(data.user);
+	const pdfUrl = $derived(getPdfUrl(data.pdf));
+
+	let proseEl: HTMLDivElement | undefined = $state();
+
+	if (browser) {
+		isMobile = window.innerWidth < 640;
+		window.addEventListener('resize', () => {
+			isMobile = window.innerWidth < 640;
+		});
+	}
+
+	async function fetchBookmark() {
+		if (!user) return;
+		const res = await fetch(`/api/bookmarks?slug=${encodeURIComponent(data.slug)}`);
+		if (res.ok) {
+			const { position } = await res.json();
+			savedPosition = position;
+			requestAnimationFrame(updateBookmarkMarker);
+		}
+	}
+
+	function updateBookmarkMarker() {
+		if (!bookmarkMarker || savedPosition === null) return;
+		const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+		const top = savedPosition * docHeight + 60;
+		bookmarkMarker.style.top = `${top}px`;
+	}
+
+	async function saveBookmark() {
+		if (!user) return;
+		const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+		if (docHeight <= 0) return;
+		const position = window.scrollY / docHeight;
+		const res = await fetch('/api/bookmarks', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ slug: data.slug, position })
+		});
+		if (res.ok) {
+			bookmarkSaved = true;
+			savedPosition = position;
+			requestAnimationFrame(updateBookmarkMarker);
+			setTimeout(() => (bookmarkSaved = false), 1500);
+		}
+	}
+
+	function resumeReading() {
+		if (savedPosition === null) return;
+		requestAnimationFrame(() => {
+			const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+			window.scrollTo({ top: savedPosition! * docHeight, behavior: 'smooth' });
+		});
+	}
+
+	function handleScroll() {
+		if (!user || viewMode !== 'text') return;
+		if (saveTimeout) clearTimeout(saveTimeout);
+		saveTimeout = setTimeout(() => {
+			const scrollTop = window.scrollY;
+			const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+			if (docHeight > 0) {
+				const position = scrollTop / docHeight;
+				fetch('/api/bookmarks', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug: data.slug, position })
+				});
+			}
+		}, 3000);
+	}
 
 	async function fetchNotes() {
 		if (!user) return;
-		loadingNotes = true;
-		try {
-			const res = await fetch(`/api/notes?slug=${encodeURIComponent(data.slug)}`);
-			if (res.ok) {
-				notes = await res.json();
-			}
-		} finally {
-			loadingNotes = false;
+		const res = await fetch(`/api/notes?slug=${encodeURIComponent(data.slug)}`);
+		if (res.ok) notes = await res.json();
+	}
+
+	async function fetchHighlights() {
+		if (!user) return;
+		const res = await fetch(`/api/highlights?slug=${encodeURIComponent(data.slug)}`);
+		if (res.ok) {
+			highlights = await res.json();
+			requestAnimationFrame(() => applyHighlights());
 		}
 	}
 
 	async function addNote() {
 		if (!newNote.trim()) return;
-		const res = await fetch('/api/notes', {
+		await fetch('/api/notes', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ slug: data.slug, content: newNote })
 		});
-		if (res.ok) {
-			newNote = '';
-			await fetchNotes();
-		}
+		newNote = '';
+		await fetchNotes();
 	}
 
 	async function updateNote(id: number) {
@@ -63,27 +152,121 @@
 		await fetchNotes();
 	}
 
-	function startEdit(note: Note) {
-		editingId = note.id;
-		editContent = note.content;
+	async function saveHighlight(text: string) {
+		await fetch('/api/highlights', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ slug: data.slug, text })
+		});
+		selectionTooltip = null;
+		window.getSelection()?.removeAllRanges();
+		await fetchHighlights();
 	}
 
-	function toggleNotes() {
-		showNotes = !showNotes;
-		if (showNotes && notes.length === 0 && user) {
-			fetchNotes();
+	async function deleteHighlight(id: number) {
+		await fetch(`/api/highlights?id=${id}`, { method: 'DELETE' });
+		activeHighlight = null;
+		await fetchHighlights();
+	}
+
+	async function saveHighlightNote(id: number) {
+		await fetch('/api/highlights', {
+			method: 'PUT',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ id, note: highlightNoteText })
+		});
+		activeHighlight = null;
+		await fetchHighlights();
+	}
+
+	function handleMouseUp() {
+		if (!user || viewMode !== 'text') return;
+		const sel = window.getSelection();
+		const text = sel?.toString().trim();
+		if (!text || text.length < 3) {
+			selectionTooltip = null;
+			return;
+		}
+		const range = sel!.getRangeAt(0);
+		const rect = range.getBoundingClientRect();
+		selectionTooltip = {
+			x: rect.left + rect.width / 2,
+			y: rect.top + window.scrollY - 10,
+			text
+		};
+	}
+
+	function applyHighlights() {
+		if (!proseEl) return;
+		proseEl.querySelectorAll('mark.hl').forEach((mark) => {
+			const parent = mark.parentNode;
+			if (parent) {
+				parent.replaceChild(document.createTextNode(mark.textContent || ''), mark);
+				parent.normalize();
+			}
+		});
+		for (const h of highlights) {
+			markTextInDom(proseEl, h);
+		}
+	}
+
+	function markTextInDom(container: HTMLElement, h: Highlight) {
+		const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+		const textNodes: Text[] = [];
+		let node: Text | null;
+		while ((node = walker.nextNode() as Text | null)) {
+			textNodes.push(node);
+		}
+		let fullText = '';
+		const map: { node: Text; start: number }[] = [];
+		for (const tn of textNodes) {
+			map.push({ node: tn, start: fullText.length });
+			fullText += tn.textContent || '';
+		}
+		const idx = fullText.indexOf(h.text);
+		if (idx === -1) return;
+		const end = idx + h.text.length;
+		for (const entry of map) {
+			const nodeText = entry.node.textContent || '';
+			const nodeEnd = entry.start + nodeText.length;
+			if (nodeEnd <= idx || entry.start >= end) continue;
+			const sliceStart = Math.max(0, idx - entry.start);
+			const sliceEnd = Math.min(nodeText.length, end - entry.start);
+			const before = nodeText.slice(0, sliceStart);
+			const matched = nodeText.slice(sliceStart, sliceEnd);
+			const after = nodeText.slice(sliceEnd);
+			const mark = document.createElement('mark');
+			mark.textContent = matched;
+			mark.className = 'hl highlight-mark';
+			mark.addEventListener('click', () => {
+				activeHighlight = h;
+				highlightNoteText = h.note;
+				sidebarOpen = true;
+			});
+			const frag = document.createDocumentFragment();
+			if (before) frag.appendChild(document.createTextNode(before));
+			frag.appendChild(mark);
+			if (after) frag.appendChild(document.createTextNode(after));
+			entry.node.parentNode!.replaceChild(frag, entry.node);
+			break;
 		}
 	}
 
 	$effect(() => {
 		if (browser && user) {
 			fetchNotes();
+			fetchHighlights();
+			fetchBookmark();
+			window.addEventListener('scroll', handleScroll, { passive: true });
+			return () => window.removeEventListener('scroll', handleScroll);
 		}
 	});
 </script>
 
-<article class="mx-auto max-w-3xl px-6">
-	<div class="pt-10">
+<svelte:document onmouseup={handleMouseUp} />
+
+<article class="mx-auto max-w-3xl px-4 sm:px-6">
+	<div class="pt-8 sm:pt-10">
 		{#if data.weekNumber}
 			<a
 				href="/week/{data.weekNumber}"
@@ -92,129 +275,257 @@
 				&larr; Week {String(data.weekNumber).padStart(2, '0')}
 			</a>
 		{:else}
-			<a
-				href="/"
-				class="text-xs text-muted transition-colors hover:text-white uppercase"
-			>
+			<a href="/" class="text-xs text-muted transition-colors hover:text-white uppercase">
 				&larr; Back
 			</a>
 		{/if}
 	</div>
 
-	<header class="pb-12 pt-10">
+	<header class="pb-8 pt-8 sm:pb-12 sm:pt-10">
 		<p class="text-xs text-muted">{data.author}</p>
-		<h1 class="mt-3 font-serif text-3xl font-normal leading-tight text-bright sm:text-4xl">
+		<h1 class="mt-3 font-serif text-2xl font-normal leading-tight text-bright sm:text-4xl">
 			{data.title}
 		</h1>
-		<div class="mt-4 flex items-center gap-4">
+		<div class="mt-4 flex flex-wrap items-center gap-3 sm:gap-4">
 			{#if data.weekNumber}
 				<span class="text-xs text-muted">
-					Week {String(data.weekNumber).padStart(2, '0')} &mdash; {data.weekTitle}
-					{#if data.isAdditional}
-						&mdash; Additional Reading
-					{/if}
+					Week {String(data.weekNumber).padStart(2, '0')}
+					<span class="hidden sm:inline">&mdash; {data.weekTitle}</span>
+					{#if data.isAdditional}&mdash; Additional{/if}
 				</span>
 			{:else if data.isIntroductory}
 				<span class="text-xs text-muted">Introductory Reading</span>
 			{/if}
-			<a
-				href={getPdfUrl(data.pdf)}
-				target="_blank"
-				rel="noopener"
-				class="text-xs text-rule transition-colors hover:text-muted"
-			>
-				PDF &rarr;
-			</a>
-			{#if user}
-				<button
-					onclick={toggleNotes}
-					class="text-xs text-rule transition-colors hover:text-muted"
-				>
-					Notes {notes.length > 0 ? `(${notes.length})` : ''}
-				</button>
-			{/if}
 		</div>
 	</header>
 
-	<!-- Notes panel -->
-	{#if showNotes && user}
-		<div class="mb-8 border border-rule p-6">
-			<p class="text-xs tracking-widest text-muted uppercase">Your Notes</p>
+	<div class="h-px bg-rule"></div>
 
-			<form onsubmit={(e) => { e.preventDefault(); addNote(); }} class="mt-4">
-				<textarea
-					bind:value={newNote}
-					placeholder="Add a note..."
-					rows="3"
-					class="w-full resize-none border border-rule bg-dark px-3 py-2 font-serif text-sm text-white outline-none placeholder:text-rule focus:border-muted"
-				></textarea>
+	{#if viewMode === 'text'}
+		<div class="prose py-8 pb-20 sm:py-12 sm:pb-24" bind:this={proseEl}>
+			{@html data.content}
+		</div>
+	{/if}
+</article>
+
+<!-- Bookmark marker -->
+{#if savedPosition !== null && user && viewMode === 'text'}
+	<div
+		bind:this={bookmarkMarker}
+		class="pointer-events-none absolute right-0 z-10"
+		style="top: 0"
+	>
+		<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" class="text-bright/60"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+	</div>
+{/if}
+
+<!-- Floating toolbar -->
+{#if user && viewMode === 'text'}
+	<div class="fixed bottom-5 left-1/2 z-30 -translate-x-1/2">
+		<div class="flex items-center gap-1 rounded-full border border-rule bg-dark/90 px-2 py-1.5 shadow-lg backdrop-blur-md">
+			{#if savedPosition !== null}
+				<!-- Resume -->
 				<button
-					type="submit"
-					disabled={!newNote.trim()}
-					class="mt-2 border border-rule px-3 py-1 text-xs text-muted transition-colors hover:border-muted hover:text-light uppercase disabled:opacity-30"
+					onclick={resumeReading}
+					class="rounded-full p-2.5 text-light transition-colors hover:bg-rule/50 hover:text-bright"
+					aria-label="Resume reading"
 				>
-					Save
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg>
 				</button>
-			</form>
-
-			{#if loadingNotes}
-				<p class="mt-4 text-xs text-muted">Loading...</p>
-			{:else if notes.length > 0}
-				<div class="mt-6 divide-y divide-rule">
-					{#each notes as note (note.id)}
-						<div class="py-4">
-							{#if editingId === note.id}
-								<textarea
-									bind:value={editContent}
-									rows="3"
-									class="w-full resize-none border border-rule bg-dark px-3 py-2 font-serif text-sm text-white outline-none focus:border-muted"
-								></textarea>
-								<div class="mt-2 flex gap-2">
-									<button
-										onclick={() => updateNote(note.id)}
-										class="text-xs text-muted hover:text-light uppercase"
-									>
-										Save
-									</button>
-									<button
-										onclick={() => (editingId = null)}
-										class="text-xs text-rule hover:text-muted uppercase"
-									>
-										Cancel
-									</button>
-								</div>
-							{:else}
-								<p class="whitespace-pre-wrap font-serif text-sm text-gray">
-									{note.content}
-								</p>
-								<div class="mt-2 flex gap-3">
-									<button
-										onclick={() => startEdit(note)}
-										class="text-xs text-rule transition-colors hover:text-muted"
-									>
-										Edit
-									</button>
-									<button
-										onclick={() => deleteNote(note.id)}
-										class="text-xs text-rule transition-colors hover:text-muted"
-									>
-										Delete
-									</button>
-									<span class="text-xs text-rule">
-										{new Date(note.updated_at).toLocaleDateString()}
-									</span>
-								</div>
-							{/if}
-						</div>
-					{/each}
-				</div>
+				<div class="h-5 w-px bg-rule"></div>
 			{/if}
+
+			<!-- Bookmark -->
+			<button
+				onclick={saveBookmark}
+				class="rounded-full p-2.5 transition-colors {bookmarkSaved ? 'text-bright' : 'text-muted'} hover:bg-rule/50 hover:text-light"
+				aria-label={bookmarkSaved ? 'Spot saved' : 'Save spot'}
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill={bookmarkSaved ? 'currentColor' : 'none'} stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+			</button>
+
+			<!-- PDF -->
+			{#if isMobile}
+				<a
+					href={pdfUrl}
+					target="_blank"
+					rel="noopener"
+					class="rounded-full p-2.5 text-muted transition-colors hover:bg-rule/50 hover:text-light"
+					aria-label="Open PDF"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+				</a>
+			{:else}
+				<button
+					onclick={() => (viewMode = 'pdf')}
+					class="rounded-full p-2.5 text-muted transition-colors hover:bg-rule/50 hover:text-light"
+					aria-label="View PDF"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+				</button>
+			{/if}
+
+			<!-- Notes -->
+			<button
+				onclick={() => (sidebarOpen = !sidebarOpen)}
+				class="relative rounded-full p-2.5 text-muted transition-colors hover:bg-rule/50 hover:text-light"
+				aria-label="Notes & Highlights"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+				{#if notes.length + highlights.length > 0}
+					<span class="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-bright text-[10px] font-bold text-black">
+						{notes.length + highlights.length}
+					</span>
+				{/if}
+			</button>
+		</div>
+	</div>
+{/if}
+
+<!-- PDF viewer (desktop only, mobile opens in new tab) -->
+{#if viewMode === 'pdf' && !isMobile}
+	<div class="fixed inset-0 z-40 bg-black pt-[49px] sm:pt-[57px]">
+		<iframe src={pdfUrl} title={data.title} class="h-full w-full border-none"></iframe>
+	</div>
+{/if}
+
+<!-- Notes sidebar (desktop) / drawer (mobile) -->
+{#if sidebarOpen && user}
+	<!-- Mobile: full-screen overlay -->
+	{#if isMobile}
+		<div class="fixed inset-0 z-40 overflow-y-auto bg-black p-4 pt-14">
+			<div class="flex items-center justify-between">
+				<p class="text-xs tracking-widest text-muted uppercase">Notes & Highlights</p>
+				<button
+					onclick={() => (sidebarOpen = false)}
+					class="px-2 py-1 text-sm text-muted hover:text-light"
+				>
+					&times; Close
+				</button>
+			</div>
+
+			{@render notesContent()}
+		</div>
+	{:else}
+		<!-- Desktop: fixed sidebar -->
+		<aside class="fixed top-[57px] right-0 bottom-0 w-72 overflow-y-auto border-l border-rule bg-black p-5">
+			<div class="flex items-center justify-between">
+				<p class="text-xs tracking-widest text-muted uppercase">Notes & Highlights</p>
+				<button
+					onclick={() => (sidebarOpen = false)}
+					class="text-sm text-muted hover:text-light"
+				>
+					&times;
+				</button>
+			</div>
+
+			{@render notesContent()}
+		</aside>
+	{/if}
+{/if}
+
+<!-- Selection tooltip -->
+{#if selectionTooltip && user}
+	<div
+		class="highlight-tooltip absolute z-50 -translate-x-1/2 -translate-y-full"
+		style="left: {selectionTooltip.x}px; top: {selectionTooltip.y}px;"
+	>
+		<button
+			onclick={() => saveHighlight(selectionTooltip!.text)}
+			class="border border-rule bg-dark px-3 py-1.5 text-xs text-light shadow-lg transition-colors hover:border-muted hover:text-bright"
+		>
+			Highlight
+		</button>
+	</div>
+{/if}
+
+{#snippet notesContent()}
+	<!-- Add note -->
+	<form onsubmit={(e) => { e.preventDefault(); addNote(); }} class="mt-4">
+		<textarea
+			bind:value={newNote}
+			placeholder="Add a note..."
+			rows="3"
+			class="w-full resize-none border border-rule bg-dark px-3 py-2 font-serif text-sm text-white outline-none placeholder:text-muted focus:border-muted"
+		></textarea>
+		<button
+			type="submit"
+			disabled={!newNote.trim()}
+			class="mt-2 border border-rule px-3 py-1 text-xs text-muted transition-colors hover:border-muted hover:text-light uppercase disabled:opacity-30"
+		>
+			Save
+		</button>
+	</form>
+
+	<!-- Notes list -->
+	{#if notes.length > 0}
+		<div class="mt-6">
+			<p class="text-xs text-muted uppercase">Notes</p>
+			<div class="mt-2 divide-y divide-rule">
+				{#each notes as note (note.id)}
+					<div class="py-3">
+						{#if editingId === note.id}
+							<textarea
+								bind:value={editContent}
+								rows="3"
+								class="w-full resize-none border border-rule bg-dark px-2 py-1 font-serif text-sm text-white outline-none focus:border-muted"
+							></textarea>
+							<div class="mt-1 flex gap-2">
+								<button onclick={() => updateNote(note.id)} class="text-xs text-muted hover:text-light">Save</button>
+								<button onclick={() => (editingId = null)} class="text-xs text-muted hover:text-light">Cancel</button>
+							</div>
+						{:else}
+							<p class="whitespace-pre-wrap font-serif text-sm text-gray">{note.content}</p>
+							<div class="mt-1 flex gap-2">
+								<button onclick={() => { editingId = note.id; editContent = note.content; }} class="text-xs text-muted hover:text-light">Edit</button>
+								<button onclick={() => deleteNote(note.id)} class="text-xs text-muted hover:text-light">Delete</button>
+								<span class="text-xs text-muted">{new Date(note.updated_at).toLocaleDateString()}</span>
+							</div>
+						{/if}
+					</div>
+				{/each}
+			</div>
 		</div>
 	{/if}
 
-	<div class="h-px bg-rule"></div>
-
-	<div class="prose py-12">
-		{@html data.content}
-	</div>
-</article>
+	<!-- Highlights list -->
+	{#if highlights.length > 0}
+		<div class="mt-6">
+			<p class="text-xs text-muted uppercase">Highlights</p>
+			<div class="mt-2 space-y-3">
+				{#each highlights as h (h.id)}
+					<div
+						class="border-l-2 py-1 pl-3 {activeHighlight?.id === h.id ? 'border-yellow-400' : 'border-yellow-500/30'}"
+					>
+						<p class="font-serif text-xs text-light italic leading-relaxed">
+							&ldquo;{h.text.length > 100 ? h.text.slice(0, 100) + '...' : h.text}&rdquo;
+						</p>
+						{#if activeHighlight?.id === h.id}
+							<textarea
+								bind:value={highlightNoteText}
+								placeholder="Add a note..."
+								rows="2"
+								class="mt-2 w-full resize-none border border-rule bg-dark px-2 py-1 text-xs text-white outline-none placeholder:text-muted focus:border-muted"
+							></textarea>
+							<div class="mt-1 flex gap-2">
+								<button onclick={() => saveHighlightNote(h.id)} class="text-xs text-muted hover:text-light">Save</button>
+								<button onclick={() => deleteHighlight(h.id)} class="text-xs text-muted hover:text-light">Remove</button>
+								<button onclick={() => (activeHighlight = null)} class="text-xs text-muted hover:text-light">Close</button>
+							</div>
+						{:else}
+							{#if h.note}
+								<p class="mt-1 text-xs text-muted">{h.note}</p>
+							{/if}
+							<button
+								onclick={() => { activeHighlight = h; highlightNoteText = h.note; }}
+								class="mt-1 text-xs text-muted hover:text-light"
+							>
+								{h.note ? 'Edit note' : 'Add note'}
+							</button>
+						{/if}
+					</div>
+				{/each}
+			</div>
+		</div>
+	{/if}
+{/snippet}
