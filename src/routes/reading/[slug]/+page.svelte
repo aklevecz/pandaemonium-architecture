@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { getPdfUrl } from '$lib/data/syllabus';
 	import { browser } from '$app/environment';
+	import { marked } from 'marked';
 
 	let { data } = $props();
 
@@ -37,6 +38,25 @@
 	let bookmarkSaved = $state(false);
 	let saveTimeout: ReturnType<typeof setTimeout> | null = null;
 	let bookmarkMarker: HTMLDivElement | undefined = $state();
+
+	// Chat state
+	interface ChatMessage {
+		role: 'user' | 'assistant';
+		content: string;
+	}
+	interface Conversation {
+		id: number;
+		title: string;
+		created_at: string;
+	}
+	let chatOpen = $state(false);
+	let chatMessages: ChatMessage[] = $state([]);
+	let chatInput = $state('');
+	let chatLoading = $state(false);
+	let conversations: Conversation[] = $state([]);
+	let activeConversationId: number | null = $state(null);
+	let chatSelectedText = $state('');
+	let chatEl: HTMLDivElement | undefined = $state();
 
 	const user = $derived(data.user);
 	const pdfUrl = $derived(getPdfUrl(data.pdf));
@@ -252,6 +272,84 @@
 		}
 	}
 
+	// Chat functions
+	async function fetchConversations() {
+		if (!user) return;
+		const res = await fetch(`/api/chat?slug=${encodeURIComponent(data.slug)}`);
+		if (res.ok) conversations = await res.json();
+	}
+
+	async function loadConversation(id: number) {
+		activeConversationId = id;
+		const res = await fetch(`/api/chat?id=${id}`);
+		if (res.ok) chatMessages = await res.json();
+		scrollChat();
+	}
+
+	async function sendChat() {
+		if (!chatInput.trim() || chatLoading) return;
+		const msg = chatInput;
+		chatInput = '';
+		chatMessages = [...chatMessages, { role: 'user', content: msg }];
+		chatLoading = true;
+		scrollChat();
+
+		try {
+			const res = await fetch('/api/chat', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					slug: data.slug,
+					conversationId: activeConversationId,
+					message: msg,
+					readingTitle: data.title,
+					readingAuthor: data.author,
+					selectedText: chatSelectedText || undefined
+				})
+			});
+			if (res.ok) {
+				const { conversationId, message } = await res.json();
+				activeConversationId = conversationId;
+				chatMessages = [...chatMessages, { role: 'assistant', content: message }];
+				chatSelectedText = '';
+				fetchConversations();
+			}
+		} finally {
+			chatLoading = false;
+			scrollChat();
+		}
+	}
+
+	async function deleteConversation(id: number) {
+		await fetch(`/api/chat?id=${id}`, { method: 'DELETE' });
+		if (activeConversationId === id) {
+			activeConversationId = null;
+			chatMessages = [];
+		}
+		await fetchConversations();
+	}
+
+	function startNewChat(selectedText?: string) {
+		activeConversationId = null;
+		chatMessages = [];
+		chatSelectedText = selectedText || '';
+		chatOpen = true;
+		if (selectedText) {
+			const truncated = selectedText.length > 150
+				? selectedText.slice(0, 150) + '...'
+				: selectedText;
+			chatInput = `Explain this passage: "${truncated}"`;
+			requestAnimationFrame(() => sendChat());
+		}
+		fetchConversations();
+	}
+
+	function scrollChat() {
+		requestAnimationFrame(() => {
+			if (chatEl) chatEl.scrollTop = chatEl.scrollHeight;
+		});
+	}
+
 	$effect(() => {
 		if (browser && user) {
 			fetchNotes();
@@ -378,6 +476,20 @@
 					</span>
 				{/if}
 			</button>
+
+			<!-- Chat -->
+			<button
+				onclick={() => { chatOpen = !chatOpen; if (chatOpen) fetchConversations(); }}
+				class="relative rounded-full p-2.5 text-muted transition-colors hover:bg-rule/50 hover:text-light"
+				aria-label="Ask about reading"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+				{#if conversations.length > 0}
+					<span class="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-bright text-[10px] font-bold text-black">
+						{conversations.length}
+					</span>
+				{/if}
+			</button>
 		</div>
 	</div>
 {/if}
@@ -424,18 +536,56 @@
 	{/if}
 {/if}
 
+<!-- Chat panel -->
+{#if chatOpen && user}
+	{#if isMobile}
+		<div class="fixed inset-0 z-40 flex flex-col bg-black">
+			<div class="flex items-center justify-between border-b border-rule px-4 py-3">
+				{#if activeConversationId}
+					<button onclick={() => { activeConversationId = null; chatMessages = []; }} class="text-xs text-muted hover:text-light">&larr; Back</button>
+				{:else}
+					<p class="text-xs tracking-widest text-muted uppercase">Chat</p>
+				{/if}
+				<button onclick={() => (chatOpen = false)} class="px-2 py-1 text-sm text-muted hover:text-light">&times; Close</button>
+			</div>
+			{@render chatContent()}
+		</div>
+	{:else}
+		<aside class="fixed top-[57px] right-0 bottom-0 z-40 flex w-80 flex-col border-l border-rule bg-black">
+			<div class="flex items-center justify-between border-b border-rule px-4 py-3">
+				{#if activeConversationId}
+					<button onclick={() => { activeConversationId = null; chatMessages = []; }} class="text-xs text-muted hover:text-light">&larr; Conversations</button>
+				{:else}
+					<p class="text-xs tracking-widest text-muted uppercase">Chat</p>
+				{/if}
+				<button onclick={() => (chatOpen = false)} class="text-sm text-muted hover:text-light">&times;</button>
+			</div>
+			{@render chatContent()}
+		</aside>
+	{/if}
+{/if}
+
 <!-- Selection tooltip -->
 {#if selectionTooltip && user}
 	<div
 		class="highlight-tooltip absolute z-50 -translate-x-1/2 -translate-y-full"
 		style="left: {selectionTooltip.x}px; top: {selectionTooltip.y}px;"
 	>
-		<button
-			onclick={() => saveHighlight(selectionTooltip!.text)}
-			class="border border-rule bg-dark px-3 py-1.5 text-xs text-light shadow-lg transition-colors hover:border-muted hover:text-bright"
-		>
-			Highlight
-		</button>
+		<div class="flex overflow-hidden rounded-lg border border-rule bg-dark shadow-lg">
+			<button
+				onclick={() => saveHighlight(selectionTooltip!.text)}
+				class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
+			>
+				Highlight
+			</button>
+			<div class="w-px bg-rule"></div>
+			<button
+				onclick={() => { const t = selectionTooltip!.text; selectionTooltip = null; window.getSelection()?.removeAllRanges(); startNewChat(t); }}
+				class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
+			>
+				Explain
+			</button>
+		</div>
 	</div>
 {/if}
 
@@ -527,5 +677,90 @@
 				{/each}
 			</div>
 		</div>
+	{/if}
+{/snippet}
+
+{#snippet chatContent()}
+	{#if activeConversationId === null}
+		<!-- Conversation list -->
+		<div class="flex-1 overflow-y-auto p-4">
+			<button
+				onclick={() => startNewChat()}
+				class="mb-4 w-full border border-rule px-3 py-2 text-xs text-light transition-colors hover:border-muted hover:text-bright uppercase"
+			>
+				New conversation
+			</button>
+			{#if conversations.length > 0}
+				<div class="space-y-2">
+					{#each conversations as conv (conv.id)}
+						<div class="flex items-start gap-2 border-b border-rule py-3">
+							<button
+								onclick={() => loadConversation(conv.id)}
+								class="flex-1 text-left"
+							>
+								<p class="text-sm text-light">{conv.title || 'Untitled'}</p>
+								<p class="mt-0.5 text-xs text-muted">{new Date(conv.created_at).toLocaleDateString()}</p>
+							</button>
+							<button
+								onclick={() => deleteConversation(conv.id)}
+								class="shrink-0 text-xs text-muted hover:text-light"
+							>
+								&times;
+							</button>
+						</div>
+					{/each}
+				</div>
+			{:else}
+				<p class="text-xs text-muted">No conversations yet. Select text and click "Explain" to start, or create a new conversation.</p>
+			{/if}
+		</div>
+	{:else}
+		<!-- Active conversation -->
+		<div bind:this={chatEl} class="flex-1 overflow-y-auto p-4">
+			{#each chatMessages as msg, i (i)}
+				<div class="mb-4 {msg.role === 'user' ? 'text-right' : ''}">
+					<div class="inline-block max-w-[90%] rounded-lg px-3 py-2 text-left {msg.role === 'user' ? 'bg-rule/50 text-light' : 'bg-dark text-gray'}">
+						{#if msg.role === 'assistant'}
+							<div class="chat-prose font-serif text-sm">
+								{@html marked(msg.content)}
+							</div>
+						{:else}
+							<p class="whitespace-pre-wrap font-serif text-sm">{msg.content}</p>
+						{/if}
+					</div>
+				</div>
+			{/each}
+			{#if chatLoading}
+				<div class="mb-4">
+					<div class="inline-flex items-center gap-2 rounded-lg bg-dark px-4 py-3">
+						<div class="flex gap-1">
+							<span class="h-1.5 w-1.5 animate-bounce rounded-full bg-muted [animation-delay:0ms]"></span>
+							<span class="h-1.5 w-1.5 animate-bounce rounded-full bg-muted [animation-delay:150ms]"></span>
+							<span class="h-1.5 w-1.5 animate-bounce rounded-full bg-muted [animation-delay:300ms]"></span>
+						</div>
+					</div>
+				</div>
+			{/if}
+		</div>
+
+		<!-- Input -->
+		<form onsubmit={(e) => { e.preventDefault(); sendChat(); }} class="border-t border-rule p-3">
+			<div class="flex gap-2">
+				<input
+					type="text"
+					bind:value={chatInput}
+					placeholder="Ask about this reading..."
+					disabled={chatLoading}
+					class="flex-1 border border-rule bg-dark px-3 py-2 text-sm text-white outline-none placeholder:text-muted focus:border-muted disabled:opacity-50"
+				/>
+				<button
+					type="submit"
+					disabled={!chatInput.trim() || chatLoading}
+					class="border border-rule px-3 py-2 text-xs text-muted transition-colors hover:border-muted hover:text-light uppercase disabled:opacity-30"
+				>
+					Send
+				</button>
+			</div>
+		</form>
 	{/if}
 {/snippet}

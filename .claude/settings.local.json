@@ -33,7 +33,8 @@
       "Bash(/tmp/marker-env/bin/marker_single \"PDFs/Mark Fisher, SF Capital.pdf\" --output_dir /tmp/marker-test)",
       "Bash(/tmp/marker-env/bin/marker \"PDFs/\" --output_dir /tmp/marker-all --workers 2)",
       "Bash(find:*)",
-      "Bash(/tmp/marker-env/bin/marker_single \"PDFs/Tiqqun - The Cybernetic Hypothesis \\(2001\\).pdf\" --output_dir /tmp/marker-retry)"
+      "Bash(/tmp/marker-env/bin/marker_single \"PDFs/Tiqqun - The Cybernetic Hypothesis \\(2001\\).pdf\" --output_dir /tmp/marker-retry)",
+      "Bash(grep -n \"chatContent\" /Users/arielklevecz/pandaemonium-architecture/src/routes/reading/[slug]/+page.svelte)"
     ]
   }
 }
