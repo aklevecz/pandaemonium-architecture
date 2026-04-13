@@ -20,12 +20,13 @@ on the site.
 
 ## What's here
 
-| File | What it's for |
+| Path | What it's for |
 | --- | --- |
-| [`01-conceptual-frame.md`](./01-conceptual-frame.md) | Four operative terms the lab organizes around, each anchored in a specific course text. This is the theoretical spine. |
+| [`01-conceptual-frame.md`](./01-conceptual-frame.md) | Four operative terms the lab organizes around, each anchored in a specific course text. The theoretical spine. |
 | [`02-lab-arc.md`](./02-lab-arc.md) | Week-by-week mapping: seminar topic → lab stance → paired text → what students make. Project milestones. |
-| [`03-reading-digests.md`](./03-reading-digests.md) | Quote-anchored notes on the readings most relevant to lab design, so I don't have to re-read every time a question comes up. |
-| [`04-open-questions.md`](./04-open-questions.md) | Design decisions that still need to be made before any of this gets built as a page. |
+| [`03-reading-digests.md`](./03-reading-digests.md) | Index of every reading digest + cross-cutting themes + recommended reading order for the TA. |
+| [`04-open-questions.md`](./04-open-questions.md) | Design decisions that still need to be made before any of this becomes a page on the site. |
+| [`readings/`](./readings/) | One digest file per assigned reading (~70 files). Each has a 2–4 sentence summary, 3–6 quote-anchored passages, a "why it's in the course" note, and its relevance to the four-stance lab frame. |
 
 ## Working principle
 
@@ -34,22 +35,20 @@ toward the apparatus of AI/ML. The tools (Colab, Cursor, Runway, Godot) are
 occasions for the stances, not the point of the lab. The readings tell us
 what the stances should be.
 
-## What I read, fully or in substantial part
+## Reading coverage
 
-- Full: syllabus markdown; Zepke intro to *Art as Abstract Machine*.
-- Substantial: Diederichsen *On (Surplus) Value In Art* (~first third);
-  Nguyen *Games: Agency as Art* (ch. 1); Barad *Agential Realism* (through
-  the apparatus section); Brunton & Nissenbaum *Obfuscation* (intro + core
-  cases); Schüll *Addiction by Design* (intro); Tiqqun *Cybernetic Hypothesis*
-  (first ~160 lines + load-bearing quotes via subagent).
-- Quote-anchored pass: Benzel's five notes (Duchamp, Thinking Machine
-  Imaginaries, New Memory, Polybius, Foxacid) via subagent digest.
+Every reading in the syllabus now has its own digest file in `readings/`.
+Digests were produced by a mix of direct reads and subagent batches; all
+use real line-cited quotes (no paraphrase or synthesis).
 
-## What I have NOT read
-
-Fisher *SF Capital*; Hoffman *Interface Theory*; Bostrom *Simulation*;
-Shullenberger; Millar; Roden; Bratton; Colquhoun; Baudrillard; Elkus; Quicho;
-Seu; Hadnagy; McQuillan (beyond epigraph); Jacques (beyond Benzel's citation);
-Bonabeau; qntm (the full novel); Asparouhova; Nakamoto; Baldessarre. Most of
-these are seminar-side theory rather than lab-frame texts, so their absence
-probably doesn't change the lab arc — but I'll say so if it does.
+Known gaps and caveats — see `03-reading-digests.md` for the full list:
+- `readings/week-12/additional-vogt-rituals-of-reversal.md` — the markdown
+  file in the repo is corrupted (only repeating bibliographic citations);
+  the R2 public dev URL returns 403 and the De Gruyter journal page is
+  paywalled. Vogt's text needs to be re-sourced elsewhere.
+- Four readings in `readings/uncategorized/` — Malabou, Brusseau, Wei,
+  and (per W1 blurb) Rombach — do not have explicit week assignments in
+  the syllabus. My best-guess placements are in each digest; confirm
+  with Scott.
+- Zero HP Lovecraft's *The Gig Economy* is assigned but its author has
+  a far-right online following. Flag for students.

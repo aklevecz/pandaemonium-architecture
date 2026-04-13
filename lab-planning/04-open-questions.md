@@ -158,3 +158,35 @@ planning docs but blocking the final text on the page.
 - Tools are agnostic, so no week's lab prescribes a specific product.
 - The lab is not engineering training — already baked into the four-
   stance frame.
+
+## Readings status — resolved
+
+Item 13 in earlier drafts listed readings I still needed to cover.
+All are now covered: `readings/` contains one digest per assigned text,
+with quote-anchored passages. See `03-reading-digests.md` for the
+index and recommended reading order.
+
+## New open questions discovered during the reading pass
+
+- **Vogt PDF.** The markdown copy is corrupted. The PDF on R2 is not
+  publicly reachable from here (403). The De Gruyter journal page is
+  paywalled. Does Scott have a copy of the essay text we can use?
+  The homepage epigraph is all we can cite reliably right now.
+- **Uncategorized readings.** Four texts in `markdown/` (and `markdown/
+  additional_reading_primary_documents/`) don't have a clear week
+  assignment: Malabou, Brusseau, Wei, and potentially Rombach. Each
+  digest names my best guess; need Scott's confirmation.
+- **Zero HP Lovecraft's politics.** Text is assigned. Author has a
+  far-right online following. Is the intention to flag this to
+  students? Or does Scott prefer to leave the reading unframed?
+- **Grosser's redacted manifesto as project exemplar.** I'm
+  positioning this (in `01-conceptual-frame.md`) as one of three named
+  project modes. Scott should sign off — it's a strong stance for a
+  one-semester class.
+- **Matheny's Incunabula as the W6 paired exemplar.** My guess, not in
+  the syllabus as explicitly paired. Could also live under W11 (ARGs,
+  conspiracy). Confirm.
+- **GNET + Brunton/Nissenbaum tension in W11.** I'm proposing a
+  critique question — "whose side is your fog on?" — as the W11 lab
+  prompt. This is a strong pedagogical move that I invented; Scott
+  may want it framed differently or not at all.

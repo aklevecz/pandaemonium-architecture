@@ -139,6 +139,24 @@ the source: the Magritte-suited mob in *Thomas Crown Affair*, the
 Anonymous Guy Fawkes mask, "I am Spartacus." The reversal vocabulary is
 already an art vocabulary.
 
+### Adjacent vocabulary in other course readings
+
+The reversal stance is not one word. Several readings across the course
+cluster under it and can substitute as the organizing term for a given
+project:
+
+- **Fog / zones of offensive opacity** — Tiqqun (intro)
+- **Obfuscation** — Brunton & Nissenbaum (W11), with practical taxonomy
+- **Ritual of reversal** — Vogt (W12 additional — epigraph)
+- **Seeking the outside** — Colquhoun on Fisher (W4)
+- **Subtraction** — Roden (W13)
+- **Shattering the globe** — Colebrook (W13 additional)
+- **Counter-algorithmic work** — Doctorow, *Chickenized Reverse-Centaurs* (W7)
+- **Vaporware / art-as-rumor / RumINT** — Benzel, *Polybius* note (W5)
+
+All land in the same place. The lab page should present them as a
+family; students pick the term that fits.
+
 ---
 
 ## How the four hold together
@@ -153,6 +171,47 @@ piece of student work can be analyzed through all four:
 
 These are also the four questions a critique can ask. They are the
 ground for everything in `02-lab-arc.md`.
+
+## Exemplars from the course
+
+Three items in the syllabus are themselves *finished work* that students
+can study as project models:
+
+- **Ben Grosser's redacted Andreessen manifesto** (W2 additional) —
+  takes the a16z *Techno-Optimist Manifesto* and deletes almost
+  everything, leaving only the Futurist-conquest residue. Archetypal
+  Reversal move. A single-pass transformation whose art-coefficient
+  (Duchamp) emerges from what the redactor chose to leave visible.
+- **Joseph Matheny's *Incunabula Papers*** (W6 additional — likely) —
+  catalog as art-object. The "bibliography of dimensional travel"
+  performs the paranoia of hidden knowledge. Archetypal Loading move:
+  what the catalog chooses to include is the work.
+- **Benzel's *Polybius* note** (W5, Scott's own) — legitimizes
+  art-as-rumor. A project need not fully exist to circulate as a work.
+  Archetypal Opacity move.
+
+Any of these could anchor a final project without the student having
+to use a single AI tool. The apparatus they bind to can be the
+manifesto genre, the bibliography, or the rumor itself.
+
+## A note on Selfridge and the course's title
+
+The course name comes from Selfridge's 1958 paper, *Pandemonium: A
+Paradigm For Learning*, a pattern-recognition architecture in which
+"demons" shriek features at each other until a decision demon picks
+the loudest. At the symposium where Selfridge gave the paper, John
+McCarthy said something worth keeping: *"If one conceives of the brain
+as a pandemonium — a collection of demons — perhaps what is going on
+within the demons can be regarded as the unconscious part of thought,
+and what the demons are publicly shouting for each other to hear, as
+the conscious part of thought."* (Selfridge discussion, line 207)
+
+This lets the title do double work. "Pandaemonium architecture" is
+both the ML architecture the course critiques *and* a possible model
+of how students' own thinking happens in the lab: a parallel chorus of
+demons, shouting about the apparatus, until a decision rises. The lab
+wants students to hear their own demons shrieking, not just the ones
+the apparatus pre-loaded.
 
 ## What I deliberately did not include
 
