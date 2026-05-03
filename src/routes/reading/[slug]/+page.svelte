@@ -279,11 +279,27 @@
 		if (res.ok) conversations = await res.json();
 	}
 
+	let conversationLoading = $state(false);
+	const inActiveView = $derived(
+		activeConversationId !== null || chatMessages.length > 0 || chatLoading || conversationLoading
+	);
+	function backToConversationList() {
+		activeConversationId = null;
+		chatMessages = [];
+		chatSelectedText = '';
+	}
+
 	async function loadConversation(id: number) {
 		activeConversationId = id;
-		const res = await fetch(`/api/chat?id=${id}`);
-		if (res.ok) chatMessages = await res.json();
-		scrollChat();
+		chatMessages = [];
+		conversationLoading = true;
+		try {
+			const res = await fetch(`/api/chat?id=${id}`);
+			if (res.ok) chatMessages = await res.json();
+		} finally {
+			conversationLoading = false;
+			scrollChat();
+		}
 	}
 
 	async function sendChat() {
@@ -333,13 +349,18 @@
 		activeConversationId = null;
 		chatMessages = [];
 		chatSelectedText = selectedText || '';
-		chatOpen = true;
 		if (selectedText) {
 			const truncated = selectedText.length > 150
 				? selectedText.slice(0, 150) + '...'
 				: selectedText;
 			chatInput = `Explain this passage: "${truncated}"`;
-			requestAnimationFrame(() => sendChat());
+			// Open panel and fire sendChat in the same tick so the user sees
+			// their message + thinking indicator immediately, with no flash of
+			// the conversation list.
+			chatOpen = true;
+			sendChat();
+		} else {
+			chatOpen = true;
 		}
 		fetchConversations();
 	}
@@ -541,8 +562,8 @@
 	{#if isMobile}
 		<div class="fixed inset-0 z-40 flex flex-col bg-black">
 			<div class="flex items-center justify-between border-b border-rule px-4 py-3">
-				{#if activeConversationId}
-					<button onclick={() => { activeConversationId = null; chatMessages = []; }} class="text-xs text-muted hover:text-light">&larr; Back</button>
+				{#if inActiveView}
+					<button onclick={backToConversationList} class="text-xs text-muted hover:text-light">&larr; Back</button>
 				{:else}
 					<p class="text-xs tracking-widest text-muted uppercase">Chat</p>
 				{/if}
@@ -553,8 +574,8 @@
 	{:else}
 		<aside class="fixed top-[57px] right-0 bottom-0 z-40 flex w-80 flex-col border-l border-rule bg-black">
 			<div class="flex items-center justify-between border-b border-rule px-4 py-3">
-				{#if activeConversationId}
-					<button onclick={() => { activeConversationId = null; chatMessages = []; }} class="text-xs text-muted hover:text-light">&larr; Conversations</button>
+				{#if inActiveView}
+					<button onclick={backToConversationList} class="text-xs text-muted hover:text-light">&larr; Conversations</button>
 				{:else}
 					<p class="text-xs tracking-widest text-muted uppercase">Chat</p>
 				{/if}
@@ -681,7 +702,7 @@
 {/snippet}
 
 {#snippet chatContent()}
-	{#if activeConversationId === null}
+	{#if !inActiveView}
 		<!-- Conversation list -->
 		<div class="flex-1 overflow-y-auto p-4">
 			<button
@@ -717,6 +738,13 @@
 	{:else}
 		<!-- Active conversation -->
 		<div bind:this={chatEl} class="flex-1 overflow-y-auto p-4">
+			{#if conversationLoading && chatMessages.length === 0}
+				<div class="space-y-3">
+					{#each [80, 60, 90, 70] as w}
+						<div class="h-3 animate-pulse rounded bg-rule/40" style="width: {w}%"></div>
+					{/each}
+				</div>
+			{/if}
 			{#each chatMessages as msg, i (i)}
 				<div class="mb-4 {msg.role === 'user' ? 'text-right' : ''}">
 					<div class="inline-block max-w-[90%] rounded-lg px-3 py-2 text-left {msg.role === 'user' ? 'bg-rule/50 text-light' : 'bg-dark text-gray'}">
@@ -733,6 +761,7 @@
 			{#if chatLoading}
 				<div class="mb-4">
 					<div class="inline-flex items-center gap-2 rounded-lg bg-dark px-4 py-3">
+						<span class="text-xs text-muted">Thinking</span>
 						<div class="flex gap-1">
 							<span class="h-1.5 w-1.5 animate-bounce rounded-full bg-muted [animation-delay:0ms]"></span>
 							<span class="h-1.5 w-1.5 animate-bounce rounded-full bg-muted [animation-delay:150ms]"></span>
