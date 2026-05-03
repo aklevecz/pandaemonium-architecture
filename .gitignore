@@ -3,16 +3,16 @@ node_modules
 # PDFs (served from R2)
 PDFs/
 
-# Generated reading content (run `node scripts/generate-readings.js` to regenerate)
-src/lib/data/reading-content.ts
+# Generated per-slug reading markdown (run `node scripts/generate-readings.js`
+# or `npm run build` to regenerate; served as static assets at /reading-content/...)
+static/reading-content/
 
 # PDF pipeline scratch (per-PDF metadata, page renders, raw OCR, VLM outputs)
 work/
 
-# Figures extracted from PDFs by scripts/pdf-pipeline/figures.js. Generated
-# locally for the dev reader; production should serve these from R2 instead
-# (mirrors the pattern in scripts/upload-pdfs.sh — TODO: upload-figures.sh).
-static/figures/
+# (Figures extracted from PDFs are staged under work/<slug>/figures/ — see
+# scripts/pdf-pipeline/figures.js — and uploaded to R2 by upload-figures.sh.
+# They never enter static/, so the Worker deploy doesn't ship duplicates.)
 
 # Output
 .output
