@@ -272,7 +272,7 @@ Therefore, the formal order of self-consciousness (the logical *I=I*) first and 
 
 If we treat *I* and *I\** as objects with their respective identity maps, then *I=I\** is really:
 
-![A diagram showing a mapping from I to I*](/figures/reza-negarestani-from-intelligence-and-spirit/p33-i1.png)
+![A diagram showing a mapping from I to I*](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/reza-negarestani-from-intelligence-and-spirit/p33-i1.png)
 > **Figure text:** I —f—> I*
 
 meaning that *I* (formal self-consciousness) is the identity map of the domain *I\** (concrete self-consciousness or the assertion that there is reality in excess of the self or mind) and *I\** is the identity map of the codomain of *I* (the freedom of self-consciousness as conceived from a reality that is of nowhere and nowhen, a concrete freedom in which self-consciousness only exists in every respect for another self-consciousness). It then universally and necessarily follows that:

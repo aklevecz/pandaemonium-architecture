@@ -1,4 +1,4 @@
-![National Security Agency seal](/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/p1-i1.jpg)
+![National Security Agency seal](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/p1-i1.jpg)
 > **Figure text:** NATIONAL SECURITY AGENCY
 > FORT GEORGE G. MEADE, MARYLAND 20755-6000
 

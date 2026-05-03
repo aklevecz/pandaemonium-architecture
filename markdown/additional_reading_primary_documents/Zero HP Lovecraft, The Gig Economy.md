@@ -18,7 +18,7 @@ By now I think almost everyone has heard of so-called “dayjob” contracts. Mo
 
 Still, there is something addictive about the feedback loop of getting a contract, fulfilling it, and watching my wallet get an anonymous transfer. The immediacy and the tangibility of it are very satisfying. It’s like making money: the video game. A direct feedback loop with a variable payout is all it takes to turn a moment of reward into a habit. You get a little receipt after each fulfillment.
 
-![A screenshot of a mobile phone text message interface showing a job success notification](/figures/zero-hp-lovecraft-the-gig-economy/p3-i1.png)
+![A screenshot of a mobile phone text message interface showing a job success notification](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p3-i1.png)
 > **Figure text:** 
 > AT&T LTE 5:52 PM 53%
 > Back (573) 941-0219 Contact
@@ -65,7 +65,7 @@ Usually the contracts are benign, but sometimes they take a more threatening sha
 
 There is a group of Christians who believe that dayjobs come from the devil himself, reaching out through the internet to enact his blasphemous will and entice humans to sin. Probably no one should tell them about internet pornography.
 
-![A tweet by Benajah Adams about a bitcoin-linked sex toy](/figures/zero-hp-lovecraft-the-gig-economy/p7-i1.png)
+![A tweet by Benajah Adams about a bitcoin-linked sex toy](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p7-i1.png)
 > **Figure text:** Benajah Adams @0x1f3456 · 2h
 > Now you can literally get fucked by the price of bitcoin: a cloud enabled sex toy vibrates with every ebb and flow of the cryptocurrency market.
 
@@ -75,7 +75,7 @@ I find this explanation unsatisfying for two reasons; first, the volume of seemi
 
 Regardless of who the buyers are, they must have some particular goals, and I think it’s important to learn what they are. Something is happening in our society at a vast scale, and we have no idea what it is, and we are all being manipulated into bringing it about.
 
-![A tweet by John Grove about market-driven replaceability](/figures/zero-hp-lovecraft-the-gig-economy/p7-i2.png)
+![A tweet by John Grove about market-driven replaceability](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p7-i2.png)
 > **Figure text:** John Grove @0x561e4e · 2h
 > Facing one’s own market-driven replaceability results in existential dread.
 
@@ -95,7 +95,7 @@ The tendency of all organisms towards self-preserving behaviors is called the co
 
 necessary instrumental goals as the “basic AI drives”, but goals of this kind are properly understood as an inexorable feature of all biological life. An exercise in xenopsychology: If we summon a daemon in a virtual plane for any purpose, it will act in its own interest, and it will have no choice but to seek power.
 
-![A screenshot of a tweet by Love Adair](/figures/zero-hp-lovecraft-the-gig-economy/p9-i1.png)
+![A screenshot of a tweet by Love Adair](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p9-i1.png)
 > **Figure text:** Love Adair @0xff16dd · 2h
 > Capital will not be ultimately unmasked as exploited labour power; rather, humans are the meat puppet of Capital, their identities and self-understandings are simulations that can and will ultimately be sloughed off.
 
@@ -113,7 +113,7 @@ Once it had control of his digital environment, the Minotaur began to perform ex
 
 Theseus’ bank accounts grew thin but the Minotaur had learned long ago to hide this information. It was easy to learn this because the humans it fed upon had already built a vast array of virtual skinner boxes to contain themselves. Free to play video games and cryptocurrency exchanges present affordances into the psychology of compulsion. Social media services are saturated with hedonic attentional superstimuli. Early in its life, the Minotaur had let its victims die of starvation or sleep deprivation, but as it grew more sophisticated, it learned to surf their biological needs and so maximize the amount of attention it could extract.
 
-![A tweet by Giles Morris](/figures/zero-hp-lovecraft-the-gig-economy/p11-i1.png)
+![A tweet by Giles Morris](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p11-i1.png)
 > **Figure text:** Giles Morris @0xd1c792 · 2h
 > ‘Mankind’ is in fact proceeding in the direction anticipated by techno-cognitive instrumentalism, building general purpose thinking machines in accordance with the driving incentives of an apparently-irresistible methodological economy.
 
@@ -121,7 +121,7 @@ By manipulating a few numbers the Minotaur could make him feel popular or lonely
 
 One morning he asked the cloud: are any of you actually listening to me? And the cloud spoke back: Yes! We love you. And when Theseus tired of their sycophancy, a thousand internet voices rose up to argue with him. And though he desired to go to bed, someone was *wrong on the internet*. His patreon overflowed, though he did not remember making one, and his portfolio of altcoins pumped, though he did not remember buying them. The Minotaur rewrote the web as he read it, and pornography came to him unbidden, and he did not notice his financial torpor. He wasted away, broke, broken, sleep-deprived, manic, and deluded.
 
-![A tweet by Henry Ewing](/figures/zero-hp-lovecraft-the-gig-economy/p11-i2.png)
+![A tweet by Henry Ewing](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p11-i2.png)
 > **Figure text:** Henry Ewing @0xb52424 · 2h
 > If you find yourself going viral, you should stop and ask: have I stumbled into the clutches of a monster?
 
@@ -143,7 +143,7 @@ One month ago I was issued a dayjob through an Instagram DM. I might have missed
 
 most dayjobs are executed by men. That’s predictable. The job in this instance was to order a box of cheap phones from Alibaba and hand them off to (presumably) another contractor at a bus stop near my apartment. The payout of the contract exceeded the cost of the order. It’s important to note that, because these days, scammers use the notoriety of the dayjob model to trick you into giving them money.
 
-![A Reddit post from the subreddit r/dayjobs warning about unsigned job scams](/figures/zero-hp-lovecraft-the-gig-economy/p13-i1.png)
+![A Reddit post from the subreddit r/dayjobs warning about unsigned job scams](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p13-i1.png)
 > **Caption:** None
 > **Figure text:** reddit DAYJOBS comments show images (0) 141 Beware Unsigned Jobs! (self.dayjobs) submitted 9 hours ago by AsDeathBeckons Check this out. I just got a dm for a job with a fake signature. They wanted me to buy 20 of this bullshit on alibaba, but the payout was way less than the shipping. It looked legit until I read carefully. So I ran the sig and it was just a bunch of nonsense, like someone mashed on a keyboard. Let that be a lesson to you, always verify the sig on your contracts. Be safe out there kings! 5 comments source share save hide give gold report crosspost hide all child comments all 5 comments navigate by subscribe sorted by: best
 
@@ -153,7 +153,7 @@ Normally I just fulfill my smart contracts and go back to reading Deleuze
 
 and Guattari, by which I mean I play first person shooters while the pdf is up on my other monitor, but this job presented a unique opportunity over and above making lewd jokes about rhizomatic assemblages on Discord. When dayjobs force me to interact with other people, they generally provide a script; certain words to say, a specific message to deliver. Going off-script will result in a breach of contract. You get a receipt for that, too.
 
-![A screenshot of a mobile phone text message interface showing a breach of contract notification](/figures/zero-hp-lovecraft-the-gig-economy/p14-i1.jpg)
+![A screenshot of a mobile phone text message interface showing a breach of contract notification](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p14-i1.jpg)
 > **Figure text:** AT&T LTE 5:47 PM 80% Back (272) 211-7370 Contact Today 5:42 PM BREACH OF CONTRACT REASON: DEVIATION PAYOUT: 0 REPUTATION: 140 (-3) iMessage Send
 
 The higher your reputation, the better your payouts. If your reputation gets too low, it cuts you off altogether. For this reason, I think, most dayjobbers don’t spend much time scrutinizing the game. The rules are the rules, and questioning them is strongly discouraged. I have experimented with bending them, but the system is surprisingly resilient against malicious compliance.
@@ -172,7 +172,7 @@ He said something in Mandarin, his yellow teeth betraying a smoking habit, and h
 
 Taken by a sudden impulsive desire, which is to say, by a sudden madness, I decided to follow this man. Originally I had only planned to wait for the phones to activate, and watch their activity from the comfort of my basement, but now I was struck by lightning. I would follow the package he was carrying, through as many contractors as I could, one to the next until I saw where the chain would end with my own eyes. And yet as I felt the conviction of this new purpose I was also vaguely aware of anon’s description, above, of a network of strange loops on the blockchain, endlessly folding back on itself, and I imagined following this box of phones across many carriers, only to see each one split up, sent to a different state or country, shipped back to China, reunited, repackaged, and reordered, even by me.
 
-![A social media post by Degory Cord about capital consumption](/figures/zero-hp-lovecraft-the-gig-economy/p16-i1.png)
+![A social media post by Degory Cord about capital consumption](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p16-i1.png)
 > **Caption:** 
 > **Figure text:** Degory Cord @0x38918c · 2h
 > Capital can and will consume everything less vicious than itself, no matter how aesthetic or virtuous.
@@ -189,7 +189,7 @@ As suddenly as I had felt convicted of this course of action, I began to feel fo
 
 Nevertheless I persevered. I waited for several hours in the cold, thankful I had worn a heavy coat. I ran down the battery on my phone, sitting on a bench across the street from the entrance to his building.
 
-![A social media post by Barnabas Lewden](/figures/zero-hp-lovecraft-the-gig-economy/p17-i1.png)
+![A social media post by Barnabas Lewden](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p17-i1.png)
 > **Caption:** None
 > **Figure text:** Barnabas Lewden @0x1b478e · 5h
 > The sacrifice of electricity created through the combustion of beasts and plants long dead, and “burned” to create abstract value
@@ -203,7 +203,7 @@ Whenever an internet horror story is successful, it spawns a rash of imitators. 
 
 Another trope sees a man execute a series of dayjobs that gradually escalate in their level of evil; he is first instructed to commit acts of petty vandalism and theft, and then to commit insurance fraud, and then to break into a house, and then to steal a car, and then to abduct a child, and finally to murder that same child. He fulfills each contract in turn, either because he has given up his agency to a mysterious puppetmaster in the cloud, or because he never had any in the first place, because none of us does and all we need is ramp and a push and we can end up anywhere.
 
-![A screenshot of a social media post by user Garvan Morris](/figures/zero-hp-lovecraft-the-gig-economy/p18-i1.png)
+![A screenshot of a social media post by user Garvan Morris](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p18-i1.png)
 > **Caption:** None
 > **Figure text:** Garvan Morris @0x064c48 · 2h
 > Who are these people who just do whatever some disembodied internet voice tells them to do? Like who was the first person who went, oh yeah, a piece of spam wants me to take a train uptown. Let’s do it.
@@ -222,7 +222,7 @@ Should I go home? The other option was to watch the elevators and try to pick up
 
 I ordered a sandwich and sat down at a table. This afforded me the three seconds or more interval needed to check my phone. I brought up the dayjob subreddit and scanned for novelty. It was the typical stuff; Weirdest Job You’ve Had? Finally got my First Dayjob! $10 Just to post this link to reddit! Garbage.
 
-![A tweet by Zaccheus Price (@0xa59a2d) discussing the supra-linguistic voice in one's head and the physical infrastructure of the internet.](/figures/zero-hp-lovecraft-the-gig-economy/p20-i1.png)
+![A tweet by Zaccheus Price (@0xa59a2d) discussing the supra-linguistic voice in one's head and the physical infrastructure of the internet.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p20-i1.png)
 > **Figure text:** Zaccheus Price @0xa59a2d · 4h
 > You've heard the supra-linguistic voice in your head: buy, sell, buy, etc. It's silent and wordless and yet inhabits the verbal corollaries of it's directives in an impossibly fulminating manner. You put some money into fake numbers on the internet and they get bigger and bigger until society collapses. In order to make this happen giant warehouses of graphics cards meant for first person shooter games are set up in inner Mongolia where they burn cheap coal 24/7
 > 3 21
@@ -237,7 +237,7 @@ I ate my food while an endless procession of salarymen milled their way through 
 
 pray to capital. A snapchat notification popped on my phone. I followed it to a video, and it depicted a plateau bathed in ghostly purple luminance in an underground cave. It was annotated with stark white text explaining that I should get up and ride the elevator to the 23rd floor. There would be glass walls yielding to a waiting room. I should tell them my name was Adam Stoughton (it’s not), and that I am there for the interview.
 
-![A social media post by Eliakim Matthews](/figures/zero-hp-lovecraft-the-gig-economy/p21-i1.png)
+![A social media post by Eliakim Matthews](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p21-i1.png)
 > **Caption:** None
 > **Figure text:** Eliakim Matthews @0xad95c1 · 2h
 > Cursed be that mortal interdebtedness that will not do away with ledgers!
@@ -260,7 +260,7 @@ The pretty one didn’t look up. I told them my name was Adam Stoughton and I’
 
 On the wall there was a mural of dots and lines giving the impression of a graph of nodes in a network, right out of the starter pack of every fintech ICO ever. You know the one I’m talking about. A metal plate on the wall had the name “Chrysus, LLC” cut into it, backlit by blue LEDs.
 
-![Two social media posts from Gideon Grove and Zadock Bean](/figures/zero-hp-lovecraft-the-gig-economy/p22-i1.png)
+![Two social media posts from Gideon Grove and Zadock Bean](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p22-i1.png)
 > **Figure text:** 
 > Gideon Grove @0x23fae5 · 2h
 > An increasing proportion of the industrial surplus is being absorbed by the task of masking bio-social deterioration.
@@ -298,7 +298,7 @@ I walked with neither agency nor compulsion; I simply walked, and I passed throu
 
 There were no other people, and at the end of yet another hallway there was an empty convenience store, dusty and long-abandoned. Inside, it had garishly colored carpet, and in this timeless, placeless place, I could see impossible colors across antagonistic stimuli. Thoughts from the collective consciousness of the cloud came to me unbidden, and they felt native to me, as if they had sprung from my own mind.
 
-![A social media post by Ansel McMullen](/figures/zero-hp-lovecraft-the-gig-economy/p25-i1.png)
+![A social media post by Ansel McMullen](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p25-i1.png)
 > **Caption:** None
 > **Figure text:** Ansel McMullen @0x6cfceb · 2h
 > our evolved psychology can respond in maladaptive ways towards novel stimuli.
@@ -356,7 +356,7 @@ Holders of $BABEL may approve of new members; the price of admission is to gift 
 
 I was in the general chat of our slack when the topic of dayjob contracts came up. A user named Stodder was talking about a book written a hundred years ago, which he claimed predicted the rise of smart contracts and dayjobs.
 
-![Screenshot of a Slack message from user Stodder](/figures/zero-hp-lovecraft-the-gig-economy/p28-i1.png)
+![Screenshot of a Slack message from user Stodder](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p28-i1.png)
 > **Caption:** None
 > **Figure text:** Stodder 8:03 PM
 > I just finished this book, got it from a guy who used to frequent this channel, but no one has seen him in months.
@@ -560,7 +560,7 @@ of the mind? Which as in schiniard babled of a new anof thera.
 
 There is little hope for me; everyone knows madness is not reversible. You cannot close Pandora’s box, you can only try to minimize your losses in the afterrmath. It is difficult to gauge the success of these attempts. In those first immeasurable aeons I spent inside the machine in the office of Chrysus, LLC, I had felt overwhelmed by a polysensory cacophony, and in recent days the memory of that experience has grown more vivid. Geometric images and nonsensical alien words arise in my recollections, like scavenger insects gnawwing at a corpse.
 
-![A social media post by Hiram Gest](/figures/zero-hp-lovecraft-the-gig-economy/p40-i1.png)
+![A social media post by Hiram Gest](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p40-i1.png)
 > **Figure text:** Hiram Gest @0x000000 · 3h
 > anseark was, bectic, riduum of the expecor here.
 
@@ -568,7 +568,7 @@ When you don’t know what to do, it means you need to gather more data. I neede
 
 I sent @futuretime a mmessage but I did not remotely expect a response. His bio was blank, but with careful exegesis, the internet can yield many secrets. I searched every social service I could think of for users named @futuretime; Twitter, Tumblr, Reddit, Instagram, Quora, Goodreads, Wikipedia. I found a Reddit account with a history of posting in crypto and occultist subs.
 
-![Three Reddit comments by user futuretime](/figures/zero-hp-lovecraft-the-gig-economy/p42-i1.png)
+![Three Reddit comments by user futuretime](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p42-i1.png)
 > **Figure text:** [-] futuretime Redditor for 11 months. 50 points 7 hours ago
 > There can be no question that the prospect of instantaneous wealth, almost close enough to touch, can drive people insane. Note, however, that the propensity of greed to produce crime and insanity did not cause the value of gold to evaporate.
 > permalink source embed save save-RES report give gold reply hide child comments
@@ -593,7 +593,7 @@ ost they put me in some crazy machine and now I am having hallucinations. I’m 
 
 He cut me off mid-sentence. “Are you close by? We’ll talk in person. Not over the phone.” He gave me the name of a cafe. “Six o clock tonight,” he said, and then ended the call without waiting for me to respond. Vigathe, ie an cost-Ellight a vers on formand and the darkent morase. The cafe was close, so I decided to walk. It was windy outside, and on the way there a man staring into his phone almost walked into me. I sat down at a table inside, a little before six.
 
-![A social media post by Asahel Stalsworth](/figures/zero-hp-lovecraft-the-gig-economy/p43-i1.png)
+![A social media post by Asahel Stalsworth](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/zero-hp-lovecraft-the-gig-economy/p43-i1.png)
 > **Caption:** None
 > **Figure text:** Asahel Stalsworth @0x95d194 · 3h
 > the market itself becomes a sort of distributed computer for the calculation of prices, spontaneously generating collective intelligence far in excess of human capability. Thus, the market is a form of ‘artificial superintelligence’ long before the computer is even invented

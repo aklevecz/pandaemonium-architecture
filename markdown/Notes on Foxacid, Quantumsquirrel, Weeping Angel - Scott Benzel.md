@@ -4,7 +4,7 @@ Notes on Cognitive Automata, Inducement, and Animal Spirits
 SCOTT BENZEL
 JUL 08, 2025
 
-![FOXACID slide from an NSA presentation featuring a cartoon of a squirrel in a barrel of acid and a can of SPAM](/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p1-i1.png)
+![FOXACID slide from an NSA presentation featuring a cartoon of a squirrel in a barrel of acid and a can of SPAM](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p1-i1.png)
 > **Caption:** FOXACID, TOP SECRET/COMINT/NOFORN
 > **Figure text:** TOP SECRET//COMINT//NOFORN FOXACID ROC ACID Nutrition Facts Serving Size: A Pack Amount Per Serving Calories 0 % Daily Value Total Fat 10g 20% Sadism 100% Total Cray 100% No mechanized panic other lubricants PLEASE RECYCLE POOP IN YOUR GARDEN SPAM made with FOX packed in ACID Derived From: NSA/CSSM 1-52 Dated: 20070108 Declassify On: 20291129 TOP SECRET//COMINT//NOFORN
 
@@ -14,7 +14,7 @@ desire to immobilize bodies that can only ever ‘be’ as representation." – 
 
 # The immobilization of bodies
 
-![A Weeping Angel statue from Doctor Who with its hands over its face, viewed from behind the shoulder of a person.](/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p2-i1.png)
+![A Weeping Angel statue from Doctor Who with its hands over its face, viewed from behind the shoulder of a person.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p2-i1.png)
 > **Caption:** Weeping Angel, Doctor Who, 2007
 
 “Things have found a way of avoiding a dialectic of meaning that was beginning to bore them." – Jean Baudrillard, *Fatal Strategies*
@@ -61,7 +61,7 @@ Weeping Angel functions as a didactic, a teaching tool– the lesson: *your devi
 
 activities, from robot design to the domestication of animals, suddenly come into relief when revealed as touched by its logic.” – Sianne Ngai, The Cute [^6]
 
-![FOXACID slide featuring a cartoon of a creature in an acid barrel and a SPAM can labeled with nutrition facts](/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p6-i1.png)
+![FOXACID slide featuring a cartoon of a creature in an acid barrel and a SPAM can labeled with nutrition facts](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p6-i1.png)
 > **Caption:** FOXACID, TOP SECRET/COMINT/NOFORN
 > **Figure text:** TOP SECRET//COMINT//NOFORN FOXACID ROC [Image of a globe and city skyline] [Left panel: Cartoon creature in a barrel labeled ACID] [Right panel: SPAM can with label: Nutrition Facts Serving Size: A Pack Amount Per Serving Calories 0 % Daily Value Total Fat 10g 20% Sadism 9 quarts 58% Total Craz 10g 100% [illegible text] PLEASE RECYCLE POOP IN YOUR GARDEN] [Text on right panel: SPAM made with FOX packed in ACID] Derived From: NSA/CSSM 1-52 Dated: 20070108 Declassify On: 20291129 TOP SECRET//COMINT//NOFORN
 
@@ -87,7 +87,7 @@ probabilities. [^7]
 
 # Quantumsquirrel: Psychic infrastructure to truly covert infrastructure
 
-![A slide titled (TS//SI//REL) QUANTUMSQUIRREL featuring a cartoon squirrel on a grid background](/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p8-i1.png)
+![A slide titled (TS//SI//REL) QUANTUMSQUIRREL featuring a cartoon squirrel on a grid background](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p8-i1.png)
 > **Caption:** Cutified “truly covert infrastructure, be any IP in the world
 > **Figure text:** (TS//SI//REL) QUANTUMSQUIRREL Truly covert infrastructure, be any IP in the world TOP SECRET//COMINT//REL TO USA, FVEY 20080108
 
@@ -101,7 +101,7 @@ With the pseudo-psi “synchronicities” of purloined data Möbius-looping betw
 
 # Just what is it that makes today’s “Strategy of Tension” so different, so appealing?
 
-![Richard Hamilton's collage Just What is It That Makes Today’s Homes So Different, So Appealing?](/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p10-i1.png)
+![Richard Hamilton's collage Just What is It That Makes Today’s Homes So Different, So Appealing?](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p10-i1.png)
 > **Caption:** Richard Hamilton, Just What is It That Makes Today’s Homes So Different, So Appealing?, 1966
 > **Figure text:** WARNER, ordinary cleaners reach only this far, POP, Ham
 
@@ -109,7 +109,7 @@ A Strategy of Tension is designed to improve on mere passivity or mild anxiety w
 
 opposite, like the gravitational blobbing of black-and-white on either side of the Technocracy Inc. logo (formerly the *yin-yang* minus the dots), a given target’s exterior calm increasingly tagged to interior tension and lack of resolve…
 
-![A sign for Technocracy Incorporated in a field](/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p11-i1.png)
+![A sign for Technocracy Incorporated in a field](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p11-i1.png)
 > **Caption:** Technocracy Incorporated
 > **Figure text:** SEC. I. R. D. 12342
 > TECHNOCRACY
@@ -171,7 +171,7 @@ Obfuscation, false tells, babble tapes, et al.
 
 ## Subscribe to Scott Benzel
 
-![Substack subscription form](/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p14-i1.jpg)
+![Substack subscription form](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-foxacid-quantumsquirrel-weeping-angel-scott-benzel/p14-i1.jpg)
 > **Figure text:** Type your email... Subscribe By subscribing, I agree to Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.
 
 © 2025 Scott Benzel ∙ Privacy ∙ Terms ∙ Collection notice

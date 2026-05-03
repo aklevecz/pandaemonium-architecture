@@ -24,7 +24,7 @@ Group chats are like social islands. As fast as the internet’s public highways
 
 Just as the Galapagos Islands gave Darwin a laboratory to observe natural selection in action, group chats offer a way for us to observe how ideas evolve in the context of dense networks. In his “Going Critical” essay, Kevin Simler attempts to model some of these dynamics in a simulation. One of his simulations depicts a few small, tightly clustered nodes (the “urban” environment), embedded in a larger, looser network (the “rural” environment).
 
-![Simulation of an idea-virus spreading through network nodes](/figures/nadia-asparouhova-from-antimemetics-why-some-ideas-resist-spread/p2-i1.jpg)
+![Simulation of an idea-virus spreading through network nodes](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/nadia-asparouhova-from-antimemetics-why-some-ideas-resist-spread/p2-i1.jpg)
 > **Caption:** Simulation of an idea-virus that starts in a looser network (left), spreads, and stabilizes, leaving only the denser networks infected (right).[^30]
 > **Figure text:** (None)
 
@@ -59,7 +59,7 @@ In the context of private online spaces, however, members are still exposed to o
 
 If we plot the *transmissibility* of an idea against its *impact*, or how consequential is, we can discern a more fine-grained taxonomy of the types of ideas that move through networks:
 
-![A 2x2 matrix diagram classifying cultural objects by impact and transmissibility](/figures/nadia-asparouhova-from-antimemetics-why-some-ideas-resist-spread/p5-i1.jpg)
+![A 2x2 matrix diagram classifying cultural objects by impact and transmissibility](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/nadia-asparouhova-from-antimemetics-why-some-ideas-resist-spread/p5-i1.jpg)
 > **Figure text:** 
 > high impact
 > antimeme

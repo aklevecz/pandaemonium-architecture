@@ -38,7 +38,7 @@ In his 1957 “Creative Act” lecture, Marcel Duchamp established the concept o
 
 ment” (https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/index.shtml).
 
-![A star-shaped diagram titled "Søren Brier’s Cybersemiotic Star" with four poles: LIVING SYSTEMS, EXPERIENTIAL CONSCIOUSNESS, SOCIAL MEANING, and MATTER/ENERGY. The center contains a circle with the words "LANGUAGE" and "CONSCIOUSNESS" and "SOCIAL SEMIOTIC PRACTICES".](/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p4-i1.jpg)
+![A star-shaped diagram titled "Søren Brier’s Cybersemiotic Star" with four poles: LIVING SYSTEMS, EXPERIENTIAL CONSCIOUSNESS, SOCIAL MEANING, and MATTER/ENERGY. The center contains a circle with the words "LANGUAGE" and "CONSCIOUSNESS" and "SOCIAL SEMIOTIC PRACTICES".](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p4-i1.jpg)
 > **Caption:** Fig. 10.1 Søren Brier’s Cybersemiotic Star (2008, redesigned by Jacques in 2013). (Used with permission)
 > **Figure text:** LIVING SYSTEMS; EXPERIENTIAL CONSCIOUSNESS; KANTIAN WHOLES AND AGENCY (S. KAUFFMAN); ORGANIC EVOLUTION; EXPERIENTIAL CONSCIOUSNESS; CHOICE BASED PERSONAL DEVELOPMENT (MERLEAU-PONTY); LIVING EMBODIMENT; INNER MENTAL WORLD; LANGUAGE; CONSCIOUSNESS; SOCIAL SEMIOTIC PRACTICES; PHYSICAL NATURE; THE OTHER LANGUAGE; BIG BANG COSMOLOGY; HISTORY OF CULTURE; NON-ERGOTIC AND NON-EQUILIBRIUM (PRIGOGINE); ABDUCTIVE AND LANGUAGE-DRIVEN KNOWING (POPPER); MATTER/ENERGY; SOCIAL MEANING
 
@@ -58,7 +58,7 @@ Duchamp’s readymades questioned the meaning of art, bringing to light the poss
 
 Semiotic implications may also be observed in Duchamp’s use of language. Playing with the meaning of words, he worked with Peirce’s triadic semiotics[^10] by questioning the *object* (the actual brute fact, word–index associated with Secondness) to change its *representamen* (potential for meaning–symbol creation and associated
 
-![Three scenarios of the creative act involving artist, spectator, and artwork, labeled UbI, UE, and Ac](/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p6-i1.jpg)
+![Three scenarios of the creative act involving artist, spectator, and artwork, labeled UbI, UE, and Ac](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p6-i1.jpg)
 > **Caption:** Fig. 10.2 Creative Act scenarios analyzed under columns: “unexpressed but intended” [UbI] concept, the “unintentionally expressed” [UE] and the “art coefficient” [Ac] in the production of meaning. In Scenario I only the artist interacts with the artwork in raw state but without a spectator the work doesn’t transmute or transubstantiate into Ac (new meaning.) In Scenario 2 both artist and spectator interact with the artwork in raw state but as the spectator doesn’t engage with the artwork, it stays in raw state. The spectator’s feedback to the artist reveals that the artwork doesn’t promote the Ac. Scenario 3 represents the ideal Ac, where artist and spectator interact through the artwork and transmute and transubstantiate the work into Ac, and both experience new meaning
 > **Figure text:** 
 > SCENARIO I
@@ -73,17 +73,17 @@ Semiotic implications may also be observed in Duchamp’s use of language. Playi
 > ARTIST | [Black Circle] | 6 | 3 POSITIVE FEEDBACK: TRANSMUTATION | 1 ACTIVE INTERACTION | [Square] RAW STATE POTENTIAL | 2 | [Square] ARTWORK POTENTIALIZED | 5
 > SPECTATOR | [White Circle] | 1 PASSIVE INTERACTION | 3 POSITIVE FEEDBACK: TRANSMUTATION | 6 | 4 5 | ACTIVE INTERACTION | MEANING CREATION
 
-![Representation of the process in which artist and spectator collaborate as co-creators of meaning: user based on Duchamp’s creative act](/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p7-i1.jpg)
+![Representation of the process in which artist and spectator collaborate as co-creators of meaning: user based on Duchamp’s creative act](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p7-i1.jpg)
 > **Caption:** Fig. 10.3 Representation of the process in which artist and spectator collaborate as co-creators of meaning: user based on Duchamp’s creative act
 > **Figure text:** CREATOR USER SPECTATOR
 
-![Semiotic Interaction. Duchamp’s Creative Act seen under Peirce’s semiotics](/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p7-i2.jpg)
+![Semiotic Interaction. Duchamp’s Creative Act seen under Peirce’s semiotics](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p7-i2.jpg)
 > **Caption:** Fig. 10.4 Semiotic Interaction. Duchamp’s Creative Act seen under Peirce’s semiotics
 > **Figure text:** SIGN-VEHICLE | REPRESENTAMEN MEANING POTENTIAL SENSE REFERENCE Ac CAUSATION OBJECT MEANING REFLECTED INTERPRETANT
 
 with Firstness) to change the *interpretant* (what we associate with—icon, quality given to the object, Thirdness). The title *Fountain* changes the denotation when used to represent a urinal, in this case, changing how the spectator perceives the objects being re-presented by Duchamp. Removing the object from its context and attributing a new name (representamen), Duchamp “altered the object’s identity and value” (Stile and Selz 1997, p. 804) offering to the spectator a new representation (interpretant). Just like Peirce’s semeiosis, Duchamp’s interplay of object, representation, and meaning is not static. Once the spectator starts to perceive the object with a new meaning, this object becomes an object d’art (representamen) with endless possible representations (interpretants) (Chandler 2007, p. 31; Cobley and Jansz 2012, p. 25, Zics (2014, n.p.). This semiotic dance reflects Umberto Eco’s (1989) open artwork—Semiotic Openness—which presents the concept of the active spectator and as such a multiple semiotic creation process yielding the possibility of multiple meanings, the possibility of infinite relationships between spectator, artwork, and artist (see Fig. 10.5).
 
-![Semiotic Dance visualization where artist and spectator become co-creators of meaning. The unlimited semiosis interplay reflects a mobius spiral in constant change yet circumscribed by the user. Left, top view; right vertical view](/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p8-i1.jpg)
+![Semiotic Dance visualization where artist and spectator become co-creators of meaning. The unlimited semiosis interplay reflects a mobius spiral in constant change yet circumscribed by the user. Left, top view; right vertical view](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p8-i1.jpg)
 > **Caption:** Fig. 10. 5 Semiotic Dance visualization where artist and spectator become co-creators of meaning. The unlimited semiosis interplay reflects a mobius spiral in constant change yet circumscribed by the user. Left, top view; right vertical view
 > **Figure text:** AC AC AC
 
@@ -106,7 +106,7 @@ As interactivity, information and ultimately meaning are the results of this new
 
 A further development of syncretic, anthropophagic aesthetic practice and process may be seen in Ascott’s understanding of the shift from artistic visual representation to behavioral experimentation (Ascott 2007, p. 110.) This is expressed through an interactive, participatory art experienced as a “perpetual state of transition” (Ascott 2007, p. 111). It is a liminal zone that relies on second-order feedback exchange processes among artist, medium, and spectator and that opens doors to telematic art, where isolated interactions or systems can interact with other systems promoting broader systems of connectivity. These in turn allow for the inclusion of digital technologies as tools and means of exchange, augmenting human perception to cyberperception. A technoetic art is the result, one that you see, touch, feel, or sense and are part of, that enhances and expands perceptions allowing for this perception to be swallowed, digested and returned as a unique experience or qualia.
 
-![A diagram titled Syncretic Reality showing various concepts like psychic space, ecospace, hybrid space, materiality, tech-noetics, moist media, connectivity, world building, and ars technoetica arranged around a central circle labeled syncretic reality.](/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p10-i1.jpg)
+![A diagram titled Syncretic Reality showing various concepts like psychic space, ecospace, hybrid space, materiality, tech-noetics, moist media, connectivity, world building, and ars technoetica arranged around a central circle labeled syncretic reality.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p10-i1.jpg)
 > **Caption:** Fig. 10.6 Syncretic Reality (2008) slide reproduction shared at Plymouth Art Centre show The Syncretic Sense, Roy Ascott (used with permission)
 > **Figure text:** psychic space apparitional presence; ecospace physical presence; field consciousness spiritual coherence; hybrid space emergence; materiality agency; tech-noetics; moist media; connectivity cultural coherence; world building quantum coherence; spiritual; syncretic reality; erotic; conceptual; ars technoetica creativity; cyberspace telepresence; nanospace vibrational presence; esoteric
 
@@ -388,15 +388,15 @@ As a visual artist, I think the best way to explain and illustrate how this para
 
 Artistic and HCI practices not only rely on but also call for the Cybersemiotic Experience. When in 1967, Nelson Goodman founded Project Zero at Harvard’s
 
-![Three diagrams showing 2-dimentional, open 2-dimentional, and extruded 3d representations of the cybersemiotic star](/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p36-i1.png)
+![Three diagrams showing 2-dimentional, open 2-dimentional, and extruded 3d representations of the cybersemiotic star](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p36-i1.png)
 > **Caption:** Fig. 10.8 Proposed tetrahedron representation of the adaptive facets of the cybersemiotic star (Jacques 2016)
 > **Figure text:** 2-DIMENTIONAL REPRESENTATION; MATTER + ENERGY; SOCIAL MEANING; EXPERIENTIAL CONSCIOUSNESS; LIVING SYSTEMS; OPEN 2-DIMENTIONAL REPRESENTATION; MATTER + ENERGY; SOCIAL MEANING; LIVING SYSTEMS; EXPERIENTIAL CONSCIOUSNESS; EXTRUDED 3D REPRESENTATION; MATTER + ENERGY; EXPERIENTIAL CONSCIOUSNESS; SOCIAL MEANING; LIVING SYSTEMS
 
-![Two diagrams showing a tetrahedron representation of the Cybersemiotic Experience, one in 2D and one in 3D.](/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p37-i1.png)
+![Two diagrams showing a tetrahedron representation of the Cybersemiotic Experience, one in 2D and one in 3D.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p37-i1.png)
 > **Caption:** Fig. 10.9 Proposed tetrahedron representation for the Cybersemiotic Experience (Jacques 2016)
 > **Figure text:** MATTER + ENERGY; BACK - NOT SHOWN; EXPERIENTIAL CONSCIOUSNESS; SOCIAL MEANING; LIVING SYSTEMS; 2D REPRESENTATION; MATTER + ENERGY; EXPERIENTIAL CONSCIOUSNESS; SOCIAL MEANING; LIVING SYSTEMS; EXTRUDED 3D REPRESENTATION
 
-![A complex diagram showing the cybersemiotic experience in a meta-environment with user, interface, and context labels.](/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p37-i2.jpg)
+![A complex diagram showing the cybersemiotic experience in a meta-environment with user, interface, and context labels.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/p37-i2.jpg)
 > **Caption:** Fig. 10.10 Representation of the cybersemiotic experience in the meta-environment: elements’ facets interacting exchanges (Jacques 2016)
 > **Figure text:** INFORMATION; LIVING SYSTEMS; LIVING SYSTEMS; EXPERIENTIAL CONSCIOUSNESS; SOCIAL MEANING; MATTER + ENERGY; EXPERIENTIAL CONSCIOUSNESS; SOCIAL MEANING; MATTER + ENERGY; LIVING SYSTEMS; USER; EXPERIENTIAL CONSCIOUSNESS; MATTER + ENERGY; INTERFACE; SOCIAL MEANING; EXPERIENTIAL CONSCIOUSNESS; SOCIAL MEANING; MATTER + ENERGY; LIVING SYSTEMS; CONTEXT
 

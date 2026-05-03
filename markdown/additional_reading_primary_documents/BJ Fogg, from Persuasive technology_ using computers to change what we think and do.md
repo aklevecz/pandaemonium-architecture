@@ -196,7 +196,7 @@ When it comes to persuasion, computers not only have an advantage over tradition
 
 You’ve probably experienced how some software registration programs persist in asking you to register. If you don’t register at installation, from time to time the program reminds you—or nags you—to share your personal information (Figure 2). Not everyone does, of course, but the persistent reminders undoubtedly increase the rate of registration. People get tired of saying no; everyone has a moment of weakness when it’s easier to comply than to resist.
 
-![Eudora registration screen](/figures/bj-fogg-from-persuasive-technology-using-computers-to-change-what-we-think-and-do/p14-i1.jpg)
+![Eudora registration screen](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/bj-fogg-from-persuasive-technology-using-computers-to-change-what-we-think-and-do/p14-i1.jpg)
 > **Caption:** Figure 2 Eudora registration screen.
 > **Figure text:** Registration
 > Would you like to register your copy of Eudora?

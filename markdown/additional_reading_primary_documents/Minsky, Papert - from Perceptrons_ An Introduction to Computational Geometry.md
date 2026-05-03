@@ -132,7 +132,7 @@ Our discussion will include some rather sharp criticisms of earlier work in this
 0.4 Parallel Computation
 The simplest concept of parallel computation is represented by the diagram in Figure 0.1. The figure shows how one might compute a function $\psi(X)$ in two stages. First we compute independently of one another a set of functions $\varphi_1(X)$, $\varphi_2(X)$, ..., $\varphi_n(X)$ and then combine the results by means of a function $\Omega$ of $n$ arguments to obtain the value of $\psi$.
 
-![A diagram illustrating parallel computation with input X, a set of functions, and a final function Omega.](/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p15-i1.png)
+![A diagram illustrating parallel computation with input X, a set of functions, and a final function Omega.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p15-i1.png)
 > **Caption:** Figure 0.1
 > **Figure text:** X, R, $\varphi_1$, $\varphi_2$, $\varphi_n$, $\Omega$, $\psi$
 
@@ -147,12 +147,12 @@ Let $\psi(X)$ be a function (of figures $X$ on $R$) that can have but two values
 
 $\psi_{\text{CIRCLE}}(X) = \begin{cases} 1 \text{ if the figure } X \text{ is a circle,} \\ 0 \text{ if the figure is not a circle;} \end{cases}$
 
-![A series of six shapes with binary labels 1 or 0 indicating if they are circles](/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p16-i1.png)
+![A series of six shapes with binary labels 1 or 0 indicating if they are circles](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p16-i1.png)
 > **Figure text:** 1 1 0 0 0 0
 
 $\psi_{\text{CONVEX}}(X) = \begin{cases} 1 \text{ if } X \text{ is a convex figure,} \\ 0 \text{ if } X \text{ is not a convex figure;} \end{cases}$
 
-![A series of six shapes with binary labels 1 or 0 indicating if they are convex](/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p16-i2.png)
+![A series of six shapes with binary labels 1 or 0 indicating if they are convex](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p16-i2.png)
 > **Figure text:** 1 1 1 0 0 0
 
 $\psi_{\text{CONNECTED}}(X) = \begin{cases} 1 \text{ if } X \text{ is a connected figure,} \\ 0 \text{ otherwise.} \end{cases}$
@@ -168,7 +168,7 @@ Finally we will need the kind of predicate that tells when a particular set $A$ 
 
 $\varphi_A(X) = \begin{cases} 1 \text{ if } A \subset X, \\ 0 \text{ otherwise.} \end{cases}$
 
-![A series of six diagrams showing sets X and their corresponding predicate values.](/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p17-i1.png)
+![A series of six diagrams showing sets X and their corresponding predicate values.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p17-i1.png)
 > **Caption:** 
 > **Figure text:** $\varphi = 1$  1  1  0  0  0
 
@@ -194,13 +194,13 @@ The property of a figure being *connected* might not seem at first to be very di
 
 **PROOF:** Suppose that $\psi_{\text{CONNECTED}}$ has order $k$. Then to distinguish between the two figures these two $k+1$-wide figures—
 
-![Two grid-based figures labeled X0 and X1](/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p18-i1.png)
+![Two grid-based figures labeled X0 and X1](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p18-i1.png)
 > **Caption:** None.
 > **Figure text:** $X_0$ $X_1$ and
 
 such that $\varphi_0(X_0) = 0$, because $X_0$ there must be some $\varphi_0$ which is not connected. All $\varphi$'s have value 1 on $X_1$, which is connected. Now, $\varphi_0$ can depend on at most $k$ points, so there must be at least one middle square, say $S_j$, that does not contain one of these points. But then, on the figure $X_2$,
 
-![A grid-based figure labeled X2 with a middle square marked Sj](/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p18-i2.png)
+![A grid-based figure labeled X2 with a middle square marked Sj](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p18-i2.png)
 > **Caption:** None.
 > **Figure text:** $S_j$ $X_2$
 
@@ -238,7 +238,7 @@ if there exists a number $\theta$ and a set of numbers $\{\alpha_{\varphi_1}, \a
 
 $\psi(X) = 1$ if and only if $\sum_{\varphi \in \Phi} \alpha_\varphi \varphi(X) > \theta$.
 
-![A diagram showing a series of inputs $\varphi$ feeding into a summation block, then a threshold block, resulting in output $\psi$](/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p20-i1.png)
+![A diagram showing a series of inputs $\varphi$ feeding into a summation block, then a threshold block, resulting in output $\psi$](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p20-i1.png)
 > **Caption:** Figure 0.2
 > **Figure text:** $\varphi_1$, $\varphi_2$, $\varphi_i$, $\alpha_n$, $\varphi_n$, $\alpha_1$, $\alpha_2$, $\alpha_i$, $\Sigma$, $\theta$, $\psi$
 
@@ -263,7 +263,7 @@ $\sum (i - 4) \varphi_i(X) > 0$,
 
 where $\theta = 0$ and $\alpha_i = (i - 4)$.
 
-![A seesaw with seven points labeled p1 through p7, with a fulcrum at p4 and a person sitting on the right side.](/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p21-i1.png)
+![A seesaw with seven points labeled p1 through p7, with a fulcrum at p4 and a person sitting on the right side.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p21-i1.png)
 > **Caption:** Figure 0.3
 > **Figure text:** p1 p2 p3 p4 p5 p6 p7
 
@@ -293,12 +293,12 @@ Theorem 0.8: No diameter-limited perceptron can determine whether or not all the
 
 The proof requires us to consider just four figures
 
-![Four rectangular figures labeled X00, X01, X10, and X11](/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p23-i1.png)
+![Four rectangular figures labeled X00, X01, X10, and X11](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p23-i1.png)
 > **Figure text:** X00 X01 X10 X11
 
 and a diameter-limited perceptron $\psi$ whose support sets have diameters like those indicated by the circles below:
 
-![A long rectangular figure overlaid with multiple circles, with lines connecting groups of circles to labels Group 1, Group 3, and Group 2](/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p23-i2.png)
+![A long rectangular figure overlaid with multiple circles, with lines connecting groups of circles to labels Group 1, Group 3, and Group 2](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/minsky-papert-from-perceptrons-an-introduction-to-computational-geometry/p23-i2.png)
 > **Figure text:** Group 1 Group 3 Group 2
 
 It is understood that the diameter in question is given at the start, and we then choose the $X_{ij}$'s to be several diameters in length. Suppose that such a perceptron could distinguish disconnected figures (like $X_{00}$ and $X_{11}$) from connected figures (like $X_{10}$ and $X_{01}$), according to whether or not

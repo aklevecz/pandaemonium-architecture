@@ -12,7 +12,7 @@ Your use of the JSTOR archive indicates your acceptance of the Terms & Condition
 
 JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
 
-![JSTOR logo](/figures/paul-m-churchland-from-eliminative-materialism/p1-i1.png)
+![JSTOR logo](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/paul-m-churchland-from-eliminative-materialism/p1-i1.png)
 > **Caption:** Journal of Philosophy, Inc. is collaborating with JSTOR to digitize, preserve and extend access to The Journal of Philosophy.
 > **Figure text:** STOR http://www.jstor.org
 

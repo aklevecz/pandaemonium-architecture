@@ -1,4 +1,4 @@
-![A large, dark, rectangular monolith standing in a forest at sunset.](/figures/qntm-there-is-no-antimemetics-division/p1-i1.jpg)
+![A large, dark, rectangular monolith standing in a forest at sunset.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/qntm-there-is-no-antimemetics-division/p1-i1.jpg)
 
 > **Figure text:** qntm
 > THERE IS NO
@@ -1332,7 +1332,7 @@ A senior Antimemetics Division staff member must visit SCP-3125 every six weeks 
 
 **END OF FILE**
 
-![A digital keypad with buttons 0-9, CLR, and GO, displaying the word GRANTED at the top.](/figures/qntm-there-is-no-antimemetics-division/p78-i1.png)
+![A digital keypad with buttons 0-9, CLR, and GO, displaying the word GRANTED at the top.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/qntm-there-is-no-antimemetics-division/p78-i1.png)
 > **Figure text:** GRANTED 7 8 9 4 5 6 1 2 3 CLR 0 GO
 
 Item #: SCP-3125

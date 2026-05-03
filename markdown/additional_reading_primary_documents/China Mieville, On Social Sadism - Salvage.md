@@ -7,7 +7,7 @@ Salvage is published twice a year; in spring and autumn. To see our past issues,
 # On Social Sadism
 by China Miéville | December 17, 2015
 
-![Two people sitting in front of a wall of security monitors](/figures/china-mieville-on-social-sadism-salvage/p2-i1.png)
+![Two people sitting in front of a wall of security monitors](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/china-mieville-on-social-sadism-salvage/p2-i1.png)
 > **Caption:** None.
 > **Figure text:** None.
 
@@ -489,7 +489,7 @@ Most of the intruders, like so many in Haiti, lack running water. But on 13 Febr
 
 *China Miéville* is a founding editor of *Salvage*. He is the author of various works of fiction and non-fiction, including *The City & the City* and *London’s Overthrow*. His latest book is *October: The Story of the Russian Revolution*. He is currently collaborating with Robert Knox on the forthcoming *Against International Law*.
 
-![Three article previews with images and titles](/figures/china-mieville-on-social-sadism-salvage/p33-i1.png)
+![Three article previews with images and titles](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/china-mieville-on-social-sadism-salvage/p33-i1.png)
 > **Caption:** 
 > **Figure text:** Lebanon: A Ruling Class in Perpetual; Salvaging Situationism: Race; ‘One thinge that ouerthroweth all
 

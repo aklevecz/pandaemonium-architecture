@@ -1,6 +1,6 @@
 TABLE OF CONTENTS
 
-![A banner image showing bright, sunlit clouds against an orange background](/figures/the-techno-optimist-manifesto-andreessen-horowitz/p1-i1.png)
+![A banner image showing bright, sunlit clouds against an orange background](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/the-techno-optimist-manifesto-andreessen-horowitz/p1-i1.png)
 > **Caption:** None
 > **Figure text:** None
 

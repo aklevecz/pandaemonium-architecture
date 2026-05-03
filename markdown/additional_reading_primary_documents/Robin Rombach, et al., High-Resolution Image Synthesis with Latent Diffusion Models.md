@@ -12,7 +12,7 @@ By decomposing the image formation process into a sequential application of deno
 
 Image synthesis is one of the computer vision fields with the most spectacular recent development, but also among those with the greatest computational demands. Especially high-resolution synthesis of complex, natural scenes is presently dominated by scaling up likelihood-based models, potentially containing billions of parameters in autoregressive (AR) transformers [66, 67]. In contrast, the promising results of GANs [3, 27, 40] have been revealed to be mostly confined to data with comparably limited variability as their adversarial learning procedure does not easily scale to modeling complex, multi-modal distributions. Recently, diffusion models [82], which are built from a hierarchy of denoising autoencoders, have shown to achieve impressive
 
-![Comparison of image reconstruction quality at different downsampling factors f.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p1-i1.png)
+![Comparison of image reconstruction quality at different downsampling factors f.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p1-i1.png)
 > **Caption:** Figure 1. Boosting the upper bound on achievable quality with less agressive downsampling. Since diffusion models offer excellent inductive biases for spatial data, we do not need the heavy spatial downsampling of related generative models in latent space, but can still greatly reduce the dimensionality of the data via suitable autoencoding models, see Sec. 3. Images are from the DIV2K [1] validation set, evaluated at 512² px. We denote the spatial downsampling factor by f. Reconstruction FIDs [29] and PSNR are calculated on ImageNet-val. [12]; see also Tab. 8.
 > **Figure text:** Input, ours (f = 4) PSNR: 27.4 R-FID: 0.58, DALL-E (f = 8) PSNR: 22.8 R-FID: 32.01, VQGAN (f = 16) PSNR: 19.9 R-FID: 4.98
 
@@ -45,7 +45,7 @@ In sum, our work makes the following contributions:
 
 (vi) Finally, we release pretrained latent diffusion and autoencoding models at https://github.com/CompVis/latent-diffusion which might be reusable for a various tasks besides training of DMs [81].
 
-![Rate-distortion trade-off graph showing semantic and perceptual compression stages](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p2-i1.jpg)
+![Rate-distortion trade-off graph showing semantic and perceptual compression stages](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p2-i1.jpg)
 > **Caption:** Figure 2. Illustrating perceptual and semantic compression: Most bits of a digital image correspond to imperceptible details. While DMs allow to suppress this semantically meaningless information by minimizing the responsible loss term, gradients (during training) and the neural network backbone (training and inference) still need to be evaluated on all pixels, leading to superfluous computations and unnecessarily expensive optimization and inference. We propose latent diffusion models (LDMs) as an effective generative model and a separate mild compression stage that only eliminates imperceptible details. Data and images from [30].
 > **Figure text:** Semantic Compression $\rightarrow$ Generative Model: Latent Diffusion Model (LDM) Perceptual Compression $\rightarrow$ Autoencoder+GAN Distortion (RMSE) Rate (bits/dim)
 
@@ -114,7 +114,7 @@ $$Q = W_Q^{(i)} \cdot \varphi_i(z_t), \quad K = W_K^{(i)} \cdot \tau_\theta(y), 
 
 Here, $\varphi_i(z_t) \in \mathbb{R}^{N \times d_\epsilon^i}$ denotes a (flattened) intermediate representation of the UNet implementing $\epsilon_\theta$ and $W_V^{(i)} \in$
 
-![Samples from LDMs trained on CelebAHQ, FFHQ, LSUN-Churches, LSUN-Bedrooms and class-conditional ImageNet](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p5-i1.jpg)
+![Samples from LDMs trained on CelebAHQ, FFHQ, LSUN-Churches, LSUN-Bedrooms and class-conditional ImageNet](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p5-i1.jpg)
 > **Caption:** Figure 4. Samples from LDMs trained on CelebAHQ [39], FFHQ [41], LSUN-Churches [102], LSUN-Bedrooms [102] and class-conditional ImageNet [12], each with a resolution of 256 × 256. Best viewed when zoomed in. For more samples cf. the supplement.
 
 $\mathbb{R}^{d \times d_\epsilon}, W_Q^{(i)} \in \mathbb{R}^{d \times d_\tau} \& W_K^{(i)} \in \mathbb{R}^{d \times d_\tau}$ are learnable projection matrices [36, 97]. See Fig. 3 for a visual depiction.
@@ -143,11 +143,11 @@ We train unconditional models of 256$^2$ images on CelebA-HQ [39], FFHQ [41], LS
 
 Text-to-Image Synthesis on LAION. 1.45B Model.
 
-![Samples for user-defined text prompts from our model for text-to-image synthesis, LDM-8 (KL), which was trained on the LAION [78] database. Samples generated with 200 DDIM steps and η = 1.0. We use unconditional guidance [32] with s = 10.0.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p6-i1.jpg)
+![Samples for user-defined text prompts from our model for text-to-image synthesis, LDM-8 (KL), which was trained on the LAION [78] database. Samples generated with 200 DDIM steps and η = 1.0. We use unconditional guidance [32] with s = 10.0.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p6-i1.jpg)
 > **Caption:** Figure 5. Samples for user-defined text prompts from our model for text-to-image synthesis, LDM-8 (KL), which was trained on the LAION [78] database. Samples generated with 200 DDIM steps and η = 1.0. We use unconditional guidance [32] with s = 10.0.
 > **Figure text:** 'A street sign that reads “Latent Diffusion”' 'A zombie in the style of Picasso' 'An image of an animal half mouse half octopus' 'An illustration of a slightly conscious neural network' 'A painting of a squirrel eating a burger' 'A watercolor painting of a chair that looks like an octopus' 'A shirt with the inscription: “I love generative models!”'
 
-![Analyzing the training of class-conditional LDMs with different downsampling factors f over 2M train steps on the ImageNet dataset.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p6-i2.jpg)
+![Analyzing the training of class-conditional LDMs with different downsampling factors f over 2M train steps on the ImageNet dataset.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p6-i2.jpg)
 > **Caption:** Figure 6. Analyzing the training of class-conditional LDMs with different downsampling factors f over 2M train steps on the ImageNet dataset. Pixel-based LDM-1 requires substantially larger train times compared to models with larger downsampling factors (LDM-{4-16}). Too much perceptual compression as in LDM-32 limits the overall sample quality. All models are trained on a single NVIDIA A100 with the same computational budget. Results obtained with 100 DDIM steps [84] and κ = 0.
 
 | Method | FID ↓ | Prec. ↑ | Recall ↑ | Method | FID ↓ | Prec. ↑ | Recall ↑ |
@@ -170,7 +170,7 @@ Text-to-Image Synthesis on LAION. 1.45B Model.
 
 Table 1. Evaluation metrics for unconditional image synthesis. CelebA-HQ results reproduced from [43, 63, 100], FFHQ from [42, 43]. †: N-s refers to N sampling steps with the DDIM [84] sampler. *: trained in KL-regularized latent space. Additional results can be found in the supplementary.
 
-![Comparing LDMs with varying compression on the CelebA-HQ (left) and ImageNet (right) datasets.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p6-i3.jpg)
+![Comparing LDMs with varying compression on the CelebA-HQ (left) and ImageNet (right) datasets.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p6-i3.jpg)
 > **Caption:** Figure 7. Comparing LDMs with varying compression on the CelebA-HQ (left) and ImageNet (right) datasets. Different markers indicate {10, 20, 50, 100, 200} sampling steps using DDIM, from right to left along each line. The dashed line shows the FID scores for 200 steps, indicating the strong performance of LDM-{4-8}. FID scores assessed on 5000 samples. All models were trained for 500k (CelebA) / 2M (ImageNet) steps on an A100.
 
 and avoid the difficulty of weighing reconstruction quality against learning the prior over the latent space, see Fig. 1-2.
@@ -200,7 +200,7 @@ Moreover, LDMs consistently improve upon GAN-based methods in Precision and Reca
 
 > **Caption:** Table 3. Comparison of a class-conditional ImageNet LDM with recent state-of-the-art methods for class-conditional image generation on ImageNet [12]. A more detailed comparison with additional baselines can be found in D.4, Tab. 10 and F. c.f.g. denotes classifier-free guidance with a scale s as proposed in [32].
 
-![Layout-to-image synthesis with an LDM on COCO](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p7-i1.jpg)
+![Layout-to-image synthesis with an LDM on COCO](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p7-i1.jpg)
 > **Caption:** Figure 8. Layout-to-image synthesis with an LDM on COCO [4], see Sec. 4.3.1. Quantitative evaluation in the supplement D.3.
 
 ## 4.3. Conditional Latent Diffusion
@@ -215,13 +215,13 @@ By concatenating spatially aligned conditioning information to the input of $\ep
 
 The latter, in combination with classifier-free guidance [32], also enables the direct synthesis of $> 256^2$ images for the text-conditional LDM-KL-8-G as in Fig. 13.
 
-![A LDM trained on 256^2 resolution can generalize to larger resolution (here: 512x1024) for spatially conditioned tasks such as semantic synthesis of landscape images.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p7-i2.jpg)
+![A LDM trained on 256^2 resolution can generalize to larger resolution (here: 512x1024) for spatially conditioned tasks such as semantic synthesis of landscape images.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p7-i2.jpg)
 > **Caption:** Figure 9. A LDM trained on $256^2$ resolution can generalize to larger resolution (here: $512 \times 1024$) for spatially conditioned tasks such as semantic synthesis of landscape images. See Sec. 4.3.2.
 
 ## 4.4. Super-Resolution with Latent Diffusion
 LDMs can be efficiently trained for super-resolution by diretly conditioning on low-resolution images via concatenation (*cf.* Sec. 3.3). In a first experiment, we follow SR3
 
-![ImageNet 64→256 super-resolution on ImageNet-Val. LDM-SR has advantages at rendering realistic textures but SR3 can synthesize more coherent fine structures. See appendix for additional samples and cropouts. SR3 results from [72].](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p8-i1.jpg)
+![ImageNet 64→256 super-resolution on ImageNet-Val. LDM-SR has advantages at rendering realistic textures but SR3 can synthesize more coherent fine structures. See appendix for additional samples and cropouts. SR3 results from [72].](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p8-i1.jpg)
 > **Caption:** Figure 10. ImageNet 64→256 super-resolution on ImageNet-Val. LDM-SR has advantages at rendering realistic textures but SR3 can synthesize more coherent fine structures. See appendix for additional samples and cropouts. SR3 results from [72].
 
 | Method | FID ↓ | IS ↑ | PSNR ↑ | SSIM ↑ | $N_{params}$ | samples/epoch (*) |
@@ -265,7 +265,7 @@ Table 4. Task 1: Subjects were shown ground truth and generated image and asked 
 
 Since the bicubic degradation process does not generalize well to images which do not follow this pre-processing, we also train a generic model, LDM-BSR, by using more diverse degradation. The results are shown in Sec. D.6.1.
 
-![Qualitative results on object removal with our big, w/ ft inpainting model.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p9-i1.jpg)
+![Qualitative results on object removal with our big, w/ ft inpainting model.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p9-i1.jpg)
 > **Caption:** Figure 11. Qualitative results on object removal with our big, w/ ft inpainting model. For more results, see Fig. 22.
 > **Figure text:** input result
 
@@ -529,19 +529,19 @@ High-fidelity performance metrics for generative models in pytorch, 2020. Versio
 
 # Appendix
 
-![Three landscape images generated by the semantic landscapes model](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p14-i1.jpg)
+![Three landscape images generated by the semantic landscapes model](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p14-i1.jpg)
 > **Caption:** Figure 12. Convolutional samples from the semantic landscapes model as in Sec. 4.3.2, finetuned on 512² images.
 
-![A painting of the last supper by Picasso.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p15-i1.jpg)
+![A painting of the last supper by Picasso.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p15-i1.jpg)
 > **Caption:** 'A painting of the last supper by Picasso.'
 
-![An oil painting of a latent space.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p15-i2.jpg)
+![An oil painting of a latent space.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p15-i2.jpg)
 > **Caption:** 'An oil painting of a latent space.'
 
-![An epic painting of Gandalf the Black summoning thunder and lightning in the mountains.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p15-i3.jpg)
+![An epic painting of Gandalf the Black summoning thunder and lightning in the mountains.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p15-i3.jpg)
 > **Caption:** 'An epic painting of Gandalf the Black summoning thunder and lightning in the mountains.'
 
-![A sunset over a mountain range, vector image.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p15-i4.jpg)
+![A sunset over a mountain range, vector image.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p15-i4.jpg)
 > **Caption:** 'A sunset over a mountain range, vector image.'
 
 Figure 13. Combining classifier free diffusion guidance with the convolutional sampling strategy from Sec. 4.3.2, our 1.45B parameter text-to-image model can be used for rendering images larger than the native 256² resolution the model was trained on.
@@ -600,7 +600,7 @@ and the reweighting, which assigns each of the terms the same weight and results
 
 ## C. Image Guiding Mechanisms
 
-![A grid of landscape images comparing samples at 256^2, guided convolutional samples at 512^2, and convolutional samples at 512^2.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p18-i1.jpg)
+![A grid of landscape images comparing samples at 256^2, guided convolutional samples at 512^2, and convolutional samples at 512^2.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p18-i1.jpg)
 > **Caption:** Figure 14. On landscapes, convolutional sampling with unconditional models can lead to homogeneous and incoherent global structures (see column 2). $L_2$-guiding with a low resolution image can help to reestablish coherent global structures.
 > **Figure text:** Samples 256^2 Guided Convolutional Samples 512^2 Convolutional Samples 512^2
 
@@ -626,7 +626,7 @@ Fig. 14 demonstrates how this formulation can serve as an upsampling mechanism o
 
 ## D.1. Choosing the Signal-to-Noise Ratio for High-Resolution Synthesis
 
-![Comparison of landscape image synthesis using different latent space configurations: KL-reg without rescaling, KL-reg with rescaling, and VQ-reg without rescaling.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p20-i1.jpg)
+![Comparison of landscape image synthesis using different latent space configurations: KL-reg without rescaling, KL-reg with rescaling, and VQ-reg without rescaling.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p20-i1.jpg)
 > **Caption:** Figure 15. Illustrating the effect of latent space rescaling on convolutional sampling, here for semantic image synthesis on landscapes. See Sec. 4.3.2 and Sec. D.1.
 > **Figure text:** KL-reg, w/o rescaling KL-reg, w/ rescaling VQ-reg, w/o rescaling
 
@@ -668,7 +668,7 @@ Tab. 10 contains the results for our class-conditional LDM measured in FID and I
 
 Table 8. Complete autoencoder zoo trained on OpenImages, evaluated on ImageNet-Val. $\dagger$ denotes an attention-free autoencoder.
 
-![layout-to-image synthesis on the COCO dataset](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p21-i1.jpg)
+![layout-to-image synthesis on the COCO dataset](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p21-i1.jpg)
 > **Caption:** Figure 16. More samples from our best model for layout-to-image synthesis, LDM-4, which was trained on the OpenImages dataset and finetuned on the COCO dataset. Samples generated with 100 DDIM steps and $\eta = 0$. Layouts are from the COCO validation set.
 > **Figure text:** layout-to-image synthesis on the COCO dataset
 
@@ -709,7 +709,7 @@ Table 10. Comparison of a class-conditional ImageNet LDM with recent state-of-th
 
 ## D.5. Sample Quality vs. V100 Days (Continued from Sec. 4.1)
 
-![Two line graphs showing FID and Inception Score over V100 days for various LDM models.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p22-i1.jpg)
+![Two line graphs showing FID and Inception Score over V100 days for various LDM models.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p22-i1.jpg)
 > **Caption:** Figure 17. For completeness we also report the training progress of class-conditional LDMs on the ImageNet dataset for a fixed number of 35 V100 days. Results obtained with 100 DDIM steps [84] and κ = 0. FIDs computed on 5000 samples for efficiency reasons.
 > **Figure text:** FID vs. V100 days. Inception Score vs. V100 days. LDM-1, LDM-2, LDM-4, LDM-8, LDM-16, LDM-32. 0, 10, 20, 30 V100 days.
 
@@ -733,7 +733,7 @@ For better comparability between LDMs and diffusion models in pixel space, we ex
 
 ### D.6.1 LDM-BSR: General Purpose SR Model via Diverse Image Degradation
 
-![Comparison of bicubic, LDM-SR, and LDM-BSR upscaling results on a dog image.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p23-i1.jpg)
+![Comparison of bicubic, LDM-SR, and LDM-BSR upscaling results on a dog image.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p23-i1.jpg)
 > **Caption:** Figure 18. *LDM-BSR* generalizes to arbitrary inputs and can be used as a general-purpose upsampler, upscaling samples from a class-conditional LDM (image cf. Fig. 4) to $1024^2$ resolution. In contrast, using a fixed degradation process (see Sec. 4.4) hinders generalization.
 > **Figure text:** bicubic LDM-SR LDM-BSR
 
@@ -883,82 +883,82 @@ from the first batch in the data, where $\hat{\mu} = \frac{1}{bchw} \sum_{b,c,h,
 
 Finally, we provide additional qualitative results for our landscapes model (Fig. 12, 23, 24 and 25), our class-conditional ImageNet model (Fig. 26 - 27) and our unconditional models for the CelebA-HQ, FFHQ and LSUN datasets (Fig. 28 - 31). Similar as for the inpainting model in Sec. 4.5 we also fine-tuned the semantic landscapes model from Sec. 4.3.2 directly on $512^2$ images and depict qualitative results in Fig. 12 and Fig. 23. For our those models trained on comparably small datasets, we additionally show nearest neighbors in VGG [79] feature space for samples from our models in Fig. 32 - 34.
 
-![Comparison of bicubic upscaling and LDM-BSR upscaling on cow images](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p30-i1.jpg)
+![Comparison of bicubic upscaling and LDM-BSR upscaling on cow images](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p30-i1.jpg)
 > **Caption:** Figure 19. *LDM-BSR* generalizes to arbitrary inputs and can be used as a general-purpose upsampler, upscaling samples from the LSUN-Cows dataset to 1024² resolution.
 > **Figure text:** bicubic LDM-BSR
 
-![Qualitative superresolution comparison of two random samples between LDM-SR and baseline-diffusionmodel in Pixelspace.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p31-i1.jpg)
+![Qualitative superresolution comparison of two random samples between LDM-SR and baseline-diffusionmodel in Pixelspace.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p31-i1.jpg)
 > **Caption:** Figure 20. Qualitative superresolution comparison of two random samples between LDM-SR and baseline-diffusionmodel in Pixelspace. Evaluated on imagenet validation-set after same amount of training steps.
 > **Figure text:** input GT Pixel Baseline #1 Pixel Baseline #2 LDM #1 LDM #2
 
-![Qualitative results on image inpainting. The figure shows a grid of images comparing input, ground truth (GT), LaMa, and three samples from LDM.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p32-i1.jpg)
+![Qualitative results on image inpainting. The figure shows a grid of images comparing input, ground truth (GT), LaMa, and three samples from LDM.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p32-i1.jpg)
 > **Caption:** Figure 21. Qualitative results on image inpainting. In contrast to [88], our generative approach enables generation of multiple diverse samples for a given input.
 > **Figure text:** input GT LaMa [88] LDM #1 LDM #2 LDM #3
 
-![A grid of 10 pairs of images showing object removal results. Each pair consists of an input image with a red-outlined object and a result image with that object removed.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p33-i1.jpg)
+![A grid of 10 pairs of images showing object removal results. Each pair consists of an input image with a red-outlined object and a result image with that object removed.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p33-i1.jpg)
 
 > **Caption:** Figure 22. More qualitative results on object removal as in Fig. 11.
 > **Figure text:** input result input result
 
 Semantic Synthesis on Flickr-Landscapes [23] (512² finetuning)
 
-![Semantic synthesis on Flickr-Landscapes showing a segmentation map, a ground truth image, and a generated sample](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p34-i1.jpg)
+![Semantic synthesis on Flickr-Landscapes showing a segmentation map, a ground truth image, and a generated sample](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p34-i1.jpg)
 > **Caption:** Figure 23. Convolutional samples from the semantic landscapes model as in Sec. 4.3.2, finetuned on 512² images.
 
-![A landscape image generated by a LDM showing a lake, mountains, and a starry sky.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p35-i1.jpg)
+![A landscape image generated by a LDM showing a lake, mountains, and a starry sky.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p35-i1.jpg)
 > **Caption:** Figure 24. A LDM trained on 256² resolution can generalize to larger resolution for spatially conditioned tasks such as semantic synthesis of landscape images. See Sec. 4.3.2.
 > **Figure text:** 
 
 Semantic Synthesis on Flickr-Landscapes [23]
 
-![Semantic map and resulting high-resolution landscape images generated by LDMs](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p36-i1.jpg)
+![Semantic map and resulting high-resolution landscape images generated by LDMs](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p36-i1.jpg)
 > **Caption:** Figure 25. When provided a semantic map as conditioning, our LDMs generalize to substantially larger resolutions than those seen during training. Although this model was trained on inputs of size 256² it can be used to create high-resolution samples as the ones shown here, which are of resolution 1024 × 384.
 
 Random class conditional samples on the ImageNet dataset
 
-![A grid of images showing random class conditional samples from the ImageNet dataset, including pandas, elephants, cucumbers, apples, espresso cups, mushrooms, volcanoes, and hot air balloons.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p37-i1.jpg)
+![A grid of images showing random class conditional samples from the ImageNet dataset, including pandas, elephants, cucumbers, apples, espresso cups, mushrooms, volcanoes, and hot air balloons.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p37-i1.jpg)
 
 > **Caption:** Figure 26. Random samples from LDM-4 trained on the ImageNet dataset. Sampled with classifier-free guidance [32] scale s = 5.0 and 200 DDIM steps with η = 1.0.
 
 Random class conditional samples on the ImageNet dataset
 
-![A grid of 42 images showing various animals (eagles, flies, bison, otters, mongooses, blue birds, snow leopards, and dogs) generated by the LDM-4 model.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p38-i1.jpg)
+![A grid of 42 images showing various animals (eagles, flies, bison, otters, mongooses, blue birds, snow leopards, and dogs) generated by the LDM-4 model.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p38-i1.jpg)
 
 > **Caption:** Figure 27. Random samples from LDM-4 trained on the ImageNet dataset. Sampled with classifier-free guidance [32] scale s = 3.0 and 200 DDIM steps with η = 1.0.
 
-![A grid of 80 generated human face images on the CelebA-HQ dataset](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p39-i1.jpg)
+![A grid of 80 generated human face images on the CelebA-HQ dataset](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p39-i1.jpg)
 > **Caption:** Figure 28. Random samples of our best performing model LDM-4 on the CelebA-HQ dataset. Sampled with 500 DDIM steps and η = 0 (FID = 5.15).
 
-![A grid of 64 generated human face images on the FFHQ dataset](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p40-i1.jpg)
+![A grid of 64 generated human face images on the FFHQ dataset](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p40-i1.jpg)
 > **Caption:** Figure 29. Random samples of our best performing model LDM-4 on the FFHQ dataset. Sampled with 200 DDIM steps and η = 1 (FID = 4.98).
 > **Figure text:** Random samples on the FFHQ dataset
 
 Random samples on the LSUN-Churches dataset
 
-![A grid of 88 images showing various church buildings generated by the LDM-8 model.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p41-i1.jpg)
+![A grid of 88 images showing various church buildings generated by the LDM-8 model.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p41-i1.jpg)
 > **Caption:** Figure 30. Random samples of our best performing model LDM-8 on the LSUN-Churches dataset. Sampled with 200 DDIM steps and η = 0 (FID = 4.48).
 > **Figure text:** Random samples on the LSUN-Churches dataset
 
 Random samples on the LSUN-Bedrooms dataset
 
-![A grid of 80 generated images of bedrooms.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p42-i1.jpg)
+![A grid of 80 generated images of bedrooms.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p42-i1.jpg)
 > **Caption:** Figure 31. Random samples of our best performing model LDM-4 on the LSUN-Bedrooms dataset. Sampled with 200 DDIM steps and η = 1 (FID = 2.95).
 > **Figure text:** Random samples on the LSUN-Bedrooms dataset
 
 Nearest Neighbors on the CelebA-HQ dataset
 
-![A grid of face images showing nearest neighbors on the CelebA-HQ dataset](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p43-i1.jpg)
+![A grid of face images showing nearest neighbors on the CelebA-HQ dataset](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p43-i1.jpg)
 > **Caption:** Figure 32. Nearest neighbors of our best CelebA-HQ model, computed in the feature space of a VGG-16 [79]. The leftmost sample is from our model. The remaining samples in each row are its 10 nearest neighbors.
 
 Nearest Neighbors on the FFHQ dataset
 
-![A grid of face images showing nearest neighbors on the FFHQ dataset.](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p44-i1.jpg)
+![A grid of face images showing nearest neighbors on the FFHQ dataset.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p44-i1.jpg)
 > **Caption:** Figure 33. Nearest neighbors of our best FFHQ model, computed in the feature space of a VGG-16 [79]. The leftmost sample is from our model. The remaining samples in each row are its 10 nearest neighbors.
 > **Figure text:** None.
 
 Nearest Neighbors on the LSUN-Churches dataset
 
-![A grid of church images showing nearest neighbors on the LSUN-Churches dataset](/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p45-i1.jpg)
+![A grid of church images showing nearest neighbors on the LSUN-Churches dataset](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/p45-i1.jpg)
 > **Caption:** Figure 34. Nearest neighbors of our best LSUN-Churches model, computed in the feature space of a VGG-16 [79]. The leftmost sample is from our model. The remaining samples in each row are its 10 nearest neighbors.
 
 45

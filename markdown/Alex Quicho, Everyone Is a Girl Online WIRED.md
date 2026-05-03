@@ -11,7 +11,7 @@ This year, your feed has likely been blessed by the avatars of machinic girlhood
 
 **SUBSCRIBE**
 
-![The WIRED logo rendered in a colorful, textured, particle-like style against a black background](/figures/alex-quicho-everyone-is-a-girl-online-wired/p3-i1.png)
+![The WIRED logo rendered in a colorful, textured, particle-like style against a black background](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/alex-quicho-everyone-is-a-girl-online-wired/p3-i1.png)
 > **Caption:** None
 > **Figure text:** None
 

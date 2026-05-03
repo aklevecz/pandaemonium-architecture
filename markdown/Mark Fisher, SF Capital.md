@@ -66,11 +66,11 @@ It's of course no accident that the current power elite (Spielberg, Lucas, Gates
 
 For a chilling image of how SF Capital induces auto-zombification in the master class, you only have to look at the face of our glorious leader: that ashen carnival mask, its grim, cheerless Joker-grin flashing with ritual efficiency, its blank eyes illuminated by empty evangelism, darkened by perpetual irritation - the PM's being run by Videodrome… and no-one owns Death TV.
 
-![A close-up, slightly distorted, high-contrast photograph of Tony Blair's face, appearing ashen and mask-like.](/figures/mark-fisher-sf-capital/p4-i1.jpg)
+![A close-up, slightly distorted, high-contrast photograph of Tony Blair's face, appearing ashen and mask-like.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/mark-fisher-sf-capital/p4-i1.jpg)
 > **Caption:** None.
 > **Figure text:** None.
 
-![A cropped photograph of a man's face, showing his nose, mouth, and chin.](/figures/mark-fisher-sf-capital/p5-i1.jpg)
+![A cropped photograph of a man's face, showing his nose, mouth, and chin.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/mark-fisher-sf-capital/p5-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 

@@ -10,7 +10,7 @@ Two papers[^3][^4] have set new standards in archaeological research by applying
 
 Until its disappearance around AD 1350, Anasazi society was marked by fluctuations in total population size, mean settlement size and preferred habitat. But why? It is generally agreed that the answers depend partly on rainfall and on groundwater levels, variations in either of which would affect Anasazi maize-based agriculture. Proxy measures of both of these variables are available for a group called the Kayenta Anasazi of Long House Valley in northeastern Arizona (Fig. 1), together with archaeological surveys of the numbers and distribution of houses for the entire span of the valley’s Anasazi occupation. But how can one assess whether the proxies can explain the survey results? To give just one hint of the complexities involved: readily available groundwater can make rainfall unnecessary for maize agriculture, but the dependence of maize growth on rainfall and groundwater levels varies among
 
-![A landscape view of Long House Valley in northeastern Arizona, showing a valley floor surrounded by hills.](/figures/jared-diamond-life-with-the-artificial-anasazi/p1-i1.jpg)
+![A landscape view of Long House Valley in northeastern Arizona, showing a valley floor surrounded by hills.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/jared-diamond-life-with-the-artificial-anasazi/p1-i1.jpg)
 > **Caption:** Figure 1 Home for the Kayenta Anasazi. This view of Long House Valley, northeastern Arizona, shows the fertile valley floor flanked by unfarmable upland zones.
 > **Figure text:** JEFFREY S. DEAN
 

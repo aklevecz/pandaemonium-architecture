@@ -4,7 +4,7 @@
 
 Geoff Shullenberger on August 13, 2016
 
-![René Girard and Peter Thiel sitting side-by-side at a conference](/figures/geoff-shullenberger-mimesis-violence-and-facebook-peter-thiels-french-connection/p1-i1.png)
+![René Girard and Peter Thiel sitting side-by-side at a conference](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/geoff-shullenberger-mimesis-violence-and-facebook-peter-thiels-french-connection/p1-i1.png)
 
 > **Caption:** (https://thesocietypages.org/cyborgology/files/2016/07/Thiel-Girard.jpg)
 

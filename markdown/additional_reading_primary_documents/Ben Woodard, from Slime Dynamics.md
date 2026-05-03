@@ -1,4 +1,4 @@
-![Book cover art featuring three grotesque, worm-like creatures with yellow skin and red eyes emerging from a green, mossy background.](/figures/ben-woodard-from-slime-dynamics/p1-i1.jpg)
+![Book cover art featuring three grotesque, worm-like creatures with yellow skin and red eyes emerging from a green, mossy background.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/ben-woodard-from-slime-dynamics/p1-i1.jpg)
 > **Caption:** None
 > **Figure text:** zero books
 
@@ -16,7 +16,7 @@ the Creep of Life
 
 Ben Woodard
 
-![Zero Books logo](/figures/ben-woodard-from-slime-dynamics/p3-i1.jpg)
+![Zero Books logo](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/ben-woodard-from-slime-dynamics/p3-i1.jpg)
 > **Figure text:** zero books
 
 Winchester, UK

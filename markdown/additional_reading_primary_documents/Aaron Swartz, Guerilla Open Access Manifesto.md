@@ -1,4 +1,4 @@
-![A young man sitting in a tree outside a building](/figures/aaron-swartz-guerilla-open-access-manifesto/p1-i1.jpg)
+![A young man sitting in a tree outside a building](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/aaron-swartz-guerilla-open-access-manifesto/p1-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 

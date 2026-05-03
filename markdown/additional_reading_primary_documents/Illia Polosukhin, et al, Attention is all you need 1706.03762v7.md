@@ -69,7 +69,7 @@ To the best of our knowledge, however, the Transformer is the first transduction
 
 Most competitive neural sequence transduction models have an encoder-decoder structure [5, 2, 35]. Here, the encoder maps an input sequence of symbol representations $(x_1, ..., x_n)$ to a sequence of continuous representations $\mathbf{z} = (z_1, ..., z_n)$. Given $\mathbf{z}$, the decoder then generates an output sequence $(y_1, ..., y_m)$ of symbols one element at a time. At each step the model is auto-regressive [10], consuming the previously generated symbols as additional input when generating the next.
 
-![The Transformer model architecture diagram showing encoder and decoder stacks, embeddings, and attention mechanisms.](/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/p3-i1.png)
+![The Transformer model architecture diagram showing encoder and decoder stacks, embeddings, and attention mechanisms.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/p3-i1.png)
 > **Caption:** Figure 1: The Transformer - model architecture.
 > **Figure text:** Output Probabilities, Softmax, Linear, Add & Norm, Feed Forward, Add & Norm, Multi-Head Attention, Add & Norm, Masked Multi-Head Attention, Nx, Nx, Positional Encoding, Input Embedding, Inputs, Output Embedding, Outputs (shifted right), Positional Encoding
 
@@ -85,7 +85,7 @@ The Transformer follows this overall architecture using stacked self-attention a
 
 An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors. The output is computed as a weighted sum
 
-![Diagram showing Scaled Dot-Product Attention and Multi-Head Attention architectures](/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/p4-i1.png)
+![Diagram showing Scaled Dot-Product Attention and Multi-Head Attention architectures](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/p4-i1.png)
 > **Caption:** Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel.
 > **Figure text:** Scaled Dot-Product Attention Multi-Head Attention MatMul SoftMax Mask (opt.) Scale MatMul Q K V Linear Concat Scaled Dot-Product Attention Linear Linear Linear V K Q h
 

@@ -4,7 +4,7 @@ Marc Andreessen
 
 Posted October 16, 2023
 
-![A rectangular box containing redacted text blocks](/figures/techno-optimist-manifesto-andreessen-redacted-by-grosser/p1-i1.jpg)
+![A rectangular box containing redacted text blocks](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/techno-optimist-manifesto-andreessen-redacted-by-grosser/p1-i1.jpg)
 > **Figure text:** [REDACTED]
 > [REDACTED]
 > [REDACTED]

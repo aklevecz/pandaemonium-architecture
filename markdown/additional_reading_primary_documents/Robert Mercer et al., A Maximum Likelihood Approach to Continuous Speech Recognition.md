@@ -490,7 +490,7 @@ Center: J. K. Baker, J. M. Baker, R. Bakis, P. Cohen, A. Cole, R. Dixon, B. Lewi
 
 [21] A. Newell, J. Barnett, J. W. Forgie, C. Green, D. Klatt, J. C. R. Licklider, J. Munson, D. R. Reddy, and W. A. Woods, *Speech Understanding Systems: Final Report of a Study Group*. Amsterdam, The Netherlands: North-Holland, 1973.
 
-![Portrait of Lalit R. Bahl](/figures/robert-mercer-et-al-a-maximum-likelihood-approach-to-continuous-speech-recognition/p12-i1.jpg)
+![Portrait of Lalit R. Bahl](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robert-mercer-et-al-a-maximum-likelihood-approach-to-continuous-speech-recognition/p12-i1.jpg)
 > **Caption:** None
 > **Figure text:** Lalit R. Bahl (S'66-M'68) received the B.Tech. (Hons.) degree from the Indian Institute of Technology, Kharagpur, India, in 1964 and the M.S. and Ph.D. degrees in electrical engineering from the University of Illinois, Urbana, in 1966 and 1968, respectively. Since 1968 he has been at the IBM Thomas J. Watson Research Center in Yorktown Heights, NY. Since 1979 he has been Manager of the Natural Language Speech Recognition Group. During 1969-1974 he was also Adjunct Associate Professor in the Department of Electrical Engineering and Computer Science, Columbia University, New York, NY. His research interests include speech recognition, information theory, coding theory, and communication theory.
 

@@ -14,7 +14,7 @@ READ
 
 1 author:
 
-![Profile picture of David John Roden](/figures/david-roden-subtractive-catastrophic-xenophilia/p1-i1.png)
+![Profile picture of David John Roden](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/david-roden-subtractive-catastrophic-xenophilia/p1-i1.png)
 > **Figure text:** David John Roden
 > The Open University (UK)
 > 26 PUBLICATIONS 116 CITATIONS
@@ -22,10 +22,10 @@ READ
 
 Some of the authors of this publication are also working on these related projects:
 
-![Project icon for Speculative Posthumanism](/figures/david-roden-subtractive-catastrophic-xenophilia/p1-i2.png)
+![Project icon for Speculative Posthumanism](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/david-roden-subtractive-catastrophic-xenophilia/p1-i2.png)
 > **Figure text:** Project Speculative Posthumanism View project
 
-![Project icon for Naturalism, Deconstruction and Phenomenology](/figures/david-roden-subtractive-catastrophic-xenophilia/p1-i3.png)
+![Project icon for Naturalism, Deconstruction and Phenomenology](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/david-roden-subtractive-catastrophic-xenophilia/p1-i3.png)
 > **Figure text:** Project Naturalism, Deconstruction and Phenomenology View project
 
 All content following this page was uploaded by David John Roden on 04 January 2020.

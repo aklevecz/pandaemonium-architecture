@@ -147,7 +147,7 @@ In Section IV below we report experimental results from a simple business entry 
 
 Appendix 1 shows that in the Poisson-CH model, a particular thinking-step type $k$ has a series of cutpoints which prescribe values of $d$ at which the $k$-step thinker will enter or not (which, naturally, depend on $\tau$). For example, a 1-step thinker will stay out for $d < .5$ and enter for $d > .5$ (and is indifferent when $d = .5$); the entry-function therefore has one cutpoint at .5. The Ap-
 
-![A line graph showing the behaviors of level 0, 1, and 2 players with demand on the x-axis and % of entry on the y-axis.](/figures/colin-f-camerer-teck-hua-ho-juin-kuan-chong-cognitive-hierarchy-theory-of-games/p12-i1.png)
+![A line graph showing the behaviors of level 0, 1, and 2 players with demand on the x-axis and % of entry on the y-axis.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/colin-f-camerer-teck-hua-ho-juin-kuan-chong-cognitive-hierarchy-theory-of-games/p12-i1.png)
 > **Caption:** FIGURE I
 > Behaviors of Level 0, 1, and 2 Players ($\tau = 1.5$)
 > **Figure text:** 
@@ -333,11 +333,11 @@ Table IV shows log likelihoods (LL) and mean-squared deviations for several mode
 
 A graphical comparison of how much the theories’ predictions deviate from the data gives a quick snapshot of how accurate they are. Each point in Figures II–III represents a distinct strategy in
 
-![Scatter plot comparing Mean Absolute Deviation for Nash versus Cognitive Hierarchy in Matrix Games](/figures/colin-f-camerer-teck-hua-ho-juin-kuan-chong-cognitive-hierarchy-theory-of-games/p20-i1.png)
+![Scatter plot comparing Mean Absolute Deviation for Nash versus Cognitive Hierarchy in Matrix Games](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/colin-f-camerer-teck-hua-ho-juin-kuan-chong-cognitive-hierarchy-theory-of-games/p20-i1.png)
 > **Caption:** FIGURE II Mean Absolute Deviation for Matrix Games: Nash Versus Cognitive Hierarchy (Common τ)
 > **Figure text:** 1.00 0.90 0.80 0.70 0.60 0.50 0.40 0.30 0.20 0.10 0.00 0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90 1.00 MAD(Cognitive Hierarchy) MAD(Nash)
 
-![Scatter plot comparing Mean Absolute Deviation for Nash versus Cognitive Hierarchy in Mixed Games](/figures/colin-f-camerer-teck-hua-ho-juin-kuan-chong-cognitive-hierarchy-theory-of-games/p20-i2.png)
+![Scatter plot comparing Mean Absolute Deviation for Nash versus Cognitive Hierarchy in Mixed Games](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/colin-f-camerer-teck-hua-ho-juin-kuan-chong-cognitive-hierarchy-theory-of-games/p20-i2.png)
 > **Caption:** FIGURE III Mean Absolute Deviation for Mixed Games: Nash Versus Cognitive Hierarchy (Common τ)
 > **Figure text:** 1.00 0.90 0.80 0.70 0.60 0.50 0.40 0.30 0.20 0.10 0.00 0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90 1.00 MAD(Cognitive Hierarchy) MAD(Nash)
 

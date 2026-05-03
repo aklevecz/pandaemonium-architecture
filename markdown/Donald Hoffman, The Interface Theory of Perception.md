@@ -235,7 +235,7 @@ If $a > c$ and $b > d$, then *truth* drives *simple* to extinction. If $a < c$ a
 
 The entries in the payoff matrix described above will vary, of course, with the correlation between food and water values, with the specific value of food that is used by *simple* as the boundary between green and red, and with the cost $c_e$ per bit of information obtained.
 
-![Two plots showing the asymptotic behavior of the interface game as a function of cost per bit and boundary value for r=0 and r=1](/figures/donald-hoffman-the-interface-theory-of-perception/p21-i1.png)
+![Two plots showing the asymptotic behavior of the interface game as a function of cost per bit and boundary value for r=0 and r=1](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/donald-hoffman-the-interface-theory-of-perception/p21-i1.png)
 > **Caption:** Fig 1.1. Asymptotic behavior of the interface game as a function of the cost per bit of information and the choice of the red-green boundary in the simple strategy. Light gray indicates that simple drives truth to extinction, intermediate gray that the two strategies coexist, and dark gray that truth drives simple to extinction. The
 > **Figure text:** r = 0 1.2 1.0 0.6 0.4 0.2 0 100 cost per bit r = 1 0.6 0.4 0.2 0 100 boundary
 

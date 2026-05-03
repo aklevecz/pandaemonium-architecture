@@ -4,7 +4,7 @@
 
 ## AN ANTI-FASCIST APPROACH TO ARTIFICAL INTELLIGENCE
 
-![Book cover featuring the title and author name against a blue digital network background](/figures/dan-mcquillan-from-resisting-ai-an-anti-fascist-approach-to-artificial-intelligence-bristol-university-press-2022/p1-i1.jpg)
+![Book cover featuring the title and author name against a blue digital network background](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/dan-mcquillan-from-resisting-ai-an-anti-fascist-approach-to-artificial-intelligence-bristol-university-press-2022/p1-i1.jpg)
 > **Caption:** None
 > **Figure text:** DAN McQUILLAN RESISTING AI AN ANTI-FASCIST APPROACH TO ARTIFICAL INTELLIGENCE
 

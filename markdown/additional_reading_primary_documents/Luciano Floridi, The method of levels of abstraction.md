@@ -184,7 +184,7 @@ A nested GoA (see Fig. 1) is chosen to describe a complex system exactly at each
 
 Using the previous example regarding the brain, ideally neuroscientific studies rely on nested GoAs, as they proceed from the investigation of whole brain functions and related areas, such as specific kinds of memories, to investigations of the physiological basis of memory storage in neurons. On a more prosaic note, let me recall the case of a traffic light, which is observed to have colour *colour* of type {red, amber, green}. This is captured by a LoA, $L_0$, having that single observable. If one wishes to be more precise about colour, e.g. for the purpose of constructing a new traffic light, one might consider a second LoA, $L_1$, having the variable *wl* whose type is a positive real number corresponding to the wavelength of the colour. To
 
-![A diagram showing a nested GoA with four levels of abstraction, labeled L0, L1, L2, and L3, with arrows R0,1, R1,2, and R2,3 pointing upwards between them.](/figures/luciano-floridi-the-method-of-levels-of-abstraction/p11-i1.png)
+![A diagram showing a nested GoA with four levels of abstraction, labeled L0, L1, L2, and L3, with arrows R0,1, R1,2, and R2,3 pointing upwards between them.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/luciano-floridi-the-method-of-levels-of-abstraction/p11-i1.png)
 > **Caption:** Fig. 1 Nested GoA with four Levels of Abstraction
 > **Figure text:** L3, L2, L1, L0, R2,3, R1,2, R0,1
 

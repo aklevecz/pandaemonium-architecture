@@ -1,7 +1,7 @@
 # ChatGPT, or the Eschatology of Machines
 Yuk Hui
 
-![The Turing Machine at Bletchley Park](/figures/yuk-hui-chatgpt-or-the-eschatology-of-machines-journal-137/p1-i1.png)
+![The Turing Machine at Bletchley Park](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/yuk-hui-chatgpt-or-the-eschatology-of-machines-journal-137/p1-i1.png)
 > **Caption:** The Turing Machine at Bletchley Park. Douglas Hoyt/Flickr (CC BY-NC-ND 2.0).
 > **Figure text:** "was it for me to kill the heir-apparent?" Lubrication Manifold for 'one oiling to all bearings' Horizontal Shafts These drive the upper drums through the belt and worm-wheel 104 Series relays arranged in banks of 28. These detect an open circuit in the menu leading to a stop. Up to 3 identical menus can be loaded. The Relay Set This unit normally be closed only the jacks on the rear ar
 
@@ -16,7 +16,7 @@ In the 1960s, Hans Blumenberg argued against Löwith’s thesis of secularizatio
 
 significant concepts of the modern theory of the state are secularized theological concepts.”[^2] Blumenberg contended that the understanding of the modern as the secularization or transposition of theological concepts undermines the legitimacy of the modern; a certain significance of modernity remains irreducible to the secularization of theology.[^3] Likewise, the novelty and significance of artificial intelligence is buried by the eschatological imaginary, by modern stereotypes of machines and industrial propaganda.
 
-![A medieval miniature depicting the Crusaders' siege of Jerusalem](/figures/yuk-hui-chatgpt-or-the-eschatology-of-machines-journal-137/p2-i1.png)
+![A medieval miniature depicting the Crusaders' siege of Jerusalem](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/yuk-hui-chatgpt-or-the-eschatology-of-machines-journal-137/p2-i1.png)
 > **Caption:** The Crusaders’ siege of Jerusalem in 1099 is depicted in a miniature from *Descriptio Terrae Sanctae* (Description of the Holy Land) by Burchard of Mount Sion, 13th century.
 
 This is not to say that we should deny climate change and resist artificial intelligence. To the contrary, fighting against climate change should be our top priority, as should be developing a productive relation between humans and technology. But to do this we must develop an adequate understanding of artificial intelligence, beyond a merely technical one. The invention of the train, automobile, and later the airplane also triggered great fear, both psychologically and economically, yet today few fear that these machines will slip out of our control. Instead, cars and airplanes are part of daily life, often signifying excitement and freedom. So why is there such fear over artificial intelligence?
@@ -25,7 +25,7 @@ To understand this new wave of technology with ChatGPT at the forefront, we can 
 
 not the type of machine we are dealing with today. Noam Chomsky, Ian Roberts, and Jeffrey Watumull were right in claiming that ChatGPT is “a lumbering statistical engine for pattern matching.”[^5] However, we must recognize that, while patterns are a primary characteristic of information, ChatGPT is doing more than just pattern matching.
 
-![The combat information center aboard a warship—proposed as a real-life analog to a Chinese room, 1988. License: Public Domain.](/figures/yuk-hui-chatgpt-or-the-eschatology-of-machines-journal-137/p3-i1.png)
+![The combat information center aboard a warship—proposed as a real-life analog to a Chinese room, 1988. License: Public Domain.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/yuk-hui-chatgpt-or-the-eschatology-of-machines-journal-137/p3-i1.png)
 > **Caption:** The combat information center aboard a warship—proposed as a real-life analog to a Chinese room, 1988. License: Public Domain.
 
 Such a syntactical critique is based on a mechanistic epistemology that assumes linear causality—a cause followed by an effect. One can reverse this cause-and-effect process to reach the ultimate cause: the prime mover, the default of the first cause, and the ultimate fate of all linear reasoning. In contrast to linear causality and mechanist philosophy, the eighteenth century saw the rise of philosophical thinking based on the organism, with Immanuel Kant’s *Critique of Judgment* as one of the most significant contributions. As I have claimed before, Kant imposed a new condition of philosophizing, namely that philosophy has to become organic; in other words, the organic marked a new beginning for philosophical thinking.[^6] Today it is important to recognize that the condition of philosophizing that Kant established has come to its end after cybernetics.[^7]
@@ -44,7 +44,7 @@ Recursive machines, and not linear machines, are key to understanding the develo
 
 Human beings were not upset when domesticated animals such as horses and cows replaced them as providers of energy. They instead welcomed the relief from repetitive and tiresome labor. The same happened when steam engines replaced animals; they were even more efﬁcient and required even less human attention. Simondon, in his 1958 book *On the Mode of Existence of Technical Objects*, rightly observed that the replacement of thermodynamic machines by information machines marks a critical moment: human displacement from the center of production. Artisans before the industrial age were able to create an associated milieu in which the artisan’s body and intelligence compensated for their simple tools’ lack of autonomy. In the era of information machines, or cybernetic machines, the machine itself becomes the organizer of information and the human is no longer at the center, even if they still consider themself the commander of machines and organizer of information. This is the moment when the human suffers from their own stereotypical beliefs about machines: they falsely identify themself as the center, and in so doing, they face constant frustration and a panicked search for identity.
 
-![Luke Skywalker testing a prosthetic hand](/figures/yuk-hui-chatgpt-or-the-eschatology-of-machines-journal-137/p4-i1.png)
+![Luke Skywalker testing a prosthetic hand](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/yuk-hui-chatgpt-or-the-eschatology-of-machines-journal-137/p4-i1.png)
 > **Caption:** Luke Skywalker tests his prosthetic hand, the L-hand 980.
 
 The reality residing in the machine is alienated from the reality in which the human operates. The unavoidable process of technological evolution is driven by the introduction of nonlinear causality, allowing machines to deal with contingency. A learning machine is one that can discern contingent events such as noise and failure. It can distinguish unorganized inputs from necessary ones. And by interpreting contingent events, the learning machine improves its model of decision-making. But even here the machine needs humans to distinguish right decisions from wrong ones in order to continue improving. In developing countries, a new type of cheap labor employs humans to tells machines whether results are correct, be they facial

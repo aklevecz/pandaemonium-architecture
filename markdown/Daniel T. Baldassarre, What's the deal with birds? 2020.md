@@ -60,7 +60,7 @@ To explore the relationship between appearance and weirdness, I ran two binomial
 
 ## Results
 
-![Scatter plot showing relationships between climate change, looks like a fish, and weird beak](/figures/daniel-t-baldassarre-what-s-the-deal-with-birds-2020/p2-i1.png)
+![Scatter plot showing relationships between climate change, looks like a fish, and weird beak](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/daniel-t-baldassarre-what-s-the-deal-with-birds-2020/p2-i1.png)
 > **Caption:** Figure 1: Relationships between climate change (a), looks like a fish (b), and weird beak. X-values were scaled between 0 and 1 for visualization purposes.
 > **Figure text:** climate change; looks like a fish; weird beak; the deal
 

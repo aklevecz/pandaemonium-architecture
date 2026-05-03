@@ -8,13 +8,13 @@ Follow 5 min read · Apr 4, 2024
 
 2K 15
 
-![A surrealist painting of a creature with a hollow body containing people, with an Android logo, a Google logo, and a shrug emoticon in speech bubbles above it.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p2-i1.png)
+![A surrealist painting of a creature with a hollow body containing people, with an Android logo, a Google logo, and a shrug emoticon in speech bubbles above it.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p2-i1.png)
 > **Caption:** None
 > **Figure text:** ¯\\_(ツ)_/¯
 
 I’m **on tour with my new, nationally bestselling novel The Bezzle!** Catch me in **Boston** (Apr 11) with Randall “XKCD” Munroe, **Providence** (Apr 12) and **beyond!**
 
-![A yellow banner with the text "cory doctorow the bezzle" and a stylized letter A.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p2-i2.png)
+![A yellow banner with the text "cory doctorow the bezzle" and a stylized letter A.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p2-i2.png)
 > **Caption:** None
 > **Figure text:** cory doctorow the bezzle
 
@@ -164,7 +164,7 @@ See all responses
 
 # More from Cory Doctorow
 
-![A vintage-style illustration of a person in overalls sitting on top of the world](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p10-i1.png)
+![A vintage-style illustration of a person in overalls sitting on top of the world](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p10-i1.png)
 > **Caption:** None
 > **Figure text:** None
 
@@ -175,7 +175,7 @@ Our last line of defense has fallen.
 
 Apr 27 8.3K 128
 
-![An illustration of a person in a suit sitting in a chair above a red cloud](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p10-i2.png)
+![An illustration of a person in a suit sitting in a chair above a red cloud](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p10-i2.png)
 > **Caption:** None
 > **Figure text:** None
 
@@ -186,7 +186,7 @@ They’re in for a surprise.
 
 Aug 13 3.1K 21
 
-![A digital avatar of Mark Zuckerberg superimposed over a crowd of people.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i1.png)
+![A digital avatar of Mark Zuckerberg superimposed over a crowd of people.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i1.png)
 > **Caption:** Cory Doctorow
 
 ## Zuckermuskian solipsism
@@ -194,7 +194,7 @@ They just don’t think other people are real.
 
 Aug 18 2.8K 32
 
-![A surreal illustration of a boat with butterfly-winged figures on a sea.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i2.png)
+![A surreal illustration of a boat with butterfly-winged figures on a sea.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i2.png)
 > **Caption:** Cory Doctorow
 
 ## Bluesky creates the world’s weirdest, hardest-to-understand...
@@ -206,15 +206,15 @@ See all from Cory Doctorow
 
 ## Recommended from Medium
 
-![An illustration of a person holding a magnifying glass over a Wikipedia globe logo.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i3.png)
+![An illustration of a person holding a magnifying glass over a Wikipedia globe logo.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i3.png)
 
-![A glowing human brain floating in a white, abstract space.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i4.png)
+![A glowing human brain floating in a white, abstract space.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i4.png)
 
-![A collage of four screenshots showing the Arc browser interface on different devices.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i1.png)
+![A collage of four screenshots showing the Arc browser interface on different devices.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i1.png)
 > **Caption:** None.
 > **Figure text:** Arc Search, Fast and ad-free web browsing, The Browser Company of New York Inc., Free, We open the keyboard for you, like a doorman for the Web, Find it, faster., Josh Miller @joshmiller, a little Sunday surprise for you..., meat @browsercompany's 2nd product:, Arc Search, it's a default browser for your iPhone, ...that BROWSES FOR YOU, the origin story is a bit unusual so I wanted to give you the full backstory:, Arc Search, THE BROWSER COMPANY, theverge.com, Menu, WEB / TECH / APPS, Arc Search combines browser, search engine, and AI into something new and different / "Browse for me" is the new search engine, at least if The Browser Company is right about the future of the internet., By David Pierce, editor-at-large and Vergecast co-host with over a decade of experience covering consumer tech. Previously, at Protocol, The Wall Street Journal, and Wired., Jan 25, 2024, 4:55 PM PST, If you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement., Arc Search, Arc Search
 
-![A black and white photo of a person looking at a large, complex structure of interconnected lines and nodes.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i2.png)
+![A black and white photo of a person looking at a large, complex structure of interconnected lines and nodes.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i2.png)
 > **Caption:** None.
 > **Figure text:** None.
 
@@ -224,14 +224,14 @@ Arc’s Big, Beautiful Exit
 ## Apple Can’t Figure Out AI Because There’s Nothing To Figure Out
 Despite massive investments and widespread hype, the promised revolution of AI might be...
 
-![A diagram comparing a single large purple cube labeled "Monolithic" to a cluster of smaller, multi-colored cubes labeled "Microservices".](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i3.png)
+![A diagram comparing a single large purple cube labeled "Monolithic" to a cluster of smaller, multi-colored cubes labeled "Microservices".](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i3.png)
 > **Caption:** None.
 > **Figure text:** Monolithic, Microservices
 
 ## Why Microservices Are Out and Monoliths Are Making a Comeback
 For years, we were told microservices were the future.
 
-![An illustration showing an American eagle perched on a power line next to a Chinese dragon, with a large "AI" box sitting on the power grid.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i4.png)
+![An illustration showing an American eagle perched on a power line next to a Chinese dragon, with a large "AI" box sitting on the power grid.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i4.png)
 > **Caption:** None.
 > **Figure text:** MADE IN USA, ROUTE 1903, AI
 

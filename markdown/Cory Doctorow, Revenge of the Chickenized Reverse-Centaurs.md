@@ -94,5 +94,5 @@ About Help Terms Privacy
 
 Get the Medium app
 
-![App store download buttons](/figures/cory-doctorow-revenge-of-the-chickenized-reverse-centaurs/p8-i1.png)
+![App store download buttons](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-revenge-of-the-chickenized-reverse-centaurs/p8-i1.png)
 > **Figure text:** Download on the App Store GET IT ON Google Play

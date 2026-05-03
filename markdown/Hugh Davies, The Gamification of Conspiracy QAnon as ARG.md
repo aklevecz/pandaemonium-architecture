@@ -12,7 +12,7 @@ Hugh Davies
 *AUSTRALIA*
 *hugh.davies@rmit.edu.au*
 
-![Portrait of Hugh Davies](/figures/hugh-davies-the-gamification-of-conspiracy-qanon-as-arg/p1-i1.jpg)
+![Portrait of Hugh Davies](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/hugh-davies-the-gamification-of-conspiracy-qanon-as-arg/p1-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 

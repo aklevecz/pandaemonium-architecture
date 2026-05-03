@@ -3,7 +3,7 @@ SERIES EDITORS: CALUM NEILL · DEREK HOOK
 
 # The Psychoanalysis of Artificial Intelligence
 
-![A stylized, green-tinted circular graphic featuring three metallic, humanoid figures with glowing eyes.](/figures/isabel-millar-from-the-psychoanalysis-of-artificial-intelligence/p1-i1.jpg)
+![A stylized, green-tinted circular graphic featuring three metallic, humanoid figures with glowing eyes.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/isabel-millar-from-the-psychoanalysis-of-artificial-intelligence/p1-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -30,7 +30,7 @@ Isabel Millar
 
 # The Psychoanalysis of Artificial Intelligence
 
-![Palgrave Macmillan logo](/figures/isabel-millar-from-the-psychoanalysis-of-artificial-intelligence/p4-i1.png)
+![Palgrave Macmillan logo](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/isabel-millar-from-the-psychoanalysis-of-artificial-intelligence/p4-i1.png)
 > **Figure text:** palgrave macmillan
 
 Isabel Millar

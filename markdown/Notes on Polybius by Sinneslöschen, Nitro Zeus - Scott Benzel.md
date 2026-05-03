@@ -5,7 +5,7 @@ Notes on Memesis and Death
 SCOTT BENZEL
 FEB 07, 2025
 
-![A painting by Nicolas Poussin, Et in Arcadia Ego, with a Polybius arcade game screen superimposed over the tomb.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p1-i1.png)
+![A painting by Nicolas Poussin, Et in Arcadia Ego, with a Polybius arcade game screen superimposed over the tomb.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p1-i1.png)
 
 > **Caption:** Polybius / Nicolas Poussin, Et in Arcadia Ego, 1637-38
 > **Figure text:** POLYBIUS © 1981 SINNESLÖSCHEN, INC.
@@ -22,7 +22,7 @@ Iranian population? The U.S. domestic audience? Hackers/cybersecurity profession
 
 ## Polybius’s Histories v. laodogmatika
 
-![Title page of a 1548 edition of Polybius's Historiographi](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p3-i1.png)
+![Title page of a 1548 edition of Polybius's Historiographi](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p3-i1.png)
 > **Caption:** Polybius, Historiographii, 1806 Italian edition
 > **Figure text:** P O L Y B I I . H I - 1806 S T O R I O G R A P H I H I S T O R I A R V M L I B R I Q V I N Q V E , Nicolao Perotto, in-terprete. V I R T V T E D V C E , C O M I T E F O R T V N A . A P V D S E B . G R Y - P H I V M L V - G D V N I , 1548.
 
@@ -32,7 +32,7 @@ Taken in by the Roman Consul Scipio, Polybius was allowed to travel while remain
 
 > “anyone who thinks that they can understand the whole of history by reading monographs on individual subjects is like the person who thinks he can appreciate the beauty and grace of a live animal from looking at the different parts of its dissected corpse” [^1]
 
-![A painting depicting a mythological scene in a lush landscape with figures including Cupid and Pan.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p5-i1.png)
+![A painting depicting a mythological scene in a lush landscape with figures including Cupid and Pan.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p5-i1.png)
 > **Caption:** Attributed to Federico Zuccaro, *Cupid and Pan*, about 1600
 
 # Arcadia
@@ -47,18 +47,18 @@ devoid of all the amenities of life and scarcely affording food for a few meager
 
 According to Pliny the Elder in *The Natural History,* 77-79 C.E. (in an example of *laodogmatika* that Polybius would have contested) the art of painting originated with people tracing the outlines of one another’s shadows. Pliny later alludes to a young woman whose lover is called away—she traces a line around his shadow cast on the wall, mem(e)orializing him. In Poussin’s *The Arcadian Shepherds*, also called *Et in Arcadia Ego* (per Panofsky (below): *Even in Arcadia, am I (Death)*), 1637-38, an Arcadia shepherd traces his shadow—cast on a stone tomb—while another points to the inscription *Et in Arcadia Ego*, reenacting Pliny’s example of the first instance of representation/mimesis in art while symbolically linking it to the recognition of dea
 
-![Painting by Nicolas Poussin titled Et in Arcadia Ego depicting shepherds around a tomb](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p6-i1.png)
+![Painting by Nicolas Poussin titled Et in Arcadia Ego depicting shepherds around a tomb](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p6-i1.png)
 > **Caption:** Nicolas Poussin, Et in Arcadia Ego (And in Arcadia, am I), 1637-38
 
 <!-- page 7: extraction failed (likely Gemini RECITATION block) -->
 
-![A print of Sir Joshua Reynolds' painting, Mrs. Bouverie and Mrs. Crewe (Et in Arcadia Ego), 1770](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p8-i1.png)
+![A print of Sir Joshua Reynolds' painting, Mrs. Bouverie and Mrs. Crewe (Et in Arcadia Ego), 1770](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p8-i1.png)
 > **Caption:** print of Sir Joshua Reynolds, Mrs. Bouverie and Mrs. Crewe (Et in Arcadia Ego), 1770
 > **Figure text:** J. Joshua Reynolds Pinxt. Jas. Marchi
 
 # Polybius’s square and fire signals
 
-![A 5x5 grid of Greek letters representing the Polybius square](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p9-i1.png)
+![A 5x5 grid of Greek letters representing the Polybius square](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p9-i1.png)
 > **Caption:** Polybius square
 > **Figure text:** A B Γ Δ E
 > Z H Θ I K
@@ -70,7 +70,7 @@ The Polybius square is a matrix cipher that fractionates plaintext, breaking the
 
 The Polybius square is the first of the early systems developed for substituting numbers for letters through fractionating to obscure plaintext message. To this date, cryptographers find the Polybius square extremely valuable. Its ability to convert letters sequences to numeric sequences, reduce the number of different characters, and allow encoding of plaintext into two separately manipulatable units are known to be its advantages. With this at hand, modern cryptographic systems have embedded the Polybius square as a fundamental component of the encipherment process, such as in the key generation procedures used by modern ciphers. [^3]
 
-![Albrecht Dürer's engraving Melencolia I](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p10-i1.png)
+![Albrecht Dürer's engraving Melencolia I](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p10-i1.png)
 > **Caption:** None
 > **Figure text:** MELENCOLIA I, 16 3 2 13, 5 10 11 8, 9 6 7 12, 4 15 14 1
 
@@ -80,7 +80,7 @@ The ‘magic square’ in Dürer’s *Melencolia I* contains a number of combina
 
 ## *Polybius* by Sinneslöschen - RumINT, PSYOP, Vaporware
 
-![Title screen of the arcade game Polybius](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p11-i1.png)
+![Title screen of the arcade game Polybius](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p11-i1.png)
 > **Caption:** ‘screenshot’ from coinop.org
 > **Figure text:** POLYBIUS (C) 1981 SINNESLÖSCHEN INC. CREDITS 0
 
@@ -102,7 +102,7 @@ Here's what we've found so far:
 
 * Text in the game says "(C) 1981 Sinneslöschen" Maybe a German company?
 
-![coinop.org website header and navigation bar](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p13-i1.png)
+![coinop.org website header and navigation bar](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p13-i1.png)
 > **Figure text:** coinop.org home · games · tech info · articles · about · contact us
 
 Ads were removed from the site on 2021-10-17. Updates to the site have commenced after a long hiatus. More to come.
@@ -133,7 +133,7 @@ Unfortunately, the main thing that’s missing is proof. While a ROM reportedly 
 
 But still...what if it’s true?
 
-![Polybius in GamePro magazine Issue 180 (September 2003) and a screenshot of Polybius from The Simpsons](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p14-i1.png)
+![Polybius in GamePro magazine Issue 180 (September 2003) and a screenshot of Polybius from The Simpsons](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p14-i1.png)
 > **Caption:** Polybius in GamePro magazine Issue 180 (September 2003)
 > **Figure text:** POLYBIUS. TRIANGLE WARS. POLYBIL. POLYBIUS. CREDITS 0. PROPERTY OF U.S. GOVERNMI.
 
@@ -143,7 +143,7 @@ Sinneslöschen, agrammatical German for “senses” “delete” (“sensory de
 
 A 2017 FOIA request for information on Polybius received a summary FBI denial:
 
-![FBI FOIA response letter regarding the Polybius Arcade Game](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p15-i1.png)
+![FBI FOIA response letter regarding the Polybius Arcade Game](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p15-i1.png)
 > **Caption:** None
 > **Figure text:** U.S. Department of Justice
 > Federal Bureau of Investigation
@@ -162,13 +162,13 @@ A 2017 FOIA request for information on Polybius received a summary FBI denial:
 
 # Memesis and Death
 
-![Boromir meme from Lord of the Rings with text "ONE DOES NOT SIMPLY STOP A MEME WAR"](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p16-i1.png)
+![Boromir meme from Lord of the Rings with text "ONE DOES NOT SIMPLY STOP A MEME WAR"](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p16-i1.png)
 > **Caption:** knowyourmeme.com
 > **Figure text:** ONE DOES NOT SIMPLY STOP A MEME WAR quickmeme
 
 In 2011, Dr. Robert Finkelstein, President of DARPA-sponsored Robotic Technology Inc. and a professor at the University of Maryland gave a talk on *Military Memetics* at the Social Media for Defense Summit in Alexandria, Virginia. From his slide-deck *Tutorial: Military Memetics*: [^4]
 
-![A text box containing a disclaimer and an illustration of a wizard-like figure holding a globe](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p17-i1.png)
+![A text box containing a disclaimer and an illustration of a wizard-like figure holding a globe](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p17-i1.png)
 > **Figure text:** This presentation is based on projects Robotic Technology Inc. performed for the Defense Advanced Research Projects Agency (DARPA), 2006-2009, and we thank DARPA for their vision and support
 
 # EXECUTIVE SUMMARY: WHAT IS A MEME?
@@ -180,7 +180,7 @@ In 2011, Dr. Robert Finkelstein, President of DARPA-sponsored Robotic Technology
     * It can provide a coherent, scientific approach for information operations, psychological warfare, and the general war against terrorists
     * It can prevent or mitigate irrational conflict, reduce the probability of war or defeat, and increase the probability of peace or victory
 
-![A human skull containing various social media profile pictures and icons](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p18-i1.png)
+![A human skull containing various social media profile pictures and icons](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p18-i1.png)
 > **Caption:** © Hank G
 > **Figure text:** www.mediaspin.com
 
@@ -194,7 +194,7 @@ In 2011, Dr. Robert Finkelstein, President of DARPA-sponsored Robotic Technology
         * "The value of military deception...is intuitive"
         * "Effective military deception requires centralized planning, security, and close integration with operational planning"
 
-![Phrenology head diagram](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p19-i1.png)
+![Phrenology head diagram](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p19-i1.png)
 > **Figure text:** VENERATION, BENEVOLENCE, HUMAN NATURE, REFLECTIVES, CAUSALITY, EVENTUALITY, LOCALITY, TIME, PERCEPTIVES, LANGUAGE, IDEALITY, SUBLIMITY, SPIRITUALITY, HOPE, CONSCIENTIOUSNESS, FIRMNESS, SELF ESTEEM, APPROBATIVENESS, CAUTIOUSNESS, SECRETIVENESS, DESTRUCTIVENESS, COMBATIVENESS, AMATIVENESS, A PICTURE OF GOOD HEALTH
 
 **[Figure: Surrealist room interior with oversized objects]**
@@ -210,7 +210,7 @@ In 2011, Dr. Robert Finkelstein, President of DARPA-sponsored Robotic Technology
 > * We cannot be sure we have something worth living for unless we are ready to die for it
 > * The readiness to die is evidence, to themselves and others, that those who have taken a substitute for an irrevocably missed or spoiled first choice is indeed the best there ever was
 
-![A person sitting in a meditative pose while engulfed in flames](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p20-i1.png)
+![A person sitting in a meditative pose while engulfed in flames](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p20-i1.png)
 > **Caption:** from the Tutorial: Military Memetics slide deck
 
 Since the mid-20th Century memetics has become increasingly pervasive in the so-called “battlespace” (the UK’s XX Committee, CIA’s MK-ARTICHOKE, MK-ULTR CIA-cutouts the Congress for Cultural Freedom and the Human Ecology Fund, the USAF’s Project GRUDGE), with MILDEC (Military Deception), psyop, and “influer campaigns” regularly targeting both international and domestic populations. Since advent of the internet, mimetics has been institutionalized (see SMISC, INCAS, JTRIG, and PSYOP School, below) and has come to dominate the Neuro-Cognitive warfare space (see slide two above). Not unlike the field itself, the *Military Memetics* slide deck drifts from a relatively benign discussion of the history and theory of memetics to increasingly disturbing, necropolitical terrain (see final slide above.)
@@ -231,21 +231,21 @@ Stuxnet was the first acknowledged cyberkinetic attack, relying heavily on TAO m
 
 state (or loosely state-adjacent) hackers operating (sometimes unwittingly) as nodes the operation in order to obscure methods and attribution.
 
-![A digital visualization of network nodes and connections, with a bright white circular light source and a beam of light extending from it.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p22-i1.png)
+![A digital visualization of network nodes and connections, with a bright white circular light source and a beam of light extending from it.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p22-i1.png)
 > **Caption:** Stuxnet propagation / air gap bridge from the documentary *Zero Days* (2016)
 
 “Operation Nitro Zeus...was Cyber Command’s piece of the Op Plan 1025 puzzle to shut down Iran's electrical grid. If Olympic Games was the cyber equivalent of a targeted drone strike on Iran, Nitro Zeus was a full-scale attack. Nitro Zeus would be the opening act of the war plan: turning off an entire country so fast that retaliation would have been extremely difficult. This included tunneling inside Iran’s grid—along with its cell phone network and even the Iranian Revolutionary Guard Corps’ command-and-control systems. Nitro Ze
 
 was a military plan, intended to unplug Tehran if diplomacy failed. "—David Sanger, The Perfect Weapon
 
-![A digital wireframe representation of a human face, obscured by a white circle](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p23-i1.png)
+![A digital wireframe representation of a human face, obscured by a white circle](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p23-i1.png)
 > **Caption:** Anonymous NSA source (played by an actor) on Nitro Zeus in *Zero Days* (2016)
 
 "We spent hundreds of millions, maybe billions on it," a anonymous National Security Agency source says in th film. "We were inside, waiting, watching. Ready to disrupt, degrade, and destroy those systems with cybe attacks. In comparison, Stuxnet was a back alley operation. [Nitro Zeus] was the plan for a full scale cyb war with no attribution. [^6]
 
 NZ (Nitro Zeus) never went kinetic, but its combination of RumINT, (alleged) cyberkinetic capability, and (once again, possibly unwitting) Hollywood-assisted MILDEC achieved many of the goals of active cyberkinetic warfare.
 
-![Logo of the Tailored Access Operations unit, featuring a globe with network lines and the text "TAILORED ACCESS OPERATIONS"](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p24-i1.png)
+![Logo of the Tailored Access Operations unit, featuring a globe with network lines and the text "TAILORED ACCESS OPERATIONS"](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p24-i1.png)
 > **Caption:** None
 > **Figure text:** TAILORED ACCESS OPERATIONS
 
@@ -259,7 +259,7 @@ According to Aid, TAO's primary base is in the NSA headquarters in Fort Meade. T
 
 # DARPA SMISC (Social Media in Strategic Communication) to INCAS (INfluence Campaign Awareness and Sensemaking); GCHQ JTRIG
 
-![DARPA logo](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p25-i1.png)
+![DARPA logo](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p25-i1.png)
 > **Caption:** None
 > **Figure text:** DARPA
 
@@ -293,7 +293,7 @@ Technology areas particularly relevant to SMISC are shown here grouped to corres
 
 Recent research has shown that traditional approaches to understanding social media through static network connectivity models often produce misleading results. It is, therefore, necessary to take into account the dynamics of behavior and SMISC is interested in a wide variety of techniques for doing so.
 
-![Screenshot of the DARPA INCAS program webpage](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p27-i1.png)
+![Screenshot of the DARPA INCAS program webpage](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p27-i1.png)
 > **Caption:** INCAS page at DARPA
 > **Figure text:** DARPA Research Work with Us Careers Events News About Home Research Programs INCAS: Influence Campaign Awareness and Sensemaking INCAS: Influence Campaign Awareness and Sensemaking
 
@@ -305,25 +305,25 @@ Today, geopolitical influence campaign detection and sensemaking is largely manu
 
 conclusions in a rigorous manner. Confidence assessment by analysts is ad hoc, manual, subjective, qualitative, and susceptible to analyst cognitive biases (e.g., confirmation bias). Analyst reports often cover static time ranges, and static rep quickly become stale.
 
-![A circular diagram showing the relationship between analyst task activities and an influence campaign model.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p28-i1.png)
+![A circular diagram showing the relationship between analyst task activities and an influence campaign model.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p28-i1.png)
 > **Caption:** Figure 1. Notional Analysts Task Activities (outer ring) and Campaign Model Fragment (inside ring)
 > **Figure text:** What is being said and by whom? Organize influence messaging via indicators. Influence Campaign Model. Campaign: Anti-US Bases. Host Nation Population. Younger Citizens. Older Citizens. Environment. Safety. Identity. US Base Pollution. US Base Crime. US Presence. Influence Messaging. Understand population response by segment. Who is responding how? What else are they responding to? What might they respond to? What is the confidence in the conclusions? Assess confidence in campaign models. Assemble & analyze campaign models. How does the current campaign relate to prior campaigns? How is it evolving? What is threatening?
 
 Diagram from INfluence Campaign Awareness and Sensemaking (INCAS) document HR001121S0008
 
-![GCHQ emblem featuring a crown above a globe surrounded by a laurel wreath](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p29-i1.png)
+![GCHQ emblem featuring a crown above a globe surrounded by a laurel wreath](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p29-i1.png)
 
 > **Caption:** None
 > **Figure text:** None
 
 # GCHQ JTRIG slides (Snowden leaks)
 
-![A person performing a card flourish with a deck of playing cards](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p29-i2.png)
+![A person performing a card flourish with a deck of playing cards](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p29-i2.png)
 
 > **Caption:** None
 > **Figure text:** We want to build Cyber Magicians.
 
-![A diagram showing a network of human figures connected by dashed lines, surrounded by various academic disciplines and concepts.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p30-i1.png)
+![A diagram showing a network of human figures connected by dashed lines, surrounded by various academic disciplines and concepts.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p30-i1.png)
 
 > **Figure text:** SECRET//SI//REL TO USA, FVEY
 > Culture
@@ -352,7 +352,7 @@ Diagram from INfluence Campaign Awareness and Sensemaking (INCAS) document HR001
 > Global Trends
 > SECRET//SI//REL TO USA, FVEY
 
-![A complex organizational chart titled "ACNO Key Skill Strands" detailing various psychological, social, and operational methodologies for influence and deception.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p31-i1.png)
+![A complex organizational chart titled "ACNO Key Skill Strands" detailing various psychological, social, and operational methodologies for influence and deception.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p31-i1.png)
 
 > **Caption:** None.
 > **Figure text:** SECRET//SI//REL TO USA, FVEY. ACNO Key Skill Strands. Online HUMINT. Influence & Info Ops. Disruption & Comp Net Attack. Magic Techniques & Experiment. Mental Health & Psychopathy. Decision Making - Rationale Choice Crime & punishment. Decisions (Emotional not rational). Planning. STRATEGY. Campaign Planning (why we are doing what we are). INSIDERS. Destru[ction] Organisa[tional] Psycho[logy]. PLAN INTERV[ENTION]. Individual. BELIEF. Personality (OCEAN). Remote Assessment in Digital Cues. Self (who I am? Motives & exploiting them). PERSUASION. How to apply these. Trust. Trust. Deception. Persuasive Tech. 10 PRINCIPLES OF SCAMS. HINDSIGHT BIAS. CONFIRMATION BIAS. ANCHORING. PRIMING. Behaviour & Influence. Hofstede Dimensions. CONSPIRACY STORIES. Group. Hofstede Dimensions. Interaction across cultures. Building Relationships. Mirroring / Mimicry. Social Penetration Theory. Influence. Elegance. Optimising Deception Channels. Process of Reflection to assess if we are doing op elegantly. DIFFU[SION] INNO[VATION]. Morality & Ethics. Cyber Cultures across Organisations. Legitimisation of Violence. AGENTICITY. PATTERNICITY. CONFORMITY / OBEDIENCE. Virtual Communities. Social Identity Theory. Social Proof / Herding etc. Reducing Group Effectiveness. Group Dynamics. Motives Roles Influence/Cascade. Becoming / Targeting. Performance. How to act / behave. Self Presentation in Cyber context. Creativity. Brainstorming. NARRATIVE. Consider alternate perspectives. Intel Analysis. Constructing exp[erience] in mind of target should be accept[ed] they don't reali[ze]. Global. SOCIAL NETWORKS. Constructing News System. Financial Ecosystem of Media. Alias Management & Legend Building (decided not to include in training). Media. PROPAGANDA. TAA. BRANDING. ADVERTISING Sell - own - Earn. MARKETING. Intuition. Thin Slicing Design, Retention & Trust. How to do some o[f] real time so need understand what y[ou] doing in this psych[ology]. Reading from digital te[xt] going with performan[ce] reduce my risk but sa[ve] Target's inquisitio[n]. SECRET//SI//REL TO USA, FVEY.
@@ -361,7 +361,7 @@ SECRET//SI//REL TO USA, FVEY
 
 # Gambits for Deception
 
-![A grid chart titled "Gambits for Deception" categorizing various deception tactics by cognitive domain](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p32-i1.png)
+![A grid chart titled "Gambits for Deception" categorizing various deception tactics by cognitive domain](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p32-i1.png)
 
 > **Figure text:** 
 > Attention: Control attention, Conspicuity & Expectancies; The big move covers the little move; The Target looks where you look; Attention drops at the perceived end; Repetition reduces vigilance.
@@ -376,7 +376,7 @@ SECRET//SI//REL TO USA, FVEY
 
 # Identifying & Exploiting fracture points
 
-![Diagram showing forces that push a group together versus forces that pull a group apart, centered on a point of tension.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p33-i1.png)
+![Diagram showing forces that push a group together versus forces that pull a group apart, centered on a point of tension.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p33-i1.png)
 > **Figure text:**
 > Identifying & Exploiting fracture points
 > Things that push a group together
@@ -396,10 +396,10 @@ Re-established in 2024, the PSYWAR School is the original name for the U.S. Army
 
 As the only PO military occupational specialty (MOS) qualifying course in the Department of Defense (DoD), the PSYWAR School trains and qualifies all PO personnel within the DoD, to include Air Force, Marine Corps, and other services and also provide advanced PO training to those who qualify.
 
-![A video player displaying a quote on a black background](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p34-i1.png)
+![A video player displaying a quote on a black background](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p34-i1.png)
 > **Figure text:** IF YOUR OPPONENT IS OF CHOLERIC TEMPER, SEEK TO IRRITATE HIM. PRETEND TO BE WEAK, THAT HE MAY GROW ARROGANT.
 
-![A screenshot of the United States Army John F. Kennedy Special Warfare Center and School website homepage](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p34-i2.png)
+![A screenshot of the United States Army John F. Kennedy Special Warfare Center and School website homepage](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p34-i2.png)
 > **Figure text:** An official website of the United States government Here's how you know UNITED STATES ARMY JOHN F. KENNEDY SPECIAL WARFARE CENTER AND SCHOOL THE SPECIAL OPERATIONS CENTER OF EXCELLENCE Search USAJFKWCS, S HOME ABOUT US SCHOOLS RESOURCES IRREGULAR WARFARE SPECIAL WARFARE JOURNAL P/U PODCAST REGIMENTAL HONORS CONTACT US/MEDIA INQUIRIES HOME > SCHOOLS > PSYWAR SCHOOL
 
 ## The PSYWAR School
@@ -416,7 +416,7 @@ Watch this to learn more....
 
 As Polybius of Arcadia, captive of Rome, champion of facticity and ‘universal history’ against tragedy and spectacle, fades, his namesake game, one (of many) early vectors overwhelming facticity with spectacular memesis and incipient necropolitics, comes under a new light. As ‘military memetics’ overtake culture, ‘mem(e)orialization’ fades and the necropolitical aims of disinformation become increasingly clear...
 
-![A painting by Nicolas Poussin titled Et in Arcadia Ego, with a digital Polybius arcade game screen superimposed over the tomb.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p35-i1.png)
+![A painting by Nicolas Poussin titled Et in Arcadia Ego, with a digital Polybius arcade game screen superimposed over the tomb.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p35-i1.png)
 > **Caption:** Polybius / Nicolas Poussin, Et in Arcadia Ego, 1637-38
 > **Figure text:** POLYBIUS
 > © 1981 SINNESLÖSCHEN INC.
@@ -438,7 +438,7 @@ As Polybius of Arcadia, captive of Rome, champion of facticity and ‘universal 
 
 ## Subscribe to Scott Benzel
 
-![Subscription form for Scott Benzel's Substack](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p36-i1.jpg)
+![Subscription form for Scott Benzel's Substack](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p36-i1.jpg)
 > **Figure text:** Type your email... Subscribe
 
 By subscribing, I agree to Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.

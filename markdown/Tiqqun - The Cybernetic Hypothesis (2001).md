@@ -15,7 +15,7 @@ Jean-Francois Lyotard, *Libidinal Economy*, 1973.
 
 "They wanted an adventure, and to live it out with you. In the end all that's all that can be said. They believed resolutely that the future would be modern: different, impassioning, and definitely difficult. Peopled by cyborgs and bare handed entrepreneurs, frenzied stock-marketeers and turbine-men. *And for those that are willing to see it, the present is already like that.* They think the future will be human, feminine even -- and plural; so that everyone can really *live* it, so that everyone participates in it. They are the Enlightenment men we've lost, infantrymen of progress, the inhabitants of the 21st century. They fight against ignorance, injustice, poverty, and suffering of all kinds. They go where it's happening, where things are going on. They don't want to miss out on a thing. They're humble and courageous, at the service of interests that are far beyond them, guided by a higher principle. They can pose problems, and they can find solutions. They'll have us traversing the most perilous of frontiers, they'll reach out a hand to pull us up onto the shore of the future. They're History marching forth, at least what's left of it, because the hardest part is over. They're the saints and the prophets, true socialists. They've known for a long while that May 1968 wasn't a revolution. The *true revolution* is the one they're making. Now it’s just a matter of organization and transparency, intelligence and cooperation. A vast program! Then..."
 
-![A black and white photograph of a large, industrial-style building with a prominent tower structure.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p2-i1.jpg)
+![A black and white photograph of a large, industrial-style building with a prominent tower structure.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p2-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -29,7 +29,7 @@ apparatuses so blended with the capitalist project that it has become a politica
 
 The Cybernetic Hypothesis is thus a political hypothesis, a new fable that after the second world war has definitively supplanted the liberal hypothesis. Contrary to the latter, it proposes to conceive biological, physical, and social behaviors as something integrally programmed and re-programmable. More precisely, it conceives of each individual behavior as something "piloted," in the last analysis, by the need for the survival of a "system" that makes it possible, and which it must contribute to. It is a way of thinking about balance, born in a crisis context. Whereas 1914 sanctioned the decomposition of the anthropological conditions for the verification of the liberal hypothesis -- the emergence of Bloom and the bankruptcy, plain to see in flesh and bone in the trenches, of the idea of the
 
-![An etching depicting a figure with a gramophone horn for a head, surrounded by other figures in a surreal, chaotic scene.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p4-i1.jpg)
+![An etching depicting a figure with a gramophone horn for a head, surrounded by other figures in a surreal, chaotic scene.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p4-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -82,7 +82,7 @@ politics of the "end of politics." It represents at the same time both a paradig
 and a technique of government. Its study shows that the police is not just
 an organ of power, but also a way of thinking.
 
-![Two metallic, humanoid figures sitting at a table, smoking.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p8-i1.jpg)
+![Two metallic, humanoid figures sitting at a table, smoking.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p8-i1.jpg)
 > **Caption:** None.
 > **Figure text:** None.
 
@@ -130,7 +130,7 @@ where the idea of the Subject, up to that time considered indispensable, was abs
 
 Underlying the founding of Cybernetics was a context of total war. It would be in vain to look for some malicious purpose or the traces of a plot: one simply finds a handful of ordinary men mobilized by America during the Second world war. Norbert Wiener, an American savant of Russian origin, was charged with developing, with the aid of a few colleagues, a *machine for predicting and monitoring* the positions of enemy planes so as to more effectively destroy them. It was at the time only possible at the time to predict with certitude certain correlations between certain airplane positions and certain airplane behaviors/movements. The elaboration of the "Predictor," the prediction machine ordered from Wiener, thus required a specific method of airplane position handling and a comprehension of how the weapon interacts with its target. *The whole history of cybernetics has aimed to do away with the impossibility of determining at the same time the position and behavior of bodies.* Wiener's innovation was to express the problem of uncertainty as an information problem, within a temporal series where certain data is already known, and others not, and to *consider the object and the subject of knowledge as a whole*, as a "system." The solution consisted in constantly introducing into the play of the initial data the gap seen between the desired behavior and the effective behavior, so that they coincide when the gap closes, like the mechanism of a thermostat. The discovery goes considerably beyond the frontiers of the experimental sciences: controlling a system would in the end require a circulation of information to be instituted, called feed-back, or retro-action. The wide implications of these results for the natural and social sciences was exposed in 1948 in Paris in a work presented under the foreboding name of *Cybernetics*, which for Wiener meant the doctrine of "control and communication between animal and machine."
 
-![A black and white photograph of a large industrial steam engine or factory interior with steam rising](/figures/tiqqun-the-cybernetic-hypothesis-2001/p12-i1.jpg)
+![A black and white photograph of a large industrial steam engine or factory interior with steam rising](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p12-i1.jpg)
 > **Caption:** None.
 > **Figure text:** None.
 
@@ -146,7 +146,7 @@ form of reasoning. Cybernetics transports the rationalization process common to 
 
 The cybernetic hypothesis progresses indistinctly as theory and technology, the one always certifying the other. In 1943, Wiener met John Von Neumann, who was in charge of building machines fast and powerful enough to carry out the *Manhattan Project* that 15,000 scholars and engineers, and 300,000 technicians and workers were working on, under the direction of the physicist Robert Oppenheimer: the modern computer and the atomic bomb, were thus born together. From the perspective of contemporary imagining, the "communications utopia" is thus the complementary myth to the myth of the invention of nuclear power and weaponry: it is always a question of doing away with *being-together* (*the ensemble of beings*) either by an excess of life or an excess of death, either by terrestrial fusion or by cosmic suicide. Cybernetics presents itself as the response most suited to deal with the Great Fear of the destruction of the world and of the human species. And Von Neumann was its double agent, the "inside outsider" par excellence. The analogy between his descriptive categories for his machines, living organisms, and Wiener's categories sealed the alliance between cybernetics and computer science. A few years would pass before molecular biology, when decoding DNA, would in turn use that theory of information to explain man as an individual and as a species, giving an unequalled technical power to the experimental genetic manipulation of human beings.
 
-![A black and white photograph of a steam locomotive emitting large clouds of steam or smoke in a station or industrial setting.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p15-i1.jpg)
+![A black and white photograph of a steam locomotive emitting large clouds of steam or smoke in a station or industrial setting.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p15-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -167,7 +167,7 @@ State and Market, preferring to work through micro-mechanisms of control -- pref
 
 Spurred on by the Cold War and its "witch hunts," the socio-cyberneticians thus tirelessly hunted down the pathological couched behind the normal, the *communist sleeping in everybody*. In the 1950s, to this effect, they formed the *Mental Health Federation*, where an original and *quasi-final* solution was elaborated to the problems of the community and of the times: "It is the ultimate goal of mental health to help people to live with their peers in the same world... The concept of mental health is co-extensive with international order and the global community, which must be developed so as to make men capable of living in peace with each other." By rethinking mental problems and social pathologies in terms of informatics, cybernetics gave rise to a *new politics of subjects*, resting on communication and transparency to oneself and to others. Spurred on by Bateson, Wiener in turn began thinking about a socio-cybernetics with a scope broader than the mere project of mental hygiene. He had no trouble affirming the defeat of the liberal experimentation: on the market information is always impure and imperfect because of the lying implicit in advertising and the monopolistic concentration of the media, and because of the ignorance of the State, which as a collective contains less information than civil society. The extension of commodity relations, by increasing the size of communities and feedback chains, renders distortions of communication and problems of social control ever more probable. The past processes of accumulation had not only destroyed the social bonds, but social order itself appeared cybernetically impossible within capitalism. The cybernetic hypothesis' stroke of luck can thus be understood in light of the crises encountered by 20th century capitalism, which questioned once again the supposed "laws" of classical political economy -- and that was where the cybernetic discourse stepped into the breach.
 
-![A black and white photograph of a large industrial interior, possibly a factory or power plant, with heavy machinery and structural beams.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p19-i1.jpg)
+![A black and white photograph of a large industrial interior, possibly a factory or power plant, with heavy machinery and structural beams.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p19-i1.jpg)
 
 > **Caption:** None.
 > **Figure text:** None.
@@ -192,7 +192,7 @@ Nothing expresses the contemporary victory of cybernetics better than the fact t
 
 occasion for the production of information. The *state of emergency*, which is proper to all crises, is what allows self-regulation to be relaunched, and to maintain itself as a perpetual movement. Whereas the scheme of classical economy where a balance of supply and demand was to permit "growth" and thusly to permit collective well-being, it is now "growth" which is considered an endless road towards balance. It is thus just to critique western modernity as a "infinite mobilization" the destination of which is "movement towards more movement." But from a cybernetic point of view, the self-production that equally characterizes the State, the Market, robots, wage workers, or the jobless, is indiscernible from the self-control that moderates and slows it down.
 
-![A close-up, monochromatic image of what appears to be a cluster of organic, possibly biological, forms or textures.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p24-i1.jpg)
+![A close-up, monochromatic image of what appears to be a cluster of organic, possibly biological, forms or textures.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p24-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -210,7 +210,7 @@ source of profit as such and a source of confidence. Fordism and Taylorism were 
 
 That the economic sectors of information, communication, and control have taken ever more of a part in the economy since the Industrial Revolution, and that "intangible labor" has grown relative to tangible labor, is nothing surprising or new. Today these account for the mobilization of more than 2/3 of the workforce. But this isn't enough to fully define cybernetic capitalism. Because its equilibrium and the growth depend continually on its control capacities, *its nature has changed*. Insecurity, much more than rarity, is the core of the present capitalist economy. As Wittgenstein understood by looking at the 1929 crisis - and as did Keynes in his wake - there is a strong bond between the "state of trust" and the curbing of the marginal effectiveness of Capital, he wrote, in chapter XII of *General Theory*, in February 1934 - the economy rests definitively on the "play of language." Markets, and with them commodities and merchants, the sphere of circulation in general, and, consequently, business, the sphere of production as a place of the anticipation of coming levels of yield, do not exist without conventions, social norms, technical norms, norms of the truth, on a meta-level which brings bodies and things into existence as commodities, even before they are subject to pricing. The control and communications sectors develop because commodity valorization needs to have a looping circulation of information parallel to the actual circulation of commodities, the production of a collective belief that objectivizes itself in values. In order to come about, all exchanges require "investments of form" - information about a formulation of what is to be exchanged - a *formatting* that makes it
 
-![A dense, circular scribble or sketch of overlapping lines and loops.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p28-i1.jpg)
+![A dense, circular scribble or sketch of overlapping lines and loops.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p28-i1.jpg)
 > **Figure text:** (Handwritten annotations are illegible in the image)
 
 possible to put things into equivalence even before such a putting of things into equivalence has effectively taken place, a conditioning that is also a condition of agreement about the market. It's true for goods, and it's true for people. Perfecting the circulation of information will mean perfecting the market as a universal instrument of coordination. Contrary to what the liberal hypothesis had supposed, to sustain a fragile capitalism, contracts are not sufficient unto themselves within social relations. PEOPLE began to understand after 1929 that all contracts need to come with controls. Cybernetics entered into the operation of capitalism with the intention of minimizing uncertainties, incommensurability, the kinds of anticipation problems that can interfere in any commodity transaction. It contributes to consolidating the basis for the installation of capitalism's mechanisms, to oiling Capital's abstract machine.
@@ -225,7 +225,7 @@ grow inside a whole system focused on the fear of any threat. The apparent contr
 
 at the summit of a cascade of control devices, the guarantor of last resort that no disturbing event will take place within the social body that would hinder the circulation of goods and persons. The logic of cybernetics being to replace centralized institutions and sedentary forms of control by tracing devices and nomadic forms of control, prison, as a classical surveillance device, is obviously to be expanded and prolonged with monitoring devices such as the electronic bracelet, for instance. The development of *community policing* in the English speaking world, of "proximity policing" in France, also responds to a cybernetic logic intended to ward off all events, and organize feedback. Within this logic, then, disturbances in a given zone can be all the better suppressed/choked off when they are absorbed/deadened by the closest system sub-zones.
 
-![A stone staircase leading down into a dark, arched tunnel or passage.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p31-i1.jpg)
+![A stone staircase leading down into a dark, arched tunnel or passage.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p31-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -237,7 +237,7 @@ It should not be surprising then that the reasoning of France's François Ewald 
 
 can no longer be managed by simple social exclusion, as it was during the Middle Ages in the time of lepers, the logic of scapegoating, containment, and enclosure. If everybody now has to become responsible for the risks they make society run, it's only because they couldn't exclude so many anymore without the loss of a potential source of profit. Cybernetic capitalism thus forcibly couples the socialization of the economy and the increase of the "responsibility principle." It produces citizens as "Risk Dividuals" that self-neutralize, removing their own potential to destroy order. It is thus a matter of generalizing self-control, a disposition that favors the proliferation of devices, and ensures an effective relay. All crises, within cybernetic capitalism, are preparations for a reinforcement of devices. The anti-GMO protest movement, as well as the "mad cow crisis" of these last few years in France, have definitively permitted the institution of an unheard of tracking of Dividuals and Things. The accrued professionalization of control - which is, with insurance, one of the economic sectors whose growth is guaranteed by cybernetic logic - is but the other side of the rise of the citizen as a political subjectivity that has totally auto-repressed the risk that he or she objectively represents. This is how Citizen's Watch contributes to the improvement of piloting devices.
 
-![A black and white illustration depicting a large, industrial-looking construction site or bridge structure with balloons or airships floating in the sky above.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p33-i1.jpg)
+![A black and white illustration depicting a large, industrial-looking construction site or bridge structure with balloons or airships floating in the sky above.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p33-i1.jpg)
 
 > **Caption:** None
 > **Figure text:** None
@@ -266,7 +266,7 @@ In France, an ensemble of pseudo-savants - the eccentric de Rosnay and the blath
 
 the "state of equilibrium" everything and everyone. It is useful, *a posteriori*, when listening to today's "left" and the "left of the left," to remember certain of the principles de Rosnay posited in 1975:
 
-![A black and white illustration of an industrial complex with smokestacks and pipes](/figures/tiqqun-the-cybernetic-hypothesis-2001/p37-i1.jpg)
+![A black and white illustration of an industrial complex with smokestacks and pipes](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p37-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -293,7 +293,7 @@ today's contestation by entering noisily into a number of controversies with his
 
 Aside from the fact that he reduced the "lived world" and "everyday life" - the whole of what escaped the control machine, to social interactions and discourses, Habermas more profoundly ignored the fundamental heterogeneity of forms-of-life among themselves. In the same way as contracts, consensus is attached to the objective of unification and pacification via the management of differences. In the cybernetic framework, all faith in "communicational action," all communication that does not assume the possibility of its impossibility, ends up serving control. This is why science and technology are not, as the idealist Habermas thought, simply ideologies which dress the concrete tissue of inter-subjective relations. They are "ideologies materialized," a cascade of devices, a concrete government-mentality that passes through such relations. We do not want more transparency or more democracy. There's already enough. On the contrary - we want more opacity and more intensity.
 
-![A stylized, monochromatic illustration of a human skull integrated into a mechanical or industrial structure, resembling a spinal column or machine components.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p41-i1.jpg)
+![A stylized, monochromatic illustration of a human skull integrated into a mechanical or industrial structure, resembling a spinal column or machine components.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p41-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -316,7 +316,7 @@ of history. Their teleology is no longer that of the proletariat or of nature, b
 
 Toni Negri's career within the Autonomia group, and the nebula of his disciples in France and in the anglo world, show just how much Marxism could authorize such a slippery slide towards the will to will, towards "infinite mobilization," sealing its unavoidable eventual defeat by the cybernetic hypothesis. The latter has had no problem plugging itself into the metaphysics of production that runs throughout Marxism and which Negri pushed to the extreme by considering all affects, all emotions, all communications - in the final analysis - as labor. From this point of view, autopoïesis, self-production, self-organization, and autonomy are categories which all play a homologous role in the distinct discursive formations they emerged from. The demands inspired by this critique of political economy, such as the demand for a guaranteed minimum income and the demand for "citizenship papers for all" merely attack, fundamentally, the sphere of production. If certain people among those who today demand a guaranteed income have been able to break with the perspective of putting everyone to work - that is, the belief in work as a fundamental value - which formerly still had predominance in the unemployed workers' movements, it was only on condition - paradoxically - that they'd be able to keep the restrictive definition of value they had inherited, as "labor value." Thus they were able to ignore just how much they contributed, in the end, to the circulation of goods and persons.
 
-![A complex, intricate line drawing depicting a dense, mechanical, or architectural landscape with various interconnected structures and components.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p46-i1.jpg)
+![A complex, intricate line drawing depicting a dense, mechanical, or architectural landscape with various interconnected structures and components.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p46-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -332,7 +332,7 @@ In 1973, Lyotard, who for a long while had associated with Castoriadis within th
 
 in the discourse of Toni Negri and his adepts (which represents the point of completion of the marxist tradition and its metaphysics) is doomed to restless political wandering, in the absence of any destination other than whatever destination domination may set for it. The essential issue here - an issue which seduces many an intellectual novice - is that such knowledge is never power, that this understanding is never self-understanding, and that such intelligence always remains separate from experience. The political trajectory of Negriism is towards a formalization of the informal, towards rendering the implicit explicit, making the tacit obvious, and in brief, towards valorizing everything that is *outside of value*. And in effect, Yann Moulier Boutang, Negri's loyal dog, ended up dropping the following tidbit in 2000, in an idiotic cocaine-addict's unreal rasp: "capitalism, in its new phase, or its final frontier, needs the communism of the multitudes." Negri's *neutral communism*, the mobilization that it stipulates, is not only compatible with cybernetic capitalism - it is now the condition for its effectuation.
 
-![A security camera mounted in the corner of a tiled room](/figures/tiqqun-the-cybernetic-hypothesis-2001/p49-i1.jpg)
+![A security camera mounted in the corner of a tiled room](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p49-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -372,7 +372,7 @@ its unavoidable defeat. What
 cybernetics needs in that
 regard is precisely the same
 
-![A winding path on a hillside with many people walking along it](/figures/tiqqun-the-cybernetic-hypothesis-2001/p55-i1.jpg)
+![A winding path on a hillside with many people walking along it](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p55-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -422,7 +422,7 @@ Defeating the process of cybernetization, toppling the empire, will take place t
 
 Panic makes the cyberneticians panic. It represents *absolute risk*, the permanent potential threat that the intensification of relations between lifestyles/forms-of-life presents. Because of this, it should be made as terrifying as the appointed cybernetician himself endeavors to show it being: "panic is dangerous for populations; it increases the number of victims resulting from an accident by causing inappropriate flight reactions, which may indeed be the only real reason for deaths and injuries; every time it's the same scenario: acts of blind rage, trampling, crushing..." the lie in that description of course is that it imagines panic phenomena exclusively from a sealed environment: as a liberation of bodies, panic self-destructs because everyone tries to get out through an exit that's too narrow.
 
-![Three-panel sequence of a security camera feed showing a person walking through a corridor](/figures/tiqqun-the-cybernetic-hypothesis-2001/p59-i1.jpg)
+![Three-panel sequence of a security camera feed showing a person walking through a corridor](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p59-i1.jpg)
 > **Caption:** None.
 > **Figure text:** None.
 
@@ -434,7 +434,7 @@ civilization have as a precondition the absence or even exclusion of the panic e
 
 Within the framework of the cybernetic hypothesis, panic is understood as a status change in the self-regulating system. For a cybernetician, any disorder can only come from there having been a discrepancy between the pre-set behaviors and the real behaviors of the system's elements. A
 
-![Three-panel security camera footage showing a person in a hallway](/figures/tiqqun-the-cybernetic-hypothesis-2001/p60-i1.jpg)
+![Three-panel security camera footage showing a person in a hallway](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p60-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -460,7 +460,7 @@ These questions, seen from the neutralized and neutralizing perspective of the l
 
 The invisible revolt, the "coup-du-monde" [world coup] that Trocchi talked about, on the contrary, plays on potential. It is invisible because it is unpredictable in the eyes of the imperial system. Amplified, the fluctuations relative to the imperial devices never aggregate together. They are as *heterogeneous* as desires are, and can never form a closed totality; they can't even form into a "masses," which name itself is just an illusion if it doesn't mean an *irreconcilable multiplicity* of lifestyles/forms-of-life.
 
-![A sculpture of a metallic, insect-like head mounted on a mechanical base](/figures/tiqqun-the-cybernetic-hypothesis-2001/p65-i1.jpg)
+![A sculpture of a metallic, insect-like head mounted on a mechanical base](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p65-i1.jpg)
 > **Caption:** None.
 > **Figure text:** None.
 
@@ -472,7 +472,7 @@ It was T.E. Lawrence that worked out the principles of guerrilla war from his ex
 
 line of flight that brings me back to myself. All forms of interference/fog come from these two gestures, external and internal lines of flight, sabotage and retreat, the search for forms of struggle and for the assumption of different forms-of-life. Revolution is now about figuring out how to conjugate those two moments.
 
-![A circular labyrinth design](/figures/tiqqun-the-cybernetic-hypothesis-2001/p67-i1.jpg)
+![A circular labyrinth design](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p67-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -549,7 +549,7 @@ People have often insisted - T.E. Lawrence is no exception - on the kinetic dime
 
 The outcome depends on the appearance of passionate and liberating environments, or the reinforcement — scientifically controllable and smooth — of the environment of the old world of oppression and horror... If control over these new means is not totally revolutionary, we could be led towards the police-state ideal of a society organized like a beehive." In light of this lattermost image, an explicit but *static* vision of cybernetics perfected as the Empire is fleshing it out, the revolution should consist in a reappropriation of the most modern technological tools, a reappropriation that should permit contestation of the police on their own turf, by creating a counter-world with the same means that it uses. Speed here is understood as one of the important qualities of the revolutionary political arts. But this strategy implies attacking sedentary forces. In the Empire, such forces tend to fade as the impersonal power of devices becomes nomadic and moves around, gradually imploding all institutions.
 
-![A train of vehicles, likely mobile broadcasting or surveillance units, traveling along a road.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p72-i1.jpg)
+![A train of vehicles, likely mobile broadcasting or surveillance units, traveling along a road.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p72-i1.jpg)
 > **Figure text:** RAYON
 
 Conversely, slowness has been at the core of another section/level of struggles against Capital. Luddite sabotage should not be interpreted from a traditional marxist perspective as a simple, primitive rebellion by the organized proletariat, a protest action by the reactionary artisans against the progressive expropriation of the means of production given rise to by industrialization. It is a deliberate *slow down* of the flux of commodities and persons, anticipating the central characteristic of cybernetic capitalism insofar as it is movement towards movement, a will to potential, generalized acceleration. Taylor conceived the Scientific Organization of
@@ -614,7 +614,7 @@ But that also means that its first objective must be to resist all attempts to r
 
 if there's one thing we're sure of, it's that this operation (of exclusion) is just a cheap show, that incandescences are made by no one, and belong to no one." Nevertheless, it won't be a matter of reorganizing a few secret societies or conquering conspiracies like free-masonry, carbonarism, as the avant-gardes of the last century envisioned - I'm thinking mostly of the College of Sociology. *Establishing a zone of opacity* where people can circulate and experiment freely without bringing in the Empire's information flows, means producing "anonymous singularities," recreating the conditions for a possible experience, an experience which will not be immediately flattened out by a binary machine assigning a meaning/direction to it, a dense experience that can transform desires and the moments where they manifest themselves into something beyond desire, into a narrative, into a filled-out body.
 
-![A labyrinthine structure with walls and towers, partially obscured by dark, amorphous shapes](/figures/tiqqun-the-cybernetic-hypothesis-2001/p80-i1.jpg)
+![A labyrinthine structure with walls and towers, partially obscured by dark, amorphous shapes](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p80-i1.jpg)
 > **Caption:** None
 > **Figure text:** None
 
@@ -628,7 +628,7 @@ These bases must also be as inscribed in the space itself as in people's minds: 
 
 secession from the world that they issue from, the "folds" that they lodge themselves in between the real and its encoding, would not come into being until after a succession of "refusals." This "Californian Ideology," by posing autonomy as an attribute of individual or collective subjects, deliberately confuses two incommensurable planes: the "self-realization" of persons and the "self-organization" of society. This is because autonomy, in the history of philosophy, is an ambiguous notion that simultaneously expresses liberation from all constraints *and* submission to higher natural laws, and can serve to feed the hybrid and restructuring discourses of the "anarcho-capitalist" cyborgs.
 
-![A dark, atmospheric etching of a narrow, crowded street scene with figures in the foreground and tall, dilapidated buildings.](/figures/tiqqun-the-cybernetic-hypothesis-2001/p83-i1.jpg)
+![A dark, atmospheric etching of a narrow, crowded street scene with figures in the foreground and tall, dilapidated buildings.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/tiqqun-the-cybernetic-hypothesis-2001/p83-i1.jpg)
 > **Caption:** None.
 > **Figure text:** None.
 

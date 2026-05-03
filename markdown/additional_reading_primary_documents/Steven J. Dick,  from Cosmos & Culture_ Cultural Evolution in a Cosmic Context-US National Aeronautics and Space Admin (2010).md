@@ -83,7 +83,7 @@ This is true not only of NASA’s exobiology laboratory and grants program, but 
 
 Cosmos and Culture
 
-![A colorful, stylized illustration depicting the stages of cosmic evolution, from the birth of stars and galaxies to the emergence of life on Earth and human contemplation of the universe.](/figures/steven-j-dick-from-cosmos-culture-cultural-evolution-in-a-cosmic-context-us-national-aeronautics-and-space-admin-2010/p10-i1.jpg)
+![A colorful, stylized illustration depicting the stages of cosmic evolution, from the birth of stars and galaxies to the emergence of life on Earth and human contemplation of the universe.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/steven-j-dick-from-cosmos-culture-cultural-evolution-in-a-cosmic-context-us-national-aeronautics-and-space-admin-2010/p10-i1.jpg)
 > **Caption:** Figure 1. Cosmic evolution is depicted in this image from the exobiology program at NASA Ames Research Center (ARC), 1986. Upper left: the formation of stars, the production of heavy elements, and the formation of planetary systems, including our own. At left prebiotic molecules, RNA, and DNA are formed within the first billion years on primitive Earth. At center: the origin and evolution of life leads to increasing complexity, culminating with intelligence, technology, and astronomers. Upper right: contemplating the universe. The image was created by David DesMarais, Thomas Scattergood, and Linda Jahnke at ARC in 1986 and reissued in 1997.
 > **Figure text:** (None)
 
@@ -93,7 +93,7 @@ With the demise of a publicly funded NASA SETI program in 1993, the research pro
 
 *Cosmic Evolution*
 
-![Artistic representation of cosmic evolution, showing the progression from stars and galaxies to planets and DNA](/figures/steven-j-dick-from-cosmos-culture-cultural-evolution-in-a-cosmic-context-us-national-aeronautics-and-space-admin-2010/p11-i1.jpg)
+![Artistic representation of cosmic evolution, showing the progression from stars and galaxies to planets and DNA](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/steven-j-dick-from-cosmos-culture-cultural-evolution-in-a-cosmic-context-us-national-aeronautics-and-space-admin-2010/p11-i1.jpg)
 > **Caption:** Figure 2. Cosmic evolution, as it appeared in the Roadmap for NASA’s Office of Space Science Origins Theme, 1997 and 2000.
 > **Figure text:** None.
 

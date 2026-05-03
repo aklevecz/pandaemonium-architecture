@@ -90,13 +90,13 @@ Classic network effects theory still holds, I’m not discarding it. Instead, le
 
 Actually, I tend to use three axes to dissect social networks.
 
-![A 3D coordinate system diagram with axes for Social Capital, Entertainment, and Utility](/figures/eugene-wei-status-as-a-service-staas/p5-i1.png)
+![A 3D coordinate system diagram with axes for Social Capital, Entertainment, and Utility](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p5-i1.png)
 > **Caption:** The three axes on which I evaluate social network strength
 > **Figure text:** SOCIAL CAPITAL HIGH LOW ENTERTAINMENT HIGH LOW UTILITY HIGH
 
 For this post, though, I'm only going to look at two of them, utility and social capital, as the entertainment axis adds a whole lot of complexity which I'll perhaps explain another time.
 
-![A two-axis chart with Social Capital on the vertical axis and Utility on the horizontal axis.](/figures/eugene-wei-status-as-a-service-staas/p6-i1.png)
+![A two-axis chart with Social Capital on the vertical axis and Utility on the horizontal axis.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p6-i1.png)
 > **Caption:** The basic two axis framework guiding much of the social network analysis in this piece
 > **Figure text:** SOCIAL CAPITAL HIGH LOW UTILITY HIGH LOW
 
@@ -165,18 +165,18 @@ The launch of these global tweet scoreboards reminds me of the moment in the now
 
 **Now classic because Battle Royale has subsequently been ripped off, err, paid tribute to by The Hunger Games, Fortnite, Maze Runner, and just about every YA franchise out there because who understands barbarous status games better than teenagers?
 
-![Favstar.fm screenshot](/figures/eugene-wei-status-as-a-service-staas/p11-i1.png)
+![Favstar.fm screenshot](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p11-i1.png)
 > **Caption:** Favstar.fm screenshot. Just seeing some of those old but familiar avatars makes me sentimental, perhaps like how early Burning Man devotees think back on its early years, before the moneyed class came in and ruined that utopia of drugs,
 > **Figure text:** (Top bar) Sign Out Settings Bonus Features Easy Nav FAQ (Search bar) Search users... (Main tweet area) When I type 'fa' into my browser, it suggests 'favstar.fm' before 'facebook.com'. Well played, sir. Well played. (Stats area) 91 23 62 14 (Sidebar) New Followers My Favstar List Recent Fav
 
 nudity, and art.
 
-![Favrd website interface showing a rooster logo, search bar, leaderboard, and example tweets](/figures/eugene-wei-status-as-a-service-staas/p12-i1.png)
+![Favrd website interface showing a rooster logo, search bar, leaderboard, and example tweets](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p12-i1.png)
 > **Figure text:** Search [ ] Leaderboard Today Yesterday Turns out it’s entirely possible to eat _way_ too many figs. Related: not going to be going too far from the house today. penbleth (Penbleth) from From N.I. now in Wales. 1 hour, 44 minutes ago View original [avatars] 7 The tram I am currently on has about 3 months worth of lookatthisfuckinghipster entries. expat_erin (Erin) from Not Sydney 2 hours, 39 minutes ago View original [avatars] 10 tonidanza (adj.) - [definition TBD] [avatar] F A V R D HUH?
 
 Chasing down old Favrd screenshots, I still laugh at the tweets surfaced.
 
-![A screenshot of the Favrd website showing a leaderboard of popular tweets.](/figures/eugene-wei-status-as-a-service-staas/p13-i1.png)
+![A screenshot of the Favrd website showing a leaderboard of popular tweets.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p13-i1.png)
 > **Caption:** One more Favrd screenshot just for old time’s sake
 > **Figure text:** Favrd. Leaderboard. http://textism.com/favrd/most RSS Google Leaderboard Today Yesterday testing in IE6 == WYSIWTF vpieters (Veerle Pieters) from Vinkt, Belgium 5 hours, 42 minutes ago View original 19 Double-clicking links is the new "spinach on your tooth." We do no favor when we say nothing. hotdogsladies (Merlin Mann) from Parkside USA 2 hours, 7 minutes ago View original 16 the webcock store called. they're running out of you. echuckles (Elizabeth Chuck) from nyc 9 hours, 56 minutes ago View original 13 I swapped-out the lined paper for unlined paper in my neglected 3-ring Projects binder. I'm pretty sure that's what's been holding me back. luomat from The Mild Mild West 6 hours, 11 minutes ago View original
 
@@ -372,7 +372,7 @@ It's useful to look at some of the common paths that social networks traverse ov
 
 ### First utility, then social capital
 
-![A graph showing the relationship between utility and social capital, with a curve trending upward as utility increases.](/figures/eugene-wei-status-as-a-service-staas/p28-i1.png)
+![A graph showing the relationship between utility and social capital, with a curve trending upward as utility increases.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p28-i1.png)
 > **Caption:** Come for the tool, stay for the network
 > **Figure text:** SOCIAL CAPITAL HIGH LOW HIGH UTILITY
 
@@ -382,7 +382,7 @@ In the end, I think most social networks, if they've made this journey, need to 
 
 **First social capital, then utility**
 
-![A line graph showing the relationship between social capital and utility, with a curve starting at low/low and trending toward high social capital and high utility.](/figures/eugene-wei-status-as-a-service-staas/p29-i1.png)
+![A line graph showing the relationship between social capital and utility, with a curve starting at low/low and trending toward high social capital and high utility.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p29-i1.png)
 > **Figure text:** SOCIAL CAPITAL HIGH LOW HIGH UTILITY
 
 Lots of the internet’s great resources were built off people seeking a hit of fame and recognition
@@ -395,7 +395,7 @@ IMDb, Wikipedia, Reddit, and Quora are more prominent examples here. Users come 
 
 ### Utility, but no social capital
 
-![A graph with Social Capital on the y-axis and Utility on the x-axis, showing a curve that stays low in social capital as utility increases.](/figures/eugene-wei-status-as-a-service-staas/p30-i1.png)
+![A graph with Social Capital on the y-axis and Utility on the x-axis, showing a curve that stays low in social capital as utility increases.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p30-i1.png)
 > **Figure text:** SOCIAL CAPITAL HIGH LOW HIGH UTILITY
 > **Caption:** Plenty of huge social apps are almost entirely utilitarian, but it’s a brutally competitive quadrant
 
@@ -409,7 +409,7 @@ are trivial to copy.
 
 ## Social capital, but little utility
 
-![A line graph showing a curve that rises sharply in social capital before falling, while utility remains low.](/figures/eugene-wei-status-as-a-service-staas/p31-i1.png)
+![A line graph showing a curve that rises sharply in social capital before falling, while utility remains low.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p31-i1.png)
 > **Figure text:** SOCIAL CAPITAL HIGH LOW HIGH UTILITY
 
 When a social network loses heat before it has built utility, the fall can come as quickly as the rise
@@ -428,11 +428,11 @@ While I hear of people abandoning Facebook and never looking back, I can't think
 
 Just look at the list of services in the WeChat or WePay or AliPay menu for the typical Chinese user and consider that Facebook isn’t a payment option for any of them.
 
-![Two screenshots of a mobile app interface showing various service icons and menus.](/figures/eugene-wei-status-as-a-service-staas/p32-i1.png)
+![Two screenshots of a mobile app interface showing various service icons and menus.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p32-i1.png)
 > **Caption:** None.
 > **Figure text:** 11:56 < 首页 Q 全部应用 便民生活 财富管理 资金往来 购物娱乐 教 发票管家 蚂蚁宝卡 车主服务 天天有料 共享单车 体育服务 安全备忘 财富管理 余额宝 花呗 芝麻信用 蚂蚁借呗 蚂蚁保险 汇率换算 资金往来 转账 红包 AA收款 亲情号 上银汇款 购物娱乐 游戏中心 出境 彩票 奖励金 教育公益 11:56 < 首页 Q 全部应用 我的应用 编辑 最近使用 芝麻信用 汇率换算 出境 城市服务 哈啰出行 充值中心 亲情号 更多 为你推荐 为荒漠添绿色 蚂蚁森林 全民健身捐步 运动 淘出好电影 淘票票电影 便民生活 财富管理 资金往来 购物娱乐 教 充值中心 信用卡还款 生活缴费 城市服务 生活号 我的快递 医疗健康 记账本 发票管家 蚂蚁宝卡 车主服务 天天有料
 
-![Two screenshots of the WeChat payment interface showing various service icons and categories.](/figures/eugene-wei-status-as-a-service-staas/p33-i1.png)
+![Two screenshots of the WeChat payment interface showing various service icons and categories.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p33-i1.png)
 > **Figure text:** 11:41 < 支付 ... [收付款] [钱包 ¥873.83] 腾讯服务 [信用卡还款] [手机充值] [理财通] [生活缴费] [Q币充值] [城市服务] [腾讯公益] [保险服务] 第三方服务 [火车票机票] [滴滴出行] [京东优选] 11:41 < 支付 ... [生活缴费] [Q币充值] [城市服务] [腾讯公益] [保险服务] 第三方服务 [火车票机票] [滴滴出行] [京东优选] [美团外卖] [电影演出赛事] [吃喝玩乐] [酒店] [拼多多] [蘑菇街女装] [唯品会特卖] [转转二手]
 
 Of course, the competitive context matters. Facebook faced much stiffer competition in these categories than WeChat did; for Facebook to build a better mousetrap in any of these, the requirements were much higher than for WeChat.
@@ -550,7 +550,7 @@ Remember Snapchat's original Best Friends list? I'm going to guess many of my re
 
 show the top three people you Snapped with most frequently, you could look at who the top three best friends were for any of your contacts. Essentially, it made the hierarchy of everyone's “friendships” public, making the popularity scoreboard explicit.
 
-![A Snapchat profile widget displaying a user's high score and top three best friends](/figures/eugene-wei-status-as-a-service-staas/p41-i1.png)
+![A Snapchat profile widget displaying a user's high score and top three best friends](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p41-i1.png)
 > **Figure text:** 
 > virginterminato
 > HISCORE: 1287
@@ -565,7 +565,7 @@ show the top three people you Snapped with most frequently, you could look at wh
 
 I’m glad this didn’t exist when I was in high school, I really didn’t need metrics on how much of a loser I was
 
-![A screenshot of the Snapchat "Friend Emojis" settings menu, displaying a list of emoji icons and their corresponding definitions for different levels of friendship.](/figures/eugene-wei-status-as-a-service-staas/p42-i1.png)
+![A screenshot of the Snapchat "Friend Emojis" settings menu, displaying a list of emoji icons and their corresponding definitions for different levels of friendship.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p42-i1.png)
 
 > **Figure text:** 
 > Friend Emojis
@@ -599,7 +599,7 @@ As with aggregate follower counts and likes, the Best Friends list was a mechani
 
 In a clever move to unbound social capital accumulation and to turn a zero-sum game into a positive sum game, broadening the number of users working hard or engaging, Snapchat deprecated the very popular Best Friends list and replaced it with streaks.
 
-![A screenshot of a Snapchat "New Chat" screen showing a list of "BEST FRIENDS" and "RECENTS" with associated emoji scores and interaction counts.](/figures/eugene-wei-status-as-a-service-staas/p44-i1.png)
+![A screenshot of a Snapchat "New Chat" screen showing a list of "BEST FRIENDS" and "RECENTS" with associated emoji scores and interaction counts.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p44-i1.png)
 > **Figure text:** 
 > New Chat
 > To:
@@ -617,7 +617,7 @@ In a clever move to unbound social capital accumulation and to turn a zero-sum g
 > Garry 😛🙄💦 14🐙🌑
 > Q ★ ⊚ A B C D E F G H I J K L M N O P Q R S T U V W X
 
-![A screenshot of a Snapchat contacts list showing numbers and emojis next to names.](/figures/eugene-wei-status-as-a-service-staas/p45-i1.png)
+![A screenshot of a Snapchat contacts list showing numbers and emojis next to names.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p45-i1.png)
 > **Figure text:** If you’ve never seen those numbers and emojis on the right of your Snapchat contacts list, no one loves you. Just kidding, it just means you’re old. Daymian 😛 💯 25 🐙 🌚
 
 If you and a friend Snap back and forth for consecutive days, you build up a streak which is tracked in your friends list. Young people quickly threw their heart and souls into building and maintaining streaks with their friends. This was literally proof of work as proof of friendship, quantified and tracked.
@@ -828,7 +828,7 @@ This piece is not my contribution to the well-trod genre of Medium thinkpieces c
 
 Recall the wisdom of Neil McCauley in the great film Heat.
 
-![Robert De Niro as Neil McCauley in the film Heat](/figures/eugene-wei-status-as-a-service-staas/p59-i1.png)
+![Robert De Niro as Neil McCauley in the film Heat](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p59-i1.png)
 > **Caption:** To get off the hedonic treadmill, heed the words of Robert DeNiro’s Neil McCauley in that classic film about status, Heat, “Don’t let yourself get attached to any social capital you are not willing to walk out on in 30 seconds flat if you feel the heat around the corner.”
 > **Figure text:** (None)
 
@@ -846,7 +846,7 @@ Contrary to some popular Twitter counsel, the problem is not that the leaders of
 
 Having worked on multiple products in my career, I’m sympathetic to the fact that no product survives engagement with humans intact, But this first era of Status as a Service businesses is closing, and pleading ignorance won’t work moving forward. To do so is to come off like Captain Louis Renault in Casablanca.
 
-![A still from the film Casablanca showing Rick Blaine and Captain Renault.](/figures/eugene-wei-status-as-a-service-staas/p61-i1.png)
+![A still from the film Casablanca showing Rick Blaine and Captain Renault.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eugene-wei-status-as-a-service-staas/p61-i1.png)
 > **Figure text:** I'm shocked, SHOCKED to find that gambling is going on in here.
 
 📅 February 26, 2019

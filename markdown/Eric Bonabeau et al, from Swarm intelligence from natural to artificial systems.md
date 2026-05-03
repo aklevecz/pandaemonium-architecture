@@ -10,10 +10,10 @@ Weaver ant (*Oecophylla*) workers form chains of their own bodies, allowing them
 
 # Swarm Intelligence
 
-![Leafcutter ants (Atta) bringing back cut leaves to the nest.](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p2-i1.png)
+![Leafcutter ants (Atta) bringing back cut leaves to the nest.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p2-i1.png)
 > **Caption:** FIGURE 1.1 Leafcutter ants (*Atta*) bringing back cut leaves to the nest.
 
-![Chains of Oecophylla longinoda.](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p2-i2.jpg)
+![Chains of Oecophylla longinoda.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p2-i2.jpg)
 > **Caption:** FIGURE 1.2 Chains of *Oecophylla longinoda*.
 
 In their moving phase, army ants (such as *Eciton*) organize impressive hunting raids, involving up to 200,000 workers, during which they collect thousands of prey (see chapter 2, section 2.2.3) [52, 269, 282].
@@ -24,7 +24,7 @@ In polymorphic species of ants, two (or more) physically different types of work
 
 Chapter 1 3
 
-![Two workers holding a larva in their mandibles.](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p3-i1.png)
+![Two workers holding a larva in their mandibles.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p3-i1.png)
 > **Caption:** FIGURE 1.3 Two workers holding a larva in their mandibles.
 
 ent tasks: whereas majors cut large prey with their large mandibles or defend the nest, minors feed the brood or clean the nest. Removal of minor workers stimulates major workers into performing tasks usually carried out by minors (see chapter 3, section 3.2) [330]. This replacement takes place within two hours of minor removal. More generally, it has been observed in many species of insects that removal of a class of workers is quickly compensated for by other workers: division of labor exhibits a high degree of plasticity.
@@ -39,21 +39,21 @@ Some species of termites (*Macrotermes*) build even more complex nests (Figure 1
 
 4 Swarm Intelligence
 
-![A swarm of honey bees Apis mellifica.](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p4-i1.png)
+![A swarm of honey bees Apis mellifica.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p4-i1.png)
 > **Caption:** FIGURE 1.4 A swarm of honey bees *Apis mellifica*.
 
-![Nest building in the neotropical wasp Polybia occidentalis.](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p4-i2.jpg)
+![Nest building in the neotropical wasp Polybia occidentalis.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p4-i2.jpg)
 > **Caption:** FIGURE 1.5 Nest building in the neotropical wasp *Polybia occidentalis*.
 
 ribs containing ventilation ducts which run from the base of the mound toward its summit, brood chambers within the central “hive” area, which consists of thin horizontal lamellae supported by pillars, a base plate with spiral cooling vents, a royal chamber, which is a thick-walled protective bunker with a few minute holes in its walls through which workers can pass, fungus gardens, draped around the hive and consisting of special galleries or combs that lie between the inner hive and the outer walls, and, finally, peripheral galleries constructed both above and below ground which connect the mound to its foraging sites [227, 228].
 
 And there are many more examples of the impressive capabilities of social insects.[^2] If no one is in charge, how can one explain the complexity and sophistication
 
-![Two photographs of wasp nests, labeled (a) and (b)](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p5-i1.png)
+![Two photographs of wasp nests, labeled (a) and (b)](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p5-i1.png)
 > **Caption:** FIGURE 1.6 (a) Nest of a Parachartergus wasp species. (b) Nest of the wasp Epipona tatua.
 > **Figure text:** (a) (b)
 
-![Two diagrams showing a cross section of a Macrotermes mound with numbered labels](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p5-i2.jpg)
+![Two diagrams showing a cross section of a Macrotermes mound with numbered labels](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p5-i2.jpg)
 > **Caption:** FIGURE 1.7 Cross section of a Macrotermes mound. (1) Walls containing ventilation ducts. (2) Brood chambers. (3) Base plate. (4) Royal chamber. After Lüscher [228]. Reprinted by permission © John L. Howard.
 > **Figure text:** 3 4 1 2 2 1 4 3
 
@@ -99,7 +99,7 @@ Self-organization is a set of dynamical mechanisms whereby structures appear at 
 When a bee finds a nectar source, she goes back to the hive and relinquishes her nectar to a hive bee. Then she can either start to dance to indicate to other bees the direction and the distance to the food source, or continue to forage at the food source without recruiting nestmates, or she can abandon her food source and become an uncommitted follower herself. If the colony is offered two identical food sources at the same distance from the nest, the bees exploit the two sources symmetrically. However, if one source is better than the other, the bees are able to exploit the better source, or to switch to this better source even if discovered later. Let us consider the following experiment (Figure 1.8). Two food sources are presented to the colony at 8:00 a.m. at the same distance from the hive: source A is characterized by a sugar concentration of 1.00 mol/l and source B by a concentration of 2.5 mol/l. Between 8:00 and noon, source A has been visited 12 times and source B 91 times. At noon, the sources are modified: source A is now characterized by a sugar concentration of 2.5 mol/l and source B by a concentration of 0.75 mol/l. Between noon and 4:00 p.m., source A has been visited 121 times and source B only 10 times.
 It has been shown experimentally that a bee has a relatively high probability of dancing for a good food source and abandoning a poor food source. These simple behavioral rules allow the colony to select the better quality source. Seeley et al. [287] and Camazine and Sneyd [59] have confirmed with a simple mathematical model based on these observations that foragers can home in on the best food source through a positive feedback created by differential rates of dancing and abandonment based upon nectar source quality. Figure 1.9 shows a schematic representation of foraging activity; decision points (C1: become a follower?) and (C2: become a dancer?) are indicated by black diamonds. Figure 1.10(a) shows the number of different individuals that visited each feeder during the previous half hour in the experiments. Figure 1.10(b) shows the forager group size (here,
 
-![Schematic representation of the experimental setup showing a hive and two food sources (A and B) at different time intervals (8.00, 12.00, 16.00) with bee counts.](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p10-i1.png)
+![Schematic representation of the experimental setup showing a hive and two food sources (A and B) at different time intervals (8.00, 12.00, 16.00) with bee counts.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p10-i1.png)
 > **Caption:** FIGURE 1.8 Schematic representation of the experimental setup.
 > **Figure text:** Source A, Hive, Source B, 8.00, 0, 0, 1.00 M, 2.50 M, 12.00, 12, 91, 2.50 M, 0.75 M, 16.00, 121, 10
 
@@ -109,13 +109,13 @@ the sum of the bees dancing for the feeder, the bees at the feeder, and the bees
 
 3. SO relies on the amplification of fluctuations (random walks, errors, random task-switching, and so on). Not only do structures emerge despite randomness, but randomness is often crucial, since it enables the discovery of new solutions, and fluctuations can act as seeds from which structures nucleate and grow. For example, foragers may get lost in an ant colony, because they follow trails with some level of error; although such a phenomenon may seem inefficient, lost foragers can find new, unexploited food sources, and recruit nestmates to these food sources.
 
-![Schematic representation of foraging activity showing bees at hive, dancing, and foraging at sources A and B](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p11-i1.png)
+![Schematic representation of foraging activity showing bees at hive, dancing, and foraging at sources A and B](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p11-i1.png)
 > **Caption:** FIGURE 1.9 Schematic representation of foraging activity.
 > **Figure text:** Bees at hive unloading nectar from source A; Bees at hive unloading nectar from source B; Bees at hive following dancers; Bees dancing for source A; Bees dancing for source B; Bees foraging at nectar source A; Source A; Source B; Bees foraging at nectar source B; C1; C2
 
 4. All cases of SO rely on multiple interactions. A single individual can generate a self-organized structure such as a stable trail provided pheromonal[^3] lifetime is sufficient, because trail-following events can then interact with trail-laying actions. However, SO generally requires a minimal density of mutually tolerant individuals. Moreover, individuals should be able to make use of the results of their own activities as well as of others' activities (although they may perceive
 
-![Two line graphs showing the number of foragers at two different sources over time. Graph (a) shows experimental data, and graph (b) shows model results.](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p12-i1.png)
+![Two line graphs showing the number of foragers at two different sources over time. Graph (a) shows experimental data, and graph (b) shows model results.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p12-i1.png)
 > **Caption:** FIGURE 1.10 (a) Experimental number of different individuals that visited each feeder during the previous half hour. (b) Forager group size for each feeder obtained from model.
 > **Figure text:** (a) (b) number of foragers number of foragers 100 50 0 100 50 0 8:00 12:00 4:00 hour source A source B
 
@@ -128,7 +128,7 @@ When a given phenomenon is self-organized, it can usually be characterized by a 
     (b) Honey and pollen are deposited in randomly selected available cells.
     (c) Four times more honey is brought back to the hive than pollen.
 
-![Comb of a manmade hive showing three concentric regions of cells](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p13-i1.png)
+![Comb of a manmade hive showing three concentric regions of cells](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p13-i1.png)
 > **Caption:** FIGURE 1.11 Comb of a manmade hive: the three concentric regions of cells can be clearly seen.
 
 (d) Typical removal input ratios for honey and pollen are 0.6 and 0.95, respectively.
@@ -147,7 +147,7 @@ on random initial events.
 
 Self-organization in social insects often requires interactions among insects: such interactions can be direct or indirect. Direct interactions are the “obvious” interactions: antennation, trophallaxis (food or liquid exchange), mandibular contact, visual contact, chemical contact (the odor of nearby nestmates), etc. Indirect interactions are more subtle: two individuals interact indirectly when one of them modifies the environment and the other responds to the new environment at a later time. Such an interaction is an example of stigmergy. In addition to, or in combination with, self-organization, stigmergy is the other most important theoretical concept of this book. Grassé [157, 158] introduced stigmergy (from the Greek *stigma*: sting, and *ergon*: work) to explain task coordination and regulation in the context of nest reconstruction in termites of the genus *Macrotermes*. Grassé showed that the coordination and regulation of building activities do not depend on the workers themselves but are mainly achieved by the nest structure: a stimulating configuration triggers the response of a termite worker, transforming the configuration into another configuration that may trigger in turn another (possibly different) action performed by the same termite or any other worker in the colony. Nest reconstruction consists of first building strips and pillars with soil pellets and stercoral mortar; arches are then thrown between the pillars and finally the interpillar space is filled to make walls. Figure 1.13 sketches how Grassé’s [157, 158] notion of stigmergy can be applied to pillar construction.
 
-![Six successive steps in the formation of concentric regions of brood, pollen, and honey in a honeycomb grid.](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p15-i1.png)
+![Six successive steps in the formation of concentric regions of brood, pollen, and honey in a honeycomb grid.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p15-i1.png)
 > **Caption:** FIGURE 1.12 Six successive steps in the formation of the concentric regions of brood (black dot in a white background), pollen (dark grey), and honey (light grey). Empty cells are represented in white.
 > **Figure text:** empty cell
 > honey
@@ -169,7 +169,7 @@ As was discussed in section 1.2.1, understanding nature and designing useful sys
 
 Models channel imagination in the sense that they usually contain the ingredients necessary to explain classes of phenomena: it might be worth exploring models which are known to (plausibly) explain phenomena of interest rather than start from scratch. Exploring a model beyond the constraints of reality amounts to using a tool beyond its initial purpose. Knowing that social insects have been particularly successful at solving problems which can be abstracted away and formulated in, say, algorithmic language, makes models of problem solving in social insects particularly attractive: models that help explain how social insects solve problems serve as a starting point because they can be explored beyond their initial boundaries. For instance, optimization algorithms based on models of foraging often resort to pheromone decay over time scales that are too short to be biologically plausible: in this case, models have been explored beyond what is biologically relevant to generate an interesting new class of algorithms. The underlying principles of these algorithms are strongly inspired by the functioning of social insect colonies, but some of the parameter values do not lie within empirical boundaries. In the context of this book, modeling serves, therefore, as an interface between understanding
 
-![A diagram illustrating the process of stigmergy in termite nest building, showing a sequence of states (A, A1, A2, A3) and responses (R, R1, R2, R3) by individual termites (S, Sn)](/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p18-i1.png)
+![A diagram illustrating the process of stigmergy in termite nest building, showing a sequence of states (A, A1, A2, A3) and responses (R, R1, R2, R3) by individual termites (S, Sn)](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/eric-bonabeau-et-al-from-swarm-intelligence-from-natural-to-artificial-systems/p18-i1.png)
 > **Caption:** FIGURE 1.13 Assume that the architecture reaches state A, which triggers response R from worker S. A is modified by the action of S (for example, S may drop a soil pellet), and transformed into a new stimulating configuration A1, that may in turn trigger a new response R1 from S or any other worker Sn and so forth. The successive responses R1, R2, Rn may be produced by any worker carrying a soil pellet. Each worker creates new stimuli in response to existing stimulating configurations. These new stimuli then act on the same termite or any other worker in the colony. Such a process, where the only relevant interactions taking place among the agents are indirect, through the environment which is modified by the other agents, is also called sematectonic communication [329]. After Grassé [158]. Reprinted by permission © Masson.
 > **Figure text:** A, A1, A2, A3, R, R1, R2, R3, (Individual S), (Individual Sn)
 

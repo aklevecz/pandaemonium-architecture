@@ -91,7 +91,7 @@ So, back to my earlier point: If you are human, then this book can help you unde
 
 Let me start by giving you an overview of social engineering.
 
-![A dog standing inside a wire cage.](/figures/christopher-hadnagy-from-social-engineering-the-science-of-human-hacking/p7-i1.jpg)
+![A dog standing inside a wire cage.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/christopher-hadnagy-from-social-engineering-the-science-of-human-hacking/p7-i1.jpg)
 > **Caption:** Figure 1-1 How does this make you feel?
 > **Figure text:** Image credit to Amazon Community Animal Rescue, www.flickr.com/photos/amazon-cares/2345707195
 
@@ -152,7 +152,7 @@ When I talk about social engineering from a malicious perspective, I break it do
 
 » **SMiShing:** Yes, this is a real thing, and it stands for SMS phishing, or phishing through text messages. When Wells Fargo was breached in 2016, I received the SMiShing attack shown in Figure 1-2.
 
-![A text message SMiShing attack example](/figures/christopher-hadnagy-from-social-engineering-the-science-of-human-hacking/p10-i1.jpg)
+![A text message SMiShing attack example](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/christopher-hadnagy-from-social-engineering-the-science-of-human-hacking/p10-i1.jpg)
 > **Caption:** Figure 1-2 This SMiShing attack trapped a lot of people.
 > **Figure text:** (wells_.fargo) Important message from security department! Login.=> vigourinfo.com/ secure.well5farg0card.html
 

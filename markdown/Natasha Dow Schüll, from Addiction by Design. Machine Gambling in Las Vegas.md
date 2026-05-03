@@ -24,7 +24,7 @@ I ask Mollie to describe the machine zone. She looks out the window at the color
 
 A few months after speaking with Mollie in Main Street Station’s South Tower, I found myself in the midst of another conversation about the
 
-![A crowded exhibition hall at the Global Gaming Exposition with overhead signs for booths 400, 500, 600, and 700.](/figures/natasha-dow-schull-from-addiction-by-design-machine-gambling-in-las-vegas/p3-i1.jpg)
+![A crowded exhibition hall at the Global Gaming Exposition with overhead signs for booths 400, 500, 600, and 700.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/natasha-dow-schull-from-addiction-by-design-machine-gambling-in-las-vegas/p3-i1.jpg)
 > **Caption:** Figure i.1. Opening day at the Global Gaming Exposition, 2005. Courtesy of Oscar Einzig Photography.
 > **Figure text:** global gaming expo, global gaming expo, global gaming expo
 
@@ -46,7 +46,7 @@ Several factors contributed to the dramatic reversal of slots’ once lowly stat
 
 Since the early 1980s, when machine revenues surpassed table revenues for the first time, the ascendance of machines in the culture and economy of American gambling has continued unabated. The devices are now permitted in forty-one states (up from thirty-one in 2000) and are under consideration by others as this book goes to press. In 1996 there were 500,000 devices in the United States; in 2008 the count had reached nearly 870,000—not including an underground market of unauthorized machines in bars and taverns, truck stops, bowling alleys, and restaurants
 
-![Machine floor at the Four Queens casino in downtown Las Vegas](/figures/natasha-dow-schull-from-addiction-by-design-machine-gambling-in-las-vegas/p6-i1.jpg)
+![Machine floor at the Four Queens casino in downtown Las Vegas](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/natasha-dow-schull-from-addiction-by-design-machine-gambling-in-las-vegas/p6-i1.jpg)
 > **Caption:** Figure i.2. Machine floor at the Four Queens casino in downtown Las Vegas. Courtesy of Quang-Tuan Luong Photography. (QT Luong/terragalleria.com)
 
 across the country, nor devices engineered to circumvent restrictions by fitting state definitions for bingo, amusement machines, or sweepstakes games.[^13]
@@ -69,7 +69,7 @@ What local players want is machines, and this preference has closely tracked the
 
 That year at the industry’s annual meeting, Las Vegas locals were frequently acknowledged as the most “mature” of domestic machine markets. Some spoke of the city as a sort of experimental barometer for the
 
-![Two photographs showing video poker machines in convenience settings. Top: A row of machines in a supermarket. Bottom: A row of machines in a gas station.](/figures/natasha-dow-schull-from-addiction-by-design-machine-gambling-in-las-vegas/p9-i1.jpg)
+![Two photographs showing video poker machines in convenience settings. Top: A row of machines in a supermarket. Bottom: A row of machines in a gas station.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/natasha-dow-schull-from-addiction-by-design-machine-gambling-in-las-vegas/p9-i1.jpg)
 > **Caption:** Figure i.3. Convenience gambling. Top: Video poker alcove at Lucky’s Supermarket in southwest Las Vegas. Bottom: AMPM gas station in north Las Vegas. Photographs by the author.
 > **Figure text:** Play VIDEO POKER. HELP. CAKE SO WE CARD. INSERT BILLS. BONUS POKER.
 
@@ -191,7 +191,7 @@ The gambling addicts I met, on the contrary, were remarkably reflexive regarding
 
 Toward the end of our interview, Mollie, who had always liked to draw, flipped over a page of her 12-step self-help literature, borrowed a pen, and drew a map of what it was like to live in Las Vegas (see fig. i.5). She spoke as she sketched, describing each spot on the map and its role in her daily life. She began in the upper left-hand corner of the sheet with the MGM Grand, the casino resort where she worked making room reservations. To the right she placed the 7-11 where she pumped gas on the way home and sometimes gambled, and beside it, the Palace Station, the neighborhood casino where she gambled at night and on weekends. Below she drew the supermarket where she shopped and gambled, and below that,
 
-![A hand-drawn map by Mollie showing a loop connecting various locations in Las Vegas, including the MGM, 7-Eleven, Palace Station, Lucky's, a medical clinic, and a strip mall, with a figure of a person seated at a slot machine in the center.](/figures/natasha-dow-schull-from-addiction-by-design-machine-gambling-in-las-vegas/p25-i1.jpg)
+![A hand-drawn map by Mollie showing a loop connecting various locations in Las Vegas, including the MGM, 7-Eleven, Palace Station, Lucky's, a medical clinic, and a strip mall, with a figure of a person seated at a slot machine in the center.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/natasha-dow-schull-from-addiction-by-design-machine-gambling-in-las-vegas/p25-i1.jpg)
 > **Caption:** Figure i.5. Mollie’s map of everyday life in Las Vegas. Drawn for the author in 1998.
 > **Figure text:** MGM, 7-Eleven, Palace Station, Lucky's, Meds, GA
 

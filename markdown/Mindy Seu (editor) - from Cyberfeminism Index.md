@@ -93,7 +93,7 @@ Some entries include annotations by me. These are italicized, begin with “Edit
 
 Sample Entry
 
-![A sample index entry labeled with numbers 1 through 8](/figures/mindy-seu-editor-from-cyberfeminism-index/p12-i1.jpg)
+![A sample index entry labeled with numbers 1 through 8](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/mindy-seu-editor-from-cyberfeminism-index/p12-i1.jpg)
 > **Caption:** None.
 > **Figure text:** 
 > 436

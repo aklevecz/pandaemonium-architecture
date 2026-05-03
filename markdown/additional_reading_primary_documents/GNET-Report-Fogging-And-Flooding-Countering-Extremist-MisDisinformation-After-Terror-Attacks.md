@@ -1,4 +1,4 @@
-![A person sitting on a chair holding a burning newspaper in front of their face.](/figures/gnet-report-fogging-and-flooding-countering-extremist-misdisinformation-after-terror-attacks/p1-i1.jpg)
+![A person sitting on a chair holding a burning newspaper in front of their face.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/gnet-report-fogging-and-flooding-countering-extremist-misdisinformation-after-terror-attacks/p1-i1.jpg)
 > **Caption:** None
 > **Figure text:** Record slide at nine games; Kings in room; Fangio accepts offer to be Broncos coach; Johnson blazes own trail; The grandson of Marquez and son of Kris, both champions at UCLA, won't try to match their success but hopes to forge a path at Oregon; "It used to be a lot of pressure; I wanted to be on the same level as them. But I realized I've just got to be me."; USC's Porter Jr.
 
@@ -254,7 +254,7 @@ Less than twenty minutes after this, Rym Momtaz, an ABC producer, tweeted that s
 
 Some intriguing insights are revealed, however, if we track the volumes of communication on Twitter around this episode. Figure 1 was constructed by filtering the data collected based on the search terms ‘Izzadeen’ and (‘Westminster’ OR ‘#prayforlondon’ OR ‘Keith Palmer’ OR ‘Khalid Masood’ OR ‘Adrian Russell’). The Louvain Method for community detection (Blondel et al., 2008) was then run over the entire dataset to identify the top nine clusters of accounts engaging with this allegation and associated developments. The engagement of these clusters in terms of their messaging activity over time is plotted in Figure 1 below:
 
-![A stacked area chart showing the temporal analysis of the top 9 clusters on Twitter, with peaks in activity labeled for News_Executive, RymMomtaz, and alaskantexanQCT.](/figures/gnet-report-fogging-and-flooding-countering-extremist-misdisinformation-after-terror-attacks/p20-i1.jpg)
+![A stacked area chart showing the temporal analysis of the top 9 clusters on Twitter, with peaks in activity labeled for News_Executive, RymMomtaz, and alaskantexanQCT.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/gnet-report-fogging-and-flooding-countering-extremist-misdisinformation-after-terror-attacks/p20-i1.jpg)
 
 > **Caption:** Figure 1: Temporal analysis of top 9 clusters on Twitter
 > **Figure text:** News_Executive 17:59; RymMomtaz 19:13; alaskantexanQCT; Tweets per 5 minutes; 15:00 16:00 17:00 18:00 19:00 20:00 21:00 22:00 23:00 00:00 01:00 02:00 03:00 04:00 05:00 06:00; Channel4 News Evening Programme; Cluster 1; Cluster 2; Cluster 3; Cluster 4; Cluster 5; Cluster 6; Cluster 7; Cluster 8; Cluster 9; Small Cluster (n<181)

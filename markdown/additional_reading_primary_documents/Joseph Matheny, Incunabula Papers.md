@@ -12,7 +12,7 @@ Peace,
 
 -jm
 
-![Intricate, surreal black and white illustration featuring a central egg-like shape, organic foliage, and the word "INCUNABULA" at the top.](/figures/joseph-matheny-incunabula-papers/p2-i1.jpg)
+![Intricate, surreal black and white illustration featuring a central egg-like shape, organic foliage, and the word "INCUNABULA" at the top.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/joseph-matheny-incunabula-papers/p2-i1.jpg)
 
 > **Figure text:** INCUNABULA
 
@@ -332,7 +332,7 @@ Through the early to mid-80's the commune's fortunes fluctuated (sometimes nearl
 
 The Dobbs twins spent their early childhood on a UFO-cult commune in rural Texas, founded by their father, a retired insurance salesman who was murdered by rogue disciples during a revival in California. One might say that the siblings had a head start in chaos--and the Ashram's modus vivendi suited them admirably. (The Pine Barrens have often been called "a perfect place for a UFO SEE DOBBS TWO DIMENSION MODEL FOR TIME"
 
-![A collage featuring a map of the New Jersey Pine Barrens, a technical diagram of an isolation pod, and a space-themed graphic](/figures/joseph-matheny-incunabula-papers/p16-i1.jpg)
+![A collage featuring a map of the New Jersey Pine Barrens, a technical diagram of an isolation pod, and a space-themed graphic](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/joseph-matheny-incunabula-papers/p16-i1.jpg)
 
 > **Caption:** ONG'S HAT: GATEWAY TO THE DIMENSIONS! A full-color advertising brochure for the Institute of Chaos Studies and the Moorish Science Ashram in Ong's Hat, New Jersey
 > **Figure text:** (Top diagram): PROTOTYPE: CHAOS ISOLATION EXPERIMENT; I.C.S. / M.S.A.; CUSTOM PARALLEL PROCESSOR COMPUTER; OPTICAL DATA STORAGE; EMERGENCY OXYGEN SUPPLY; FUEL CELL; FIRST AID KIT; VIDEO CAMCORDER; KEYPAD STANDARD; AERO-OPTIC PATCH-LINK 1; MODIFIED "BEW" RETREAT POD; NEURAL INTERFACE HELMET; BIOMETRIC ELECTRODES (HEART RATE, RESPIRATION, BLOOD PRESSURE, GALVANIC SKIN RESPONSE, ETC.); T. Dobby; Martin Kallitak; H. Acton; 0553.XE; (Map labels): New York; Long Island; Trenton; Philadelphia; PINE BARRENS; Atlant Ocea; FORT DIX MILITARY RESERVATION; Lakehurst; Toms River; Cedar Cr; Lebanon State Forest; Tabernacle; Apple Pie Hill; Chatsworth; West Plains; Oswego R; Reevestown; Warren Grove; W. Br. Wading R; Hog Wallow; Martha; Sim Place; East Plains; Beaver Run; Washington (locally called Washington Folds); Bass River State Forest; Tuckerton; Little Egg Harbor; Egg Harbor City; Mullica; Great Bay; Long Beach; Surf City; Ship Bottom; Barnegat Light; Island Beach State Park; Seaside Heights; Seaside Park; Point Pleasant; Pleasantville; Brigantine; Ocean City.
@@ -425,5 +425,5 @@ Not that we think ourselves saints, or try to behave morally, or imagine ourselv
 
 Meanwhile our agents of chaos remain behind to set up ICS courses, distribute Moorish Orthodox literature (a major mask for our propaganda), to subvert and evade our enemies....We haven't spoken yet of our enemies. Indeed there remains much we have not said. This text, disguised as a sort of New Age vacation brochure, must fall silent at this point, satisfied that it has embedded within itself enough clues for its intended readers (who are already half-way to Ong's Hat in any case) but not enough for those of little faith to follow.
 
-![A drawing of a person in a space suit with their eyes closed and hands raised](/figures/joseph-matheny-incunabula-papers/p20-i1.jpg)
+![A drawing of a person in a space suit with their eyes closed and hands raised](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/joseph-matheny-incunabula-papers/p20-i1.jpg)
 > **Figure text:** KIT
