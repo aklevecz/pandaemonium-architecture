@@ -1,586 +1,339 @@
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+# À bruit secret: Notes on Duchamp, Cybernetic CIA, and Organized Crime
 
-9/7/25, 11:06 AM 
+SCOTT BENZEL
+JAN 19, 2025
 
-## À bruit secret: Notes on Duchamp, Cybernetic CIA, and Organized Crime 
+![Author profile picture](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p1-i1.png)
+> **Caption:** None
+> **Figure text:** None
 
-SCOTT BENZEL JAN 19, 2025 
+![A wanted poster featuring two photographs of Marcel Duchamp, one in profile and one facing forward.](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p2-i1.png)
 
-3 1 
+> **Caption:** None.
+> **Figure text:** WANTED $2,000 REWARD For information leading to the arrest of Georg W. Welch, alias Bull, alias Pickens, etcetry etcetry. Operated Bucket Shop in New York under name HOOKE, LYON and CINQUER. Height about 5 feet 9 inches. Weight about 180 pounds. Complexion medium, eyes same. Known also under name RROSE SÉLAVY
 
-Sha 
+Marcel Duchamp, Wanted: $2,000 Reward, 1961 (replica of the 1923 original)
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+Before the recent advent of pervasive data-scraping, a single, eventful life was simply too much to comprehensively analyze or narrativize – even, *especially* – a “life of crime”. The day-to-day aporias and elisions were too vast, critical connections too easily missed or hidden from view. Few lives exemplify this more than that of Marcel Duchamp. Through the fragmented lens of Duchamp scholarship, Duchamp’s life as a work sometimes take on a funhouse-mirror-like quality, reflecting the obsessions, narratives, and theories of his interlocuters. These notes explore several areas that have been suggested or touched upon but to my knowledge never fully detailed.
 
-1/37 
+# The work of art lives by itself, and the artist who happened to make it is like an irresponsible medium.
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+The Western Round Table on Modern Art (1949) featured artists and thinkers (all men) including Marcel Duchamp, the architect Frank Lloyd Wright, the composers Darius Milhaud and Arnold Schoenburg, and the anthropologist Gregory Bateson speaking for nine hours over three days to an (apparently) attentive audience. Bateson was a public intellectual with a “complex” (read “checkered”) past — cultural (later ‘medical’) anthropologist, husband of the famed anthropologist Margaret Mead, WWII Office of Strategic Services ‘black propagandist’ and disinformation expert, “truth drug” and hypnosis researcher (with Mead and Milton Erickson), “visionary” of the “need” for a Central Intelligence Agency post-WWII (and possible lifetime covert agent), and first generation cyberneticist. In the coming decades, he was a first generation purveyor of CIA-linked LSD tests, theorized the “double-bind” in the treatment of alcoholism and schizophrenia, aligning with the anti-psychiatry movement, was briefly a dolphin experimenter...the list goes on...
 
-9/7/25, 11:06 AM 
+![Marcel Duchamp's sculpture À bruit secret (With hidden noise), 1916, consisting of a ball of twine between two brass plates held by four long bolts.](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p4-i1.png)
+> **Caption:** Marcel Duchamp, À bruit secret (With hidden noise), 1916
+> **Figure text:** P.G. LE. AS. D. SERT. HOW. V. R. ECI DES COR. ESPONDS DIEBARRASSE. F. URNIS ENT
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+From the proceedings of The Western Round Table on Modern Art (1949): [^1]
 
-2/37 
+Duchamp: "We don't emphasize enough that the work of art is independent of the artist. The work of art lives by itself, and the artist who happens to make it is like an irresponsible medium. No artist can say at any time: 'I am a genius. I am going to paint a masterpiece.'"
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+Bateson: "Now, Mr. Duchamp, what you are saying is that the artist is the picture's way of getting itself painted. That is a very serious and reasonable thing to say, but it implies that, in some sense, the work of art exists before it is there on canvas."
 
-9/7/25, 11:06 AM 
+Duchamp: "Yes, it has to be pulled out."
 
-Marcel Duchamp, Wanted: $2,000 Reward, 1961 (replica of the 1923 original) 
+![Marcel Duchamp and Gregory Bateson in conversation, 1949](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p6-i1.png)
+> **Caption:** Marcel Duchamp and Gregory Bateson in conversation, 1949
 
-Before the recent advent of pervasive data-scraping, a single, eventful life was simp too much to comprehensively analyze or narrativize – even, _especially_ – a “life of crime”. The day-to-day aporias and elisions were too vast, critical connections too easily missed or hidden from view. Few lives exemplify this more than that of Marce Duchamp. Through the fragmented lens of Duchamp scholarship, Duchamp’s life a work sometimes take on a funhouse-mirror-like quality, reflecting the obsessions, narratives, and theories of his interlocuters. These notes explore several areas that have been suggested or touched upon but to my knowledge never fully detailed. 
+Bateson immediately grasped Duchamp’s line of thinking – it reflected ideas that he had been engaging with at the Macy cybernetics conferences and their precursor, the 1942 Cerebral Inhibition Meeting, where (among other topics but of particular interest to Bateson) the teleological (read ‘purposeful’) possibilities of inanimate objects resulting from the newly-discovered process then called *feed-back* were discussed. According to *Behavior, Purpose and Teleology* by Arturo Rosenblueth, Norbert Wiener
 
-## The work of art lives by itself, and the artist who happened to make it is like an irresponsible medium. 
+and Julian Bigelow in *Philosophy of Science*, 10 (1943), originally presented by Arturo Rosenblueth at the Cerebral Inhibition Meeting:
 
-The Western Round Table on Modern Art (1949) featured artists and thinkers (all m including Marcel Duchamp, the architect Frank Lloyd Wright, the composers Dariu Milhaud and Arnold Schoenburg, and the anthropologist Gregory Bateson speaking for nine hours over three days to an (apparently) attentive audience. Bateson was a public intellectual with a “complex” (read “checkered”) past — cultural (later ‘medic anthropologist, husband of the famed anthropologist Margaret Mead, WWII Office Strategic Services ‘black propagandist’ and disinformation expert, “truth drug” and hypnosis researcher (with Mead and Milton Erickson), “visionary” of the “need” for Central Intelligence Agency post-WWII (and possible lifetime covert agent), and fir generation cyberneticist. In the coming decades, he was a first generation purveyor CIA-linked LSD tests, theorized the “double-bind” in the treatment of alcoholism a schizophrenia, aligning with the anti-psychiatry movement, was briefly a dolphin experimenter...the list goes on… 
+The view has often been expressed that all machines are purposeful. This view is untenable. First may be mentioned mechanical devices such as a roulette, design precisely for purposelessness. Then may be considered devices such as a clock, designed, it is true, with a purpose, but having a performance which, although orderly, is not purposeful — i.e., there is no specific final condition toward which the movement of the clock strives. [...]
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+Some machines, on the other hand, are intrinsically purposeful. A torpedo with a target-seeking mechanism is an example. The term servo-mechanisms has been coined precisely to designate machines with intrinsic purposeful behavior. [...]
 
-3/37 
+Purposeful active behavior may be subdivided into two classes: *feed-back* (or *teleological*) and *non-feed-back* (or *non-teleological*) The expression feed-back is use by engineers in two different senses. In a broad sense it may denote that some of the output energy of an apparatus or machine is returned as input; an example is electrical amplifier with feedback. [^2]
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+![A hierarchical diagram classifying behavior types](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p7-i1.png)
+> **Figure text:**
+> Behavior
+> Active
+> Non-active (passive)
+> Purposeful
+> Non-purposeful (random)
+> Feed-back (teleological)
+> Non-feed-back (non-teleological)
+> Predictive (extrapolative)
+> Non-predictive (non-extrapolative)
+> First-, second-, etc orders of prediction
 
-9/7/25, 11:06 AM 
+Diagram from *Behavior, Purpose and Teleology* by Arturo Rosenblueth, Norbert Wiener and Julian Bigelow in *Philosophy of Science*, 10 (1943)
 
-Marcel Duchamp, À bruit secret (With hidden noise), 1916 
+Both the paper and the Cerebral Inhibition Meeting (Per Bateson “*Cerebral inhibition was a respectable word for hypnosis. Most of what was said about ‘feedback’ was said over lunch.*”[^3]) were watershed moments for the fast-developing science of cybernetics.
 
-From the proceedings of The Western Round Table on Modern Art (1949): 1 
+Duchamp’s “*Creative Act*” lecture, presented almost a decade later at the 1957 Convention of the American Federation of Arts in Houston, Texas, as part of a panel that once again included Bateson, includes near-verbatim elements of the Western Roundtable conversation and highlights Duchamp’s continued interest in ‘feedback’ art and what has come to be known as cybersemiotics:
 
-Duchamp: "We don't emphasize enough that the work of art is independent of the artist. The wor of art lives by itself, and the artist who happene to make it is like an irresponsible medium. No artist can say at any time: 'I am a genius. I am going to paint a masterpiece.'" 
+Let us consider two important factors, the two poles of the creation of art: the artist on the one hand, and on the other the spectator who later becomes the posterity.
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+To all appearances, the artist acts like a mediumistic being who, from the labyrinth beyond time and space, seeks his way out to a clearing.[^4]
 
-4/37 
+![Diagram showing the process of artist and spectator collaboration and a semiotic interaction model](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p9-i1.png)
+> **Caption:** Fig. 10.3 Representation of the process in which artist and spectator collaborate as co-creators of meaning: user based on Duchamp’s creative act
+> **Figure text:** CREATOR, SPECTATOR, USER, Fig. 10.4 Semiotic Interaction. Duchamp’s Creative Act seen under Peirce’s semiotics, SIGN-VEHICLE | REPRESENTAMEN, MEANING POTENTIAL, SENSE, REFERENCE, Ac, CAUSATION, OBJECT, MEANING REFLECTED, INTERPRETANT
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+Diagram from Claudia Jacques, Human-Computer Interaction Design and the Cybersemiotic Experience in ed. Carlos Vidales, Søren Brier - Introduction to Cybersemiotics, A Transdisciplinary Perspective, 2021
 
-9/7/25, 11:06 AM 
+In *Human-Computer Interaction Design and the Cybersemiotic Experience*, Claudia Jacq writes:
 
-Bateson: "Now, Mr. Duchamp, what you are sayin is that the artist is the picture's way of getting itself painted. That is a very serious and reasonable thing to say, but it implies that, in some sense, the work of art exists before it is there on canvas." 
+In his 1957 “Creative Act” lecture, Marcel Duchamp established the concept of interactivity introducing a pseudo-arithmetical equation to explain the relations between artist, spectator, and artwork. Aiming to stay neutral in judging the vali
 
-Duchamp: "Yes, it has to be pulled out." 
+of the work, he called the artwork the “art coefficient” [Ac], which reflects the difference between the artist’s “unexpressed but intended” [UbI] concept and the “unintentionally expressed” [UE] work (product).
 
-5/37 
+UbI – UE = Ac
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+*Creative Act Equation*
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+“This “art coefficient” is a personal expression of art “` a l’état brut,” that is, still in raw state which must be “refined” ... by the spectator ... [who] experiences the phenomenon of transmutation; through the change from inner matter into a work of art, an actual transubstantiation has taken place, and the role of the spectator is to determine the weight of the work on the aesthetic scale.“ (Duchamp 1957)
 
-9/7/25, 11:06 AM 
+Duchamp’s eagerness for interactivity is seen in his ludic interactions with the spectator, questioning form and content, and consequently meaning, extended beyond visual arts into language. Throughout his career, Duchamp’s use of signs was a constant and significant element. It was a means of converting his static artwork into dynamic dialogue (interaction).
 
-Marcel Duchamp and Gregory Bateson in conversation, 1949 
+![Diagram showing three scenarios of the creative act involving an artist, a spectator, and an artwork](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p11-i1.png)
+> **Caption:** Fig. 10.2 Creative Act scenarios analyzed under columns: “unexpressed but intended” [UbI] concept, the “unintentionally expressed” [UE] and the “art coefficient” [Ac] in the production of meaning. In Scenario I only the artist interacts with the artwork in raw state but without a spectator the work doesn’t transmute or transubstantiate into Ac (new meaning.) In Scenario 2 both artist and spectator interact with the artwork in raw state but as the spectator doesn’t engage with the artwork it stays in raw state. The annotator’s feedback to the artist reveals that the artwork doesn’t
+> **Figure text:** UbI UE Ac SCENARIO 1 ARTIST 1 ACTIVE INTERACTION RAW STATE POTENTIAL 2 NOT POTENTIALIZED NO FEEDBACK: NO TRANSMUTATION SCENARIO 2 ARTIST 3 POSITIVE FEEDBACK: NO TRANSMUTATION 1 ACTIVE INTERACTION 2 RAW STATE POTENTIAL 2 NOT POTENTIALIZED SPECTATOR 1 PASSIVE INTERACTION NO FEEDBACK: NO TRANSMUTATION SCENARIO 3 PASSIVE INTERACTION | MEANING CREATION 6 3 POSITIVE FEEDBACK: TRANSMUTATION ARTIST 1 ACTIVE INTERACTION 2 RAW STATE POTENTIAL 2 5 SPECTATOR 1 PASSIVE INTERACTION 3 POSITIVE FEEDBACK: TRANSMUTATION 6 POTENTIALIZED 4 5 ACTIVE INTERACTION | MEANING CREATION
 
-Bateson immediately grasped Duchamp’s line of thinking – it reflected ideas that he had been engaging with at the Macy cybernetics conferences and their precursor, th 1942 Cerebral Inhibition Meeting, where (among other topics but of particular inter to Bateson) the teleological (read ‘purposeful’) possibilities of inanimate objects resulting from the newly-discovered process then called _feed-back_ were discussed. According to _Behavior, Purpose and Teleology_ by Arturo Rosenblueth, Norbert Wiene 
+work, it stays in law state. The spectator’s feedback to the artist reveals that the artwork doesn’t promote the Ac. Scenario 3 represents the ideal Ac, where artist and spectator interact through the artwork and transmute and transubstantiate the work into Ac, and both experience new meaning
+Diagram from Claudia Jacques, *Human-Computer Interaction Design and the Cybersemiotic Experience* in ed. Carlos Vidales, Søren Brier - Introduction to Cybersemiotics, A Transdisciplinary Perspective, 2021
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+Jacques continues:
 
-6/37 
+> Duchamp’s desire to exchange with the spectator is today the foundation of *any* & *every* human-computer interaction. The advent of new telecommunication tools been quickly adding new possibilities for rendering aesthetic *meaning* and intentionality in artmaking. [^5]
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+The Duchamp of the 1949 Western Round Table, of the 1957 *Creative Act* lecture, of 1963 Pasadena Art Museum retrospective and corresponding trip to Las Vegas is very different from the “silent” Duchamp portrayed by Joseph Beuys (below). Duchamp’s interactions with Bateson seem to have deeply impacted his later thinking, precipitating *The Creative Act* and his fascination with the artist/spectator perspective feedback loop, exemplified by his final, crepescular, posthumous work *Étant donnés* (*Given: 1. The Waterfall, 2. The Illuminating Gas, Étant donnés: 1° la chute d'eau / 2° le gaz d'éclairage*), 1966, and the veil of secrecy that surrounded its construction.
 
-9/7/25, 11:06 AM 
+![Joseph Beuys's artwork titled "Das Schweigen von Marcel Duchamp wird überbewertet"](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p13-i1.png)
+> **Caption:** Joseph Beuys, The silence of Marcel Duchamp is overrated (Das Schweigen von Marcel Duchamp wird überbewertet), 1964
+> **Figure text:** DAS SCHWEIGEN VON MARCEL DUCHAMP WIRD ÜBERBEWERTET
 
-and Julian Bigelow in _Philosophy of Science_ , 10 (1943), originally presented by Arturo Rosenblueth at the Cerebral Inhibition Meeting: 
+# “Indirect methods of warfare”, Gregory Bateson and Central Intelligence
 
-The view has often been expressed that all machines are purposeful. This view is untenable. First may be mentioned mechanical devices such as a roulette, design precisely for purposelessness. Then may be considered devices such as a clock, designed, it is true, with a purpose, but having a performance which, although orderly, is not purposeful — i.e., there is no specific final condition toward which the movement of the clock strives. […] 
+## Following World War II and the dissolution of the OSS, Bateson’s input was critical at the moment of the formation of CIA:
 
-Some machines, on the other hand, are intrinsically purposeful. A torpedo with a target-seeking mechanism is an example. The term servo-mechanisms has been coined precisely to designate machines with intrinsic purposeful behavior. […] 
+There was more than economy in mind as (Harold D.) Smith, Director of the Budget, corresponded with General (William, “Wild Bill”) Donovan in August 19 about liquidating the Office of Strategic Services. On the day Smith advised the
 
-Purposeful active behavior may be subdivided into two classes: _feed-back_ (or _teleological_ ) and _non-feed-back_ (or _non-teleological_ ) The expression feed-back is use by engineers in two different senses. In a broad sense it may denote that some of the output energy of an apparatus or machine is returned as input; an example is electrical amplifier with feedback. 2 
+General in regard to agencies with no peacetime activities, Donovan was explain to the Director once more the principles which should govern a centralized “United States Foreign Intelligence System.” Donovan believed those principles were already at work in the Office of Strategic Services.
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+But since it was to be abandoned, another agency should be set up immediately to take over “the valuable assets created by OSS” and aid the nation in “the organization and maintenance of the peace.” Within the week Donovan had a report from Gregory Bateson concerning the effect of the atomic bomb upon “indirect methods of warfare.” It made the need for a permanent system of national intelligence peremptory.
 
-7/37 
+Writing from the headquarters of OSS in the India-Burma theater, Mr. Bateson forecast changes in psychological warfare, clandestine operations, and strategic intelligence. The physicists of all countries had been engaged in research leading to the atomic bomb. All major powers were likely to have weapons of the sort within the next ten years. [...] The atomic bomb would shift the balance of warlike and peaceful methods of international pressure.
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+The bomb would be powerless, said Bateson, against subversive practices, guerilla tactics, social and economic manipulation, diplomatic forces, and propaganda either black or white. The nations would resort to those “peaceful methods of war” [...] The country could not rely upon the Army and Navy alone for defense. There should be a third agency acting under the Department of State to combine the functions and employ the weapons of clandestine operations, economic controls and psychological pressures in the new warfare. (G. Bateson’s report, Aug. 18, 1945) [^6]
 
-9/7/25, 11:06 AM 
+When Bateson wrote his report calling for the establishment of CIA and the pursuit of “indirect methods of warfare”, the 1942 Cerebral Inhibition Meeting, OSS ‘black propaganda’ work in the South Pacific, and the Truth Drug and hypnosis experiments
 
-Diagram from _Behavior, Purpose and Teleology_ by Arturo Rosenblueth, Norbert Wiener and Julian Bigelow in _Philosophy of Science_ , 10 (1943) 
+with Erickson and Mead were behind him while the Macy cybernetics conferences work with LSD were coming into focus on the horizon. In the coming years, per Jef St. Clair and Alexander Cockburn:
 
-Both the paper and the Cerebral Inhibition Meeting (Per Bateson _“Cerebral inhibitio was a respectable word for hypnosis. Most of what was said about ‘feedback’ was said over lunch.”_ 3 ) were watershed moments for the fast-developing science of cybernetics. 
+Margaret Mead sat with Ewen Cameron on the editorial board of a CIA-funded publication called the *Research in Mental Health Newsletter*, which discussed the use of psychedelic drugs to induce and treat schizophrenia. Mead’s former husband, medical anthropologist Gregory Bateson, was given CIA-procured LSD by Harold Abramson. Bateson, in turn, gave some to his friend, the beat poet Allen Ginsberg. It was also Bateson’s stash of LSD that eventually found its way to experiments being conducted on student volunteers by Dr. Leo Hollister. One of his subjects was a young creative writing student at Stanford, Ken Kesey, who would become the drug’s chief proponent in the sixties counterculture. [^7]
 
-Duchamp’s _“Creative Act”_ lecture, presented almost a decade later at the 1957 Convention of the American Federation of Arts in Houston, Texas, as part of a pane that once again included Bateson, includes near-verbatim elements of the Western Roundtable conversation and highlights Duchamp’s continued interest in ‘feedback art and what has come to be known as cybersemiotics: 
+At it’s inception, Central Intelligence was to fulfill the role of a comprehensive “United States Foreign Intelligence System” and was legally barred from operating domestically. Soon, workarounds (later found to be illegal) were put in place to allow to work within the U.S., mostly by secretly channelling funding to domestic organizations, universities, and think tanks by way of “cutouts”: The Macy Foundation became one such cutout, the Human Ecology Fund another, and, in the years and decades to come, numerous other foundations, publishing houses, and NGO cutouts funneled money to institutions and individuals while agents and programs, both covert and acknowledged, became increasingly focused on domestic affairs.
 
-Let us consider two important factors, the two poles of the creation of art: the ar on the one hand, and on the other the spectator who later becomes the posterity. 
+Bateson, “witting” or not, was surrounded by a web of agents, consultants, academics, and think-tankers directly or indirectly on CIA’s payroll — Harold Abramson, Frank Fremont-Smith, George Hunter White, James Mysbergh, James Alexander Hamilton, Irving Janis, and various members of the Macy circle — were all on the payroll. When he founded the Mental Research Institute, specializing in “psychedelic therapy” and LSD experimentation; when he began working with schizophrenics and alcoholics —
 
-To all appearances, the artist acts like a mediumistic being who, from the labyrin beyond time and space, seeks his way out to a clearing. 4 
+the Palo Alto Veterans Affairs hospital; when he lectured at Esalen, Bateson sat at the nexus of CIA-cutout-funded psychological and drug experimentation.
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+![Duchamp's installation for the First Papers of Surrealism exhibition](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p16-i1.png)
+> **Caption:** Duchamp’s installation for the First Papers of Surrealism exhibition (16 miles of string), 1942
 
-8/37 
+Similar connective tissues suggest that Bateson might have known Duchamp before the 1949 Roundtable. In 1943, Maya Deren shot a never-completed experimental film, *Witches’ Cradle*, starring Duchamp and Ana Matta Clark in Peggy Guggenheim’s Art of This Century gallery. Deren consulted with Duchamp before commencing production and he agreed to be featured in the film, which also revolved around a reconstruction of his 1942 installation (“16 miles of string”) for the First Papers of Surrealism exhibition. In 1945, Deren documented Duchamp’s and André Breton’s window displays.
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+“Lazy Hardware” at Brentano’s bookstore and later, following public outrage and the work’s removal, it’s reinstallation at Gotham Book Mart. In 1946, Deren began an affair with Gregory Bateson. In *Tripping on Utopia*, Benjamin Breen writes:
 
-9/7/25, 11:06 AM 
+It was in the late 1940s and 1950s that the forces of change, stored up during the war like a coiled spring, most rapidly unwound themselves.
 
-Diagram from Claudia Jacques, Human-Computer Interaction Design and the Cybersemiotic Experience in ed. Carlos Vidales, Søren Brier - Introduction to Cybersemiotics, A Transdisciplinary Perspective, 2021 
+Maya Deren, the experimental filmmaker whom Gregory Bateson fell in love with in 1946, was a case in point.
 
-In _Human-Computer Interaction Design and the Cybersemiotic Experience,_ Claudia Jacq writes: 
+[...] She threw raucous, amphetamine-fueled parties at her apartment at 61 Morton Street in Greenwich Village, dancing barefoot to calypso music. Her guest list included Anaïs Nin, Ralph Ellison, Gore Vidal, and Marcel Duchamp.
 
-In his 1957 “Creative Act” lecture, Marcel Duchamp established the concept of interactivity introducing a pseudo-arithmetical equation to explain the relations between artist, spectator, and artwork. Aiming to stay neutral in judging the valu 
+And, starting in December 1946, it grew to include Bateson and Mead.
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+That month marked the high point of Maya Deren’s career as an artist. A tiny profile in *Esquire* magazine had come out just a few days earlier, one that trumpeted her recent award of a Guggenheim grant—the first ever given to an experimental filmmaker. It quoted her as saying that she made entire films for the same amount of money that Hollywood spent on lipstick. It was the first volley in a wave of press attention that would culminate in Deren winning the experimental film prize at the Cannes Film Festival in September 1947.
 
-9/37 
+By that time, however, Maya Deren was living out of a suitcase in a cheap hotel in Port-au-Prince, Haiti. She had divorced her spouse—a sad-eyed Czech refugee filmmaker named Alexander “Sasha” Hammid—mere weeks earlier. Her chief possessions were a film camera, two letters of introduction declaring her intent to make a documentary about voodoo, and a diary overflowing with regret.
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+“Until the very last minute I expect Gregory to have wired,” one entry in this diary reads. “Even perhaps flowers to the boat.”
 
-9/7/25, 11:06 AM 
+Deren and Bateson, after all, were supposed to have gone to Haiti *together*. They were supposed to have married. [^8]
 
-of the work, he called the artwork the “art coefficient” [Ac], which reflects the difference between the artist’s “unexpressed but intended” [UbI] concept and the “unintentionally expressed” [UE] work (product). 
+# So I was right in presuming, on their second visit, that M. and G. were, like myself, deviants. — from the diary of May Deren, March 1, 1947
 
-## **UbI – UE = Ac** 
+![Duchamp's First Papers installation reinstalled for Deren's Witches' Cradle, 1943](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p18-i1.png)
+> **Caption:** Duchamp’s First Papers installation reinstalled for Deren’s *Witches’ Cradle*, 1943
 
-_Creative Act Equation_ 
+Miklos Legrady, writing in the New Art Examiner, suggests in passing that Duchan “surfacing” in the 1950’s might have been linked to CIA’s newfound interest in promoting art (as detailed in Frances Stonor Saunders’ *The Cultural Cold War: The C and the World of Arts and Letters*):
 
-_“This “art coefficient” is a personal expression of art “`a l’état brut,” that is, still in raw state which must be “refined” … by the spectator … [who] experiences the phenomenon of transmutation; through the change from inner matter into a work of art, an actual transubstantiation has taken place, and the role of the spectator is to determine the weig of the work on the aesthetic scale.“_ (Duchamp 1957) 
+Why the art world...lionized Duchamp is a question we should ask Peggy Guggenheim, but he wasn’t well known until the 1950s, when CIA money promoting post-war American culture likely touched him too. It also happened t Duchamp’s desire for an intellectual art gained prominence at a time when the a world embedded itself in the university. Still, the science of linguistics points ou that except for writing, art mainly consists of non-verbal languages; the body language found in dance, an acoustic language we call music, and visual languag that is worth a thousand words. When art is primarily intellectual it turns into literature or propaganda. [^9]
 
-Duchamp’s eagerness for interactivity is seen in his ludic interactions with the spectator, questioning form and content, and consequently meaning, extended beyond visual arts into language. Throughout his career, Duchamp’s use of signs was a constant and significant element. It was a means of converting his static artwork into dynamic dialogue (interaction). 
+# Stardust
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+![The Stardust Hotel and Casino in Las Vegas, 1958](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p20-i1.png)
+> **Caption:** The Stardust Hotel and Casino, 1958, featuring the Lido De Paris
+> **Figure text:** STARDUST; STARDUST; STARDUST; WORLD'S GREATEST FLOOR SHOW-LIFE; LI DO DE PARIS; 60 STARS; EXCITING ACTS; GORGEOUS GIRLS; DIRECT FROM EUROPE IN ALL ITS GLORY; THE VAGABONDS; ROCHELLE & LATINEERS; THE SURFERS; FOUR COUSINS; ENTER NATIONAL CIN DUMMY TOURN; IN THE LOUNGE
 
-10/37 
+Betty Asher, the L.A. gallerist and mother of the conceptual artist, educator, and practitioner of “institutional critique” Michael Asher, recalled the circumstances precipitating Duchamp’s trip to Las Vegas and the Stardust Hotel and Casino in he 1980 oral history with the Smithsonian Institution’s Archives of American Art:
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+Marcel Duchamp was in Pasadena for the opening of a show – that must have be 1964 (actually 1963)– and Bill Copley was out here. Bill was a longtime friend of Marcel’s, and he wanted to take him to Las Vegas because Marcel Duchamp had never been there and he thought it was just the sort of place that he would love, [^1] it would just fit into his kind of thinking and his esthetic. So Bill invited Walter [
 
-9/7/25, 11:06 AM 
+<!-- page 21: extraction failed (likely Gemini RECITATION block) -->
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+advise Walter. He claimed he didn’t gamble at all, but I thought I saw him puttin nickel in one of the slot machines at one point. [^10]
 
-11/37 
+Duchamp’s trip to Las Vegas and the Stardust Hotel and Casino, then owned (on paper) by the wife of mob front man John “Jake the Barber” Factor, was facilitated b L.A. art collector, menswear entrepreneur, and nephew of “Jake the Barber”, Monte Factor.
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+![The Stardust Hotel and Casino sign and storefronts in Las Vegas](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p22-i1.png)
+> **Caption:** Monte Factor LTD Men’s Shop, Stardust Hotel and Casino, Las Vegas, 1958
+> **Figure text:** STARDUST MONTE FACTOR LTD. MEN'S SHOP GIFT SHOP
 
-9/7/25, 11:06 AM 
+Not mentioned by Betty Asher was the presence of the Monte Factor, LTD. Men’s Shop at the Stardust (above), catering to tourists, entertainers, and the Las Vegas m Factor’s original menswear shop and salon in Beverly Hills catered to Mickey Cohe gang and fronted a Cohen-connected illegal gambling and money laundering
 
-Diagram from Claudia Jacques, _Human-Computer Interaction Design and the Cybersemiotic Experience in ed._ Carlos Vidales, Søren Brier - Introduction to Cybersemiotics, A Transdisciplinary Perspective, 2021 
+operation. Factor, like his uncle, was a front man, his art collecting and philanthropy likely financed by laundered money.
 
-Jacques continues: 
+![Interior view of the Monte Factor Men's Store in Beverly Hills, 1947, designed by Alvin Lustig](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p24-i1.png)
+> **Caption:** Monte Factor Men's Store, Beverly Hills, 1947. Designed by Alvin Lustig. Photo by Julius Shulman.
+> **Figure text:** F
 
-Duchamp’s desire to exchange with the spectator is today the foundation of _any_ a _every_ human-computer interaction. The advent of new telecommunication tools been quickly adding new possibilities for rendering aesthetic _meaning_ and _intentionality_ in artmaking. 5 
+Per Monte Factor’s *Los Angeles Times* obituary:
 
-The Duchamp of the 1949 Western Round Table, of the 1957 _Creative Act_ lecture, of 1963 Pasadena Art Museum retrospective and corresponding trip to Las Vegas is ve different from the “silent” Duchamp portrayed by Joseph Beuys (below). Duchamp’s interactions with Bateson seem to have deeply impacted his later thinking, 
+The couple (Monte and Betty Factor) were significant supporters of contemporary art in Los Angeles, often trading men’s clothes for artwork. In 1947, they started what became known as Monte Factor/Jerry Rothschild, a men’s clothing business in Beverly Hills. They owned it for more than 40 years.
 
-precipitating _The Creative Act_ and his fascination with the artist/spectator perspecti feedback loop, exemplified by his final, crepescular, posthumous work _Étant donnés (Given: 1. The Waterfall, 2. The Illuminating Gas, Étant donnés: 1° la chute d'eau / 2° le g d'éclairage),_ 1966, and the veil of secrecy that surrounded its construction. 
+The Pasadena Museum of Modern Art staged an exhibit in 1973 of 124 works owned by the Factors. The majority of the 55 artists represented were Californians.
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+Major patrons of Ed Kienholz, the Factors pulled together a small amount of cash, an old boat and some clothes in the 1960s to purchase “The Illegal Operation,” a controversial sculpture by the artist, Monte later recalled. The work is an indictment of back-street abortion and features a floor lamp, a chromium chair and a wood stool surrounded with the instruments of amateur surgery. [...]
 
-12/37 
+The store was a full-service men’s haberdashery with a barbershop *and bookie* upstairs. Among his clients were many movie stars and gangsters, his family said, including the Marx brothers and Mickey Cohen. [^11]
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+The Factor’s support of L.A.’s nascent modern art scene – of Kienholz, of the Ferus gallery, of the Pasadena Museum of Art – while seemingly inspired by genuine interest, must also be viewed as part of the long tradition of instrumentalized philanthropy, “art-washing”, and reputation laundering within organized crime. Monte’s uncle “Jake the Barber” was himself a master of the approach. Per Gus Russo in *The Outfit, The Role of Chicago's Underworld in the Shaping of Modern America*:
 
-9/7/25, 11:06 AM 
+In the 1950s, Factor began drawing on the great fortune he had amassed [...] to embark on a successful PR campaign aimed at creating the persona of Jake the Philanthropist. His frequent six-figure donations to various charities earned him numerous humanitarian awards. [...]
 
-Joseph Beuys, The silence of Marcel Duchamp is overrated ( _Das Schweigen von Marcel Duchamp wird überbewertet_ ), 1964 
+In 1960, the Immigration and Naturalization Service (INS) was considering deporting Factor back to England to face the massive mail-fraud charges brought against him decades earlier. Also in 1960, Jake Factor contributed $22,000 to the presidential campaign of Joseph Kennedy’s son Jack, becoming JFK’s single largest campaign contributor. In 1962, the INS moved to deport Factor, but was thwarted when Attorney General Bobby Kennedy brought Factor to Washington to speak with him and review the INS case. [...] President Kennedy granted Jake’s parole on Christmas Eve, 1962...just one week after the INS had announced its decision to deport Factor. [^12]
 
-## “Indirect methods of warfare”, Gregory Bateson and Central Intelligence 
+![Edward Kienholz, The Beanery, 1965, mixed media assemblage](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p27-i1.png)
+> **Caption:** Edward Kienholz, The Beanery, 1965, mixed media assemblage.
 
-Following World War II and the dissolution of the OSS, Bateson’s input was critical at the moment of the formation of CIA: 
+![Ed Kienholz, The Illegal Operation, 1962](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p28-i1.png)
+> **Caption:** Ed Kienholz, The Illegal Operation, 1962
 
-There was more than economy in mind as (Harold D.) Smith, Director of the Budget, corresponded with General (William, “Wild Bill”) Donovan in August 19 about liquidating the Office of Strategic Services. On the day Smith advised the 
+Duchamp’s brush with Los Angeles/Las Vegas organized crime by way of the Factor was almost certainly unconscious (much like his interaction with CIA by way of Bateson). However, the interaction between organized crime, Las Vegas, and artifice already had a long and complex history, pioneered by “Jake the Barber”:
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+John “the Barber” Factor was the black sheep half-brother of Max Factor, the makeup magnate. He trained as a hairdresser but made a career as a con artist. He fled his native England after a 1920s stock fraud [...] He then migrated to the United States and prevented extradition during trial by staging his own “kidnapping.” John Factor, a master of misdirecting attention, knew how to put up an effective front.
 
-13/37 
+At the moment of (previous owner) Cornero’s demise, the Stardust was only 70 percent complete. Two years later, John Factor (fronting for mobster Moe Dalitz and the Chicago Outfit) bought out the shareholders and resumed construction.
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+Per Russo:
 
-9/7/25, 11:06 AM 
+It was decided that the gang would finish construction and assume the debt of the Stardust in a partnership with Cleveland’s contribution to Vegas, Moe Dalitz. However, the Outfit would run the operation. When the time came to name a front for the operation, Chicago brought in an old friend, a gifted con man who owed Humphreys and Accardo a huge favor: Jake “the Barber” Factor. Five years later, Johnny Rosselli described the arrangement to longtime friend, and L.A. mafioso, Jimmy Fratianno: “Jake Factor, an old friend of Capone . . . shit, I used to see him when he came to the Lexington to see Al . . . took over and finished building the
 
-General in regard to agencies with no peacetime activities, Donovan was explain to the Director once more the principles which should govern a centralized “Uni States Foreign Intelligence System.” Donovan believed those principles were already at work in the Office of Strategic Services. 
+place. So I went to Sam [Giancana] and told him we could move into this joint. Listen, Jake owed Chicago a big one. Moe Dalitz wanted in on it and so it’s a fifty-fifty deal.” [^14]
 
-But since it was to be abandoned, another agency should be set up immediately t take over “the valuable assets created by OSS” and aid the nation in “the 
+In a strange twist, “Jake the Barber” Factor’s multifaceted criminal career led back to another locale of Duchamp legend, Monte Carlo, and to the game that Duchamp himself had developed a system to “beat”: roulette.
 
-organization and maintenance of the peace.” Within the week Donovan had a rep from Gregory Bateson concerning the effect of the atomic bomb upon “indirect methods of warfare.” It made the need for a permanent system of national intelligence peremptory. 
+John “Jake the Barber” Factor, was living in Chicago, on the run from the law in Great Britain. [...] Among Factor’s victims were widows, clergymen, elderly investors, and most significant, members of the British royal family and the chief of Scotland Yard. When the scam was discovered, Factor fled to Monte Carlo, where he quickly created another crime syndicate that successfully broke the casino bank by rigging the tables. Before authorities caught on, Factor had fled once again. In 1931, when the British government located Factor in Al Capone’s Chicago, they commenced extradition proceedings. [^15]
 
-Writing from the headquarters of OSS in the India-Burma theater, Mr. Bateson forecast changes in psychological warfare, clandestine operations, and strategic intelligence. The physicists of all countries had been engaged in research leading the atomic bomb. All major powers were likely to have weapons of the sort withi the next ten years. […] The atomic bomb would shift the balance of warlike and peaceful methods of international pressure. 
+![Marcel Duchamp's Monte Carlo Bond collage](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p30-i1.png)
+> **Caption:** None.
+> **Figure text:** 
+> moustiquesdomestiquesdemistock (repeated pattern)
+> 12 28 7 29 18 22 9 31 14 20 1 19 4 21 2 25 17 34 6 27 13 36 30 11
+> ROULETTE DE MONTE CARLO
+> EMPRUNT DE QUINZE MILLE FRANCS 20 000
+> DIVISE EN 30 OBLIGATIONS DE 500 Francs CHACUNE
+> Remboursables au pair en trois ans par tirages annuels
+> à partir du 1er Mars 1925
+> (Loi du 29 Juillet 1881)
+> OBLIGATION DE CINQ CENTS FRANCS
+> AU PORTEUR 20%
+> "No maquette"
+> PARIS, LE 1er NOVEMBRE 1924
+> Le Président du Conseil d'Administration
+> Un Administrateur
+> Rrose Sélavy
+> Marcel Duchamp
+> ROULETTE DE MONTE CARLO OBLIGATION N°
+> Coupon d'intérêt de 25 f
 
-The bomb would be powerless, said Bateson, against subversive practices, gueril tactics, social and economic manipulation, diplomatic forces, and propaganda either black or white. The nations would resort to those “peaceful methods of wa […] The country could not rely upon the Army and Navy alone for defense. There should be a third agency acting under the Department of State to combine the functions and employ the weapons of clandestine operations, economic controls and psychological pressures in the new warfare. (G. Bateson’s report, Aug. 18, 194 (OSS Archives File 12733 C: Suggestions) 6 
+![Marcel Duchamp's Monte Carlo Bond, 1924](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p31-i1.png)
+> **Caption:** Marcel Duchamp, Monte Carlo Bond, 1924
+> **Figure text:** moustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockmoustiquesdomestiquesdemistockm
 
-When Bateson wrote his report calling for the establishment of CIA and the pursuit “indirect methods of warfare”, the 1942 Cerebral Inhibition Meeting, OSS ‘black propaganda’ work in the South Pacific, and the Truth Drug and hypnosis experimen 
+![A newspaper clipping from The Washington Post titled "6 Attempts to Kill Castro Laid to CIA"](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p32-i1.png)
+> **Caption:** The Washington Merry-Go-Round THE WASHINGTON POST Monday, Jan. 18, 1971 B7 6 Attempts to Kill Castro Laid to CIA By Jack Anderson
+> **Figure text:** Locked in the darkest recesses of the Central Intelligence Agency is the story of six assassination attempts against Cuba's Fidel Castro. For 10 years, only a few key people have known the terrible secret. They have sworn never to talk. Yet we have learned the details from sources whose credentials are beyond question. We spoke to John McCone, who headed the CIA at the time of the assassination attempts. He acknowledged the idea had been discussed inside the CIA but insisted it had been "rejected immediately." He vigorously denied that the CIA had ever participated in any plot on Castro's life. Asked whether the attempts could have been made with his knowledge, he replied: "It could not have happened." We have complete confidence, however, in our sources. The plot to knock off Castro began as part of the Bay of Pigs operation. The intent was to eliminate the Cuban dictator before the motley invaders landed on the island. Their arrival was expected to touch off a general uprising, which the Communist militia would have had more trouble putting down without the charismatic Castro to lead them. After the first attempt failed, five more assassination teams were sent to Cuba. The last team reportedly made it to a rooftop within shooting distance of Castro before they were apprehended. This happened around the last of February or first of March, 1963. Nine months later, President Kennedy was gunned down in Dallas by Lee Harvey Oswald, a fanatic who previously had agitated for Castro in New Orleans and had made a mysterious trip to the Cuban Embassy in Mexico City. Among those privy to the CIA conspiracy, there is still a nagging suspicion—unsupported by the Warren Commission's findings—that Castro became aware of the U.S. plot upon his life and somehow recruited Oswald to retaliate against President Kennedy. To set up the Castro assassination, the CIA enlisted Robert Maheu, a former FBI agent with shadowy contacts, who had handled other undercover assignments for the CIA out of his Washington public relations office. He later moved to Las Vegas to head up billionaire Howard Hughes' Nevada operations. Maheu recruited John Roselli, a ruggedly handsome gambler with contacts in both the American and Cuban underworlds, to arrange the assassination. The dapper, hawk-faced Roselli, formerly married to movie actress June Lang, was a power in the movie industry until his conviction with racketeer Willie Bioff in a million-dollar Hollywood labor shakedown. The CIA assigned two of its most trusted operatives, William Harvey and James (Big Jim) O'Connell, to the hush-hush murder mission. Using phony names, they accompanied Roselli on trips to Miami to line up the assassination teams. The full story reads like the script of a James Bond movie, complete with secret trysts at glittering Miami Beach hotels and midnight powerboat dashes to secret landing spots on the Cuban coast. Once, Roselli's boat was shot out from under him. For the first try, the CIA furnished Roselli with special poison capsules to slip into Castro's food. The poison was supposed to take three days to act. By the time Castro died, his system would throw off all traces of the poison, so he would appear to be the victim of a natural if mysterious ailment. Roselli arranged with a Cuban, related to one of Castro's, chefs, to plant the deadly pellets in the dictator's food. On March 13, 1961, Roselli delivered the capsules to his contact at Miami Beach's glamorous Fontainebleu Hotel. A couple of weeks later, just about the right time for the plot to have been carried out, a report out of Havana said Castro was ill. But he recovered before the Bay of Pigs invasion on April 17, 1961. Four more attempts were made on Castro's life. © 1971, Bell-McClure Syndicate.
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+Following the failed hit, Maheu became Howard Hughes’s Director of Operations and began buying up Las Vegas hotel/casinos, with Hughes ultimately becoming the largest property owner in Nevada. In 1968, Hughes attempted to buy his seventh Hotel/Casino – the Stardust. The deal was shut down by the Justice Department’s Antitrust Division and Hughes left Las Vegas for good.
 
-14/37 
+Per Lance deHaven-Smith:
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+State Crimes Against Democracy are concerted actions or inactions by government insiders intended to manipulate democratic processes and undermine popular sovereignty (deHaven-Smith, 2006). By definition, SCADs differ from other forms of political criminality in their potential to subvert political institutions and entire regimes.
 
-9/7/25, 11:06 AM 
+governments or branches of government. They are high crimes that attack democracy itself.
 
-with Erickson and Mead were behind him while the Macy cybernetics conferences work with LSD were coming into focus on the horizon. In the coming years, per Jeff St. Clair and Alexander Cockburn: 
+Although only a few SCADs in U.S. history have ever been officially corroborated, evidence indicates that at least since World War II American democracy has become quite vulnerable to subversion from within. Examples of SCADs that have been officially proven include the Watergate break-ins and cover-up (Bernstein & Woodward, 1974; Gray, 2008; Kutler, 1990; Summers, 2000), the secret wars in Laos and Cambodia (Ellsberg, 2002), the illegal arms sales and covert operations in Iran-Contra (Kornbluh & Byrne, 1993; Martin, 2001; Parry, 1993), and the effort to discredit Joseph Wilson by revealing his wife’s status as an intelligence agent (Isikoff & Corn, 2006; Rich, 2006,2007; Wilson, 2004).
 
-Margaret Mead sat with Ewen Cameron on the editorial board of a CIA-funded publication called the _Research in Mental Health Newsletter_ , which discussed the u of psychedelic drugs to induce and treat schizophrenia. Mead’s former husband, medical anthropologist Gregory Bateson, was given CIA-procured LSD by Harol Abramson. Bateson, in turn, gave some to his friend, the beat poet Allen Ginsber It was also Bateson’s stash of LSD that eventually found its way to experiments being conducted on student volunteers by Dr. Leo Hollister. One of his subjects w a young creative writing student at Stanford, Ken Kesey, who would become the drug’s chief proponent in the sixties counterculture. 7 
+Many other political crimes in which involvement by high officials is suspected have gone uninvestigated or unpunished. Examples of suspected SCADs include fabricated attacks on U.S. ships in the Gulf of Tonkin in 1964 (Ellsberg, 2002, pp. 20), the “October Surprises” in the presidential elections of 1968 (Summers, 2000 pp. 298-308) and 1980 (Parry, 1993; Sick, 1991), the assassinations of John Kennedy and Robert Kennedy (Fetzer, 2000; Garrison, 1988; Groden, 1993; Lane, 1966; Pease, 2003; Scott, 1993; White, 1998), the election breakdowns in 2000 and 2004 (deHaven-Smith, 2005; Miller, 2005), the numerous defense failures on September 11, 2001 (Ahmed, 2005; Griffin, 2004, 2005; Hufschmid, 2002; Paul & Hoffman, 2004; Tarpley, 2005), and the misrepresentation of intelligence to justify the invasion and occupation of Iraq (Isikoff & Corn, 2006; Rich, 2006). [^16]
 
-At it’s inception, Central Intelligence was to fulfill the role of a comprehensive “United States Foreign Intelligence System” and was legally barred from operating domestically. Soon, workarounds (later found to be illegal) were put in place to allow to work within the U.S., mostly by secretly channelling funding to domestic 
+In the years following John F. Kennedy’s assassination, many Americans, including members of the Kennedy family, began to doubt The President's Commission on the Assassination of President Kennedy (popularly known the Warren Commission) First Report’s finding that Kennedy had been killed by a lone assassin. According to deHaven-Smith:
 
-organizations, universities, and think tanks by way of “cutouts”: The Macy Foundat became one such cutout, the Human Ecology Fund another, and, in the years and decades to come, numerous other foundations, publishing houses, and NGO cutout funneled money to institutions and individuals while agents and programs, both cov and acknowledged, became increasingly focused on domestic affairs. 
+[...] by 1968, Robert Kennedy was convinced that JFK’s assassination had been the work of a conspiracy involving the CIA, but he did not voice his suspicions publicly while running for president because he feared it would discredit him politically or get him killed (Douglass, 2008; Talbot, 2007). [^17]
 
-Bateson, “witting” or not, was surrounded by a web of agents, consultants, academi and think-tankers directly or indirectly on CIA’s payroll — Harold Abramson, Fran Fremont-Smith, George Hunter White, James Mysbergh, James Alexander Hamilton Irving Janis, and various members of the Macy circle — were all on the payroll. Wh he founded the Mental Research Institute, specializing in “psychedelic therapy” and LSD experimentation; when he began working with schizophrenics and alcoholics a 
+1963, the year of Duchamp’s Las Vegas trip facilitated by Monte Factor, was also the year that John F. Kennedy was assassinated. While the 1964 Warren Report found Lee Harvey Oswald solely responsible, a decade later The United States House of Representatives Select Committee on Assassinations (HSCA), in its 1979 Final Report, found that Kennedy “was probably assassinated as a result of a conspiracy.” [^18] Many independent researchers believe that Las Vegas mobster and Factor associate Johnny Roselli took the kill shot.
 
-15/37 
+![A group of people sitting at a table in the Stardust Hotel and Casino in Las Vegas in 1963.](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p34-i1.png)
+> **Caption:** Stardust Hotel and Casino, Las Vegas, 1963. Left to Right: Teeny Duchamp, Richard Hamilton, Betty Factor, William Copley, Monte Factor, Walter Hopps, Betty Asher, Marcel Duchamp.
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+* * * * *
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+1 Proceedings of The Western Round Table on Modern Art (1949), https://ubu.punctumbooks.com/historical/wrtma/
 
-9/7/25, 11:06 AM 
+2 Rosenblueth, Arturo, Wiener, Norbert and Bigelow, Julian. *Behavior, Purpose and Teleology*. Philosophy of Science, 10 (1943)
 
-the Palo Alto Veterans Affairs hospital; when he lectured at Esalen, Bateson sat at t nexus of CIA-cutout-funded psychological and drug experimentation. 
+3 Brand, Stewart. *For God’s Sake, Margaret! Conversation with Gregory Bateson and Margaret Mead*. CoEvolutionary Quarterly, June 1976.
 
-Duchamp’s installation for the First Papers of Surrealism exhibition ( _16 miles of string)_ , 1942 
+4 Duchamp, Marcel. *Salt Seller: The Writings of Marcel Duchamp*. New York: Oxford University Press, 1973.
 
-Similar connective tissues suggest that Bateson might have known Duchamp before the 1949 Roundtable. In 1943, Maya Deren shot a never-completed experimental film _Witches’ Cradle_ , starring Duchamp and Ana Matta Clark in Peggy Guggenheim’s Ar This Century gallery. Deren consulted with Duchamp before commencing producti and he agreed to be featured in the film, which also revolved around a reconstructio of his 1942 installation (“16 miles of string”) for the First Papers of Surrealism exhibition. In 1945, Deren documented Duchamp’s and André Breton’s window disp 
+5 Jacques, Claudia. *Human-Computer Interaction Design and the Cybersemiotic Experience* in *Introduction to Cybersemiotics, A Transdisciplinary Perspective* (Biosemiotics 21) eds. Carlos Vidales, Søren Brier. New York: Springer, 2021.
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+6 Darling, Arthur B. *The Central Intelligence Agency: an instrument of government, to 1950*. Philadelphia: Penn State University Press, 1990.
 
-16/37 
+7 St. Clair, Jeffrey and Cockburn, Alexander. *The CIA’s House of Horrors, The Abominable Dr. Gottlieb*. Counterpunch, November 17, 2017 https://www.counterpunch.org/2017/11/17/the-cias-house-of-horrors-the-abominable-dr-gottlieb/
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+8 Breen, Benjamin. *Tripping on Utopia, Margaret Mead, The Cold War, and the Troubled Birth of Psychedelic Science*. New York: Grand Central Publishing, 2024.
 
-9/7/25, 11:06 AM 
+9 Legrady, Miklos. *Did Marcel Duchamp Pave the Way For Donald Trump?* New Art Examiner, September, 2021. https://newartexaminer.net/did-duchamp-pave-the-way-for-donald-trump/
 
-“Lazy Hardware” at Brentano’s bookstore and later, following public outrage and th work’s removal, it’s reinstallation at Gotham Book Mart. In 1946, Deren began an _Tripping on Utopia_ , Benjamin Breen writes: affair with Gregory Bateson. In 
+10 Asher, Betty M. *Oral History Interview, 1980 June 30 and 1980 July 7*. Smithsonian Archives of American Art. https://www.aaa.si.edu/collections/interviews/oral-history-interview-betty-asher-12547
 
-It was in the late 1940s and 1950s that the forces of change, stored up during the war like a coiled spring, most rapidly unwound themselves. 
+11 Nelson, Valerie J. Monte Factor dies at 94; Beverly Hills men’s clothier, arts patron. The Los Angeles Times, Dec. 12, 2011. https://www.latimes.com/local/obituaries/la-me-monte-factor-20111212-story.html
 
-Maya Deren, the experimental filmmaker whom Gregory Bateson fell in love wit 1946, was a case in point. 
+12 Russo, Gus. *The Outfit-The Role of Chicago's Underworld in the Shaping of Modern America*. New York: Bloomsbury, 2003.
 
-[…[ She threw raucous, amphetamine-fueled parties at her apartment at 61 Morto Street in Greenwich Village, dancing barefoot to calypso music. Her guest list included Anaïs Nin, Ralph Ellison, Gore Vidal, and Marcel Duchamp. 
+13 Al, Stefan. *The Strip, Las Vegas and the Architecture of the American Dream* Cambridge, Mas: The MIT Press, 2017.
 
-And, starting in December 1946, it grew to include Bateson and Mead. 
+14 Russo. *The Outfit*.
 
-That month marked the high point of Maya Deren’s career as an artist. A tiny _Esquire_ magazine had come out just a few days earlier, one that trumpe profile in her recent award of a Guggenheim grant— the first ever given to an experimenta filmmaker. It quoted her as saying that she made entire films for the same amoun of money that Hollywood spent on lipstick. It was the first volley in a wave of pre attention that would culminate in Deren winning the experimental film prize at Cannes Film Festival in September 1947. 
+15 Russo. *The Outfit*.
 
-By that time, however, Maya Deren was living out of a suitcase in a cheap hotel i Port-au-Prince, Haiti. She had divorced her spouse—a sad-eyed Czech refugee filmmaker named Alexander “Sasha” Hammid —mere weeks earlier. Her chief possessions were a film camera, two letters of introduction declaring her intent t make a documentary about voodoo, and a diary overflowing with regret. 
+16 deHaven-Smith, Lance. *Beyond Conspiracy Theory - Patterns of High Crime in American Government*, American Behavioral Scientist 53(6) (2010) 795–825
 
-“Until the very last minute I expect Gregory to have wired,” one entry in this diar reads. “Even perhaps flowers to the boat.” 
+17 deHaven-Smith. *Beyond Conspiracy Theory*.
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+18 Hunter, Marjorie. House Panel Reports a Conspiracy 'Probable' in the Kennedy Slaying". The New York Times. December 31, 1978. p. 1. https://web.archive.org/web/20230924045622/https://www.nytimes.com/1978/12/31/archive/house-panel-reports-a-conspiracy-probable-in-the-kennedy-slaying.html
 
-17/37 
+## Subscribe to Scott Benzel
 
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
+![Subscription form for Scott Benzel's Substack](/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p36-i1.jpg)
+> **Figure text:** Type your email... Subscribe
 
-9/7/25, 11:06 AM 
+By subscribing, I agree to Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.
 
-_together_ . They Deren and Bateson, after all, were supposed to have gone to Haiti were supposed to have married. 8 
+3 Likes • 1 Restack
 
-So I was right in presuming, on their second visit, that M. and G. were, like myself, deviants. — from the diary of May Deren, March 1, 1947 
+© 2025 Scott Benzel · Privacy · Terms · Collection notice
+Substack is the home for great culture
 
-Duchamp’s First Papers installation reinstalled for Deren’s _Witches’ Cradle_ , 1943 
+## Notes
 
-Miklos Legrady, writing in the New Art Examiner, suggests in passing that Ducham “surfacing” in the 1950’s might have been linked to CIA’s newfound interest in promoting art (as detailed in Frances Stonor Saunders’ _The Cultural Cold War: The C and the World of Arts and Letters_ ): 
+[^10]: footnote text
 
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
+[^17]: [Footnote text not provided on page]
 
-18/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-Why the art world…lionized Duchamp is a question we should ask Peggy Guggenheim, but he wasn’t well known until the 1950s, when CIA money promoting post-war American culture likely touched him too. It also happened t Duchamp’s desire for an intellectual art gained prominence at a time when the a world embedded itself in the university. Still, the science of linguistics points ou that except for writing, art mainly consists of non-verbal languages; the body language found in dance, an acoustic language we call music, and visual languag that is worth a thousand words. When art is primarily intellectual it turns into literature or propaganda. 9 
-
-## Stardust 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-19/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-The Stardust Hotel and Casino, 1958, featuring the Lido De Paris 
-
-Betty Asher, the L.A. gallerist and mother of the conceptual artist, educator, and practitioner of “institutional critique” Michael Asher, recalled the circumstances precipitating Duchamp’s trip to Las Vegas and the Stardust Hotel and Casino in her 1980 oral history with the Smithsonian Institution’s Archives of American Art: 
-
-Marcel Duchamp was in Pasadena for the opening of a show – that must have be 1964 (actually 1963)– and Bill Copley was out here. Bill was a longtime friend of Marcel’s, and he wanted to take him to Las Vegas because Marcel Duchamp had never been there and he thought it was just the sort of place that he would love, t it would just fit into his kind of thinking and his esthetic. So Bill invited Walter a 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-20/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-Richard Hamilton, who was out here for the opening of the show, and Betty and Monte Factor and me to go with the Duchamps—Mrs. Duchamp, Tini, was here also. So actually I think Bill took us all, and we went out to the airport. […] 
-
-At dinner we went to the Stardust and they have the follies or something, a girlie theater, and I was sitting next to Marcel at the table and the picture is a result of one of those girls in short skirts coming around with a big camera to take picture And just as she was about to click, I put my arm around Marcel, my fingertips ve gingerly touched his shoulder because I didn’t want him to know that I was doin this, so I have this nice picture of Marcel with my arm around him. 
-
-**==> picture [379 x 41] intentionally omitted <==**
-
-**----- Start of picture text -----**<br>
-Stardust Hotel and Casino, Las Vegas, 1963. Left to Right: Teeny Duchamp, Richard<br>Hamilton, Betty Factor, William Copley, Monte Factor, Walter Hopps, Betty Asher,<br>Marcel Duchamp.<br>**----- End of picture text -----**<br>
-
-
-(Duchamp) sat next to Walter Hopps at the roulette table quite a bit, and they thought that they had some sort of system to beat the roulette wheel, and he wou 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-21/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-advise Walter. He claimed he didn’t gamble at all, but I thought I saw him puttin nickel in one of the slot machines at one point. 10 
-
-Duchamp’s trip to Las Vegas and the Stardust Hotel and Casino, then owned (on paper) by the wife of mob front man John “Jake the Barber” Factor, was facilitated b L.A. art collector, menswear entrepreneur, and nephew of “Jake the Barber”, Monte Factor. 
-
-Monte Factor LTD Men’s Shop, Stardust Hotel and Casino, Las Vegas, 1958 
-
-Not mentioned by Betty Asher was the presence of the Monte Factor, LTD. Men’s Shop at the Stardust (above), catering to tourists, entertainers, and the Las Vegas m Factor’s original menswear shop and salon in Beverly Hills catered to Mickey Cohe gang and fronted a Cohen-connected illegal gambling and money laundering 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-22/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-operation. Factor, like his uncle, was a front man, his art collecting and philanthrop likely financed by laundered money. 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-23/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-Monte Factor Men's Store, Beverly Hills, 1947. Designed by Alvin Lustig. Photo by Julius Shulman. 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-24/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-Per Monte Factor’s _Los Angeles Times_ obituary: 
-
-The couple (Monte and Betty Factor) were significant supporters of contemporar art in Los Angeles, often trading men’s clothes for artwork. In 1947, they started what became known as Monte Factor/Jerry Rothschild, a men’s clothing business Beverly Hills. They owned it for more than 40 years. 
-
-The Pasadena Museum of Modern Art staged an exhibit in 1973 of 124 works ow by the Factors. The majority of the 55 artists represented were Californians. 
-
-Major patrons of Ed Kienholz, the Factors pulled together a small amount of cas an old boat and some clothes in the 1960s to purchase “The Illegal Operation,” a controversial sculpture by the artist, Monte later recalled. The work is an indictment of back-street abortion and features a floor lamp, a chromium chair a a wood stool surrounded with the instruments of amateur surgery. […] 
-
-The store was a full-service men’s haberdashery with a barbershop _and bookie_ upstairs. Among his clients were many movie stars and gangsters, his family said including the Marx brothers and Mickey Cohen. 11 
-
-The Factor’s support of L.A.’s nascent modern art scene – of Kienholz, of the Ferus gallery, of the Pasadena Museum of Art – while seemingly inspired by genuine interest, must also be viewed as part of the long tradition of instrumentalized philanthropy, “art-washing”, and reputation laundering within organized crime. 
-
-Monte’s uncle “Jake the Barber” was himself a master of the approach. Per Gus Rus in : _The Role of Chicago's Underworld in the Shaping of Modern America The Outfit,_ 
-
-In the 1950s, Factor began drawing on the great fortune he had amassed […] to embark on a successful PR campaign aimed at creating the persona of Jake the Philanthropist. His frequent six-figure donations to various charities earned him numerous humanitarian awards. […] 
-
-25/37 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-In 1960, the Immigration and Naturalization Service (INS) was considering deporting Factor back to England to face the massive mail-fraud charges brough against him decades earlier. Also in 1960, Jake Factor contributed $22,000 to the presidential campaign of Joseph Kennedy’s son Jack, becoming JFK’s single large campaign contributor. In 1962, the INS moved to deport Factor, but was thwarte when Attorney General Bobby Kennedy brought Factor to Washington to speak with him and review the INS case. […] President Kennedy granted Jake’s parole o Christmas Eve, 1962…just one week after the INS had announced its decision to deport Factor. 12 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-26/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-27/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-Ed Kienholz, The Illegal Operation, 1962 
-
-Duchamp’s brush with Los Angeles/Las Vegas organized crime by way of the Factor was almost certainly unconscious (much like his interaction with CIA by way of Bateson). However, the interaction between organized crime, Las Vegas, and artific already had a long and complex history, pioneered by “Jake the Barber”: 
-
-John “the Barber” Factor was the black sheep half-brother of Max Factor, the makeup magnate. He trained as a hairdresser but made a career as a con artist. H fled his native England after a 1920s stock fraud […] He then migrated to the Unit States and prevented extradition during trial by staging his own “kidnapping.” Jo Factor, a master of misdirecting attention, knew how to put up an effective front 
-
-At the moment of (previous owner) Cornero’s demise, the Stardust was only 70 percent complete. Two years later, John Factor (fronting for mobster Moe Dalitz and the Chicago Outfit) bought out the shareholders and resumed construction. 
-
-Per Russo: 
-
-It was decided that the gang would finish construction and assume the debt of th Stardust in a partnership with Cleveland’s contribution to Vegas, Moe Dalitz. However, the Outfit would run the operation. When the time came to name a fro for the operation, Chicago brought in an old friend, a gifted con man who owed Humphreys and Accardo a huge favor: Jake “the Barber” Factor. Five years later, Johnny Rosselli described the arrangement to longtime friend, and L.A. mafioso, Jimmy Fratianno: “Jake Factor, an old friend of Capone . . . shit, I used to see him when he came to the Lexington to see Al . . . took over and finished building the 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-28/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-place. So I went to Sam [Giancana] and told him we could move into this joint. 
-
-Listen, Jake owed Chicago a big one. Moe Dalitz wanted in on it and so it’s a fifty fifty deal.” 14 
-
-In a strange twist, “Jake the Barber” Factor’s multifaceted criminal career led back t another locale of Duchamp legend, Monte Carlo, and to the game that Duchamp himself had developed a system to “beat”: roulette. 
-
-John “Jake the Barber” Factor, was living in Chicago, on the run from the law in Great Britain. […] Among Factor’s victims were widows, clergymen, elderly investors, and most significant, members of the British royal family and the chie Scotland Yard. When the scam was discovered, Factor fled to Monte Carlo, wher he quickly created another crime syndicate that successfully broke the casino ba by rigging the tables. Before authorities caught on, Factor had fled once again. In 1931, when the British government located Factor in Al Capone’s Chicago, they commenced extradition proceedings. 15 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-29/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-30/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-Marcel Duchamp, Monte Carlo Bond, 1924 
-
-In 1924, Duchamp issued his _Monte Carlo Bond_ to raise 15,000 francs and _"break the bank in Monte Carlo"_ by means of a system he developed for winning at roulette. Duchamp later claimed that system was never implemented, due apparently to its being incredibly time-consuming and boring. 
-
-## Conceptualizing High Criminality 
-
-Duchamp’s unconscious interactions with CIA’s illegal domestic operations by way Gregory Bateson dovetail in interesting ways with his similarly unconscious interaction with organized crime by way of Monte Factor and the Las Vegas trip: a partnership that began during WWII between U.S. law enforcement and intelligenc agencies (FBI, OSS) and organized crime under the moniker Operation Underworld to an ongoing CIA relationship with organized crime. 1963, the year that Duchamp visited Las Vegas, marked the last (of six) failed CIA/mob attempts to assassinate Fi Castro in an operation headed by former FBI agent turned covert CIA agent and Howard Hughes lieutenant Robert Maheu and Las Vegas mobster and Factor assoc Johnny Roselli. 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-31/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-Following the failed hit, Maheu became Howard Hughes’s Director of Operations a began buying up Las Vegas hotel/casinos, with Hughes ultimately becoming the largest property owner in Nevada. In 1968, Hughes attempted to buy his seventh Hotel/Casino – the Stardust. The deal was shut down by the Justice Department’s Antitrust Division and Hughes left Las Vegas for good. 
-
-Per Lance deHaven-Smith: 
-
-State Crimes Against Democracy are concerted actions or inactions by governme insiders intended to manipulate democratic processes and undermine popular sovereignty (deHaven-Smith, 2006). By definition, SCADs differ from other forms political criminality in their potential to subvert political institutions and entire 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-32/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-governments or branches of government. They are high crimes that attack democracy itself. 
-
-Although only a few SCADs in U.S. history have ever been officially corroborated evidence indicates that at least since World War II American democracy has become quite vulnerable to subversion from within. Examples of SCADs that hav been officially proven include the Watergate break-ins and cover-up (Bernstein & Woodward, 1974; Gray, 2008; Kutler, 1990; Summers, 2000), the secret wars in Lao and Cambodia (Ellsberg, 2002), the illegal arms sales and covert operations in Ira Contra (Kornbluh & Byrne, 1993; Martin, 2001; Parry, 1993), and the effort to discredit Joseph Wilson by revealing his wife’s status as an intelligence agent (Isikoff & Corn, 2006; Rich, 2006,2007; Wilson, 2004). 
-
-Many other political crimes in which involvement by high officials is suspected have gone uninvestigated or unpunished. Examples of suspected SCADs include fabricated attacks on U.S. ships in the Gulf of Tonkin in 1964 (Ellsberg, 2002, pp. 20), the “October Surprises” in the presidential elections of 1968 (Summers, 2000 pp. 298-308) and 1980 (Parry, 1993; Sick, 1991), the assassinations of John Kenned and Robert Kennedy (Fetzer, 2000; Garrison, 1988; Groden, 1993; Lane, 1966; Pea 2003; Scott, 1993; White, 1998), the election breakdowns in 2000 and 2004 (deHav Smith, 2005; Miller, 2005), the numerous defense failures on September 11, 2001 (Ahmed, 2005; Griffin, 2004, 2005; Hufschmid, 2002; Paul & Hoffman, 2004; Tarpl 2005), and the misrepresentation of intelligence to justify the invasion and occupation of Iraq (Isikoff & Corn, 2006; Rich, 2006). 16 
-
-In the years following John F. Kennedy’s assassination, many Americans, including members of the Kennedy family, began to doubt The President's Commission on th Assassination of President Kennedy (popularly known the Warren Commission) Fin Report’s finding that Kennedy had been killed by a lone assassin. According to deHaven-Smith: 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-33/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-[…] by 1968, Robert Kennedy was convinced that JFK’s assassination had been the work of a conspiracy involving the CIA, but he did not voice his suspicions publi while running for president because he feared it would discredit him politically o get him killed (Douglass, 2008; Talbot, 2007). 17 
-
-1963, the year of Duchamp’s Las Vegas trip facilitated by Monte Factor, was also the year that John F. Kennedy was assassinated. While the 1964 Warren Report found L Harvey Oswald solely responsible, a decade later The United States House of Representatives Select Committee on Assassinations (HSCA), in its 1979 Final Repo found that Kennedy “was probably assassinated as a result of a conspiracy.” 18 Many independent researchers believe that Las Vegas mobster and Factor associate Johnn Roselli took the kill shot. 
-
-**==> picture [379 x 41] intentionally omitted <==**
-
-**----- Start of picture text -----**<br>
-Stardust Hotel and Casino, Las Vegas, 1963. Left to Right: Teeny Duchamp, Richard<br>Hamilton, Betty Factor, William Copley, Monte Factor, Walter Hopps, Betty Asher,<br>Marcel Duchamp.<br>**----- End of picture text -----**<br>
-
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-34/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-* * * * * 
-
-- 1 _Proceedings of The Western Round Table on Modern Art (1949), https://ubu.punctumbooks.com/historical/wrtma/_ 
-
-- 2 Rosenblueth, Arturo, Wiener, Norbert and Bigelow, Julian. _Behavior, Purpose and Teleology Philosophy of Science_ , 10 (1943) 
-
-- 3 Brand, Stewart. _For God’s Sake, Margaret! Conversation with Gregory Bateson and Margaret Mead_ . CoEvolutionary Quarterly, June 1976. 
-
-- 4 Duchamp, Marcel. _Salt Seller: The Writings of Marcel Duchamp._ New York: Oxford Universi Press, 1973. 
-
-- 5 Jacques, Claudia. _Human-Computer Interaction Design and the Cybersemiotic Experience_ in _Introduction to Cybersemiotics, A Transdisciplinary Perspective_ (Biosemiotics 21) eds. Carlos Vidales, Søren Brier. New York: Springer, 2021. 
-
-- 6 Darling, Arthur B. _The Central Intelligence Agency: an instrument of government, to 1950_ . Philadelphia: Penn State University Press, 1990. 
-
-- 7 St. Clair, Jeffrey and Cockburn, Alexander. _The CIA’s House of Horrors, The Abominable Dr. Gottlieb_ . Counterpunch, November 17, 2017 https://www.counterpunch.org/2017/11/17/the cias-house-of-horrors-the-abominable-dr-gottlieb/ 
-
-- 8 Breen, Benjamin. _Tripping on Utopia, Margaret Mead, The Cold War, and the Troubled Birth Psychedelic Science._ New York: Grand Central Publishing, 2024. 
-
-- 9 Legrady, Miklos. _Did Marcel Duchamp Pave the Way For Donald Trump?_ New Art Examiner September, 2021. https://newartexaminer.net/did-duchamp-pave-the-way-for-donald-trum 
-
-- 10 Asher, Betty M. _Oral History Interview, 1980 June 30 and 1980 July 7_ . Smithsonian Archives American Art. https://www.aaa.si.edu/collections/interviews/oral-history-interview-betty asher-12547 
-
-35/37 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-- 11 Nelson, Valerie J. _Monte Factor dies at 94; Beverly Hills men’s clothier, arts patron._ The Los Angeles Times, Dec. 12, 2011. https://www.latimes.com/local/obituaries/la-me-monte-fact 20111212-story.html 
-
-- 12 Russo, Gus. _The Outfit–The Role of Chicago's Underworld in the Shaping of Modern America._ 
-
-- New York: Bloomsbury, 2003. 
-
-- 13 Al, Stefan. _The Strip, Las Vegas and the Architecture of the American Dream_ Cambridge, Mas The MIT Press, 2017. 
-
-- 14 Russo. _The Outfit._ 
-
-- 15 Russo. _The Outfit._ 
-
-- 16 deHaven-Smith, Lance. _Beyond Conspiracy Theory - Patterns of High Crime in American Government_ , _American Behavioral Scientist 53(6)_ (2010) _795–825_ 
-
-- 17 deHaven-Smith. _Beyond Conspiracy Theory._ 
-
-- 18 Hunter, Marjorie. _House Panel Reports a Conspiracy 'Probable' in the Kennedy Slaying"_ . _The N York Times_ . December 31, 1978. p. 1. 
-
-   - https://web.archive.org/web/20230924045622/https://www.nytimes.com/1978/12/31/archive use-panel-reports-a-conspiracy-probable-in-the-kennedy-slaying.html 
-
-## Subscribe to Scott Benzel 
-
-**==> picture [296 x 72] intentionally omitted <==**
-
-3 Likes ∙1 Restack 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-36/37 
-
-À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime 
-
-9/7/25, 11:06 AM 
-
-**==> picture [522 x 36] intentionally omitted <==**
-
-© 2025 Scott Benzel ∙ Privacy ∙ Terms ∙ Collection notice Substack is the home for great culture 
-
-https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 
-
-37/37 
-
+[^18]: [Footnote text not provided on page]

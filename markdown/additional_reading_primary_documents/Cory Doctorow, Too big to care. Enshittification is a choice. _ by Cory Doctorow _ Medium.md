@@ -1,332 +1,241 @@
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
+# Too big to care
 
-9/7/25, 11:20 AM 
+Enshittification is a choice.
 
-_Writing is for everyone._ _**Register for Medium Day**_ ~~—aaaaee ee~~ 
+Cory Doctorow 
 
-## _**Too big to care**_ 
+Follow 5 min read · Apr 4, 2024
 
-_Enshittification is a choice._ 
+2K 15
 
-_Cory Doctorow Follow 5 min read · Apr 4, 2024_ oC) 
+![A surrealist painting of a creature with a hollow body containing people, with an Android logo, a Google logo, and a shrug emoticon in speech bubbles above it.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p2-i1.png)
+> **Caption:** None
+> **Figure text:** ¯\\_(ツ)_/¯
 
-_2K 15_ 
+I’m **on tour with my new, nationally bestselling novel The Bezzle!** Catch me in **Boston** (Apr 11) with Randall “XKCD” Munroe, **Providence** (Apr 12) and **beyond!**
 
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
+![A yellow banner with the text "cory doctorow the bezzle" and a stylized letter A.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p2-i2.png)
+> **Caption:** None
+> **Figure text:** cory doctorow the bezzle
 
-1/13 
+Remember the first time you used Google search? It was like magic. After years of progressively worsening search quality from Altavista and Yahoo,
 
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
+Google was literally stunning, a gateway to the very best things on the internet.
 
-9/7/25, 11:20 AM 
+Today, Google has a 90% search market-share. They got it the hard way: they cheated. Google spends tens of billions of dollars on payola in order to ensure that they are the default search engine behind *every* search box you encounter on every device, every service and every website:
 
-I’m on tour with my new, nationally bestselling novel The Bezzle! Catch me in Boston (Apr 11) with Randall “XKCD” Munroe, Providence (Apr 12) and beyond! 
+https://pluralistic.net/2023/10/03/not-feeling-lucky/#fundamental-laws-of-economics
 
-Remember the first time you used Google search? It was like magic. After years of progressively worsening search quality from Altavista and Yahoo, 
+Not coincidentally, Google’s search is getting progressively, monotonically worse. It is a cesspool of botshit, spam, scams, and nonsense. Important resources that I once relied on to help me learn because I could find them with
 
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
+https://pluralistic.net/2024/02/21/i-m-feeling-unlucky/#not-up-to-the-task
 
-2/13 
+Even after all that payola, Google is still absurdly profitable. They have so much money, they were able to do a *$80 billion* stock buyback. Just a few months later, Google fired 12,000 skilled technical workers. Essentially, Google is saying that they don’t need to spend money on quality, because we’re all locked into using Google search. It’s cheaper to buy the default search box everywhere in the world than it is to make a product that is so good that even if we tried another search engine, we’d still prefer Google.
 
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
+This is enshittification. Google is shifting value away from end users (searchers) and business customers (advertisers, publishers and merchants) to itself:
 
-9/7/25, 11:20 AM 
+https://pluralistic.net/2024/03/05/the-map-is-not-the-territory/#apor-locksmith
 
-Google was literally stunning, a gateway to the very best things on the internet. 
+And here’s the thing: there are search engines out there that are *so good* that if you just try them, you’ll get that same feeling you got the first time you tried Google.
 
-Today, Google has a 90% search market-share. They got it the hard way: they cheated. Google spends tens of billions of dollars on payola in order to ensure that they are the default search engine behind _every_ search box you encounter on every device, every service and every website: 
+When I was in Tucson last month on my book-tour for my new novel *The Bezzle*, I crashed with my pals Patrick and Teresa Nielsen Hayden. I’ve know them since I was a teenager (Patrick is my editor).
 
-- - - - - https://pluralistic.net/2023/10/03/not feeling lucky/#fundamental laws of economics 
+We were sitting in his living room on our laptops — just like old times! — and Patrick asked me if I’d tried Kagi, a new search-engine.
 
-Not coincidentally, Google’s search is getting progressively, monotonically worse. It is a cesspool of botshit, spam, scams, and nonsense. Important 
+Teresa chimed in, extolling the advanced search features, the “lenses” that surfaced specific kinds of resources on the web.
 
-resources that I never bothered to bookmark because I could find them with _Open in app Sign up Sign in_ r Co) ~~a quick Google search no longer show up in the first~~ ~~_ten_ screens of results:~~ _Search Write_ 
+I hadn’t even heard of Kagi, but the Nielsen Haydens are among the most effective researchers I know — both in their professional editorial lives and in their many obsessive hobbies. If it was good enough for them...
 
-~~- - - - - - https://pluralistic.net/2024/02/21/im feeling unlucky/#not up to the task~~ 
+I tried it. It was *magic*.
 
-Even after all that payola, Google is still absurdly profitable. They have so much money, they were able to do a _$80 billion_ stock buyback. Just a few months later, Google fired 12,000 skilled technical workers. Essentially, Google is saying that they don’t need to spend money on quality, because we’re all locked into using Google search. It’s cheaper to buy the default search box everywhere in the world than it is to make a product that is so good that even if we tried another search engine, we’d still prefer Google. 
+No, seriously. All those things Google couldn’t find anymore? Top of the search pile. Queries that generated *pages* of spam in Google results? Fucking *pristine* on Kagi — the right answers, over and over again.
 
-This is enshittification. Google is shifting value away from end users (searchers) and business customers (advertisers, publishers and merchants) to itself: 
+That was *before* I started playing with Kagi’s lenses and other bells and whistles, which elevated the search experience from “magic” to *sorcerous*.
 
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
+The catch is that Kagi costs money — after 100 queries, they want you to cough up $10/month ($14 for a couple or $20 for a family with up to six accounts, and some kid-specific features):
 
-3/13 
+https://kagi.com/settings?p=billing_plan&amp;plan=family
 
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
+Get Cory Doctorow’s stories in your inbox
 
-9/7/25, 11:20 AM 
+Join Medium for free to get updates from this writer.
 
-## - - - - - - https://pluralistic.net/2024/03/05/the map is not the territory/#apor locksmith 
+Enter your email [Subscribe]
 
-And here’s the thing: there are search engines out there that are _so good_ that if you just try them, you’ll get that same feeling you got the first time you tried Google. 
+I immediately bought a family plan. I’ve been using it for a month. I’ve basically stopped using Google search altogether.
 
-When I was in Tucson last month on my book-tour for my new novel _The Bezzle_ , I crashed with my pals Patrick and Teresa Nielsen Hayden. I’ve know them since I was a teenager (Patrick is my editor). 
+Kagi just let me get a lot more done, and I assumed that they were some kind of wildly capitalized startup that was running their own crawl and and their own data-centers. But this morning, I read Jason Koebler’s *404 Media* report on his own experiences using it:
 
-We were sitting in his living room on our laptops — just like old times! — and Patrick asked me if I’d tried Kagi, a new search-engine. 
+https://www.404media.co/friendship-ended-with-google-now-kagi-is-my-best-friend/
 
-Teresa chimed in, extolling the advanced search features, the “lenses” that surfaced specific kinds of resources on the web. 
+Koebler’s piece contained a key detail that I’d somehow missed:
 
-I hadn’t even heard of Kagi, but the Nielsen Haydens are among the most effective researchers I know — both in their professional editorial lives and in their many obsessive hobbies. If it was good enough for them… 
+When you search on Kagi, the service makes a series of “anonymized API calls to traditional search indexes like Google, Yandex, Mojeek, and Brave,” as well as a handful of other specialized search engines, Wikimedia Commons, Flickr, etc. Kagi then combines this with its own web index and news index (for news searches) to build the results pages that you see. So,
 
-I tried it. It was . _magic_ 
+essentially, you are getting some mix of Google search results combined with results from other indexes.
 
-No, seriously. All those things Google couldn’t find anymore? Top of the search pile. Queries that generated _pages_ of spam in Google results? Fucking _pristine_ on Kagi — the right answers, over and over again. 
+In other words: *Kagi is a heavily customized, anonymized front-end to Google.*
 
-That was _before_ I started playing with Kagi’s lenses and other bells and _sorcerous_ . whistles, which elevated the search experience from “magic” to 
+The implications of this are *stunning*. It means that Google’s enshittified search-results are a *choice*. Those ad-strewn, sub-Altavista, spam-drowned search pages are a *feature*, not a bug. Google *prefers* those results to Kagi, because Google makes more money out of shit than they would out of delivering a good product:
 
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
+https://www.theverge.com/2024/4/2/24117976/best-printer-2024-home-use-office-use-labels-school-homework
 
-4/13 
+No *wonder* Google spends a whole-ass Twitter *every year* to make sure you never try a rival search engine. Bottom line: they ran the numbers and figured out their most profitable course of action is to enshittify their flagship product and bribe their “competitors” like Apple and Samsung so that you never try another search engine and have another one of those *magic* moments that sent all those Jeeves-askin’ Yahooers to Google a quarter-century ago.
 
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
+One of my favorite TV comedy bits is Lily Tomlin as Ernestine the AT&T operator; Tomlin would do these pitches for the Bell System and end every ad with “We don’t care. We don’t have to. We’re the phone company”:
 
-9/7/25, 11:20 AM 
+https://snltranscripts.jt.org/76/76aphonecompany.phtml
 
-The catch is that Kagi costs money — after 100 queries, they want you to cough up $10/month ($14 for a couple or $20 for a family with up to six accounts, and some kid-specific features): 
+Speaking of TV comedy: this week saw FTC chair Lina Khan appear on *The Daily Show* with Jon Stewart. It was *amazing*:
 
-## = = https://kagi.com/settings?p billing_plan&amp;plan family 
+https://www.youtube.com/watch?v=oaDTiWaYfcM
 
-## Get Cory Doctorow’s stories in your inbox 
+The coverage of Khan’s appearance has focused on Stewart’s revelation that when he was doing a show on Apple TV, the company prohibited him from interviewing her (presumably because of her hostility to tech monopolies):
 
-_Join Medium for free to get updates from this writer. Enter your email Subscribe_ 
+https://www.thebignewsletter.com/p/apple-got-caught-censoring-its-own
 
-I immediately bought a family plan. I’ve been using it for a month. I’ve basically stopped using Google search altogether. 
+But for me, the big moment came when Khan described tech monopolists as “too big to care.”
 
-Kagi just let me get a lot more done, and I assumed that they were some kind of wildly capitalized startup that was running their own crawl and and their own data-centers. But this morning, I read Jason Koebler’s _404 Media_ report on his own experiences using it: 
+What a phrase!
 
-- - - - - - - - https://www.404media.co/friendship ended with google now kagi is my - best friend/ 
+Since the subprime crisis, we’re all familiar with businesses being “too big to fail” and “too big to jail.” But “too big to *care*?” Oof, that got me *right in the feels*.
 
-Koebler’s piece contained a key detail that I’d somehow missed: 
+Because that’s what it feels like to use enshittified Google. That’s what it feels like to discover that Kagi — the good search engine — is mostly Google with the weights adjusted to serve users, not shareholders.
 
-When you search on Kagi, the service makes a series of “anonymized API calls to traditional search indexes like Google, Yandex, Mojeek, and Brave,” as well as a handful of other specialized search engines, Wikimedia Commons, Flickr, etc. Kagi then combines this with its own web index and news index (for news searches) to build the results pages that you see. So, 
+Google used to care. They cared because they were worried about competitors and regulators. They cared because their workers *made* them care:
 
-5/13 
+https://www.vox.com/future-perfect/2019/4/4/18295933/google-cancels-ai-ethics-board
 
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
+Google doesn’t care anymore. They don’t have to. They’re the search company.
 
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
+If you’d like an essay-formatted version of this post to read or share, here’s a link to it on pluralistic.net, my surveillance-free, ad-free, tracker-free blog:
 
-9/7/25, 11:20 AM 
+https://pluralistic.net/2024/04/04/teach-me-how-to-shruggie/#kagi
 
-essentially, you are getting some mix of Google search results combined with results from other indexes. 
+Google
+Enshittification
+Kagi
+Search
+Lina Khan
 
-In other words: . _Kagi is a heavily customized, anonymized front-end to Google_ 
+Some rights reserved ⓘ
 
-The implications of this are _stunning_ . It means that Google’s enshittified search-results are a _choice_ . Those ad-strewn, sub-Altavista, spam-drowned search pages are _a feature_ , not a bug. Google _prefers_ those results to Kagi, because Google makes more money out of shit than they would out of delivering a good product: 
+Written by Cory Doctorow 
+202K followers · 600 following
 
-- - - - - 2024 home use https://www.theverge.com/2024/4/2/24117976/best printer - - - - office use labels school homework 
+Writer, blogger, activist. Blog: https://pluralistic.net; Mailing list: https://pluralistic.net/plura-list; Mastodon: @pluralistic@mamot.fr
 
-No _wonder_ Google spends a whole-ass Twitter _every year_ to make sure you never try a rival search engine. Bottom line: they ran the numbers and figured out their most profitable course of action is to enshittify their flagship product and bribe their “competitors” like Apple and Samsung so that you never try another search engine and have another one of those _magic_ moments that sent all those Jeeves-askin’ Yahooers to Google a quarter-century ago. 
+Follow
 
-One of my favorite TV comedy bits is Lily Tomlin as Ernestine the AT&T operator; Tomlin would do these pitches for the Bell System and end every ad with “We don’t care. We don’t have to. We’re the phone company”: 
+Responses (15)
 
-https://snltranscripts.jt.org/76/76aphonecompany.phtml 
+Write a response
 
-Speaking of TV comedy: this week saw FTC chair Lina Khan appear on _The Daily Show_ with Jon Stewart. It was _amazing_ : 
+What are your thoughts?
 
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
+zeke woollett
+Apr 4, 2024
 
-6/13 
+Need more on the whole "buyback our stocks for a small fortune and then layoff a bunch of people" stock pump scam. I mean, it almost seems like a bunch of c-suites sitting in a room and someone says "well sht - we've got so much cash lying around ... more
 
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
+173 1 reply Reply
 
-9/7/25, 11:20 AM 
+Peter Guyton
+Apr 5, 2024
 
-## = https://www.youtube.com/watch?v oaDTiWaYfcM 
+Huge Kagi fan here. For $5, anyone can try it for 300 searches. I did that 9 months ago and never looked back.
 
-The coverage of Khan’s appearance has focused on Stewart’s revelation that when he was doing a show on Apple TV, the company prohibited him from interviewing her (presumably because of her hostility to tech monopolies): 
+Also the unlimited tier includes FastGPT which will summarize the content of the search results really nicely. Google doesn't do that... more
 
-- - - - - its own https://www.thebignewsletter.com/p/apple got caught censoring 
+44 Reply
 
-But for me, the big moment came when Khan described tech monopolists as “too big to care.” 
+Pax Ahimsa Gethen they/them
+Apr 4, 2024
 
-What a phrase! 
+Remember the first time you used Google search? It was like magic.
 
-Since the subprime crisis, we’re all familiar with businesses being “too big to _care_ fail” and “too big to jail.” But “too big to ?” Oof, that got me _right in the_ . _feels_ 
+Yep, you and I are about the same age (I'm 54) so I remember everything that led up to Google as well. Whereas Gen Alpha and most of Gen Z have never known life *without* this enshittified behemoth. Scary.
 
-Because that’s what it feels like to use enshittified Google. That’s what it feels like to discover that Kagi — the good search engine — is mostly Google with the weights adjusted to serve users, not shareholders. 
+I also remember when Google's motto was "Don't be evil"...
 
-Google used to care. They cared because they were worried about competitors and regulators. They cared because their workers _made_ them care: 
+37 1 reply Reply
 
-- - - - https://www.vox.com/future perfect/2019/4/4/18295933/google cancels ai - ethics board 
+See all responses
 
-Google doesn’t care anymore. They don’t have to. They’re the search company. 
+# More from Cory Doctorow
 
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
+![A vintage-style illustration of a person in overalls sitting on top of the world](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p10-i1.png)
+> **Caption:** None
+> **Figure text:** None
 
-7/13 
+Cory Doctorow 
 
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
+## The enshittification of tech jobs
+Our last line of defense has fallen.
 
-9/7/25, 11:20 AM 
+Apr 27 8.3K 128
 
-If you’d like an essay-formatted version of this post to read or share, here’s a link to it on pluralistic.net, my surveillance-free, ad-free, tracker-free blog: 
+![An illustration of a person in a suit sitting in a chair above a red cloud](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p10-i2.png)
+> **Caption:** None
+> **Figure text:** None
 
-## - - - - https://pluralistic.net/2024/04/04/teach me how to shruggie/#kagi 
+Cory Doctorow 
 
-_Google Enshittification Kagi Search Lina Khan Some rights reserved_ ® 
+## Maga’s boss class think they are immune to American carnage
+They’re in for a surprise.
 
-_Written by Cory Doctorow Follow 202K followers · 600 following_ = 
+Aug 13 3.1K 21
 
-_Writer, blogger, activist. Blog: https://pluralistic.net; Mailing list: - https://pluralistic.net/plura list; Mastodon: @pluralistic@mamot.fr_ 
+![A digital avatar of Mark Zuckerberg superimposed over a crowd of people.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i1.png)
+> **Caption:** Cory Doctorow
 
-## _Responses (15)_ 
+## Zuckermuskian solipsism
+They just don’t think other people are real.
 
-_Write a response What are your thoughts?_ 
+Aug 18 2.8K 32
 
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
+![A surreal illustration of a boat with butterfly-winged figures on a sea.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i2.png)
+> **Caption:** Cory Doctorow
 
-8/13 
+## Bluesky creates the world’s weirdest, hardest-to-understand...
+What, and I cannot stress this enough, the FUCK does this mean?!
 
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
+Aug 15 1.4K 15
 
-9/7/25, 11:20 AM 
+See all from Cory Doctorow
 
-_zeke woollett Apr 4, 2024_ 
+## Recommended from Medium
 
-_Need more on the whole "buyback our stocks for a small fortune and then layoff a bunch of people" stock pump scam. I mean, it almost seems like a bunch of c-suites sitting in a room and someone says "well sht - we've got so much cash lying around … more_ 
+![An illustration of a person holding a magnifying glass over a Wikipedia globe logo.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i3.png)
 
-**==> picture [124 x 20] intentionally omitted <==**
+![A glowing human brain floating in a white, abstract space.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p11-i4.png)
 
-_Peter Guyton Apr 5, 2024_ 
+![A collage of four screenshots showing the Arc browser interface on different devices.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i1.png)
+> **Caption:** None.
+> **Figure text:** Arc Search, Fast and ad-free web browsing, The Browser Company of New York Inc., Free, We open the keyboard for you, like a doorman for the Web, Find it, faster., Josh Miller @joshmiller, a little Sunday surprise for you..., meat @browsercompany's 2nd product:, Arc Search, it's a default browser for your iPhone, ...that BROWSES FOR YOU, the origin story is a bit unusual so I wanted to give you the full backstory:, Arc Search, THE BROWSER COMPANY, theverge.com, Menu, WEB / TECH / APPS, Arc Search combines browser, search engine, and AI into something new and different / "Browse for me" is the new search engine, at least if The Browser Company is right about the future of the internet., By David Pierce, editor-at-large and Vergecast co-host with over a decade of experience covering consumer tech. Previously, at Protocol, The Wall Street Journal, and Wired., Jan 25, 2024, 4:55 PM PST, If you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement., Arc Search, Arc Search
 
-_Huge Kagi fan here. For $5, anyone can try it for 300 searches. I did that 9 months ago and never looked back._ 
+![A black and white photo of a person looking at a large, complex structure of interconnected lines and nodes.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i2.png)
+> **Caption:** None.
+> **Figure text:** None.
 
-_Also the unlimited tier includes FastGPT which will summarize the content of the search results really nicely. Google doesn’t do that… more_ 
+## Why Beautiful Apps Always Die the Same Way
+Arc’s Big, Beautiful Exit
 
-_44 Reply_ ~~__.~~ 
+## Apple Can’t Figure Out AI Because There’s Nothing To Figure Out
+Despite massive investments and widespread hype, the promised revolution of AI might be...
 
-_Pax Ahimsa Gethen they/them Apr 4, 2024_ 
+![A diagram comparing a single large purple cube labeled "Monolithic" to a cluster of smaller, multi-colored cubes labeled "Microservices".](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i3.png)
+> **Caption:** None.
+> **Figure text:** Monolithic, Microservices
 
-## Remember the first time you used Google search? It was like magic. 
+## Why Microservices Are Out and Monoliths Are Making a Comeback
+For years, we were told microservices were the future.
 
-_Yep, you and I are about the same age (I'm 54) so I remember everything that led up to Google as well. Whereas Gen Alpha and most of Gen Z have never known life without this enshittified behemoth. Scary._ 
+![An illustration showing an American eagle perched on a power line next to a Chinese dragon, with a large "AI" box sitting on the power grid.](/figures/cory-doctorow-too-big-to-care-enshittification-is-a-choice-by-cory-doctorow-medium/p12-i4.png)
+> **Caption:** None.
+> **Figure text:** MADE IN USA, ROUTE 1903, AI
 
-_I also remember when Google's motto was "Don't be evil"..._ 
+## AI Experts Return from China Stunned: America’s Grid Is So We...
+Silicon Valley researchers discover China treats unlimited electricity as “a given,” while...
 
-**==> picture [120 x 20] intentionally omitted <==**
-
-_See all responses_ 
-
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
-
-9/13 
-
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
-
-9/7/25, 11:20 AM 
-
-## _More from Cory Doctorow_ 
-
-_Cory Doctorow_ 
-
-_Cory Doctorow_ 
-
-## _**The enshittification of tech jobs**_ 
-
-_Our last line of defense has fallen._ 
-
-## _**Maga’s boss class think they are immune to American carnage**_ 
-
-_They’re in for a surprise._ 
-
-**==> picture [375 x 10] intentionally omitted <==**
-
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
-
-10/13 
-
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
-
-9/7/25, 11:20 AM 
-
-_Cory Doctorow_ 
-
-## _**Zuckermuskian solipsism**_ 
-
-_They just don’t think other people are real._ 
-
-## _Cory Doctorow_ 
-
-## _**Bluesky creates the world’s weirdest, hardest-to-understand…**_ 
-
-_What, and I cannot stress this enough, the FUCK does this mean?!_ 
-
-_Aug 18 2.8K 32_ 
-
-**==> picture [111 x 10] intentionally omitted <==**
-
-_See all from Cory Doctorow_ 
-
-## _Recommended from Medium_ 
-
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
-
-11/13 
-
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
-
-9/7/25, 11:20 AM 
-
-_Cory Doctorow_ 
-
-_Eva Keiffenheim_ 
-
-## _**Why Wikipedia works**_ 
-
-_Agreeing on source notability, not facts._ 
-
-## _**The Smartest People I Know Are Obsessed With a Skill Many Were…**_ 
-
-_The same technology promising to make us smarter is preventing the one thing our brain…_ 
-
-_2d ago 796 7_ 
-
-_In The Index by Joan Westenberg_ 
-
-## _**Why Beautiful Apps Always Die the Same Way**_ 
-
-_Arc’s Big, Beautiful Exit_ 
-
-**==> picture [111 x 10] intentionally omitted <==**
-
-_Abhinav_ 
-
-## _**Why Microservices Are Out and Monoliths Are Making a Comeback**_ 
-
-_For years, we were told microservices were the future._ 
-
-**==> picture [115 x 10] intentionally omitted <==**
-
-_Andrew Zuo_ 
-
-## _**Apple Can’t Figure Out AI Because There’s Nothing To Figure Out**_ 
-
-_Despite massive investments and widespread hype, the promised revolution of AI might be…_ 
-
-**==> picture [112 x 10] intentionally omitted <==**
-
-_In Write A Catalyst by MKWriteshere_ 
-
-## _**AI Experts Return from China Stunned: America’s Grid Is So We…**_ 
-
-_Silicon Valley researchers discover China treats unlimited electricity as “a given,” while…_ 
-
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
-
-12/13 
-
-Too big to care. Enshittification is a choice. | by Cory Doctorow | Medium 
-
-9/7/25, 11:20 AM 
-
-_Jul 29 1.8K 116_ 
-
-_Aug 21 5K 118_ 
-
-_See more recommendations_ 
-
-https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2 
-
-13/13 
-
+See more recommendations

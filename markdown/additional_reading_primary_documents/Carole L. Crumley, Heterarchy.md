@@ -1,182 +1,241 @@
 # Heterarchy
 
-CAROLE L. CRUMLEY
+## Abstract
 
-# **Abstract**
+Heterarchy addresses the diversity of relationships among elements in a system and offers a way to think about change in spatial, temporal, and cognitive dimensions. Definitions of heterarchy are remarkably consistent across a variety of disciplines and while the work they do is extraordinarily diverse, taken together they permit a concise definition. A general-purpose definition that suits a variety of contexts is the relation of elements to one another when they are unranked, or when they possess the potential for being ranked in a number of different ways, depending on systemic requirements. Heterarchy does not stand alone but is in a dialectical relationship with hierarchy (where elements are ranked). The concept of heterarchy offers an arena for examining the potential of a system, organization, or structure for diversity and change. In general, heterarchical relationships are sources of difference and dynamism, and they may be spatial, temporal, or cognitive. This essay outlines the convergent origins of the concept, examines the evidence for the ubiquity of heterarchy in human societies and in mathematical and biophysical contexts, explores its application in the social sciences, and advances understanding of how heterarchical thinking can help envision the human future.
 
-Heterarchy addresses the diversity of relationships among elements in a system and offers a way to think about change in spatial, temporal, and cognitive dimensions. Defnitions of heterarchy are remarkably consistent across a variety of disciplines and while the work they do is extraordinarily diverse, taken together they permit a concise defnition. A general-purpose defnition that suits a variety of contexts is the relation of elements to one another when they are unranked, or when they possess the potential for being ranked in a number of different ways, depending on systemic requirements. Heterarchy does not stand alone but is in a dialectical relationship with hierarchy (where elements are ranked). The concept of heterarchy offers an arena for examining the potential of a system, organization, or structure for diversity and change. In general, heterarchical relationships are sources of difference and dynamism, and they may be spatial, temporal, or cognitive. This essay outlines the convergent origins of the concept, examines the evidence for the ubiquity of heterarchy in human societies and in mathematical and biophysical contexts, explores its application in the social sciences, and advances understanding of how heterarchical thinking can help envision the human future.
-
-#### INTRODUCTION
+## INTRODUCTION
 
 Heterarchy addresses the diversity of relationships among elements in a system and offers a way to think about change in spatial, temporal, and cognitive dimensions. This essay outlines the convergent origins of the idea, examines the evidence for the ubiquity of heterarchy in human societies and in mathematical and biophysical contexts, explores its application in the social sciences, and advances understanding of how heterarchical thinking can help envision the human future.
 
-The earliest defnition is by McCulloch (1945) who examined cognitive structures in the brain, the collective organization of which he terms *heterarchy*. He demonstrates that the human brain is not organized hierarchically but adjusts to the reranking of values as circumstances change. The heterarchical structure of individual and collective memory may be a chief means by which human societies address change and the inevitable conficts that arise (Mithen, 1996). McCulloch (1945, 1989) contrasts a hierarchy of (ranked) values with a heterarchy of values that defes both ranking and predictability.
+The earliest definition is by McCulloch (1945) who examined cognitive structures in the brain, the collective organization of which he terms *heterarchy*. He demonstrates that the human brain is not organized hierarchically but adjusts to the reranking of values as circumstances change. The heterarchical structure of individual and collective memory may be a chief means by which human societies address change and the inevitable conflicts
 
-In artifcial intelligence and computer design, Minsky and Papert (1972) refer to the organization of computer subroutines that can call one another as heterarchical. Mathematician Hofstadter (1979, p. 134) defnes heterarchy as a program in which there is no "highest level." Sociologist Stark (2001, 2009) defnes heterarchy as "an emergent organizational form with distinctive network properties… and multiple organizing principles." Social theorist Kontopolous (1993, p. 381) defnes heterarchy as "a partially ordered level structure implicating a rampant interactional complexity." In anthropology and archaeology, I offer a general-purpose defnition that suits a variety of contexts: the relation of elements to one another when they are unranked, or when they possess the potential for being ranked in a number of different ways, depending on systemic requirements (Crumley, 1979, p. 144). These defnitions offer an arena for examining diversity and change in systems, organizations, or structures. In general, heterarchical relationships are sources of difference and dynamism, and they may be spatial, temporal, or cognitive.
+that arise (Mithen, 1996). McCulloch (1945, 1989) contrasts a hierarchy of (ranked) values with a heterarchy of values that defies both ranking and predictability.
 
-For example, an individual may highly value human life in general and be against abortion rights, but be for the death penalty (or vice versa). The context of the inquiry, along with changing (and conficting) values, mitigates this logical inconsistency; they are related to what Bateson (1972) terms a *double bind*. Priorities are reranked relative to conditions and can result in major structural adjustment. McCulloch's "nervous nets," source of the brain's fexibility, are structurally similar to the adaptive capacities of fuidly organized, highly communicative groups. His work reminds us that it is quintessentially human to make nimble cognitive leaps among scales.
+In artificial intelligence and computer design, Minsky and Papert (1972) refer to the organization of computer subroutines that can call one another as heterarchical. Mathematician Hofstadter (1979, p. 134) defines heterarchy as a program in which there is no “highest level.” Sociologist Stark (2001, 2009) defines heterarchy as “an emergent organizational form with distinctive network properties … and multiple organizing principles.” Social theorist Kontopolous (1993, p. 381) defines heterarchy as “a partially ordered level structure implicating a rampant interactional complexity.” In anthropology and archaeology, I offer a general-purpose definition that suits a variety of contexts: the relation of elements to one another when they are unranked, or when they possess the potential for being ranked in a number of different ways, depending on systemic requirements (Crumley, 1979, p. 144). These definitions offer an arena for examining diversity and change in systems, organizations, or structures. In general, heterarchical relationships are sources of difference and dynamism, and they may be spatial, temporal, or cognitive.
 
-McCulloch's insight about the autonomous nature of information and communication in the brain revolutionized its neural study; it also solved major organizational problems in the felds of artifcial intelligence and computer design (Minsky and Papert, 1972). McCulloch realized that information stored in bundles as values in one part of the brain may or may not be correlated with information stored elsewhere; in computer terminology, subroutine A can subsume ("call") subroutine B and vice versa, depending on the requirements of the program. Rather than the "tree" hierarchy of the frst computers, those today use an addressing (information locating) random access memory (RAM) system that is heterarchical.
+For example, an individual may highly value human life in general and be against abortion rights, but be for the death penalty (or vice versa). The context of the inquiry, along with changing (and conflicting) values, mitigates this logical inconsistency; they are related to what Bateson (1972) terms a *double bind*. Priorities are reranked relative to conditions and can result in major structural adjustment. McCulloch’s “nervous nets,” source of the brain’s flexibility, are structurally similar to the adaptive capacities of fluidly organized, highly communicative groups. His work reminds us that it is quintessentially human to make nimble cognitive leaps among scales.
 
-Heterarchy does not stand alone but is in a dialectical relationship with hierarchy (where elements are ranked). This means that both heterarchical and hierarchical forms are routinely found in the same entity, although from a mathematical standpoint heterarchy is the more general category and subsumes hierarchy as a special case (von Goldammer *et al.,* 2003). While heterarchy may be modeled mathematically, it need not rely on mathematical or spatial representations for its application; heterarchy is equally useful as an abstract model or in a narrative. In exhibiting this fexibility it resembles emergence or self-organization in complex systems.
+McCulloch’s insight about the autonomous nature of information and communication in the brain revolutionized its neural study; it also solved major organizational problems in the fields of artificial intelligence and computer design (Minsky and Papert, 1972). McCulloch realized that information stored in bundles as values in one part of the brain may or may not be correlated with information stored elsewhere; in computer terminology, subroutine A can subsume (“call”) subroutine B and vice versa, depending on the requirements of the program. Rather than the “tree” hierarchy of the first computers, those today use an addressing (information locating) random access memory (RAM) system that is heterarchical.
+
+Heterarchy does not stand alone but is in a dialectical relationship with hierarchy (where elements are ranked). This means that both heterarchical and hierarchical forms are routinely found in the same entity, although from
+
+a mathematical standpoint heterarchy is the more general category and subsumes hierarchy as a special case (von Goldammer et al., 2003). While heterarchy may be modeled mathematically, it need not rely on mathematical or spatial representations for its application; heterarchy is equally useful as an abstract model or in a narrative. In exhibiting this flexibility it resembles emergence or self-organization in complex systems.
 
 Heterarchy meets three criteria upon which any social model must be judged (Byrne, 1998, p. 46; Harvey and Reed, 1996; Kontopolous, 1993; Mouzelis, 1995). They are: (i) How adequate is the model in relating the micro (individual) level to the macro (social) level? (ii) How adequate is the model in relating the conscious agency of social actors to the social structure in which they operate? (iii) Can it provide an explanation for discontinuous and fundamental changes in the social system as a whole? Heterarchy can be said to meet the requirements for a robust social theory.
 
-There is a paucity of language to describe structures or relations that are not hierarchical. Some effort has been made to enrich the descriptive vocabulary of nonlinear (not predictable) relations among entities: sociologist Kontopolous (1993, p. 55) offers "tangled composite structures," philosopher De Landa (1997) suggests "meshworks," ecologists Gunderson and Holling (2001) prefer "panarchy," and there is considerable interest among anthropologists and political scientists in social forms that hold resources in common, from common pool assets (Agrawal, 2003; Ostrom, 1990) to anarchy (Angelbeck and Grier, 2012; Graeber, 2004; Scott, 2012).
+There is a paucity of language to describe structures or relations that are not hierarchical. Some effort has been made to enrich the descriptive vocabulary of nonlinear (not predictable) relations among entities: sociologist Kontopolous (1993, p. 55) offers “tangled composite structures,” philosopher De Landa (1997) suggests “meshworks,” ecologists Gunderson and Holling (2001) prefer “panarchy,” and there is considerable interest among anthropologists and political scientists in social forms that hold resources in common, from common pool assets (Agrawal, 2003; Ostrom, 1990) to anarchy (Angelbeck and Grier, 2012; Graeber, 2004; Scott, 2012).
 
-There are also efforts to redefne hierarchy in a way that allows for varying degrees of connectivity and control (e.g., Ahl and Allen, 1996; Allen and Starr, 1982; Bondarenko, 2007). In a control hierarchy each higher level exerts control over the next lower level; the US court system and the army are control hierarchies. By contrast, disturbances at any level in a scalar hierarchy can affect any other scales (Crumley, 1995, p. 2). This is because in control hierarchies, the same people and/or groups control multiple sources of power (e.g., religious, military, diplomatic, and commercial): information and the means of communicating it become commodities to be hoarded (e.g., literacy). In scalar hierarchies elements at all scales are in communication with one another. Scalar hierarchies are found in many types of systems, ranging from the simplest (static, mechanical) to the most complex (language, self-consciousness) and constitute a holistic world (Jantsch, 1982, p. 349; Pourdavood, 1997). As such, scalar hierarchies combine hierarchical and heterarchial elements. This glance into the struggle to develop a vocabulary to describe heterarchical relations suggests that the concept should be considered a placeholder awaiting the emergence of a new way of thinking, particularly as regards human organization.
+There are also efforts to redefine hierarchy in a way that allows for varying degrees of connectivity and control (e.g., Ahl and Allen, 1996; Allen and Starr, 1982; Bondarenko, 2007). In a control hierarchy each higher level exerts control over the next lower level; the US court system and the army are control hierarchies. By contrast, disturbances at any level in a scalar hierarchy can affect any other scales (Crumley, 1995, p. 2). This is because in control hierarchies, the same people and/or groups control multiple sources of power (e.g., religious, military, diplomatic, and commercial): information and the means of communicating it become commodities to be hoarded (e.g., literacy). In scalar hierarchies elements at all scales are in communication with one another. Scalar hierarchies are found in many types of systems, ranging from the simplest (static, mechanical) to the most complex (language, self-consciousness) and constitute a holistic world (Jantsch, 1982, p. 349; Pourdavood, 1997). As such, scalar hierarchies combine hierarchical and heterarchial elements. This glance into the struggle to develop a vocabulary to describe heterarchical relations suggests that the concept should be considered a placeholder awaiting the emergence of a new way of thinking, particularly as regards human organization.
 
-Defnitions of the terms *scale*, *complexity,* and *system* pose the greatest barrier to wider application of complex systems in the social sciences, where many researchers recall all too well earlier uses of the terms. Defnitions often confuse epistemological and ontological applications of scale: Epistemological scale is a spatial or temporal tool deployed by the investigator, while ontological scale is a demonstrable characteristic of what is being studied. This confusion is important because it often exhibits unconscious hierarchical thinking. Thus, forms may be termed *complex* if they contain many levels (tiered, hierarchical) and also if they are comprised of many links (networked, heterarchical).
+Definitions of the terms *scale*, *complexity*, and *system* pose the greatest barrier to wider application of complex systems in the social sciences, where many researchers recall all too well earlier uses of the terms. Definitions often confuse epistemological and ontological applications of scale: Epistemological scale is a spatial or temporal tool deployed by the investigator, while ontological scale is a demonstrable characteristic of what is being studied. This confusion is important because it often exhibits unconscious hierarchical thinking. Thus, forms may be termed *complex* if they contain many levels (tiered, hierarchical) and also if they are comprised of many links (networked, heterarchical).
 
-What distinguishes contemporary complex systems science from the systems theory of the 1960s is that the defnition of *system* has profoundly changed. Today's complex adaptive systems are no longer tidy, closed models unperturbed by change. They are messy and dynamic, nonlinear (exhibit behavior of limited predictability), are connected to the larger environment, and can completely change state. Complex systems have no up and down, no ranking, no steps and no stages. Instead, dimension (a nonspatial category) or state (a particular combination of properties) serves to discriminate groupings of system elements and recurrent conditions.
+What distinguishes contemporary complex systems science from the systems theory of the 1960s is that the definition of *system* has profoundly changed. Today’s complex adaptive systems are no longer tidy, closed models unperturbed by change. They are messy and dynamic, nonlinear (exhibit behavior of limited predictability), are connected to the larger environment, and can completely change state. Complex systems have no up and down, no ranking, no steps and no stages. Instead, dimension (a nonspatial category) or state (a particular combination of properties) serves to discriminate groupings of system elements and recurrent conditions.
 
 Thus, complex systems are interdependent, richly networked and characterized not by levels, but by nodes, links, and networks. Contemporary complex systems research is not a single theory; rather it aggregates several highly interdisciplinary strands of investigation that are widely applied in the biological, physical and social sciences, business, law, and elsewhere. Any single formal description of complexity is inadequate to capture all its properties (Mikulecky, 2007).
 
-#### POWER RELATIONS IN HUMAN SOCIETIES
+## POWER RELATIONS IN HUMAN SOCIETIES
 
-My interest in heterarchy arose from my discomfort with an assumption. In the social sciences the architecture of power is routinely described as hierarchical: that is, tiered and ranked. While this description may ft popular understanding, it does not capture the collective and dynamic management strategies that undergird forms of exchange in all societies. Thus, the sociopolitical structure of the so-called "complex" societies (chiefdoms and states) is assumed to be ranked or hierarchical, despite archaeological and ethnographic evidence that economic, political, and social power takes many complex forms that are not entirely hierarchical, even in nation-states.
+My interest in heterarchy arose from my discomfort with an assumption. In the social sciences the architecture of power is routinely described as hierarchical: that is, tiered and ranked. While this description may fit popular understanding, it does not capture the collective and dynamic management strategies that undergird forms of exchange in all societies. Thus, the sociopolitical structure of the so-called “complex” societies (chiefdoms and states) is assumed to be ranked or hierarchical, despite archaeological and ethnographic evidence that economic, political, and social power takes many complex forms that are not entirely hierarchical, even in nation-states.
 
-Historically this assumption has provided the intellectual and moral rationale for scientifc racism, colonialism, and other forms of domination, in that "complex" societies (e.g., nation-states) were considered more advanced than "simple" (e.g., pastoral) societies, the antidote being conquest and rehabilitation. In this guise, complexity refers to the number of levels in a control hierarchy. Hierarchy remains a controlling model: ubiquitous, unchallenged, and all but invisible (Crumley, 1987, p. 157).
+Historically this assumption has provided the intellectual and moral rationale for scientific racism, colonialism, and other forms of domination, in that “complex” societies (e.g., nation-states) were considered more advanced than
 
-All human societies are fuid, interdependent, and characterized both by levels and by richly networked nodes and links. As it happens, concepts and methods in many social sciences and in the humanities have anticipated research into complex systems; there already exist ways of gathering knowledge and recognizing patterns that move beyond the limitations of quantitative analysis and reductionist models and are prepared for the unexpected. This humanist exploration of the many dimensions of human activity and thought elegantly explores the nonlinear and ultimately unpredictable world in which we live.
+“simple” (e.g., pastoral) societies, the antidote being conquest and rehabilitation. In this guise, complexity refers to the number of levels in a control hierarchy. Hierarchy remains a controlling model: ubiquitous, unchallenged, and all but invisible (Crumley, 1987, p. 157).
 
-There is considerable evidence for heterarchical social and political formations in the past. The archaeological record records many forms of social power (Angelbeck and Grier, 2012; Chapman, 2003; Crumley, 2003; Ehrenreich *et al*., 1995; Kohring and Wynne-Jones, 2007; McIntosh, 1999). Many recent interpretive advances in archaeological theory (e.g., gender, class, and ethnicity in the archaeological record) began as a critique of assumed hierarchy in power relations.
+All human societies are fluid, interdependent, and characterized both by levels and by richly networked nodes and links. As it happens, concepts and methods in many social sciences and in the humanities have anticipated research into complex systems; there already exist ways of gathering knowledge and recognizing patterns that move beyond the limitations of quantitative analysis and reductionist models and are prepared for the unexpected. This humanist exploration of the many dimensions of human activity and thought elegantly explores the nonlinear and ultimately unpredictable world in which we live.
 
-It is particularly important to have language that permits description of how power relations change over time. How can system-wide change be understood holistically, without resorting to the simplistic notion of "collapse"? For example, what are the system-wide effects of the breakdown of elite dominance of trade? Perhaps an equally hierarchical "mafa" takes over, or perhaps a guild, or an association of independent shippers. Each potential arrangement has very different implications for the society as a whole. Understanding different distributions of power is especially important for the future, not least because the emergence of democratic institutions is among the possibilities. Heterarchies of power—coalitions, federations, leagues, associations, communities—are just as important in states as they are to nonstate polities.
+There is considerable evidence for heterarchical social and political formations in the past. The archaeological record records many forms of social power (Angelbeck and Grier, 2012; Chapman, 2003; Crumley, 2003; Ehrenreich et al., 1995; Kohring and Wynne-Jones, 2007; McIntosh, 1999). Many recent interpretive advances in archaeological theory (e.g., gender, class, and ethnicity in the archaeological record) began as a critique of assumed hierarchy in power relations.
 
-The ability to trace past societies' political forms is fundamental to understanding what factors kept the society sustainable and which led to its demise. The heterarchy/hierarchy framework, allowing a search for both these forms and their relations, introduces a means by which systemic change can be studied.
+It is particularly important to have language that permits description of how power relations change over time. How can system-wide change be understood holistically, without resorting to the simplistic notion of “collapse”? For example, what are the system-wide effects of the breakdown of elite dominance of trade? Perhaps an equally hierarchical “mafia” takes over, or perhaps a guild, or an association of independent shippers. Each potential arrangement has very different implications for the society as a whole. Understanding different distributions of power is especially important for the future, not least because the emergence of democratic institutions is among the possibilities. Heterarchies of power—coalitions, federations, leagues, associations, communities—are just as important in states as they are to nonstate polities.
 
-#### A CLOSER LOOK AT AUTHORITY STRUCTURES
+The ability to trace past societies’ political forms is fundamental to understanding what factors kept the society sustainable and which led to its demise. The heterarchy/hierarchy framework, allowing a search for both these forms and their relations, introduces a means by which systemic change can be studied.
+
+## A CLOSER LOOK AT AUTHORITY STRUCTURES
 
 It is both impractical and inaccurate to exclude such a fundamental adjustment mechanism from the characterization of any political form, however
 
-large or small its population. The more a society consolidates power and melds distinct hierarchies (e.g., religious, political, and economic) into hyperhierarchy or hypercoherence (where the same individuals, factions, or groups hold many sources of power), the less fexibility there is in dealing with surprise (Piketty, 2014).
+large or small its population. The more a society consolidates power and melds distinct hierarchies (e.g., religious, political, and economic) into hyperhierarchy or hypercoherence (where the same individuals, factions, or groups hold many sources of power), the less flexibility there is in dealing with surprise (Piketty, 2014).
 
-White (1995, p. 118) provides a useful scheme for understanding continua in the various organizational dimensions of complex societies, characterizing rules for behavior, gender relations, economy, social status, confict resolution, ideology, the relation between leaders and followers, and temporal dynamics. To this I add an examination of the contrasting conditions of decision making and clarify the relation between administrative structure and environmental stability and change. To do this, I simplify a diverse landscape of forms that characterize societies' rules of political engagement.
+White (1995, p. 118) provides a useful scheme for understanding continua in the various organizational dimensions of complex societies, characterizing rules for behavior, gender relations, economy, social status, conflict resolution, ideology, the relation between leaders and followers, and temporal dynamics. To this I add an examination of the contrasting conditions of decision making and clarify the relation between administrative structure and environmental stability and change. To do this, I simplify a diverse landscape of forms that characterize societies’ rules of political engagement.
 
-#### HIERARCHICAL POLITIES
+## Hierarchical Polities
 
 Administrators in strong hierarchies (authoritarian states, oligarchies, hyperhierarchies) have a number of advantages. Owing to a clear decision making chain, they respond well to fast-developing crises (e.g., military attack and insurrection). Because the rules and responsibilities are familiar, political interactions among decision makers are few and formalized, and political maintenance of the system is low. Administrative hierarchies are equipped with powerful security forces that can successfully defend the state perimeter and suppress internal dissent.
 
 Hierarchical polities are at a disadvantage because data-gathering techniques, tied to the pyramidal decision-making framework, slow the arrival of some kinds of information (especially subversive activity) at the apex of the pyramid and necessitate the formalization and elaboration of internal security forces. Decisions are not necessarily popular; popular dissatisfaction is high and there must be considerable investment in coercion or propaganda. Security costs are high.
 
-#### HETERARCHICAL POLITIES
+## Heterarchical Polities
 
-Administrators in polities with strong heterarchical organization receive good quality information from many sources within and outside of the decision-making lattice. In general, decisions are fair and refect popular consensus. Decision makers hear of a variety of solutions to problems. Because heterarchies are more likely to value the contributions of disparate segments of the community (women, ethnic groups, etc.), the society as a whole is better integrated and the workforce is proud and energized.
+Administrators in polities with strong heterarchical organization receive good quality information from many sources within and outside of the decision-making lattice. In general, decisions are fair and reflect popular consensus. Decision makers hear of a variety of solutions to problems. Because heterarchies are more likely to value the contributions of disparate segments of the community (women, ethnic groups, etc.), the society as a whole is better integrated and the workforce is proud and energized.
 
 Heterarchical polities are at a disadvantage because consensus is slow to achieve, increasing the time it takes to make a decision. Decision makers must engage in interpersonal dialogue with constituents; this requires considerable time and energy investment and constant maintenance. The cacophonous voices and choices a decision maker hears complicate the search for workable solutions.
 
-#### TRADE-OFFS
+TRADE-OFFS
+The greater a group’s involvement, the greater the possible response and the more inclusive the consensus, but the response time is slower and long-range planning is more difficult. Spontaneity, polyvalent individuality linked to achieved status, a counterpoised definition of state power, and flexibility are valued in heterarchies; hierarchies value rule-based authority, rigid class lines linked to ascribed as well as achieved status and rank, a control definition of state power, and the status quo. Of course, state democracies exhibit characteristics of both, which explains in part why they are more stable than authoritarian states.
 
-The greater a group's involvement, the greater the possible response and the more inclusive the consensus, but the response time is slower and long-range planning is more diffcult. Spontaneity, polyvalent individuality linked to achieved status, a counterpoised defnition of state power, and fexibility are valued in heterarchies; hierarchies value rule-based authority, rigid class lines linked to ascribed as well as achieved status and rank, a control defnition of state power, and the status quo. Of course, state democracies exhibit characteristics of both, which explains in part why they are more stable than authoritarian states.
+## CUTTING-EDGE RESEARCH
+### SOCIETY: DIVERSITY AND DYNAMICS
+What is the origin of the word heterarchy? In ancient Greek *heter-* signifies “other than usual, different” and in chemistry “atoms of different kinds.” The Archaic masculine form *heteros* means “companion.” In ancient Athens, ἑταίρα (hetaira, pl. hetairai) signifies a female companion who is not a wife. The category hetaria (*heterae*, Latin plural form) includes a variety of relationships: prostitutes, slave-girls, kept mistresses (bonded or free), concubines who would have been wives had they been citizens, private hetaerae living in their own houses, the great historic courtesans, and women who claimed equal rights to education and culture and who lived almost without reproach.
 
-#### CUTTING-EDGE RESEARCH
+In pre-Hellenistic Athens, hetaerae who were celebrated for their principles and intellect were almost invariably strangers or foreigners. Highly educated and accomplished in oratory and the arts, they held symposia and were politically influential (McClure, 2003). Misogynistic ancient Greeks constructed a new category of companion, drawn from beyond state borders, that could refresh the male spirit and intellect without endangering male hegemony. To the north and west of Greece, from as early as the Upper Paleolithic, societies employed a variety of more egalitarian political, religious, and social forms and revered individuals of many genders (Arnold & Wicker, 2001; Milledge Nelson, 2006; Thurston, 2010; Tomášková, 2013).
 
-SOCIETY: DIVERSITY AND DYNAMICS
-
-What is the origin of the word heterarchy? In ancient Greek *heter*- signifes "other than usual, different" and in chemistry "atoms of different kinds." The Archaic masculine form *heteros* means "companion." In ancient Athens, *𝜀𝜏𝛼 ̀* í*𝜌𝛼* (hetaira, pl. hetairai) signifes a female companion who is not a wife. The category hetaria (*heterae*, Latin plural form) includes a variety of relationships: prostitutes, slave-girls, kept mistresses (bonded or free), concubines who would have been wives had they been citizens, private hetaerae living in their own houses, the great historic courtesans, and women who claimed equal rights to education and culture and who lived almost without reproach.
-
-In pre-Hellenistic Athens, hetaerae who were celebrated for their principles and intellect were almost invariably strangers or foreigners. Highly educated and accomplished in oratory and the arts, they held symposia and were politically infuential (McClure, 2003). Misogynistic ancient Greeks constructed a new category of companion, drawn from beyond state borders, that could refresh the male spirit and intellect without endangering male hegemony. To the north and west of Greece, from as early as the Upper Paleolithic, societies employed a variety of more egalitarian political, religious, and social forms and revered individuals of many genders (Arnold & Wicker, 2001; Milledge Nelson, 2006; Thurston, 2010; Tomášková, 2013).
-
-How were the deep roots of sex and gender equity and inequity in many societies formed? What are the roles of political economy and private property? How have these traditions been shaped by shifting social, political, religious, and environmental conditions? Engels (2004 [1884]) argued that women were the frst oppressed class but while, unfortunately, the status of women remains an easy way to assess social inequity, women are not alone in oppression. Moral justifcations for economic, religious, and other inequalities are everywhere. What can investigation of women's oppression contribute to visions of an equitable human future for all?
+How were the deep roots of sex and gender equity and inequity in many societies formed? What are the roles of political economy and private property? How have these traditions been shaped by shifting social, political, religious, and environmental conditions? Engels (2004 [1884]) argued that women were the first oppressed class but while, unfortunately, the status of women remains an easy way to assess social inequity, women are not alone in oppression. Moral justifications for economic, religious, and other inequalities are everywhere. What can investigation of women’s oppression contribute to visions of an equitable human future for all?
 
 In many ways, cultural diversity has a dynamic similar to biological diversity, in that innovations (mutations) are tempered by the environment in which they are produced, which for humans includes frameworks of rules and norms. Cultural change necessitates the constant reshaping of traditions, values, memories, and experiences. Can novel perspectives on the architecture of power shift perceptions, increasing equity and diversity in societies of the future?
 
-POLITICS: GOVERNING THE COMMONS
+## Politics: Governing the Commons
 
-The idea of humanity's steady social Progress—from a distant, chaotic, and leaderless past to socially stratifed nation-states governed by elites persisted, essentially unchallenged, from Classical times well into the twentieth century. Even populist uprisings (such as the American and French revolutions) did not seriously challenge the perceived correctness of elite governance and the righteous power of market forces.
+The idea of humanity’s steady social Progress—from a distant, chaotic, and leaderless past to socially stratified nation-states governed by elites—persisted, essentially unchallenged, from Classical times well into the twentieth century. Even populist uprisings (such as the American and French revolutions) did not seriously challenge the perceived correctness of elite governance and the righteous power of market forces.
 
-As Scott (1987, 1999, 2012) demonstrates in his analysis of progress—and simplifcation-driven goals of the state, governing elites devalue local knowledge and undermine individuals' capacities for self-governance. This hyper-hierarchical, social engineering perspective values regularity as a precondition of effciency; nonetheless the population can make its resistance felt through increased networking and with representative institutions.
+As Scott (1987, 1999, 2012) demonstrates in his analysis of progress—and simplification-driven goals of the state, governing elites devalue local knowledge and undermine individuals’ capacities for self-governance. This hyper-hierarchical, social engineering perspective values regularity as a precondition of efficiency; nonetheless the population can make its resistance felt through increased networking and with representative institutions.
 
-Following statist economic theories, Hardin (1968) famously asserted that individual self-interest undermines communal action. Hardin's article in *Science* stimulated controversy and considerable research; now there is abundant evidence that, throughout human history and to the present day, communities have found ways to organize their collective and individual tasks without central authority (Crumley, 2005; Kohring and Wynne-Jones, 2007; Lindholm *et al.,* 2013; Netting, 1981, 1993; Ostrom, 1990).
+Following statist economic theories, Hardin (1968) famously asserted that individual self-interest undermines communal action. Hardin’s article in *Science* stimulated controversy and considerable research; now there is abundant evidence that, throughout human history and to the present day, communities have found ways to organize their collective and individual tasks without central authority (Crumley, 2005; Kohring and Wynne-Jones, 2007; Lindholm et al., 2013; Netting, 1981, 1993; Ostrom, 1990).
 
-The form of governance of such communities and polities goes by many names: anarchist, collective, communitarian, and many others. Of particular recent interest are communities that successfully manage common pool (jointly held) resources. Eleanor Ostrom and other scholars have identifed "design principles" of stable common pool resource management that include local knowledge, effective communication, clear rules, monitoring, sanctions, paths for confict resolution, internal trust and recognition of self-determination by higher-level authorities. These are principles that apply equally to anarchist squats, agricultural collectives, and community gardens.
+The form of governance of such communities and polities goes by many names: anarchist, collective, communitarian, and many others. Of particular recent interest are communities that successfully manage common pool (jointly held) resources. Eleanor Ostrom and other scholars have identified “design principles” of stable common pool resource management that
 
-The historic, dialectical relationships between hierarchical and heterarchical forms has been explored in many regions of the world. The next steps are to extract—as did Ostrom—this knowledge from the past and the present, and to learn how to grow and integrate such enterprises and organizations into frameworks that include both ranked and nested structures along with those that are fatter and networked.
+include local knowledge, effective communication, clear rules, monitoring, sanctions, paths for conflict resolution, internal trust and recognition of self-determination by higher-level authorities. These are principles that apply equally to anarchist squats, agricultural collectives, and community gardens.
 
-## ECOLOGY: INTEGRATED COMPLEX SYSTEMS
+The historic, dialectical relationships between hierarchical and heterarchical forms has been explored in many regions of the world. The next steps are to extract—as did Ostrom—this knowledge from the past and the present, and to learn how to grow and integrate such enterprises and organizations into frameworks that include both ranked and nested structures along with those that are flatter and networked.
 
-An exciting approach to the integration of several theoretical frameworks into the study of complex systems comes from forest ecology (Perz and Almeyda, 2010). The authors describe a tripartite framework (hierarchy-panarchy-heterarchy) to study change in land use and land cover (LULCC), focusing on causation as regards secondary forest growth. The framework combines hierarchy theory from landscape ecology, heterarchy from archaeology and the sociology of management, the concepts of "adaptive cycles" and "panarchy" from complex systems theory, and the history of land use and its ecological consequences—termed *historical ecology*—from anthropology and ecology.
+## Ecology: Integrated Complex Systems
 
-At frst glance it would seem that a forest may not be the best place to integrate human activity with that of the environment. However, even old growth forests are not pristine; essentially all contemporary forests are the result of past and present human activity. Furthermore, forests teem with human and nonhuman agents that can instigate or precipitate change along many parameters. Beyond the forest but impacting it are affected communities; many tiers of governance (often contested mosaics); heritage, spiritual, and environmental NGOs; and multinational corporations that create and feed commercial demand.
+An exciting approach to the integration of several theoretical frameworks into the study of complex systems comes from forest ecology (Perz and Almeyda, 2010). The authors describe a tripartite framework (hierarchy-panarchy-heterarchy) to study change in land use and land cover (LULCC), focusing on causation as regards secondary forest growth. The framework combines hierarchy theory from landscape ecology, heterarchy from archaeology and the sociology of management, the concepts of “adaptive cycles” and “panarchy” from complex systems theory, and the history of land use and its ecological consequences—termed *historical ecology*—from anthropology and ecology.
+
+At first glance it would seem that a forest may not be the best place to integrate human activity with that of the environment. However, even old growth forests are not pristine; essentially all contemporary forests are the result of past and present human activity. Furthermore, forests teem with human and nonhuman agents that can instigate or precipitate change along many parameters. Beyond the forest but impacting it are affected communities; many tiers of governance (often contested mosaics); heritage, spiritual, and environmental NGOs; and multinational corporations that create and feed commercial demand.
 
 The integration of environment with society is facilitated by parallels: key features in complex biophysical systems—integration, communication, history/initial conditions—correspond to key features of social systems—the holistic nature of culture, knowledge sharing through the senses, and the formative power of traditions, structures and materials, strategies, and habits of mind.
 
-Taken together, the forest and its drivers constitute a complex system with nonlinear, emergent properties that limit predictability. In order to understand what happened in the past it is usual to establish a chain of events that allows generalization. Yet a complex adaptive system is the sum of many events and properties that operate at various temporal and spatial scales, termed its *system history*.
+Taken together, the forest and its drivers constitute a complex system with nonlinear, emergent properties that limit predictability. In order to understand what happened in the past it is usual to establish a chain of
+
+events that allows generalization. Yet a complex adaptive system is the sum of many events and properties that operate at various temporal and spatial scales, termed its *system history*.
 
 The analysis of causation in complex systems is possible, but requires new methods such as those proposed by Perz and Almeyda. Researchers have used counterfactual and process theories to approach the problem. In what he terms *Root Cause Analysis*, Wilson (1993) argues that it is not necessary to trace cause-and-effect within a system if the goal is to understand its behavior relative to other entities. The focus should be on understanding how the system operates as a whole.
 
 ## KEY ISSUES FOR FUTURE RESEARCH
 
-In all societies, the power of various individuals and factions fuctuates relative to changing circumstances. Today, as resources worldwide are being depleted and environmental conditions deteriorate, new ways to stabilize societies and reduce confict must be found. One of the most important conditions for reducing confict is to ensure inclusive and equitable conditions for everyone, particularly as regards food and water security, personal and group safety, and a satisfying quality of life. Created in the process of building nation-states around the globe, analytic tools that measure effciency illuminate only hierarchical political, economic, and social forms and ignore the stabilizing power of heterarchical forms; thus hyperhierarchical and other inherently unstable forms of wealth distribution and political power accumulate. The controlling model of hierarchy-as-order, ubiquitous and all but invisible, threatens to exacerbate growing tensions.
+In all societies, the power of various individuals and factions fluctuates relative to changing circumstances. Today, as resources worldwide are being depleted and environmental conditions deteriorate, new ways to stabilize societies and reduce conflict must be found. One of the most important conditions for reducing conflict is to ensure inclusive and equitable conditions for everyone, particularly as regards food and water security, personal and group safety, and a satisfying quality of life. Created in the process of building nation-states around the globe, analytic tools that measure efficiency illuminate only hierarchical political, economic, and social forms and ignore the stabilizing power of heterarchical forms; thus hyperhierarchical and other inherently unstable forms of wealth distribution and political power accumulate. The controlling model of hierarchy-as-order, ubiquitous and all but invisible, threatens to exacerbate growing tensions.
 
-In nonlinear systems, heterarchy is related to symmetry-breaking, a key feature and source of novelty in evolution. In human societies, heterarchy is a corrective to power theories that confate hierarchy with (civil) order, thereby creating a conundrum: will you submit and be safe or resist at your peril? To reenvision an equitable future for humankind, there must be a means to conceptualize and evaluate shifts between exclusive and inclusive power relations in diverse contexts and at every spatial scale, and to assess their implications for society and their suitability for the future.
+In nonlinear systems, heterarchy is related to symmetry-breaking, a key feature and source of novelty in evolution. In human societies, heterarchy is a corrective to power theories that conflate hierarchy with (civil) order, thereby creating a conundrum: will you submit and be safe or resist at your peril? To reenvision an equitable future for humankind, there must be a means to conceptualize and evaluate shifts between exclusive and inclusive power relations in diverse contexts and at every spatial scale, and to assess their implications for society and their suitability for the future.
 
-Archaeological, ethnographic, and documentary evidence demonstrates great organizational diversity in powerful societies; in North America alone, indigenous Cherokee, Coast Salish, and Iroquois polities utilized careful checks and balances that resulted in "pear shaped" and other organizational forms in which more individuals, groups, and communities could beneft. In the contemporary world, how can the equity and effectiveness of coalitions, federations, leagues, unions, and communities in societies of all sizes help envision societies of the future? How could the Earth—the complex adaptive system hurtling through space upon which humans and all other living things exist—have a more stable future?
+Archaeological, ethnographic, and documentary evidence demonstrates great organizational diversity in powerful societies; in North America alone, indigenous Cherokee, Coast Salish, and Iroquois polities utilized careful checks and balances that resulted in “pear shaped” and other organizational forms in which more individuals, groups, and communities could benefit. In the contemporary world, how can the equity and effectiveness of coalitions, federations, leagues, unions, and communities in societies of all sizes help envision societies of the future? How could the Earth—the complex adaptive
 
-### REFERENCES
+system hurtling through space upon which humans and all other living things exist—have a more stable future?
 
-- Agrawal, A. (2003). Sustainable governance of common-pool resources: Context, methods, and politics. *Annual Review of Anthropology*, *32*, 243–262.
-- Ahl, V., & Allen, T. F. H. (1996). *Hierarchy theory, a vision, vocabulary and epistemology*. New York, NY: Columbia University Press.
-- Allen, T. F. H., & Starr, T. B. (1982). *Hierarchy: Perspectives for ecological complexity*. Chicago, IL: University Chicago Press.
-- Angelbeck, B., & Grier, C. (2012). Anarchism and the archaeology of anarchic societies: Resistance to centralization in the Coast Salish Region of the Pacifc Northwest Coast. *Current Anthropology*, *53*(5), 547–587.
-- Arnold, B., & Wicker, N. L. (Eds.) (2001). *Gender and the archaeology of death*. Walnut Creek, CA: AltaMira Press.
-- Bateson, G. (1972). *Steps toward an ecology of mind*. New York, NY: Ballantine.
-- Bondarenko, D. M. (2007). What is there in a word? Heterarchy, homoarchy and the difference in understanding complexity in the social sciences and complexity studies. In K. A. Richardson & P. Cilliers (Eds.), *Explorations in complexity thinking: Pre-proceedings of the 3rd international workshop on complexity and philosophy* (pp. 35–48). Mansfeld, MA: ISCE Publishing.
-- Byrne, D. (1998). *Complexity theory and the social sciences: An introduction*. London, England: Routledge.
-- Chapman, R. (2003). *Archaeologies of complexity*. London, England: Routledge.
-- Crumley, C. L. (1979). Three locational models: An epistemological assessment for anthropology and archaeology. In M. B. Schiffer (Ed.), *Advances in archaeological method and theory* (pp. 141–173). New York, NY: Academic Press.
-- Crumley, C. L. (1987). A dialectical critique of hierarchy. In T. C. Patterson & C. W. Gailey (Eds.), *Power relations and state formation* (pp. 155–168). Washington, DC: American Anthropological Association.
-- Crumley, C. L. (1995). Heterarchy and the analysis of complex societies. In R. M. Ehrenreich, C. L. Crumley & J. E. Levy (Eds.), *Heterarchy and the analysis of complex societies*. Washington, DC: American Anthropological Association.
-- Crumley, C. L. (2003). Alternative forms of societal order. In V. Scarborough, F. Jr. Valdez & N. Dunning (Eds.), *Heterarchy, political economy, and the Ancient Maya: The three rivers region of the East-Central Yucatan Peninsula* (pp. 136–145). Tucson: University of Arizona Press.
-- Crumley, C. L. (2005). Remember how to organize: Heterarchy across disciplines. In C. S. Beekman & W. S. Baden (Eds.), *Nonlinear models for archaeology and anthropology* (pp. 35–50). Aldershot, England: Ashgate Press.
-- De Landa, M. (1997). *A thousand years of non-linear history*. New York, NY: Zone Books. Ehrenreich, R. M., Crumley, C. L., & Levy, J. E. (Eds.) (1995). *Heterarchy and the analysis of complex societies* (Archaeological Papers of the American Anthropological Association no. 6). Washington, DC: American Anthropological Association.
+## REFERENCES
 
-- Engels, F. (2004 [1884]). *The origin of the family, private property, and the state*. Broadway NSW: Resistance Books.
-- Graeber, D. (2004). *Fragments of an anarchist anthropology*. Chicago, IL: Prickly Paradigm Press (distributed by University of Chicago Press).
-- Gunderson, L., & Holling, C. S. (2001). *Panarchy: Understanding transformations in systems of humans and nature*. Washington, DC: Island Press.
-- Hardin, G. (1968, December 13). The tragedy of the commons. *Science (AAAS)*, *162*(3859), 1243–1248. doi:10.1126/science.162.3859.1243
-- Harvey, D. L., & Reed, M. (1996). Social science as the study of complex systems. In L. D. Kiel & E. Elliott (Eds.), *Chaos theory in the social sciences: Foundations and applications*. Ann Arbor: University of Michigan Press.
-- Hofstadter, D. (1979). *Godel, Escher, Bach: An eternal golden braid*. New York, NY: Basic Books.
-- Jantsch, E. (1982). From self-reference to self-transcendence: The evolution of self-organization dynamics. In W. C. Schieve & P. M. Allen (Eds.), *Self-organization and dissipative structures: Applications in the physical and social sciences* (pp. 344–361). Austin: University of Texas Press.
-- Kohring, S., & Wynne-Jones, S. (2007). *Socialising complexity: Structure, interaction and power in archaeological discourse*. Oxford, England: Oxbow Books.
-- Kontopolous, K. (1993). *The logics of social structure*. New York, NY: Cambridge University Press.
-- Lindholm, K.-J., Sandström, E., & Ekman, A.-K. (2013). The archaeology of the commons. *Journal of Archaeology and Ancient History*, *10*, 1–49.
-- McClure, L. K. (2003). *Courtesans at table: Gender and Greek literary culture in Athenaeus*. New York, NY: Routledge.
-- McCulloch, W. S. (1945). A heterarchy of values determined by the topology of nervous nets. *Bulletin of Mathematical Biophysics*, *7*, 89–93.
-- McCulloch, W. S. (1989). *Embodiments of mind*. Cambridge, MA: MIT Press.
-- McIntosh, S. K. (1999). *Beyond chiefdoms: Pathways to complexity in Africa*. Cambridge, England: Cambridge University Press.
-- Mikulecky, D. C. (2007). Complexity science as an aspect of the complexity of science. In C. Gershenson, D. Aerts & B. Edmonds (Eds.), *Worldviews, science, and us: Philosophy and complexity* (pp. 30–52). Singapore: World Scientifc Publishing Co.
-- Milledge Nelson, S. (Ed.) (2006). *Handbook of gender in archaeology*. Lanham, MD: AltaMira Press.
-- Minsky, M., & Papert, S. (1972). *Artifcial intelligence progress report (AI Memo 252)*. Cambridge, MA: MIT Artifcial Intelligence Laboratory.
-- Mithen, S. (1996). *The prehistory of the mind: The cognitive origins of art, religion and science*. London, England: Thames and Hudson.
-- Mouzelis, N. (1995). *Sociological theory: What went wrong?* London, England: Routledge.
-- Netting, R. M. (1981). *Balancing on an Alp: Ecological change and continuity in a Swiss Mountain Community*. Cambridge, England: Cambridge University Press.
-- Netting, R. M. (1993). *Smallholders, householders; Farm families and the ecology of intensive, sustainable agriculture*. Stanford, CA: Stanford University Press.
+Agrawal, A. (2003). Sustainable governance of common-pool resources: Context, methods, and politics. *Annual Review of Anthropology*, 32, 243–262.
 
-- Ostrom, E. (1990). *Governing the commons: The evolution of institutions for collective action*. Cambridge, England: Cambridge University Press.
-- Perz, S. G., & Almeyda, A. M. (2010). A Tri-Partite framework of forest dynamics: Hierarchy, panarchy and heterarchy in the study of secondary growth. In H. Nagendra & J. Southworth (Eds.), *Reforesting landscapes, linking pattern and process*. Landscape Series (Vol. 10, pp. 59–84). New York, NY: Springer.
-- Piketty, T. (2014). *Capital in the twenty-frst century*. Cambridge, MA: Harvard University Press.
-- Pourdavood, R. G. (1997). Chaos, complexity, and learning community: What do they mean for education? *The School Community Journal*, *7*(2), 57–64.
-- Scott, J. C. (1987). *Weapons of the weak: Everyday forms of peasant resistance*. New Haven, CT: Yale University Press.
-- Scott, J. C. (1999). *Seeing like a state: How certain schemes to improve the human condition have failed*. New Haven, CT: Yale University Press.
-- Scott, J. C. (2012). *Two cheers for anarchism: Six easy pieces on autonomy, dignity, and meaningful work and play*. Princeton, NJ: Princeton University Press.
-- Stark, D. (2001). Ambiguous assets for uncertain environments: Heterarchy in postsocialist frms. In P. DiMaggio (Ed.), *The twenty-frst-century frm: Changing economic organization in international perspective* (pp. 69–104). Princeton, NJ: Princeton University Press.
-- Stark, D. (2009). *The sense of dissonance: Accounts of worth in economic life*. Princeton, NJ: Princeton University Press.
-- Thurston, T. L. (2010). Bitter arrows and generous gifts: What was a King in the European Iron Age? In T. D. Price & G. M. Feinman (Eds.), *Pathways to power new perspectives on the emergence of social inequality* (pp. 193–254). New York, NY: Springer Scientifc Publishing.
-- Tomášková, S. (2013). *Wayward shamans: The prehistory of an idea*. Oakland: University of California Press.
-- Von Goldammer, E., Paul, J., & Newbury, J. (2003). Heterarchy-hierarchy: Two complementary categories of description. *Vordenker: Webforum for Innovative Approaches in Sciences, Economy and Culture*. http://www.vordenker.de
-- White, J. C. (1995). Incorporating Heterarchy into Theory on Socio-political Development: The Case from Southeast Asia. In R. M. Ehrenreich, C. L. Crumley & J. E. Levy (Eds.), *Heterarchy and the Analysis of Complex Societies* (*AP3A: Archaeological Papers of the American Anthropological Association,* Number 6). Washington, DC: American Anthropological Association.
-- Wilson, P. F. (1993). *Root cause analysis: A tool for total quality management*. Milwaukee, WI: ASQ Quality Press.
+Ahl, V., & Allen, T. F. H. (1996). *Hierarchy theory, a vision, vocabulary and epistemology*. New York, NY: Columbia University Press.
 
-#### CAROLE L. CRUMLEY SHORT BIOGRAPHY
+Allen, T. F. H., & Starr, T. B. (1982). *Hierarchy: Perspectives for ecological complexity*. Chicago, IL: University Chicago Press.
 
-**Carole L. Crumley** received her BA in anthropology, with minors in geology and classics, from the University of Michigan at Ann Arbor; her MA in archaeology from the University of Calgary in Alberta, Canada; and her
+Angelbeck, B., & Grier, C. (2012). Anarchism and the archaeology of anarchic societies: Resistance to centralization in the Coast Salish Region of the Pacific Northwest Coast. *Current Anthropology*, 53(5), 547–587.
+
+Arnold, B., & Wicker, N. L. (Eds.) (2001). *Gender and the archaeology of death*. Walnut Creek, CA: AltaMira Press.
+
+Bateson, G. (1972). *Steps toward an ecology of mind*. New York, NY: Ballantine.
+
+Bondarenko, D. M. (2007). What is there in a word? Heterarchy, homoarchy and the difference in understanding complexity in the social sciences and complexity studies. In K. A. Richardson & P. Cilliers (Eds.), *Explorations in complexity thinking: Pre-proceedings of the 3rd international workshop on complexity and philosophy* (pp. 35–48). Mansfield, MA: ISCE Publishing.
+
+Byrne, D. (1998). *Complexity theory and the social sciences: An introduction*. London, England: Routledge.
+
+Chapman, R. (2003). *Archaeologies of complexity*. London, England: Routledge.
+
+Crumley, C. L. (1979). Three locational models: An epistemological assessment for anthropology and archaeology. In M. B. Schiffer (Ed.), *Advances in archaeological method and theory* (pp. 141–173). New York, NY: Academic Press.
+
+Crumley, C. L. (1987). A dialectical critique of hierarchy. In T. C. Patterson & C. W. Gailey (Eds.), *Power relations and state formation* (pp. 155–168). Washington, DC: American Anthropological Association.
+
+Crumley, C. L. (1995). Heterarchy and the analysis of complex societies. In R. M. Ehrenreich, C. L. Crumley & J. E. Levy (Eds.), *Heterarchy and the analysis of complex societies*. Washington, DC: American Anthropological Association.
+
+Crumley, C. L. (2003). Alternative forms of societal order. In V. Scarborough, F. Jr. Valdez & N. Dunning (Eds.), *Heterarchy, political economy, and the Ancient Maya: The three rivers region of the East-Central Yucatan Peninsula* (pp. 136–145). Tucson: University of Arizona Press.
+
+Crumley, C. L. (2005). Remember how to organize: Heterarchy across disciplines. In C. S. Beekman & W. S. Baden (Eds.), *Nonlinear models for archaeology and anthropology* (pp. 35–50). Aldershot, England: Ashgate Press.
+
+De Landa, M. (1997). *A thousand years of non-linear history*. New York, NY: Zone Books.
+
+Ehrenreich, R. M., Crumley, C. L., & Levy, J. E. (Eds.) (1995). *Heterarchy and the analysis of complex societies* (Archaeological Papers of the American Anthropological Association no. 6). Washington, DC: American Anthropological Association.
+
+Engels, F. (2004 [1884]). *The origin of the family, private property, and the state*. Broadway NSW: Resistance Books.
+
+Graeber, D. (2004). *Fragments of an anarchist anthropology*. Chicago, IL: Prickly Paradigm Press (distributed by University of Chicago Press).
+
+Gunderson, L., & Holling, C. S. (2001). *Panarchy: Understanding transformations in systems of humans and nature*. Washington, DC: Island Press.
+
+Hardin, G. (1968, December 13). The tragedy of the commons. *Science (AAAS)*, 162(3859), 1243–1248. doi:10.1126/science.162.3859.1243
+
+Harvey, D. L., & Reed, M. (1996). Social science as the study of complex systems. In L. D. Kiel & E. Elliott (Eds.), *Chaos theory in the social sciences: Foundations and applications*. Ann Arbor: University of Michigan Press.
+
+Hofstadter, D. (1979). *Godel, Escher, Bach: An eternal golden braid*. New York, NY: Basic Books.
+
+Jantsch, E. (1982). From self-reference to self-transcendence: The evolution of self-organization dynamics. In W. C. Schieve & P. M. Allen (Eds.), *Self-organization and dissipative structures: Applications in the physical and social sciences* (pp. 344–361). Austin: University of Texas Press.
+
+Kohring, S., & Wynne-Jones, S. (2007). *Socialising complexity: Structure, interaction and power in archaeological discourse*. Oxford, England: Oxbow Books.
+
+Kontopolous, K. (1993). *The logics of social structure*. New York, NY: Cambridge University Press.
+
+Lindholm, K.-J., Sandström, E., & Ekman, A.-K. (2013). The archaeology of the commons. *Journal of Archaeology and Ancient History*, 10, 1–49.
+
+McClure, L. K. (2003). *Courtesans at table: Gender and Greek literary culture in Athenaeus*. New York, NY: Routledge.
+
+McCulloch, W. S. (1945). A heterarchy of values determined by the topology of nervous nets. *Bulletin of Mathematical Biophysics*, 7, 89–93.
+
+McCulloch, W. S. (1989). *Embodiments of mind*. Cambridge, MA: MIT Press.
+
+McIntosh, S. K. (1999). *Beyond chiefdoms: Pathways to complexity in Africa*. Cambridge, England: Cambridge University Press.
+
+Mikulecky, D. C. (2007). Complexity science as an aspect of the complexity of science. In C. Gershenson, D. Aerts & B. Edmonds (Eds.), *Worldviews, science, and us: Philosophy and complexity* (pp. 30–52). Singapore: World Scientific Publishing Co.
+
+Milledge Nelson, S. (Ed.) (2006). *Handbook of gender in archaeology*. Lanham, MD: AltaMira Press.
+
+Minsky, M., & Papert, S. (1972). *Artificial intelligence progress report (AI Memo 252)*. Cambridge, MA: MIT Artificial Intelligence Laboratory.
+
+Mithen, S. (1996). *The prehistory of the mind: The cognitive origins of art, religion and science*. London, England: Thames and Hudson.
+
+Mouzelis, N. (1995). *Sociological theory: What went wrong?* London, England: Routledge.
+
+Netting, R. M. (1981). *Balancing on an Alp: Ecological change and continuity in a Swiss Mountain Community*. Cambridge, England: Cambridge University Press.
+
+Netting, R. M. (1993). *Smallholders, householders; Farm families and the ecology of intensive, sustainable agriculture*. Stanford, CA: Stanford University Press.
+
+Ostrom, E. (1990). *Governing the commons: The evolution of institutions for collective action*. Cambridge, England: Cambridge University Press.
+
+Perz, S. G., & Almeyda, A. M. (2010). A Tri-Partite framework of forest dynamics: Hierarchy, panarchy and heterarchy in the study of secondary growth. In H. Nagendra & J. Southworth (Eds.), *Reforesting landscapes, linking pattern and process*. Landscape Series (Vol. 10, pp. 59–84). New York, NY: Springer.
+
+Piketty, T. (2014). *Capital in the twenty-first century*. Cambridge, MA: Harvard University Press.
+
+Pourdavood, R. G. (1997). Chaos, complexity, and learning community: What do they mean for education? *The School Community Journal*, 7(2), 57–64.
+
+Scott, J. C. (1987). *Weapons of the weak: Everyday forms of peasant resistance*. New Haven, CT: Yale University Press.
+
+Scott, J. C. (1999). *Seeing like a state: How certain schemes to improve the human condition have failed*. New Haven, CT: Yale University Press.
+
+Scott, J. C. (2012). *Two cheers for anarchism: Six easy pieces on autonomy, dignity, and meaningful work and play*. Princeton, NJ: Princeton University Press.
+
+Stark, D. (2001). Ambiguous assets for uncertain environments: Heterarchy in post-socialist firms. In P. DiMaggio (Ed.), *The twenty-first-century firm: Changing economic organization in international perspective* (pp. 69–104). Princeton, NJ: Princeton University Press.
+
+Stark, D. (2009). *The sense of dissonance: Accounts of worth in economic life*. Princeton, NJ: Princeton University Press.
+
+Thurston, T. L. (2010). Bitter arrows and generous gifts: What was a King in the European Iron Age? In T. D. Price & G. M. Feinman (Eds.), *Pathways to power new perspectives on the emergence of social inequality* (pp. 193–254). New York, NY: Springer Scientific Publishing.
+
+Tomášková, S. (2013). *Wayward shamans: The prehistory of an idea*. Oakland: University of California Press.
+
+Von Goldammer, E., Paul, J., & Newbury, J. (2003). Heterarchy-hierarchy: Two complementary categories of description. *Vordenker: Webforum for Innovative Approaches in Sciences, Economy and Culture*. http://www.vordenker.de
+
+White, J. C. (1995). Incorporating Heterarchy into Theory on Socio-political Development: The Case from Southeast Asia. In R. M. Ehrenreich, C. L. Crumley & J. E. Levy (Eds.), *Heterarchy and the Analysis of Complex Societies* (AP3A: Archaeological Papers of the American Anthropological Association, Number 6). Washington, DC: American Anthropological Association.
+
+Wilson, P. F. (1993). *Root cause analysis: A tool for total quality management*. Milwaukee, WI: ASQ Quality Press.
+
+## CAROLE L. CRUMLEY SHORT BIOGRAPHY
+
+Carole L. Crumley received her BA in anthropology, with minors in geology and classics, from the University of Michigan at Ann Arbor; her MA in archaeology from the University of Calgary in Alberta, Canada; and her
 
 PhD in anthropology, with a minor in ecology from the University of Wisconsin-Madison. A pioneer in the practice of historical ecology and landscape archaeology, she is Professor of Anthropology (Emerita) at the University of North Carolina, Chapel Hill (USA). She leads the international Integrated History and Future of People on Earth (IHOPE) initiative ihopenet.org hosted by Uppsala University in Sweden. There she is Senior Professor; she is also visiting Professor at the Centre for Biodiversity, Swedish Agricultural University (Uppsala). She leads a research group that studies long-term landscape change in Burgundy, France; a second project there examines contemporary French agriculture, where historically resilient farms and landscapes are losing the biodiversity and practical knowledge that ensures their long-term survival.
 
-#### RELATED ESSAYS
+## RELATED ESSAYS
 
-Complexity: An Emerging Trend in Social Sciences *(Anthropology)*, J. Stephen Lansing
+Complexity: An Emerging Trend in Social Sciences (*Anthropology*), J. Stephen Lansing
+From Individual Rationality to Socially Embedded Self-Regulation (*Sociology*), Siegwart Lindenberg
 
-From Individual Rationality to Socially Embedded Self-Regulation *(Sociology)*, Siegwart Lindenberg
+## Notes
+
+[^1]: Emerging Trends in the Social and Behavioral Sciences. Edited by Robert Scott and Stephen Kosslyn. © 2015 John Wiley & Sons, Inc. ISBN 978-1-118-90077-2.

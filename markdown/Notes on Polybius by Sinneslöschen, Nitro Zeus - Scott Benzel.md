@@ -1,530 +1,453 @@
-9/7/25, 11:24 AM 
+# Polybius by Sinneslöschen, Nitro Zeus
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+Notes on Memesis and Death
 
-Sha 
+SCOTT BENZEL
+FEB 07, 2025
 
-## Polybius by Sinneslöschen, Nitro Zeus 
+![A painting by Nicolas Poussin, Et in Arcadia Ego, with a Polybius arcade game screen superimposed over the tomb.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p1-i1.png)
 
-Notes on Memesis and Death 
+> **Caption:** Polybius / Nicolas Poussin, Et in Arcadia Ego, 1637-38
+> **Figure text:** POLYBIUS © 1981 SINNESLÖSCHEN, INC.
 
-SCOTT BENZEL FEB 07, 2025 
+...in tragedy the plausible takes precedence, even if it is false so as to deceive the spectators, while in history the truth takes precedence to benefit the hearer. – Polybius
 
-Polybius / Nicolas Poussin, _Et in Arcadia Ego_ , 1637-38 
+Bearing cryptic Hellenistic/pseudo-Germanic/quasi-scientific portmanteaus and shadowy RumINT (Rumor Intelligence) pedigrees, *Polybius* by Sinneslöschen, the (likely non-existent) 1981 arcade game/psyop that surfaced on retro gaming site coinop.org in 2000 (or 1998, or 1999...) and *Nitro Zeus*, the massive (possibly non-existent) cyberwar (psywar) program disclosed by an anonymous NSA operator in Alex Gibney’s documentary *Zero Days* (2016) radiate a darkly cryptogenic op-glamor. The historical Polybius, a well born Greek who lived as a captive of Rome and was the progenitor of modern historiography, would have been mystified by the chaosmic epistemic vertigo that these events/assemblages/campaigns opened up and that continue to resonate in the state-sponsored disinformation / surveillance landscape: the “influence campaigns”, PO (psychological operations), and TAO (tailored access operations) of DARPA’s *SMISC* and *INCAS*, GCHQ’s *JTRIG*, and DoD’s *PSYWAR* programs.
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+There is an uncanny inverse symmetry, almost a topological reverse-image (think the inside of a Halloween mask), between Polybius’s insistence on facticity and the persistent RumINT and likely non-existence of his namesake machine.
 
-1/37 
+*Nitro Zeus* is even stranger, with a largely unknown genesis, questionable attribution, and (beneath surface rationalizations) unknown targets and goals–likely/known targets include: Iranian technicians duped into bridging multiple airgaps and injecting society-killing levels of malware into their infrastructure, industrial manufacturers infiltrated with critical components compromised; the Iranian state apparatus. Goal: cyberkinetic attack crippling critical infrastructure or RumINT ruse fueled by an anonymous interview in a mainstream documentary after mention in an intelligence-connected journalist’s book on cyberwar? Or inexpensive variant of cyberwar, RumWAR? Proof-of-concept cyber-deterrence? More possible/likely targets: The
 
-9/7/25, 11:24 AM 
+Iranian population? The U.S. domestic audience? Hackers/cybersecurity profession (recruiting, deterrence)? The international audience (deterrence)...and so on and so
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+## Polybius’s Histories v. laodogmatika
 
-## …in tragedy the plausible takes precedence, even if it is false so as to deceive the spectators, while in history the truth takes precedence to benefit the hearer. – Polybius 
+![Title page of a 1548 edition of Polybius's Historiographi](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p3-i1.png)
+> **Caption:** Polybius, Historiographii, 1806 Italian edition
+> **Figure text:** P O L Y B I I . H I - 1806 S T O R I O G R A P H I H I S T O R I A R V M L I B R I Q V I N Q V E , Nicolao Perotto, in-terprete. V I R T V T E D V C E , C O M I T E F O R T V N A . A P V D S E B . G R Y - P H I V M L V - G D V N I , 1548.
 
-Bearing cryptic Hellenistic/pseudo-Germanic/quasi-scientific portmanteaus and shadowy RumINT (Rumor Intelligence) pedigrees, _Polybius_ by Sinneslöschen, the (likely non-existent) 1981 arcade game/psyop that surfaced on retro gaming site _coinop.org_ in 2000 (or 1998, or 1999…) and _Nitro Zeus_ , the massive (possibly non-existe cyberwar (psywar) program disclosed by an anonymous NSA operator in Alex Gibne documentary _Zero Days_ (2016) radiate a darkly cryptogenic op-glamor _._ The historica Polybius, a well born Greek who lived as a captive of Rome and was the progenitor modern historiography, would have been mystified by the chaosmic epistemic verti that these events/assemblages/campaigns opened up and that continue to resonate i the state-sponsored disinformation / surveillance landscape: the “influence campaigns”, PO (psychological operations), and TAO (tailored access operations) of DARPA’s _SMISC_ and _INCAS_ , GCHQ’s _JTRIG_ , and DoD’s _PSYWAR_ programs. 
+Polybius, born around 208 BCE in Megalopolis, Arcadia, was a historian, proto-historiographer, and proto-cryptographer who began his adult life as a statesman and *hipparchas* (cavalryman). Well born son of an Achaean *strategos* (general) who possibly bore sentiments against Rome, Polybius, along with 1000 other Achaeans, was taken hostage and held by Rome for 17 years in the wake of the Third Macedonian War.
 
-There is an uncanny inverse symmetry, almost a topological reverse-image (think th inside of a Halloween mask), between Polybius’s insistence on facticity and the persistent RumINT and likely non-existence of his namesake machine. 
+Taken in by the Roman Consul Scipio, Polybius was allowed to travel while remaining a captive and witnessed the Punic wars and the sack of Carthage. First-hand accounts of these and other world-altering events suffuse his *Histories* and inform his lost volume on *Tactics*. The first compendium to emphasize the importance of facticity in the writing of history, Polybius’s intended the *Histories* to counter *laodogmatika*, popular preconceptions and myths. Propounding “universal history” or historiography over the monographic and laodogmatik, he wrote:
 
-_Nitro Zeus_ is even stranger, with a largely unknown genesis, questionable attribution and (beneath surface rationalizations) unknown targets and goals–likely/known targ include: Iranian technicians duped into bridging multiple airgaps and injecting society-killing levels of malware into their infrastructure, industrial manufacturers infiltrated with critical components compromised; the Iranian state apparatus. Goa cyberkinetic attack crippling critical infrastructure or RumINT ruse fueled by an anonymous interview in a mainstream documentary after mention in an intelligenc connected journalist’s book on cyberwar? Or inexpensive variant of cyberwar, RumWAR? Proof-of-concept cyber-deterrence? More possible/likely targets: The 
+> “anyone who thinks that they can understand the whole of history by reading monographs on individual subjects is like the person who thinks he can appreciate the beauty and grace of a live animal from looking at the different parts of its dissected corpse” [^1]
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+![A painting depicting a mythological scene in a lush landscape with figures including Cupid and Pan.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p5-i1.png)
+> **Caption:** Attributed to Federico Zuccaro, *Cupid and Pan*, about 1600
 
-2/37 
+# Arcadia
 
-9/7/25, 11:24 AM 
+Polybius’s birthplace Arcadia, a mountainous region in the Pelopennese, represented in late classical literature and art a mythic, idyllic (and unattainable) Utopia. According to the myth, Pan ruled over Arcadia as dryads and nymphs frolicked in the wilds and shepherds tended their flocks.
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+Erwin Panofsky, in *'Et in Arcadia ego': Poussin and the Elegiac Tradition*:
 
-Iranian population? The U.S. domestic audience? Hackers/cybersecurity profession (recruiting, deterrence)? The international audience (deterrence)…and so on and so o 
+> Polybius, Arcady’s most famous son, while doing justice to his homeland’s simple piety and love of music, describes it otherwise as a poor, bare, rocky, chilly country.
 
-## Polybius’s Histories v. laodogmatika 
+devoid of all the amenities of life and scarcely affording food for a few meager goats. [^2]
 
-Polybius, _Historigraphii,_ 1806 Italian edition 
+According to Pliny the Elder in *The Natural History,* 77-79 C.E. (in an example of *laodogmatika* that Polybius would have contested) the art of painting originated with people tracing the outlines of one another’s shadows. Pliny later alludes to a young woman whose lover is called away—she traces a line around his shadow cast on the wall, mem(e)orializing him. In Poussin’s *The Arcadian Shepherds*, also called *Et in Arcadia Ego* (per Panofsky (below): *Even in Arcadia, am I (Death)*), 1637-38, an Arcadia shepherd traces his shadow—cast on a stone tomb—while another points to the inscription *Et in Arcadia Ego*, reenacting Pliny’s example of the first instance of representation/mimesis in art while symbolically linking it to the recognition of dea
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+![Painting by Nicolas Poussin titled Et in Arcadia Ego depicting shepherds around a tomb](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p6-i1.png)
+> **Caption:** Nicolas Poussin, Et in Arcadia Ego (And in Arcadia, am I), 1637-38
 
-3/37 
+<!-- page 7: extraction failed (likely Gemini RECITATION block) -->
 
-9/7/25, 11:24 AM 
+![A print of Sir Joshua Reynolds' painting, Mrs. Bouverie and Mrs. Crewe (Et in Arcadia Ego), 1770](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p8-i1.png)
+> **Caption:** print of Sir Joshua Reynolds, Mrs. Bouverie and Mrs. Crewe (Et in Arcadia Ego), 1770
+> **Figure text:** J. Joshua Reynolds Pinxt. Jas. Marchi
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+# Polybius’s square and fire signals
 
-Polybius, born around 208 BCE in Megalopolis, Arcadia, was a historian, protohistoriographer, and proto-cryptographer who began his adult life as a statesman an _hipparchas_ (cavalryman). Well born son of an Achaean _strategos (general)_ who possibly bore sentiments against Rome, Polybius, along with 1000 other Achaeans, was taken hostage and held by Rome for 17 years in the wake of the Third Macedonian War. 
+![A 5x5 grid of Greek letters representing the Polybius square](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p9-i1.png)
+> **Caption:** Polybius square
+> **Figure text:** A B Γ Δ E
+> Z H Θ I K
+> Λ M N Ξ O
+> Π P Σ T Y
+> Φ X Ψ Ω
 
-Taken in by the Roman Consul Scipio, Polybius was allowed to travel while remaini a captive and witnessed the Punic wars and the sack of Carthage. First-hand accoun _Histories_ and inform his lost of these and other world-altering events suffuse his volume on _Tactics_ . The first compendium to emphasize the importance of facticity t the writing of history, Polybius’s intended the _Histories_ to counter _laodogmatika,_ popular preconceptions and myths. Propounding _“universal history”_ or historiograph over the monographic and laodogmatik, he wrote: 
+The Polybius square is a matrix cipher that fractionates plaintext, breaking the alphabet into five columns with five letters each except for the last (with four). Each letter is represented by two numbers, allowing the 24 characters of the classical Greek alphabet to be represented by 5 numeric symbols. According to Polybius in the *Histories*, the square allowed for long-range communication/telegraphy via fire sign. It was precursor to later cryptographic systems and the “magic squares” employed by Renaissance magi and artists including Dürer (below):
 
-_“anyone who thinks that they can understand the whole of history by reading monograph on individual subjects is like the person who thinks he can appreciate the beauty and gra of a live animal from looking at the different parts of its dissected corpse”_ 1 
+The Polybius square is the first of the early systems developed for substituting numbers for letters through fractionating to obscure plaintext message. To this date, cryptographers find the Polybius square extremely valuable. Its ability to convert letters sequences to numeric sequences, reduce the number of different characters, and allow encoding of plaintext into two separately manipulatable units are known to be its advantages. With this at hand, modern cryptographic systems have embedded the Polybius square as a fundamental component of the encipherment process, such as in the key generation procedures used by modern ciphers. [^3]
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+![Albrecht Dürer's engraving Melencolia I](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p10-i1.png)
+> **Caption:** None
+> **Figure text:** MELENCOLIA I, 16 3 2 13, 5 10 11 8, 9 6 7 12, 4 15 14 1
 
-4/37 
+Albrecht Dürer, *Melencolia I*, 1514, magic square in upper right
 
-9/7/25, 11:24 AM 
+The ‘magic square’ in Dürer’s *Melencolia I* contains a number of combinations that result in the number 34 (Dürer’s age at the time was 43) and the date of the work ‘15 in the bottom squares. Several squares adding to 5 and 17 may refer to his mother's death in May 1514 – perhaps a cryptographic memorialization.
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+## *Polybius* by Sinneslöschen - RumINT, PSYOP, Vaporware
 
-Attributed to Federico Zuccaro, _Cupid and Pan_ , about 1600 
+![Title screen of the arcade game Polybius](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p11-i1.png)
+> **Caption:** ‘screenshot’ from coinop.org
+> **Figure text:** POLYBIUS (C) 1981 SINNESLÖSCHEN INC. CREDITS 0
 
-## Arcadia 
+*Polybius* by Sinneslöschen was a mythic 1981 arcade game/psyop of urban legend/RumINT circulating online for years before showing up (as recreation/simulation) in gaming and popular culture. Its first documented appearance was on the retro gaming website *coinop.org* in the late 90s or early 2000s, followed by an article in GamePro magazine Issue 180 (September 2003). Per *coinop.org*:
 
-Polybius’s birthplace Arcadia, a mountainous region in the Pelopennese, represente in late classical literature and art a mythic, idyllic (and unattainable) Utopia. According to the myth, Pan ruled over Arcadia as dryads and nymphs frolicked in th wilds and shepherds tended their flocks. 
+This game had a very limited release, one or two backwater arcades in a suburb of Portland. The history of this game is cloudy, there were all kinds of strange stories about how kids who played it got amnesia afterwards, couldn't remember their name or where they lived, etc.
 
-Erwin Panofsky, in _'Et in Arcadia ego’: Poussin and the Elegiac Tradition’:_ 
+The bizarre rumors about this game are that it was supposedly developed by some kind of weird military tech offshoot group, used some kind of proprietary behavior modification algorithms developed for the CIA or something, kids who played it woke up at night screaming, having horrible nightmares.
 
-Polybius, Arcady’s most famous son, while doing justice to his homeland’s simpl piety and love of music, describes it otherwise as a poor, bare, rocky, cilly countr 
+According to an operator who ran an arcade with one of these games, guys in black coats would come to collect "records" from the machines. They're not interested in quarters or anything, they just collected information about how the game was played.
 
-5/37 
+The game was weird looking, kind of abstract, fast action with some puzzle elements, the kids who played it stopped playing games entirely, one of them became a big anti videogame crusader or something. We've contacted one person who met him, and he claims the machines disappeared after a month or so and no one ever heard about them again.
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+Until the ROM showed up.
 
-9/7/25, 11:24 AM 
+Here's what we've found so far:
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+* Found english strings "insert coin" and "press 1 player start" and "only" - looks like a 1 or 2 player game.
 
-devoid of all the amenities of life and scarcely affording food for a few meager 2 goats. 
+* Text in the game says "(C) 1981 Sinneslöschen" Maybe a German company?
 
-According to Pliny the Elder in _‘The Natural History,’_ 77-79 C.E. (in an example of _laodogmatika_ that Polybius would have contested _)_ the art of painting originated with people tracing the outlines of one another’s shadows. Pliny later alludes to a young woman whose lover is called away–she traces a line around his shadow cast on the wall, mem(e)orializing him. In Poussin’s _The Arcadian Shepherds,_ also called _Et in Arcadia Ego_ (per Panofsky (below): _Even in Arcadia, am I (Death)),_ 1637-38 _,_ an Arcadia shepherd traces his shadow –cast on a stone tomb– while another points to the inscription _Et in Arcadia Ego_ , reenacting Pliny’s example of the first instance of representation/mimesis in art while symbolically linking it to the recognition of dea 
+![coinop.org website header and navigation bar](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p13-i1.png)
+> **Figure text:** coinop.org home · games · tech info · articles · about · contact us
 
-Nicolas Poussin, _Et in Arcadia Ego (And in Arcadia, am I),_ 1637-38 
+Ads were removed from the site on 2021-10-17. Updates to the site have commenced after a long hiatus. More to come.
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+# Polybius
+Released in 1981
+(94 total votes)
 
-6/37 
+## Game Summary
+We need information.
 
-9/7/25, 11:24 AM 
+## Game Details
+This game had a very limited release, one or two backwater arcades in a suburb of Portland. The history of this game is cloudy, th were all kinds of strange stories about how kids who played it got amnesia afterwards, couldn't remember their name or where the lived, etc.
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+The bizarre rumors about this game are that it was supposedly developed by some kind of weird military tech offshoot group, use some kind of proprietary behavior modification algorithms developed for the CIA or something, kids who played it woke up at nigh screaming, having horrible nightmares.
 
-## Panofsky writes: 
+According to an operator who ran an arcade with one of these games, guys in black coats would come to collect "records" from th machines. They're not interested in quarters or anything, they just collected information about how the game was played.
 
-In 1769 Sir Joshua Reynolds showed to his friend Dr. Johnson his latest picture: t double portrait of Mrs. Bouverie and Mrs. Crewe, still to be seen in Crewe Hall i England. It shows the two lovely ladies seated before a tombstone and sentimentalizing over its inscription: one points out the text to the other, who meditates thereon in the then-fashionable pose of Tragic Muses and Melancholi 
+The game was weird looking, kind of abstract, fast action with some puzzle elements, the kids who played it stopped playing gam entirely, one of them became a big anti videogame crusader or something. We've contacted one person who met him, and he clai the machines disappeard after a month or so and no one ever heard about them again.
 
-The text of the inscription reads: "Et in Arcadia ego." "What can this mean?" exclaimed Dr. Johnson. "It seems very nonsensical-I am in Arcadia." "The King could have told you," replied Sir Joshua. "He saw it yesterday and said at once: 'O there is a tombstone in the background: Ay, ay, death is even in Arcadia.' 
+Until the ROM showed up.
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+The government made an arcade game that erased kids’ memories and gave them horrific nightmares.
 
-7/37 
+Using games for military training is one thing; using games for mind control...well, that’s something else. But there is a cryptic tale of an arcade game called Polybius that appeared in only a handful of locations in Portland, Oregon in the early 1980s. Credited to a company called Sinnesloschen, Polybius (named for a Greek historian who also dabbled in cryptography) was an abstract puzzle game that reportedly caused nightmares and memory loss in those who played it (“Sinnesloschen” is German for “sense-deleting”), and some supposedly swore off games for good. And to seal the deal, one arcade owner claimed that black-coated gentlemen would periodically come to collect data—but not coins—from the machines.
 
-9/7/25, 11:24 AM 
+Unfortunately, the main thing that’s missing is proof. While a ROM reportedly exists, it hasn’t actually been located. A title screen is all anyone seems to be able to produce—and these are easy to create in Photoshop (the company name’s font is the same one Williams used on several of its games, making cut-and-paste easy for an aspiring prankster). Also, nobody seems to be willing to name names or authenticate any of the tales floating around the Internet—nothing can be verified by a reliable source.
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+But still...what if it’s true?
 
-print of Sir Joshua Reynolds, _Mrs. Bouverie and Mrs. Crewe (Et in Arcadia Ego)_ , 1770 
+![Polybius in GamePro magazine Issue 180 (September 2003) and a screenshot of Polybius from The Simpsons](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p14-i1.png)
+> **Caption:** Polybius in GamePro magazine Issue 180 (September 2003)
+> **Figure text:** POLYBIUS. TRIANGLE WARS. POLYBIL. POLYBIUS. CREDITS 0. PROPERTY OF U.S. GOVERNMI.
 
-## Polybius’s square and fire signals 
+# Sinneslöschen
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+Sinneslöschen, agrammatical German for “senses” “delete” (“sensory deprivation”), with the syntax suggesting that it was likely written by an English speaker.
 
-8/37 
+A 2017 FOIA request for information on Polybius received a summary FBI denial:
 
-9/7/25, 11:24 AM 
+![FBI FOIA response letter regarding the Polybius Arcade Game](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p15-i1.png)
+> **Caption:** None
+> **Figure text:** U.S. Department of Justice
+> Federal Bureau of Investigation
+> Washington, D.C. 20535
+> November 3, 2017
+> MR. [REDACTED]
+> Name & Address [REDACTED]
+> FOIPA Request No.: 1388100-000
+> Subject: Polybius Arcade Game
+> Dear Mr. [REDACTED]
+> This is in response to your Freedom of Information Act (FOIA) request. The FBI has completed its search for records responsive to your request. Below you will also find informational paragraphs relevant to your request. Please read each item carefully.
+> Based on the information you provided, we conducted a search of the Central Records System. We were unable to identify any file records responsive to your request. If you have additional information pertaining to the subject of your request, please provide us with such details, and we will conduct an additional search.
+> Since no responsive main files were located, it is unnecessary to adjudicate your request for a public interest fee waiver.
+> For your information, Congress excluded three discrete categories of law enforcement and national security records from the requirements of the Freedom of Information Act (FOIA). See 5 U.S. C. § 552(c) (2006 & Supp. IV (2010). This response is limited to those records subject to the requirements of the FOIA. This is a standard notification that is given to all our requesters and should not be taken as an indication that excluded records do, or do not, exist.
+> For questions regarding our determinations, visit the www.fbi.gov/foia website under “Contact Us.” The FOIPA Request Number listed above has been assigned to your request. Please use this number in all correspondence concerning your request.
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+# Memesis and Death
 
-## Polybius square 
+![Boromir meme from Lord of the Rings with text "ONE DOES NOT SIMPLY STOP A MEME WAR"](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p16-i1.png)
+> **Caption:** knowyourmeme.com
+> **Figure text:** ONE DOES NOT SIMPLY STOP A MEME WAR quickmeme
 
-The Polybius square is a matrix cipher that fractionates plaintext, breaking the alphabet into five columns with five letters each except for the last (with four). Each letter is represented by two numbers, allowing the 24 characters of the classical Gre alphabet to be represented by 5 numeric symbols. According to Polybius in the _Histories,_ the square allowed for long-range communication/telegraphy via fire sign It was precursor to later cryptographic systems and the “magic squares” employed b Renaissance magi and artists including Dürer (below): 
+In 2011, Dr. Robert Finkelstein, President of DARPA-sponsored Robotic Technology Inc. and a professor at the University of Maryland gave a talk on *Military Memetics* at the Social Media for Defense Summit in Alexandria, Virginia. From his slide-deck *Tutorial: Military Memetics*: [^4]
 
-The Polybius square is the first of the early systems developed for substituting numbers for letters through fractionating to obscure plaintext message. To this date, cryptographers find the Polybius square extremely valuable. Its ability to convert letters sequences to numeric sequences, reduce the number of different characters, and allow encoding of plaintext into two separately manipulatable un are known to be its advantages. With this at hand, modern cryptographic system have embedded the Polybius square as a fundamental component of the 
+![A text box containing a disclaimer and an illustration of a wizard-like figure holding a globe](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p17-i1.png)
+> **Figure text:** This presentation is based on projects Robotic Technology Inc. performed for the Defense Advanced Research Projects Agency (DARPA), 2006-2009, and we thank DARPA for their vision and support
 
-encipherment process, such as in the key generation procedures used by modern ciphers. 3 
+# EXECUTIVE SUMMARY: WHAT IS A MEME?
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+* Our pragmatic definition: a meme is information which propagates, has impact, and persists
+* Memetics is the study and application of memes
+* Military Memetics is the application of memes for national security
+    * It is a subset of Neuro-Cognitive Warfare, a revolutionary tool in the information war
+    * It can provide a coherent, scientific approach for information operations, psychological warfare, and the general war against terrorists
+    * It can prevent or mitigate irrational conflict, reduce the probability of war or defeat, and increase the probability of peace or victory
 
-9/37 
+![A human skull containing various social media profile pictures and icons](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p18-i1.png)
+> **Caption:** © Hank G
+> **Figure text:** www.mediaspin.com
 
-9/7/25, 11:24 AM 
+**[Figure: A network of interconnected human brains glowing in blue]**
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+# POTENTIAL MILITARY WORTH OF MEMETICS
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+* Military Deception (MILDEC)
+    * According to *Information Operations Roadmap*, DOD, 30 Oct. 03:
+        * "Military deception should be one of the five core capabilities of IO.."
+        * "The value of military deception...is intuitive"
+        * "Effective military deception requires centralized planning, security, and close integration with operational planning"
 
-10/37 
+![Phrenology head diagram](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p19-i1.png)
+> **Figure text:** VENERATION, BENEVOLENCE, HUMAN NATURE, REFLECTIVES, CAUSALITY, EVENTUALITY, LOCALITY, TIME, PERCEPTIVES, LANGUAGE, IDEALITY, SUBLIMITY, SPIRITUALITY, HOPE, CONSCIENTIOUSNESS, FIRMNESS, SELF ESTEEM, APPROBATIVENESS, CAUTIOUSNESS, SECRETIVENESS, DESTRUCTIVENESS, COMBATIVENESS, AMATIVENESS, A PICTURE OF GOOD HEALTH
 
-9/7/25, 11:24 AM 
+**[Figure: Surrealist room interior with oversized objects]**
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+**[Figure: Sliced head diagram]**
 
-Albrecht Dürer, _Melencolia I_ , 1514, magic square in upper right 
+**[Figure: Landscape with the word DECEPTION overlaid]**
 
-The ‘magic square’ in Dürer’s _Melencolia I_ contains a number of combinations that result in the number 34 (Dürer’s age at the time was 43) and the date of the work ‘15 in the bottom squares. Several squares adding to 5 and 17 may refer to his mother's death in May 1514 – perhaps a cryptographic memorialization. 
+# MEMETICS AND TRUE BELIEVERS
 
-## Polybius by Sinneslöschen - RumINT, PSYOP, Vaporware 
+> The true believer is willing to die for his belief
+> * When individual interests and prospects do not seem worth living for, then one seeks worth and meaning in all forms of dedication, devotion, loyalty, and self-surrender – the embracing of a substitute will necessarily be passionate and extreme, the faith in nation, religion, race, or holy cause will be extravagant and uncompromising
+> * We cannot be sure we have something worth living for unless we are ready to die for it
+> * The readiness to die is evidence, to themselves and others, that those who have taken a substitute for an irrevocably missed or spoiled first choice is indeed the best there ever was
 
-‘screenshot’ from coinop.org 
+![A person sitting in a meditative pose while engulfed in flames](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p20-i1.png)
+> **Caption:** from the Tutorial: Military Memetics slide deck
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+Since the mid-20th Century memetics has become increasingly pervasive in the so-called “battlespace” (the UK’s XX Committee, CIA’s MK-ARTICHOKE, MK-ULTR CIA-cutouts the Congress for Cultural Freedom and the Human Ecology Fund, the USAF’s Project GRUDGE), with MILDEC (Military Deception), psyop, and “influer campaigns” regularly targeting both international and domestic populations. Since advent of the internet, mimetics has been institutionalized (see SMISC, INCAS, JTRIG, and PSYOP School, below) and has come to dominate the Neuro-Cognitive warfare space (see slide two above). Not unlike the field itself, the *Military Memetics* slide deck drifts from a relatively benign discussion of the history and theory of memetics to increasingly disturbing, necropolitical terrain (see final slide above.)
 
-11/37 
+# Necropolitical Memetics
 
-9/7/25, 11:24 AM 
+Achille Mbembe coined the word ‘necropolitics’ in the journal Public Culture in 20
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+The exercise of sovereignty...consists in society’s capacity for self-creation through recourse to institutions inspired by specific social and imaginary significations. (Mbembe is referring here to Cornelius Castoriadis’s *L’institution imaginaire de la société*, 1975)
 
-_Polybius by Sinneslöschen_ was a mythic 1981 arcade game/psyop of urban legend/RumINT circulating online for years before showing up (as recreation/simulation) in gaming and popular culture. Its first documented appeara was on the retro gaming website _coinop.org_ in the late 90s or early 2000s, followed by : an article in GamePro magazine Issue 180 (September 2003). Per _coinop.org_ 
+This strongly normative reading of the politics of sovereignty has been the object of numerous critiques, which I will not rehearse here. My concern is those figures of sovereignty whose central project is not the struggle for autonomy but *the generalized instrumentalization of human existence and the material destruction of human bodies and populations*. Such figures of sovereignty are far from a piece of prodigious insanity or an expression of a rupture between the impulses and interests of the body and those of the mind. Indeed, they, like the death camps, are what constitute the nomos of the political space in which we still live. [^5]
 
-This game had a very limited release, one or two backwater arcades in a suburb o Portland. The history of this game is cloudy, there were all kinds of strange stori about how kids who played it got amnesia afterwards, couldn't remember their name or where they lived, etc. 
+However effective mimetic warfare might be at “the generalized instrumentalization of human existence and the material destruction of human bodies and populations,” the combination of cyberkinetic warfare and memetic warfare has, in recent decades produced an even greater number of military “successes” – Olympic Games / Stuxnet and Nitro Zeus chief among among them:
 
-The bizarre rumors about this game are that it was supposedly developed by som kind of weird military tech offshoot group, used some kind of proprietary behavi modification algorithms developed for the CIA or something, kids who played it woke up at night screaming, having horrible nightmares. 
+## No Air Gap – Olympic Games (Stuxnet), NZ (Nitro Zeus), and NSA (No Such Agency)
 
-According to an operator who ran an arcade with one of these games, guys in bla coats would come to collect "records" from the machines. They're not interested quarters or anything, they just collected information about how the game was played. 
+Stuxnet was the first acknowledged cyberkinetic attack, relying heavily on TAO monitoring and injections (see below), MILDEC (Military Deception), and what is increasingly referred to as 4th Generation Warfare–incorporating a mixed modality “battlespace” that includes civilian contractors, industrial manufacturers, and non-
 
-The game was weird looking, kind of abstract, fast action with some puzzle elements, the kids who played it stopped playing games entirely, one of them became a big anti videogame crusader or something. We've contacted one person who met him, and he claims the machines disappeard after a month or so and no one ever heard about them again. 
+state (or loosely state-adjacent) hackers operating (sometimes unwittingly) as nodes the operation in order to obscure methods and attribution.
 
-Until the ROM showed up. 
+![A digital visualization of network nodes and connections, with a bright white circular light source and a beam of light extending from it.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p22-i1.png)
+> **Caption:** Stuxnet propagation / air gap bridge from the documentary *Zero Days* (2016)
 
-Here's what we've found so far: 
+“Operation Nitro Zeus...was Cyber Command’s piece of the Op Plan 1025 puzzle to shut down Iran's electrical grid. If Olympic Games was the cyber equivalent of a targeted drone strike on Iran, Nitro Zeus was a full-scale attack. Nitro Zeus would be the opening act of the war plan: turning off an entire country so fast that retaliation would have been extremely difficult. This included tunneling inside Iran’s grid—along with its cell phone network and even the Iranian Revolutionary Guard Corps’ command-and-control systems. Nitro Ze
 
-Found english strings "insert coin" and "press 1 player start" and "only" - looks like a 1 or 2 player game. 
+was a military plan, intended to unplug Tehran if diplomacy failed. "—David Sanger, The Perfect Weapon
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+![A digital wireframe representation of a human face, obscured by a white circle](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p23-i1.png)
+> **Caption:** Anonymous NSA source (played by an actor) on Nitro Zeus in *Zero Days* (2016)
 
-12/37 
+"We spent hundreds of millions, maybe billions on it," a anonymous National Security Agency source says in th film. "We were inside, waiting, watching. Ready to disrupt, degrade, and destroy those systems with cybe attacks. In comparison, Stuxnet was a back alley operation. [Nitro Zeus] was the plan for a full scale cyb war with no attribution. [^6]
 
-9/7/25, 11:24 AM 
+NZ (Nitro Zeus) never went kinetic, but its combination of RumINT, (alleged) cyberkinetic capability, and (once again, possibly unwitting) Hollywood-assisted MILDEC achieved many of the goals of active cyberkinetic warfare.
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+![Logo of the Tailored Access Operations unit, featuring a globe with network lines and the text "TAILORED ACCESS OPERATIONS"](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p24-i1.png)
+> **Caption:** None
+> **Figure text:** TAILORED ACCESS OPERATIONS
 
-## Text in the game says "(C) 1981 Sinneslöschen" Maybe a German company? 
+# TAO (tailored access operations)
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+So just what is Tailored Access Operations? According to a profile by Matthew Aid for Foreign Policy, it's a highly secret but incredibly important NSA program that collects intelligence about foreign targets by hacking into their computers, stealing data, and monitoring communications. Aid claims TAO is also responsible for developing programs that could destroy or damage foreign computers and networks via cyberattacks if commanded to do so by the president.
 
-13/37 
+So, TAO might have had something to do with the development of Stuxnet and Flame, malware programs thought to have been jointly developed by the U.S. and Israel. The malware initially targeted the Iranian nuclear program, but quickly made its way into the digital wild.
 
-9/7/25, 11:24 AM 
+According to Aid, TAO's primary base is in the NSA headquarters in Fort Meade. There, he says, some 600 members of the unit work rotating shifts 24-7 in an "ultramodern" space at the center of the base called the Remote Operations Center (ROC). [^7]
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+# DARPA SMISC (Social Media in Strategic Communication) to INCAS (INfluence Campaign Awareness and Sensemaking); GCHQ JTRIG
 
-## Polybius in GamePro magazine Issue 180 (September 2003 
+![DARPA logo](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p25-i1.png)
+> **Caption:** None
+> **Figure text:** DARPA
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+Announcement:
 
-14/37 
+The general goal of the Social Media in Strategic Communication (SMISC) program is to develop a new science of social networks built on an emerging technology base. In particular, SMISC will develop automated and semi-automated operator support tools and techniques for the systematic and methodical use of social media at data scale and in a timely fashion to accomplish four specific program goals:
 
-9/7/25, 11:24 AM 
+1. Detect, classify, measure and track the (a) formation, development and spread of ideas and concepts (memes), and (b) purposeful or deceptive messaging and misinformation.
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+2. Recognize persuasion campaign structures and influence operations across social media sites and communities.
 
-Polybius in The Simpsons, SE18 EP3 (2006) 
+3. Identify participants and intent, and measure effects of persuasion campaigns.
 
-## Sinneslöschen 
+4. Counter messaging of detected adversary influence operations.
 
-Sinneslöschen, agrammatical German for “senses” “delete” (“sensory deprivation”), with the syntax suggesting that it was likely written by an English speaker. 
+The conditions under which our Armed Forces conduct operations are rapidly changing with the spread of blogs, social networking sites, and media-sharing technology (such as YouTube), and further accelerated by the proliferation of mobile technology. Changes to the nature of conflict resulting from the use of
 
-A 2017 FOIA request for information on Polybius received a summary FBI denial: 
+social media are likely to be as profound as those resulting from previous communications revolutions. The effective use of social media has the potential to help the Armed
 
-## Memesis and Death 
+The development of a new science of social networks and the solutions to the problems posed by SMISC will require the confluence of several technologies including, but not limited to, information theory, massive-scale graph analytic and natural language processing. While SMISC will not directly support natural language processing development efforts, it will certainly use the results of previous programs as well as contribute new challenges to further stimulate ongoing efforts.
 
-15/37 
+Technology areas particularly relevant to SMISC are shown here grouped to correspond to the four basic goals of the program as described above:
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+1. Linguistic cues, patterns of information flow, topic trend analysis, narrative structure analysis, sentiment detection and opinion mining;
 
-9/7/25, 11:24 AM 
+2. Meme tracking across communities, graph analytics/probabilistic reasoning pattern detection, cultural narratives;
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+3. Inducing identities, modeling emergent communities, trust analytics, network dynamics modeling;
 
-knowyourmeme.com 
+4. Automated content generation, bots in social media, crowd sourcing.
 
-In 2011, Dr. Robert Finkelstein, President of DARPA-sponsored Robotic Technolog Inc. and a professor at the University of Maryland gave a talk on _“Military Memetics”_ the Social Media for Defense Summit in Alexandria, Virginia. From his slide-deck 4 _Tuturial_ : _Military Memetics_ : 
+Recent research has shown that traditional approaches to understanding social media through static network connectivity models often produce misleading results. It is, therefore, necessary to take into account the dynamics of behavior and SMISC is interested in a wide variety of techniques for doing so.
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+![Screenshot of the DARPA INCAS program webpage](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p27-i1.png)
+> **Caption:** INCAS page at DARPA
+> **Figure text:** DARPA Research Work with Us Careers Events News About Home Research Programs INCAS: Influence Campaign Awareness and Sensemaking INCAS: Influence Campaign Awareness and Sensemaking
 
-16/37 
+# Program Summary
 
-9/7/25, 11:24 AM 
+The U.S. is engaged with its adversaries in an asymmetric, continual, war of weaponized influence narratives. Adversaries exploit misinformation and true information delivered via influence messaging: blogs, tweets, and other online multimedia content. Analysts require effective tools for continual sensemaking of the vast, noisy, adaptive information environment to identify adversary influence campaigns.
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+Today, geopolitical influence campaign detection and sensemaking is largely manual and ad hoc. Analysts use social listening tools to formulate complex keyword queries; track trending keywords, hashtags, and topics; and read hundreds to thousands of documents to identify influence themes. New or “low and slow” campaigns are hard to detect early as their message volume may be beneath platform “trending” thresholds and pertinent hashtags may be unknown. With current tools, it is difficult to connect messages over time and across multiple platforms to track evolving campaigns and to assess confidence in analytic
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+conclusions in a rigorous manner. Confidence assessment by analysts is ad hoc, manual, subjective, qualitative, and susceptible to analyst cognitive biases (e.g., confirmation bias). Analyst reports often cover static time ranges, and static rep quickly become stale.
 
-17/37 
+![A circular diagram showing the relationship between analyst task activities and an influence campaign model.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p28-i1.png)
+> **Caption:** Figure 1. Notional Analysts Task Activities (outer ring) and Campaign Model Fragment (inside ring)
+> **Figure text:** What is being said and by whom? Organize influence messaging via indicators. Influence Campaign Model. Campaign: Anti-US Bases. Host Nation Population. Younger Citizens. Older Citizens. Environment. Safety. Identity. US Base Pollution. US Base Crime. US Presence. Influence Messaging. Understand population response by segment. Who is responding how? What else are they responding to? What might they respond to? What is the confidence in the conclusions? Assess confidence in campaign models. Assemble & analyze campaign models. How does the current campaign relate to prior campaigns? How is it evolving? What is threatening?
 
-9/7/25, 11:24 AM 
+Diagram from INfluence Campaign Awareness and Sensemaking (INCAS) document HR001121S0008
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+![GCHQ emblem featuring a crown above a globe surrounded by a laurel wreath](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p29-i1.png)
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+> **Caption:** None
+> **Figure text:** None
 
-18/37 
+# GCHQ JTRIG slides (Snowden leaks)
 
-9/7/25, 11:24 AM 
+![A person performing a card flourish with a deck of playing cards](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p29-i2.png)
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+> **Caption:** None
+> **Figure text:** We want to build Cyber Magicians.
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+![A diagram showing a network of human figures connected by dashed lines, surrounded by various academic disciplines and concepts.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p30-i1.png)
 
-19/37 
+> **Figure text:** SECRET//SI//REL TO USA, FVEY
+> Culture
+> Deception
+> Influence
+> ANTHROPOLOGY
+> Magic
+> PSYCHOLOGY
+> Personality
+> Trust
+> Elicitation
+> ECONOMICS
+> Ethnography
+> SOCIOLOGY
+> Compliance
+> Obedience
+> Social Networks
+> HISTORY
+> Belief
+> Religion
+> BIOLOGY
+> Neuroscience
+> Evolutionary Biology
+> Key Leader Engagement
+> POLITICAL SCIENCE
+> Global Trends
+> SECRET//SI//REL TO USA, FVEY
 
-9/7/25, 11:24 AM 
+![A complex organizational chart titled "ACNO Key Skill Strands" detailing various psychological, social, and operational methodologies for influence and deception.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p31-i1.png)
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+> **Caption:** None.
+> **Figure text:** SECRET//SI//REL TO USA, FVEY. ACNO Key Skill Strands. Online HUMINT. Influence & Info Ops. Disruption & Comp Net Attack. Magic Techniques & Experiment. Mental Health & Psychopathy. Decision Making - Rationale Choice Crime & punishment. Decisions (Emotional not rational). Planning. STRATEGY. Campaign Planning (why we are doing what we are). INSIDERS. Destru[ction] Organisa[tional] Psycho[logy]. PLAN INTERV[ENTION]. Individual. BELIEF. Personality (OCEAN). Remote Assessment in Digital Cues. Self (who I am? Motives & exploiting them). PERSUASION. How to apply these. Trust. Trust. Deception. Persuasive Tech. 10 PRINCIPLES OF SCAMS. HINDSIGHT BIAS. CONFIRMATION BIAS. ANCHORING. PRIMING. Behaviour & Influence. Hofstede Dimensions. CONSPIRACY STORIES. Group. Hofstede Dimensions. Interaction across cultures. Building Relationships. Mirroring / Mimicry. Social Penetration Theory. Influence. Elegance. Optimising Deception Channels. Process of Reflection to assess if we are doing op elegantly. DIFFU[SION] INNO[VATION]. Morality & Ethics. Cyber Cultures across Organisations. Legitimisation of Violence. AGENTICITY. PATTERNICITY. CONFORMITY / OBEDIENCE. Virtual Communities. Social Identity Theory. Social Proof / Herding etc. Reducing Group Effectiveness. Group Dynamics. Motives Roles Influence/Cascade. Becoming / Targeting. Performance. How to act / behave. Self Presentation in Cyber context. Creativity. Brainstorming. NARRATIVE. Consider alternate perspectives. Intel Analysis. Constructing exp[erience] in mind of target should be accept[ed] they don't reali[ze]. Global. SOCIAL NETWORKS. Constructing News System. Financial Ecosystem of Media. Alias Management & Legend Building (decided not to include in training). Media. PROPAGANDA. TAA. BRANDING. ADVERTISING Sell - own - Earn. MARKETING. Intuition. Thin Slicing Design, Retention & Trust. How to do some o[f] real time so need understand what y[ou] doing in this psych[ology]. Reading from digital te[xt] going with performan[ce] reduce my risk but sa[ve] Target's inquisitio[n]. SECRET//SI//REL TO USA, FVEY.
 
-from the _Tutorial: Military Memetics_ slide deck 
+SECRET//SI//REL TO USA, FVEY
 
-Since the mid-20th Century memetics has become increasingly pervasive in the socalled “battlespace” (the UK’s XX Committee, CIA’s MK-ARTICHOKE, MK-ULTR CIA-cutouts the Congress for Cultural Freedom and the Human Ecology Fund, the USAF’s Project GRUDGE), with MILDEC (Military Deception), psyop, and “influen campaigns” regularly targeting both international and domestic populations. Since advent of the internet, mimetics has been institutionalized (see SMISC, INCAS, JTRIG, and PSYOP School, below) and has come to dominate the Neuro-Cognitive warfare space (see slide two above). Not unlike the _Military Memetics_ field itself, the slide deck drifts from a relatively benign discussion of the history and theory of memetics to increasingly disturbing, necropolitical terrain (see final slide above.) 
+# Gambits for Deception
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+![A grid chart titled "Gambits for Deception" categorizing various deception tactics by cognitive domain](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p32-i1.png)
 
-20/37 
+> **Figure text:** 
+> Attention: Control attention, Conspicuity & Expectancies; The big move covers the little move; The Target looks where you look; Attention drops at the perceived end; Repetition reduces vigilance.
+> Perception: Mask/Mimic, Eliminate - Blend, Recreate - Imitate; Repackage/Invent, Modify old cues, Create new cues; Dazzle/Decoy, Blur old cues, Create alternate cues; Make the cue dynamic; Stimulate multiple sens.
+> Sensemaking: Exploit prior beliefs; Present story fragments; Repetition creates expectancies; Haversack Ruse (The Piece of Bad Luck); Swap the real for the false, & vice versa.
+> Affect: Create Cognitive Stress; Create Physiological Stress; Create Affective Stress (+/-); Cialdini+2; Exploit share affect.
+> Behaviour: Simulate the action; Simulate the outcome; Time-shift perceived behaviour; Divorce behaviour from outcome; Channel behaviour.
 
-9/7/25, 11:24 AM 
+SECRET//SI//REL TO USA, FVEY
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+SECRET//SI//REL TO USA, FVEY
 
-## Necropolitical Memetics 
+# Identifying & Exploiting fracture points
 
-Achille Mbembe coined the word ‘necropolitics’ in the journal Public Culture in 20 
+![Diagram showing forces that push a group together versus forces that pull a group apart, centered on a point of tension.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p33-i1.png)
+> **Figure text:**
+> Identifying & Exploiting fracture points
+> Things that push a group together
+> Shared opposition
+> Shared ideology
+> Common beliefs
+> Tension
+> Personal power
+> Pre-existing cleavages
+> Competition
+> Ideological differences
+> Things that pull a group apart
 
-The exercise of sovereignty…consists in society’s capacity for self-creation throug recourse to institutions inspired by specific social and imaginary significations. (Mbembe is referring here to Cornelius Castoriadis’s _L’institution imaginaire de la société_ , 1975) 
+# Ghosts in the Machine: DoD’s PSYWAR School
 
-This strongly normative reading of the politics of sovereignty has been the objec numerous critiques, which I will not rehearse here. My concern is those figures o sovereignty whose central project is not the struggle for autonomy but _the_ 
+Re-established in 2024, the PSYWAR School is the original name for the U.S. Army John F. Kennedy Special Warfare Center & School. The PSYWAR School trains and qualifies U.S. Army Psychological Operations (PO) personnel for the missions to conduct worldwide Special Operations.
 
-_generalized instrumentalization of human existence and the material destruction of hum bodies and populations._ Such figures of sovereignty are far from a piece of prodigio insanity or an expression of a rupture between the impulses and interests of the body and those of the mind. Indeed, they, like the death camps, are what constitu the nomos of the political space in which we still live. 5 
+As the only PO military occupational specialty (MOS) qualifying course in the Department of Defense (DoD), the PSYWAR School trains and qualifies all PO personnel within the DoD, to include Air Force, Marine Corps, and other services and also provide advanced PO training to those who qualify.
 
-_the generalized instrumentalization of_ However effective mimetic warfare might be at “ _human existence and the material destruction of human bodies and populations,_ ” the combination of cyberkinetic warfare and memetic warfare has, in recent decades produced an even greater number of military “successes” – Olympic Games / Stuxne and Nitro Zeus chief among among them: 
+![A video player displaying a quote on a black background](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p34-i1.png)
+> **Figure text:** IF YOUR OPPONENT IS OF CHOLERIC TEMPER, SEEK TO IRRITATE HIM. PRETEND TO BE WEAK, THAT HE MAY GROW ARROGANT.
 
-## No Air Gap – Olympic Games (Stuxnet), NZ (Nitr Zeus), and NSA (No Such Agency) 
+![A screenshot of the United States Army John F. Kennedy Special Warfare Center and School website homepage](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p34-i2.png)
+> **Figure text:** An official website of the United States government Here's how you know UNITED STATES ARMY JOHN F. KENNEDY SPECIAL WARFARE CENTER AND SCHOOL THE SPECIAL OPERATIONS CENTER OF EXCELLENCE Search USAJFKWCS, S HOME ABOUT US SCHOOLS RESOURCES IRREGULAR WARFARE SPECIAL WARFARE JOURNAL P/U PODCAST REGIMENTAL HONORS CONTACT US/MEDIA INQUIRIES HOME > SCHOOLS > PSYWAR SCHOOL
 
-Stuxnet was the first acknowledged cyberkinetic attack, relying heavily on TAO monitoring and injections (see below), MILDEC (Military Deception), and what is increasingly referred to as 4th Generation Warfare–incorporating a mixed modality “battlespace” that includes civilian contractors, industrial manufacturers, and non- 
+## The PSYWAR School
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+Re-established in 2024, the PSYWAR School is the original name for the U.S. Army John F. Kennedy Special Warfare Center & School. The PSYWAR School trains and qualifies U.S. Army Psychological Operations (PO) personnel for the missions to conduct worldwide Special Operations.
 
-21/37 
+As the only PO military occupational specialty (MOS) qualifying course in the Department of Defense (DoD), the PSYWAR School trains and qualifies all PO personnel within the DoD, to include Air Force, Marine Corps, and other services; and also provide advanced PO training to those who qualify.
 
-9/7/25, 11:24 AM 
+Watch this to learn more....
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+**[Figure: Two video thumbnails titled "GHOSTS IN THE MACHINE" and "GHOSTS IN THE MACHINE 2"]**
+> **Caption:** DoD PSYWAR School homepage
+> **Figure text:** GHOSTS IN THE MACHINE Watch later Share GHOSTS IN THE MACHINE GHOSTS IN THE MACHINE 2 Watch later Share GHOSTS IN THE MACHINE
 
-state (or loosely state-adjacent) hackers operating (sometimes unwittingly) as nodes the operation in order to obscure methods and attribution. 
+As Polybius of Arcadia, captive of Rome, champion of facticity and ‘universal history’ against tragedy and spectacle, fades, his namesake game, one (of many) early vectors overwhelming facticity with spectacular memesis and incipient necropolitics, comes under a new light. As ‘military memetics’ overtake culture, ‘mem(e)orialization’ fades and the necropolitical aims of disinformation become increasingly clear...
 
-Stuxnet propagation / air gap bridge from the documentary _Zero Days_ (2016) 
+![A painting by Nicolas Poussin titled Et in Arcadia Ego, with a digital Polybius arcade game screen superimposed over the tomb.](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p35-i1.png)
+> **Caption:** Polybius / Nicolas Poussin, Et in Arcadia Ego, 1637-38
+> **Figure text:** POLYBIUS
+> © 1981 SINNESLÖSCHEN INC.
+> LEVEL 1
 
-“Operation Nitro Zeus…was Cyber Command’s piece of the Op Plan 1025 puzzle to shut down Iran's electrical grid. If Olympic Games was the cyber equivalent of a targeted drone strike on Iran, Nitro Zeus was a full-sca attack. Nitro Zeus would be the opening act of the war plan: turning off an entire country so fast that retaliation would have been extremely difficult. This included tunneling inside Iran’s grid—along with its ce phone network and even the Iranian Revolutionary Guard Corps’ command-and-control systems. Nitro Ze 
+1 McGing, B. C. *Polybius’ Histories* (Oxford Approaches to Classical Literature). Oxford University Press, 2010.
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+2 Panofsky, Erwin. ‘Et in Arcadia ego: Poussin and the Elegiac Tradition’ Orginally: ‘Et in Arcadia ego: On the Conception of Transience in Poussin and Watteau’, in Philosophy and History, Essays Presented to Ernst Cassirer. Oxford, Clarendon Press, 1936.
 
-22/37 
+3 Arroyo, Jan Carlo T., Dumdumaya, Cristina E. et al. *Polybius Square in Cryptography: A Brief Review of Literature* in Advanced Trends in Computer Science and Engineering, 9(3), May June 2020, 3798 – 3808 3798 ISSN 2278-3091 Volume 9, No.3
 
-9/7/25, 11:24 AM 
+4 Finkelstein, Robert. *Tuturial: Military Memetics*. Robotic Technologies, Inc. slide deck Online: https://archive.org/details/PresentationMilitaryMemeticsTutorial13Dec11
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+5 Mbembe, Achille. *Necropolitics*. Public Culture (2003) 15 (1): 11–40 Online: https://web.archive.org/web/20151010043651/https://www.dartmouth.edu/~lhc/docs/achillembembe.pdf
 
-was a military plan, intended to unplug Tehran if diplomacy failed. “–David Sanger, The Perfect Weapon 
+6 Anonymous NSA agent, quoted in *Zero Days* (2016) dir. Alex Gibney. Magnolia Pictures, Participant Productions
 
-Anonymous NSA source (played by an actor) on Nitro Zeus in _Zero Days_ (2016) 
+7 Petersen, Andrea. *The NSA has its own team of hackers*, The Washington Post, August 29, 2013, Online: https://www.washingtonpost.com/news/the-switch/wp/2013/08/29/the-nsa-has-its-own-team-of-elite-hackers/
 
-"We spent hundreds of millions, maybe billions on it," a anonymous National Security Agency source says in th film. "We were inside, waiting, watching. Ready to disrupt, degrade, and destroy those systems with cybe attacks. In comparison, Stuxnet was a back alley operation. [Nitro Zeus] was the plan for a full scale cyb war with no attribution. 6 
+## Subscribe to Scott Benzel
 
-NZ (Nitro Zeus) never went kinetic, but its combination of RumINT, (alleged) cyberkinetic capability, and (once again, possibly unwitting) Hollywood-assisted MILDEC achieved many of the goals of active cyberkinetic warfare. 
+![Subscription form for Scott Benzel's Substack](/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p36-i1.jpg)
+> **Figure text:** Type your email... Subscribe
 
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
+By subscribing, I agree to Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.
 
-23/37 
+© 2025 Scott Benzel · Privacy · Terms · Collection notice
+Substack is the home for great culture
 
-9/7/25, 11:24 AM 
+## Notes
 
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
+[^1]: footnote text
 
-## TAO (tailored access operations) 
-
-So just what is Tailored Access Operations? According to a profle by Matthew M Aid for Foreign Policy, it's a highly secret but incredibly important NSA program that collects intelligence about foreign targets by hacking into their computers, stealing data, and monitoring communications. Aid claims TAO is also responsi for developing programs that could destroy or damage foreign computers and networks via cyberattacks if commanded to do so by the president. 
-
-So, TAO might have had something to do with the development of Stuxnet and Flame, malware programs thought to have been jointly developed by the U.S. and Israel. The malware initially targeted the Iranian nuclear program, but quickly made its way into the digital wild. 
-
-According to Aid, TAO's primary base is in the NSA headquarters in Fort Meade There, he says, some 600 members of the unit work rotating shifts 24-7 in an "ultramodern" space at the center of the base called the Remote Operations Cen (ROC). 7 
-
-DARPA SMISC (Social Media in Strategic Communication to INCAS (INfluence Campaign Awareness and Sensemaking); GCHQ JTRIG 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-24/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-**Announcement:** 
-
-**The general goal of the Social Media in Strategic Communication (SMISC) program is to develop a new science of social networks built on an emerging technology base. In particular, SMISC will develop automated and semiautomated operator support tools and techniques for the systematic and methodical use of social media at data scale and in a timely fashion to accompl four specific program goals:** 
-
-**1. Detect, classify, measure and track the (a) formation, development and sprea of ideas and concepts (memes), and (b) purposeful or deceptive messaging and misinformation.** 
-
-**2. Recognize persuasion campaign structures and influence operations across social media sites and communities.** 
-
-**3. Identify participants and intent, and measure effects of persuasion campaign** 
-
-**4. Counter messaging of detected adversary influence operations.** 
-
-**The conditions under which our Armed Forces conduct operations are rapidly changing with the spread of blogs, social networking sites, and media-sharing technology (such as YouTube), and further accelerated by the proliferation of mobile technology. Changes to the nature of conflict resulting from the use of** 
-
-25/37 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-**social media are likely to be as profound as those resulting from previous communications revolutions. The effective use of social media has the potentia to help the Armed** 
-
-**The development of a new science of social networks and the solutions to the problems posed by SMISC will require the confluence of several technologies including, but not limited to, information theory, massive-scale graph analytic and natural language processing. While SMISC will not directly support natura language processing development efforts, it will certainly use the results of previous programs as well as contribute new challenges to further stimulate ongoing efforts.** 
-
-**Technology areas particularly relevant to SMISC are shown here grouped to correspond to the four basic goals of the program as described above:** 
-
-**1. Linguistic cues, patterns of information flow, topic trend analysis, narrative structure analysis, sentiment detection and opinion mining;** 
-
-**2. Meme tracking across communities, graph analytics/probabilistic reasoning pattern detection, cultural narratives;** 
-
-**3. Inducing identities, modeling emergent communities, trust analytics, netwo dynamics modeling;** 
-
-**4. Automated content generation, bots in social media, crowd sourcing.** 
-
-**Recent research has shown that traditional approaches to understanding socia media through static network connectivity models often produce misleading results. It is, therefore, necessary to take into account the dynamics of behavior and SMISC is interested in a wide variety of techniques for doing so.** 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-26/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-INCAS page at DARPA 
-
-## Program Summary 
-
-The U.S. is engaged with its adversaries in an asymmetric, continual, war of weaponized influence narratives. Adversaries exploit misinformation and true information delivered via influence messaging: blogs, tweets, and other online multimedia content. Analysts require effective tools for continual sensemaking o the vast, noisy, adaptive information environment to identify adversary influence campaigns. 
-
-Today, geopolitical influence campaign detection and sensemaking is largely manual and ad hoc. Analysts use social listening tools to formulate complex keyword queries; track trending keywords, hashtags, and topics; and read hundre to thousands of documents to identify influence themes. New or “low and slow” campaigns are hard to detect early as their message volume may be beneath platform “trending” thresholds and pertinent hashtags may be unknown. With current tools, it is difficult to connect messages over time and across multiple platforms to track evolving campaigns and to assess confidence in analytic 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-27/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-conclusions in a rigorous manner. Confidence assessment by analysts is ad hoc, manual, subjective, qualitative, and susceptible to analyst cognitive biases (e.g., confirmation bias). Analyst reports often cover static time ranges, and static repo quickly become stale. 
-
-Diagram from INfluence Campaign Awareness and Sensemaking (INCAS) document HR001121S0008 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-28/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-## GCHQ JTRIG slides (Snowden leaks) 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-29/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-30/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-31/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-32/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-## Ghosts in the Machine: DoD’s PSYWAR School 
-
-**Re-established in 2024, the PSYWAR School is the original name for the U.S. Arm John F. Kennedy Special Warfare Center & School. The PSYWAR School trains an qualifies U.S. Army Psychological Operations (PO) personnel for the missions to conduct worldwide Special Operations.** 
-
-**As the only PO military occupational specialty (MOS) qualifying course in the Department of Defense (DoD), the PSYWAR School trains and qualifies all PO personnel within the DoD, to include Air Force, Marine Corps, and other services and also provide advanced PO training to those who qualify.** 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-33/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-DoD PSYWAR School homepage 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-34/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-As Polybius of Arcadia, captive of Rome, champion of facticity and ‘universal histor against tragedy and spectacle, fades, his namesake game, one (of many) early vector overwhelming facticity with spectacular memesis and incipient necropolitics, come under a new light. As ‘military memetics’ overtake culture, ‘mem(e)orialization’ fade and the necropolitical aims of disinformation become increasingly clear… 
-
-Polybius / Nicolas Poussin, _Et in Arcadia Ego_ , 1637-38 
-
-35/37 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-- 1 McGing, B. C. _Polybius’ Histories_ (Oxford Approaches to Classical Literature). Oxford University Press, 2010. 
-
-- 2 Panofsky, Erwin. ‘ _Et in Arcadia ego: Poussin and the Elegiac Tradition’_ Orginally: _'Et in Arca ego: On the Conception of Transience in Poussin and Watteau',_ in Philosophy and History, Essays Presented to Ernst Cassirer. Oxford, Clarendon Press, 1936. 
-
-- 3 Arroyo, Jan Carlo T., Dumdumaya, Cristina E. et al. _Polybius Square in Cryptography: A Brie Review of Literature_ in Advanced Trends in Computer Science and Engineering, 9(3), May June 2020, 3798 – 3808 3798 ISSN 2278-3091 Volume 9, No.3 
-
-- 4 Finkelstein, Robert. _Tuturial_ : _Military Memetics._ Robotic Technologies, Inc. slide deck Online: https://archive.org/details/PresentationMilitaryMemeticsTutorial13Dec11 
-
-- 5 Mbembe, Achille. _Necropolitics._ Public Culture (2003) 15 (1): 11–40 Online: https://web.archive.org/web/20151010043651/https://www.dartmouth.edu/~lhc/docs/achille embe.pdf 
-
-- 6 _Anonymous NSA agent,_ quoted in _Zero Days_ (2016) dir. Alex Gibney. Magnolia Pictures, Participant Productions 
-
-- 7 Petersen, Andrea. _The NSA has its own team of hackers_ , The Washington Post, August 29, 2013, Online: https://www.washingtonpost.com/news/the-switch/wp/2013/08/29/the-nsa-h its-own-team-of-elite-hackers/ 
-
-## Subscribe to Scott Benzel 
-
-**==> picture [201 x 12] intentionally omitted <==**
-
-**----- Start of picture text -----**<br>
-Type your email... Subscribe<br>**----- End of picture text -----**<br>
-
-
-By subscribing, I agree to Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy. 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-36/37 
-
-9/7/25, 11:24 AM 
-
-Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel 
-
-**==> picture [522 x 36] intentionally omitted <==**
-
-© 2025 Scott Benzel ∙ Privacy ∙ Terms ∙ Collection notice Substack is the home for great culture 
-
-https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 
-
-37/37 
-
+[^3]: [Note: The source text does not provide the footnote content for 3 on this page.]
