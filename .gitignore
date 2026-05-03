@@ -6,6 +6,14 @@ PDFs/
 # Generated reading content (run `node scripts/generate-readings.js` to regenerate)
 src/lib/data/reading-content.ts
 
+# PDF pipeline scratch (per-PDF metadata, page renders, raw OCR, VLM outputs)
+work/
+
+# Figures extracted from PDFs by scripts/pdf-pipeline/figures.js. Generated
+# locally for the dev reader; production should serve these from R2 instead
+# (mirrors the pattern in scripts/upload-pdfs.sh — TODO: upload-figures.sh).
+static/figures/
+
 # Output
 .output
 .vercel

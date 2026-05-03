@@ -17,7 +17,7 @@ const entries = {};
 
 // Main readings
 for (const file of readdirSync(mdRoot)) {
-	if (file.endsWith('.md')) {
+	if (file.endsWith('.md') && !file.endsWith('-old.md')) {
 		const slug = slugify(file);
 		const content = readFileSync(join(mdRoot, file), 'utf-8');
 		entries[slug] = content;
@@ -27,7 +27,7 @@ for (const file of readdirSync(mdRoot)) {
 // Additional readings
 const additionalDir = join(mdRoot, 'additional_reading_primary_documents');
 for (const file of readdirSync(additionalDir)) {
-	if (file.endsWith('.md')) {
+	if (file.endsWith('.md') && !file.endsWith('-old.md')) {
 		const slug = slugify(file);
 		const content = readFileSync(join(additionalDir, file), 'utf-8');
 		entries[slug] = content;
