@@ -2,14 +2,17 @@
 // Stage 5b of the PDF pipeline. See scripts/PDF_PIPELINE.md.
 //
 // Extracts embedded images from each PDF using pdfimages, drops obvious
-// hairline/placeholder objects, and stages them under static/figures/<slug>/
-// so SvelteKit serves them at /figures/<slug>/pN-i.<ext>. Writes a manifest
-// at work/<slug>/figures.json that reconcile.js consumes to swap text-only
-// figure markers for real <img> tags.
+// hairline/placeholder objects, and stages them under work/<slug>/figures/
+// (all gitignored). scripts/upload-figures.sh reads from there to push to
+// R2; the markdown links straight to the R2 public URL. We deliberately
+// don't write to static/ — that ships in every Worker deploy, which would
+// duplicate ~225MB of figures Cloudflare assets already serve via R2.
 //
 // Outputs:
-//   static/figures/<slug>/pN-iI.<ext>     image files served by the app
-//   work/<slug>/figures.json              manifest: { perPage: { N: [{file, ext, width, height}] } }
+//   work/<slug>/figures/pN-iI.<ext>      raw image files (uploaded to R2)
+//   work/<slug>/figures.json             manifest: { perPage: { N: [{file, urlPath, width, height}] } }
+//   urlPath in the manifest already encodes the public R2 URL so reconcile
+//   can substitute it directly.
 //
 // Usage:
 //   node scripts/pdf-pipeline/figures.js <slug>
@@ -22,7 +25,7 @@ import { execFileSync } from 'child_process';
 
 const ROOT = process.cwd();
 const WORK_DIR = join(ROOT, 'work');
-const STATIC_FIGURES = join(ROOT, 'static', 'figures');
+const R2_PUBLIC_BASE = 'https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures';
 const MIN_DIMENSION = 50; // drop hairlines, color profiles, page rules
 
 function loadAllMetadata() {
@@ -88,7 +91,7 @@ function extractFigures(meta, { force }) {
 	const tmpDir = join(slugDir, 'figures-raw');
 	const manifestPath = join(slugDir, 'figures.json');
 	const sourcePath = join(ROOT, meta.path);
-	const destDir = join(STATIC_FIGURES, meta.slug);
+	const destDir = join(slugDir, 'figures');
 
 	if (existsSync(manifestPath) && !force) {
 		const cached = JSON.parse(readFileSync(manifestPath, 'utf-8'));
@@ -133,7 +136,7 @@ function extractFigures(meta, { force }) {
 		copyFileSync(srcPath, join(destDir, outName));
 		perPage[page].push({
 			file: outName,
-			urlPath: `/figures/${meta.slug}/${outName}`,
+			urlPath: `${R2_PUBLIC_BASE}/${meta.slug}/${outName}`,
 			width: dim.width,
 			height: dim.height,
 			bytes: statSync(srcPath).size
