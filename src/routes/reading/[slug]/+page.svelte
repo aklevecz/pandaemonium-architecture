@@ -306,7 +306,14 @@
 		if (!chatInput.trim() || chatLoading) return;
 		const msg = chatInput;
 		chatInput = '';
-		chatMessages = [...chatMessages, { role: 'user', content: msg }];
+		// Optimistic: push user message + an empty assistant placeholder we'll
+		// stream into.
+		chatMessages = [
+			...chatMessages,
+			{ role: 'user', content: msg },
+			{ role: 'assistant', content: '' }
+		];
+		const assistantIdx = chatMessages.length - 1;
 		chatLoading = true;
 		scrollChat();
 
@@ -323,13 +330,51 @@
 					selectedText: chatSelectedText || undefined
 				})
 			});
-			if (res.ok) {
-				const { conversationId, message } = await res.json();
-				activeConversationId = conversationId;
-				chatMessages = [...chatMessages, { role: 'assistant', content: message }];
-				chatSelectedText = '';
-				fetchConversations();
+			if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
+
+			const reader = res.body.getReader();
+			const decoder = new TextDecoder();
+			let buffer = '';
+			let streamFinished = false;
+			let receivedAnyDelta = false;
+			while (!streamFinished) {
+				const { value, done } = await reader.read();
+				if (done) break;
+				buffer += decoder.decode(value, { stream: true });
+				let nl: number;
+				while ((nl = buffer.indexOf('\n')) !== -1) {
+					const line = buffer.slice(0, nl).trim();
+					buffer = buffer.slice(nl + 1);
+					if (!line) continue;
+					let evt: { type: string; conversationId?: number; text?: string; message?: string };
+					try { evt = JSON.parse(line); } catch { continue; }
+					if (evt.type === 'init' && evt.conversationId) {
+						activeConversationId = evt.conversationId;
+					} else if (evt.type === 'delta' && evt.text) {
+						// Once the first delta lands, drop the "Thinking" indicator.
+						if (!receivedAnyDelta) {
+							receivedAnyDelta = true;
+							chatLoading = false;
+						}
+						chatMessages[assistantIdx].content += evt.text;
+						scrollChat();
+					} else if (evt.type === 'done') {
+						streamFinished = true;
+					} else if (evt.type === 'error') {
+						chatMessages[assistantIdx].content =
+							(chatMessages[assistantIdx].content || '') +
+							`\n\n*[error: ${evt.message ?? 'request failed'}]*`;
+						streamFinished = true;
+					}
+				}
 			}
+
+			chatSelectedText = '';
+			fetchConversations();
+		} catch (err) {
+			chatMessages[assistantIdx].content =
+				chatMessages[assistantIdx].content ||
+				`*[network error: ${err instanceof Error ? err.message : 'unknown'}]*`;
 		} finally {
 			chatLoading = false;
 			scrollChat();
@@ -746,17 +791,19 @@
 				</div>
 			{/if}
 			{#each chatMessages as msg, i (i)}
-				<div class="mb-4 {msg.role === 'user' ? 'text-right' : ''}">
-					<div class="inline-block max-w-[90%] rounded-lg px-3 py-2 text-left {msg.role === 'user' ? 'bg-rule/50 text-light' : 'bg-dark text-gray'}">
-						{#if msg.role === 'assistant'}
-							<div class="chat-prose font-serif text-sm">
-								{@html marked(msg.content)}
-							</div>
-						{:else}
-							<p class="whitespace-pre-wrap font-serif text-sm">{msg.content}</p>
-						{/if}
+				{#if msg.role !== 'assistant' || msg.content.length > 0}
+					<div class="mb-4 {msg.role === 'user' ? 'text-right' : ''}">
+						<div class="inline-block max-w-[90%] rounded-lg px-3 py-2 text-left {msg.role === 'user' ? 'bg-rule/50 text-light' : 'bg-dark text-gray'}">
+							{#if msg.role === 'assistant'}
+								<div class="chat-prose font-serif text-sm">
+									{@html marked(msg.content)}
+								</div>
+							{:else}
+								<p class="whitespace-pre-wrap font-serif text-sm">{msg.content}</p>
+							{/if}
+						</div>
 					</div>
-				</div>
+				{/if}
 			{/each}
 			{#if chatLoading}
 				<div class="mb-4">

@@ -28,6 +28,13 @@ export const GET: RequestHandler = async ({ url, locals, platform }) => {
 	error(400, 'Missing slug or id');
 };
 
+// Streaming chat: client gets newline-delimited JSON events while Claude
+// generates. Format:
+//   {"type":"init","conversationId":N}      (always first)
+//   {"type":"delta","text":"..."}           (zero or more)
+//   {"type":"done"}                         (last on success)
+//   {"type":"error","message":"..."}        (instead of done on failure)
+// Whatever text was streamed before an error/disconnect is still persisted.
 export const POST: RequestHandler = async ({ request, locals, platform }) => {
 	if (!locals.user) error(401, 'Not logged in');
 	const db = platform?.env?.DB;
@@ -37,79 +44,131 @@ export const POST: RequestHandler = async ({ request, locals, platform }) => {
 
 	const { slug, conversationId, message, readingTitle, readingAuthor, selectedText } = await request.json();
 	if (!slug || !message) error(400, 'Missing slug or message');
+	const userId = locals.user.id;
 
-	let convId = conversationId;
-
-	// Create new conversation if needed
+	let convId: number = conversationId;
 	if (!convId) {
 		const title = selectedText
 			? selectedText.slice(0, 60) + (selectedText.length > 60 ? '...' : '')
 			: message.slice(0, 60) + (message.length > 60 ? '...' : '');
 		const result = await db
 			.prepare('INSERT INTO conversations (user_id, reading_slug, title) VALUES (?, ?, ?)')
-			.bind(locals.user.id, slug, title)
+			.bind(userId, slug, title)
 			.run();
-		convId = result.meta.last_row_id;
+		convId = Number(result.meta.last_row_id);
 	}
 
-	// Save user message
 	await db
 		.prepare('INSERT INTO messages (conversation_id, role, content) VALUES (?, ?, ?)')
 		.bind(convId, 'user', message)
 		.run();
 
-	// Get conversation history
 	const history = await db
 		.prepare('SELECT role, content FROM messages WHERE conversation_id = ? ORDER BY created_at ASC')
 		.bind(convId)
 		.all<{ role: string; content: string }>();
 
-	// Build Claude messages
 	const systemPrompt = `You are a helpful reading assistant for an academic course called "Pandaemonium Architecture 6.0" which examines AI, machine learning, cybernetics, and their intersection with art and society.
 
 The user is reading: "${readingTitle}" by ${readingAuthor}.
 ${selectedText ? `\nThe user has selected this passage:\n"${selectedText}"\n` : ''}
 Help explain concepts, provide context, and engage in discussion about the reading. Be concise but thorough. Use accessible language while respecting the intellectual depth of the material.`;
 
-	const claudeMessages = history.results.map((m) => ({
+	const claudeMessages = (history.results ?? []).map((m: { role: string; content: string }) => ({
 		role: m.role as 'user' | 'assistant',
 		content: m.content
 	}));
 
-	// Call Claude API
-	const response = await fetch('https://api.anthropic.com/v1/messages', {
-		method: 'POST',
-		headers: {
-			'Content-Type': 'application/json',
-			'x-api-key': apiKey,
-			'anthropic-version': '2023-06-01'
-		},
-		body: JSON.stringify({
-			model: 'claude-sonnet-4-20250514',
-			max_tokens: 1024,
-			system: systemPrompt,
-			messages: claudeMessages
-		})
+	const encoder = new TextEncoder();
+	const stream = new ReadableStream<Uint8Array>({
+		async start(controller) {
+			const send = (obj: unknown) => controller.enqueue(encoder.encode(JSON.stringify(obj) + '\n'));
+			let assistantText = '';
+
+			send({ type: 'init', conversationId: convId });
+
+			try {
+				const upstream = await fetch('https://api.anthropic.com/v1/messages', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+						'x-api-key': apiKey,
+						'anthropic-version': '2023-06-01'
+					},
+					body: JSON.stringify({
+						model: 'claude-sonnet-4-20250514',
+						max_tokens: 1024,
+						stream: true,
+						system: systemPrompt,
+						messages: claudeMessages
+					})
+				});
+
+				if (!upstream.ok || !upstream.body) {
+					const errText = await upstream.text().catch(() => '');
+					console.error('Claude API error:', errText);
+					send({ type: 'error', message: 'Failed to get response from Claude' });
+					return;
+				}
+
+				// Anthropic SSE format: lines of "event: <name>\n" + "data: <json>\n\n".
+				// We only need the text from `content_block_delta` events.
+				const reader = upstream.body.getReader();
+				const decoder = new TextDecoder();
+				let buffer = '';
+				while (true) {
+					const { value, done } = await reader.read();
+					if (done) break;
+					buffer += decoder.decode(value, { stream: true });
+					let nlnl: number;
+					while ((nlnl = buffer.indexOf('\n\n')) !== -1) {
+						const block = buffer.slice(0, nlnl);
+						buffer = buffer.slice(nlnl + 2);
+						const dataLine = block.split('\n').find((l) => l.startsWith('data: '));
+						if (!dataLine) continue;
+						const payload = dataLine.slice(6).trim();
+						if (!payload || payload === '[DONE]') continue;
+						try {
+							const evt = JSON.parse(payload) as { type?: string; delta?: { type?: string; text?: string } };
+							if (evt.type === 'content_block_delta' && evt.delta?.type === 'text_delta' && evt.delta.text) {
+								assistantText += evt.delta.text;
+								send({ type: 'delta', text: evt.delta.text });
+							}
+						} catch {
+							// Ignore malformed lines; Anthropic also emits ping events etc.
+						}
+					}
+				}
+
+				send({ type: 'done' });
+			} catch (err) {
+				const msg = err instanceof Error ? err.message : 'Unknown error';
+				console.error('Stream error:', msg);
+				send({ type: 'error', message: msg });
+			} finally {
+				// Persist whatever we got, even on partial/error, so the client's
+				// optimistic UI matches what's loaded back from D1 on refresh.
+				if (assistantText.length) {
+					try {
+						await db
+							.prepare('INSERT INTO messages (conversation_id, role, content) VALUES (?, ?, ?)')
+							.bind(convId, 'assistant', assistantText)
+							.run();
+					} catch (err) {
+						console.error('Failed to persist assistant message:', err);
+					}
+				}
+				controller.close();
+			}
+		}
 	});
 
-	if (!response.ok) {
-		const err = await response.text();
-		console.error('Claude API error:', err);
-		error(502, 'Failed to get response from Claude');
-	}
-
-	const result = await response.json() as { content: Array<{ text: string }> };
-	const assistantMessage = result.content[0].text;
-
-	// Save assistant message
-	await db
-		.prepare('INSERT INTO messages (conversation_id, role, content) VALUES (?, ?, ?)')
-		.bind(convId, 'assistant', assistantMessage)
-		.run();
-
-	return json({
-		conversationId: convId,
-		message: assistantMessage
+	return new Response(stream, {
+		headers: {
+			'Content-Type': 'application/x-ndjson; charset=utf-8',
+			'Cache-Control': 'no-cache, no-transform',
+			'X-Accel-Buffering': 'no'
+		}
 	});
 };
 
