@@ -15,14 +15,13 @@
 // Also prints a summary table to stdout.
 
 import { readdirSync, statSync, mkdirSync, writeFileSync, existsSync } from 'fs';
-import { join, basename } from 'path';
+import { join } from 'path';
 import { execFileSync } from 'child_process';
 import { slugify } from './lib/slug.js';
+import { ROOT, WORK_DIR, pad, fmtBytes } from './lib/work.js';
 
-const ROOT = process.cwd();
 const PDFS_DIR = join(ROOT, 'PDFs');
 const ADDITIONAL_SUBDIR = 'additional_reading_primary_documents';
-const WORK_DIR = join(ROOT, 'work');
 
 // --- Tunables (mirror PDF_PIPELINE.md) -------------------------------------
 const SAMPLE_PAGE_COUNT = 5;          // pages to sample for text-layer check
@@ -253,17 +252,6 @@ function warningsFor(meta) {
 	}
 	if (meta.pages > 100) w.push('Pages >100 — definitely needs chunking even on native PDF input.');
 	return w;
-}
-
-function fmtBytes(n) {
-	if (n > 1024 * 1024) return `${(n / 1024 / 1024).toFixed(1)}M`;
-	if (n > 1024) return `${(n / 1024).toFixed(0)}K`;
-	return `${n}B`;
-}
-
-function pad(s, n) {
-	s = String(s);
-	return s.length >= n ? s.slice(0, n) : s + ' '.repeat(n - s.length);
 }
 
 // --- Main ------------------------------------------------------------------

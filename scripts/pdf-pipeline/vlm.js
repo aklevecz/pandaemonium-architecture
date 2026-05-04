@@ -24,11 +24,20 @@
 
 import { readdirSync, readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join } from 'path';
+import { ROOT, WORK_DIR, parseStageArgs } from './lib/work.js';
 
-const ROOT = process.cwd();
-const WORK_DIR = join(ROOT, 'work');
-const MODEL = process.env.PDF_PIPELINE_MODEL ?? 'gemini-3.1-flash-lite-preview';
+const DEFAULT_MODEL = process.env.PDF_PIPELINE_MODEL ?? 'gemini-3.1-flash-lite-preview';
 const MAX_OUTPUT_TOKENS = 8192;
+// Per-class fallback model used when the primary model returns RECITATION.
+// We learned during the corpus run that Pro retries identically — a step UP
+// in capability sometimes shakes the filter loose, but staying with the same
+// vendor/model on retry never does.
+const FALLBACK_MODEL_BY_CLASS = {
+	'born-digital-clean': null, // pdftotext fallback handled by fallback.js
+	mixed: null, // ditto
+	scanned: 'gemini-3-pro-preview',
+	'notes-heavy': 'gemini-3-pro-preview'
+};
 
 // --- env loading -----------------------------------------------------------
 
@@ -44,23 +53,18 @@ function loadDotenv() {
 // --- arg parsing -----------------------------------------------------------
 
 function parseArgs(argv) {
-	const args = { force: false, slug: null, pages: null, concurrency: 3, all: false };
-	for (const a of argv) {
-		if (a === '--force') args.force = true;
-		else if (a === '--all') args.all = true;
-		else if (a.startsWith('--pages=')) {
-			args.pages = a
-				.slice('--pages='.length)
-				.split(',')
-				.map((s) => Number(s.trim()))
-				.filter(Number.isFinite);
-		} else if (a.startsWith('--concurrency=')) {
-			args.concurrency = Math.max(1, Number(a.slice('--concurrency='.length)));
-		} else if (!args.slug) args.slug = a;
-		else { console.error(`Unexpected arg: ${a}`); process.exit(2); }
-	}
-	if (!args.slug && !args.all) {
-		console.error('Pass a slug as the first arg, or --all.');
+	const args = parseStageArgs(argv, {
+		'--pages=': (a, v) => {
+			a.pages = v.split(',').map((s) => Number(s.trim())).filter(Number.isFinite);
+		},
+		'--concurrency=': (a, v) => {
+			a.concurrency = Math.max(1, Number(v));
+		}
+	});
+	args.pages ??= null;
+	args.concurrency ??= 3;
+	if (!args.slug && !args.all && !args.class) {
+		console.error('Pass a slug as the first arg, --all, or --class=<name>.');
 		process.exit(2);
 	}
 	return args;
@@ -136,7 +140,7 @@ You will be given:
 
 // --- API call --------------------------------------------------------------
 
-async function callGemini({ apiKey, imageBase64, rawText, pageNum, totalPages, slug }) {
+async function callGemini({ apiKey, imageBase64, rawText, pageNum, totalPages, slug, model }) {
 	const userText = `Page ${pageNum} of ${totalPages} from "${slug}".\n\n${
 		rawText && rawText.trim().length
 			? `Raw pdftotext output for this page (use as a hint, not gospel):\n\n---\n${rawText}\n---`
@@ -160,7 +164,7 @@ async function callGemini({ apiKey, imageBase64, rawText, pageNum, totalPages, s
 		}
 	};
 
-	const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
+	const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
 	const res = await fetch(url, {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
@@ -211,18 +215,39 @@ async function processPage({ apiKey, slugDir, slug, pageEntry, totalPages, class
 	const rawTextPath = pageRawTextPath(slugDir, pageEntry.page);
 	const rawText = useRawText && existsSync(rawTextPath) ? readFileSync(rawTextPath, 'utf-8') : '';
 	const t0 = Date.now();
-	const { md, usage } = await callGemini({
-		apiKey,
-		imageBase64,
-		rawText,
-		pageNum: pageEntry.page,
-		totalPages,
-		slug
-	});
+	let md, usage, modelUsed = DEFAULT_MODEL;
+	try {
+		({ md, usage } = await callGemini({
+			apiKey,
+			imageBase64,
+			rawText,
+			pageNum: pageEntry.page,
+			totalPages,
+			slug,
+			model: DEFAULT_MODEL
+		}));
+	} catch (err) {
+		// On RECITATION (Gemini's copyright-similarity filter), step UP to the
+		// per-class fallback model once. Empirically the bigger model has
+		// different filter thresholds. Other errors propagate as-is.
+		const isRecitation = err instanceof Error && err.message.includes('finishReason=RECITATION');
+		const fallback = FALLBACK_MODEL_BY_CLASS[classification];
+		if (!isRecitation || !fallback) throw err;
+		modelUsed = fallback;
+		({ md, usage } = await callGemini({
+			apiKey,
+			imageBase64,
+			rawText,
+			pageNum: pageEntry.page,
+			totalPages,
+			slug,
+			model: fallback
+		}));
+	}
 	const dt = Date.now() - t0;
 	mkdirSync(join(slugDir, 'vlm'), { recursive: true });
 	writeFileSync(out, md);
-	return { page: pageEntry.page, status: 'fresh', usage, durationMs: dt };
+	return { page: pageEntry.page, status: 'fresh', usage, modelUsed, durationMs: dt };
 }
 
 // --- bounded parallelism ---------------------------------------------------
@@ -257,7 +282,9 @@ async function processSlug(slug, args) {
 	if (args.pages) pageEntries = pageEntries.filter((p) => args.pages.includes(p.page));
 
 	console.log(`vlm: ${meta.slug}`);
-	console.log(`  class=${meta.classification}  pages=${pageEntries.length}/${renderManifest.pageCount}  model=${MODEL}  concurrency=${args.concurrency}`);
+	const fallback = FALLBACK_MODEL_BY_CLASS[meta.classification];
+	const modelLabel = fallback ? `${DEFAULT_MODEL} → ${fallback} on RECITATION` : DEFAULT_MODEL;
+	console.log(`  class=${meta.classification}  pages=${pageEntries.length}/${renderManifest.pageCount}  model=${modelLabel}  concurrency=${args.concurrency}`);
 
 	const t0 = Date.now();
 	const results = await runWithConcurrency(pageEntries, args.concurrency, (p) =>
@@ -291,7 +318,7 @@ async function processSlug(slug, args) {
 			{
 				slug: meta.slug,
 				generatedAt: new Date().toISOString(),
-				model: MODEL,
+				model: DEFAULT_MODEL,
 				pageCount: renderManifest.pageCount,
 				processed: results.map((r) => ({ ...r, error: r.error ?? undefined })),
 				totals

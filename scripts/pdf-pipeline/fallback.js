@@ -9,24 +9,9 @@
 //   node scripts/pdf-pipeline/fallback.js --all
 //   node scripts/pdf-pipeline/fallback.js <slug>
 
-import { readdirSync, readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join } from 'path';
-
-const ROOT = process.cwd();
-const WORK_DIR = join(ROOT, 'work');
-
-function loadAllMetadata() {
-	const out = [];
-	for (const slug of readdirSync(WORK_DIR)) {
-		const metaPath = join(WORK_DIR, slug, 'metadata.json');
-		if (!existsSync(metaPath)) continue;
-		try { out.push(JSON.parse(readFileSync(metaPath, 'utf-8'))); } catch {}
-	}
-	return out;
-}
-
-function pad4(n) { return String(n).padStart(4, '0'); }
-function pad(s, n) { s = String(s); return s.length >= n ? s.slice(0, n) : s + ' '.repeat(n - s.length); }
+import { WORK_DIR, loadAllMetadata, pad, pad4 } from './lib/work.js';
 
 // pdftotext -layout output: turn into one paragraph per blank-line block.
 function rawTextToMarkdown(raw) {

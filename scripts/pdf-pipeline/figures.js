@@ -22,45 +22,10 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, statSync, copyFileSync } from 'fs';
 import { join } from 'path';
 import { execFileSync } from 'child_process';
+import { ROOT, WORK_DIR, loadAllMetadata, parseStageArgs, selectTargets, pad } from './lib/work.js';
 
-const ROOT = process.cwd();
-const WORK_DIR = join(ROOT, 'work');
 const R2_PUBLIC_BASE = 'https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures';
 const MIN_DIMENSION = 50; // drop hairlines, color profiles, page rules
-
-function loadAllMetadata() {
-	const out = [];
-	for (const slug of readdirSync(WORK_DIR)) {
-		const metaPath = join(WORK_DIR, slug, 'metadata.json');
-		if (!existsSync(metaPath)) continue;
-		try { out.push(JSON.parse(readFileSync(metaPath, 'utf-8'))); } catch {}
-	}
-	return out;
-}
-
-function parseArgs(argv) {
-	const args = { all: false, slug: null, force: false };
-	for (const a of argv) {
-		if (a === '--all') args.all = true;
-		else if (a === '--force') args.force = true;
-		else if (!args.slug) args.slug = a;
-		else { console.error(`Unexpected arg: ${a}`); process.exit(2); }
-	}
-	return args;
-}
-
-function selectTargets(args, allMeta) {
-	if (args.all) return allMeta;
-	if (!args.slug) { console.error('Pass <slug> or --all.'); process.exit(2); }
-	const exact = allMeta.find((m) => m.slug === args.slug);
-	if (exact) return [exact];
-	const prefix = allMeta.filter((m) => m.slug.startsWith(args.slug));
-	if (prefix.length === 1) return prefix;
-	if (prefix.length === 0) { console.error(`No PDF matches "${args.slug}".`); process.exit(1); }
-	console.error(`Slug "${args.slug}" is ambiguous:`);
-	for (const m of prefix) console.error(`  ${m.slug}`);
-	process.exit(1);
-}
 
 // Read PNG IHDR / JPEG SOFn to get dimensions without loading a real decoder.
 function dimensionsOf(path) {
@@ -157,9 +122,7 @@ function extractFigures(meta, { force }) {
 	return { ...manifest, cached: false };
 }
 
-function pad(s, n) { s = String(s); return s.length >= n ? s.slice(0, n) : s + ' '.repeat(n - s.length); }
-
-const args = parseArgs(process.argv.slice(2));
+const args = parseStageArgs(process.argv.slice(2));
 const allMeta = loadAllMetadata();
 const targets = selectTargets(args, allMeta);
 
