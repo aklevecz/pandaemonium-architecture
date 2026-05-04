@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getPdfUrl } from '$lib/data/syllabus';
 	import { browser } from '$app/environment';
-	import { marked } from 'marked';
+	import ChatMessage from '$lib/components/ChatMessage.svelte';
 
 	let { data } = $props();
 
@@ -53,6 +53,8 @@
 	let chatMessages: ChatMessage[] = $state([]);
 	let chatInput = $state('');
 	let chatLoading = $state(false);
+	let chatStreaming = $state(false);
+	let chatAbort: AbortController | null = $state(null);
 	let conversations: Conversation[] = $state([]);
 	let activeConversationId: number | null = $state(null);
 	let chatSelectedText = $state('');
@@ -302,8 +304,12 @@
 		}
 	}
 
+	function abortChat() {
+		chatAbort?.abort();
+	}
+
 	async function sendChat() {
-		if (!chatInput.trim() || chatLoading) return;
+		if (!chatInput.trim() || chatLoading || chatStreaming) return;
 		const msg = chatInput;
 		chatInput = '';
 		// Optimistic: push user message + an empty assistant placeholder we'll
@@ -315,12 +321,16 @@
 		];
 		const assistantIdx = chatMessages.length - 1;
 		chatLoading = true;
+		chatStreaming = true;
+		const abort = new AbortController();
+		chatAbort = abort;
 		scrollChat();
 
 		try {
 			const res = await fetch('/api/chat', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
+				signal: abort.signal,
 				body: JSON.stringify({
 					slug: data.slug,
 					conversationId: activeConversationId,
@@ -372,11 +382,21 @@
 			chatSelectedText = '';
 			fetchConversations();
 		} catch (err) {
-			chatMessages[assistantIdx].content =
-				chatMessages[assistantIdx].content ||
-				`*[network error: ${err instanceof Error ? err.message : 'unknown'}]*`;
+			if (err instanceof Error && err.name === 'AbortError') {
+				// User-initiated; partial text already in the bubble. Server's
+				// finally clause persisted whatever streamed.
+				chatMessages[assistantIdx].content =
+					(chatMessages[assistantIdx].content || '') + '\n\n*[stopped]*';
+				fetchConversations();
+			} else {
+				chatMessages[assistantIdx].content =
+					chatMessages[assistantIdx].content ||
+					`*[network error: ${err instanceof Error ? err.message : 'unknown'}]*`;
+			}
 		} finally {
 			chatLoading = false;
+			chatStreaming = false;
+			chatAbort = null;
 			scrollChat();
 		}
 	}
@@ -792,17 +812,7 @@
 			{/if}
 			{#each chatMessages as msg, i (i)}
 				{#if msg.role !== 'assistant' || msg.content.length > 0}
-					<div class="mb-4 {msg.role === 'user' ? 'text-right' : ''}">
-						<div class="inline-block max-w-[90%] rounded-lg px-3 py-2 text-left {msg.role === 'user' ? 'bg-rule/50 text-light' : 'bg-dark text-gray'}">
-							{#if msg.role === 'assistant'}
-								<div class="chat-prose font-serif text-sm">
-									{@html marked(msg.content)}
-								</div>
-							{:else}
-								<p class="whitespace-pre-wrap font-serif text-sm">{msg.content}</p>
-							{/if}
-						</div>
-					</div>
+					<ChatMessage role={msg.role} content={msg.content} />
 				{/if}
 			{/each}
 			{#if chatLoading}
@@ -826,16 +836,26 @@
 					type="text"
 					bind:value={chatInput}
 					placeholder="Ask about this reading..."
-					disabled={chatLoading}
+					disabled={chatLoading || chatStreaming}
 					class="flex-1 border border-rule bg-dark px-3 py-2 text-sm text-white outline-none placeholder:text-muted focus:border-muted disabled:opacity-50"
 				/>
-				<button
-					type="submit"
-					disabled={!chatInput.trim() || chatLoading}
-					class="border border-rule px-3 py-2 text-xs text-muted transition-colors hover:border-muted hover:text-light uppercase disabled:opacity-30"
-				>
-					Send
-				</button>
+				{#if chatStreaming}
+					<button
+						type="button"
+						onclick={abortChat}
+						class="border border-rule px-3 py-2 text-xs text-light transition-colors hover:border-muted hover:bg-rule/30 uppercase"
+					>
+						Stop
+					</button>
+				{:else}
+					<button
+						type="submit"
+						disabled={!chatInput.trim() || chatLoading}
+						class="border border-rule px-3 py-2 text-xs text-muted transition-colors hover:border-muted hover:text-light uppercase disabled:opacity-30"
+					>
+						Send
+					</button>
+				{/if}
 			</div>
 		</form>
 	{/if}
