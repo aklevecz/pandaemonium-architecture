@@ -1,13 +1,11 @@
 import { json, error } from '@sveltejs/kit';
+import { requireAuthAndDb } from '$lib/server/api';
 import type { RequestHandler } from './$types';
 
-export const GET: RequestHandler = async ({ url, locals, platform }) => {
-	if (!locals.user) error(401, 'Not logged in');
-	const db = platform?.env?.DB;
-	if (!db) error(500, 'Database not available');
-
-	const slug = url.searchParams.get('slug');
-	const conversationId = url.searchParams.get('id');
+export const GET: RequestHandler = async (event) => {
+	const { user, db } = requireAuthAndDb(event);
+	const slug = event.url.searchParams.get('slug');
+	const conversationId = event.url.searchParams.get('id');
 
 	if (conversationId) {
 		const messages = await db
@@ -20,7 +18,7 @@ export const GET: RequestHandler = async ({ url, locals, platform }) => {
 	if (slug) {
 		const conversations = await db
 			.prepare('SELECT id, title, created_at FROM conversations WHERE user_id = ? AND reading_slug = ? ORDER BY created_at DESC')
-			.bind(locals.user.id, slug)
+			.bind(user.id, slug)
 			.all<{ id: number; title: string; created_at: string }>();
 		return json(conversations.results);
 	}
@@ -35,16 +33,14 @@ export const GET: RequestHandler = async ({ url, locals, platform }) => {
 //   {"type":"done"}                         (last on success)
 //   {"type":"error","message":"..."}        (instead of done on failure)
 // Whatever text was streamed before an error/disconnect is still persisted.
-export const POST: RequestHandler = async ({ request, locals, platform }) => {
-	if (!locals.user) error(401, 'Not logged in');
-	const db = platform?.env?.DB;
-	if (!db) error(500, 'Database not available');
-	const apiKey = platform?.env?.ANTHROPIC_API_KEY;
+export const POST: RequestHandler = async (event) => {
+	const { user, db } = requireAuthAndDb(event);
+	const apiKey = event.platform?.env?.ANTHROPIC_API_KEY;
 	if (!apiKey) error(500, 'API key not configured');
 
-	const { slug, conversationId, message, readingTitle, readingAuthor, selectedText } = await request.json();
+	const { slug, conversationId, message, readingTitle, readingAuthor, selectedText } = await event.request.json();
 	if (!slug || !message) error(400, 'Missing slug or message');
-	const userId = locals.user.id;
+	const userId = user.id;
 
 	let convId: number = conversationId;
 	if (!convId) {
@@ -68,11 +64,16 @@ export const POST: RequestHandler = async ({ request, locals, platform }) => {
 		.bind(convId)
 		.all<{ role: string; content: string }>();
 
-	const systemPrompt = `You are a helpful reading assistant for an academic course called "Pandaemonium Architecture 6.0" which examines AI, machine learning, cybernetics, and their intersection with art and society.
-
-The user is reading: "${readingTitle}" by ${readingAuthor}.
-${selectedText ? `\nThe user has selected this passage:\n"${selectedText}"\n` : ''}
-Help explain concepts, provide context, and engage in discussion about the reading. Be concise but thorough. Use accessible language while respecting the intellectual depth of the material.`;
+	// Split into a stable course-level prefix (cached across every chat in the
+	// app) and a per-conversation suffix (re-sent each turn but tiny). Anthropic
+	// prompt caching gives ~10x discount on the cached prefix and keeps the
+	// system message reusable across conversations.
+	const stableSystem = `You are a helpful reading assistant for an academic course called "Pandaemonium Architecture 6.0" which examines AI, machine learning, cybernetics, and their intersection with art and society. Help explain concepts, provide context, and engage in discussion about the reading. Be concise but thorough. Use accessible language while respecting the intellectual depth of the material.`;
+	const conversationSystem = `The user is reading: "${readingTitle}" by ${readingAuthor}.${selectedText ? `\n\nThe user has selected this passage:\n"${selectedText}"` : ''}`;
+	const systemBlocks = [
+		{ type: 'text', text: stableSystem, cache_control: { type: 'ephemeral' } },
+		{ type: 'text', text: conversationSystem }
+	];
 
 	const claudeMessages = (history.results ?? []).map((m: { role: string; content: string }) => ({
 		role: m.role as 'user' | 'assistant',
@@ -99,7 +100,7 @@ Help explain concepts, provide context, and engage in discussion about the readi
 						model: 'claude-sonnet-4-20250514',
 						max_tokens: 1024,
 						stream: true,
-						system: systemPrompt,
+						system: systemBlocks,
 						messages: claudeMessages
 					})
 				});
@@ -172,16 +173,12 @@ Help explain concepts, provide context, and engage in discussion about the readi
 	});
 };
 
-export const DELETE: RequestHandler = async ({ url, locals, platform }) => {
-	if (!locals.user) error(401, 'Not logged in');
-	const db = platform?.env?.DB;
-	if (!db) error(500, 'Database not available');
-
-	const id = url.searchParams.get('id');
+export const DELETE: RequestHandler = async (event) => {
+	const { user, db } = requireAuthAndDb(event);
+	const id = event.url.searchParams.get('id');
 	if (!id) error(400, 'Missing id');
 
 	await db.prepare('DELETE FROM messages WHERE conversation_id = ?').bind(Number(id)).run();
-	await db.prepare('DELETE FROM conversations WHERE id = ? AND user_id = ?').bind(Number(id), locals.user.id).run();
-
+	await db.prepare('DELETE FROM conversations WHERE id = ? AND user_id = ?').bind(Number(id), user.id).run();
 	return json({ ok: true });
 };
