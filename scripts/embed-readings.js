@@ -22,7 +22,12 @@ const ROOT = process.cwd();
 const READING_CONTENT_DIR = join(ROOT, 'static', 'reading-content');
 const STATIC_DIR = join(ROOT, 'static');
 
-const EMBED_MODEL = 'text-embedding-004';
+// gemini-embedding-2 with outputDimensionality=768 (Matryoshka truncation of
+// the native 3072-dim output) keeps the on-disk footprint modest while
+// preserving retrieval quality at corpus scale. 8192-token input window means
+// even larger chunks would fit, but 500-token chunks are still ideal for
+// retrieval granularity.
+const EMBED_MODEL = 'gemini-embedding-2';
 const EMBED_URL = `https://generativelanguage.googleapis.com/v1beta/models/${EMBED_MODEL}:embedContent`;
 const EMBED_DIMS = 768;
 const TARGET_CHUNK_TOKENS = 500;
@@ -70,7 +75,8 @@ async function embedOne(text, apiKey) {
 	const body = {
 		model: `models/${EMBED_MODEL}`,
 		content: { parts: [{ text }] },
-		taskType: 'RETRIEVAL_DOCUMENT'
+		taskType: 'RETRIEVAL_DOCUMENT',
+		outputDimensionality: EMBED_DIMS
 	};
 	const res = await fetch(EMBED_URL, {
 		method: 'POST',

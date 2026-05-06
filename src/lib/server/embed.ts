@@ -4,7 +4,11 @@
 //
 // Free tier: 1500 RPM, 768-dim float32 vectors, $0.
 
-const EMBED_MODEL = 'text-embedding-004';
+// gemini-embedding-2: 3072 dims native, 8192 input token limit. We truncate
+// to 768 via outputDimensionality (Matryoshka) to keep on-disk footprint
+// modest (~9 MB for ~3000 chunks vs ~36 MB at full size). Quality at 768 is
+// essentially indistinguishable from 3072 for retrieval at corpus scale.
+const EMBED_MODEL = 'gemini-embedding-2';
 const EMBED_URL = `https://generativelanguage.googleapis.com/v1beta/models/${EMBED_MODEL}:embedContent`;
 
 export const EMBEDDING_DIMS = 768;
@@ -21,7 +25,8 @@ export interface EmbedOptions {
 export async function embed(text: string, opts: EmbedOptions): Promise<Float32Array> {
 	const body: Record<string, unknown> = {
 		model: `models/${EMBED_MODEL}`,
-		content: { parts: [{ text }] }
+		content: { parts: [{ text }] },
+		outputDimensionality: EMBEDDING_DIMS
 	};
 	if (opts.taskType) body.taskType = opts.taskType;
 	if (opts.title) body.title = opts.title;
