@@ -8,6 +8,7 @@ declare global {
 				DB: D1Database;
 				ANTHROPIC_API_KEY: string;
 				GEMINI_API_KEY: string;
+				ASSETS: { fetch: (request: Request | string) => Promise<Response> };
 			};
 		}
 	}

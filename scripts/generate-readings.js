@@ -34,6 +34,20 @@ mkdirSync(outDir, { recursive: true });
 
 let count = 0;
 const seen = new Set();
+const fallbackMeta = {}; // slug -> { author, title } parsed from filename
+
+// Markdown filenames mostly follow "Author, Title.md" or "Author - Title.md".
+// This isn't perfect for every case (some have nested commas, dashes in titles)
+// but it's much better than showing "Unknown" for readings that aren't in
+// syllabus.ts.
+function parseAuthorTitle(filename) {
+	const stem = filename.replace(/\.md$/, '');
+	let m = stem.match(/^([^,]+?),\s*(.+)$/);
+	if (m) return { author: m[1].trim(), title: m[2].trim() };
+	m = stem.match(/^([^-]+?)\s+-\s+(.+)$/);
+	if (m) return { author: m[1].trim(), title: m[2].trim() };
+	return { author: '', title: stem };
+}
 
 function ingest(file, parentDir) {
 	if (!file.endsWith('.md')) return;
@@ -44,6 +58,7 @@ function ingest(file, parentDir) {
 	const fullPath = parentDir ? join(mdRoot, parentDir, file) : join(mdRoot, file);
 	const content = readFileSync(fullPath, 'utf-8');
 	writeFileSync(join(outDir, `${slug}.md`), content);
+	fallbackMeta[slug] = parseAuthorTitle(file);
 	count++;
 }
 
@@ -58,4 +73,11 @@ if (existsSync(additionalDir)) {
 	}
 }
 
-console.log(`Generated ${count} reading entries → static/reading-content/`);
+// Fallback metadata for readings that exist in the corpus but aren't
+// referenced in syllabus.ts. Loaded by /search to render real names instead
+// of "Unknown".
+writeFileSync(
+	join(root, 'static', 'readings-fallback.json'),
+	JSON.stringify(fallbackMeta, null, 0)
+);
+console.log(`Generated ${count} reading entries → static/reading-content/ + readings-fallback.json`);

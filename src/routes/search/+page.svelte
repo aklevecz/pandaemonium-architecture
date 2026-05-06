@@ -14,6 +14,23 @@
 
 	const metaBySlug = new Map<string, ReadingMeta>();
 	for (const m of buildReadingMetaList()) metaBySlug.set(m.slug, m);
+	// Fallback {author, title} for readings whose slug isn't referenced in
+	// syllabus.ts. Lazily loaded so we don't pay for the JSON on every page.
+	let fallbackMeta = $state<Record<string, { author: string; title: string }>>({});
+	if (browser) {
+		fetch('/readings-fallback.json')
+			.then((r) => (r.ok ? r.json() : {}))
+			.then((j) => (fallbackMeta = j))
+			.catch(() => {});
+	}
+
+	function metaFor(slug: string): { author: string; title: string } {
+		const fromSyllabus = metaBySlug.get(slug);
+		if (fromSyllabus) return { author: fromSyllabus.author, title: fromSyllabus.title };
+		const fb = fallbackMeta[slug];
+		if (fb) return fb;
+		return { author: '', title: slug };
+	}
 
 	let query = $state(browser ? page.url.searchParams.get('q') ?? '' : '');
 	let loading = $state(false);
@@ -123,14 +140,16 @@
 		<p class="text-xs text-muted">{hits.length} relevant passages</p>
 		<div class="mt-6 space-y-6 pb-24">
 			{#each hits as hit (hit.slug + ':' + hit.chunkIndex)}
-				{@const meta = metaBySlug.get(hit.slug)}
+				{@const meta = metaFor(hit.slug)}
 				<a href={readingHref(hit)} class="group block no-underline">
 					<article class="border-l border-rule pl-4 transition-colors group-hover:border-muted">
 						<div class="flex items-baseline justify-between gap-3">
 							<div class="min-w-0">
-								<p class="text-xs text-muted">{meta?.author ?? 'Unknown'}</p>
+								{#if meta.author}
+									<p class="text-xs text-muted">{meta.author}</p>
+								{/if}
 								<h2 class="mt-0.5 font-serif text-base text-light transition-colors group-hover:text-bright">
-									{meta?.title ?? hit.slug}
+									{meta.title}
 								</h2>
 							</div>
 							<span class="shrink-0 font-mono text-xs text-muted tabular-nums">

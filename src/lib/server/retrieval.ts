@@ -23,13 +23,22 @@ interface IndexState {
 let cached: IndexState | null = null;
 let pending: Promise<IndexState> | null = null;
 
-async function loadIndex(event: Pick<RequestEvent, 'fetch'>): Promise<IndexState> {
+async function loadIndex(event: Pick<RequestEvent, 'fetch' | 'platform' | 'url'>): Promise<IndexState> {
 	if (cached) return cached;
 	if (pending) return pending;
 	pending = (async () => {
+		// In production on Cloudflare, event.fetch on a relative path doesn't
+		// route to static assets — it tries to make an outbound HTTP request
+		// to the same custom domain, which loops and times out (522). Use the
+		// ASSETS binding directly with absolute URLs. In dev (no ASSETS
+		// binding), event.fetch correctly serves from Vite's static dir.
+		const fetchAsset = event.platform?.env?.ASSETS
+			? (path: string) =>
+					event.platform!.env.ASSETS.fetch(new URL(path, event.url.origin).toString())
+			: (path: string) => event.fetch(path);
 		const [binRes, metaRes] = await Promise.all([
-			event.fetch('/embeddings.bin'),
-			event.fetch('/embeddings-meta.json')
+			fetchAsset('/embeddings.bin'),
+			fetchAsset('/embeddings-meta.json')
 		]);
 		if (!binRes.ok || !metaRes.ok) {
 			throw new Error(
@@ -80,7 +89,7 @@ export interface RetrievalOptions {
 }
 
 export async function retrieve(
-	event: Pick<RequestEvent, 'fetch' | 'platform'>,
+	event: Pick<RequestEvent, 'fetch' | 'platform' | 'url'>,
 	query: string,
 	apiKey: string,
 	opts: RetrievalOptions = {}
