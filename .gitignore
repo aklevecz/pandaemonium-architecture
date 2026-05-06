@@ -7,6 +7,11 @@ PDFs/
 # or `npm run build` to regenerate; served as static assets at /reading-content/...)
 static/reading-content/
 
+# Generated semantic-search index (run `node scripts/embed-readings.js` to
+# regenerate after corpus changes; served at /embeddings.bin + /embeddings-meta.json)
+static/embeddings.bin
+static/embeddings-meta.json
+
 # PDF pipeline scratch (per-PDF metadata, page renders, raw OCR, VLM outputs)
 work/
 

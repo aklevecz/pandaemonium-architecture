@@ -2,51 +2,45 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import { browser } from '$app/environment';
-	import {
-		buildReadingMetaList,
-		loadCorpus,
-		search,
-		type SearchHit,
-		type ReadingMeta
-	} from '$lib/search';
+	import { buildReadingMetaList, type ReadingMeta } from '$lib/search';
 
-	const metaList: ReadingMeta[] = buildReadingMetaList();
+	interface Hit {
+		slug: string;
+		chunkIndex: number;
+		text: string;
+		position: number;
+		score: number;
+	}
+
+	const metaBySlug = new Map<string, ReadingMeta>();
+	for (const m of buildReadingMetaList()) metaBySlug.set(m.slug, m);
 
 	let query = $state(browser ? page.url.searchParams.get('q') ?? '' : '');
-	let corpus: Record<string, string> | null = $state(null);
 	let loading = $state(false);
-	let hits: SearchHit[] = $state([]);
+	let hits: Hit[] = $state([]);
+	let error: string | null = $state(null);
 	let debounce: ReturnType<typeof setTimeout> | null = null;
 	let inputEl: HTMLInputElement | undefined = $state();
+	let inflightController: AbortController | null = null;
 
 	$effect(() => {
-		// JS-driven focus instead of the autofocus attribute (a11y).
 		if (inputEl) inputEl.focus();
 	});
 
-	async function ensureCorpus() {
-		if (corpus) return corpus;
-		loading = true;
-		try {
-			corpus = await loadCorpus(metaList);
-			return corpus;
-		} finally {
-			loading = false;
+	$effect(() => {
+		// Run initial search if URL arrived with ?q=
+		if (browser && query.trim().length >= 2 && hits.length === 0 && !loading) {
+			runSearch(query);
 		}
-	}
+	});
 
-	async function runSearch(q: string) {
-		const c = await ensureCorpus();
-		hits = search(q, c, metaList);
-	}
-
-	// Debounce keystrokes; also sync the URL so results are linkable.
 	$effect(() => {
 		const q = query;
 		if (debounce) clearTimeout(debounce);
 		if (!browser) return;
 		if (q.trim().length < 2) {
 			hits = [];
+			error = null;
 			if (page.url.searchParams.get('q')) {
 				goto('/search', { replaceState: true, keepFocus: true });
 			}
@@ -57,11 +51,41 @@
 			const url = new URL(page.url);
 			url.searchParams.set('q', q);
 			goto(url, { replaceState: true, keepFocus: true });
-		}, 250);
+		}, 300);
 	});
 
-	function readingHref(slug: string, q: string) {
-		return `/reading/${slug}?q=${encodeURIComponent(q)}`;
+	async function runSearch(q: string) {
+		inflightController?.abort();
+		const controller = new AbortController();
+		inflightController = controller;
+		loading = true;
+		error = null;
+		try {
+			const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=12`, {
+				signal: controller.signal
+			});
+			if (!res.ok) throw new Error(`HTTP ${res.status}`);
+			const json = (await res.json()) as { hits: Hit[] };
+			hits = json.hits;
+		} catch (err) {
+			if (err instanceof Error && err.name !== 'AbortError') {
+				error = err.message;
+				hits = [];
+			}
+		} finally {
+			if (inflightController === controller) {
+				inflightController = null;
+				loading = false;
+			}
+		}
+	}
+
+	function readingHref(hit: Hit): string {
+		// Anchor on the first ~80 chars of the chunk so the reader's ?q=
+		// highlighter scrolls to it. Substring search is case-insensitive and
+		// handles whitespace variation well enough.
+		const anchor = hit.text.slice(0, 80).split(/\s+/).slice(0, 12).join(' ');
+		return `/reading/${hit.slug}?q=${encodeURIComponent(anchor)}`;
 	}
 </script>
 
@@ -75,7 +99,7 @@
 			&larr; Back
 		</a>
 		<h1 class="mt-8 font-serif text-4xl font-normal text-bright">Search</h1>
-		<p class="mt-2 text-xs text-muted">across {metaList.length} readings</p>
+		<p class="mt-2 text-xs text-muted">semantic search across {metaBySlug.size} readings</p>
 	</header>
 
 	<form onsubmit={(e) => e.preventDefault()} class="mb-8">
@@ -83,57 +107,41 @@
 			bind:this={inputEl}
 			type="search"
 			bind:value={query}
-			placeholder="Search readings…"
+			placeholder="What do the readings say about…"
 			autocomplete="off"
 			class="w-full border border-rule bg-dark px-4 py-3 font-serif text-base text-white outline-none placeholder:text-muted focus:border-muted"
 		/>
 	</form>
 
 	{#if loading && hits.length === 0}
-		<p class="text-xs text-muted">Loading reading content…</p>
+		<p class="text-xs text-muted">Searching…</p>
+	{:else if error}
+		<p class="text-xs text-muted">Search error: {error}</p>
 	{:else if query.trim().length >= 2 && hits.length === 0 && !loading}
 		<p class="text-xs text-muted">No matches.</p>
 	{:else if hits.length > 0}
-		<p class="text-xs text-muted">
-			{hits.reduce((n, h) => n + h.matches, 0)} matches across {hits.length} readings
-		</p>
-		<div class="mt-6 space-y-8 pb-24">
-			{#each hits as hit (hit.meta.slug)}
-				<article>
-					<a href={readingHref(hit.meta.slug, query)} class="group block no-underline">
-						<p class="text-xs text-muted">{hit.meta.author}</p>
-						<h2 class="mt-1 font-serif text-lg text-light transition-colors group-hover:text-bright">
-							{hit.meta.title}
-						</h2>
-						<p class="mt-1 text-xs text-muted">
-							{#if hit.meta.weekNumber}
-								Week {String(hit.meta.weekNumber).padStart(2, '0')}{hit.meta.isAdditional
-									? ' · Additional'
-									: ''}
-							{:else if hit.meta.isIntroductory}
-								Introductory
-							{/if}
-							{#if hit.matches > 0}
-								· {hit.matches} {hit.matches === 1 ? 'match' : 'matches'}
-							{:else}
-								· title/author match
-							{/if}
-						</p>
-					</a>
-					{#if hit.snippets.length > 0}
-						<div class="mt-3 space-y-3 border-l border-rule pl-4">
-							{#each hit.snippets as snip}
-								<a
-									href={readingHref(hit.meta.slug, query)}
-									class="block font-serif text-sm text-gray no-underline transition-colors hover:text-light"
-								>
-									{snip.before}<mark class="bg-bright/20 text-bright">{snip.match}</mark
-									>{snip.after}
-								</a>
-							{/each}
+		<p class="text-xs text-muted">{hits.length} relevant passages</p>
+		<div class="mt-6 space-y-6 pb-24">
+			{#each hits as hit (hit.slug + ':' + hit.chunkIndex)}
+				{@const meta = metaBySlug.get(hit.slug)}
+				<a href={readingHref(hit)} class="group block no-underline">
+					<article class="border-l border-rule pl-4 transition-colors group-hover:border-muted">
+						<div class="flex items-baseline justify-between gap-3">
+							<div class="min-w-0">
+								<p class="text-xs text-muted">{meta?.author ?? 'Unknown'}</p>
+								<h2 class="mt-0.5 font-serif text-base text-light transition-colors group-hover:text-bright">
+									{meta?.title ?? hit.slug}
+								</h2>
+							</div>
+							<span class="shrink-0 font-mono text-xs text-muted tabular-nums">
+								{(hit.score * 100).toFixed(0)}%
+							</span>
 						</div>
-					{/if}
-				</article>
+						<p class="mt-3 font-serif text-sm leading-relaxed text-gray transition-colors group-hover:text-light">
+							{hit.text.slice(0, 320)}{hit.text.length > 320 ? '…' : ''}
+						</p>
+					</article>
+				</a>
 			{/each}
 		</div>
 	{/if}

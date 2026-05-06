@@ -1,5 +1,6 @@
 import { json, error } from '@sveltejs/kit';
 import { requireAuthAndDb } from '$lib/server/api';
+import { retrieve } from '$lib/server/retrieval';
 import type { RequestHandler } from './$types';
 
 export const GET: RequestHandler = async (event) => {
@@ -79,6 +80,34 @@ export const POST: RequestHandler = async (event) => {
 		role: m.role as 'user' | 'assistant',
 		content: m.content
 	}));
+
+	// RAG: pull a few chunks from the same reading that are most semantically
+	// relevant to the user's message. Same-reading filter keeps the response
+	// grounded in what the student is actually looking at; cross-corpus
+	// retrieval would be a separate "Find related" feature. Failures here are
+	// non-fatal — if the embeddings index isn't built or Gemini errors, we
+	// just skip RAG and chat continues.
+	let ragContext = '';
+	const geminiKey = event.platform?.env?.GEMINI_API_KEY;
+	if (geminiKey) {
+		try {
+			const hits = await retrieve(event, message, geminiKey, { slug, limit: 3 });
+			if (hits.length > 0) {
+				ragContext =
+					`\n\nRelevant passages retrieved from this reading (use them to ground your answer; quote when useful, and don't invent passages):\n\n` +
+					hits
+						.map(
+							(h, i) =>
+								`[passage ${i + 1}, score ${h.score.toFixed(2)}]\n${h.text.replace(/\n+/g, ' ').slice(0, 800)}`
+						)
+						.join('\n\n');
+			}
+		} catch (err) {
+			console.error('RAG retrieval skipped:', err instanceof Error ? err.message : err);
+		}
+	}
+	const conversationSystemWithContext = systemBlocks[1].text + ragContext;
+	systemBlocks[1] = { ...systemBlocks[1], text: conversationSystemWithContext };
 
 	const encoder = new TextEncoder();
 	const stream = new ReadableStream<Uint8Array>({
