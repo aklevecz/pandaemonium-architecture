@@ -257,3 +257,9 @@ body {
 .highlight-mark:hover {
 	background-color: rgba(234, 179, 8, 0.4);
 }
+
+mark.search-hit {
+	background-color: rgba(125, 211, 252, 0.25);
+	color: inherit;
+	border-bottom: 1px solid rgba(125, 211, 252, 0.4);
+}

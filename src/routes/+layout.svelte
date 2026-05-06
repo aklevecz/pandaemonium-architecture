@@ -46,6 +46,11 @@
 					class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
 					>Index</a
 				>
+				<a
+					href="/search"
+					class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
+					>Search</a
+				>
 				{#if data.user}
 					<span class="hidden text-xs text-muted sm:inline">{data.user.email}</span>
 					<button

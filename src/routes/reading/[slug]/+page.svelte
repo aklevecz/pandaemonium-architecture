@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { getPdfUrl } from '$lib/data/syllabus';
 	import { browser } from '$app/environment';
+	import { page } from '$app/state';
 	import ChatPanel from '$lib/components/ChatPanel.svelte';
 	import NotesPanel from '$lib/components/NotesPanel.svelte';
 	import SelectionTooltip from '$lib/components/SelectionTooltip.svelte';
@@ -202,6 +203,55 @@
 		}
 	}
 
+	// Highlights every occurrence of `q` in the prose with <mark.search-hit>
+	// styling and scrolls the first match into view. Triggered by ?q= from the
+	// search page.
+	function applyQueryHighlight(q: string) {
+		if (!proseEl || !q.trim()) return;
+		// Strip prior search marks first.
+		proseEl.querySelectorAll('mark.search-hit').forEach((mark) => {
+			const parent = mark.parentNode;
+			if (parent) {
+				parent.replaceChild(document.createTextNode(mark.textContent || ''), mark);
+				parent.normalize();
+			}
+		});
+
+		const needle = q.toLowerCase();
+		const walker = document.createTreeWalker(proseEl, NodeFilter.SHOW_TEXT);
+		const textNodes: Text[] = [];
+		let node: Text | null;
+		while ((node = walker.nextNode() as Text | null)) textNodes.push(node);
+
+		let firstMark: HTMLElement | null = null;
+		for (const tn of textNodes) {
+			const text = tn.textContent ?? '';
+			const lower = text.toLowerCase();
+			if (!lower.includes(needle)) continue;
+			const frag = document.createDocumentFragment();
+			let cursor = 0;
+			while (cursor < text.length) {
+				const idx = lower.indexOf(needle, cursor);
+				if (idx === -1) {
+					frag.appendChild(document.createTextNode(text.slice(cursor)));
+					break;
+				}
+				if (idx > cursor) frag.appendChild(document.createTextNode(text.slice(cursor, idx)));
+				const mark = document.createElement('mark');
+				mark.className = 'search-hit';
+				mark.textContent = text.slice(idx, idx + needle.length);
+				frag.appendChild(mark);
+				if (!firstMark) firstMark = mark;
+				cursor = idx + needle.length;
+			}
+			tn.parentNode!.replaceChild(frag, tn);
+		}
+
+		if (firstMark) {
+			firstMark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+		}
+	}
+
 	function markTextInDom(container: HTMLElement, h: Highlight) {
 		const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
 		const textNodes: Text[] = [];
@@ -279,6 +329,15 @@
 			window.addEventListener('scroll', handleScroll, { passive: true });
 			return () => window.removeEventListener('scroll', handleScroll);
 		}
+	});
+
+	// Re-apply query highlight whenever the URL ?q= changes or the prose
+	// element mounts. Runs after a frame so any in-progress fetchHighlights()
+	// re-render lands first.
+	$effect(() => {
+		const q = browser ? page.url.searchParams.get('q') : null;
+		if (!q || !proseEl) return;
+		requestAnimationFrame(() => applyQueryHighlight(q));
 	});
 </script>
 
