@@ -34,10 +34,10 @@
 	}
 
 	let query = $state(browser ? page.url.searchParams.get('q') ?? '' : '');
+	let submittedQuery = $state(browser ? page.url.searchParams.get('q') ?? '' : '');
 	let loading = $state(false);
 	let groups: Group[] = $state([]);
 	let error: string | null = $state(null);
-	let debounce: ReturnType<typeof setTimeout> | null = null;
 	let inputEl: HTMLInputElement | undefined = $state();
 	let inflightController: AbortController | null = null;
 
@@ -47,16 +47,43 @@
 
 	$effect(() => {
 		// Run initial search if URL arrived with ?q=
-		if (browser && query.trim().length >= 2 && groups.length === 0 && !loading) {
-			runSearch(query);
+		if (browser && submittedQuery.trim().length >= 2 && groups.length === 0 && !loading) {
+			runSearch(submittedQuery);
 		}
 	});
 
-	$effect(() => {
-		const q = query;
-		if (debounce) clearTimeout(debounce);
-		if (!browser) return;
-		if (q.trim().length < 2) {
+	// Client-side result cache: same query within a session = no network at
+	// all, instant results. Pairs with the server's per-isolate query embed
+	// cache. sessionStorage so it goes away on tab close (cheap, scoped).
+	const CACHE_KEY = 'search-results-v1';
+	const CLIENT_CACHE_SIZE = 50;
+	function readCache(): Record<string, Group[]> {
+		if (!browser) return {};
+		try {
+			return JSON.parse(sessionStorage.getItem(CACHE_KEY) ?? '{}');
+		} catch {
+			return {};
+		}
+	}
+	function writeCache(map: Record<string, Group[]>) {
+		try {
+			const keys = Object.keys(map);
+			if (keys.length > CLIENT_CACHE_SIZE) {
+				// Drop oldest by re-inserting only the most recent CLIENT_CACHE_SIZE.
+				const trimmed: Record<string, Group[]> = {};
+				for (const k of keys.slice(-CLIENT_CACHE_SIZE)) trimmed[k] = map[k];
+				map = trimmed;
+			}
+			sessionStorage.setItem(CACHE_KEY, JSON.stringify(map));
+		} catch {
+			// Quota exceeded; let it slide.
+		}
+	}
+
+	function submitSearch() {
+		const q = query.trim();
+		if (q.length < 2) {
+			submittedQuery = '';
 			groups = [];
 			error = null;
 			if (page.url.searchParams.get('q')) {
@@ -64,15 +91,27 @@
 			}
 			return;
 		}
-		debounce = setTimeout(() => {
-			runSearch(q);
-			const url = new URL(page.url);
-			url.searchParams.set('q', q);
-			goto(url, { replaceState: true, keepFocus: true });
-		}, 300);
-	});
+		submittedQuery = q;
+		runSearch(q);
+		const url = new URL(page.url);
+		url.searchParams.set('q', q);
+		goto(url, { replaceState: true, keepFocus: true });
+	}
 
 	async function runSearch(q: string) {
+		const key = q.trim().toLowerCase();
+		const cache = readCache();
+		const cachedGroups = cache[key];
+		if (cachedGroups) {
+			groups = cachedGroups;
+			error = null;
+			loading = false;
+			// Bump to most-recent on hit so it survives the LRU trim.
+			delete cache[key];
+			cache[key] = cachedGroups;
+			writeCache(cache);
+			return;
+		}
 		inflightController?.abort();
 		const controller = new AbortController();
 		inflightController = controller;
@@ -85,6 +124,8 @@
 			if (!res.ok) throw new Error(`HTTP ${res.status}`);
 			const json = (await res.json()) as { groups: Group[] };
 			groups = json.groups;
+			cache[key] = json.groups;
+			writeCache(cache);
 		} catch (err) {
 			if (err instanceof Error && err.name !== 'AbortError') {
 				error = err.message;
@@ -122,22 +163,31 @@
 		<p class="mt-2 text-xs text-muted">semantic search across {metaBySlug.size} readings</p>
 	</header>
 
-	<form onsubmit={(e) => e.preventDefault()} class="mb-8">
-		<input
-			bind:this={inputEl}
-			type="search"
-			bind:value={query}
-			placeholder="What do the readings say about…"
-			autocomplete="off"
-			class="w-full border border-rule bg-dark px-4 py-3 font-serif text-base text-white outline-none placeholder:text-muted focus:border-muted"
-		/>
+	<form onsubmit={(e) => { e.preventDefault(); submitSearch(); }} class="mb-8">
+		<div class="flex gap-2">
+			<input
+				bind:this={inputEl}
+				type="search"
+				bind:value={query}
+				placeholder="What do the readings say about…"
+				autocomplete="off"
+				class="flex-1 border border-rule bg-dark px-4 py-3 font-serif text-base text-white outline-none placeholder:text-muted focus:border-muted"
+			/>
+			<button
+				type="submit"
+				disabled={query.trim().length < 2 || loading}
+				class="border border-rule px-4 py-3 text-xs text-light transition-colors hover:border-muted hover:bg-rule/30 uppercase disabled:opacity-30"
+			>
+				Search
+			</button>
+		</div>
 	</form>
 
 	{#if loading && groups.length === 0}
 		<p class="text-xs text-muted">Searching…</p>
 	{:else if error}
 		<p class="text-xs text-muted">Search error: {error}</p>
-	{:else if query.trim().length >= 2 && groups.length === 0 && !loading}
+	{:else if submittedQuery.length >= 2 && groups.length === 0 && !loading}
 		<p class="text-xs text-muted">No matches.</p>
 	{:else if groups.length > 0}
 		<p class="text-xs text-muted">

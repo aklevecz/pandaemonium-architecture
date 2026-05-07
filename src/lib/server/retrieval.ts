@@ -24,6 +24,17 @@ interface IndexState {
 let cached: IndexState | null = null;
 let pending: Promise<IndexState> | null = null;
 
+// LRU cache of query → embedding vector, keyed by lowercased trimmed query.
+// Insertion-ordered Map: re-set on hit to bump to most-recent; evict oldest
+// when over capacity. Per-Worker-isolate; resets on cold start. Saves a
+// Gemini round-trip on repeated queries (back button, students searching the
+// same concept across sessions hitting the same isolate).
+const QUERY_CACHE_SIZE = 200;
+const queryCache = new Map<string, Float32Array>();
+function cacheKey(q: string) {
+	return q.trim().toLowerCase();
+}
+
 async function loadIndex(event: Pick<RequestEvent, 'fetch' | 'platform' | 'url'>): Promise<IndexState> {
 	if (cached) return cached;
 	if (pending) return pending;
@@ -99,8 +110,25 @@ export async function retrieve(
 	const limit = opts.limit ?? 8;
 	const idx = await loadIndex(event);
 
-	const queryVec =
-		opts.queryVector ?? (await embed(query, { apiKey, taskType: 'RETRIEVAL_QUERY' }));
+	let queryVec: Float32Array;
+	if (opts.queryVector) {
+		queryVec = opts.queryVector;
+	} else {
+		const key = cacheKey(query);
+		const cachedVec = queryCache.get(key);
+		if (cachedVec) {
+			// Bump to most-recent so it survives further evictions.
+			queryCache.delete(key);
+			queryCache.set(key, cachedVec);
+			queryVec = cachedVec;
+		} else {
+			queryVec = await embed(query, { apiKey, taskType: 'RETRIEVAL_QUERY' });
+			queryCache.set(key, queryVec);
+			if (queryCache.size > QUERY_CACHE_SIZE) {
+				queryCache.delete(queryCache.keys().next().value!);
+			}
+		}
+	}
 
 	// Single-pass cosine over the packed Float32Array. ~50ms on 2200x768.
 	const dims = idx.dims;
