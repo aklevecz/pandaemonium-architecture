@@ -2,7 +2,7 @@ import { error, type RequestEvent } from '@sveltejs/kit';
 import type { D1Database } from '@cloudflare/workers-types';
 
 export interface AuthedContext {
-	user: { id: number; email: string };
+	user: { id: number; email: string; isAdmin: boolean };
 	db: D1Database;
 }
 

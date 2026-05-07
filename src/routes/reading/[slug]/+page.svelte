@@ -313,12 +313,16 @@
 	}
 
 	function explainSelection(text: string) {
+		// Capture roughly where in the reading this selection lives, so the
+		// instructor dashboard can show passage clusters in document order.
+		const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+		const position = docHeight > 0 ? window.scrollY / docHeight : 0;
 		selectionTooltip = null;
 		window.getSelection()?.removeAllRanges();
 		chatOpen = true;
 		// chatPanel is bound after the {#if chatOpen} renders, which only happens
 		// once chatOpen flips true. Wait one tick so the ref is wired up.
-		requestAnimationFrame(() => chatPanel?.startNewChat(text));
+		requestAnimationFrame(() => chatPanel?.startNewChat(text, position));
 	}
 
 	$effect(() => {

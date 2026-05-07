@@ -161,12 +161,20 @@
 							{#if h.note}
 								<p class="mt-1 text-xs text-muted">{h.note}</p>
 							{/if}
-							<button
-								onclick={() => onSetActiveHighlight(h)}
-								class="mt-1 text-xs text-muted hover:text-light"
-							>
-								{h.note ? 'Edit note' : 'Add note'}
-							</button>
+							<div class="mt-1 flex gap-3">
+								<button
+									onclick={() => onSetActiveHighlight(h)}
+									class="text-xs text-muted hover:text-light"
+								>
+									{h.note ? 'Edit note' : 'Add note'}
+								</button>
+								<button
+									onclick={() => onDeleteHighlight(h.id)}
+									class="text-xs text-muted hover:text-light"
+								>
+									Delete
+								</button>
+							</div>
 						{/if}
 					</div>
 				{/each}

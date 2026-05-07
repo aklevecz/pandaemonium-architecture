@@ -1,5 +1,6 @@
 import { error } from '@sveltejs/kit';
 import { marked } from 'marked';
+import { dev } from '$app/environment';
 import { weeks, introductoryReadings, type Reading } from '$lib/data/syllabus';
 import { slugify } from '$lib/utils/slug';
 import type { PageServerLoad } from './$types';
@@ -58,9 +59,13 @@ export const load: PageServerLoad = async ({ params, fetch, platform, url }) => 
 	// which loops and 522s. Use the ASSETS binding when available (prod);
 	// fall back to event.fetch in dev where Vite serves the static dir.
 	const path = `/reading-content/${params.slug}.md`;
-	const res = platform?.env?.ASSETS
-		? await platform.env.ASSETS.fetch(new URL(path, url.origin).toString())
-		: await fetch(path);
+	// In dev: Vite serves static/ at the same URL, and event.fetch routes
+	// through Vite. In prod: the ASSETS binding is the only way that doesn't
+	// loop through the custom domain.
+	const res =
+		!dev && platform?.env?.ASSETS
+			? await platform.env.ASSETS.fetch(new URL(path, url.origin).toString())
+			: await fetch(path);
 	if (!res.ok) error(404, 'Reading content not found');
 	const raw = await res.text();
 	const content = await marked(raw);

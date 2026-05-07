@@ -3,6 +3,7 @@
 // by the chat RAG step in /api/chat.
 
 import { embed, blobToVector, cosine, EMBEDDING_DIMS } from './embed';
+import { dev } from '$app/environment';
 import type { RequestEvent } from '@sveltejs/kit';
 
 interface ChunkMeta {
@@ -32,10 +33,11 @@ async function loadIndex(event: Pick<RequestEvent, 'fetch' | 'platform' | 'url'>
 		// to the same custom domain, which loops and times out (522). Use the
 		// ASSETS binding directly with absolute URLs. In dev (no ASSETS
 		// binding), event.fetch correctly serves from Vite's static dir.
-		const fetchAsset = event.platform?.env?.ASSETS
-			? (path: string) =>
-					event.platform!.env.ASSETS.fetch(new URL(path, event.url.origin).toString())
-			: (path: string) => event.fetch(path);
+		const fetchAsset =
+			!dev && event.platform?.env?.ASSETS
+				? (path: string) =>
+						event.platform!.env.ASSETS.fetch(new URL(path, event.url.origin).toString())
+				: (path: string) => event.fetch(path);
 		const [binRes, metaRes] = await Promise.all([
 			fetchAsset('/embeddings.bin'),
 			fetchAsset('/embeddings-meta.json')

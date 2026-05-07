@@ -39,6 +39,7 @@
 	let conversations: Conversation[] = $state([]);
 	let activeConversationId: number | null = $state(null);
 	let chatSelectedText = $state('');
+	let chatSelectedPosition: number | null = $state(null);
 	let chatEl: HTMLDivElement | undefined = $state();
 	let conversationLoading = $state(false);
 
@@ -62,6 +63,7 @@
 		activeConversationId = null;
 		chatMessages = [];
 		chatSelectedText = '';
+		chatSelectedPosition = null;
 	}
 
 	async function loadConversation(id: number) {
@@ -108,7 +110,8 @@
 					message: msg,
 					readingTitle,
 					readingAuthor,
-					selectedText: chatSelectedText || undefined
+					selectedText: chatSelectedText || undefined,
+					selectedPosition: chatSelectedPosition ?? undefined
 				})
 			});
 			if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
@@ -150,6 +153,7 @@
 			}
 
 			chatSelectedText = '';
+			chatSelectedPosition = null;
 			fetchConversations();
 		} catch (err) {
 			if (err instanceof Error && err.name === 'AbortError') {
@@ -180,10 +184,11 @@
 
 	// Exposed to parent via bind:this so the SelectionTooltip "Explain" button
 	// can kick off a new chat with the selected passage.
-	export function startNewChat(selectedText?: string) {
+	export function startNewChat(selectedText?: string, selectedPosition?: number) {
 		activeConversationId = null;
 		chatMessages = [];
 		chatSelectedText = selectedText || '';
+		chatSelectedPosition = selectedPosition ?? null;
 		if (selectedText) {
 			const truncated = selectedText.length > 150
 				? selectedText.slice(0, 150) + '...'

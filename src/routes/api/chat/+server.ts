@@ -39,9 +39,31 @@ export const POST: RequestHandler = async (event) => {
 	const apiKey = event.platform?.env?.ANTHROPIC_API_KEY;
 	if (!apiKey) error(500, 'API key not configured');
 
-	const { slug, conversationId, message, readingTitle, readingAuthor, selectedText } = await event.request.json();
+	const { slug, conversationId, message, readingTitle, readingAuthor, selectedText, selectedPosition } = await event.request.json();
 	if (!slug || !message) error(400, 'Missing slug or message');
 	const userId = user.id;
+
+	// Track passages that students pick to be explained — this is a real
+	// signal for "what's confusing or thought-provoking". Only fire on the
+	// first turn of a conversation (selectedText is set when the chat is
+	// kicked off from the selection tooltip).
+	if (selectedText && typeof selectedText === 'string' && selectedText.trim().length >= 3) {
+		try {
+			await db
+				.prepare(
+					'INSERT INTO explain_events (user_id, reading_slug, text, position) VALUES (?, ?, ?, ?)'
+				)
+				.bind(
+					userId,
+					slug,
+					selectedText.trim(),
+					typeof selectedPosition === 'number' ? selectedPosition : null
+				)
+				.run();
+		} catch (err) {
+			console.error('explain_events log failed:', err);
+		}
+	}
 
 	let convId: number = conversationId;
 	if (!convId) {
