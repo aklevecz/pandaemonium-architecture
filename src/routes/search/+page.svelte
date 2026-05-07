@@ -4,18 +4,20 @@
 	import { browser } from '$app/environment';
 	import { buildReadingMetaList, type ReadingMeta } from '$lib/search';
 
-	interface Hit {
-		slug: string;
+	interface Chunk {
 		chunkIndex: number;
 		text: string;
 		position: number;
 		score: number;
 	}
+	interface Group {
+		slug: string;
+		score: number;
+		chunks: Chunk[];
+	}
 
 	const metaBySlug = new Map<string, ReadingMeta>();
 	for (const m of buildReadingMetaList()) metaBySlug.set(m.slug, m);
-	// Fallback {author, title} for readings whose slug isn't referenced in
-	// syllabus.ts. Lazily loaded so we don't pay for the JSON on every page.
 	let fallbackMeta = $state<Record<string, { author: string; title: string }>>({});
 	if (browser) {
 		fetch('/readings-fallback.json')
@@ -23,7 +25,6 @@
 			.then((j) => (fallbackMeta = j))
 			.catch(() => {});
 	}
-
 	function metaFor(slug: string): { author: string; title: string } {
 		const fromSyllabus = metaBySlug.get(slug);
 		if (fromSyllabus) return { author: fromSyllabus.author, title: fromSyllabus.title };
@@ -34,7 +35,7 @@
 
 	let query = $state(browser ? page.url.searchParams.get('q') ?? '' : '');
 	let loading = $state(false);
-	let hits: Hit[] = $state([]);
+	let groups: Group[] = $state([]);
 	let error: string | null = $state(null);
 	let debounce: ReturnType<typeof setTimeout> | null = null;
 	let inputEl: HTMLInputElement | undefined = $state();
@@ -46,7 +47,7 @@
 
 	$effect(() => {
 		// Run initial search if URL arrived with ?q=
-		if (browser && query.trim().length >= 2 && hits.length === 0 && !loading) {
+		if (browser && query.trim().length >= 2 && groups.length === 0 && !loading) {
 			runSearch(query);
 		}
 	});
@@ -56,7 +57,7 @@
 		if (debounce) clearTimeout(debounce);
 		if (!browser) return;
 		if (q.trim().length < 2) {
-			hits = [];
+			groups = [];
 			error = null;
 			if (page.url.searchParams.get('q')) {
 				goto('/search', { replaceState: true, keepFocus: true });
@@ -78,16 +79,16 @@
 		loading = true;
 		error = null;
 		try {
-			const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=12`, {
+			const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=8&perReading=3`, {
 				signal: controller.signal
 			});
 			if (!res.ok) throw new Error(`HTTP ${res.status}`);
-			const json = (await res.json()) as { hits: Hit[] };
-			hits = json.hits;
+			const json = (await res.json()) as { groups: Group[] };
+			groups = json.groups;
 		} catch (err) {
 			if (err instanceof Error && err.name !== 'AbortError') {
 				error = err.message;
-				hits = [];
+				groups = [];
 			}
 		} finally {
 			if (inflightController === controller) {
@@ -97,13 +98,15 @@
 		}
 	}
 
-	function readingHref(hit: Hit): string {
+	function readingHref(slug: string, chunk: Chunk): string {
 		// Anchor on the first ~80 chars of the chunk so the reader's ?q=
 		// highlighter scrolls to it. Substring search is case-insensitive and
 		// handles whitespace variation well enough.
-		const anchor = hit.text.slice(0, 80).split(/\s+/).slice(0, 12).join(' ');
-		return `/reading/${hit.slug}?q=${encodeURIComponent(anchor)}`;
+		const anchor = chunk.text.slice(0, 80).split(/\s+/).slice(0, 12).join(' ');
+		return `/reading/${slug}?q=${encodeURIComponent(anchor)}`;
 	}
+
+	const totalChunks = $derived(groups.reduce((n, g) => n + g.chunks.length, 0));
 </script>
 
 <svelte:head>
@@ -130,37 +133,52 @@
 		/>
 	</form>
 
-	{#if loading && hits.length === 0}
+	{#if loading && groups.length === 0}
 		<p class="text-xs text-muted">Searching…</p>
 	{:else if error}
 		<p class="text-xs text-muted">Search error: {error}</p>
-	{:else if query.trim().length >= 2 && hits.length === 0 && !loading}
+	{:else if query.trim().length >= 2 && groups.length === 0 && !loading}
 		<p class="text-xs text-muted">No matches.</p>
-	{:else if hits.length > 0}
-		<p class="text-xs text-muted">{hits.length} relevant passages</p>
-		<div class="mt-6 space-y-6 pb-24">
-			{#each hits as hit (hit.slug + ':' + hit.chunkIndex)}
-				{@const meta = metaFor(hit.slug)}
-				<a href={readingHref(hit)} class="group block no-underline">
-					<article class="border-l border-rule pl-4 transition-colors group-hover:border-muted">
+	{:else if groups.length > 0}
+		<p class="text-xs text-muted">
+			{totalChunks} {totalChunks === 1 ? 'passage' : 'passages'} across {groups.length}
+			{groups.length === 1 ? 'reading' : 'readings'}
+		</p>
+		<div class="mt-6 space-y-10 pb-24">
+			{#each groups as group (group.slug)}
+				{@const meta = metaFor(group.slug)}
+				<article>
+					<a href={readingHref(group.slug, group.chunks[0])} class="group block no-underline">
 						<div class="flex items-baseline justify-between gap-3">
 							<div class="min-w-0">
 								{#if meta.author}
 									<p class="text-xs text-muted">{meta.author}</p>
 								{/if}
-								<h2 class="mt-0.5 font-serif text-base text-light transition-colors group-hover:text-bright">
+								<h2 class="mt-0.5 font-serif text-lg text-light transition-colors group-hover:text-bright">
 									{meta.title}
 								</h2>
 							</div>
 							<span class="shrink-0 font-mono text-xs text-muted tabular-nums">
-								{(hit.score * 100).toFixed(0)}%
+								{(group.score * 100).toFixed(0)}%
 							</span>
 						</div>
-						<p class="mt-3 font-serif text-sm leading-relaxed text-gray transition-colors group-hover:text-light">
-							{hit.text.slice(0, 320)}{hit.text.length > 320 ? '…' : ''}
-						</p>
-					</article>
-				</a>
+					</a>
+					<div class="mt-3 space-y-3 border-l border-rule pl-4">
+						{#each group.chunks as chunk (chunk.chunkIndex)}
+							<a
+								href={readingHref(group.slug, chunk)}
+								class="block no-underline transition-colors hover:bg-rule/10"
+							>
+								<p class="font-serif text-sm leading-relaxed text-gray">
+									{chunk.text.slice(0, 280)}{chunk.text.length > 280 ? '…' : ''}
+								</p>
+								<p class="mt-1 font-mono text-[10px] text-muted/70 tabular-nums">
+									{(chunk.score * 100).toFixed(0)}%
+								</p>
+							</a>
+						{/each}
+					</div>
+				</article>
 			{/each}
 		</div>
 	{/if}
