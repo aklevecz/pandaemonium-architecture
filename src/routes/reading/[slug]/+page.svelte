@@ -162,15 +162,37 @@
 		}
 	}
 
+	let toast: { text: string; variant: 'ok' | 'error' } | null = $state(null);
+	let toastTimer: ReturnType<typeof setTimeout> | null = null;
+	function flash(text: string, variant: 'ok' | 'error' = 'ok') {
+		toast = { text, variant };
+		if (toastTimer) clearTimeout(toastTimer);
+		toastTimer = setTimeout(() => (toast = null), variant === 'error' ? 4000 : 1800);
+	}
+
 	async function saveHighlight(text: string) {
-		await fetch('/api/highlights', {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ slug: data.slug, text })
-		});
-		selectionTooltip = null;
-		window.getSelection()?.removeAllRanges();
-		await fetchHighlights();
+		// Capture before we clear the tooltip so the user sees a single tap-
+		// triggered confirmation regardless of how the network ends up.
+		try {
+			const res = await fetch('/api/highlights', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ slug: data.slug, text })
+			});
+			if (!res.ok) {
+				const body = await res.text().catch(() => '');
+				console.error('saveHighlight failed:', res.status, body);
+				flash(`Save failed (${res.status})`, 'error');
+				return;
+			}
+			selectionTooltip = null;
+			window.getSelection()?.removeAllRanges();
+			await fetchHighlights();
+			flash('Highlight saved');
+		} catch (err) {
+			console.error('saveHighlight threw:', err);
+			flash('Save failed (network)', 'error');
+		}
 	}
 
 	async function deleteHighlight(id: number) {
@@ -535,4 +557,20 @@
 		onHighlight={saveHighlight}
 		onExplain={explainSelection}
 	/>
+{/if}
+
+{#if toast}
+	<!-- One-shot confirmation/error feedback. Pinned high enough to clear the
+	     selection-tooltip pill and the floating nav toolbar. -->
+	<div
+		class="pointer-events-none fixed inset-x-0 top-16 z-[70] flex justify-center px-4 sm:top-20"
+	>
+		<div
+			class="rounded-full px-4 py-2 text-xs shadow-lg {toast.variant === 'error'
+				? 'border border-red-500/40 bg-red-950/95 text-red-200'
+				: 'border border-rule bg-dark/95 text-light'}"
+		>
+			{toast.text}
+		</div>
+	</div>
 {/if}
