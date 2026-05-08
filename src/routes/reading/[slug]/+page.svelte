@@ -294,8 +294,15 @@
 	}
 
 	// --- Selection -------------------------------------------------------------
+	// Desktop fires mouseup reliably; iOS Safari does not (the native
+	// selection-handle drag often suppresses it). selectionchange covers both
+	// platforms but fires on every micro-update during drag, so we debounce
+	// ~250ms — long enough for the user to settle on a passage, short enough
+	// not to feel laggy.
 
-	function handleMouseUp() {
+	let selectionDebounce: ReturnType<typeof setTimeout> | null = null;
+
+	function showSelectionTooltip() {
 		if (!user || viewMode !== 'text') return;
 		const sel = window.getSelection();
 		const text = sel?.toString().trim();
@@ -305,11 +312,22 @@
 		}
 		const range = sel!.getRangeAt(0);
 		const rect = range.getBoundingClientRect();
+		// Anchor above the selection, but never above the viewport top —
+		// otherwise on a selection near the top of a phone screen the tooltip
+		// scrolls offscreen.
+		const desiredTop = rect.top + window.scrollY - 10;
+		const minTop = window.scrollY + 8;
+		const top = desiredTop < minTop ? rect.bottom + window.scrollY + 12 : desiredTop;
 		selectionTooltip = {
 			x: rect.left + rect.width / 2,
-			y: rect.top + window.scrollY - 10,
+			y: top,
 			text
 		};
+	}
+
+	function scheduleSelectionTooltip() {
+		if (selectionDebounce) clearTimeout(selectionDebounce);
+		selectionDebounce = setTimeout(showSelectionTooltip, 250);
 	}
 
 	function explainSelection(text: string) {
@@ -345,7 +363,10 @@
 	});
 </script>
 
-<svelte:document onmouseup={handleMouseUp} />
+<svelte:document
+	onmouseup={showSelectionTooltip}
+	onselectionchange={scheduleSelectionTooltip}
+/>
 
 <article class="mx-auto max-w-3xl px-4 sm:px-6">
 	<div class="pt-8 sm:pt-10">
