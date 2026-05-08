@@ -26,6 +26,7 @@
 		onDeleteHighlight: (id: number) => Promise<void>;
 		onClearActiveHighlight: () => void;
 		onSetActiveHighlight: (h: Highlight) => void;
+		onExtendHighlight: (h: Highlight) => void;
 	}
 
 	const {
@@ -41,7 +42,8 @@
 		onSaveHighlightNote,
 		onDeleteHighlight,
 		onClearActiveHighlight,
-		onSetActiveHighlight
+		onSetActiveHighlight,
+		onExtendHighlight
 	}: Props = $props();
 
 	let newNote = $state('');
@@ -128,12 +130,18 @@
 							{#if h.note}
 								<p class="mt-1 text-xs text-muted">{h.note}</p>
 							{/if}
-							<div class="mt-1 flex gap-3">
+							<div class="mt-1 flex flex-wrap gap-x-3 gap-y-1">
 								<button
 									onclick={() => onSetActiveHighlight(h)}
 									class="text-xs text-muted hover:text-light"
 								>
 									{h.note ? 'Edit note' : 'Add note'}
+								</button>
+								<button
+									onclick={() => onExtendHighlight(h)}
+									class="text-xs text-muted hover:text-light"
+								>
+									Extend
 								</button>
 								<button
 									onclick={() => onDeleteHighlight(h.id)}

@@ -26,6 +26,10 @@
 	let notes: Note[] = $state([]);
 	let highlights: Highlight[] = $state([]);
 	let activeHighlight: Highlight | null = $state(null);
+	// When set, the next "Highlight" tap on the selection tooltip overwrites
+	// the row with this id (PUT) instead of inserting a new one (POST). Used
+	// to extend / shrink an existing highlight without losing its note.
+	let editingHighlightId: number | null = $state(null);
 
 	// View / layout
 	let viewMode: 'text' | 'pdf' = $state('text');
@@ -171,13 +175,14 @@
 	}
 
 	async function saveHighlight(text: string) {
-		// Capture before we clear the tooltip so the user sees a single tap-
-		// triggered confirmation regardless of how the network ends up.
+		const isUpdate = editingHighlightId !== null;
 		try {
 			const res = await fetch('/api/highlights', {
-				method: 'POST',
+				method: isUpdate ? 'PUT' : 'POST',
 				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ slug: data.slug, text })
+				body: JSON.stringify(
+					isUpdate ? { id: editingHighlightId, text } : { slug: data.slug, text }
+				)
 			});
 			if (!res.ok) {
 				const body = await res.text().catch(() => '');
@@ -185,14 +190,29 @@
 				flash(`Save failed (${res.status})`, 'error');
 				return;
 			}
+			editingHighlightId = null;
 			selectionTooltip = null;
 			window.getSelection()?.removeAllRanges();
 			await fetchHighlights();
-			flash('Highlight saved');
+			flash(isUpdate ? 'Highlight updated' : 'Highlight saved');
 		} catch (err) {
 			console.error('saveHighlight threw:', err);
 			flash('Save failed (network)', 'error');
 		}
+	}
+
+	function startExtendHighlight(h: Highlight) {
+		editingHighlightId = h.id;
+		activeHighlight = null;
+		sidebarOpen = false;
+		selectionTooltip = null;
+		window.getSelection()?.removeAllRanges();
+		flash('Select new text and tap Update', 'ok');
+	}
+
+	function cancelExtendHighlight() {
+		editingHighlightId = null;
+		flash('Edit cancelled');
 	}
 
 	async function deleteHighlight(id: number) {
@@ -538,6 +558,7 @@
 		onDeleteHighlight={deleteHighlight}
 		onClearActiveHighlight={() => (activeHighlight = null)}
 		onSetActiveHighlight={(h) => (activeHighlight = h)}
+		onExtendHighlight={startExtendHighlight}
 	/>
 
 	<ChatPanel
@@ -554,9 +575,27 @@
 	<SelectionTooltip
 		tooltip={selectionTooltip}
 		{isMobile}
+		extendMode={editingHighlightId !== null}
 		onHighlight={saveHighlight}
 		onExplain={explainSelection}
 	/>
+
+	{#if editingHighlightId !== null}
+		<!-- Sticky banner during extend mode so the user knows they're in a
+		     special state (the panel is closed, the tooltip says "Update")
+		     and has an obvious way to bail. -->
+		<div class="fixed inset-x-0 top-[57px] z-[55] flex justify-center px-4">
+			<div class="flex items-center gap-3 rounded-b-lg border border-t-0 border-rule bg-dark/95 px-4 py-2 shadow-lg">
+				<span class="text-xs text-light">Editing highlight — select new text</span>
+				<button
+					onclick={cancelExtendHighlight}
+					class="text-xs text-muted hover:text-light"
+				>
+					Cancel
+				</button>
+			</div>
+		</div>
+	{/if}
 {/if}
 
 {#if toast}
