@@ -531,6 +531,7 @@
 
 	<SelectionTooltip
 		tooltip={selectionTooltip}
+		{isMobile}
 		onHighlight={saveHighlight}
 		onExplain={explainSelection}
 	/>
