@@ -90,55 +90,20 @@
 {/if}
 
 {#snippet body()}
-	<form onsubmit={(e) => { e.preventDefault(); submitNewNote(); }} class="mt-4">
-		<textarea
-			bind:value={newNote}
-			placeholder="Add a note..."
-			rows="3"
-			class="w-full resize-none border border-rule bg-dark px-3 py-2 font-serif text-sm text-white outline-none placeholder:text-muted focus:border-muted"
-		></textarea>
-		<button
-			type="submit"
-			disabled={!newNote.trim()}
-			class="mt-2 border border-rule px-3 py-1 text-xs text-muted transition-colors hover:border-muted hover:text-light uppercase disabled:opacity-30"
-		>
-			Save
-		</button>
-	</form>
+	<!-- Highlights first: students typically open this panel right after
+	     highlighting a passage, expecting to see it. Notes (which require
+	     typing) live below. Both sections always render — empty states make
+	     it obvious which feature lives where. -->
 
-	{#if notes.length > 0}
-		<div class="mt-6">
-			<p class="text-xs text-muted uppercase">Notes</p>
-			<div class="mt-2 divide-y divide-rule">
-				{#each notes as note (note.id)}
-					<div class="py-3">
-						{#if editingId === note.id}
-							<textarea
-								bind:value={editContent}
-								rows="3"
-								class="w-full resize-none border border-rule bg-dark px-2 py-1 font-serif text-sm text-white outline-none focus:border-muted"
-							></textarea>
-							<div class="mt-1 flex gap-2">
-								<button onclick={() => submitEdit(note.id)} class="text-xs text-muted hover:text-light">Save</button>
-								<button onclick={() => (editingId = null)} class="text-xs text-muted hover:text-light">Cancel</button>
-							</div>
-						{:else}
-							<p class="whitespace-pre-wrap font-serif text-sm text-gray">{note.content}</p>
-							<div class="mt-1 flex gap-2">
-								<button onclick={() => { editingId = note.id; editContent = note.content; }} class="text-xs text-muted hover:text-light">Edit</button>
-								<button onclick={() => onDeleteNote(note.id)} class="text-xs text-muted hover:text-light">Delete</button>
-								<span class="text-xs text-muted">{new Date(note.updated_at).toLocaleDateString()}</span>
-							</div>
-						{/if}
-					</div>
-				{/each}
-			</div>
-		</div>
-	{/if}
-
-	{#if highlights.length > 0}
-		<div class="mt-6">
-			<p class="text-xs text-muted uppercase">Highlights</p>
+	<div class="mt-4">
+		<p class="text-xs text-muted uppercase">
+			Highlights {highlights.length > 0 ? `(${highlights.length})` : ''}
+		</p>
+		{#if highlights.length === 0}
+			<p class="mt-2 text-xs text-muted">
+				Select text in the reading and tap <span class="text-light">Highlight</span> to save a passage here.
+			</p>
+		{:else}
 			<div class="mt-2 space-y-3">
 				{#each highlights as h (h.id)}
 					<div
@@ -181,6 +146,54 @@
 					</div>
 				{/each}
 			</div>
-		</div>
-	{/if}
+		{/if}
+	</div>
+
+	<div class="mt-8 border-t border-rule pt-6">
+		<p class="text-xs text-muted uppercase">
+			Notes {notes.length > 0 ? `(${notes.length})` : ''}
+		</p>
+		<form onsubmit={(e) => { e.preventDefault(); submitNewNote(); }} class="mt-2">
+			<textarea
+				bind:value={newNote}
+				placeholder="Add a note about this reading…"
+				rows="3"
+				class="w-full resize-none border border-rule bg-dark px-3 py-2 font-serif text-sm text-white outline-none placeholder:text-muted focus:border-muted"
+			></textarea>
+			<button
+				type="submit"
+				disabled={!newNote.trim()}
+				class="mt-2 border border-rule px-3 py-1 text-xs text-muted transition-colors hover:border-muted hover:text-light uppercase disabled:opacity-30"
+			>
+				Save
+			</button>
+		</form>
+
+		{#if notes.length > 0}
+			<div class="mt-4 divide-y divide-rule">
+				{#each notes as note (note.id)}
+					<div class="py-3">
+						{#if editingId === note.id}
+							<textarea
+								bind:value={editContent}
+								rows="3"
+								class="w-full resize-none border border-rule bg-dark px-2 py-1 font-serif text-sm text-white outline-none focus:border-muted"
+							></textarea>
+							<div class="mt-1 flex gap-2">
+								<button onclick={() => submitEdit(note.id)} class="text-xs text-muted hover:text-light">Save</button>
+								<button onclick={() => (editingId = null)} class="text-xs text-muted hover:text-light">Cancel</button>
+							</div>
+						{:else}
+							<p class="whitespace-pre-wrap font-serif text-sm text-gray">{note.content}</p>
+							<div class="mt-1 flex gap-2">
+								<button onclick={() => { editingId = note.id; editContent = note.content; }} class="text-xs text-muted hover:text-light">Edit</button>
+								<button onclick={() => onDeleteNote(note.id)} class="text-xs text-muted hover:text-light">Delete</button>
+								<span class="text-xs text-muted">{new Date(note.updated_at).toLocaleDateString()}</span>
+							</div>
+						{/if}
+					</div>
+				{/each}
+			</div>
+		{/if}
+	</div>
 {/snippet}
