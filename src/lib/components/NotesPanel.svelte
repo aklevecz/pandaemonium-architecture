@@ -69,8 +69,10 @@
 
 {#if open}
 	{#if isMobile}
-		<div class="fixed inset-0 z-40 overflow-y-auto bg-black p-4 pt-14">
-			<div class="flex items-center justify-between">
+		<!-- z-[60] sits above the sticky nav (z-50) so the panel's own
+		     close/back buttons aren't hidden behind it. -->
+		<div class="fixed inset-0 z-[60] overflow-y-auto bg-black p-4">
+			<div class="flex items-center justify-between border-b border-rule pb-3">
 				<p class="text-xs tracking-widest text-muted uppercase">Notes & Highlights</p>
 				<button onclick={onClose} class="px-2 py-1 text-sm text-muted hover:text-light">&times; Close</button>
 			</div>

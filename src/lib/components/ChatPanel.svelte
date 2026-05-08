@@ -208,7 +208,9 @@
 
 {#if open}
 	{#if isMobile}
-		<div class="fixed inset-0 z-40 flex flex-col bg-black">
+		<!-- z-[60] sits above the sticky nav (z-50) so the panel's own
+		     close/back buttons aren't hidden behind it. -->
+		<div class="fixed inset-0 z-[60] flex flex-col bg-black">
 			<div class="flex items-center justify-between border-b border-rule px-4 py-3">
 				{#if inActiveView}
 					<button onclick={backToConversationList} class="text-xs text-muted hover:text-light">&larr; Back</button>
