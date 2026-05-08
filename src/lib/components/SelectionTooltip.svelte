@@ -17,19 +17,37 @@
 		     native menu's neighborhood, with comfortable touch targets, and
 		     above the existing floating nav toolbar (which is at bottom-5
 		     z-30). z-[55] sits above the nav (z-50) and the toolbar but below
-		     the modal panels (z-[60]). -->
+		     the modal panels (z-[60]).
+		     pointerdown + preventDefault is critical: while a text selection
+		     is active, iOS routes plain taps outside the selection to a
+		     "dismiss selection" handler and the click event never reaches
+		     our buttons. pointerdown fires earlier in the event chain so we
+		     can grab the input before iOS reassigns it. -->
 		<div class="fixed inset-x-0 bottom-20 z-[55] flex justify-center px-4">
-			<div class="flex overflow-hidden rounded-full border border-rule bg-dark shadow-lg">
+			<div
+				class="flex overflow-hidden rounded-full border border-rule bg-dark shadow-lg"
+				style="touch-action: manipulation; -webkit-user-select: none; user-select: none;"
+			>
 				<button
-					onclick={() => onHighlight(tooltip.text)}
-					class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright"
+					type="button"
+					onpointerdown={(e) => {
+						e.preventDefault();
+						e.stopPropagation();
+						onHighlight(tooltip.text);
+					}}
+					class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
 				>
 					Highlight
 				</button>
 				<div class="w-px bg-rule"></div>
 				<button
-					onclick={() => onExplain(tooltip.text)}
-					class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright"
+					type="button"
+					onpointerdown={(e) => {
+						e.preventDefault();
+						e.stopPropagation();
+						onExplain(tooltip.text);
+					}}
+					class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
 				>
 					Explain
 				</button>
