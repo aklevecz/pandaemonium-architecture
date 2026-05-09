@@ -313,23 +313,41 @@
 		while ((node = walker.nextNode() as Text | null)) {
 			textNodes.push(node);
 		}
+		// Concatenate text-node contents; track each node's start offset in the
+		// concatenated string. The concatenated string has NO separators
+		// between paragraphs, while Selection.toString() (which is what
+		// h.text was originally captured from) DOES insert "\n" at block
+		// boundaries — so a direct indexOf would miss any cross-paragraph
+		// highlight. We solve that by normalizing both haystack and needle
+		// (collapse all whitespace to a single space) and keeping a parallel
+		// map back to the raw indices.
 		let fullText = '';
 		const map: { node: Text; start: number }[] = [];
 		for (const tn of textNodes) {
 			map.push({ node: tn, start: fullText.length });
 			fullText += tn.textContent || '';
 		}
-		const idx = fullText.indexOf(h.text);
-		if (idx === -1) return;
-		const end = idx + h.text.length;
+		const { norm, normToOrig } = normalizeWithMap(fullText);
+		const needle = h.text.replace(/\s+/g, ' ').trim();
+		if (!needle) return;
+		const normIdx = norm.indexOf(needle);
+		if (normIdx === -1) return;
+		const idx = normToOrig[normIdx];
+		const end = normToOrig[normIdx + needle.length - 1] + 1;
+
+		// Snapshot replacements before applying — replacing a text node
+		// invalidates parent.childNodes for any later entries in `map` that
+		// share a parent.
+		const ops: { node: Text; frag: DocumentFragment }[] = [];
 		for (const entry of map) {
 			const nodeText = entry.node.textContent || '';
 			const nodeEnd = entry.start + nodeText.length;
 			if (nodeEnd <= idx || entry.start >= end) continue;
 			const sliceStart = Math.max(0, idx - entry.start);
 			const sliceEnd = Math.min(nodeText.length, end - entry.start);
-			const before = nodeText.slice(0, sliceStart);
 			const matched = nodeText.slice(sliceStart, sliceEnd);
+			if (!matched) continue;
+			const before = nodeText.slice(0, sliceStart);
 			const after = nodeText.slice(sliceEnd);
 			const mark = document.createElement('mark');
 			mark.textContent = matched;
@@ -342,9 +360,32 @@
 			if (before) frag.appendChild(document.createTextNode(before));
 			frag.appendChild(mark);
 			if (after) frag.appendChild(document.createTextNode(after));
-			entry.node.parentNode!.replaceChild(frag, entry.node);
-			break;
+			ops.push({ node: entry.node, frag });
 		}
+		for (const op of ops) op.node.parentNode?.replaceChild(op.frag, op.node);
+	}
+
+	// Collapse runs of whitespace into a single ' ' and return both the
+	// normalized string and an array mapping each normalized index to its
+	// originating index in `s`.
+	function normalizeWithMap(s: string): { norm: string; normToOrig: number[] } {
+		let norm = '';
+		const normToOrig: number[] = [];
+		let inWS = false;
+		for (let i = 0; i < s.length; i++) {
+			const c = s[i];
+			if (c === ' ' || c === '\n' || c === '\t' || c === '\r' || /\s/.test(c)) {
+				if (inWS) continue;
+				norm += ' ';
+				normToOrig.push(i);
+				inWS = true;
+			} else {
+				norm += c;
+				normToOrig.push(i);
+				inWS = false;
+			}
+		}
+		return { norm, normToOrig };
 	}
 
 	// --- Selection -------------------------------------------------------------
