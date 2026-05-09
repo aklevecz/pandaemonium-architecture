@@ -43,6 +43,20 @@
 	let chatEl: HTMLDivElement | undefined = $state();
 	let conversationLoading = $state(false);
 
+	// Response length knob — passed to /api/chat which picks max_tokens and a
+	// length-specific instruction in the system prompt. Persists across
+	// sessions; the student doesn't have to reset it every time.
+	type Length = 'brief' | 'normal' | 'deep';
+	const LENGTH_KEY = 'chat-length-v1';
+	const initialLength: Length =
+		typeof localStorage !== 'undefined'
+			? ((localStorage.getItem(LENGTH_KEY) as Length | null) ?? 'normal')
+			: 'normal';
+	let chatLength: Length = $state(initialLength);
+	$effect(() => {
+		if (typeof localStorage !== 'undefined') localStorage.setItem(LENGTH_KEY, chatLength);
+	});
+
 	const inActiveView = $derived(
 		activeConversationId !== null || chatMessages.length > 0 || chatLoading || conversationLoading
 	);
@@ -112,7 +126,8 @@
 					readingTitle,
 					readingAuthor,
 					selectedText: chatSelectedText || undefined,
-					selectedPosition: chatSelectedPosition ?? undefined
+					selectedPosition: chatSelectedPosition ?? undefined,
+					length: chatLength
 				})
 			});
 			if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
@@ -335,6 +350,22 @@
 		{/if}
 
 		<form onsubmit={(e) => { e.preventDefault(); sendChat(); }} class="border-t border-rule p-3">
+			<!-- Response length: brief (quick clarification), normal (graduate
+			     seminar default), deep (expansive treatment). Persists in
+			     localStorage. -->
+			<div class="mb-2 flex items-center gap-1 text-xs">
+				<span class="text-muted">Length:</span>
+				{#each ['brief', 'normal', 'deep'] as opt (opt)}
+					<button
+						type="button"
+						onclick={() => (chatLength = opt as Length)}
+						disabled={chatLoading || chatStreaming}
+						class="rounded px-2 py-0.5 capitalize transition-colors {chatLength === opt ? 'bg-rule/50 text-bright' : 'text-muted hover:text-light'} disabled:opacity-50"
+					>
+						{opt}
+					</button>
+				{/each}
+			</div>
 			<div class="flex gap-2">
 				<input
 					type="text"

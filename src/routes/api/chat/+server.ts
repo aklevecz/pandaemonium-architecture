@@ -39,9 +39,34 @@ export const POST: RequestHandler = async (event) => {
 	const apiKey = event.platform?.env?.ANTHROPIC_API_KEY;
 	if (!apiKey) error(500, 'API key not configured');
 
-	const { slug, conversationId, message, readingTitle, readingAuthor, selectedText, selectedPosition } = await event.request.json();
+	const { slug, conversationId, message, readingTitle, readingAuthor, selectedText, selectedPosition, length } = await event.request.json();
 	if (!slug || !message) error(400, 'Missing slug or message');
 	const userId = user.id;
+
+	// User-selected response length. "normal" is the graduate-seminar default;
+	// "brief" is for quick clarifications; "deep" gives Claude room for
+	// implications, contrasts, follow-up questions.
+	type Length = 'brief' | 'normal' | 'deep';
+	const validLength: Length =
+		length === 'brief' || length === 'deep' ? length : 'normal';
+	const lengthSpec: Record<Length, { maxTokens: number; instruction: string }> = {
+		brief: {
+			maxTokens: 320,
+			instruction:
+				'\n\nLength: keep it tight — one or two short paragraphs answering the question and nothing more. The student wants a quick gloss, not a worked-through analysis.'
+		},
+		normal: {
+			maxTokens: 2048,
+			instruction:
+				'\n\nLength: take whatever space the question deserves at a graduate-seminar register. Engage the specific terms and stakes of the passage; cite the reading where it sharpens the point.'
+		},
+		deep: {
+			maxTokens: 4096,
+			instruction:
+				'\n\nLength: give an expansive treatment. Engage the passage at length, work through implications, contrast with other thinkers in the corpus when truly relevant (not as padding), and surface follow-up questions a careful reader might ask.'
+		}
+	};
+	const { maxTokens, instruction: lengthInstruction } = lengthSpec[validLength];
 
 	// Track passages that students pick to be explained — this is a real
 	// signal for "what's confusing or thought-provoking". Only fire on the
@@ -91,8 +116,8 @@ export const POST: RequestHandler = async (event) => {
 	// app) and a per-conversation suffix (re-sent each turn but tiny). Anthropic
 	// prompt caching gives ~10x discount on the cached prefix and keeps the
 	// system message reusable across conversations.
-	const stableSystem = `You are a helpful reading assistant for an academic course called "Pandaemonium Architecture 6.0" which examines AI, machine learning, cybernetics, and their intersection with art and society. Help explain concepts, provide context, and engage in discussion about the reading. Be concise but thorough. Use accessible language while respecting the intellectual depth of the material.`;
-	const conversationSystem = `The user is reading: "${readingTitle}" by ${readingAuthor}.${selectedText ? `\n\nThe user has selected this passage:\n"${selectedText}"` : ''}`;
+	const stableSystem = `You are a reading assistant for "Pandaemonium Architecture 6.0", a graduate seminar on AI, machine learning, cybernetics, and their intersection with art and society. Help students think through the readings — explain concepts in their own terms, surface stakes and tensions, draw connections to other thinkers in the corpus when relevant. Quote the passage when a quote sharpens the point. Don't dumb things down; assume the student is willing to work through technical or theoretical material.`;
+	const conversationSystem = `The user is reading: "${readingTitle}" by ${readingAuthor}.${selectedText ? `\n\nThe user has selected this passage:\n"${selectedText}"` : ''}${lengthInstruction}`;
 	const systemBlocks = [
 		{ type: 'text', text: stableSystem, cache_control: { type: 'ephemeral' } },
 		{ type: 'text', text: conversationSystem }
@@ -149,7 +174,7 @@ export const POST: RequestHandler = async (event) => {
 					},
 					body: JSON.stringify({
 						model: 'claude-sonnet-4-20250514',
-						max_tokens: 1024,
+						max_tokens: maxTokens,
 						stream: true,
 						system: systemBlocks,
 						messages: claudeMessages
