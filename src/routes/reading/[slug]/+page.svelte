@@ -5,6 +5,7 @@
 	import ChatPanel from '$lib/components/ChatPanel.svelte';
 	import NotesPanel from '$lib/components/NotesPanel.svelte';
 	import SelectionTooltip from '$lib/components/SelectionTooltip.svelte';
+	import DefinitionPopover from '$lib/components/DefinitionPopover.svelte';
 
 	let { data } = $props();
 
@@ -20,6 +21,13 @@
 		note: string;
 		created_at: string;
 	}
+	interface Vocab {
+		id: number;
+		word: string;
+		definition: string;
+		context: string | null;
+		created_at: string;
+	}
 
 	// Notes/highlights state lives here (not in NotesPanel) because the
 	// highlight DOM-marking logic operates on the prose element on this page.
@@ -30,6 +38,10 @@
 	// the row with this id (PUT) instead of inserting a new one (POST). Used
 	// to extend / shrink an existing highlight without losing its note.
 	let editingHighlightId: number | null = $state(null);
+
+	let vocab: Vocab[] = $state([]);
+	let definePopover: { word: string; definition: string | null; loading: boolean } | null =
+		$state(null);
 
 	// View / layout
 	let viewMode: 'text' | 'pdf' = $state('text');
@@ -385,11 +397,91 @@
 		requestAnimationFrame(() => chatPanel?.startNewChat(text, position));
 	}
 
+	// --- Define / vocab --------------------------------------------------------
+
+	async function fetchVocab() {
+		if (!user) return;
+		const res = await fetch(`/api/vocab?slug=${encodeURIComponent(data.slug)}`);
+		if (res.ok) vocab = await res.json();
+	}
+
+	function nearestParagraphContext(): string | null {
+		// The Define call is much sharper when Haiku gets the surrounding
+		// paragraph as context. Walk up from the selection to the nearest
+		// block-level element and grab its text.
+		const sel = window.getSelection();
+		if (!sel || sel.rangeCount === 0) return null;
+		const range = sel.getRangeAt(0);
+		let node: Node | null = range.commonAncestorContainer;
+		while (node && node !== proseEl && node.nodeType !== 1) node = node.parentNode;
+		while (node && node !== proseEl && node !== document.body) {
+			const tag = (node as HTMLElement).tagName;
+			if (tag === 'P' || tag === 'BLOCKQUOTE' || tag === 'LI' || tag === 'DIV') {
+				return ((node as HTMLElement).textContent ?? '').trim().slice(0, 1500) || null;
+			}
+			node = (node as HTMLElement).parentElement;
+		}
+		return null;
+	}
+
+	async function defineSelection(text: string) {
+		const word = text.trim();
+		const context = nearestParagraphContext();
+		selectionTooltip = null;
+		window.getSelection()?.removeAllRanges();
+		definePopover = { word, definition: null, loading: true };
+		try {
+			const res = await fetch('/api/define', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					slug: data.slug,
+					word,
+					context,
+					readingTitle: data.title,
+					readingAuthor: data.author
+				})
+			});
+			if (!res.ok) {
+				const body = await res.text().catch(() => '');
+				console.error('define failed:', res.status, body);
+				definePopover = null;
+				flash(`Definition failed (${res.status})`, 'error');
+				return;
+			}
+			const json = (await res.json()) as { word: string; definition: string };
+			definePopover = { word: json.word, definition: json.definition, loading: false };
+			fetchVocab(); // refresh sidebar list
+		} catch (err) {
+			console.error('define threw:', err);
+			definePopover = null;
+			flash('Definition lookup failed', 'error');
+		}
+	}
+
+	function dismissDefinition() {
+		definePopover = null;
+	}
+
+	function escalateToChat() {
+		if (!definePopover) return;
+		const w = definePopover.word;
+		definePopover = null;
+		chatOpen = true;
+		requestAnimationFrame(() => chatPanel?.startNewChat(w));
+	}
+
+	async function deleteVocab(id: number) {
+		await fetch(`/api/vocab?id=${id}`, { method: 'DELETE' });
+		await fetchVocab();
+	}
+
 	$effect(() => {
 		if (browser && user) {
 			fetchNotes();
 			fetchHighlights();
 			fetchBookmark();
+			fetchVocab();
 			window.addEventListener('scroll', handleScroll, { passive: true });
 			return () => window.removeEventListener('scroll', handleScroll);
 		}
@@ -559,6 +651,8 @@
 		onClearActiveHighlight={() => (activeHighlight = null)}
 		onSetActiveHighlight={(h) => (activeHighlight = h)}
 		onExtendHighlight={startExtendHighlight}
+		{vocab}
+		onDeleteVocab={deleteVocab}
 	/>
 
 	<ChatPanel
@@ -578,7 +672,19 @@
 		extendMode={editingHighlightId !== null}
 		onHighlight={saveHighlight}
 		onExplain={explainSelection}
+		onDefine={defineSelection}
 	/>
+
+	{#if definePopover}
+		<DefinitionPopover
+			word={definePopover.word}
+			definition={definePopover.definition}
+			loading={definePopover.loading}
+			{isMobile}
+			onDismiss={dismissDefinition}
+			onAskMore={escalateToChat}
+		/>
+	{/if}
 
 	{#if editingHighlightId !== null}
 		<!-- Sticky banner during extend mode so the user knows they're in a

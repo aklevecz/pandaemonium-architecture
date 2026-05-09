@@ -11,10 +11,18 @@
 		note: string;
 		created_at: string;
 	}
+	interface Vocab {
+		id: number;
+		word: string;
+		definition: string;
+		context: string | null;
+		created_at: string;
+	}
 
 	interface Props {
 		notes: Note[];
 		highlights: Highlight[];
+		vocab: Vocab[];
 		isMobile: boolean;
 		open: boolean;
 		activeHighlight: Highlight | null;
@@ -27,11 +35,13 @@
 		onClearActiveHighlight: () => void;
 		onSetActiveHighlight: (h: Highlight) => void;
 		onExtendHighlight: (h: Highlight) => void;
+		onDeleteVocab: (id: number) => Promise<void>;
 	}
 
 	const {
 		notes,
 		highlights,
+		vocab,
 		isMobile,
 		open,
 		activeHighlight,
@@ -43,7 +53,8 @@
 		onDeleteHighlight,
 		onClearActiveHighlight,
 		onSetActiveHighlight,
-		onExtendHighlight
+		onExtendHighlight,
+		onDeleteVocab
 	}: Props = $props();
 
 	let newNote = $state('');
@@ -75,7 +86,7 @@
 		     close/back buttons aren't hidden behind it. -->
 		<div class="fixed inset-0 z-[60] overflow-y-auto bg-black p-4">
 			<div class="flex items-center justify-between border-b border-rule pb-3">
-				<p class="text-xs tracking-widest text-muted uppercase">Notes & Highlights</p>
+				<p class="text-xs tracking-widest text-muted uppercase">Highlights, Vocab & Notes</p>
 				<button onclick={onClose} class="px-2 py-1 text-sm text-muted hover:text-light">&times; Close</button>
 			</div>
 			{@render body()}
@@ -83,7 +94,7 @@
 	{:else}
 		<aside class="fixed top-[57px] right-0 bottom-0 w-72 overflow-y-auto border-l border-rule bg-black p-5">
 			<div class="flex items-center justify-between">
-				<p class="text-xs tracking-widest text-muted uppercase">Notes & Highlights</p>
+				<p class="text-xs tracking-widest text-muted uppercase">Highlights, Vocab & Notes</p>
 				<button onclick={onClose} class="text-sm text-muted hover:text-light">&times;</button>
 			</div>
 			{@render body()}
@@ -151,6 +162,35 @@
 								</button>
 							</div>
 						{/if}
+					</div>
+				{/each}
+			</div>
+		{/if}
+	</div>
+
+	<div class="mt-8 border-t border-rule pt-6">
+		<p class="text-xs text-muted uppercase">
+			Vocab {vocab.length > 0 ? `(${vocab.length})` : ''}
+		</p>
+		{#if vocab.length === 0}
+			<p class="mt-2 text-xs text-muted">
+				Select a word and tap <span class="text-light">Define</span> to save it here for review.
+			</p>
+		{:else}
+			<div class="mt-2 space-y-3">
+				{#each vocab as v (v.id)}
+					<div class="border-l-2 border-blue-500/30 py-1 pl-3">
+						<div class="flex items-baseline justify-between gap-2">
+							<p class="font-serif text-sm text-bright">{v.word}</p>
+							<button
+								onclick={() => onDeleteVocab(v.id)}
+								class="shrink-0 text-xs text-muted hover:text-light"
+								aria-label="Delete vocab entry"
+							>
+								&times;
+							</button>
+						</div>
+						<p class="mt-1 font-serif text-xs leading-relaxed text-gray">{v.definition}</p>
 					</div>
 				{/each}
 			</div>

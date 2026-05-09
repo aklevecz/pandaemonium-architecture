@@ -3,11 +3,12 @@
 		tooltip: { x: number; y: number; text: string } | null;
 		isMobile: boolean;
 		// When true, the primary button replaces "Highlight" with "Update"
-		// and the explain button is suppressed — the user is in the middle of
-		// re-anchoring an existing highlight, not adding a new one.
+		// and the explain/define buttons are suppressed — the user is
+		// re-anchoring an existing highlight.
 		extendMode?: boolean;
 		onHighlight: (text: string) => void;
 		onExplain: (text: string) => void;
+		onDefine: (text: string) => void;
 	}
 
 	const {
@@ -15,10 +16,16 @@
 		isMobile,
 		extendMode = false,
 		onHighlight,
-		onExplain
+		onExplain,
+		onDefine
 	}: Props = $props();
 
 	const primaryLabel = $derived(extendMode ? 'Update' : 'Highlight');
+	// Define is most useful for short selections — for paragraph-length
+	// selections the user wants Explain, not a glossary entry.
+	const showDefine = $derived(
+		!extendMode && (tooltip?.text?.length ?? 0) <= 80
+	);
 </script>
 
 {#if tooltip}
@@ -48,6 +55,20 @@
 				>
 					{primaryLabel}
 				</button>
+				{#if showDefine}
+					<div class="w-px bg-rule"></div>
+					<button
+						type="button"
+						onpointerdown={(e) => {
+							e.preventDefault();
+							e.stopPropagation();
+							onDefine(tooltip.text);
+						}}
+						class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
+					>
+						Define
+					</button>
+				{/if}
 				{#if !extendMode}
 					<div class="w-px bg-rule"></div>
 					<button
@@ -76,6 +97,15 @@
 				>
 					{primaryLabel}
 				</button>
+				{#if showDefine}
+					<div class="w-px bg-rule"></div>
+					<button
+						onclick={() => onDefine(tooltip.text)}
+						class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
+					>
+						Define
+					</button>
+				{/if}
 				{#if !extendMode}
 					<div class="w-px bg-rule"></div>
 					<button
