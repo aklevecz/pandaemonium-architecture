@@ -69,6 +69,7 @@
 	async function loadConversation(id: number) {
 		activeConversationId = id;
 		chatMessages = [];
+		stickToBottom = true;
 		conversationLoading = true;
 		try {
 			const res = await fetch(`/api/chat?id=${id}`);
@@ -189,6 +190,7 @@
 		chatMessages = [];
 		chatSelectedText = selectedText || '';
 		chatSelectedPosition = selectedPosition ?? null;
+		stickToBottom = true;
 		if (selectedText) {
 			const truncated = selectedText.length > 150
 				? selectedText.slice(0, 150) + '...'
@@ -199,10 +201,29 @@
 		fetchConversations();
 	}
 
+	// "Stick to bottom" behavior: auto-scroll while the user is reading the
+	// tail of the conversation, but bail out the moment they scroll up to
+	// re-read something. Re-engages the moment they scroll back to (near)
+	// the bottom — same model as terminals, Twitter, iMessage.
+	let stickToBottom = $state(true);
+	const STICK_THRESHOLD_PX = 80;
+
 	function scrollChat() {
 		requestAnimationFrame(() => {
-			if (chatEl) chatEl.scrollTop = chatEl.scrollHeight;
+			if (chatEl && stickToBottom) chatEl.scrollTop = chatEl.scrollHeight;
 		});
+	}
+
+	function handleChatScroll() {
+		if (!chatEl) return;
+		const distanceFromBottom = chatEl.scrollHeight - chatEl.clientHeight - chatEl.scrollTop;
+		stickToBottom = distanceFromBottom <= STICK_THRESHOLD_PX;
+	}
+
+	function jumpToBottom() {
+		if (!chatEl) return;
+		stickToBottom = true;
+		chatEl.scrollTop = chatEl.scrollHeight;
 	}
 </script>
 
@@ -267,7 +288,11 @@
 			{/if}
 		</div>
 	{:else}
-		<div bind:this={chatEl} class="flex-1 overflow-y-auto p-4">
+		<div
+			bind:this={chatEl}
+			onscroll={handleChatScroll}
+			class="flex-1 overflow-y-auto p-4"
+		>
 			{#if conversationLoading && chatMessages.length === 0}
 				<div class="space-y-3">
 					{#each [80, 60, 90, 70] as w}
@@ -293,6 +318,21 @@
 				</div>
 			{/if}
 		</div>
+
+		{#if chatStreaming && !stickToBottom}
+			<!-- Streaming is mid-flight but the user has scrolled up to read.
+			     One-tap re-anchor to the bottom. Sits just above the input
+			     so it's reachable without leaving the panel. -->
+			<div class="pointer-events-none flex justify-center pb-2">
+				<button
+					type="button"
+					onclick={jumpToBottom}
+					class="pointer-events-auto rounded-full border border-rule bg-dark/95 px-3 py-1 text-xs text-light shadow hover:bg-rule/30"
+				>
+					&darr; Jump to bottom
+				</button>
+			</div>
+		{/if}
 
 		<form onsubmit={(e) => { e.preventDefault(); sendChat(); }} class="border-t border-rule p-3">
 			<div class="flex gap-2">
