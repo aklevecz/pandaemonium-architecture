@@ -24,9 +24,28 @@ const RAW_PATH = join(ROOT, 'work', 'people-raw.json');
 const STATIC = join(ROOT, 'static');
 
 const HAIKU = 'claude-haiku-4-5-20251001';
-const CONCURRENCY = 5;
-const MIN_MENTIONS_FOR_BIO = 1; // generate bio for everyone, even singletons
+const HAIKU_CONCURRENCY = 3;
+const HAIKU_RPM_BUDGET = 45;
+const MAX_RETRIES = 5;
+// Generate the corpus-context note only for people who either appear in
+// multiple chunks OR exist on Wikipedia. Filters out one-off mentions of
+// random names that aren't really part of the discourse.
+const MIN_MENTIONS_FOR_BIO = 2;
 const WIKIPEDIA_BASE = 'https://en.wikipedia.org/api/rest_v1/page/summary/';
+
+const haikuRateBuf = [];
+async function acquireHaikuSlot() {
+	while (true) {
+		const now = Date.now();
+		while (haikuRateBuf.length && haikuRateBuf[0] < now - 60_000) haikuRateBuf.shift();
+		if (haikuRateBuf.length < HAIKU_RPM_BUDGET) {
+			haikuRateBuf.push(now);
+			return;
+		}
+		await new Promise((r) => setTimeout(r, Math.max(0, haikuRateBuf[0] + 60_000 - now) + 50));
+	}
+}
+function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
 
 function loadDotenv() {
 	const envPath = join(ROOT, '.env');
@@ -108,26 +127,37 @@ async function generateContextNote(person, snippets, apiKey) {
 		.slice(0, 4)
 		.map((s, i) => `[${i + 1}] ${s.slice(0, 400)}`)
 		.join('\n\n')}`;
-	const res = await fetch('https://api.anthropic.com/v1/messages', {
-		method: 'POST',
-		headers: {
-			'Content-Type': 'application/json',
-			'x-api-key': apiKey,
-			'anthropic-version': '2023-06-01'
-		},
-		body: JSON.stringify({
-			model: HAIKU,
-			max_tokens: 240,
-			system: COURSE_CONTEXT_SYSTEM,
-			messages: [{ role: 'user', content: userMessage }]
-		})
+	const body = JSON.stringify({
+		model: HAIKU,
+		max_tokens: 240,
+		system: COURSE_CONTEXT_SYSTEM,
+		messages: [{ role: 'user', content: userMessage }]
 	});
-	if (!res.ok) {
+	for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
+		await acquireHaikuSlot();
+		const res = await fetch('https://api.anthropic.com/v1/messages', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+				'x-api-key': apiKey,
+				'anthropic-version': '2023-06-01'
+			},
+			body
+		});
+		if (res.ok) {
+			const json = await res.json();
+			return json.content?.[0]?.text?.trim() ?? null;
+		}
+		if (res.status === 429 || res.status === 529 || res.status === 503) {
+			const ra = Number(res.headers.get('retry-after'));
+			const backoff = (Number.isFinite(ra) ? ra * 1000 : 0) || Math.min(30_000, 2 ** attempt * 1000);
+			await sleep(backoff);
+			continue;
+		}
 		console.error('context note failed:', res.status);
 		return null;
 	}
-	const json = await res.json();
-	return json.content?.[0]?.text?.trim() ?? null;
+	return null;
 }
 
 // ---------------------------------------------------------------------------
@@ -200,20 +230,24 @@ await runWithConcurrency(peopleArr, 8, async (p) => {
 });
 console.log(`Wikipedia: ${peopleArr.filter((p) => p.wikipedia?.extract).length}/${peopleArr.length} found in ${((Date.now() - t0) / 1000).toFixed(1)}s.`);
 
-console.log(`Generating corpus-context notes via Haiku…`);
+// Filter for context-note generation: keep people who either have ≥2
+// mentions or a Wikipedia hit. One-off mentions of names not on Wikipedia
+// are usually noise (institutions misclassified as people, faulty
+// extractions, very passing references). They still get a /people/<slug>
+// page with corpus excerpts; they just don't get a curated note.
+const noteCandidates = peopleArr.filter(
+	(p) => p.mentions.length >= MIN_MENTIONS_FOR_BIO || p.wikipedia?.extract
+);
+console.log(`Generating corpus-context notes for ${noteCandidates.length}/${peopleArr.length} people via Haiku (rate-limited)…`);
 const t1 = Date.now();
 let ctxDone = 0;
-await runWithConcurrency(peopleArr, CONCURRENCY, async (p) => {
-	if (p.mentions.length < MIN_MENTIONS_FOR_BIO) {
-		p.corpusContext = null;
-		return;
-	}
+await runWithConcurrency(noteCandidates, HAIKU_CONCURRENCY, async (p) => {
 	const snippets = p.mentions.slice(0, 4).map((m) => m.snippet);
 	p.corpusContext = await generateContextNote(p, snippets, apiKey);
 	ctxDone++;
-	if (ctxDone % 50 === 0) process.stderr.write(`  context: ${ctxDone}/${peopleArr.length}\n`);
+	if (ctxDone % 25 === 0) process.stderr.write(`  context: ${ctxDone}/${noteCandidates.length}\n`);
 });
-console.log(`Context notes: ${peopleArr.filter((p) => p.corpusContext).length}/${peopleArr.length} generated in ${((Date.now() - t1) / 1000).toFixed(1)}s.`);
+console.log(`Context notes: ${peopleArr.filter((p) => p.corpusContext).length}/${noteCandidates.length} generated in ${((Date.now() - t1) / 1000).toFixed(1)}s.`);
 
 // --- D: co-occurrence graph (chunk-level) --------------------------------
 
