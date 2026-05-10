@@ -51,6 +51,11 @@
 					class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
 					>Search</a
 				>
+				<a
+					href="/people"
+					class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
+					>People</a
+				>
 				{#if data.user}
 					<a
 						href="/activity"

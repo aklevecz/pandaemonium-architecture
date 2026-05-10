@@ -13,6 +13,13 @@ static/readings-fallback.json
 static/embeddings.bin
 static/embeddings-meta.json
 
+# Generated people index + co-occurrence graph (run scripts/people/extract.js
+# then scripts/people/build.js; served at /people.json + /people-graph.json
+# + /people-aliases.json)
+static/people.json
+static/people-graph.json
+static/people-aliases.json
+
 # PDF pipeline scratch (per-PDF metadata, page renders, raw OCR, VLM outputs)
 work/
 

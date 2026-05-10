@@ -49,15 +49,98 @@ function parseAuthorTitle(filename) {
 	return { author: '', title: stem };
 }
 
+// Load people alias index if it's been built. Aliases are inserted into the
+// reading markdown as inline links so students can tap a name and land on
+// /people/<slug>. First mention per reading is bolded for scannability;
+// later mentions are plain links.
+let aliasMap = null;
+let aliasPattern = null;
+try {
+	const aliasPath = join(root, 'static', 'people-aliases.json');
+	if (existsSync(aliasPath)) {
+		const parsed = JSON.parse(readFileSync(aliasPath, 'utf-8'));
+		aliasMap = parsed.aliases ?? {};
+		const aliases = Object.keys(aliasMap)
+			.filter((a) => a.length >= 4)
+			.sort((a, b) => b.length - a.length); // longest-first so "Niels Bohr" beats "Bohr"
+		if (aliases.length) {
+			const escaped = aliases.map((a) => a.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+			aliasPattern = new RegExp(`(?<![A-Za-zÀ-ÿ])(${escaped.join('|')})(?![A-Za-zÀ-ÿ])`, 'g');
+		}
+	}
+} catch (err) {
+	console.warn('Could not load people-aliases.json:', err.message);
+}
+
+// Walk the markdown and inject inline person links. Skip anything inside
+// existing markdown links, image refs, code spans, or the figure/caption
+// blockquotes — auto-linking inside those would corrupt the structure.
+function injectPersonLinks(md, slug) {
+	if (!aliasPattern || !aliasMap) return md;
+	const seen = new Set();
+	const lines = md.split('\n');
+	const out = [];
+	let inFence = false;
+	for (const line of lines) {
+		if (line.trim().startsWith('```')) {
+			inFence = !inFence;
+			out.push(line);
+			continue;
+		}
+		if (inFence) {
+			out.push(line);
+			continue;
+		}
+		// Skip image syntax + figure caption/figure-text blockquote lines.
+		if (line.startsWith('![') || line.startsWith('> **Caption:') || line.startsWith('> **Figure text:')) {
+			out.push(line);
+			continue;
+		}
+		// Walk the line piece by piece, leaving existing [link](...) and
+		// `code` segments alone.
+		out.push(rewriteLine(line, seen));
+	}
+	return out.join('\n');
+}
+
+function rewriteLine(line, seen) {
+	// Tokenize: find existing markdown links and code spans; everything else is rewriteable text.
+	const segments = [];
+	const tokenRe = /(\[[^\]]+\]\([^)]+\)|`[^`]+`)/g;
+	let lastIdx = 0;
+	let m;
+	while ((m = tokenRe.exec(line)) !== null) {
+		if (m.index > lastIdx) segments.push({ kind: 'text', value: line.slice(lastIdx, m.index) });
+		segments.push({ kind: 'opaque', value: m[0] });
+		lastIdx = tokenRe.lastIndex;
+	}
+	if (lastIdx < line.length) segments.push({ kind: 'text', value: line.slice(lastIdx) });
+
+	for (const s of segments) {
+		if (s.kind !== 'text') continue;
+		s.value = s.value.replace(aliasPattern, (alias) => {
+			const personSlug = aliasMap[alias];
+			if (!personSlug) return alias;
+			const key = personSlug;
+			const isFirst = !seen.has(key);
+			seen.add(key);
+			const link = `[${alias}](/people/${personSlug})`;
+			return isFirst ? `**${link}**` : link;
+		});
+	}
+	return segments.map((s) => s.value).join('');
+}
+
 function ingest(file, parentDir) {
 	if (!file.endsWith('.md')) return;
 	if (file.endsWith('-old.md')) return;
 	const slug = slugify(parentDir ? `${parentDir}/${file}` : file);
-	if (seen.has(slug)) return; // .md and additional/.md collide
+	if (seen.has(slug)) return;
 	seen.add(slug);
 	const fullPath = parentDir ? join(mdRoot, parentDir, file) : join(mdRoot, file);
-	const content = readFileSync(fullPath, 'utf-8');
-	writeFileSync(join(outDir, `${slug}.md`), content);
+	const raw = readFileSync(fullPath, 'utf-8');
+	const linked = injectPersonLinks(raw, slug);
+	writeFileSync(join(outDir, `${slug}.md`), linked);
 	fallbackMeta[slug] = parseAuthorTitle(file);
 	count++;
 }
