@@ -35,6 +35,7 @@
 		onClearActiveHighlight: () => void;
 		onSetActiveHighlight: (h: Highlight) => void;
 		onExtendHighlight: (h: Highlight) => void;
+		onJumpToHighlight: (h: Highlight) => void;
 		onDeleteVocab: (id: number) => Promise<void>;
 	}
 
@@ -54,8 +55,17 @@
 		onClearActiveHighlight,
 		onSetActiveHighlight,
 		onExtendHighlight,
+		onJumpToHighlight,
 		onDeleteVocab
 	}: Props = $props();
+
+	const SNIPPET_PREVIEW = 200;
+	let expandedHighlights = $state(new Set<number>());
+	function toggleExpand(id: number) {
+		if (expandedHighlights.has(id)) expandedHighlights.delete(id);
+		else expandedHighlights.add(id);
+		expandedHighlights = expandedHighlights; // svelte reactivity nudge
+	}
 
 	let newNote = $state('');
 	let editingId: number | null = $state(null);
@@ -119,12 +129,28 @@
 		{:else}
 			<div class="mt-2 space-y-3">
 				{#each highlights as h (h.id)}
+					{@const expanded = expandedHighlights.has(h.id)}
+					{@const long = h.text.length > SNIPPET_PREVIEW}
 					<div
 						class="border-l-2 py-1 pl-3 {activeHighlight?.id === h.id ? 'border-yellow-400' : 'border-yellow-500/30'}"
 					>
-						<p class="font-serif text-xs text-light italic leading-relaxed">
-							&ldquo;{h.text.length > 100 ? h.text.slice(0, 100) + '...' : h.text}&rdquo;
-						</p>
+						<button
+							type="button"
+							onclick={() => onJumpToHighlight(h)}
+							class="block w-full cursor-pointer text-left font-serif text-xs italic leading-relaxed text-light transition-colors hover:text-bright"
+							title="Jump to this passage in the reading"
+						>
+							&ldquo;{expanded || !long ? h.text : h.text.slice(0, SNIPPET_PREVIEW) + '…'}&rdquo;
+						</button>
+						{#if long}
+							<button
+								type="button"
+								onclick={() => toggleExpand(h.id)}
+								class="mt-1 text-xs text-muted hover:text-light"
+							>
+								{expanded ? 'Show less' : 'Show more'}
+							</button>
+						{/if}
 						{#if activeHighlight?.id === h.id}
 							<textarea
 								bind:value={highlightNoteText}
@@ -142,6 +168,12 @@
 								<p class="mt-1 text-xs text-muted">{h.note}</p>
 							{/if}
 							<div class="mt-1 flex flex-wrap gap-x-3 gap-y-1">
+								<button
+									onclick={() => onJumpToHighlight(h)}
+									class="text-xs text-muted hover:text-light"
+								>
+									Jump to
+								</button>
 								<button
 									onclick={() => onSetActiveHighlight(h)}
 									class="text-xs text-muted hover:text-light"

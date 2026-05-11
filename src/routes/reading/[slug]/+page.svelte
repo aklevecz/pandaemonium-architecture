@@ -227,6 +227,24 @@
 		flash('Edit cancelled');
 	}
 
+	function jumpToHighlight(h: Highlight) {
+		if (!proseEl) return;
+		const mark = proseEl.querySelector<HTMLElement>(`mark.hl[data-highlight-id="${h.id}"]`);
+		if (!mark) {
+			flash('Highlight not found in this view', 'error');
+			return;
+		}
+		// On mobile the panel covers the whole viewport; close it before
+		// scrolling so the user lands on the visible page.
+		if (isMobile) sidebarOpen = false;
+		// Wait a frame so the layout settles, then scroll.
+		requestAnimationFrame(() => {
+			mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			mark.classList.add('highlight-flash');
+			setTimeout(() => mark.classList.remove('highlight-flash'), 1200);
+		});
+	}
+
 	async function deleteHighlight(id: number) {
 		await fetch(`/api/highlights?id=${id}`, { method: 'DELETE' });
 		activeHighlight = null;
@@ -352,6 +370,7 @@
 			const mark = document.createElement('mark');
 			mark.textContent = matched;
 			mark.className = 'hl highlight-mark';
+			mark.dataset.highlightId = String(h.id);
 			mark.addEventListener('click', () => {
 				activeHighlight = h;
 				sidebarOpen = true;
@@ -692,6 +711,7 @@
 		onClearActiveHighlight={() => (activeHighlight = null)}
 		onSetActiveHighlight={(h) => (activeHighlight = h)}
 		onExtendHighlight={startExtendHighlight}
+		onJumpToHighlight={jumpToHighlight}
 		{vocab}
 		onDeleteVocab={deleteVocab}
 	/>

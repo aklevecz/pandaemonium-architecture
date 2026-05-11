@@ -263,3 +263,14 @@ mark.search-hit {
 	color: inherit;
 	border-bottom: 1px solid rgba(125, 211, 252, 0.4);
 }
+
+/* Brief attention-grab when the user clicks a highlight in the sidebar
+   panel — fades back to the normal highlight color after ~1.2s. */
+mark.hl.highlight-flash {
+	animation: hl-flash 1.2s ease-out;
+}
+@keyframes hl-flash {
+	0% { background-color: rgba(234, 179, 8, 0.85); }
+	50% { background-color: rgba(234, 179, 8, 0.6); }
+	100% { background-color: rgba(234, 179, 8, 0.25); }
+}
