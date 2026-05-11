@@ -59,19 +59,23 @@ export const load: PageServerLoad = async ({ params, fetch, platform, url }) => 
 	// which loops and 522s. Use the ASSETS binding when available (prod);
 	// fall back to event.fetch in dev where Vite serves the static dir.
 	const path = `/reading-content/${params.slug}.md`;
+	const summaryPath = `/summaries/${params.slug}.json`;
 	// In dev: Vite serves static/ at the same URL, and event.fetch routes
 	// through Vite. In prod: the ASSETS binding is the only way that doesn't
 	// loop through the custom domain.
-	const res =
+	const fetchAsset = (p: string) =>
 		!dev && platform?.env?.ASSETS
-			? await platform.env.ASSETS.fetch(new URL(path, url.origin).toString())
-			: await fetch(path);
+			? platform.env.ASSETS.fetch(new URL(p, url.origin).toString())
+			: fetch(p);
+	const [res, sumRes] = await Promise.all([fetchAsset(path), fetchAsset(summaryPath)]);
 	if (!res.ok) error(404, 'Reading content not found');
 	const raw = await res.text();
 	const content = await marked(raw);
+	const summary = sumRes.ok ? await sumRes.json() : null;
 
 	return {
 		content,
+		summary,
 		slug: params.slug,
 		title: meta.reading.title,
 		author: meta.reading.author,

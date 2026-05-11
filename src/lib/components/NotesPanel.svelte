@@ -67,6 +67,35 @@
 		expandedHighlights = expandedHighlights; // svelte reactivity nudge
 	}
 
+	// Persist scroll position so closing + reopening the panel returns the
+	// user to where they were. Keyed by pathname so each reading remembers
+	// its own scroll independently.
+	let scrollEl: HTMLElement | undefined = $state();
+	const SCROLL_KEY = () =>
+		typeof window === 'undefined'
+			? null
+			: `notes-panel-scroll:${window.location.pathname}`;
+
+	function saveScroll() {
+		const key = SCROLL_KEY();
+		if (!key || !scrollEl) return;
+		try {
+			sessionStorage.setItem(key, String(scrollEl.scrollTop));
+		} catch {}
+	}
+
+	$effect(() => {
+		// Reopen → restore saved scrollTop on the next paint, after content
+		// has rendered (otherwise scrollHeight is still 0).
+		if (!open || !scrollEl) return;
+		const key = SCROLL_KEY();
+		if (!key) return;
+		const saved = Number(sessionStorage.getItem(key) ?? '0');
+		requestAnimationFrame(() => {
+			if (scrollEl) scrollEl.scrollTop = saved;
+		});
+	});
+
 	let newNote = $state('');
 	let editingId: number | null = $state(null);
 	let editContent = $state('');
@@ -94,7 +123,11 @@
 	{#if isMobile}
 		<!-- z-[60] sits above the sticky nav (z-50) so the panel's own
 		     close/back buttons aren't hidden behind it. -->
-		<div class="fixed inset-0 z-[60] overflow-y-auto bg-black p-4">
+		<div
+			bind:this={scrollEl}
+			onscroll={saveScroll}
+			class="fixed inset-0 z-[60] overflow-y-auto bg-black p-4"
+		>
 			<div class="flex items-center justify-between border-b border-rule pb-3">
 				<p class="text-xs tracking-widest text-muted uppercase">Highlights, Vocab & Notes</p>
 				<button onclick={onClose} class="px-2 py-1 text-sm text-muted hover:text-light">&times; Close</button>
@@ -102,7 +135,11 @@
 			{@render body()}
 		</div>
 	{:else}
-		<aside class="fixed top-[57px] right-0 bottom-0 w-72 overflow-y-auto border-l border-rule bg-black p-5">
+		<aside
+			bind:this={scrollEl}
+			onscroll={saveScroll}
+			class="fixed top-[57px] right-0 bottom-0 w-72 overflow-y-auto border-l border-rule bg-black p-5"
+		>
 			<div class="flex items-center justify-between">
 				<p class="text-xs tracking-widest text-muted uppercase">Highlights, Vocab & Notes</p>
 				<button onclick={onClose} class="text-sm text-muted hover:text-light">&times;</button>

@@ -20,6 +20,11 @@ static/people.json
 static/people-graph.json
 static/people-aliases.json
 
+# Generated reading summaries (run scripts/summarize-readings.js; served at
+# /summaries/<slug>.json + /summaries-index.json for the readings index)
+static/summaries/
+static/summaries-index.json
+
 # PDF pipeline scratch (per-PDF metadata, page renders, raw OCR, VLM outputs)
 work/
 

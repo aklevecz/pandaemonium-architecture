@@ -1,5 +1,7 @@
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import { weeks, introductoryReadings, getReadingUrl, type Reading } from '$lib/data/syllabus';
+	import { slugify } from '$lib/utils/slug';
 
 	interface ReadingWithWeek extends Reading {
 		weekNumber: number;
@@ -21,6 +23,19 @@
 		readings.sort((a, b) => a.author.localeCompare(b.author));
 		return readings;
 	});
+
+	// TL;DR per reading (slug → string). Loaded once from
+	// /summaries-index.json — separate static asset so the page doesn't
+	// have to download every full summary just to render the listing.
+	let tldrs = $state<Record<string, string>>({});
+	if (browser) {
+		fetch('/summaries-index.json')
+			.then((r) => (r.ok ? r.json() : null))
+			.then((j) => {
+				if (j?.tldrs) tldrs = j.tldrs;
+			})
+			.catch(() => {});
+	}
 </script>
 
 <div class="mx-auto max-w-3xl px-4 sm:px-6">
@@ -62,19 +77,18 @@
 		<p class="text-xs tracking-widest text-muted uppercase">All Readings</p>
 		<div class="mt-6 divide-y divide-rule">
 			{#each allReadings as reading}
-				<div class="flex items-baseline justify-between gap-6 py-3">
-					<a
-						href={getReadingUrl(reading.pdf)}
-						target="_blank"
-						rel="noopener"
-						class="group flex-1 no-underline"
-					>
+				{@const tldr = tldrs[slugify(reading.pdf)]}
+				<div class="flex items-baseline justify-between gap-6 py-4">
+					<a href={getReadingUrl(reading.pdf)} class="group flex-1 no-underline">
 						<span class="text-xs text-muted">{reading.author}</span>
 						<span
 							class="block font-serif text-sm text-light transition-colors group-hover:text-bright"
 						>
 							{reading.title}
 						</span>
+						{#if tldr}
+							<p class="mt-1 font-serif text-xs leading-relaxed text-muted">{tldr}</p>
+						{/if}
 					</a>
 					<a
 						href="/week/{reading.weekNumber}"

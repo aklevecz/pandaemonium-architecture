@@ -6,6 +6,8 @@
 	import NotesPanel from '$lib/components/NotesPanel.svelte';
 	import SelectionTooltip from '$lib/components/SelectionTooltip.svelte';
 	import DefinitionPopover from '$lib/components/DefinitionPopover.svelte';
+	import ReadingSummary from '$lib/components/ReadingSummary.svelte';
+	import { buildReadingMetaList } from '$lib/search';
 
 	let { data } = $props();
 
@@ -186,23 +188,38 @@
 		toastTimer = setTimeout(() => (toast = null), variant === 'error' ? 4000 : 1800);
 	}
 
+	// Re-entry guard. On iOS double-taps (or any duplicate event firing the
+	// Update / Highlight button), the second call would see editingHighlightId
+	// already cleared by the first call's success path and would silently
+	// fall through to POST — creating a duplicate alongside the freshly-
+	// updated original. Snapshot the editing id, clear it immediately, and
+	// reject re-entry while a save is in flight.
+	let savingHighlight = false;
+
 	async function saveHighlight(text: string) {
-		const isUpdate = editingHighlightId !== null;
+		if (savingHighlight) return;
+		const updateId = editingHighlightId;
+		const isUpdate = updateId !== null;
+		// Snapshot and clear before the fetch so a racing tap can't also issue
+		// a write against this id.
+		editingHighlightId = null;
+		savingHighlight = true;
 		try {
 			const res = await fetch('/api/highlights', {
 				method: isUpdate ? 'PUT' : 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(
-					isUpdate ? { id: editingHighlightId, text } : { slug: data.slug, text }
+					isUpdate ? { id: updateId, text } : { slug: data.slug, text }
 				)
 			});
 			if (!res.ok) {
 				const body = await res.text().catch(() => '');
 				console.error('saveHighlight failed:', res.status, body);
 				flash(`Save failed (${res.status})`, 'error');
+				// Restore edit state so the user can try again.
+				if (isUpdate) editingHighlightId = updateId;
 				return;
 			}
-			editingHighlightId = null;
 			selectionTooltip = null;
 			window.getSelection()?.removeAllRanges();
 			await fetchHighlights();
@@ -210,6 +227,9 @@
 		} catch (err) {
 			console.error('saveHighlight threw:', err);
 			flash('Save failed (network)', 'error');
+			if (isUpdate) editingHighlightId = updateId;
+		} finally {
+			savingHighlight = false;
 		}
 	}
 
@@ -225,6 +245,72 @@
 	function cancelExtendHighlight() {
 		editingHighlightId = null;
 		flash('Edit cancelled');
+	}
+
+	// Reading metadata maps for the summary's related-readings list.
+	const syllabusMeta = new Map(
+		buildReadingMetaList().map((m) => [m.slug, { author: m.author, title: m.title }])
+	);
+	let readingsFallback = $state<Record<string, { author: string; title: string }>>({});
+	if (browser) {
+		fetch('/readings-fallback.json')
+			.then((r) => (r.ok ? r.json() : {}))
+			.then((j) => (readingsFallback = j))
+			.catch(() => {});
+	}
+
+	// Used by the summary card's "representative passages" — same flash
+	// treatment as jumpToHighlight, but on a transient mark we paint
+	// in-place since the passage isn't a saved highlight.
+	function jumpToPassage(text: string) {
+		if (!proseEl) return;
+		const needle = text.replace(/\s+/g, ' ').trim().slice(0, 80);
+		if (!needle) return;
+		// Build the same normalized index used by markTextInDom so we can
+		// find the passage even when it crosses a paragraph break.
+		const walker = document.createTreeWalker(proseEl, NodeFilter.SHOW_TEXT);
+		const nodes: Text[] = [];
+		let tn: Text | null;
+		while ((tn = walker.nextNode() as Text | null)) nodes.push(tn);
+		let full = '';
+		const map: { node: Text; start: number }[] = [];
+		for (const n of nodes) {
+			map.push({ node: n, start: full.length });
+			full += n.textContent ?? '';
+		}
+		const normalize = (s: string) => s.replace(/\s+/g, ' ');
+		const norm = normalize(full);
+		const normNeedle = normalize(needle);
+		const idx = norm.indexOf(normNeedle);
+		if (idx === -1) {
+			flash('Passage not found in this view', 'error');
+			return;
+		}
+		// Find which text node `idx` lands in — close enough; we don't need
+		// pixel-accurate range, just a scroll target.
+		let target: Text | null = null;
+		let pos = 0;
+		for (let i = 0; i < full.length; i++) {
+			if (!/\s/.test(full[i])) pos++;
+			if (pos > idx) {
+				// Find the text node containing position i.
+				for (const m of map) {
+					if (i >= m.start && i < m.start + (m.node.textContent?.length ?? 0)) {
+						target = m.node;
+						break;
+					}
+				}
+				break;
+			}
+		}
+		const el = target?.parentElement ?? null;
+		if (!el) return;
+		if (isMobile) sidebarOpen = false;
+		requestAnimationFrame(() => {
+			el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			el.classList.add('passage-flash');
+			setTimeout(() => el.classList.remove('passage-flash'), 1500);
+		});
 	}
 
 	function jumpToHighlight(h: Highlight) {
@@ -599,6 +685,17 @@
 	<div class="h-px bg-rule"></div>
 
 	{#if viewMode === 'text'}
+		{#if data.summary}
+			<div class="pt-6">
+				<ReadingSummary
+					summary={data.summary}
+					readingSlug={data.slug}
+					readingFallback={readingsFallback}
+					{syllabusMeta}
+					onJumpToPassage={jumpToPassage}
+				/>
+			</div>
+		{/if}
 		<div class="prose py-8 pb-20 sm:py-12 sm:pb-24" bind:this={proseEl}>
 			{@html data.content}
 		</div>

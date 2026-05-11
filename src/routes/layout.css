@@ -274,3 +274,16 @@ mark.hl.highlight-flash {
 	50% { background-color: rgba(234, 179, 8, 0.6); }
 	100% { background-color: rgba(234, 179, 8, 0.25); }
 }
+
+/* Brief halo on a paragraph that's the target of a "jump to passage"
+   action from the summary card. Different colour than highlights so they
+   don't visually collide. */
+.passage-flash {
+	animation: passage-flash 1.5s ease-out;
+	border-radius: 4px;
+}
+@keyframes passage-flash {
+	0%   { background-color: rgba(125, 211, 252, 0.30); }
+	50%  { background-color: rgba(125, 211, 252, 0.18); }
+	100% { background-color: rgba(125, 211, 252, 0); }
+}
