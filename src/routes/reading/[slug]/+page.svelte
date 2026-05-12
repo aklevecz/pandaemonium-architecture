@@ -100,20 +100,33 @@
 		}
 	}
 
-	// Walks the prose for the first block-level element whose bottom edge is
-	// below the nav — that's the first paragraph the reader can actually see.
-	function getTopVisibleAnchor(): string {
+	// Pick the paragraph closest to the vertical center of the viewport (the
+	// reading "eye line"). More predictable than top-edge because viewport
+	// height + paragraph wrapping vary across devices — center stays the
+	// same conceptual line.
+	function getCenterVisibleAnchor(): string {
 		if (!proseEl) return '';
+		const readingAreaTop = NAV_OFFSET;
+		const readingAreaBottom = window.innerHeight;
+		const targetY = readingAreaTop + (readingAreaBottom - readingAreaTop) / 2;
 		const blocks = proseEl.querySelectorAll<HTMLElement>(
 			'p, blockquote, h1, h2, h3, h4, h5, h6, li'
 		);
+		let best: HTMLElement | null = null;
+		let bestDist = Infinity;
 		for (const el of blocks) {
 			const rect = el.getBoundingClientRect();
-			if (rect.bottom > NAV_OFFSET) {
-				return (el.textContent ?? '').replace(/\s+/g, ' ').trim().slice(0, 80);
+			// Skip elements entirely outside the viewport (or fully behind nav).
+			if (rect.bottom < readingAreaTop || rect.top > readingAreaBottom) continue;
+			const elCenter = (rect.top + rect.bottom) / 2;
+			const dist = Math.abs(elCenter - targetY);
+			if (dist < bestDist) {
+				bestDist = dist;
+				best = el;
 			}
 		}
-		return '';
+		if (!best) return '';
+		return (best.textContent ?? '').replace(/\s+/g, ' ').trim().slice(0, 80);
 	}
 
 	// Find the DOM element whose text starts with the saved anchor. Uses the
@@ -183,7 +196,7 @@
 		const docHeight = document.documentElement.scrollHeight - window.innerHeight;
 		if (docHeight <= 0) return;
 		const position = window.scrollY / docHeight;
-		const textAnchor = getTopVisibleAnchor();
+		const textAnchor = getCenterVisibleAnchor();
 		const res = await fetch('/api/bookmarks', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
@@ -198,19 +211,26 @@
 		}
 	}
 
+	// Scroll so the bookmarked element sits at the same eye-line we used to
+	// capture it — symmetric with getCenterVisibleAnchor. Reading-area
+	// midpoint = NAV_OFFSET + (innerHeight - NAV_OFFSET) / 2.
+	function readingAreaCenter() {
+		return NAV_OFFSET + (window.innerHeight - NAV_OFFSET) / 2;
+	}
+
 	function resumeReading() {
-		// Prefer the text anchor — survives viewport-width differences.
 		if (savedTextAnchor && proseEl) {
 			const el = findAnchorElement(savedTextAnchor);
 			if (el) {
 				const rect = el.getBoundingClientRect();
-				const target = window.scrollY + rect.top - NAV_OFFSET;
+				const elCenter = window.scrollY + rect.top + rect.height / 2;
+				const target = elCenter - readingAreaCenter();
 				window.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
 				return;
 			}
 		}
 		// Fallback to ratio — old bookmarks without an anchor, or anchors
-		// the content has since lost (e.g., re-extracted reading).
+		// the content has since lost.
 		if (savedPosition === null) return;
 		requestAnimationFrame(() => {
 			const docHeight = document.documentElement.scrollHeight - window.innerHeight;
