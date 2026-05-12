@@ -15,11 +15,11 @@
 			live: false
 		},
 		{
-			slug: 'theory-adventure',
+			slug: 'adventure',
 			name: 'Theory Adventure',
-			tagline: 'Step into a scenario; choose whose theoretical frame to see it through.',
-			body: 'Coming soon.',
-			live: false
+			tagline: 'Step into a reading as its own world.',
+			body: 'Pick a reading. Claude drops you into a scene from inside its argument. You choose how to move; each choice routes you to a different concept from the text. After ~6 turns you land on a synthesis that points you back to the actual passages.',
+			live: true
 		}
 	];
 </script>
