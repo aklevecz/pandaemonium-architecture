@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { dev } from '$app/environment';
+import { dataUrl } from '$lib/server/data-url';
 import type { PageServerLoad } from './$types';
 
 interface GraphNode {
@@ -17,12 +17,8 @@ interface GraphEdge {
 	weight: number;
 }
 
-export const load: PageServerLoad = async ({ fetch, platform, url }) => {
-	const path = '/people-graph.json';
-	const res =
-		!dev && platform?.env?.ASSETS
-			? await platform.env.ASSETS.fetch(new URL(path, url.origin).toString())
-			: await fetch(path);
+export const load: PageServerLoad = async ({ fetch, url }) => {
+	const res = await fetch(dataUrl('/people-graph.json', url.origin));
 	if (!res.ok) error(503, 'Graph not built yet — run `node scripts/people/build.js`');
 	const json = (await res.json()) as { nodes: GraphNode[]; edges: GraphEdge[] };
 	return { nodes: json.nodes, edges: json.edges };

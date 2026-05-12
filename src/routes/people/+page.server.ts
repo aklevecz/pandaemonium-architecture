@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { dev } from '$app/environment';
+import { dataUrl } from '$lib/server/data-url';
 import type { PageServerLoad } from './$types';
 
 interface Person {
@@ -12,13 +12,9 @@ interface Person {
 	corpusContext: string | null;
 }
 
-export const load: PageServerLoad = async ({ fetch, platform, url }) => {
-	const path = '/people.json';
-	const res =
-		!dev && platform?.env?.ASSETS
-			? await platform.env.ASSETS.fetch(new URL(path, url.origin).toString())
-			: await fetch(path);
-	if (!res.ok) error(503, 'People index not built yet — run `node scripts/people/build.js`');
+export const load: PageServerLoad = async ({ fetch, url }) => {
+	const res = await fetch(dataUrl('/people.json', url.origin));
+	if (!res.ok) error(503, 'People index not built yet — run `node scripts/people/build.js` then `bash scripts/upload-data.sh`');
 	const json = (await res.json()) as { people: Person[] };
 	return { people: json.people };
 };

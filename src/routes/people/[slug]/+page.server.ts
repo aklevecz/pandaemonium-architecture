@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit';
-import { dev } from '$app/environment';
 import { weeks, introductoryReadings, type Reading } from '$lib/data/syllabus';
 import { slugify } from '$lib/utils/slug';
+import { dataUrl } from '$lib/server/data-url';
 import type { PageServerLoad } from './$types';
 
 interface Mention {
@@ -37,12 +37,6 @@ interface GraphEdge {
 	weight: number;
 }
 
-async function fetchAsset(path: string, fetchFn: typeof fetch, platform: App.Platform | undefined, url: URL) {
-	return !dev && platform?.env?.ASSETS
-		? platform.env.ASSETS.fetch(new URL(path, url.origin).toString())
-		: fetchFn(path);
-}
-
 function buildReadingMeta() {
 	const m = new Map<string, { title: string; author: string }>();
 	for (const r of introductoryReadings) m.set(slugify(r.pdf), { title: r.title, author: r.author });
@@ -54,11 +48,11 @@ function buildReadingMeta() {
 }
 const readingMeta = buildReadingMeta();
 
-export const load: PageServerLoad = async ({ params, fetch, platform, url }) => {
+export const load: PageServerLoad = async ({ params, fetch, url }) => {
 	const [peopleRes, graphRes, fallbackRes] = await Promise.all([
-		fetchAsset('/people.json', fetch, platform, url),
-		fetchAsset('/people-graph.json', fetch, platform, url),
-		fetchAsset('/readings-fallback.json', fetch, platform, url)
+		fetch(dataUrl('/people.json', url.origin)),
+		fetch(dataUrl('/people-graph.json', url.origin)),
+		fetch(dataUrl('/readings-fallback.json', url.origin))
 	]);
 	if (!peopleRes.ok)
 		error(503, 'People index not built yet — run `node scripts/people/build.js`');

@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
-import { dev } from '$app/environment';
 import { requireAuthAndDb } from '$lib/server/api';
+import { dataUrl } from '$lib/server/data-url';
 import type { RequestHandler } from './$types';
 
 interface PersonMention {
@@ -30,11 +30,6 @@ const MODEL = 'claude-sonnet-4-6';
 // paragraph" doesn't happen for normal turns.
 const MAX_TOKENS = 4096;
 
-async function fetchAsset(path: string, fetchFn: typeof fetch, platform: App.Platform | undefined, url: URL) {
-	return !dev && platform?.env?.ASSETS
-		? platform.env.ASSETS.fetch(new URL(path, url.origin).toString())
-		: fetchFn(path);
-}
 
 function personContextBlock(p: Person, n = 4): string {
 	const lines: string[] = [];
@@ -71,7 +66,7 @@ export const POST: RequestHandler = async (event) => {
 	if (!thinkerASlug || !thinkerBSlug) error(400, 'Pick two thinkers');
 	if (thinkerASlug === thinkerBSlug) error(400, 'Pick two different thinkers');
 
-	const peopleRes = await fetchAsset('/people.json', event.fetch, event.platform, event.url);
+	const peopleRes = await event.fetch(dataUrl('/people.json', event.url.origin));
 	if (!peopleRes.ok) error(503, 'People index not built');
 	const peopleJson = (await peopleRes.json()) as { people: Person[] };
 	const a = peopleJson.people.find((p) => p.slug === thinkerASlug);

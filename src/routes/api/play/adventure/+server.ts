@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
-import { dev } from '$app/environment';
 import { requireAuthAndDb } from '$lib/server/api';
+import { dataUrl } from '$lib/server/data-url';
 import type { RequestHandler } from './$types';
 
 interface Summary {
@@ -18,11 +18,6 @@ const MODEL = 'claude-sonnet-4-6';
 // gives comfortable headroom without inviting bloat.
 const MAX_TOKENS = 2048;
 
-async function fetchAsset(path: string, fetchFn: typeof fetch, platform: App.Platform | undefined, url: URL) {
-	return !dev && platform?.env?.ASSETS
-		? platform.env.ASSETS.fetch(new URL(path, url.origin).toString())
-		: fetchFn(path);
-}
 
 export const POST: RequestHandler = async (event) => {
 	requireAuthAndDb(event);
@@ -37,7 +32,7 @@ export const POST: RequestHandler = async (event) => {
 	};
 	if (!readingSlug) error(400, 'Missing readingSlug');
 
-	const sumRes = await fetchAsset(`/summaries/${readingSlug}.json`, event.fetch, event.platform, event.url);
+	const sumRes = await event.fetch(dataUrl(`/summaries/${readingSlug}.json`, event.url.origin));
 	if (!sumRes.ok) error(503, 'Summary not built for this reading');
 	const summary = (await sumRes.json()) as Summary;
 

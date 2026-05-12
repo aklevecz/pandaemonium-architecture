@@ -1,7 +1,7 @@
-import { error, redirect } from '@sveltejs/kit';
-import { dev } from '$app/environment';
+import { redirect } from '@sveltejs/kit';
 import { weeks, introductoryReadings, type Reading } from '$lib/data/syllabus';
 import { slugify } from '$lib/utils/slug';
+import { dataUrl } from '$lib/server/data-url';
 import type { PageServerLoad } from './$types';
 
 interface ReadingChoice {
@@ -11,16 +11,13 @@ interface ReadingChoice {
 	tldr: string | null;
 }
 
-export const load: PageServerLoad = async ({ fetch, platform, url, locals }) => {
+export const load: PageServerLoad = async ({ fetch, url, locals }) => {
 	if (!locals.user) redirect(303, '/login');
 
-	const tldrPath = '/summaries-index.json';
-	const fallbackPath = '/readings-fallback.json';
-	const fetchAsset = (p: string) =>
-		!dev && platform?.env?.ASSETS
-			? platform.env.ASSETS.fetch(new URL(p, url.origin).toString())
-			: fetch(p);
-	const [tldrRes, fbRes] = await Promise.all([fetchAsset(tldrPath), fetchAsset(fallbackPath)]);
+	const [tldrRes, fbRes] = await Promise.all([
+		fetch(dataUrl('/summaries-index.json', url.origin)),
+		fetch(dataUrl('/readings-fallback.json', url.origin))
+	]);
 	const tldrs = tldrRes.ok ? ((await tldrRes.json()) as { tldrs: Record<string, string> }).tldrs : {};
 	const fallback = fbRes.ok ? ((await fbRes.json()) as Record<string, { author: string; title: string }>) : {};
 

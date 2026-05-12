@@ -3,7 +3,7 @@
 // by the chat RAG step in /api/chat.
 
 import { embed, blobToVector, cosine, EMBEDDING_DIMS } from './embed';
-import { dev } from '$app/environment';
+import { dataUrl } from './data-url';
 import type { RequestEvent } from '@sveltejs/kit';
 
 interface ChunkMeta {
@@ -39,19 +39,12 @@ async function loadIndex(event: Pick<RequestEvent, 'fetch' | 'platform' | 'url'>
 	if (cached) return cached;
 	if (pending) return pending;
 	pending = (async () => {
-		// In production on Cloudflare, event.fetch on a relative path doesn't
-		// route to static assets — it tries to make an outbound HTTP request
-		// to the same custom domain, which loops and times out (522). Use the
-		// ASSETS binding directly with absolute URLs. In dev (no ASSETS
-		// binding), event.fetch correctly serves from Vite's static dir.
-		const fetchAsset =
-			!dev && event.platform?.env?.ASSETS
-				? (path: string) =>
-						event.platform!.env.ASSETS.fetch(new URL(path, event.url.origin).toString())
-				: (path: string) => event.fetch(path);
+		// embeddings.bin (~9MB) + embeddings-meta.json (~5.6MB) live in R2 in
+		// prod because Cloudflare's static asset bucket evicts files this size
+		// between deploys. dataUrl() rewrites to R2 in prod, stays local in dev.
 		const [binRes, metaRes] = await Promise.all([
-			fetchAsset('/embeddings.bin'),
-			fetchAsset('/embeddings-meta.json')
+			event.fetch(dataUrl('/embeddings.bin', event.url.origin)),
+			event.fetch(dataUrl('/embeddings-meta.json', event.url.origin))
 		]);
 		if (!binRes.ok || !metaRes.ok) {
 			throw new Error(

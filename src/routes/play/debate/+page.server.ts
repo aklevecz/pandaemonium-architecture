@@ -1,5 +1,5 @@
 import { error, redirect } from '@sveltejs/kit';
-import { dev } from '$app/environment';
+import { dataUrl } from '$lib/server/data-url';
 import type { PageServerLoad } from './$types';
 
 interface PersonLite {
@@ -16,13 +16,9 @@ interface PersonLite {
 // We list ~600 thinkers — too many for the picker to load the full people.json
 // (4.6MB). Build a slim list here keyed on what we actually need to render
 // thinker cards.
-export const load: PageServerLoad = async ({ fetch, platform, url, locals }) => {
+export const load: PageServerLoad = async ({ fetch, url, locals }) => {
 	if (!locals.user) redirect(303, '/login');
-	const path = '/people.json';
-	const res =
-		!dev && platform?.env?.ASSETS
-			? await platform.env.ASSETS.fetch(new URL(path, url.origin).toString())
-			: await fetch(path);
+	const res = await fetch(dataUrl('/people.json', url.origin));
 	if (!res.ok) error(503, 'People index not built yet');
 	const json = (await res.json()) as {
 		people: Array<{
