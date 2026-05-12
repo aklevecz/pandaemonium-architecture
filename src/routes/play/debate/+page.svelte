@@ -26,6 +26,15 @@
 	let streaming = $state(false);
 	let abortCtrl: AbortController | null = null;
 
+	// Turn budget — caps the debate so it doesn't run forever. Each
+	// assistant turn = one "exchange" (which contains 2-3 tagged paragraphs
+	// already). When count == budget, isLast signals the API to wind down.
+	let maxExchanges = $state(6);
+	const exchangeCount = $derived(
+		history.filter((t) => t.role === 'assistant' && t.content.trim().length > 0).length
+	);
+	const debateComplete = $derived(exchangeCount >= maxExchanges && !streaming);
+
 	let query = $state('');
 	let typeFilter = $state<string>('');
 
@@ -88,6 +97,10 @@
 		history = localHistory;
 		const assistantIdx = history.length - 1;
 
+		// Count exchanges that will exist AFTER this turn completes. If this
+		// turn equals the budget, ask Claude to wind the debate down.
+		const willBeExchange = exchangeCount + 1;
+		const isLast = willBeExchange >= maxExchanges;
 		try {
 			const res = await fetch('/api/play/debate', {
 				method: 'POST',
@@ -97,6 +110,7 @@
 					thinkerASlug: thinkerA.slug,
 					thinkerBSlug: thinkerB.slug,
 					topic: topic.trim() || undefined,
+					isLast,
 					// Don't send the empty assistant slot to the API.
 					history: history.slice(0, assistantIdx)
 				})
@@ -251,6 +265,18 @@
 				placeholder="Optional topic: e.g. 'surveillance', 'the body', 'agency'"
 				class="flex-1 border border-rule bg-dark px-3 py-2 text-sm text-white outline-none placeholder:text-muted focus:border-muted"
 			/>
+			<label class="flex items-center gap-2 text-xs text-muted">
+				<span>Length:</span>
+				<select
+					bind:value={maxExchanges}
+					disabled={history.length > 0}
+					class="border border-rule bg-dark px-2 py-1 text-xs text-white outline-none focus:border-muted disabled:opacity-50"
+				>
+					<option value={3}>3 short</option>
+					<option value={6}>6 standard</option>
+					<option value={10}>10 long</option>
+				</select>
+			</label>
 			{#if history.length === 0}
 				<button
 					onclick={() => startOrContinue()}
@@ -260,6 +286,9 @@
 					{streaming ? 'Starting…' : 'Start debate'}
 				</button>
 			{:else}
+				<span class="text-xs text-muted tabular-nums">
+					exchange {exchangeCount} / {maxExchanges}
+				</span>
 				<button onclick={reset} class="text-xs text-muted hover:text-light">reset</button>
 			{/if}
 		</div>
@@ -355,46 +384,55 @@
 			</div>
 
 			<!-- Moderator input -->
-			<form
-				onsubmit={(e) => {
-					e.preventDefault();
-					submitModerator();
-				}}
-				class="mt-3 flex items-center gap-2"
-			>
-				<input
-					type="text"
-					bind:value={moderatorInput}
-					placeholder="Push them: ask a question, force a position, name a contradiction…"
-					disabled={streaming}
-					class="flex-1 border border-rule bg-dark px-3 py-2 text-sm text-white outline-none placeholder:text-muted focus:border-muted disabled:opacity-50"
-				/>
-				{#if streaming}
-					<button
-						type="button"
-						onclick={abort}
-						class="border border-rule px-3 py-2 text-xs text-light hover:bg-rule/30 uppercase"
-					>
-						Stop
-					</button>
-				{:else}
-					<button
-						type="submit"
-						disabled={!moderatorInput.trim()}
-						class="border border-rule px-3 py-2 text-xs text-muted hover:border-muted hover:text-light disabled:opacity-30 uppercase"
-					>
-						Send
-					</button>
-					<button
-						type="button"
-						onclick={() => startOrContinue()}
-						class="border border-rule px-3 py-2 text-xs text-muted hover:border-muted hover:text-light uppercase"
-						title="Let the debate continue without a moderator intervention"
-					>
-						Continue
-					</button>
-				{/if}
-			</form>
+			{#if debateComplete}
+				<div class="mt-3 rounded border border-rule/60 bg-rule/20 p-3 text-xs text-muted">
+					<p>Debate complete — {exchangeCount} {exchangeCount === 1 ? 'exchange' : 'exchanges'}.</p>
+					<div class="mt-2 flex gap-3">
+						<button onclick={reset} class="text-light hover:text-bright">Start a new debate</button>
+					</div>
+				</div>
+			{:else}
+				<form
+					onsubmit={(e) => {
+						e.preventDefault();
+						submitModerator();
+					}}
+					class="mt-3 flex items-center gap-2"
+				>
+					<input
+						type="text"
+						bind:value={moderatorInput}
+						placeholder="Push them: ask a question, force a position, name a contradiction…"
+						disabled={streaming}
+						class="flex-1 border border-rule bg-dark px-3 py-2 text-sm text-white outline-none placeholder:text-muted focus:border-muted disabled:opacity-50"
+					/>
+					{#if streaming}
+						<button
+							type="button"
+							onclick={abort}
+							class="border border-rule px-3 py-2 text-xs text-light hover:bg-rule/30 uppercase"
+						>
+							Stop
+						</button>
+					{:else}
+						<button
+							type="submit"
+							disabled={!moderatorInput.trim()}
+							class="border border-rule px-3 py-2 text-xs text-muted hover:border-muted hover:text-light disabled:opacity-30 uppercase"
+						>
+							Send
+						</button>
+						<button
+							type="button"
+							onclick={() => startOrContinue()}
+							class="border border-rule px-3 py-2 text-xs text-muted hover:border-muted hover:text-light uppercase"
+							title="Let the debate continue without a moderator intervention"
+						>
+							Continue
+						</button>
+					{/if}
+				</form>
+			{/if}
 			<p class="mt-2 text-xs text-muted">
 				This is a simulation. Each thinker speaks from their corpus passages + Wikipedia + the course context note; it's a careful reconstruction, not channeling.
 			</p>

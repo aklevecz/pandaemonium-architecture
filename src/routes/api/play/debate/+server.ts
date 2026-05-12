@@ -23,7 +23,7 @@ interface Turn {
 	content: string;
 }
 
-const MODEL = 'claude-sonnet-4-5';
+const MODEL = 'claude-sonnet-4-6';
 // 4096 ≈ 3000 words. A graduate-pitched 2-3 exchange runs ~600-1200 words;
 // the headroom is for when Claude wants to quote from the corpus excerpts
 // or develop a point at length. Cap is high enough that "cut off mid-
@@ -61,11 +61,12 @@ export const POST: RequestHandler = async (event) => {
 	const apiKey = event.platform?.env?.ANTHROPIC_API_KEY;
 	if (!apiKey) error(500, 'API key not configured');
 
-	const { thinkerASlug, thinkerBSlug, topic, history } = (await event.request.json()) as {
+	const { thinkerASlug, thinkerBSlug, topic, history, isLast } = (await event.request.json()) as {
 		thinkerASlug?: string;
 		thinkerBSlug?: string;
 		topic?: string;
 		history?: Turn[];
+		isLast?: boolean;
 	};
 	if (!thinkerASlug || !thinkerBSlug) error(400, 'Pick two thinkers');
 	if (thinkerASlug === thinkerBSlug) error(400, 'Pick two different thinkers');
@@ -93,7 +94,10 @@ ${personContextBlock(b)}
 - If the student (the moderator) asks a question or interjects, both thinkers should respond in turn.
 - Pitch the prose at graduate-seminar level. Assume the moderator can hold theoretical material.
 - Don't break character to summarize their positions abstractly — show, don't tell.
-- No "fade-outs", no narrator interludes, no "what do you think?" appeals — just the two thinkers, arguing.`;
+- No "fade-outs", no narrator interludes, no "what do you think?" appeals — just the two thinkers, arguing.
+
+${isLast ? `## THIS IS THE FINAL EXCHANGE
+The student has set a turn budget and we're at the last one. Land it: each speaker takes their strongest closing position, names the irreducible disagreement that remains, and stops. No "to be continued", no opening of new threads. End on a real terminus — even if that terminus is an honest impasse.` : ''}`;
 
 	const userOpening = topic
 		? `Stage the opening exchange. The moderator has set the topic: ${topic}`

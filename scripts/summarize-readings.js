@@ -26,7 +26,7 @@ const EMBED_META = join(ROOT, 'static', 'embeddings-meta.json');
 const OUT_DIR = join(ROOT, 'static', 'summaries');
 const INDEX_PATH = join(ROOT, 'static', 'summaries-index.json');
 
-const MODEL = 'claude-sonnet-4-5'; // grad-seminar quality matters
+const MODEL = 'claude-sonnet-4-6'; // grad-seminar quality matters
 const MAX_TOKENS = 2500;
 const SONNET_RPM_BUDGET = 40;
 const CONCURRENCY = 3;

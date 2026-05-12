@@ -12,7 +12,7 @@ interface Summary {
 }
 interface Turn { role: 'user' | 'assistant'; content: string }
 
-const MODEL = 'claude-sonnet-4-5';
+const MODEL = 'claude-sonnet-4-6';
 // Scenes are 80-160 words + a few choices, so 900 was usually enough — but
 // any sentence the model wants to develop past that gets clipped. 2048
 // gives comfortable headroom without inviting bloat.
