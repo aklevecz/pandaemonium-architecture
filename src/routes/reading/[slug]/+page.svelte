@@ -67,10 +67,15 @@
 	let bookmarkMarker: HTMLDivElement | undefined = $state();
 	let proseEl: HTMLDivElement | undefined = $state();
 
-	// Sticky nav height + breathing room. Used by every "scroll to X" call so
-	// the bookmarked content doesn't end up tucked behind the nav. Adjust if
-	// the nav grows.
-	const NAV_OFFSET = 72;
+	// Sticky nav height + 8px breathing room — measured at use time because
+	// the nav can wrap to two rows on phones (no fixed pixel value works for
+	// both layouts). Falls back to 72 if for some reason the element isn't
+	// in the DOM.
+	function navOffset(): number {
+		if (typeof document === 'undefined') return 72;
+		const nav = document.querySelector('nav');
+		return nav ? nav.getBoundingClientRect().height + 8 : 72;
+	}
 
 	const user = $derived(data.user);
 	const pdfUrl = $derived(getPdfUrl(data.pdf));
@@ -106,7 +111,7 @@
 	// same conceptual line.
 	function getCenterVisibleAnchor(): string {
 		if (!proseEl) return '';
-		const readingAreaTop = NAV_OFFSET;
+		const readingAreaTop = navOffset();
 		const readingAreaBottom = window.innerHeight;
 		const targetY = readingAreaTop + (readingAreaBottom - readingAreaTop) / 2;
 		const blocks = proseEl.querySelectorAll<HTMLElement>(
@@ -126,7 +131,10 @@
 			}
 		}
 		if (!best) return '';
-		return (best.textContent ?? '').replace(/\s+/g, ' ').trim().slice(0, 80);
+		// 240 chars: long enough to disambiguate when a short opening phrase
+		// recurs in the corpus, short enough to keep DB rows trim and to
+		// remain matchable when whitespace varies slightly across renders.
+		return (best.textContent ?? '').replace(/\s+/g, ' ').trim().slice(0, 240);
 	}
 
 	// Find the DOM element whose text starts with the saved anchor. Uses the
@@ -213,9 +221,9 @@
 
 	// Scroll so the bookmarked element sits at the same eye-line we used to
 	// capture it — symmetric with getCenterVisibleAnchor. Reading-area
-	// midpoint = NAV_OFFSET + (innerHeight - NAV_OFFSET) / 2.
+	// midpoint = navOffset() + (innerHeight - navOffset()) / 2.
 	function readingAreaCenter() {
-		return NAV_OFFSET + (window.innerHeight - NAV_OFFSET) / 2;
+		return navOffset() + (window.innerHeight - navOffset()) / 2;
 	}
 
 	function resumeReading() {
@@ -228,14 +236,16 @@
 				window.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
 				return;
 			}
+			// Anchor exists but couldn't be located — corpus may have been
+			// edited, or whitespace normalization missed. Tell the user we
+			// fell back so the mystery scroll-to-wrong-spot isn't silent.
+			flash('Bookmark text not found, using approximate position', 'error');
 		}
-		// Fallback to ratio — old bookmarks without an anchor, or anchors
-		// the content has since lost.
 		if (savedPosition === null) return;
 		requestAnimationFrame(() => {
 			const docHeight = document.documentElement.scrollHeight - window.innerHeight;
 			window.scrollTo({
-				top: Math.max(0, savedPosition! * docHeight - NAV_OFFSET),
+				top: Math.max(0, savedPosition! * docHeight - navOffset()),
 				behavior: 'smooth'
 			});
 		});
