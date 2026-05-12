@@ -61,10 +61,16 @@
 
 	// Bookmark
 	let savedPosition: number | null = $state(null);
+	let savedTextAnchor: string | null = $state(null);
 	let bookmarkSaved = $state(false);
 	let saveTimeout: ReturnType<typeof setTimeout> | null = null;
 	let bookmarkMarker: HTMLDivElement | undefined = $state();
 	let proseEl: HTMLDivElement | undefined = $state();
+
+	// Sticky nav height + breathing room. Used by every "scroll to X" call so
+	// the bookmarked content doesn't end up tucked behind the nav. Adjust if
+	// the nav grows.
+	const NAV_OFFSET = 72;
 
 	const user = $derived(data.user);
 	const pdfUrl = $derived(getPdfUrl(data.pdf));
@@ -77,22 +83,99 @@
 	}
 
 	// --- Bookmark --------------------------------------------------------------
+	// Bookmarks anchor to a text snippet (first ~80 chars of the topmost
+	// fully-visible paragraph) rather than a 0-1 scroll ratio. Scroll ratios
+	// break across devices because docHeight changes with viewport width
+	// (line wrap + image sizing shift everything). The 0-1 position is still
+	// stored as a fallback for when the text can't be located.
 
 	async function fetchBookmark() {
 		if (!user) return;
 		const res = await fetch(`/api/bookmarks?slug=${encodeURIComponent(data.slug)}`);
 		if (res.ok) {
-			const { position } = await res.json();
+			const { position, textAnchor } = await res.json();
 			savedPosition = position;
+			savedTextAnchor = textAnchor ?? null;
 			requestAnimationFrame(updateBookmarkMarker);
 		}
 	}
 
+	// Walks the prose for the first block-level element whose bottom edge is
+	// below the nav — that's the first paragraph the reader can actually see.
+	function getTopVisibleAnchor(): string {
+		if (!proseEl) return '';
+		const blocks = proseEl.querySelectorAll<HTMLElement>(
+			'p, blockquote, h1, h2, h3, h4, h5, h6, li'
+		);
+		for (const el of blocks) {
+			const rect = el.getBoundingClientRect();
+			if (rect.bottom > NAV_OFFSET) {
+				return (el.textContent ?? '').replace(/\s+/g, ' ').trim().slice(0, 80);
+			}
+		}
+		return '';
+	}
+
+	// Find the DOM element whose text starts with the saved anchor. Uses the
+	// same whitespace-normalized indexOf as markTextInDom so it's robust to
+	// HTML formatting differences across devices.
+	function findAnchorElement(anchor: string): HTMLElement | null {
+		if (!proseEl || !anchor) return null;
+		const needle = anchor.replace(/\s+/g, ' ').trim();
+		if (needle.length < 3) return null;
+		const walker = document.createTreeWalker(proseEl, NodeFilter.SHOW_TEXT);
+		const nodes: Text[] = [];
+		let tn: Text | null;
+		while ((tn = walker.nextNode() as Text | null)) nodes.push(tn);
+		let full = '';
+		const map: { node: Text; start: number }[] = [];
+		for (const n of nodes) {
+			map.push({ node: n, start: full.length });
+			full += n.textContent ?? '';
+		}
+		const norm = full.replace(/\s+/g, ' ');
+		const idx = norm.indexOf(needle);
+		if (idx === -1) return null;
+		// Walk back from normalized index to raw index, then find the
+		// containing text node.
+		let rawIdx = 0;
+		let normPos = 0;
+		let inWS = false;
+		for (; rawIdx < full.length && normPos < idx; rawIdx++) {
+			if (/\s/.test(full[rawIdx])) {
+				if (!inWS) {
+					normPos++;
+					inWS = true;
+				}
+			} else {
+				normPos++;
+				inWS = false;
+			}
+		}
+		for (const m of map) {
+			const nodeEnd = m.start + (m.node.textContent?.length ?? 0);
+			if (rawIdx >= m.start && rawIdx < nodeEnd) {
+				return m.node.parentElement;
+			}
+		}
+		return null;
+	}
+
 	function updateBookmarkMarker() {
-		if (!bookmarkMarker || savedPosition === null) return;
-		const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-		const top = savedPosition * docHeight + 60;
-		bookmarkMarker.style.top = `${top}px`;
+		if (!bookmarkMarker) return;
+		let top: number | null = null;
+		if (savedTextAnchor && proseEl) {
+			const el = findAnchorElement(savedTextAnchor);
+			if (el) {
+				const rect = el.getBoundingClientRect();
+				top = window.scrollY + rect.top;
+			}
+		}
+		if (top === null && savedPosition !== null) {
+			const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+			top = savedPosition * docHeight + 60;
+		}
+		if (top !== null) bookmarkMarker.style.top = `${top}px`;
 	}
 
 	async function saveBookmark() {
@@ -100,24 +183,41 @@
 		const docHeight = document.documentElement.scrollHeight - window.innerHeight;
 		if (docHeight <= 0) return;
 		const position = window.scrollY / docHeight;
+		const textAnchor = getTopVisibleAnchor();
 		const res = await fetch('/api/bookmarks', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ slug: data.slug, position })
+			body: JSON.stringify({ slug: data.slug, position, textAnchor })
 		});
 		if (res.ok) {
 			bookmarkSaved = true;
 			savedPosition = position;
+			savedTextAnchor = textAnchor || null;
 			requestAnimationFrame(updateBookmarkMarker);
 			setTimeout(() => (bookmarkSaved = false), 1500);
 		}
 	}
 
 	function resumeReading() {
+		// Prefer the text anchor — survives viewport-width differences.
+		if (savedTextAnchor && proseEl) {
+			const el = findAnchorElement(savedTextAnchor);
+			if (el) {
+				const rect = el.getBoundingClientRect();
+				const target = window.scrollY + rect.top - NAV_OFFSET;
+				window.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+				return;
+			}
+		}
+		// Fallback to ratio — old bookmarks without an anchor, or anchors
+		// the content has since lost (e.g., re-extracted reading).
 		if (savedPosition === null) return;
 		requestAnimationFrame(() => {
 			const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-			window.scrollTo({ top: savedPosition! * docHeight, behavior: 'smooth' });
+			window.scrollTo({
+				top: Math.max(0, savedPosition! * docHeight - NAV_OFFSET),
+				behavior: 'smooth'
+			});
 		});
 	}
 
