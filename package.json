@@ -7,6 +7,7 @@
 		"dev": "vite dev --port 5180 --strictPort",
 		"build": "node scripts/generate-readings.js && vite build",
 		"preview": "vite preview",
+		"deploy": "node scripts/generate-readings.js && find static -maxdepth 2 -type f \\( -name '*.json' -o -name '*.bin' \\) -exec touch {} + && vite build && wrangler deploy && bash scripts/smoke-deploy.sh",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
