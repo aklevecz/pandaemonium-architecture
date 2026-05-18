@@ -259,10 +259,16 @@
 			const docHeight = document.documentElement.scrollHeight - window.innerHeight;
 			if (docHeight > 0) {
 				const position = scrollTop / docHeight;
+				// Send the current center-visible anchor too so auto-saves stay
+				// device-portable. Without this the anchor gets nulled and
+				// cross-device resume falls back to `position * docHeight`,
+				// which lands somewhere wildly different because docHeight
+				// changes with viewport width (line wrap + image sizing).
+				const textAnchor = getCenterVisibleAnchor();
 				fetch('/api/bookmarks', {
 					method: 'POST',
 					headers: { 'Content-Type': 'application/json' },
-					body: JSON.stringify({ slug: data.slug, position })
+					body: JSON.stringify({ slug: data.slug, position, textAnchor })
 				});
 			}
 		}, 3000);

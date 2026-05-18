@@ -28,14 +28,18 @@ export const POST: RequestHandler = async (event) => {
 	const { slug, position, textAnchor } = await event.request.json();
 	if (!slug || position === undefined) error(400, 'Missing slug or position');
 
-	const anchor = typeof textAnchor === 'string' ? textAnchor : null;
+	// Only treat a non-empty string as a real anchor. Empty string and
+	// undefined both mean "caller didn't supply one" — fall through to
+	// COALESCE so an existing anchor isn't clobbered by a partial write
+	// (e.g. an old client, or a future call that forgets to send it).
+	const anchor = typeof textAnchor === 'string' && textAnchor.length > 0 ? textAnchor : null;
 	await db
 		.prepare(
 			`INSERT INTO bookmarks (user_id, reading_slug, scroll_position, text_anchor, updated_at)
 			 VALUES (?, ?, ?, ?, datetime('now'))
 			 ON CONFLICT (user_id, reading_slug)
 			 DO UPDATE SET scroll_position = excluded.scroll_position,
-			               text_anchor = excluded.text_anchor,
+			               text_anchor = COALESCE(excluded.text_anchor, bookmarks.text_anchor),
 			               updated_at = datetime('now')`
 		)
 		.bind(user.id, slug, position, anchor)
