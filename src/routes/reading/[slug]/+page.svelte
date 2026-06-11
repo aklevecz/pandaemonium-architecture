@@ -1127,7 +1127,7 @@
 
 <!-- PDF viewer (desktop only) -->
 {#if viewMode === 'pdf' && !isMobile}
-	<div class="fixed inset-0 z-40 bg-black pt-[49px] sm:pt-[57px]">
+	<div class="fixed inset-0 z-40 bg-black pt-[var(--nav-h,57px)]">
 		<iframe src={pdfUrl} title={data.title} class="h-full w-full border-none"></iframe>
 	</div>
 {/if}
@@ -1333,7 +1333,7 @@
 		<!-- Sticky banner during extend mode so the user knows they're in a
 		     special state (the panel is closed, the tooltip says "Update")
 		     and has an obvious way to bail. -->
-		<div class="fixed inset-x-0 top-[57px] z-[55] flex justify-center px-4">
+		<div class="fixed inset-x-0 top-[var(--nav-h,57px)] z-[55] flex justify-center px-4">
 			<div class="flex items-center gap-3 rounded-b-lg border border-t-0 border-rule bg-dark/95 px-4 py-2 shadow-lg">
 				<span class="text-xs text-light">Editing highlight — select new text</span>
 				<button

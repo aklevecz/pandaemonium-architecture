@@ -7,6 +7,11 @@
 
 	let dark = $state(true);
 
+	// Measured nav height, published as --nav-h for fixed-position UI (side
+	// panels, banners) that must clear the sticky nav. The nav wraps to two
+	// rows at narrower widths, so no constant works.
+	let navH = $state(57);
+
 	if (browser) {
 		dark = document.documentElement.classList.contains('dark');
 	}
@@ -27,8 +32,11 @@
 	}
 </script>
 
-<div class="min-h-dvh bg-black">
-	<nav class="sticky top-0 z-50 border-b border-rule bg-black/95 backdrop-blur-sm">
+<div class="min-h-dvh bg-black" style="--nav-h: {navH}px">
+	<nav
+		bind:clientHeight={navH}
+		class="sticky top-0 z-50 border-b border-rule bg-black/95 backdrop-blur-sm"
+	>
 		<div class="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-y-2 px-4 py-3 sm:px-6 sm:py-4">
 			<a href="/" class="group no-underline">
 				<span class="font-serif text-sm tracking-wide text-white uppercase"

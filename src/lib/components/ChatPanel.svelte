@@ -394,7 +394,7 @@
 		</div>
 	{:else}
 		<aside
-			class="fixed top-[57px] right-0 bottom-0 z-40 flex flex-col border-l border-rule bg-black {resizing ? 'select-none' : ''}"
+			class="fixed top-[var(--nav-h,57px)] right-0 bottom-0 z-40 flex flex-col border-l border-rule bg-black {resizing ? 'select-none' : ''}"
 			style="width: {chatWidth}px"
 		>
 			<!-- Drag handle: thin strip on the left edge. Wider invisible hit area
