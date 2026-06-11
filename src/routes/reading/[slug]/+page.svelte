@@ -369,18 +369,177 @@
 		}
 	}
 
-	function startExtendHighlight(h: Highlight) {
-		editingHighlightId = h.id;
-		activeHighlight = null;
-		sidebarOpen = false;
-		selectionTooltip = null;
-		window.getSelection()?.removeAllRanges();
-		flash('Select new text and tap Update', 'ok');
-	}
-
 	function cancelExtendHighlight() {
 		editingHighlightId = null;
 		flash('Edit cancelled');
+	}
+
+	// --- Inline highlight adjustment ------------------------------------------
+	// Grab the start/end handles of an existing highlight and drag them to
+	// grow or shrink the range right in the text — the way selection works in
+	// a native text editor. Live feedback uses the browser's own selection;
+	// on release the new range's text is saved (PUT) via saveHighlight().
+
+	let adjusting: { id: number } | null = $state(null);
+	let adjustRange: Range | null = null; // raw DOM range; not reactive
+	let dragWhich: 'start' | 'end' | null = null;
+	let handleStart: { x: number; y: number; h: number } | null = $state(null);
+	let handleEnd: { x: number; y: number; h: number } | null = $state(null);
+	let adjustToolbar: { x: number; y: number } | null = $state(null);
+
+	// Tapping an existing highlight in the prose opens this small action menu
+	// (Adjust / Note / Delete) anchored at the tapped mark, so a highlight can
+	// be edited in place without opening the notes panel. `below` flips the
+	// desktop menu under the mark when it sits too close to the nav.
+	let highlightMenu: { h: Highlight; x: number; y: number; below: boolean } | null = $state(null);
+
+	function openHighlightMenu(h: Highlight, el: HTMLElement) {
+		selectionTooltip = null;
+		const rect = el.getBoundingClientRect();
+		const below = rect.top < navOffset() + 48;
+		highlightMenu = {
+			h,
+			x: Math.min(window.innerWidth - 90, Math.max(90, rect.left + rect.width / 2)),
+			y: below ? rect.bottom + 8 : rect.top - 8,
+			below
+		};
+	}
+
+	function closeHighlightMenu() {
+		highlightMenu = null;
+	}
+
+	function rangeFromHighlightMarks(id: number): Range | null {
+		if (!proseEl) return null;
+		const marks = proseEl.querySelectorAll<HTMLElement>(`mark.hl[data-highlight-id="${id}"]`);
+		if (!marks.length) return null;
+		const r = document.createRange();
+		r.setStartBefore(marks[0]);
+		r.setEndAfter(marks[marks.length - 1]);
+		return r;
+	}
+
+	function caretFromPoint(x: number, y: number): { node: Node; offset: number } | null {
+		const d = document as Document & {
+			caretRangeFromPoint?: (x: number, y: number) => Range | null;
+			caretPositionFromPoint?: (
+				x: number,
+				y: number
+			) => { offsetNode: Node; offset: number } | null;
+		};
+		if (d.caretRangeFromPoint) {
+			const c = d.caretRangeFromPoint(x, y);
+			return c ? { node: c.startContainer, offset: c.startOffset } : null;
+		}
+		if (d.caretPositionFromPoint) {
+			const c = d.caretPositionFromPoint(x, y);
+			return c ? { node: c.offsetNode, offset: c.offset } : null;
+		}
+		return null;
+	}
+
+	function positionAdjustHandles() {
+		if (!adjustRange) return;
+		const rects = adjustRange.getClientRects();
+		if (!rects.length) return;
+		const f = rects[0];
+		const l = rects[rects.length - 1];
+		handleStart = { x: f.left, y: f.top, h: f.height };
+		handleEnd = { x: l.right, y: l.top, h: l.height };
+		adjustToolbar = {
+			x: Math.min(window.innerWidth - 90, Math.max(70, l.right)),
+			y: Math.min(window.innerHeight - 52, l.top + l.height + 10)
+		};
+	}
+
+	function paintAdjust() {
+		if (!adjustRange) return;
+		const sel = window.getSelection();
+		if (sel) {
+			sel.removeAllRanges();
+			sel.addRange(adjustRange);
+		}
+		positionAdjustHandles();
+	}
+
+	function startAdjustHighlight(h: Highlight) {
+		if (!proseEl) return;
+		activeHighlight = null;
+		sidebarOpen = false;
+		selectionTooltip = null;
+		editingHighlightId = null;
+		// Wait a frame in case the panel was covering the prose (mobile).
+		requestAnimationFrame(() => {
+			const r = rangeFromHighlightMarks(h.id);
+			if (!r) {
+				flash('Highlight not in this view', 'error');
+				return;
+			}
+			// Make sure it's on screen before showing handles.
+			const rect = r.getBoundingClientRect();
+			if (rect.top < navOffset() + 40 || rect.bottom > window.innerHeight - 80) {
+				proseEl!
+					.querySelector<HTMLElement>(`mark.hl[data-highlight-id="${h.id}"]`)
+					?.scrollIntoView({ block: 'center' });
+			}
+			adjustRange = r;
+			adjusting = { id: h.id };
+			requestAnimationFrame(() => {
+				paintAdjust();
+				flash('Drag the handles to adjust, then Save', 'ok');
+			});
+		});
+	}
+
+	function onHandleDown(which: 'start' | 'end', e: PointerEvent) {
+		e.preventDefault();
+		e.stopPropagation();
+		dragWhich = which;
+		(e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+	}
+
+	function onHandleMove(e: PointerEvent) {
+		if (!dragWhich || !adjustRange || !proseEl) return;
+		const hit = caretFromPoint(e.clientX, e.clientY);
+		if (!hit || !proseEl.contains(hit.node)) return;
+		const r = adjustRange.cloneRange();
+		try {
+			if (dragWhich === 'start') r.setStart(hit.node, hit.offset);
+			else r.setEnd(hit.node, hit.offset);
+		} catch {
+			return;
+		}
+		// setStart past the end (or setEnd before the start) collapses the range —
+		// ignore those so the handles can't cross.
+		if (r.collapsed) return;
+		adjustRange = r;
+		paintAdjust();
+	}
+
+	function onHandleUp(e: PointerEvent) {
+		(e.currentTarget as HTMLElement).releasePointerCapture?.(e.pointerId);
+		dragWhich = null;
+	}
+
+	function finishAdjust(save: boolean) {
+		const id = adjusting?.id;
+		const r = adjustRange;
+		adjusting = null;
+		handleStart = null;
+		handleEnd = null;
+		adjustToolbar = null;
+		adjustRange = null;
+		dragWhich = null;
+		window.getSelection()?.removeAllRanges();
+		if (save && id != null && r) {
+			const text = r.toString().replace(/\s+/g, ' ').trim();
+			if (text.length >= 3) {
+				editingHighlightId = id;
+				saveHighlight(text);
+			} else {
+				flash('Selection too short', 'error');
+			}
+		}
 	}
 
 	// Reading metadata maps for the summary's related-readings list.
@@ -481,6 +640,19 @@
 		});
 		activeHighlight = null;
 		await fetchHighlights();
+	}
+
+	// Reading-order position of a highlight: index of its (whitespace-normalized)
+	// text within the rendered prose, for the panel's "Reading order" sort. The
+	// prose never changes after load, so the normalized text is cached once.
+	let proseTextCache: string | null = null;
+	function highlightDocPosition(h: { text: string }): number {
+		if (!proseEl) return Number.MAX_SAFE_INTEGER;
+		if (proseTextCache === null) proseTextCache = (proseEl.textContent || '').replace(/\s+/g, ' ');
+		const needle = h.text.replace(/\s+/g, ' ').trim().slice(0, 80);
+		if (!needle) return Number.MAX_SAFE_INTEGER;
+		const idx = proseTextCache.indexOf(needle);
+		return idx === -1 ? Number.MAX_SAFE_INTEGER : idx;
 	}
 
 	function applyHighlights() {
@@ -593,9 +765,9 @@
 			mark.textContent = matched;
 			mark.className = 'hl highlight-mark';
 			mark.dataset.highlightId = String(h.id);
-			mark.addEventListener('click', () => {
-				activeHighlight = h;
-				sidebarOpen = true;
+			mark.addEventListener('click', (e) => {
+				e.stopPropagation();
+				openHighlightMenu(h, e.currentTarget as HTMLElement);
 			});
 			const frag = document.createDocumentFragment();
 			if (before) frag.appendChild(document.createTextNode(before));
@@ -777,6 +949,38 @@
 		if (!q || !proseEl) return;
 		requestAnimationFrame(() => applyQueryHighlight(q));
 	});
+
+	// The in-text highlight menu is pinned to a fixed point, so dismiss it when
+	// the page scrolls or resizes (it would otherwise drift off its mark), and
+	// on Escape.
+	$effect(() => {
+		if (!highlightMenu) return;
+		const close = () => closeHighlightMenu();
+		const onKey = (e: KeyboardEvent) => {
+			if (e.key === 'Escape') closeHighlightMenu();
+		};
+		window.addEventListener('scroll', close, { passive: true });
+		window.addEventListener('resize', close);
+		window.addEventListener('keydown', onKey);
+		return () => {
+			window.removeEventListener('scroll', close);
+			window.removeEventListener('resize', close);
+			window.removeEventListener('keydown', onKey);
+		};
+	});
+
+	// Keep the drag handles pinned to the range while adjusting, even if the
+	// page scrolls or the viewport resizes.
+	$effect(() => {
+		if (!adjusting) return;
+		const reposition = () => positionAdjustHandles();
+		window.addEventListener('scroll', reposition, { passive: true });
+		window.addEventListener('resize', reposition);
+		return () => {
+			window.removeEventListener('scroll', reposition);
+			window.removeEventListener('resize', reposition);
+		};
+	});
 </script>
 
 <svelte:document
@@ -943,10 +1147,11 @@
 		onDeleteHighlight={deleteHighlight}
 		onClearActiveHighlight={() => (activeHighlight = null)}
 		onSetActiveHighlight={(h) => (activeHighlight = h)}
-		onExtendHighlight={startExtendHighlight}
+		onExtendHighlight={startAdjustHighlight}
 		onJumpToHighlight={jumpToHighlight}
 		{vocab}
 		onDeleteVocab={deleteVocab}
+		getDocPosition={highlightDocPosition}
 	/>
 
 	<ChatPanel
@@ -969,6 +1174,98 @@
 		onDefine={defineSelection}
 	/>
 
+	<!-- In-text highlight menu: tap a saved highlight to Adjust / Note /
+	     Delete it in place. The backdrop catches outside taps. -->
+	{#if highlightMenu}
+		{@const hm = highlightMenu}
+		<button
+			type="button"
+			class="fixed inset-0 z-[56] cursor-default"
+			aria-label="Dismiss highlight menu"
+			onclick={closeHighlightMenu}
+		></button>
+		{#if isMobile}
+			<div class="fixed inset-x-0 bottom-20 z-[57] flex justify-center px-4">
+				<div class="flex overflow-hidden rounded-full border border-rule bg-dark shadow-lg">
+					<button
+						type="button"
+						onclick={() => {
+							closeHighlightMenu();
+							startAdjustHighlight(hm.h);
+						}}
+						class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
+					>
+						Adjust
+					</button>
+					<div class="w-px bg-rule"></div>
+					<button
+						type="button"
+						onclick={() => {
+							closeHighlightMenu();
+							activeHighlight = hm.h;
+							sidebarOpen = true;
+						}}
+						class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
+					>
+						{hm.h.note ? 'Edit note' : 'Note'}
+					</button>
+					<div class="w-px bg-rule"></div>
+					<button
+						type="button"
+						onclick={() => {
+							closeHighlightMenu();
+							deleteHighlight(hm.h.id);
+						}}
+						class="min-h-11 px-5 py-2 text-sm text-red-300 transition-colors hover:bg-rule/50 active:bg-rule/60"
+					>
+						Delete
+					</button>
+				</div>
+			</div>
+		{:else}
+			<div
+				class="fixed z-[57] -translate-x-1/2 {hm.below ? '' : '-translate-y-full'}"
+				style="left: {hm.x}px; top: {hm.y}px"
+			>
+				<div class="flex overflow-hidden rounded-lg border border-rule bg-dark shadow-lg">
+					<button
+						type="button"
+						onclick={() => {
+							closeHighlightMenu();
+							startAdjustHighlight(hm.h);
+						}}
+						class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
+					>
+						Adjust
+					</button>
+					<div class="w-px bg-rule"></div>
+					<button
+						type="button"
+						onclick={() => {
+							closeHighlightMenu();
+							activeHighlight = hm.h;
+							sidebarOpen = true;
+						}}
+						class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
+					>
+						{hm.h.note ? 'Edit note' : 'Note'}
+					</button>
+					<div class="w-px bg-rule"></div>
+					<button
+						type="button"
+						onclick={() => {
+							closeHighlightMenu();
+							deleteHighlight(hm.h.id);
+						}}
+						class="px-3 py-1.5 text-xs text-red-300 transition-colors hover:bg-rule/50"
+					>
+						Delete
+					</button>
+				</div>
+			</div>
+		{/if}
+	{/if}
+
 	{#if definePopover}
 		<DefinitionPopover
 			word={definePopover.word}
@@ -978,6 +1275,58 @@
 			onDismiss={dismissDefinition}
 			onAskMore={escalateToChat}
 		/>
+	{/if}
+
+	<!-- Inline highlight adjustment: draggable start/end handles + a Save/Cancel
+	     bar. Handles are fixed-positioned over the live selection. -->
+	{#if adjusting && handleStart}
+		<div
+			class="hl-handle"
+			style="left: {handleStart.x}px; top: {handleStart.y}px; height: {handleStart.h}px"
+			onpointerdown={(e) => onHandleDown('start', e)}
+			onpointermove={onHandleMove}
+			onpointerup={onHandleUp}
+			role="slider"
+			tabindex="-1"
+			aria-label="Highlight start"
+			aria-valuenow={0}
+		>
+			<span class="hl-knob hl-knob-top"></span>
+		</div>
+	{/if}
+	{#if adjusting && handleEnd}
+		<div
+			class="hl-handle"
+			style="left: {handleEnd.x}px; top: {handleEnd.y}px; height: {handleEnd.h}px"
+			onpointerdown={(e) => onHandleDown('end', e)}
+			onpointermove={onHandleMove}
+			onpointerup={onHandleUp}
+			role="slider"
+			tabindex="-1"
+			aria-label="Highlight end"
+			aria-valuenow={0}
+		>
+			<span class="hl-knob hl-knob-bottom"></span>
+		</div>
+	{/if}
+	{#if adjusting && adjustToolbar}
+		<div
+			class="fixed z-[70] flex -translate-x-1/2 items-center gap-1 rounded-full border border-rule bg-dark/95 px-2 py-1 shadow-lg backdrop-blur-md"
+			style="left: {adjustToolbar.x}px; top: {adjustToolbar.y}px"
+		>
+			<button
+				onclick={() => finishAdjust(true)}
+				class="rounded-full px-3 py-1 text-xs text-bright uppercase hover:bg-rule/40"
+			>
+				Save
+			</button>
+			<button
+				onclick={() => finishAdjust(false)}
+				class="rounded-full px-3 py-1 text-xs text-muted uppercase hover:bg-rule/40 hover:text-light"
+			>
+				Cancel
+			</button>
+		</div>
 	{/if}
 
 	{#if editingHighlightId !== null}

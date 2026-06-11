@@ -17,11 +17,41 @@ export const GET: RequestHandler = async (event) => {
 	}
 
 	if (slug) {
+		// List view wants more than ids: last-activity ordering, a message count,
+		// and a one-line preview of the latest message so the user can tell
+		// conversations apart without opening them.
 		const conversations = await db
-			.prepare('SELECT id, title, created_at FROM conversations WHERE user_id = ? AND reading_slug = ? ORDER BY created_at DESC')
+			.prepare(
+				`SELECT c.id, c.title, c.created_at,
+				   COUNT(m.id) AS message_count,
+				   MAX(m.created_at) AS last_at,
+				   (SELECT content FROM messages WHERE conversation_id = c.id
+				      ORDER BY created_at DESC, id DESC LIMIT 1) AS last_snippet
+				 FROM conversations c
+				 LEFT JOIN messages m ON m.conversation_id = c.id
+				 WHERE c.user_id = ? AND c.reading_slug = ?
+				 GROUP BY c.id
+				 ORDER BY COALESCE(MAX(m.created_at), c.created_at) DESC`
+			)
 			.bind(user.id, slug)
-			.all<{ id: number; title: string; created_at: string }>();
-		return json(conversations.results);
+			.all<{
+				id: number;
+				title: string;
+				created_at: string;
+				message_count: number;
+				last_at: string | null;
+				last_snippet: string | null;
+			}>();
+		const rows = (conversations.results ?? []).map((r) => ({
+			...r,
+			// Strip markdown punctuation so the preview reads as plain prose.
+			last_snippet: (r.last_snippet ?? '')
+				.replace(/[#*>`_~[\]]/g, '')
+				.replace(/\s+/g, ' ')
+				.trim()
+				.slice(0, 160)
+		}));
+		return json(rows);
 	}
 
 	error(400, 'Missing slug or id');
@@ -247,6 +277,24 @@ export const POST: RequestHandler = async (event) => {
 			'X-Accel-Buffering': 'no'
 		}
 	});
+};
+
+// Rename a conversation. PATCH /api/chat?id=N { title }
+export const PATCH: RequestHandler = async (event) => {
+	const { user, db } = requireAuthAndDb(event);
+	const id = event.url.searchParams.get('id');
+	if (!id) error(400, 'Missing id');
+	const { title } = await event.request.json();
+	const trimmed = String(title ?? '')
+		.trim()
+		.slice(0, 120);
+	if (!trimmed) error(400, 'Empty title');
+
+	await db
+		.prepare('UPDATE conversations SET title = ? WHERE id = ? AND user_id = ?')
+		.bind(trimmed, Number(id), user.id)
+		.run();
+	return json({ ok: true, title: trimmed });
 };
 
 export const DELETE: RequestHandler = async (event) => {
