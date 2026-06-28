@@ -138,17 +138,15 @@
 	}
 
 	// --- Two-step delete (shared across tabs) ------------------------------------
-	// One armed target at a time, disarms itself after a beat.
+	// One armed target at a time. The armed "Delete?" stays until you confirm,
+	// cancel, arm a different row, switch tabs, or press Escape — NO silent
+	// auto-revert. (An earlier 4s timeout made deletes feel broken: if you
+	// didn't land the second tap in time it reverted, so nothing ever deleted.)
 	let confirmDelete: { kind: 'highlight' | 'vocab' | 'note'; id: number } | null = $state(null);
-	let confirmTimer: ReturnType<typeof setTimeout> | null = null;
 	function requestDelete(kind: NonNullable<typeof confirmDelete>['kind'], id: number) {
 		confirmDelete = { kind, id };
-		if (confirmTimer) clearTimeout(confirmTimer);
-		confirmTimer = setTimeout(() => (confirmDelete = null), 4000);
 	}
 	function cancelDelete() {
-		if (confirmTimer) clearTimeout(confirmTimer);
-		confirmTimer = null;
 		confirmDelete = null;
 	}
 	function isArmed(kind: NonNullable<typeof confirmDelete>['kind'], id: number): boolean {
