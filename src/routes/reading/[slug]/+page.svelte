@@ -1190,8 +1190,9 @@
 					<button
 						type="button"
 						onclick={() => {
+							const _h = hm.h;
 							closeHighlightMenu();
-							startAdjustHighlight(hm.h);
+							startAdjustHighlight(_h);
 						}}
 						class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
 					>
@@ -1201,8 +1202,9 @@
 					<button
 						type="button"
 						onclick={() => {
+							const _h = hm.h;
 							closeHighlightMenu();
-							activeHighlight = hm.h;
+							activeHighlight = _h;
 							sidebarOpen = true;
 						}}
 						class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
@@ -1213,8 +1215,9 @@
 					<button
 						type="button"
 						onclick={() => {
+							const _id = hm.h.id;
 							closeHighlightMenu();
-							deleteHighlight(hm.h.id);
+							deleteHighlight(_id);
 						}}
 						class="min-h-11 px-5 py-2 text-sm text-red-300 transition-colors hover:bg-rule/50 active:bg-rule/60"
 					>
@@ -1231,8 +1234,9 @@
 					<button
 						type="button"
 						onclick={() => {
+							const _h = hm.h;
 							closeHighlightMenu();
-							startAdjustHighlight(hm.h);
+							startAdjustHighlight(_h);
 						}}
 						class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
 					>
@@ -1242,8 +1246,9 @@
 					<button
 						type="button"
 						onclick={() => {
+							const _h = hm.h;
 							closeHighlightMenu();
-							activeHighlight = hm.h;
+							activeHighlight = _h;
 							sidebarOpen = true;
 						}}
 						class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
@@ -1254,8 +1259,9 @@
 					<button
 						type="button"
 						onclick={() => {
+							const _id = hm.h.id;
 							closeHighlightMenu();
-							deleteHighlight(hm.h.id);
+							deleteHighlight(_id);
 						}}
 						class="px-3 py-1.5 text-xs text-red-300 transition-colors hover:bg-rule/50"
 					>

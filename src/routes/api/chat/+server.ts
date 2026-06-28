@@ -302,7 +302,14 @@ export const DELETE: RequestHandler = async (event) => {
 	const id = event.url.searchParams.get('id');
 	if (!id) error(400, 'Missing id');
 
-	await db.prepare('DELETE FROM messages WHERE conversation_id = ?').bind(Number(id)).run();
+	// Ownership-scope the message delete too — the bare conversation_id match
+	// would let any signed-in user wipe another user's messages by id.
+	await db
+		.prepare(
+			'DELETE FROM messages WHERE conversation_id IN (SELECT id FROM conversations WHERE id = ? AND user_id = ?)'
+		)
+		.bind(Number(id), user.id)
+		.run();
 	await db.prepare('DELETE FROM conversations WHERE id = ? AND user_id = ?').bind(Number(id), user.id).run();
 	return json({ ok: true });
 };

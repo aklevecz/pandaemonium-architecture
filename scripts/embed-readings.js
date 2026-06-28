@@ -78,21 +78,38 @@ async function embedOne(text, apiKey) {
 		taskType: 'RETRIEVAL_DOCUMENT',
 		outputDimensionality: EMBED_DIMS
 	};
-	const res = await fetch(EMBED_URL, {
-		method: 'POST',
-		headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
-		body: JSON.stringify(body)
-	});
-	if (!res.ok) {
-		const errText = await res.text().catch(() => '');
-		throw new Error(`Gemini embed ${res.status}: ${errText.slice(0, 300)}`);
+	// Gemini's embed endpoint returns transient 429/5xx under load; retry with
+	// exponential backoff + jitter so one blip doesn't abort the whole corpus.
+	let lastErr;
+	for (let attempt = 0; attempt < 6; attempt++) {
+		let res;
+		try {
+			res = await fetch(EMBED_URL, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
+				body: JSON.stringify(body)
+			});
+		} catch (err) {
+			lastErr = err; // network error — retryable
+		}
+		if (res) {
+			if (res.ok) {
+				const json = await res.json();
+				const values = json.embedding?.values;
+				if (!values || values.length !== EMBED_DIMS) {
+					throw new Error(`Gemini embed returned ${values?.length ?? 0} dims, expected ${EMBED_DIMS}`);
+				}
+				return values;
+			}
+			const errText = await res.text().catch(() => '');
+			lastErr = new Error(`Gemini embed ${res.status}: ${errText.slice(0, 300)}`);
+			// Non-retryable client errors (400/401/403/404) fail fast.
+			if (res.status >= 400 && res.status < 429) throw lastErr;
+		}
+		const wait = Math.min(30000, 1000 * 2 ** attempt) + Math.floor(Math.random() * 500);
+		await new Promise((r) => setTimeout(r, wait));
 	}
-	const json = await res.json();
-	const values = json.embedding?.values;
-	if (!values || values.length !== EMBED_DIMS) {
-		throw new Error(`Gemini embed returned ${values?.length ?? 0} dims, expected ${EMBED_DIMS}`);
-	}
-	return values;
+	throw lastErr;
 }
 
 async function runWithConcurrency(items, n, fn) {

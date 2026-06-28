@@ -203,7 +203,11 @@ body {
 
 .prose img {
 	max-width: 100%;
-	margin: 1.5em 0;
+	max-height: 80vh;
+	height: auto;
+	display: block;
+	margin: 1.5em auto;
+	border-radius: 2px;
 }
 
 .prose hr {
