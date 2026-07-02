@@ -66,6 +66,7 @@
 	let saveTimeout: ReturnType<typeof setTimeout> | null = null;
 	let bookmarkMarker: HTMLDivElement | undefined = $state();
 	let proseEl: HTMLDivElement | undefined = $state();
+	let bottomBarEl: HTMLDivElement | undefined = $state();
 
 	// Sticky nav height + 8px breathing room — measured at use time because
 	// the nav can wrap to two rows on phones (no fixed pixel value works for
@@ -75,6 +76,39 @@
 		if (typeof document === 'undefined') return 72;
 		const nav = document.querySelector('nav');
 		return nav ? nav.getBoundingClientRect().height + 8 : 72;
+	}
+
+	// How much the floating bottom toolbar (resume/annotate/chat pill) covers at
+	// the bottom of the viewport — measured live since it isn't a fixed height.
+	function bottomObstruction(): number {
+		if (!bottomBarEl) return 24;
+		const r = bottomBarEl.getBoundingClientRect();
+		return Math.max(24, window.innerHeight - r.top + 8);
+	}
+
+	// Spacebar / Shift+Space page scroll that respects BOTH the sticky top nav
+	// and the floating bottom bar, so no line is skipped behind the pill. Keeps
+	// a couple of lines of overlap for continuity.
+	function pageScroll(dir: 1 | -1) {
+		const visible = window.innerHeight - navOffset() - bottomObstruction();
+		const overlap = Math.min(56, Math.max(24, visible * 0.12));
+		const delta = Math.max(120, visible - overlap);
+		window.scrollBy({ top: dir * delta, behavior: 'smooth' });
+	}
+
+	// True when focus is on something that should get the spacebar itself
+	// (typing, or activating a focused button/link) rather than page-scrolling.
+	function spaceShouldPassThrough(target: EventTarget | null): boolean {
+		const el = target as HTMLElement | null;
+		const ae = (typeof document !== 'undefined' ? document.activeElement : null) as HTMLElement | null;
+		for (const n of [el, ae]) {
+			if (!n) continue;
+			const tag = n.tagName;
+			if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || tag === 'BUTTON' || tag === 'A')
+				return true;
+			if (n.isContentEditable || n.getAttribute?.('role') === 'button') return true;
+		}
+		return false;
 	}
 
 	const user = $derived(data.user);
@@ -957,7 +991,20 @@
 		if (!highlightMenu) return;
 		const close = () => closeHighlightMenu();
 		const onKey = (e: KeyboardEvent) => {
-			if (e.key === 'Escape') closeHighlightMenu();
+			if (e.key === 'Escape') {
+				closeHighlightMenu();
+				return;
+			}
+			// Spacebar (down) / Shift+Space (up) page scroll, accounting for the
+			// top nav + bottom toolbar. Skip when typing, when a control is focused
+			// (space should activate it), or while a panel/popover owns the screen.
+			if (e.key === ' ' || e.key === 'Spacebar') {
+				if (e.metaKey || e.ctrlKey || e.altKey) return;
+				if (spaceShouldPassThrough(e.target)) return;
+				if (chatOpen || sidebarOpen || adjusting || definePopover || highlightMenu) return;
+				e.preventDefault();
+				pageScroll(e.shiftKey ? -1 : 1);
+			}
 		};
 		window.addEventListener('scroll', close, { passive: true });
 		window.addEventListener('resize', close);
@@ -1055,7 +1102,7 @@
 
 <!-- Floating toolbar -->
 {#if user && viewMode === 'text'}
-	<div class="fixed bottom-5 left-1/2 z-30 -translate-x-1/2">
+	<div bind:this={bottomBarEl} class="fixed bottom-5 left-1/2 z-30 -translate-x-1/2">
 		<div class="flex items-center gap-1 rounded-full border border-rule bg-dark/90 px-2 py-1.5 shadow-lg backdrop-blur-md">
 			{#if savedPosition !== null}
 				<button
