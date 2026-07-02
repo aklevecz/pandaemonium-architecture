@@ -991,20 +991,7 @@
 		if (!highlightMenu) return;
 		const close = () => closeHighlightMenu();
 		const onKey = (e: KeyboardEvent) => {
-			if (e.key === 'Escape') {
-				closeHighlightMenu();
-				return;
-			}
-			// Spacebar (down) / Shift+Space (up) page scroll, accounting for the
-			// top nav + bottom toolbar. Skip when typing, when a control is focused
-			// (space should activate it), or while a panel/popover owns the screen.
-			if (e.key === ' ' || e.key === 'Spacebar') {
-				if (e.metaKey || e.ctrlKey || e.altKey) return;
-				if (spaceShouldPassThrough(e.target)) return;
-				if (chatOpen || sidebarOpen || adjusting || definePopover || highlightMenu) return;
-				e.preventDefault();
-				pageScroll(e.shiftKey ? -1 : 1);
-			}
+			if (e.key === 'Escape') closeHighlightMenu();
 		};
 		window.addEventListener('scroll', close, { passive: true });
 		window.addEventListener('resize', close);
@@ -1014,6 +1001,24 @@
 			window.removeEventListener('resize', close);
 			window.removeEventListener('keydown', onKey);
 		};
+	});
+
+	// Spacebar (down) / Shift+Space (up) page scroll — ALWAYS active while
+	// reading (a separate effect, NOT gated on the highlight menu). Advances by
+	// the readable height (viewport minus the sticky nav and the floating bottom
+	// pill) so no line is skipped. Passes through when typing, when a control is
+	// focused, or while a panel/popover owns the screen.
+	$effect(() => {
+		const onPageKey = (e: KeyboardEvent) => {
+			if (e.key !== ' ' && e.key !== 'Spacebar') return;
+			if (e.metaKey || e.ctrlKey || e.altKey) return;
+			if (spaceShouldPassThrough(e.target)) return;
+			if (chatOpen || sidebarOpen || adjusting || definePopover || highlightMenu) return;
+			e.preventDefault();
+			pageScroll(e.shiftKey ? -1 : 1);
+		};
+		window.addEventListener('keydown', onPageKey);
+		return () => window.removeEventListener('keydown', onPageKey);
 	});
 
 	// Keep the drag handles pinned to the range while adjusting, even if the
