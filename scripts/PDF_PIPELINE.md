@@ -1,6 +1,24 @@
 # PDF → Markdown Pipeline
 
-Plan for redoing PDF parsing with a multi-stage **OCR + VLM** pipeline that handles large PDFs by chunking. This document is a design spec — implementation lives under `scripts/pdf-pipeline/` (TBD).
+> **This is the original design spec, kept for its reasoning. It is not an
+> accurate description of the code.** The pipeline was built and has been run
+> over the whole corpus; `scripts/pdf-pipeline/README.md` documents what
+> actually exists. The three places this document is most misleading:
+>
+> - **It runs on Gemini, not Claude.** Anthropic's content filter refuses even
+>   benign academic page images on this corpus, so Stage 4 uses
+>   `gemini-3.1-flash-lite-preview` with `gemini-3.1-pro-preview` as the
+>   RECITATION escalation. Every mention of `claude-sonnet-4` below is stale.
+> - **Chunking (Stage 2) was never used.** Stage 4 ended up strictly per-page,
+>   which removed the input-size limits chunking existed to work around. The
+>   page ranges are still computed into metadata but nothing reads them, and
+>   the Stage 5 overlap-dedup step has no overlaps to resolve.
+> - **Stages beyond 6 exist that this document never anticipated:**
+>   `fallback.js` (degrade a refused page through pdftotext → tesseract →
+>   placeholder), `figures.js` and `figures-vlm-crop.js` (two separate figure
+>   paths), and `validate.js` (Stage 6, built long after the rest).
+
+Plan for redoing PDF parsing with a multi-stage **OCR + VLM** pipeline that handles large PDFs by chunking.
 
 ## Why redo this
 

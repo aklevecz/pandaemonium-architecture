@@ -127,11 +127,11 @@ by any descriptive theory of neural mechanisms, since rationality
 is defined over propositional attitudes like beliefs and desires.
 FP, therefore, is here to stay.
 
-Daniel Dennett has defended a view along these lines.[^5] And the
+Daniel Dennett has defended a view along these lines.<sup>5</sup> And the
 view just outlined gives voice to a theme of the property dualists
 as well. Karl Popper and Joseph Margolis both cite the normative
 nature of mental and linguistic activity as a bar to their penetra-
-tion or elimination by any descriptive/materialist theory.[^6] I hope
+tion or elimination by any descriptive/materialist theory.<sup>6</sup> I hope
 to deflate the appeal of such moves below.
 
 The second thread concerns the *abstract* nature of FP. The
@@ -146,7 +146,7 @@ physical systems. All of them may differ, even radically, in their
 physical constitution, and yet at another level, they will all share
 the same nature. This view, says Fodor, "is compatible with very
 strong claims about the ineliminability of mental language from
-behavioral theories."[^7] Given the real possibility of multiple in-
+behavioral theories."<sup>7</sup> Given the real possibility of multiple in-
 stantiations in heterogeneous physical substrates, we cannot elimi-
 nate the functional characterization in favor of any theory peculiar
 to one such substrate. That would preclude our being able to
@@ -158,14 +158,14 @@ This second theme, like the first, assigns a faintly stipulative
 character to FP, as if the onus were on the empirical systems to
 
 ---
-[^5]: Most explicitly in "Three Kinds of Intentional Psychology" (forthcoming),
+<sup>5</sup>: Most explicitly in "Three Kinds of Intentional Psychology" (forthcoming),
 but this theme of Dennett's goes all the way back to his "Intentional Systems,"
 this JOURNAL, LXVIII, 4 (Feb. 25, 1971): 87–106; reprinted in his *Brainstorms*
 (Montgomery, Vt.: Bradford Books, 1978).
-[^6]: Popper, *Objective Knowledge* (New York: Oxford, 1972); with J. Eccles, *The
+<sup>6</sup>: Popper, *Objective Knowledge* (New York: Oxford, 1972); with J. Eccles, *The
 Self and Its Brain* (New York: Springer Verlag, 1978). Margolis, *Persons and
 Minds* (Boston: Reidel, 1978).
-[^7]: *Psychological Explanation* (New York: Random House, 1968), p. 116.
+<sup>7</sup>: *Psychological Explanation* (New York: Random House, 1968), p. 116.
 
 instantiate faithfully the organization that FP specifies, instead of the onus being on FP to describe faithfully the internal activities of a naturally distinct class of empirical systems. This impression is enhanced by the standard examples used to illustrate the claims of functionalism—mousetraps, valve-lifters, arithmetical calculators, computers, robots, and the like. These are artifacts, constructed to fill a preconceived bill. In such cases, a failure of fit between the physical system and the relevant functional characterization impugns only the former, not the latter. The functional characterization is thus removed from empirical criticism in a way that is most unlike the case of an empirical theory. One prominent functionalist—Hilary Putnam—has argued outright that FP is not a corrigible theory at all.[^8] Plainly, if FP is construed on these models, as regularly it is, the question of its empirical integrity is unlikely ever to pose itself, let alone receive a critical answer.
 
@@ -318,3 +318,5 @@ What we settle for, if I may switch my metaphor from dynamics to economics, is a
 [^10]: M. S. Gazzaniga and J. E. LeDoux, *The Integrated Mind* (New York: Plenum Press, 1975).
 
 [^11]: "Is Determinism Self-Refuting?", *Mind*, forthcoming.
+
+[^*-p25]: I am grateful to Burton Dreben for helpful suggestions.

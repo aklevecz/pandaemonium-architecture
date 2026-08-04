@@ -115,7 +115,7 @@ We propose to do this initially by two different techniques, which may be called
 
 so that the worthy demons are those whose outputs are likely to affect most strongly the decisions made.
 
-We assume that feature weighting has already run so long that the behaviour of the machine has been approximately optimized, and that scores and worths of machine and its demons have been obtained. First we eliminate those subdemons with low worths. Next we generate new subdemons by mutating the survivors and reweighting the assembly. At present we plan to pick one subdemon and alter some of his parameters more or less at random. This will usually require that we reduce the subdemon himself to some canonical form so that the random changes we insert do not have the effect of rewriting the program so that it will not run or so that it will enter a closed loop without any hope of getting out of it.[^1]
+We assume that feature weighting has already run so long that the behaviour of the machine has been approximately optimized, and that scores and worths of machine and its demons have been obtained. First we eliminate those subdemons with low worths. Next we generate new subdemons by mutating the survivors and reweighting the assembly. At present we plan to pick one subdemon and alter some of his parameters more or less at random. This will usually require that we reduce the subdemon himself to some canonical form so that the random changes we insert do not have the effect of rewriting the program so that it will not run or so that it will enter a closed loop without any hope of getting out of it.[^1-p12]
 
 Besides mutated fission, we are proposing another method of subdemon improvement called "conjugation". Our purpose here is two-fold: first to provide a logical variety in the functions computed by the subdemons, and, secondly, to provide length and complexity in them.
 
@@ -250,8 +250,10 @@ ones very close. The most effective demon by itself, which worked 90 per cent. o
 
 ## Notes
 
+[^1]: This is an exact correlate of a communications system wherein given a received message M(T) and a number of possible transmitted messages M_i(T), that M_i is chosen, that is, deemed to have been transmitted, which minimizes ∫|M(T)-M_i(T)|^2 dT. (Such a procedure is optimum under certain conditions). This integral is, as it were, the square of a distance in a signal phase space - fig. 2 - and thus that transmitted message is selected that is most similar to the received one.
+
 [^*]: It is possible also to phrase it so that the A-demon is computing the distance in some phase of the image from some ideal A; it seems to me unnecessarily platonic to postulate the existence of 'ideal' representatives of patterns, and, indeed, there are often good reasons for not doing so.
 
 [^†]: See, for example, Jerome Bruner, "A study of Thinking".
 
-[^1]: This is an exact correlate of a communications system wherein given a received message M(T) and a number of possible transmitted messages M_i(T), that M_i is chosen, that is, deemed to have been transmitted, which minimizes ∫|M(T)-M_i(T)|^2 dT. (Such a procedure is optimum under certain conditions). This integral is, as it were, the square of a distance in a signal phase space - fig. 2 - and thus that transmitted message is selected that is most similar to the received one.
+[^1-p12]: We are at present running our Pandemonium on an IBM 704. The analogues for kinds of simulation are obvious.

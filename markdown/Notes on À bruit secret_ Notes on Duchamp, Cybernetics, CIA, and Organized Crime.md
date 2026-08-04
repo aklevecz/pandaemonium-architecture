@@ -24,7 +24,7 @@ The Western Round Table on Modern Art (1949) featured artists and thinkers (all 
 > **Caption:** Marcel Duchamp, À bruit secret (With hidden noise), 1916
 > **Figure text:** P.G. LE. AS. D. SERT. HOW. V. R. ECI DES COR. ESPONDS DIEBARRASSE. F. URNIS ENT
 
-From the proceedings of The Western Round Table on Modern Art (1949): [^1]
+From the proceedings of The Western Round Table on Modern Art (1949): <sup>1</sup>
 
 Duchamp: "We don't emphasize enough that the work of art is independent of the artist. The work of art lives by itself, and the artist who happens to make it is like an irresponsible medium. No artist can say at any time: 'I am a genius. I am going to paint a masterpiece.'"
 
@@ -43,7 +43,7 @@ The view has often been expressed that all machines are purposeful. This view is
 
 Some machines, on the other hand, are intrinsically purposeful. A torpedo with a target-seeking mechanism is an example. The term servo-mechanisms has been coined precisely to designate machines with intrinsic purposeful behavior. [...]
 
-Purposeful active behavior may be subdivided into two classes: *feed-back* (or *teleological*) and *non-feed-back* (or *non-teleological*) The expression feed-back is use by engineers in two different senses. In a broad sense it may denote that some of the output energy of an apparatus or machine is returned as input; an example is electrical amplifier with feedback. [^2]
+Purposeful active behavior may be subdivided into two classes: *feed-back* (or *teleological*) and *non-feed-back* (or *non-teleological*) The expression feed-back is use by engineers in two different senses. In a broad sense it may denote that some of the output energy of an apparatus or machine is returned as input; an example is electrical amplifier with feedback. <sup>2</sup>
 
 ![A hierarchical diagram classifying behavior types](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p7-i1.png)
 > **Figure text:**
@@ -60,13 +60,13 @@ Purposeful active behavior may be subdivided into two classes: *feed-back* (or *
 
 Diagram from *Behavior, Purpose and Teleology* by Arturo Rosenblueth, Norbert Wiener and Julian Bigelow in *Philosophy of Science*, 10 (1943)
 
-Both the paper and the Cerebral Inhibition Meeting (Per Bateson “*Cerebral inhibition was a respectable word for hypnosis. Most of what was said about ‘feedback’ was said over lunch.*”[^3]) were watershed moments for the fast-developing science of cybernetics.
+Both the paper and the Cerebral Inhibition Meeting (Per Bateson “*Cerebral inhibition was a respectable word for hypnosis. Most of what was said about ‘feedback’ was said over lunch.*”<sup>3</sup>) were watershed moments for the fast-developing science of cybernetics.
 
 Duchamp’s “*Creative Act*” lecture, presented almost a decade later at the 1957 Convention of the American Federation of Arts in Houston, Texas, as part of a panel that once again included Bateson, includes near-verbatim elements of the Western Roundtable conversation and highlights Duchamp’s continued interest in ‘feedback’ art and what has come to be known as cybersemiotics:
 
 Let us consider two important factors, the two poles of the creation of art: the artist on the one hand, and on the other the spectator who later becomes the posterity.
 
-To all appearances, the artist acts like a mediumistic being who, from the labyrinth beyond time and space, seeks his way out to a clearing.[^4]
+To all appearances, the artist acts like a mediumistic being who, from the labyrinth beyond time and space, seeks his way out to a clearing.<sup>4</sup>
 
 ![Diagram showing the process of artist and spectator collaboration and a semiotic interaction model](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p9-i1.png)
 > **Caption:** Fig. 10.3 Representation of the process in which artist and spectator collaborate as co-creators of meaning: user based on Duchamp’s creative act
@@ -97,7 +97,7 @@ Diagram from Claudia Jacques, *Human-Computer Interaction Design and the Cyberse
 
 Jacques continues:
 
-> Duchamp’s desire to exchange with the spectator is today the foundation of *any* & *every* human-computer interaction. The advent of new telecommunication tools been quickly adding new possibilities for rendering aesthetic *meaning* and intentionality in artmaking. [^5]
+> Duchamp’s desire to exchange with the spectator is today the foundation of *any* & *every* human-computer interaction. The advent of new telecommunication tools been quickly adding new possibilities for rendering aesthetic *meaning* and intentionality in artmaking. <sup>5</sup>
 
 The Duchamp of the 1949 Western Round Table, of the 1957 *Creative Act* lecture, of 1963 Pasadena Art Museum retrospective and corresponding trip to Las Vegas is very different from the “silent” Duchamp portrayed by Joseph Beuys (below). Duchamp’s interactions with Bateson seem to have deeply impacted his later thinking, precipitating *The Creative Act* and his fascination with the artist/spectator perspective feedback loop, exemplified by his final, crepescular, posthumous work *Étant donnés* (*Given: 1. The Waterfall, 2. The Illuminating Gas, Étant donnés: 1° la chute d'eau / 2° le gaz d'éclairage*), 1966, and the veil of secrecy that surrounded its construction.
 
@@ -117,13 +117,13 @@ But since it was to be abandoned, another agency should be set up immediately to
 
 Writing from the headquarters of OSS in the India-Burma theater, Mr. Bateson forecast changes in psychological warfare, clandestine operations, and strategic intelligence. The physicists of all countries had been engaged in research leading to the atomic bomb. All major powers were likely to have weapons of the sort within the next ten years. [...] The atomic bomb would shift the balance of warlike and peaceful methods of international pressure.
 
-The bomb would be powerless, said Bateson, against subversive practices, guerilla tactics, social and economic manipulation, diplomatic forces, and propaganda either black or white. The nations would resort to those “peaceful methods of war” [...] The country could not rely upon the Army and Navy alone for defense. There should be a third agency acting under the Department of State to combine the functions and employ the weapons of clandestine operations, economic controls and psychological pressures in the new warfare. (G. Bateson’s report, Aug. 18, 1945) [^6]
+The bomb would be powerless, said Bateson, against subversive practices, guerilla tactics, social and economic manipulation, diplomatic forces, and propaganda either black or white. The nations would resort to those “peaceful methods of war” [...] The country could not rely upon the Army and Navy alone for defense. There should be a third agency acting under the Department of State to combine the functions and employ the weapons of clandestine operations, economic controls and psychological pressures in the new warfare. (G. Bateson’s report, Aug. 18, 1945) <sup>6</sup>
 
 When Bateson wrote his report calling for the establishment of CIA and the pursuit of “indirect methods of warfare”, the 1942 Cerebral Inhibition Meeting, OSS ‘black propaganda’ work in the South Pacific, and the Truth Drug and hypnosis experiments
 
 with Erickson and Mead were behind him while the Macy cybernetics conferences work with LSD were coming into focus on the horizon. In the coming years, per Jef St. Clair and Alexander Cockburn:
 
-Margaret Mead sat with Ewen Cameron on the editorial board of a CIA-funded publication called the *Research in Mental Health Newsletter*, which discussed the use of psychedelic drugs to induce and treat schizophrenia. Mead’s former husband, medical anthropologist Gregory Bateson, was given CIA-procured LSD by Harold Abramson. Bateson, in turn, gave some to his friend, the beat poet Allen Ginsberg. It was also Bateson’s stash of LSD that eventually found its way to experiments being conducted on student volunteers by Dr. Leo Hollister. One of his subjects was a young creative writing student at Stanford, Ken Kesey, who would become the drug’s chief proponent in the sixties counterculture. [^7]
+Margaret Mead sat with Ewen Cameron on the editorial board of a CIA-funded publication called the *Research in Mental Health Newsletter*, which discussed the use of psychedelic drugs to induce and treat schizophrenia. Mead’s former husband, medical anthropologist Gregory Bateson, was given CIA-procured LSD by Harold Abramson. Bateson, in turn, gave some to his friend, the beat poet Allen Ginsberg. It was also Bateson’s stash of LSD that eventually found its way to experiments being conducted on student volunteers by Dr. Leo Hollister. One of his subjects was a young creative writing student at Stanford, Ken Kesey, who would become the drug’s chief proponent in the sixties counterculture. <sup>7</sup>
 
 At it’s inception, Central Intelligence was to fulfill the role of a comprehensive “United States Foreign Intelligence System” and was legally barred from operating domestically. Soon, workarounds (later found to be illegal) were put in place to allow to work within the U.S., mostly by secretly channelling funding to domestic organizations, universities, and think tanks by way of “cutouts”: The Macy Foundation became one such cutout, the Human Ecology Fund another, and, in the years and decades to come, numerous other foundations, publishing houses, and NGO cutouts funneled money to institutions and individuals while agents and programs, both covert and acknowledged, became increasingly focused on domestic affairs.
 
@@ -152,7 +152,7 @@ By that time, however, Maya Deren was living out of a suitcase in a cheap hotel 
 
 “Until the very last minute I expect Gregory to have wired,” one entry in this diary reads. “Even perhaps flowers to the boat.”
 
-Deren and Bateson, after all, were supposed to have gone to Haiti *together*. They were supposed to have married. [^8]
+Deren and Bateson, after all, were supposed to have gone to Haiti *together*. They were supposed to have married. <sup>8</sup>
 
 # So I was right in presuming, on their second visit, that M. and G. were, like myself, deviants. — from the diary of May Deren, March 1, 1947
 
@@ -161,7 +161,7 @@ Deren and Bateson, after all, were supposed to have gone to Haiti *together*. Th
 
 Miklos Legrady, writing in the New Art Examiner, suggests in passing that Duchan “surfacing” in the 1950’s might have been linked to CIA’s newfound interest in promoting art (as detailed in Frances Stonor Saunders’ *The Cultural Cold War: The C and the World of Arts and Letters*):
 
-Why the art world...lionized Duchamp is a question we should ask Peggy Guggenheim, but he wasn’t well known until the 1950s, when CIA money promoting post-war American culture likely touched him too. It also happened t Duchamp’s desire for an intellectual art gained prominence at a time when the a world embedded itself in the university. Still, the science of linguistics points ou that except for writing, art mainly consists of non-verbal languages; the body language found in dance, an acoustic language we call music, and visual languag that is worth a thousand words. When art is primarily intellectual it turns into literature or propaganda. [^9]
+Why the art world...lionized Duchamp is a question we should ask Peggy Guggenheim, but he wasn’t well known until the 1950s, when CIA money promoting post-war American culture likely touched him too. It also happened t Duchamp’s desire for an intellectual art gained prominence at a time when the a world embedded itself in the university. Still, the science of linguistics points ou that except for writing, art mainly consists of non-verbal languages; the body language found in dance, an acoustic language we call music, and visual languag that is worth a thousand words. When art is primarily intellectual it turns into literature or propaganda. <sup>9</sup>
 
 # Stardust
 
@@ -171,9 +171,19 @@ Why the art world...lionized Duchamp is a question we should ask Peggy Guggenhei
 
 Betty Asher, the L.A. gallerist and mother of the conceptual artist, educator, and practitioner of “institutional critique” Michael Asher, recalled the circumstances precipitating Duchamp’s trip to Las Vegas and the Stardust Hotel and Casino in he 1980 oral history with the Smithsonian Institution’s Archives of American Art:
 
-Marcel Duchamp was in Pasadena for the opening of a show – that must have be 1964 (actually 1963)– and Bill Copley was out here. Bill was a longtime friend of Marcel’s, and he wanted to take him to Las Vegas because Marcel Duchamp had never been there and he thought it was just the sort of place that he would love, [^1] it would just fit into his kind of thinking and his esthetic. So Bill invited Walter [
+Marcel Duchamp was in Pasadena for the opening of a show – that must have be 1964 (actually 1963)– and Bill Copley was out here. Bill was a longtime friend of Marcel’s, and he wanted to take him to Las Vegas because Marcel Duchamp had never been there and he thought it was just the sort of place that he would love, <sup>1</sup> it would just fit into his kind of thinking and his esthetic. So Bill invited Walter [
 
-<!-- page 21: extraction failed (likely Gemini RECITATION block) -->
+9/7/25, 11:06 AM À bruit secret: Notes on Duchamp, Cybernetics, CIA, and Organized Crime
+
+Richard Hamilton, who was out here for the opening of the show, and Betty and Monte Factor and me to go with the Duchamps—Mrs. Duchamp, Tini, was here also. So actually I think Bill took us all, and we went out to the airport. […]
+
+At dinner we went to the Stardust and they have the follies or something, a girlie theater, and I was sitting next to Marcel at the table and the picture is a result of one of those girls in short skirts coming around with a big camera to take picture And just as she was about to click, I put my arm around Marcel, my fingertips ve gingerly touched his shoulder because I didn’t want him to know that I was doin this, so I have this nice picture of Marcel with my arm around him.
+
+Stardust Hotel and Casino, Las Vegas, 1963. Left to Right: Teeny Duchamp, Richard Hamilton, Betty Factor, William Copley, Monte Factor, Walter Hopps, Betty Asher, Marcel Duchamp.
+
+(Duchamp) sat next to Walter Hopps at the roulette table quite a bit, and they thought that they had some sort of system to beat the roulette wheel, and he wou
+
+https://scottbenzel.substack.com/p/a-bruit-secret-notes-on-duchamp-cybernetics 21/37
 
 advise Walter. He claimed he didn’t gamble at all, but I thought I saw him puttin nickel in one of the slot machines at one point. [^10]
 
@@ -199,13 +209,13 @@ The Pasadena Museum of Modern Art staged an exhibit in 1973 of 124 works owned b
 
 Major patrons of Ed Kienholz, the Factors pulled together a small amount of cash, an old boat and some clothes in the 1960s to purchase “The Illegal Operation,” a controversial sculpture by the artist, Monte later recalled. The work is an indictment of back-street abortion and features a floor lamp, a chromium chair and a wood stool surrounded with the instruments of amateur surgery. [...]
 
-The store was a full-service men’s haberdashery with a barbershop *and bookie* upstairs. Among his clients were many movie stars and gangsters, his family said, including the Marx brothers and Mickey Cohen. [^11]
+The store was a full-service men’s haberdashery with a barbershop *and bookie* upstairs. Among his clients were many movie stars and gangsters, his family said, including the Marx brothers and Mickey Cohen. <sup>11</sup>
 
 The Factor’s support of L.A.’s nascent modern art scene – of Kienholz, of the Ferus gallery, of the Pasadena Museum of Art – while seemingly inspired by genuine interest, must also be viewed as part of the long tradition of instrumentalized philanthropy, “art-washing”, and reputation laundering within organized crime. Monte’s uncle “Jake the Barber” was himself a master of the approach. Per Gus Russo in *The Outfit, The Role of Chicago's Underworld in the Shaping of Modern America*:
 
 In the 1950s, Factor began drawing on the great fortune he had amassed [...] to embark on a successful PR campaign aimed at creating the persona of Jake the Philanthropist. His frequent six-figure donations to various charities earned him numerous humanitarian awards. [...]
 
-In 1960, the Immigration and Naturalization Service (INS) was considering deporting Factor back to England to face the massive mail-fraud charges brought against him decades earlier. Also in 1960, Jake Factor contributed $22,000 to the presidential campaign of Joseph Kennedy’s son Jack, becoming JFK’s single largest campaign contributor. In 1962, the INS moved to deport Factor, but was thwarted when Attorney General Bobby Kennedy brought Factor to Washington to speak with him and review the INS case. [...] President Kennedy granted Jake’s parole on Christmas Eve, 1962...just one week after the INS had announced its decision to deport Factor. [^12]
+In 1960, the Immigration and Naturalization Service (INS) was considering deporting Factor back to England to face the massive mail-fraud charges brought against him decades earlier. Also in 1960, Jake Factor contributed $22,000 to the presidential campaign of Joseph Kennedy’s son Jack, becoming JFK’s single largest campaign contributor. In 1962, the INS moved to deport Factor, but was thwarted when Attorney General Bobby Kennedy brought Factor to Washington to speak with him and review the INS case. [...] President Kennedy granted Jake’s parole on Christmas Eve, 1962...just one week after the INS had announced its decision to deport Factor. <sup>12</sup>
 
 ![Edward Kienholz, The Beanery, 1965, mixed media assemblage](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p27-i1.png)
 > **Caption:** Edward Kienholz, The Beanery, 1965, mixed media assemblage.
@@ -223,11 +233,11 @@ Per Russo:
 
 It was decided that the gang would finish construction and assume the debt of the Stardust in a partnership with Cleveland’s contribution to Vegas, Moe Dalitz. However, the Outfit would run the operation. When the time came to name a front for the operation, Chicago brought in an old friend, a gifted con man who owed Humphreys and Accardo a huge favor: Jake “the Barber” Factor. Five years later, Johnny Rosselli described the arrangement to longtime friend, and L.A. mafioso, Jimmy Fratianno: “Jake Factor, an old friend of Capone . . . shit, I used to see him when he came to the Lexington to see Al . . . took over and finished building the
 
-place. So I went to Sam [Giancana] and told him we could move into this joint. Listen, Jake owed Chicago a big one. Moe Dalitz wanted in on it and so it’s a fifty-fifty deal.” [^14]
+place. So I went to Sam [Giancana] and told him we could move into this joint. Listen, Jake owed Chicago a big one. Moe Dalitz wanted in on it and so it’s a fifty-fifty deal.” <sup>14</sup>
 
 In a strange twist, “Jake the Barber” Factor’s multifaceted criminal career led back to another locale of Duchamp legend, Monte Carlo, and to the game that Duchamp himself had developed a system to “beat”: roulette.
 
-John “Jake the Barber” Factor, was living in Chicago, on the run from the law in Great Britain. [...] Among Factor’s victims were widows, clergymen, elderly investors, and most significant, members of the British royal family and the chief of Scotland Yard. When the scam was discovered, Factor fled to Monte Carlo, where he quickly created another crime syndicate that successfully broke the casino bank by rigging the tables. Before authorities caught on, Factor had fled once again. In 1931, when the British government located Factor in Al Capone’s Chicago, they commenced extradition proceedings. [^15]
+John “Jake the Barber” Factor, was living in Chicago, on the run from the law in Great Britain. [...] Among Factor’s victims were widows, clergymen, elderly investors, and most significant, members of the British royal family and the chief of Scotland Yard. When the scam was discovered, Factor fled to Monte Carlo, where he quickly created another crime syndicate that successfully broke the casino bank by rigging the tables. Before authorities caught on, Factor had fled once again. In 1931, when the British government located Factor in Al Capone’s Chicago, they commenced extradition proceedings. <sup>15</sup>
 
 ![Marcel Duchamp's Monte Carlo Bond collage](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-a-bruit-secret-notes-on-duchamp-cybernetics-cia-and-organized-crime/p30-i1.png)
 > **Caption:** None.
@@ -269,7 +279,7 @@ governments or branches of government. They are high crimes that attack democrac
 
 Although only a few SCADs in U.S. history have ever been officially corroborated, evidence indicates that at least since World War II American democracy has become quite vulnerable to subversion from within. Examples of SCADs that have been officially proven include the Watergate break-ins and cover-up (Bernstein & Woodward, 1974; Gray, 2008; Kutler, 1990; Summers, 2000), the secret wars in Laos and Cambodia (Ellsberg, 2002), the illegal arms sales and covert operations in Iran-Contra (Kornbluh & Byrne, 1993; Martin, 2001; Parry, 1993), and the effort to discredit Joseph Wilson by revealing his wife’s status as an intelligence agent (Isikoff & Corn, 2006; Rich, 2006,2007; Wilson, 2004).
 
-Many other political crimes in which involvement by high officials is suspected have gone uninvestigated or unpunished. Examples of suspected SCADs include fabricated attacks on U.S. ships in the Gulf of Tonkin in 1964 (Ellsberg, 2002, pp. 20), the “October Surprises” in the presidential elections of 1968 (Summers, 2000 pp. 298-308) and 1980 (Parry, 1993; Sick, 1991), the assassinations of John Kennedy and Robert Kennedy (Fetzer, 2000; Garrison, 1988; Groden, 1993; Lane, 1966; Pease, 2003; Scott, 1993; White, 1998), the election breakdowns in 2000 and 2004 (deHaven-Smith, 2005; Miller, 2005), the numerous defense failures on September 11, 2001 (Ahmed, 2005; Griffin, 2004, 2005; Hufschmid, 2002; Paul & Hoffman, 2004; Tarpley, 2005), and the misrepresentation of intelligence to justify the invasion and occupation of Iraq (Isikoff & Corn, 2006; Rich, 2006). [^16]
+Many other political crimes in which involvement by high officials is suspected have gone uninvestigated or unpunished. Examples of suspected SCADs include fabricated attacks on U.S. ships in the Gulf of Tonkin in 1964 (Ellsberg, 2002, pp. 20), the “October Surprises” in the presidential elections of 1968 (Summers, 2000 pp. 298-308) and 1980 (Parry, 1993; Sick, 1991), the assassinations of John Kennedy and Robert Kennedy (Fetzer, 2000; Garrison, 1988; Groden, 1993; Lane, 1966; Pease, 2003; Scott, 1993; White, 1998), the election breakdowns in 2000 and 2004 (deHaven-Smith, 2005; Miller, 2005), the numerous defense failures on September 11, 2001 (Ahmed, 2005; Griffin, 2004, 2005; Hufschmid, 2002; Paul & Hoffman, 2004; Tarpley, 2005), and the misrepresentation of intelligence to justify the invasion and occupation of Iraq (Isikoff & Corn, 2006; Rich, 2006). <sup>16</sup>
 
 In the years following John F. Kennedy’s assassination, many Americans, including members of the Kennedy family, began to doubt The President's Commission on the Assassination of President Kennedy (popularly known the Warren Commission) First Report’s finding that Kennedy had been killed by a lone assassin. According to deHaven-Smith:
 

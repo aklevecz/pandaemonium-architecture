@@ -110,7 +110,7 @@ The inhumanist cannot survey which materialized subjects (organic or post-organi
 
 The synthesis metaphor acquires further traction if we consider posthumanism primarily as an orientation to time. The Speculative Posthumanism (SP) elaborated in my book *Posthuman Life* is specifically concerned with conceptualizing our relation to hypothetical agents in technological deep time. For SP, becoming posthuman is conceived as the disconnection of hypothetical posthuman agents from the human socio-technical system or “Wide Human” (WH).
 
-The Disconnection Thesis (DT) is also conceived abstractly and anonymously. It says nothing about how posthumans are embodied or disembodied; only that they possess the power or functional autonomy to become independent of WH.[^28]
+The Disconnection Thesis (DT) is also conceived abstractly and anonymously. It says nothing about how posthumans are embodied or disembodied; only that they possess the power or functional autonomy to become independent of WH.<sup>28</sup>
 
 Other posthumanisms, Xenofeminism (XF) and Accelerationism (ACC) or Prometheanism are explicitly futural; concerned with the production of novel, less oppressive gender relations or sexualities. Even a critical posthumanism that, like Braidotti’s, eschews futurism, is concerned with power relations in the contemporary world and thus with whatever futures their transversal becomings might induce.[^29]
 
@@ -120,7 +120,7 @@ Moreover, all Filters are espistemically contestable.
 
 The Sapience Filter, to give one example, assumes that “serious” agents participate in shared linguistic and inferential functions.
 
-I have argued elsewhere[^30] that this pragmatist vision - most recently and extensively articulated in Reza Negarestani’s *Intelligence and Spirit* - is incomplete. It supposes sapients capable of interpreting normative statuses within the social game of giving and asking for reasons. However, this interpretationist model unbinds subjectivity by supplementing it. It accounts for a pragmatist subject[^1] able to follow shared practices; but leaves us a dangling interpreter subject[^2]. This spectral figure is not accounted for by normativity because it is a condition of it. Thus, normative functionalism leaves what counts as a text or practice, hence agency and subjectivity, undetermined; marked, as in Derrida’s work, by the “absolute absence” of any finite or notionally human reader.[^31]
+I have argued elsewhere[^30] that this pragmatist vision - most recently and extensively articulated in Reza Negarestani’s *Intelligence and Spirit* - is incomplete. It supposes sapients capable of interpreting normative statuses within the social game of giving and asking for reasons. However, this interpretationist model unbinds subjectivity by supplementing it. It accounts for a pragmatist subject[^1-p6] able to follow shared practices; but leaves us a dangling interpreter subject[^2-p6]. This spectral figure is not accounted for by normativity because it is a condition of it. Thus, normative functionalism leaves what counts as a text or practice, hence agency and subjectivity, undetermined; marked, as in Derrida’s work, by the “absolute absence” of any finite or notionally human reader.[^31]
 
 Given the futural orientation of positions which buy heavily into functionalism - including XF and Brassier’s Prometheanism, this voids their deep-time horizon by subtracting their agent from discourse.[^32]
 
@@ -217,6 +217,10 @@ As noted, this operation is functional and self-defining, albeit without the ass
 [^26]: Matija Jelača, “Sellars Contra Deleuze on Intuitive Knowledge,” *Speculations: A Journal of Speculative Realism*, Vol. 5 (2014), 111.
 
 [^27]: Carol E. Cleland, “Life without Definitions,” *Synthese: An International Journal for Epistemology, Methodology and Philosophy of Science*, Vol. 185, No. 1 (2012), 129; Eugene Thacker, *After Life*
+
+[^1-p6]: (Chicago: University of Chicago Press, 2010).
+
+[^2-p6]: 28 Some empirical content is retained, however, because this version of SP works with a minimal concept of self-maintaining agency that is psychology-free - giving no account of its modes of thought or feeling.
 
 [^29]: Braidotti, *Posthuman Knowledge*, 4.
 

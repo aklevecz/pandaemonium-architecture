@@ -269,7 +269,39 @@ X points out that this legend strikes an eerie resonance with "complex conjugate
 
 This "bible" of the modern neo-shamanic movement also served as a metaphorical scripture for the pioneers of interdimensional consciousness physics and alternate-world explorers. Not only does it contain innumerable practical hints for the Traveller, as well as a spiritual ambience conducive to the proper state of mind for Travel — it is also believed that Eliade's mythic material on the prototypal Stone Age shamans who could physically and actually visit other worlds, offers strong evidence for the possibility of Egg-less Travel — which however so far remains in the realm of "folklore", speculation and rumor.
 
-<!-- page 13: extraction failed (likely Gemini RECITATION block) -->
+re Se 2S Base! oe ee ee
+
+27. Lorde, John. Maze of Treason (Red Knight Books, Wildwood, Nu, 1988), Pb, 204 pp, $10
+
+You may remember that after the Patty Hearst kidnapping it was discovered that a cheap pornographic thriller, published before the event, seemed to foretell every detail of the story. Jungian synchronicity? Or did the Symbionese Liberation Army read that book and decide to act it out? It remains a mystery.
+
+Maze of Treason is also a pornographic thriller, complete with tawdry 4-color cover, sloppy printing on acidulous pulp, and horrendous style. It’s marketed as Science Fiction, however. And there is no mystery about the author’s inside knowledge. “John Lorde” not only knows about the Conspiracy, he’s obviously been there. This book is probably a roman
+
+-4 clef, aa it appears to contain distorted portraits of Sohrawardi and Hardjanto (depicted as Fu-Manchu-type villains) as well as several actual agents of both the GFP and PCF — and evena rt apparently based on the real-life “X”, author of several titles in our list (#8 24 & 25).
+
+The hero, Jack Masters, is an agent of an unnamed spyforce of American patriots who jokingly call themselves the Quantum Police. Their mission is to regain control of the alternate worlds for “the forces of reason and order” and “make trouble for agents of chaos in every known universe.” The Q-Cops’ secret underground HDQ contains a number of Eggs granting access to hidden bases on the other worlds, including “the Other America” and “the Other Indonesia”.
+
+Jack Masters ia investigating the activities of a Chaote named Ripley Taylor, a “child-molester and black magician” who runs a Travel Cult out of a comichook store in a “racially-mixed neighborhood” of New York. The Cops hope to catch Taylor with his “juvenile delinquent girlfriend”, blackmail him and turn him into a double agent.
+
+The hero now becomes involved with Amanita, a beautiful woman performance artist from the Lower East Side who seems to know a lot about Taylor and the Travel Cult, but also seems quite attracted to the virile Jack Masters. At first he suspects her of duplicity, but soon decides he needs to “convert” her by making her “fall for me, and fall hard.” Jack’s problem is that his own “talent” will not suffice for 30.0 Travelling, and in fact he has never managed to “get across” — since the Cops do not practice Tantrik techniques! He suspects her of being an “Other-Worlder” and hopes she cum convey him thence via the “infamous ‘double-yolk’ method.”
+
+Meanwhile Taylor has laughed off the blackmail attempt, burned down the comic shop and escaped “into the fourth dimension — or maybe the fifth.” Masters heats up his affair with the artist Amanita, and finally convinces her to “translate” him — after three chapters of uninterrupted porno depicting the pair in many little-known ritual practises, so to speak. (The author rises above his own mediocrity here, and attains something like “purple pulp”, an inspired gush of horny prose, especially in the oral-genital area.) Masters now rises to the occasion for yet a fourth chapter in which a “government-issue Egg” becomes the setting for a “yab-yum ceremony of searing obscenity.”
+
+Immediately upon arrival in “Si Fan” (the author’s name for Hurqalya), Amanita betrays our hero and turns him over naked to one of the tribes of “chaos-shamans who inhabit these Lemurian ruins”. At this point Maze begins to add to our knowledge of the real-life situation by depicting more-or-less accurately the state of affairs and mode of life in present-day Hurqalya — at least, as seen through the eyes of a paranoid right-wing spy.
+
+The thousand or so inhabitants have made few changes in Hurqalya, preferring a life of “primitive sloth” and minimal meddling with Nature. Sex, hallucinogenic mushrooms and song-improvisation contests comprise the nightlife, with days devoted to the serious business of “sorcery, skinnydipping, flintknapping and maybe a couple hours of desultory fishing or berrypicking.” There is no social order. “People with bones in their noses sitting around arguing about Black Hole Theory or recipes for marsupial stew — lazy smoke from a few clan campfires rising through the hazy bluegold afternoon — children masturbating in trees — bees snouting into orchids — signal,drum in the distance ~ Amanita ainging an old song by the Inkspots I remember from my childhood ..,” r
+
+Masters — or rather the author — claims to be disgusted by all this “anarchist punk hippy immorality — all this jungle love!” — but his ambivalence is revealed in his continued desire for Amanita, and the ease with which he falls into his own curmudgeonly version of dolce far niente in “Si Fan”. -
+
+We won't give away the rest of the plot, not because it’s so great, but because it’s largely irrelevant (Taylor flees to distant dimensions, Masters gets Girl and returns to Earth-prim: in triumph, ete., etc.) — the book's true value lies in these pictures of daily life in Hurqalya. Sadly, Maze of Treason is still our only source for such material.
+
+The Conspiracy to deny the worid all knowledge of the Many Worlds 1s maintained by both the forces active in the parallel universes — the GFP and PCF both have their reasons for secrecy, evasion, lies, disinformation, distortion and even violence. Maze of Treason is not our only source for claiming that people have !..st their lives as a result of getting too deeply involved in all this. But we at INCUNABUZA believe that truth will out, because it must, To stand in the way of it is more dangerous than letting it loose. Freedom of information is our only protection — we will tell all, despite all scorn or threat, and trust that our “going public” will protect us from the outrage of certain private interests — if not from the laughter of the ignorant!
+
+Remember: parallel worlds exist. They have already been reached. A vast cover-up denies YOU all knowledge. Only INCUNABULA‘can enlighten you, because only INCUNABULA dares.
+
+Thank You, E-nory Cranston, Prop.
+
+Cc A T A LO GU iE 1os9 0; 9 1
 
 # Ong's Hat
 

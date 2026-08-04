@@ -566,7 +566,7 @@
 		dragWhich = null;
 		window.getSelection()?.removeAllRanges();
 		if (save && id != null && r) {
-			const text = r.toString().replace(/\s+/g, ' ').trim();
+			const text = rangeProseText(r);
 			if (text.length >= 3) {
 				editingHighlightId = id;
 				saveHighlight(text);
@@ -753,7 +753,12 @@
 	}
 
 	function markTextInDom(container: HTMLElement, h: Highlight) {
-		const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+		const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+			acceptNode: (n) =>
+				n.parentElement?.closest(FOOTNOTE_CHROME)
+					? NodeFilter.FILTER_REJECT
+					: NodeFilter.FILTER_ACCEPT
+		});
 		const textNodes: Text[] = [];
 		let node: Text | null;
 		while ((node = walker.nextNode() as Text | null)) {
@@ -774,7 +779,12 @@
 			fullText += tn.textContent || '';
 		}
 		const { norm, normToOrig } = normalizeWithMap(fullText);
-		const needle = h.text.replace(/\s+/g, ' ').trim();
+		// Highlights saved before footnotes rendered as superscripts captured the
+		// raw `[^12]` marker as prose. Strip it so those still resolve.
+		const needle = h.text
+			.replace(/\[\^[^\]]+\]/g, '')
+			.replace(/\s+/g, ' ')
+			.trim();
 		if (!needle) return;
 		const normIdx = norm.indexOf(needle);
 		if (normIdx === -1) return;
@@ -815,6 +825,18 @@
 	// Collapse runs of whitespace into a single ' ' and return both the
 	// normalized string and an array mapping each normalized index to its
 	// originating index in `s`.
+	// Footnote superscripts, their back-arrows, and the endnotes section are
+	// navigation chrome rather than prose. The highlight layer ignores them on
+	// both sides — capture and match — so a selection spanning a footnote
+	// marker doesn't swallow its number and then fail to re-anchor on reload.
+	const FOOTNOTE_CHROME = 'sup[data-footnote-ref], a[data-footnote-backref], section.footnotes';
+
+	function rangeProseText(range: Range): string {
+		const frag = range.cloneContents();
+		for (const el of Array.from(frag.querySelectorAll(FOOTNOTE_CHROME))) el.remove();
+		return (frag.textContent || '').replace(/\s+/g, ' ').trim();
+	}
+
 	function normalizeWithMap(s: string): { norm: string; normToOrig: number[] } {
 		let norm = '';
 		const normToOrig: number[] = [];
@@ -847,7 +869,7 @@
 	function showSelectionTooltip() {
 		if (!user || viewMode !== 'text') return;
 		const sel = window.getSelection();
-		const text = sel?.toString().trim();
+		const text = sel && sel.rangeCount ? rangeProseText(sel.getRangeAt(0)) : '';
 		if (!text || text.length < 3) {
 			selectionTooltip = null;
 			return;

@@ -30,7 +30,7 @@ Mindy Seu
 
 Cyberfeminism is a mutating word with a nebulous history. Its evolution is less a single root system with multiple branches than a network of entangled rhizomes, constantly and multidirectionally moving. Virginia Barrett of the Australian art collective VNS Matrix has described cyberfeminism as “anti-genealogical, anti-authorial, and a hostile mucus, never faithful to any origins.” [^8]
 
-Through its history, cyberfeminism has often been defined by what it is expressly not. [^87] Coined in the early 1990s by the British cultural theorist Sadie Plant [^122] and VNS Matrix, the word “cyberfeminism” takes on its prefix “cyber”—recast from *Cybernetics*, a 1948 book by Norbert Wiener, and “cyberspace,” from William Gibson’s 1984 novel *Neuromancer*—as a provocation. The word initially stood for a critique of the sci-fi landscapes of the 1980s, stocked with and characterized by cyberbabes and fembots. It denoted the ways various women and marginalized communities were imagining how a reoriented cyberspace could look. By now, three decades after its origination, cyberfeminism has shifted from a loose artistic movement exploring the emancipatory potential of cyberspace toward a collective drive to provide software, hardware, and wetware education and to get marginalized groups online. Today, with questions of technology more and more clearly “bound together with questions of ecology and the economy,” [^636] the term is self-reflexive: technology is not only the subject of cyberfeminism, but its means of transmission. It’s all about feedback.
+Through its history, cyberfeminism has often been defined by what it is expressly not. [^87] Coined in the early 1990s by the British cultural theorist Sadie Plant [^122-p6] and VNS Matrix, the word “cyberfeminism” takes on its prefix “cyber”—recast from *Cybernetics*, a 1948 book by Norbert Wiener, and “cyberspace,” from William Gibson’s 1984 novel *Neuromancer*—as a provocation. The word initially stood for a critique of the sci-fi landscapes of the 1980s, stocked with and characterized by cyberbabes and fembots. It denoted the ways various women and marginalized communities were imagining how a reoriented cyberspace could look. By now, three decades after its origination, cyberfeminism has shifted from a loose artistic movement exploring the emancipatory potential of cyberspace toward a collective drive to provide software, hardware, and wetware education and to get marginalized groups online. Today, with questions of technology more and more clearly “bound together with questions of ecology and the economy,” [^636] the term is self-reflexive: technology is not only the subject of cyberfeminism, but its means of transmission. It’s all about feedback.
 
 Rooted as it is by feminism, cyberfeminism is a complicated umbrella term. The history of feminism is dominated by Western attitudes, which makes it exclusionary. Still, the combination of cyber and feminism allows newcomers to quickly connote its meaning while including its relatives Cyberfeminism 2.0, [^347] Black cyberfeminism, [^455] Arab cyberfeminism, [^285] xenofeminism, [^629] post-cyber feminism, [^556] glitch feminism, [^692] Afrofuturism, [^19] hackfeministas, [^610] transhackfeminism, [^417] 넷페미 [netfemi], and [^492] 女权之声 [feminist voices], [^601] among others.
 
@@ -42,7 +42,9 @@ When I began building this index, I read seminal techno-critical texts to scrape
 
 I have long been a gatherer. In Ursula K. Le Guin’s *Carrier Bag Theory of Fiction* (1986), Le Guin posits the first technological tool as the basket, not the spear, thereby recasting the first protagonist as a gatherer, not a hunter. Not only did this address the deeply gendered roles of these two parts, it reframed our history of technology and changed the singular hero to the plural collective, from *he* to *we*. Gathering, for Le Guin, is not a masculine, techno-utopian process of disruption or of moving fast and breaking things, but the methodical, deep labor that comes from “looking around, rather than looking ahead,” from gathering rather than hunting. When Laura Coombs, the designer of this book, pointed out the byline for the book *Pleasure Activism* (2019), “written and gathered by adrienne maree brown,” I began to see myself in the term “gatherer” and its use. For this reason, the byline of this publication uses “gathered” as well. As a container, it is more than just the sum of its parts; the book is the site around which its public forms, and a place in which to gather that public.
 
-<!-- page 8: extraction failed (likely Gemini RECITATION block) -->
+!"0<"0<()1<<))$<)31<5)'(<(<1!()&) 7 < )-<50<1!"0<))%< -1<*-<5)'(<!<5)-$0<)&&1<!-<-<4&3&<(<(00-8< "1")(0<1)<1!()&) 8<013"0<-)&7<!8<(()1<(<0!)3&<()1<< 0"&)<"(1)<0!)&-0!",<)(< (. <!"0<,3&"1")(<"0<&0)<"(1(<1)<< 00"&<1)<<5"<-( <)<3"(0<-)'<6,-10<1)<(5)'-01)< &&<5!)<-<3-")30<)31<1!<-&8<8-0<)<1!<"(1-(1 <1<"'0<1)<-)(< 1!"0<--0!",<8<)- ("9"( <)((1"( <(<"1"( <0!)-1<6-,10<-)'< )4-< <,-)#10<0)<1!1<(8<(<&&<"(1-01<,),&<'8<4&),<1!"-< )5(<00)"1"4<&"(%0<(<)&&1")(0<5"1!<1!"0<1))&$"1 < 1< ,3&"1")(< 1!<        1-0< 1!-< 0< )< &)&< 8-'"("0' < 31< &"$< 8-'"("0'< "10&,-'&< '&: &&< (< (1"()("&1!< "(6< "0< 01"&&< "(< ,-) -00< )-< 1!(< < !"01)-"&<)4-4"5<1!"0<,3&"1")(<50<"("1"1<8<(<"0<"( <-&0< "(1)<<0,""<)(161<)(<"(<5!"!<,&1+-'<)&" ),)&"0<-" (<03,-'< 03-4"&&(<,"1&"0'<)'')"2"0<30< (<1!()801),"<&))'0 < 10< 6"01(< -&10< 1!1< -&"17 < !<))$< "0< &0)< "',-1< 1!< 4-0")(< ,-"(1<!-<"0<'008< 5"1!<&"(0,)10<(<0&1<1-31!0 < 0,"1<'8< )&&)-1)-0<(<'8<11',1<1!)-)3 !(00< "(< 1!-"( <1!<(1-"0< !-"(<'(8<4)"0<-<&1<3()3(1<)/< 1"&&< 0< ;< )',"&1")(< )< < 5"< 0',&< )< 1!()-"1"&< 5)-$0< 1!<      '" !1<-4&<,)1(1"&<)-<1")(0<5<(<1$< 1)<-&"'<8-0,<()1<0<<31),"<31<0<<0,<*-<0$,1""0'< -)51!<(<(1( &'(1 < -<'3&1",&<!"01)-"0<"4- <#361,)0"( < (<)',&'(1"( <1!"-<4-8"( <")&) "0<(<')1"41")(0<(<1!8<5"&&< )(1"(3<1)<8)(<1!0<, 0 <!"0<"0<()1< "(6<)<8-'"("0'< 31<<)3'(1<)(<()1!-<')'(1<1)"10<'311")( <
+
+
 
 # Instructions for Use
 
@@ -110,10 +112,10 @@ Skawennati
 
 Skawennati makes art that addresses history, the future, and change from her perspective as an urban Kanien’kehá:ka woman and as a cyberpunk avatar. Her machinimas, textile work, and sculpture have been presented internationally. She co-directs Aboriginal Territories in Cyberspace, a research-creation network based at Concordia University in Montreal.
 
-If cyberfeminism is a theorizing, critiquing, exploring, and remaking of the internet, then it is what I have been trying to do since the late 1990s, but with a particular focus on Indigenizing cyberspace—though “Indigenizing” was certainly not a term that I knew back then. Most of the entries I selected for this collection are either my own work or work that I have done in collaboration with individuals and collectives over the years. They are my community! There were very few of us Indigenous artists interested in digital art or the internet at the time, and we few ended up being invited to a lot of the same events, sharing food and drink, talking, thinking, and eventually making work together. In 1996, I was introduced to Speaking the Language of Spiders, [^68] led by Ahasiw Maskegon-Iskwew, probably the first web-based Indigenous artwork. I had already been dreaming of CyberPowWow, which would launch the next year. Soon after, I met Archer Pechawis, who enthusiastically embarked on the CyberPowWow [^97] adventure with me. In 1999, I met Jason Lewis, who became my primary collaborator. As we built AbTeC (Aboriginal Territories in Cyberspace, [^262]) and then the Initiative for Indigenous Futures, [^402] our circle expanded. We made a concerted effort to be in conversation with Indigenous youth through our Skins Workshops in Indigenous Storytelling and Digital Media. More recently, we’ve been forging connections with Afrofuturists, some of whom are listed here.
+If cyberfeminism is a theorizing, critiquing, exploring, and remaking of the internet, then it is what I have been trying to do since the late 1990s, but with a particular focus on Indigenizing cyberspace—though “Indigenizing” was certainly not a term that I knew back then. Most of the entries I selected for this collection are either my own work or work that I have done in collaboration with individuals and collectives over the years. They are my community! There were very few of us Indigenous artists interested in digital art or the internet at the time, and we few ended up being invited to a lot of the same events, sharing food and drink, talking, thinking, and eventually making work together. In 1996, I was introduced to Speaking the Language of Spiders, <sup>68</sup> led by Ahasiw Maskegon-Iskwew, probably the first web-based Indigenous artwork. I had already been dreaming of CyberPowWow, which would launch the next year. Soon after, I met Archer Pechawis, who enthusiastically embarked on the CyberPowWow <sup>97</sup> adventure with me. In 1999, I met Jason Lewis, who became my primary collaborator. As we built AbTeC (Aboriginal Territories in Cyberspace, <sup>262</sup>) and then the Initiative for Indigenous Futures, <sup>402</sup> our circle expanded. We made a concerted effort to be in conversation with Indigenous youth through our Skins Workshops in Indigenous Storytelling and Digital Media. More recently, we’ve been forging connections with Afrofuturists, some of whom are listed here.
 
-[^68]: 1996 Isi-pîkiskwêwin-Ayapihkêsîsak [Speaking the Language of Spiders] by Cheryl L’Hirondelle, Ahasiw Maskegon-Iskwew, and Joseph Naytowhow
-[^97]: 1997 CyberPowWow by Nation to Nation
+<sup>68</sup>: 1996 Isi-pîkiskwêwin-Ayapihkêsîsak [Speaking the Language of Spiders] by Cheryl L’Hirondelle, Ahasiw Maskegon-Iskwew, and Joseph Naytowhow
+<sup>97</sup>: 1997 CyberPowWow by Nation to Nation
 
 1997 Prayer of Thanksgiving by Melanie Printup Hope
 1999 CyberPowWow 2 by Nation to Nation
@@ -252,15 +254,9 @@ Josephine Bosma, Shu Lea Cheang, Vali Djordjevic, Olga Egerova, Marina Gržinić
 
 [^4]: footnote text
 
-[^8]: footnote text
-
 [^9]: footnote text
 
-[^19]: footnote text
-
 [^25]: footnote text
-
-[^87]: footnote text
 
 [^99]: footnote text
 
@@ -272,25 +268,23 @@ Josephine Bosma, Shu Lea Cheang, Vali Djordjevic, Olga Egerova, Marina Gržinić
 
 [^185]: footnote text
 
+[^122-p6]: footnote text
+
+[^8]: footnote text
+
+[^19]: footnote text
+
+[^87]: footnote text
+
 [^285]: footnote text
 
-[^332]: 332
-
 [^347]: footnote text
-
-[^364]: 364
-
-[^405]: 405
 
 [^417]: footnote text
 
 [^455]: footnote text
 
 [^492]: footnote text
-
-[^533]: 533
-
-[^542]: 542
 
 [^556]: footnote text
 
@@ -302,10 +296,20 @@ Josephine Bosma, Shu Lea Cheang, Vali Djordjevic, Olga Egerova, Marina Gržinić
 
 [^636]: footnote text
 
+[^692]: footnote text
+
+[^332]: 332
+
+[^364]: 364
+
+[^405]: 405
+
+[^533]: 533
+
+[^542]: 542
+
 [^644]: 644
 
 [^650]: 650
 
 [^660]: 660
-
-[^692]: footnote text

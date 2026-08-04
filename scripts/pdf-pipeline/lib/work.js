@@ -3,9 +3,33 @@
 
 import { readdirSync, readFileSync, existsSync } from 'fs';
 import { join } from 'path';
+import { slugify } from './slug.js';
 
 export const ROOT = process.cwd();
 export const WORK_DIR = join(ROOT, 'work');
+export const PDFS_DIR = join(ROOT, 'PDFs');
+
+// Every PDF under PDFs/, as a path RELATIVE to PDFs/ — so the additional
+// readings come back as "additional_reading_primary_documents/Foo.pdf".
+// The relative path is what slugify() expects (it strips that subdir prefix);
+// a flat readdirSync of PDFs/ misses the whole subdir.
+export function listPdfsRelative(dir = PDFS_DIR, prefix = '') {
+	if (!existsSync(dir)) return [];
+	const out = [];
+	for (const entry of readdirSync(dir, { withFileTypes: true })) {
+		const rel = prefix ? `${prefix}/${entry.name}` : entry.name;
+		if (entry.isDirectory()) out.push(...listPdfsRelative(join(dir, entry.name), rel));
+		else if (/\.pdf$/i.test(entry.name)) out.push(rel);
+	}
+	return out;
+}
+
+// Absolute path to the source PDF whose slugified name is `slug`, or null.
+// Searches PDFs/ recursively so additional readings resolve too.
+export function findPdfForSlug(slug) {
+	const rel = listPdfsRelative().find((f) => slugify(f) === slug);
+	return rel ? join(PDFS_DIR, rel) : null;
+}
 
 // Walk work/ and return every PDF's metadata.json. Skips dirs that haven't
 // been triaged yet (no metadata).

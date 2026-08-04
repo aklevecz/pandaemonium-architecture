@@ -43,14 +43,22 @@ Erwin Panofsky, in *'Et in Arcadia ego': Poussin and the Elegiac Tradition*:
 
 > Polybius, Arcady’s most famous son, while doing justice to his homeland’s simple piety and love of music, describes it otherwise as a poor, bare, rocky, chilly country.
 
-devoid of all the amenities of life and scarcely affording food for a few meager goats. [^2]
+devoid of all the amenities of life and scarcely affording food for a few meager goats. <sup>2</sup>
 
 According to Pliny the Elder in *The Natural History,* 77-79 C.E. (in an example of *laodogmatika* that Polybius would have contested) the art of painting originated with people tracing the outlines of one another’s shadows. Pliny later alludes to a young woman whose lover is called away—she traces a line around his shadow cast on the wall, mem(e)orializing him. In Poussin’s *The Arcadian Shepherds*, also called *Et in Arcadia Ego* (per Panofsky (below): *Even in Arcadia, am I (Death)*), 1637-38, an Arcadia shepherd traces his shadow—cast on a stone tomb—while another points to the inscription *Et in Arcadia Ego*, reenacting Pliny’s example of the first instance of representation/mimesis in art while symbolically linking it to the recognition of dea
 
 ![Painting by Nicolas Poussin titled Et in Arcadia Ego depicting shepherds around a tomb](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p6-i1.png)
 > **Caption:** Nicolas Poussin, Et in Arcadia Ego (And in Arcadia, am I), 1637-38
 
-<!-- page 7: extraction failed (likely Gemini RECITATION block) -->
+9/7/25, 11:24 AM Polybius by Sinneslöschen, Nitro Zeus - Scott Benzel
+
+Panofsky writes:
+
+In 1769 Sir Joshua Reynolds showed to his friend Dr. Johnson his latest picture: t double portrait of Mrs. Bouverie and Mrs. Crewe, still to be seen in Crewe Hall i England. It shows the two lovely ladies seated before a tombstone and sentimentalizing over its inscription: one points out the text to the other, who meditates thereon in the then-fashionable pose of Tragic Muses and Melancholi
+
+The text of the inscription reads: "Et in Arcadia ego." "What can this mean?" exclaimed Dr. Johnson. "It seems very nonsensical-I am in Arcadia." "The King could have told you," replied Sir Joshua. "He saw it yesterday and said at once: 'O there is a tombstone in the background: Ay, ay, death is even in Arcadia.'
+
+https://scottbenzel.substack.com/p/polybius-by-sinnesloschen-nitro-zeus 7/37
 
 ![A print of Sir Joshua Reynolds' painting, Mrs. Bouverie and Mrs. Crewe (Et in Arcadia Ego), 1770](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p8-i1.png)
 > **Caption:** print of Sir Joshua Reynolds, Mrs. Bouverie and Mrs. Crewe (Et in Arcadia Ego), 1770
@@ -166,7 +174,7 @@ A 2017 FOIA request for information on Polybius received a summary FBI denial:
 > **Caption:** knowyourmeme.com
 > **Figure text:** ONE DOES NOT SIMPLY STOP A MEME WAR quickmeme
 
-In 2011, Dr. Robert Finkelstein, President of DARPA-sponsored Robotic Technology Inc. and a professor at the University of Maryland gave a talk on *Military Memetics* at the Social Media for Defense Summit in Alexandria, Virginia. From his slide-deck *Tutorial: Military Memetics*: [^4]
+In 2011, Dr. Robert Finkelstein, President of DARPA-sponsored Robotic Technology Inc. and a professor at the University of Maryland gave a talk on *Military Memetics* at the Social Media for Defense Summit in Alexandria, Virginia. From his slide-deck *Tutorial: Military Memetics*: <sup>4</sup>
 
 ![A text box containing a disclaimer and an illustration of a wizard-like figure holding a globe](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p17-i1.png)
 > **Figure text:** This presentation is based on projects Robotic Technology Inc. performed for the Defense Advanced Research Projects Agency (DARPA), 2006-2009, and we thank DARPA for their vision and support
@@ -221,7 +229,7 @@ Achille Mbembe coined the word ‘necropolitics’ in the journal Public Culture
 
 The exercise of sovereignty...consists in society’s capacity for self-creation through recourse to institutions inspired by specific social and imaginary significations. (Mbembe is referring here to Cornelius Castoriadis’s *L’institution imaginaire de la société*, 1975)
 
-This strongly normative reading of the politics of sovereignty has been the object of numerous critiques, which I will not rehearse here. My concern is those figures of sovereignty whose central project is not the struggle for autonomy but *the generalized instrumentalization of human existence and the material destruction of human bodies and populations*. Such figures of sovereignty are far from a piece of prodigious insanity or an expression of a rupture between the impulses and interests of the body and those of the mind. Indeed, they, like the death camps, are what constitute the nomos of the political space in which we still live. [^5]
+This strongly normative reading of the politics of sovereignty has been the object of numerous critiques, which I will not rehearse here. My concern is those figures of sovereignty whose central project is not the struggle for autonomy but *the generalized instrumentalization of human existence and the material destruction of human bodies and populations*. Such figures of sovereignty are far from a piece of prodigious insanity or an expression of a rupture between the impulses and interests of the body and those of the mind. Indeed, they, like the death camps, are what constitute the nomos of the political space in which we still live. <sup>5</sup>
 
 However effective mimetic warfare might be at “the generalized instrumentalization of human existence and the material destruction of human bodies and populations,” the combination of cyberkinetic warfare and memetic warfare has, in recent decades produced an even greater number of military “successes” – Olympic Games / Stuxnet and Nitro Zeus chief among among them:
 
@@ -241,7 +249,7 @@ was a military plan, intended to unplug Tehran if diplomacy failed. "—David Sa
 ![A digital wireframe representation of a human face, obscured by a white circle](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-polybius-by-sinnesloschen-nitro-zeus-scott-benzel/p23-i1.png)
 > **Caption:** Anonymous NSA source (played by an actor) on Nitro Zeus in *Zero Days* (2016)
 
-"We spent hundreds of millions, maybe billions on it," a anonymous National Security Agency source says in th film. "We were inside, waiting, watching. Ready to disrupt, degrade, and destroy those systems with cybe attacks. In comparison, Stuxnet was a back alley operation. [Nitro Zeus] was the plan for a full scale cyb war with no attribution. [^6]
+"We spent hundreds of millions, maybe billions on it," a anonymous National Security Agency source says in th film. "We were inside, waiting, watching. Ready to disrupt, degrade, and destroy those systems with cybe attacks. In comparison, Stuxnet was a back alley operation. [Nitro Zeus] was the plan for a full scale cyb war with no attribution. <sup>6</sup>
 
 NZ (Nitro Zeus) never went kinetic, but its combination of RumINT, (alleged) cyberkinetic capability, and (once again, possibly unwitting) Hollywood-assisted MILDEC achieved many of the goals of active cyberkinetic warfare.
 
@@ -255,7 +263,7 @@ So just what is Tailored Access Operations? According to a profile by Matthew Ai
 
 So, TAO might have had something to do with the development of Stuxnet and Flame, malware programs thought to have been jointly developed by the U.S. and Israel. The malware initially targeted the Iranian nuclear program, but quickly made its way into the digital wild.
 
-According to Aid, TAO's primary base is in the NSA headquarters in Fort Meade. There, he says, some 600 members of the unit work rotating shifts 24-7 in an "ultramodern" space at the center of the base called the Remote Operations Center (ROC). [^7]
+According to Aid, TAO's primary base is in the NSA headquarters in Fort Meade. There, he says, some 600 members of the unit work rotating shifts 24-7 in an "ultramodern" space at the center of the base called the Remote Operations Center (ROC). <sup>7</sup>
 
 # DARPA SMISC (Social Media in Strategic Communication) to INCAS (INfluence Campaign Awareness and Sensemaking); GCHQ JTRIG
 

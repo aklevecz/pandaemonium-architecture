@@ -339,10 +339,10 @@ argentatus Pont.). *Behaviour* **3**, 1–39.
 
 ## Notes
 
-[^10]: footnote text
+[^23]: footnote text
 
 [^18]: [18]
 
 [^19]: [19]
 
-[^23]: footnote text
+[^10]: footnote text

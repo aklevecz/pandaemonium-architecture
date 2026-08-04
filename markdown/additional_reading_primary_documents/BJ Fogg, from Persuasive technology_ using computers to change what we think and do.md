@@ -230,9 +230,9 @@ ers can predict what a user is likely to buy or do and make recommendations to t
 
 Often people are influenced not by information itself but by how it’s presented—the modality. Human beings can convey information in many modes, but we cannot match the variety of modes available to a computing system.
 
-To persuade, computers can present data and graphics, rich audio and video, animation, simulation, or hyperlinked content.[^6] The ability to use various modalities enables technology to match people’s preferences for visual, audio, or textual experiences. Technology can also create a synergistic effect by combining modes, such as audio, video, and data, during an interaction to produce the optimum persuasive impact.
+To persuade, computers can present data and graphics, rich audio and video, animation, simulation, or hyperlinked content.<sup>6</sup> The ability to use various modalities enables technology to match people’s preferences for visual, audio, or textual experiences. Technology can also create a synergistic effect by combining modes, such as audio, video, and data, during an interaction to produce the optimum persuasive impact.
 
-One example of combining computing modalities emerged in the wake of the terrorist attacks of September 11, 2001. In the days that followed, as the United States and other countries debated how to respond, Alternet.org, whose mission is to “engage our community of readers in problem solving, community action and awareness of current events in the United States and abroad,” created a Web-based experience to affect this response.[^7] In seeking to persuade, the creators drew on at least three modalities available to computers. First, most people learned about the site through a text email from a friend, which included a link to the Web page.[^8] Once at the site, the user saw an animation unfold, combining moving text, images, and a soundtrack. At the conclusion of this minute-long animation, the text read, “Urge President Bush to exercise sober restraint in responding. Click here.” When users clicked the button, they were presented with a specific call to action and a template email they could modify and send to the White House.
+One example of combining computing modalities emerged in the wake of the terrorist attacks of September 11, 2001. In the days that followed, as the United States and other countries debated how to respond, Alternet.org, whose mission is to “engage our community of readers in problem solving, community action and awareness of current events in the United States and abroad,” created a Web-based experience to affect this response.<sup>7</sup> In seeking to persuade, the creators drew on at least three modalities available to computers. First, most people learned about the site through a text email from a friend, which included a link to the Web page.[^8] Once at the site, the user saw an animation unfold, combining moving text, images, and a soundtrack. At the conclusion of this minute-long animation, the text read, “Urge President Bush to exercise sober restraint in responding. Click here.” When users clicked the button, they were presented with a specific call to action and a template email they could modify and send to the White House.
 
 Computing technology is the only media that could combine this range of modalities into a seamless experience, starting with a friend’s email, leading to an emotionally charged animation, and ending with the means to take immediate action on the issue. That’s the power of leveraging modalities to persuade.
 
@@ -322,7 +322,7 @@ Although philosophers and scholars have been examining persuasion for at least 2
 
 It’s important to note the difference between *persuasion* and *coercion*, terms that are sometimes confused. Coercion implies force; while it may change behaviors, it is not the same as persuasion, which implies voluntary change—in behavior, attitude, or both.[^2]
 
-Similarly, *persuasion* and *deception* may be confused. For instance, when I ask my students to find examples of persuasion on the Web, invariably some of them come to class with screen shots of Internet banner ads that report false emergencies (“Your systems resources are low. Click here!”) or that misinform users (“Pornography is downloading to your computer. Click here to stop.”) While such ads might change what people think and do, they do so through deception, not persuasion. Computer-based coercion and deception are topics in their own right,[^3] but they are not covered under the umbrella of captology because they do not depend on persuasion.[^4]
+Similarly, *persuasion* and *deception* may be confused. For instance, when I ask my students to find examples of persuasion on the Web, invariably some of them come to class with screen shots of Internet banner ads that report false emergencies (“Your systems resources are low. Click here!”) or that misinform users (“Pornography is downloading to your computer. Click here to stop.”) While such ads might change what people think and do, they do so through deception, not persuasion. Computer-based coercion and deception are topics in their own right,[^3-p22] but they are not covered under the umbrella of captology because they do not depend on persuasion.[^4-p22]
 
 ## Focus on the Human-Computer Relationship
 
@@ -331,7 +331,7 @@ Similarly, *persuasion* and *deception* may be confused. For instance, when I as
 
 In the premier issue of the academic journal *Interacting with Computers*, an editorial posed an important question: Do we interact *with* computers or do we interact *through* them?[^5] While a good rhetorician could argue either side of this question, it seems clear that people interact both with and through computers, depending on the situation.
 
-Captology—the study of computers as persuasive technology—focuses on human-computer interaction (HCI), not on computer-mediated communication (CMC). Specifically, captology investigates how people are motivated or persuaded when interacting *with* computing products rather than *through* them. CMC is a separate area of research and design, with interesting intellectual questions to answer and big dollars at stake.[^6] But it falls outside the realm of captology.
+Captology—the study of computers as persuasive technology—focuses on human-computer interaction (HCI), not on computer-mediated communication (CMC). Specifically, captology investigates how people are motivated or persuaded when interacting *with* computing products rather than *through* them. CMC is a separate area of research and design, with interesting intellectual questions to answer and big dollars at stake.<sup>6</sup> But it falls outside the realm of captology.
 
 Under the CMC model, the computer is a channel that allows humans to interact with each other. For example, people in different locations may use computer tools, such as instant messaging and electronic whiteboards, to collaborate with one another. In this scenario, the computer facilitates communication; it does not persuade.
 
@@ -344,7 +344,7 @@ By contrast, in a human-computer interaction, the computing product is a partici
 
 At the start of this chapter, I defined persuasion as an attempt to change attitudes or behaviors or both. This definition implies that true persuasion—whether brought about by humans or computers—requires intentionality. Captology focuses on the planned persuasive effects of computer technologies.
 
-This point about intentionality may seem subtle, but it is not trivial. Intentionality is what distinguishes between a planned effect and a side effect of a technology.[^7]
+This point about intentionality may seem subtle, but it is not trivial. Intentionality is what distinguishes between a planned effect and a side effect of a technology.<sup>7</sup>
 
 If you examine the history of computing technologies, you find that many high-tech products have changed the way people think, feel, and act. But most of these changes were not planned persuasive effects of the technology; they were side effects. Once people started using email, most probably changed how they used “snail mail”: they bought fewer stamps and went to the post office less often. Similarly, when video games came onto the market, kids started watching less television and played outside less often.[^8]
 
@@ -443,15 +443,19 @@ A longer article, drawing on various studies, that talks about the decline in ki
 
 ## Notes
 
-[^1]: For purposes of captology, I define persuasion as an attempt to change attitudes or behaviors or both (without using coercion or deception).
-
-[^2]: Coercion implies force; while it may change behaviors, it is not the same as persuasion, which implies voluntary change—in behavior, attitude, or both.
-
 [^3]: [Note: The original text does not provide the footnote content on this page.]
 
 [^4]: [Note: The original text does not provide the footnote content on this page.]
 
 [^5]: [Note: The original text does not provide the footnote content on this page.]
+
+[^1]: For purposes of captology, I define persuasion as an attempt to change attitudes or behaviors or both (without using coercion or deception).
+
+[^2]: Coercion implies force; while it may change behaviors, it is not the same as persuasion, which implies voluntary change—in behavior, attitude, or both.
+
+[^3-p22]: Computer-based coercion and deception are topics in their own right.
+
+[^4-p22]: They are not covered under the umbrella of captology because they do not depend on persuasion.
 
 [^8]: [Note: The original text does not provide the footnote content for 8 on this page.]
 

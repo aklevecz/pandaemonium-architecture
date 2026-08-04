@@ -12,7 +12,8 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'fs';
 import { execSync } from 'child_process';
-import { join } from 'path';
+import { join, relative } from 'path';
+import { findPdfForSlug } from './pdf-pipeline/lib/work.js';
 
 const ROOT = process.cwd();
 const slug = process.argv[2];
@@ -27,16 +28,19 @@ const vlmDir = join(ROOT, 'work', slug, 'vlm');
 const manifestPath = join(ROOT, 'work', slug, 'figures-crop-manifest.json');
 mkdirSync(figDir, { recursive: true });
 
-// Locate the source PDF by matching the slugified filename.
-const slugify = (f) => f.replace(/\.(pdf)$/i, '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-const PDF = readdirSync(join(ROOT, 'PDFs')).filter((f) => /\.pdf$/i.test(f)).find((f) => slugify(f) === slug);
-if (!PDF) { console.error('no PDF in PDFs/ matching slug', slug); process.exit(1); }
-const PDF_PATH = join(ROOT, 'PDFs', PDF);
+// Locate the source PDF by matching the slugified filename. findPdfForSlug
+// walks PDFs/ recursively and uses the shared slugify from lib/slug.js — the
+// old local copy + flat readdirSync never descended into
+// additional_reading_primary_documents/, so every additional reading hard-exited.
+const PDF_PATH = findPdfForSlug(slug);
+if (!PDF_PATH) { console.error('no PDF under PDFs/ (including additional_reading_primary_documents/) matching slug', slug); process.exit(1); }
+// Path relative to PDFs/ — markdown/ mirrors the same subdir layout.
+const PDF_REL = relative(join(ROOT, 'PDFs'), PDF_PATH);
 
 // Decorative markers we don't want as figures.
 const SKIP = /\b(logo|colophon|publisher|internet archive|penguin books|barcode|stamp|imprint|isbn|library)\b/i;
 
-const markdownPath = join(ROOT, 'markdown', PDF.replace(/\.pdf$/i, '.md'));
+const markdownPath = join(ROOT, 'markdown', PDF_REL.replace(/\.pdf$/i, '.md'));
 
 // ---------- inject mode: rewrite markdown from the manifest ----------
 if (INJECT) {
@@ -55,7 +59,17 @@ if (INJECT) {
 	process.exit(0);
 }
 
-const key = readFileSync(join(ROOT, '.env'), 'utf8').match(/^GEMINI_API_KEY\s*=\s*"?([^"\n]+)"?/m)[1];
+// Env first, then .env. The one-shot regex used to throw a bare TypeError
+// ("cannot read properties of null") when the key — or the .env file — was
+// missing; say what's actually wrong instead. Placed after the --inject
+// early-exit so inject mode still runs without a key.
+const envPath = join(ROOT, '.env');
+const key =
+	process.env.GEMINI_API_KEY ||
+	(existsSync(envPath)
+		? readFileSync(envPath, 'utf8').match(/^GEMINI_API_KEY\s*=\s*"?([^"\n]+)"?/m)?.[1]
+		: null);
+if (!key) { console.error('GEMINI_API_KEY not set (checked the environment and .env).'); process.exit(1); }
 
 // Page sizes (points) for every page, parsed once.
 const info = execSync(`pdfinfo -l 99999 "${PDF_PATH}"`, { encoding: 'utf8' });
@@ -122,7 +136,21 @@ for (const [page, desc] of byPage) {
 	try {
 		const box = await bbox(page);
 		if (!box.has_figure || !Array.isArray(box.box_2d)) { out.push({ page, desc, file: null, url: null, skipped: 'no_figure' }); continue; }
-		const [ymin, xmin, ymax, xmax] = box.box_2d;
+		const [ymin, xmin, ymax, xmax] = box.box_2d.map(Number);
+		// A malformed box_2d used to reach pdftoppm as `-x NaN -y NaN`, which
+		// failed and dumped its whole usage text into the log. Validate first.
+		if (![ymin, xmin, ymax, xmax].every((n) => Number.isFinite(n) && n >= 0 && n <= 1000) ||
+			xmax <= xmin || ymax <= ymin) {
+			out.push({ page, desc, file: null, url: null, skipped: 'bad_box' });
+			continue;
+		}
+		// Inline equations and lone symbols come back as valid but tiny boxes.
+		// Cropping those yields a postage stamp of a formula the surrounding
+		// text already carries, so skip them. (0-1000 normalized coords.)
+		if (xmax - xmin < 150 || ymax - ymin < 80) {
+			out.push({ page, desc, file: null, url: null, skipped: 'too_small' });
+			continue;
+		}
 		const [wpts, hpts] = pageSize(page);
 		const pw = (wpts / 72) * DPI, ph = (hpts / 72) * DPI;
 		const pad = 0.012;

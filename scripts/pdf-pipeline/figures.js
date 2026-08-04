@@ -51,6 +51,17 @@ function dimensionsOf(path) {
 	return null;
 }
 
+// Image files the manifest promises that aren't actually in work/<slug>/figures/.
+function missingFigureFiles(manifest, destDir) {
+	const missing = [];
+	for (const entries of Object.values(manifest.perPage ?? {})) {
+		for (const entry of entries ?? []) {
+			if (!existsSync(join(destDir, entry.file))) missing.push(entry.file);
+		}
+	}
+	return missing;
+}
+
 function extractFigures(meta, { force }) {
 	const slugDir = join(WORK_DIR, meta.slug);
 	const tmpDir = join(slugDir, 'figures-raw');
@@ -58,9 +69,25 @@ function extractFigures(meta, { force }) {
 	const sourcePath = join(ROOT, meta.path);
 	const destDir = join(slugDir, 'figures');
 
+	// The manifest existing is NOT proof the images are still on disk:
+	// work/<slug>/figures/ is gitignored, so on a fresh clone (or after a
+	// cleanup) the manifest survives in work/ while the images live only in R2.
+	// Trusting it made `figures.js --all` print "cache: hit" for all 72 slugs,
+	// write zero files, and then upload-figures.sh cheerfully report
+	// "Uploading 0 figures... Done" with exit 0 — a silent no-op pipeline.
+	// So verify the referenced files exist and treat a manifest with missing
+	// files as a miss. Re-extracting rather than only warning is the right
+	// call here: pdfimages is local, deterministic and costs nothing, so
+	// restoring the true state beats leaving a later stage to no-op. We still
+	// print the situation loudly, because a hit that turns into a re-extract
+	// means something removed those files.
 	if (existsSync(manifestPath) && !force) {
 		const cached = JSON.parse(readFileSync(manifestPath, 'utf-8'));
-		return { ...cached, cached: true };
+		const missing = missingFigureFiles(cached, destDir);
+		if (missing.length === 0) return { ...cached, cached: true };
+		console.error(
+			`  [warn] ${meta.slug}: figures.json lists ${cached.totalFigures ?? '?'} figures but ${missing.length} are missing from ${destDir} — re-extracting`
+		);
 	}
 
 	if (existsSync(tmpDir)) rmSync(tmpDir, { recursive: true });

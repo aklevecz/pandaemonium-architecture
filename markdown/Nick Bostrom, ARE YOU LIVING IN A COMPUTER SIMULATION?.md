@@ -39,7 +39,7 @@ powerful hardware nor the requisite software to create conscious minds in
 computers. But persuasive arguments have been given to the effect that *if*
 technological progress continues unabated *then* these shortcomings will
 eventually be overcome. Some authors argue that this stage may be only a few
-decades away.[^1] Yet present purposes require no assumptions about the time-
+decades away.<sup>1</sup> Yet present purposes require no assumptions about the time-
 scale. The simulation argument works equally well for those who think that it
 will take hundreds of thousands of years to reach a “posthuman” stage of
 civilization, where humankind has acquired most of the technological
@@ -52,33 +52,33 @@ computers. It is currently hard to be confident in any upper bound on the
 computing power that may be available to posthuman civilizations. As we are
 still lacking a “theory of everything”, we cannot rule out the possibility that
 novel physical phenomena, not allowed for in current physical theories, may be
-utilized to transcend those constraints[^2] that in our current understanding impose
+utilized to transcend those constraints<sup>2</sup> that in our current understanding impose
 
 ---
-[^1]: See e.g. K. E. Drexler, *Engines of Creation: The Coming Era of Nanotechnology*, London, Forth
+<sup>1</sup>: See e.g. K. E. Drexler, *Engines of Creation: The Coming Era of Nanotechnology*, London, Forth
 Estate, 1985; N. Bostrom, “How Long Before Superintelligence?” *International Journal of Futures
 Studies*, vol. 2, (1998); R. Kurzweil, *The Age of Spiritual Machines: When computers exceed human
 intelligence*, New York, Viking Press, 1999; H. Moravec, *Robot: Mere Machine to Transcendent Mind*,
 Oxford University Press, 1999.
-[^2]: Such as the Bremermann-Bekenstein bound and the black hole limit (H. J. Bremermann,
+<sup>2</sup>: Such as the Bremermann-Bekenstein bound and the black hole limit (H. J. Bremermann,
 “Minimum energy requirements of information transfer and computing.” *International Journal of
 Theoretical Physics* 21: 203-217 (1982); J. D. Bekenstein, “Entropy content and information flow in
 systems with limited energy.” *Physical Review D* 30: 1669-1679 (1984); A. Sandberg, “The Physics
 
-theoretical limits on the information processing attainable in a given lump of matter. We can with much greater confidence establish lower bounds on posthuman computation, by assuming only mechanisms that are already understood. For example, Eric Drexler has outlined a design for a system the size of a sugar cube (excluding cooling and power supply) that would perform 10²¹ instructions per second.[^3] Another author gives a rough estimate of 10⁴² operations per second for a computer with a mass on order of a large planet.[^4] (If we could create quantum computers, or learn to build computers out of nuclear matter or plasma, we could push closer to the theoretical limits. Seth Lloyd calculates an upper bound for a 1 kg computer of 5*10⁵⁰ logical operations per second carried out on ~10³¹ bits.[^5] However, it suffices for our purposes to use the more conservative estimate that presupposes only currently known design-principles.)
+theoretical limits on the information processing attainable in a given lump of matter. We can with much greater confidence establish lower bounds on posthuman computation, by assuming only mechanisms that are already understood. For example, Eric Drexler has outlined a design for a system the size of a sugar cube (excluding cooling and power supply) that would perform 10²¹ instructions per second.<sup>3</sup> Another author gives a rough estimate of 10⁴² operations per second for a computer with a mass on order of a large planet.<sup>4</sup> (If we could create quantum computers, or learn to build computers out of nuclear matter or plasma, we could push closer to the theoretical limits. Seth Lloyd calculates an upper bound for a 1 kg computer of 5*10⁵⁰ logical operations per second carried out on ~10³¹ bits.<sup>5</sup> However, it suffices for our purposes to use the more conservative estimate that presupposes only currently known design-principles.)
 
-The amount of computing power needed to emulate a human mind can likewise be roughly estimated. One estimate, based on how computationally expensive it is to replicate the functionality of a piece of nervous tissue that we have already understood and whose functionality has been replicated *in silico*, contrast enhancement in the retina, yields a figure of ~10¹⁴ operations per second for the entire human brain.[^6] An alternative estimate, based the number of synapses in the brain and their firing frequency, gives a figure of ~10¹⁶-10¹⁷ operations per second.[^7] Conceivably, even more could be required if we want to simulate in detail the internal workings of synapses and dendritic trees. However, it is likely that the human central nervous system has a high degree of redundancy on the mircoscale to compensate for the unreliability and noisiness of its neuronal components. One would therefore expect a substantial efficiency gain when using more reliable and versatile non-biological processors.
+The amount of computing power needed to emulate a human mind can likewise be roughly estimated. One estimate, based on how computationally expensive it is to replicate the functionality of a piece of nervous tissue that we have already understood and whose functionality has been replicated *in silico*, contrast enhancement in the retina, yields a figure of ~10¹⁴ operations per second for the entire human brain.<sup>6</sup> An alternative estimate, based the number of synapses in the brain and their firing frequency, gives a figure of ~10¹⁶-10¹⁷ operations per second.<sup>7</sup> Conceivably, even more could be required if we want to simulate in detail the internal workings of synapses and dendritic trees. However, it is likely that the human central nervous system has a high degree of redundancy on the mircoscale to compensate for the unreliability and noisiness of its neuronal components. One would therefore expect a substantial efficiency gain when using more reliable and versatile non-biological processors.
 
-Memory seems to be a no more stringent constraint than processing power.[^8] Moreover, since the maximum human sensory bandwidth is ~10⁸ bits per second, simulating all sensory events incurs a negligible cost compared to simulating the cortical activity. We can therefore use the processing power
+Memory seems to be a no more stringent constraint than processing power.<sup>8</sup> Moreover, since the maximum human sensory bandwidth is ~10⁸ bits per second, simulating all sensory events incurs a negligible cost compared to simulating the cortical activity. We can therefore use the processing power
 
 ---
 of Information Processing Superobjects: The Daily Life among the Jupiter Brains.” Journal of Evolution and Technology, vol. 5 (1999)).
-[^3]: K. E. Drexler, *Nanosystems: Molecular Machinery, Manufacturing, and Computation*, New York, John Wiley & Sons, Inc., 1992.
-[^4]: R. J. Bradbury, “Matrioshka Brains.” Working manuscript (2002), http://www.aeiveos.com/~bradbury/MatrioshkaBrains/MatrioshkaBrains.html.
-[^5]: S. Lloyd, “Ultimate physical limits to computation.” *Nature* 406 (31 August): 1047-1054 (2000).
-[^6]: H. Moravec, *Mind Children*, Harvard University Press (1989).
-[^7]: Bostrom (1998), op. cit.
-[^8]: See references in foregoing footnotes.
+<sup>3</sup>: K. E. Drexler, *Nanosystems: Molecular Machinery, Manufacturing, and Computation*, New York, John Wiley & Sons, Inc., 1992.
+<sup>4</sup>: R. J. Bradbury, “Matrioshka Brains.” Working manuscript (2002), http://www.aeiveos.com/~bradbury/MatrioshkaBrains/MatrioshkaBrains.html.
+<sup>5</sup>: S. Lloyd, “Ultimate physical limits to computation.” *Nature* 406 (31 August): 1047-1054 (2000).
+<sup>6</sup>: H. Moravec, *Mind Children*, Harvard University Press (1989).
+<sup>7</sup>: Bostrom (1998), op. cit.
+<sup>8</sup>: See references in foregoing footnotes.
 
 required to simulate the central nervous system as an estimate of the total computational cost of simulating a human mind.
 

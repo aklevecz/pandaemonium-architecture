@@ -177,7 +177,7 @@ xv
 *The percentage of intelligence that is not human is increasing. And eventually, we will represent a very small percentage of intelligence.*
 —Elon Musk (2018, online)
 
-The *Psychoanalysis of Artificial Intelligence*, what a strange proposition. What could it possibly mean? The significance of the two terms in themselves is hardly self-evident, let alone their relationship to one another. Psychoanalysis on the one hand; simultaneously a clinical practice, a mode of cultural critique and a philosophical battle ground. And Artificial Intelligence, a technoscientific ‘invention’ originating in the 1950s[^1] yet with literary, cultural and fantasmatic origins that date back centuries, and a concept whose theoretical potential continues to provoke intense philosophical debate. In this book, I argue that Artificial Intelligence (AI) and the creation of the artificial brain, which promises to separate neuroscience from biology and thought from the body, along with the
+The *Psychoanalysis of Artificial Intelligence*, what a strange proposition. What could it possibly mean? The significance of the two terms in themselves is hardly self-evident, let alone their relationship to one another. Psychoanalysis on the one hand; simultaneously a clinical practice, a mode of cultural critique and a philosophical battle ground. And Artificial Intelligence, a technoscientific ‘invention’ originating in the 1950s[^1-p16] yet with literary, cultural and fantasmatic origins that date back centuries, and a concept whose theoretical potential continues to provoke intense philosophical debate. In this book, I argue that Artificial Intelligence (AI) and the creation of the artificial brain, which promises to separate neuroscience from biology and thought from the body, along with the
 
 2 I. Millar
 
@@ -259,6 +259,8 @@ Vinge, V. (1993) The Coming Technological Singularity: How to Survive in the Pos
 ## Notes
 
 [^1]: See David Auerbach (2014).
+
+[^1-p16]: The earliest coinage of the term Artificial Intelligence is attributed to computer and cognitive scientist John McCarthy at a 1956 workshop at Dartmouth College Other attendees at the workshop, who would soon become founders and leaders in the early field of AI research, were Allen Newell CMU, Herbert Simon (CMU), Marvin Minsky (MIT) and Arthur Samuel (IBM).
 
 [^2]: We may recall for example Ovid’s *Pygmalion*, Descartes (alleged) robotic daughter Francine (Kang 2017), Maelzel’s chess playing automaton and Čapek’s (2004) *Rossun’s Universal Robots*, to name but a few instances.
 

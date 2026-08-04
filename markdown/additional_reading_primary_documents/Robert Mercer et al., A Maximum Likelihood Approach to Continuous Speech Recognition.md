@@ -394,7 +394,7 @@ STATE RECOGNITION TASKS
 
 Research in continuous speech recognition has led to the development of a number of artificial tasks. In order to compare the performance of different systems on sentences from different tasks, it is necessary to have a measure of the intrinsic difficulty of a task. Although vocabulary size is almost always mentioned in the description of an artificial task, by itself it is practically useless as a measure of difficulty. In this section we describe *perplexity*, a measure of difficulty based on well established information theoretic principles. The experimental results described in the next section show a clear correlation between increasing perplexity and increasing error rate.
 
-Perplexity is defined in terms of the information theoretic concept of entropy. The tasks used in speech recognition can be adequately modeled as *unifilar*[^3] Markov sources. Let $P(w|s)$ be the probability that word $w$ will be produced next when the current state is $s$. The entropy, $H_s(w)$ associated with state $s$ is
+Perplexity is defined in terms of the information theoretic concept of entropy. The tasks used in speech recognition can be adequately modeled as *unifilar*[^3-p10] Markov sources. Let $P(w|s)$ be the probability that word $w$ will be produced next when the current state is $s$. The entropy, $H_s(w)$ associated with state $s$ is
 
 $H_s(w) = - \sum_{w} P(w|s) \log_2 P(w|s).$ (9.1)
 
@@ -506,6 +506,10 @@ Center: J. K. Baker, J. M. Baker, R. Bakis, P. Cohen, A. Cole, R. Dixon, B. Lewi
 
 [^1]: For an introductory discussion of phonetics, see Lyons [7, pp. 99-132].
 
+[^1-p3]: $\mathbf{t}_1^n$ is a short-hand notation for the concatenation of the symbols $t_1, t_2, \dots, t_n$. Strings are indicated in boldface throughout.
+
 [^3]: See Section IV, Notation and Terminology.
 
 [^4]: For definition of tying, see Section IV, Notation and Terminology. For details of the Forward-Backward Algorithm extended to machines with tied states, see [15].
+
+[^3-p10]: A unifilar Markov source is one in which the next state is uniquely determined by the current state and the output symbol.

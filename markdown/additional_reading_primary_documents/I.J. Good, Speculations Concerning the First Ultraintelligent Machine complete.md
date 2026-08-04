@@ -952,10 +952,10 @@ cortex: the correlation of neurone density with brain size. *J. Comp. Neurol.* 1
 
 ## Notes
 
+[^33]: footnote text
+
 [^1]: For a short survey of the nature of communication, see for example Pierce [80a].
 
 [^3]: Zangwill gives earlier references in his interesting survey [108].
 
 [^4]: Only items mentioned in the text are listed here; for a bibliography on artificial intelligence see Minsky [72].
-
-[^33]: footnote text

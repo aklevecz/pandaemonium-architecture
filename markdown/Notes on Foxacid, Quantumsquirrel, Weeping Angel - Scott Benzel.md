@@ -25,11 +25,11 @@ its paradigm of personal control, asking: *what if we can’t turn it off?* The 
 
 > WEEPING ANGELS appear as winged, humanoid statues, often with a weeping or mournful expression.
 >
-> Quantum-Locked: They can only move when not being observed, meaning they appear as statues when someone looks at them. [^2]
+> Quantum-Locked: They can only move when not being observed, meaning they appear as statues when someone looks at them. <sup>2</sup>
 
 A collaborative UK MI5/US BTSS (Bioengineering, Technology, and Surgical Sciences within the US National Institutes of Health (NIH)), WEEPING ANGEL equipped Samsung F Series SmartTVs with a “Fake Off” mode. The program illegally targeted domestic populations in the U.S. and U.K. but also, importantly, instantiated an imaginary that reversed the command/control hierarchy for consumer devices, much like the subject/object switch posited by Jean Baudrillard in *Fatal Strategies*:
 
-> “Things have found a way of avoiding a dialectic of meaning that was beginning to bore them.” [^3]
+> “Things have found a way of avoiding a dialectic of meaning that was beginning to bore them.” <sup>3</sup>
 
 The infected tv, when shut off, appears like any other consumer appliance in “off” mode: dead screen, no green LED. The relationship between the Weeping Angel alien entity, the software implant, and the surveillance program’s seemingly multiple goals is of more than metanymic importance: the “quantum locked” aliens’ static, stone-like
 
@@ -153,9 +153,9 @@ Obfuscation, false tells, babble tapes, et al.
 
 [^1]: Lyotard, Jean Francois. tr. Ian Hamilton Grant. *Libidinal Economy*. Bloomington, IN: Indiana University Press, 1993.
 
-[^2]: Weeping Angel. Online: https://ficspecies.fandom.com/wiki/Weeping_Angel
+<sup>2</sup>: Weeping Angel. Online: https://ficspecies.fandom.com/wiki/Weeping_Angel
 
-[^3]: Baudrillard, Jean. tr. Beitchman, Phil and Niesluchowski, W. G. J. *Fatal Strategies*. Cambridge, Massachusetts: Semiotext(e)/The MIT Press, 1990.
+<sup>3</sup>: Baudrillard, Jean. tr. Beitchman, Phil and Niesluchowski, W. G. J. *Fatal Strategies*. Cambridge, Massachusetts: Semiotext(e)/The MIT Press, 1990.
 
 [^4]: Oxford languages online: https://languages.oup.com/
 

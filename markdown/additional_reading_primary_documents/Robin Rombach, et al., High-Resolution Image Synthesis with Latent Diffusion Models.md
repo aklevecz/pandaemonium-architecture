@@ -729,7 +729,7 @@ Table 11. $\times 4$ upscaling results on ImageNet-Val. ($256^2$); $^\dagger$: F
 
 ## D.6. Super-Resolution
 
-For better comparability between LDMs and diffusion models in pixel space, we extend our analysis from Tab. 5 by comparing a diffusion model trained for the same number of steps and with a comparable number [^1] of parameters to our LDM. The results of this comparison are shown in the last two rows of Tab. 11 and demonstrate that LDM achieves better performance while allowing for significantly faster sampling. A qualitative comparison is given in Fig. 20 which shows random samples from both LDM and the diffusion model in pixel space.
+For better comparability between LDMs and diffusion models in pixel space, we extend our analysis from Tab. 5 by comparing a diffusion model trained for the same number of steps and with a comparable number [^1-p23] of parameters to our LDM. The results of this comparison are shown in the last two rows of Tab. 11 and demonstrate that LDM achieves better performance while allowing for significantly faster sampling. A qualitative comparison is given in Fig. 20 which shows random samples from both LDM and the diffusion model in pixel space.
 
 ### D.6.1 LDM-BSR: General Purpose SR Model via Diverse Image Degradation
 
@@ -966,6 +966,8 @@ Nearest Neighbors on the LSUN-Churches dataset
 ## Notes
 
 [^1]: The first two authors contributed equally to this work.
+
+[^1-p23]: It is not possible to exactly match both architectures since the diffusion model operates in the pixel space
 
 [^2]: adapted from https://github.com/lucidrains/x-transformers
 

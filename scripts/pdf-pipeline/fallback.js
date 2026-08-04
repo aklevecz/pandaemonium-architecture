@@ -12,20 +12,16 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { execSync } from 'child_process';
-import { WORK_DIR, loadAllMetadata, pad, pad4 } from './lib/work.js';
+import { WORK_DIR, loadAllMetadata, findPdfForSlug, pad, pad4 } from './lib/work.js';
 
 // Locate the source PDF for a slug by matching the slugified filename. Lets us
 // pull a page's text on demand even for classes (notes-heavy/scanned) that
 // skipped the pdftotext extract step — so a Gemini RECITATION block on a page
 // that DOES have a text layer becomes real text, not a blank placeholder.
-const PDFS_DIR = join(process.cwd(), 'PDFs');
-const slugifyName = (f) =>
-	f.replace(/\.pdf$/i, '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-function findPdf(slug) {
-	if (!existsSync(PDFS_DIR)) return null;
-	const f = readdirSync(PDFS_DIR).filter((x) => /\.pdf$/i.test(x)).find((x) => slugifyName(x) === slug);
-	return f ? join(PDFS_DIR, f) : null;
-}
+// findPdfForSlug walks PDFs/ recursively and slugifies the path relative to
+// PDFs/, which is what lib/slug.js expects: the old flat readdirSync +
+// local slugify never saw additional_reading_primary_documents/, so every
+// additional reading matched nothing and was guaranteed a placeholder.
 function pdftextForPage(pdfPath, page) {
 	if (!pdfPath) return '';
 	try {
@@ -36,6 +32,48 @@ function pdftextForPage(pdfPath, page) {
 	} catch {
 		return '';
 	}
+}
+
+// Last resort before a placeholder: local OCR of the rendered page. This is
+// the spec's Stage 3 "scanned" route (PDF_PIPELINE.md), which never got built.
+// It matters for pages that have no text layer at all AND that the hosted VLM
+// declines to transcribe — previously those shipped as a blank placeholder.
+// Runs entirely offline against a page we already rendered.
+function ocrPage(slugDir, page) {
+	const pagesDir = join(slugDir, 'pages');
+	if (!existsSync(pagesDir)) return '';
+	// pdftoppm pads page numbers to the width of the total page count, so the
+	// filename can be page-6, page-06 or page-006. Match on the number.
+	const file = readdirSync(pagesDir).find((f) => {
+		const m = f.match(/^page-(\d+)\.png$/);
+		return m && Number(m[1]) === page;
+	});
+	if (!file) return '';
+	const png = join(pagesDir, file);
+	try {
+		// `-` writes to stdout; psm 1 = auto page segmentation with orientation
+		// detection, which handles rotated scans.
+		return execSync(`tesseract "${png}" - --psm 1 2>/dev/null`, {
+			encoding: 'utf-8',
+			maxBuffer: 8 * 1024 * 1024
+		});
+	} catch {
+		return '';
+	}
+}
+
+// Scanner rules, page edges and speckle come back from OCR as runs of dashes
+// and stray glyphs ("-- — —_——— eee"). Drop paragraphs that are mostly not
+// letters; real prose never is. Only applied to OCR output — pdftotext output
+// is clean and a filter there would risk eating legitimate lines.
+function dropOcrNoise(text) {
+	return text
+		.split('\n\n')
+		.filter((p) => {
+			const letters = (p.match(/[a-zA-Z0-9]/g) ?? []).length;
+			return p.trim().length < 12 ? false : letters / p.length >= 0.5;
+		})
+		.join('\n\n');
 }
 
 // pdftotext -layout output: turn into one paragraph per blank-line block.
@@ -64,8 +102,8 @@ function fillSlug(meta) {
 	const vlmDir = join(slugDir, 'vlm');
 	if (!existsSync(vlmDir)) mkdirSync(vlmDir, { recursive: true });
 
-	const counts = { existing: 0, fromRaw: 0, fromPdf: 0, placeholder: 0 };
-	const pdfPath = findPdf(meta.slug);
+	const counts = { existing: 0, fromRaw: 0, fromPdf: 0, fromOcr: 0, placeholder: 0 };
+	const pdfPath = findPdfForSlug(meta.slug);
 	for (let p = 1; p <= meta.pages; p++) {
 		const vlmPath = join(vlmDir, `page_${pad4(p)}.md`);
 		if (existsSync(vlmPath)) { counts.existing++; continue; }
@@ -83,6 +121,14 @@ function fillSlug(meta) {
 		if (onDemand.replace(/\s/g, '').length >= 40) {
 			writeFileSync(vlmPath, rawTextToMarkdown(onDemand) + '\n');
 			counts.fromPdf++;
+			continue;
+		}
+		// No text layer either — the page is a pure image. OCR it locally
+		// rather than shipping a blank page to the reader.
+		const ocr = ocrPage(slugDir, p);
+		if (ocr.replace(/\s/g, '').length >= 40) {
+			writeFileSync(vlmPath, dropOcrNoise(rawTextToMarkdown(ocr)) + '\n');
+			counts.fromOcr++;
 		} else {
 			writeFileSync(vlmPath, `<!-- page ${p}: extraction failed (likely Gemini RECITATION block) -->\n`);
 			counts.placeholder++;
@@ -100,11 +146,11 @@ const allMeta = loadAllMetadata();
 const targets = all ? allMeta : allMeta.filter((m) => m.slug === slug || m.slug.startsWith(slug));
 if (targets.length === 0) { console.error('No match.'); process.exit(1); }
 
-console.log(pad('class', 18) + pad('have', 6) + pad('+raw', 6) + pad('+pdf', 6) + pad('+pl', 5) + 'slug');
+console.log(pad('class', 18) + pad('have', 6) + pad('+raw', 6) + pad('+pdf', 6) + pad('+ocr', 6) + pad('+pl', 5) + 'slug');
 console.log('-'.repeat(110));
 for (const meta of targets) {
 	const c = fillSlug(meta);
-	if (c.fromRaw > 0 || c.fromPdf > 0 || c.placeholder > 0) {
-		console.log(pad(meta.classification, 18) + pad(c.existing, 6) + pad(c.fromRaw, 6) + pad(c.fromPdf, 6) + pad(c.placeholder, 5) + meta.slug);
+	if (c.fromRaw > 0 || c.fromPdf > 0 || c.fromOcr > 0 || c.placeholder > 0) {
+		console.log(pad(meta.classification, 18) + pad(c.existing, 6) + pad(c.fromRaw, 6) + pad(c.fromPdf, 6) + pad(c.fromOcr, 6) + pad(c.placeholder, 5) + meta.slug);
 	}
 }

@@ -40,7 +40,15 @@ The album’s retrospective release and accompanying backstory places it neatly 
 
 Retrospect functions somewhat differently in instances of The Mandela Effect. In genre-formation, new connections are discovered and differences glossed over whil
 
-<!-- page 6: extraction failed (likely Gemini RECITATION block) -->
+9/7/25, 11:19 AM New Memory - Scott Benzel
+
+in instances of ME, a sense of unheimlich, of disruption, sometimes of crisis and lo is the order of the day. In “New Memory” Aaron French writes:
+
+The ME (Mandela Effect) came to my attention in 2015 when I came across a blo post from 2012 written by “Reece,” who claimed to be a “graduate student of physics.” The blog was called the Wood between Worlds and the post was entitled “The Berenstein Bears: We Are Living in Our Own Parallel Universe.” It discuss the idea that the spelling of the name of a popular children’s series — a series originating in the 1960s — had been altered from its original spelling of The Berenstein Bears (spelled –ein) to an alternate spelling of The Berenstain Bears (spel –ain).
+
+“Reece” was certain, as a result of childhood memories and familiarity with the series, that the former spelling was correct, and a number of others commenting the post agreed with him. The spelling change coincided with the death of the la member of the couple who had created the series, Jan and Stan Berenstain. In fac it was the “misspelling” on Jan’s obituary in 2012 that drew the blogger’s attentio to the name change of Berenstein to Berenstain. When the blogger looked up the name on the Internet, not only was it spelled Berenstain everywhere, but all the o book covers the blogger personally owned revealed the alternate spelling. “Reece came across more people who remembered the –ein spelling, some of whom ran home to their parents’ houses to dig up old books from the past, only to be shock by the supposedly “new” spelling. 1
+
+https://scottbenzel.substack.com/p/new-memory 6/31
 
 # The Berenstein Bears: We Are Living in Our Own Parallel Universe
 
@@ -62,19 +70,35 @@ In their 2024 paper *The Visual Mandela Effect as evidence for shared and specif
 
 > The Mandela Effect is an internet phenomenon describing shared and consistent false memories for specific icons in popular culture. The Visual Mandela Effect (VME) is a Mandela Effect specific to visual icons (e.g., the Monopoly Man is falsely remembered with a monocle) and has not yet been empirically quantified or tested. In Experiment 1 (N=100), we demonstrate that certain images from popular iconography elicit consistent, specific false memories. In Experiment 2 (N=60), using eye-tracking-like methods, we find no attentional or visual differences that drive this phenomenon. There is no clear difference in the natural visual experience of these images (Experiment 3), and these VME-errors also occur spontaneously.
 
-during recall (Experiment 4; N=50). These results demonstrate that there are cert images for which people consistently make the same false memory error, despite majority of visual experience being the canonical image. [^2]
+during recall (Experiment 4; N=50). These results demonstrate that there are cert images for which people consistently make the same false memory error, despite majority of visual experience being the canonical image. <sup>2</sup>
 
 ![A grid of images showing original versions, VME-induced manipulations, and alternative manipulations for C3PO, Fruit of the Loom, Curious George, Monopoly Man, Pikachu, and Volkswagen](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-new-memory-scott-benzel/p8-i1.png)
 > **Caption:** Fig. 1. Which image is the real version? (a) The original, unaltered images that are reported to be affected by VME. People only have exposure to this version of the images in their daily lives. (b) The reported VME-induced representation that people have a strong false memory for, despite never seeing this version before. Their purported VME-representations are a golden leg for C3PO, a cornucopia for the Fruit of the Loom logo, a tail for Curious George, a monocle for the Monopoly Man, a black-tipped tail for Pikachu, and no bar between the ‘V’ and the ‘W’ of the Volkswagen logo (c) An alternative, matched manipulation on the same feature that has not been reported as a VME representation.
 > **Figure text:** A. Original FRUIT OF THE LOOM. B. Manipulation 1: VME-induced manipulation FRUIT OF THE LOOM. C. Manipulation 2: another matched manipulation on same feature FRUIT OF THE LOOM.
 
-<!-- page 9: extraction failed (likely Gemini RECITATION block) -->
+9/7/25, 11:19 AM New Memory - Scott Benzel
 
-<!-- page 10: extraction failed (likely Gemini RECITATION block) -->
+French argues that wider cultural forces are at work, roiling beneath the ME phenomenon, that the sense of of disorientation and dislocation at the heart of ME been primed within experiencers by forces of radical epistemic disruption within bo the mainstream culture and the “undergrounds” or “fringes” rapidly multiplying an syncretizing online. French ties ME to both Colin Campbell’s Cultic Milieu and onli fundamentalist Christianity:
+
+With the emergence of the Internet, websites like Wikipedia, and social media sharing platforms like YouTube, the cultic milieu now encompasses more than Campbell’s “occult” and non-Christian elements (i.e., “occulture”), and appears t be merging, to some degree, with the fundamentalist Christian milieu (for examp Hillary Clinton’s reference to “dark conspiracy theories drawn from ... the far, da reaches of the internet” in her so-called “alt-right speech”) and the underground conspiracy theory community (such as people who self-identify as “red-pilled” Christians). The spread of the Internet and smartphone technology has wrought transformation in society, including what Campbell has called the “cultural underground of society.” It is important to note that persistent secularization mi
+
+https://scottbenzel.substack.com/p/new-memory 9/31
+
+9/7/25, 11:19 AM New Memory - Scott Benzel
+
+be relegating aspects of the institutional religions into the cultic milieu, especial when it comes to CERN, the Mandela Effect, and panic over “fake news.”
+
+Campbell certainly never would have included elements of fundamentalist Christianity when theorizing his underground milieu, yet this seems to me to be potential mistake. More extreme forms of Christianity have sometimes existed in tension with mainstream society, beginning at the outset in ancient Rome and la in modern societies that operate (at least organizationally) along rationalist and materialist principles. In the current “hyper-normal” and “post-truth” world in which we find ourselves, heavily mediated by technological information flows, th cultic milieu theory needs reconfiguring. A phenomenon such as the ME illustra that the institutional “un-fungible” beliefs of Christianity can exist alongside esoteric knowledge and New Age wisdom, oriented around conspiracism and directed at something as highly specialized and scientific as CERN. Campbell anticipates this when he concludes his essay, arguing that “the imputed processe of secularization may be creating circumstances favorable to the growth of the milieu and the further expansion of cultic beliefs” and that “a growth in the pres of science results in the absence of control of the beliefs of non-scientists and in increase in quasi-scientific beliefs.”
+
+Dungeon Synth Primer Per Kaptain Carbon of synthdigest.com:
+
+Dungeon Synth is a style of at-home made fantasy synth. Despite it being a mode incarnation, its history is rooted in the 1990’s black metal scene, when its membe created ambient synth projects and circulated those releases through tapes. Thes black metal side projects laid the groundwork for dungeon synth’s atmosphere a ethos regarding aesthetics, production, and distribution. Dungeon synth is primarily a solo endeavor with one person writing, playing, producing, and
+
+https://scottbenzel.substack.com/p/new-memory 10/31
 
 distributing the music. Today, it has become a diverse genre and cottage industry with tape labels, forums, festivals, and an international fanbase devoted to its history and development. Branching out from its beginnings to include a spectrum of sound, dungeon synth has transitioned beyond its dark ambient beginnings to a sound that includes neoclassical, new age, medieval, and even chiptune music. The space between fans and creators, since its beginning, has been small, leading to an intimate scene that exists today almost entirely on the internet.
 
-This aspect of a virtual community and scene has shown itself unintentionally resilient within the 2020 Covid pandemic. The process of creating music in isolation and sharing it with an international fanbase through virtual albums and mailed media is something that has been unaffected since the wake of a global pandemic. Livelihoods of the creators and parcel service interruptions aside, dungeon synth, along with other virtual genres thrived while live music was suspended for a few years. In the early 2020’s dungeon synth began branching out into live performances ushered and supported by the success of the Northeast Dungeon Siege along with other festivals internationally. [^3]
+This aspect of a virtual community and scene has shown itself unintentionally resilient within the 2020 Covid pandemic. The process of creating music in isolation and sharing it with an international fanbase through virtual albums and mailed media is something that has been unaffected since the wake of a global pandemic. Livelihoods of the creators and parcel service interruptions aside, dungeon synth, along with other virtual genres thrived while live music was suspended for a few years. In the early 2020’s dungeon synth began branching out into live performances ushered and supported by the success of the Northeast Dungeon Siege along with other festivals internationally. <sup>3</sup>
 
 ![A collection of webring navigation widgets for "Dungeon Synth"](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-new-memory-scott-benzel/p12-i1.png)
 > **Figure text:** 
@@ -180,7 +204,7 @@ Here's what you do: Take a bag. Distort space, so that the inside of the bag is 
 
 Now, warp drives are cool of themselves, but what I really want to talk about is the device that distorts space so the inside of the bag is bigger than the outside of the bag. This is sometimes called a "van den Brocek bubble", or, somewhat more appropriately, a Bag of Holding.
 
-We've gone from warp drives to the bag of holding, and we're not even done yet. We're going all the way to Narnia. [^5]
+We've gone from warp drives to the bag of holding, and we're not even done yet. We're going all the way to Narnia. <sup>5</sup>
 
 # CERN
 
@@ -191,9 +215,27 @@ Per ME’s online “researchers”, CERN (the Large Hadron Collider in particul
 
 > Although a variety of explanations are exchanged among self-identifying ME researchers, the most prominent theorizing about the source of the parallel reali is divided into two separate but interrelated camps. Both camps overlap in that t believe that the LHC at CERN — which has been openly trying to discover extra dimensions and the particles that make up dark matter — has succeeded in eithe
 
-<!-- page 22: extraction failed (likely Gemini RECITATION block) -->
+9/7/25, 11:19 AM New Memory - Scott Benzel
 
-<!-- page 23: extraction failed (likely Gemini RECITATION block) -->
+punching a hole in spacetime, contacting an alternate dimension, or altering th timeline through experiments which have resulted in the past becoming switche changed, or deliberately edited. The concept of constructing a people’s history an its direct effect on them is nothing new to historians, but what may be new is the extent to which people in the public sphere are discussing the idea as a real possibility for explaining feelings of global anxiety, confusion, disorder, and postmodernity. In addition to the CERN connection, both camps cite the development of the D-Wave system quantum computers as partly responsible for tampering with the fabric of reality through its complex computational processin operations. According to the D-Wave website:
+
+To speed computation, quantum computers tap directly into an unimaginably vast fabri reality — the strange and counterintuitive world of quantum mechanics. Rather than s information using bits represented by 0s or 1s as conventional computers do, quantum computers use quantum bits, or qubits, to encode information as 0s, 1s, or both simultaneously. This superposition of states, along with the quantum effects of entanglement and quantum tunneling, enable quantum computers to consider and manipulate many combinations of bits simultaneously.
+
+Both camps of ME researchers believe in a conspiratorial hidden hand of scientists, politicians, corporations, “globalists,” and neoliberal financiers working to create a New World Regime in which billions of unconscious, materially distract ed political subjects are manipulated, oppressed, and dominated. Admittedly, the development of advanced technologies are frequently funded by government security agencies and “D-Wave’s first customer was Lockheed Martin, one of the world’s largest aerospace, information systems, and defense contractors.
+
+[…]
+
+Where the two ME camps differ is on the evangelical front. The first camp subscribes to a mostly secular conspiratorial worldview filled with corrupt businessmen and politicians trying to enslave humanity, with the theories of quantum
+
+https://scottbenzel.substack.com/p/new-memory 22/31
+
+9/7/25, 11:19 AM New Memory - Scott Benzel
+
+mechanics and the work carried out at CERN and quantum computers allowing the possibility of an alternate dimension. However, not all the ME believers in th camp are atheistic, and many subscribe to a type of New Age spirituality with blends of esotericism, quantum mysticism, and Asian religion and philosophy.
+
+The second camp colors their language with biblical references, the dawning apocalypse, Satanic magical rituals, and the rise of the Antichrist, signs for whic they locate in all the various aspects of the ME. For this camp, the direction of th world away from God has resulted in these subtle reality alterations, which they interpret as fulfillment of biblical prophecy, citing Daniel 7:25 which states that Antichrist will “change times/seasons and laws.”
+
+https://scottbenzel.substack.com/p/new-memory 23/31
 
 ![The Berenstain Bears logo altered to read "The Berenstein Bears"](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-new-memory-scott-benzel/p24-i1.png)
 > **Figure text:** The Berenstein Bears
@@ -214,11 +256,43 @@ French lays out an exhaustive litany of examples of ME, emphasizing the online, 
 >
 > The famous line from the TV show *I Love Lucy*, “Lucy, you’ve got some ‘splaining do,” was never said on the show. In *The Empire Strikes Back* (1980) the *Star Wars* fil the famous line “Luke, I am your Father” has been changed to “**No**, I am your
 
-<!-- page 26: extraction failed (likely Gemini RECITATION block) -->
+9/7/25, 11:19 AM New Memory - Scott Benzel
 
-<!-- page 27: extraction failed (likely Gemini RECITATION block) -->
+Father.” The character C-3PO from the Star Wars series is now thought to have a silver leg that it never had before. In Forest Gump (1994), the line “Life is like a bo of chocolates” has been changed to “Life was like a box of Chocolates.” In Field o Dreams (1989), the line “If you build it, they will come” has changed to “If you bui it, he will come.” The line “Mirror, Mirror on the wall” from Disney’s Snow White and the Seven Dwarfs (1937) is now “Magic Mirror on the wall.” In the first Jaws movie (1975), the famous line “We’re going to need a bigger boat” has been chang to “You’re going to need a bigger boat.” Several things have been altered in the original version of The Wizard of Oz (1939). The first is that the line “Toto, I don’t think we’re in Kansas anymore” is now “Toto, I’ve a feeling we’re not in Kansas anymore.” The second is that during a scene in the movie in which the main characters are lost in a scary wood, the Scarecrow now wields a pistol that appe entirely out of place. The memorable opening lyrics of the song from Mister Roge Neighborhood (1968–2001), “It’s a beautiful day in the neighborhood,” has changed “It’s a beautiful day in this neighborhood.” Another song lyric alteration is the fi line from the Queen song We are the Champions (1977), in which Freddy Mercury sings “... of the world” at the end. Now he doesn’t sing that line; the song just end
 
-<!-- page 28: extraction failed (likely Gemini RECITATION block) -->
+The monkey from the children’s series Curious George (2006–2015) no longer has a tail. Two obscure television shows starring The Brady Bunch from the late ‘70s a early ‘80s called The Brady Brides and The Brady Bunch Variety Hour Show are thou only to exist in this new parallel universe. In the 1980 film The Elephant Man, the ending is no longer sad but uplifting, with a ghost appearing that people seem no to remember. The 1984 Toyota Van, the so-called “terrorist van,” from the first Back to the Future (1985) movie has been changed into the iconic VW Bus. The character Dolly, who is Jaws’s girlfriend in the 1979 James Bond movie Moonrake no longer has braces. There have also been many changes to names of various ac and famous persons, such as Peanuts creator Charles Schulz (remembered as Charles Shultz), stuntman Evel Knievel (remembered as Evil Knievel), country singer Reba McEntire (remembered as Reba McIntyre), and Sally Field (remembered as Sally Fields).
+
+https://scottbenzel.substack.com/p/new-memory 26/31
+
+9/7/25, 11:19 AM New Memory - Scott Benzel
+
+In addition to TV, film, and music changes, a whole host of product logos are thought to have been altered, including Coca-Cola, Yoo-hoo, Cup Noodles, Depe JCPenney, Oscar Mayer, Totino’s, KitKat, Reddi-wip, Froot Loops, Chick-fil-A, O Clean, Vicks VapoRub, Scott, Skechers, Double Stuf Oreos, Bragg, Febreze, Cura Johnnie Walker, Ford, Volvo, Volkswagen,and many others. Curiously, most of th corporations behind these brands claim never to have changed and/or updated th logos.
+
+Changes cited in the Holy Bible are too numerous to mention, but I will include few of the most popular. These pertain to the King James Version, and they are found changed in the physical copies of old, owned KJV bibles, as well as in onlin versions. One is to be found in Isaiah 11:6. This passage used to begin “The lion the lamb will lay down together” but now it says: “The wolf will live with the lamb.” In Matthew 9:17, the word “wineskins” here has been changed to wine bottles. Luke 5:24 no longer says bed or mat, but now says: “I say unto thee, Aris and take up thy couch, and go into thine house.”
+
+Proponents of the ME also believe that the Earth’s geography has been altered, w South America now being too far east, and Australia being much closer to Indonesia and Papua New Guinea. There are many other examples, as well. Hum anatomy has also undergone some changes, including the size of various organs such as the liver, as well as the shape, size, and position of floating ribs at the bottom of the ribcage, and the heart is now located in the center of the chest, rat than at the left breast. As with Nelson Mandela’s misremembered death, many changed historical events are frequently cited. Some people believe the “Tank M who stood before a column of tanks on June 4, 1989, in Tiananmen Square was killed and run down by the tank, but the man simply halted the line of tanks and was ushered out of harm’s way. Another change is the 1963 Lincoln four-seater th drove John F. Kennedy on the day he was assassinated. Now there are six seats in the Lincoln, and six people too, in the famous video footage and photographs of assassination. To top things off, Hitler now has blue eyes instead of brown eyes
+
+https://scottbenzel.substack.com/p/new-memory 27/31
+
+9/7/25, 11:19 AM New Memory - Scott Benzel
+
+and one of the spaces you used to be able to buy on a Monopoly game board was called Ventura Avenue but now it is called Ventnor Avenue. And Rich Uncle Pennybags, the mascot of Monopoly, never had a monocle.
+
+And so on, and so on.
+
+Something is shifting in our collective and individual experience of the past. That something seems intimately tied to the digitization and algorithmization of culture Google “New Memory” and you get ads for RAM and explainers of the latest innovations in digital memory:
+
+New memory types include:
+
+FeFET or FeRAM: A next-generation ferroelectric memory.
+
+Nanotube RAM: In R&D for years, nanotube RAM is targeted to displace DRAM Others are developing carbon nanotubes and next-generation memories on the same device.
+
+Phase-change memory: After shipping the first PCM devices, Intel is readying a new version.
+
+As we retrospectively reconfigure or attempt to reclaim the past, new assemblages come into being while certainties are lost…and repeat. Are we not ourselves retrospectively made? Do we not ourselves lose who we were or thought we were? D we not over time change the spelling of our names. And so on, and so on…
+
+https://scottbenzel.substack.com/p/new-memory 28/31
 
 ![A white mask with red lips and a dollar bill over the eyes, mounted on a circuit board and metal cooling coils, hanging from a rack labeled 1, 2, 3, 4. A black and white abstract graphic and a scale icon are overlaid on the left.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/notes-on-new-memory-scott-benzel/p29-i1.png)
 > **Caption:** Alley Catss

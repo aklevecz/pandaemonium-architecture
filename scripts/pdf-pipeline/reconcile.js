@@ -111,6 +111,31 @@ function rewriteFigureMarkers(text, figuresForPage) {
 	});
 }
 
+function escapeRe(s) {
+	return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Rewrite one page's inline `[^from]` markers to `[^to]`. Used when a later
+// page reuses a footnote number that an earlier page already claimed.
+function renameInlineMarker(text, from, to) {
+	return text.replace(new RegExp(`\\[\\^${escapeRe(from)}\\]`, 'g'), `[^${to}]`);
+}
+
+// Markers whose body never appears anywhere in the source. This is the norm
+// for chapter excerpts: the prose cites note 12, but the endnotes live at the
+// back of a book the PDF doesn't include. Left alone they reach the reader as
+// a literal "[^12]" mid-sentence, so demote them to a plain superscript — the
+// reference survives, the dead link doesn't.
+function demoteOrphanFootnotes(text, withBodies) {
+	let demoted = 0;
+	const out = text.replace(/\[\^([^\]]+)\]/g, (match, marker) => {
+		if (withBodies.has(marker)) return match;
+		demoted++;
+		return `<sup>${marker}</sup>`;
+	});
+	return { text: out, demoted };
+}
+
 // Multi-line book/chapter titles render as one `#`/`##` per line because the
 // title spans several visual lines. Fold runs of same-level adjacent headings
 // into one heading, joining text with a space.
@@ -161,6 +186,8 @@ function reconcileOne(meta) {
 	let pagesWithFootnotes = 0;
 	let footnoteBodiesLifted = 0;
 	let figuresInjected = 0;
+	let markerCollisions = 0;
+	let orphanFootnotes = 0;
 
 	for (const file of pageFiles) {
 		const m = file.match(/^page_(\d{4})\.md$/);
@@ -168,17 +195,26 @@ function reconcileOne(meta) {
 		const raw = readFileSync(join(vlmDir, file), 'utf-8');
 		const { body, footnotes } = splitPageFootnotes(raw);
 		const figuresForPage = figures.perPage?.[pageNum] ?? figures.perPage?.[String(pageNum)] ?? [];
-		const bodyWithFigures = rewriteFigureMarkers(body, figuresForPage);
-		if (bodyWithFigures !== body) figuresInjected++;
-		bodies.push(bodyWithFigures);
+		let pageBody = rewriteFigureMarkers(body, figuresForPage);
+		if (pageBody !== body) figuresInjected++;
 		const nonEmpty = footnotes.filter((f) => f.text.length);
 		if (nonEmpty.length) pagesWithFootnotes++;
 		for (const f of nonEmpty) {
-			if (seenMarkers.has(f.marker)) continue;
-			seenMarkers.add(f.marker);
-			allFootnotes.push({ ...f, page: pageNum });
+			let marker = f.marker;
+			if (seenMarkers.has(marker)) {
+				// A later page reused a number an earlier page already claimed —
+				// normal when a chapter restarts its numbering. Previously the
+				// second body was dropped and its marker pointed at the first
+				// page's note; give this page's copy its own id instead.
+				marker = `${f.marker}-p${pageNum}`;
+				pageBody = renameInlineMarker(pageBody, f.marker, marker);
+				markerCollisions++;
+			}
+			seenMarkers.add(marker);
+			allFootnotes.push({ marker, text: f.text, page: pageNum });
 			footnoteBodiesLifted++;
 		}
+		bodies.push(pageBody);
 	}
 
 	let combined = bodies.join('\n\n');
@@ -190,9 +226,17 @@ function reconcileOne(meta) {
 	combined = combined.replace(/^!\[Figure:\s*(.+?)\]\(#[^)]*\)$/gm, '**[Figure: $1]**');
 	combined = combined.trim() + '\n';
 
+	// Must run before the Notes section is appended so it only sees inline
+	// markers, never the `[^N]:` definitions.
+	const demotion = demoteOrphanFootnotes(combined, seenMarkers);
+	combined = demotion.text;
+	orphanFootnotes = demotion.demoted;
+
 	if (allFootnotes.length) {
-		// Sort numerically when markers are numeric, else alpha.
+		// Document order (page, then number within the page). Sorting purely by
+		// number would interleave chapters once collisions get a `-pN` suffix.
 		allFootnotes.sort((a, b) => {
+			if (a.page !== b.page) return a.page - b.page;
 			const an = Number(a.marker), bn = Number(b.marker);
 			if (Number.isFinite(an) && Number.isFinite(bn)) return an - bn;
 			return a.marker.localeCompare(b.marker);
@@ -222,6 +266,8 @@ function reconcileOne(meta) {
 		ratio: existing ? +(combined.length / existing.length).toFixed(3) : null,
 		pagesWithFootnotes,
 		footnoteBodiesLifted,
+		markerCollisions,
+		orphanFootnotes,
 		figuresInjected,
 		residualArtifacts: {
 			pictureMarkers: (combined.match(/==>\s*picture/g) ?? []).length,
@@ -241,7 +287,10 @@ const args = parseStageArgs(process.argv.slice(2));
 const allMeta = loadAllMetadata();
 const targets = selectTargets(args, allMeta);
 
-console.log(pad('pages', 6) + pad('newCh', 8) + pad('oldCh', 8) + pad('ratio', 7) + pad('fnLift', 7) + pad('artif', 6) + 'slug');
+console.log(
+	pad('pages', 6) + pad('newCh', 8) + pad('oldCh', 8) + pad('ratio', 7) +
+	pad('fnLift', 7) + pad('orph', 6) + pad('coll', 6) + pad('artif', 6) + 'slug'
+);
 console.log('-'.repeat(110));
 for (const meta of targets) {
 	try {
@@ -253,6 +302,8 @@ for (const meta of targets) {
 				pad(s.oldChars ?? '-', 8) +
 				pad(s.ratio ?? '-', 7) +
 				pad(s.footnoteBodiesLifted, 7) +
+				pad(s.orphanFootnotes, 6) +
+				pad(s.markerCollisions, 6) +
 				pad(totalArtifacts, 6) +
 				meta.slug
 		);

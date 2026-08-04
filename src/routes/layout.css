@@ -244,6 +244,57 @@ body {
 	color: var(--color-light);
 }
 
+/* Footnotes (marked-footnote). Set as book endnotes: a small superscript in
+   the prose, bodies in a smaller block after a rule. The extension's heading
+   carries Tailwind's `sr-only` class, but Tailwind only emits utilities it
+   finds in source files and this markup is generated at runtime — so the rule
+   is declared here rather than relied upon. */
+.prose .footnotes h2.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+	border: 0;
+}
+
+.prose sup a[data-footnote-ref] {
+	color: var(--color-muted);
+	text-decoration: none;
+	padding: 0 0.15em;
+	font-size: 0.75em;
+	/* Numerals here are lining, not oldstyle — an oldstyle superscript reads
+	   as a typo at this size. */
+	font-variant-numeric: lining-nums;
+}
+
+.prose sup a[data-footnote-ref]:hover {
+	color: var(--color-bright);
+	text-decoration: underline;
+}
+
+.prose .footnotes {
+	margin-top: 3em;
+	padding-top: 1.5em;
+	border-top: 1px solid var(--color-rule);
+	font-size: 0.875em;
+	color: var(--color-muted);
+	text-align: left;
+	hyphens: none;
+}
+
+.prose .footnotes li {
+	margin-bottom: 0.75em;
+}
+
+.prose .footnotes a[data-footnote-backref] {
+	text-decoration: none;
+	margin-left: 0.35em;
+}
+
 .chat-prose p {
 	margin-bottom: 0.75em;
 }

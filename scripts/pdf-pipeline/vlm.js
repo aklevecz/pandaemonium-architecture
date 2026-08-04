@@ -28,15 +28,22 @@ import { ROOT, WORK_DIR, parseStageArgs } from './lib/work.js';
 
 const DEFAULT_MODEL = process.env.PDF_PIPELINE_MODEL ?? 'gemini-3.1-flash-lite-preview';
 const MAX_OUTPUT_TOKENS = 8192;
+// Transient-failure retry, same shape as scripts/figures-vlm-crop.js and
+// scripts/embed-readings.js: 5 attempts, exponential backoff from 1.5s.
+const MAX_ATTEMPTS = 5;
+const RETRY_BASE_MS = 1500;
 // Per-class fallback model used when the primary model returns RECITATION.
 // We learned during the corpus run that Pro retries identically — a step UP
 // in capability sometimes shakes the filter loose, but staying with the same
 // vendor/model on retry never does.
+// gemini-3-pro-preview, the original choice here, was retired and now 404s —
+// which silently turned every RECITATION into a permanent failure. Verified
+// against a blocked page: 3.1-pro clears it, 3.6-flash still refuses.
 const FALLBACK_MODEL_BY_CLASS = {
 	'born-digital-clean': null, // pdftotext fallback handled by fallback.js
 	mixed: null, // ditto
-	scanned: 'gemini-3-pro-preview',
-	'notes-heavy': 'gemini-3-pro-preview'
+	scanned: 'gemini-3.1-pro-preview',
+	'notes-heavy': 'gemini-3.1-pro-preview'
 };
 
 // --- env loading -----------------------------------------------------------
@@ -140,6 +147,8 @@ You will be given:
 
 // --- API call --------------------------------------------------------------
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 async function callGemini({ apiKey, imageBase64, rawText, pageNum, totalPages, slug, model }) {
 	const userText = `Page ${pageNum} of ${totalPages} from "${slug}".\n\n${
 		rawText && rawText.trim().length
@@ -165,17 +174,40 @@ async function callGemini({ apiKey, imageBase64, rawText, pageNum, totalPages, s
 	};
 
 	const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
-	const res = await fetch(url, {
-		method: 'POST',
-		headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
-		body: JSON.stringify(body)
-	});
 
-	if (!res.ok) {
-		const text = await res.text();
-		throw new Error(`Gemini ${res.status}: ${text.slice(0, 500)}`);
+	// This is the longest, most expensive stage, and a page that fails here is
+	// not retried anywhere downstream — fallback.js just degrades it to raw
+	// pdftotext or an `<!-- extraction failed -->` placeholder. So absorb the
+	// transient failures here: 429 (rate limit), 5xx, and network errors get
+	// exponential backoff. Everything else fails fast — a 4xx-other is a bad
+	// key or a bad request and will never succeed, and RECITATION is raised
+	// below this loop from an otherwise-OK response so it still reaches the
+	// per-class model-escalation path in processPage() unretried.
+	let response = null;
+	let lastErr = null;
+	for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
+		if (attempt > 0) {
+			await sleep(RETRY_BASE_MS * 2 ** (attempt - 1) + Math.floor(Math.random() * 500));
+		}
+		let res;
+		try {
+			res = await fetch(url, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
+				body: JSON.stringify(body)
+			});
+		} catch (err) {
+			lastErr = new Error(`Gemini request failed: ${err.message}`); // network — retryable
+			continue;
+		}
+		if (res.ok) { response = res; break; }
+		const text = await res.text().catch(() => '');
+		lastErr = new Error(`Gemini ${res.status}: ${text.slice(0, 500)}`);
+		if (res.status !== 429 && res.status < 500) throw lastErr;
 	}
-	const json = await res.json();
+	if (!response) throw lastErr;
+
+	const json = await response.json();
 	const candidate = json.candidates?.[0];
 	if (!candidate) throw new Error(`Gemini returned no candidate: ${JSON.stringify(json).slice(0, 300)}`);
 	if (candidate.finishReason && candidate.finishReason !== 'STOP' && candidate.finishReason !== 'MAX_TOKENS') {

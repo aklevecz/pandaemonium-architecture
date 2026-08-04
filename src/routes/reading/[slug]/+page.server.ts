@@ -1,5 +1,6 @@
 import { error } from '@sveltejs/kit';
-import { marked } from 'marked';
+import { Marked } from 'marked';
+import footnote from 'marked-footnote';
 import { dev } from '$app/environment';
 import { weeks, introductoryReadings, type Reading } from '$lib/data/syllabus';
 import { slugify } from '$lib/utils/slug';
@@ -45,6 +46,12 @@ function buildMetaMap(): Map<string, ReadingMeta> {
 
 const metaMap = buildMetaMap();
 
+// Core marked has no footnote support, so the pipeline's `[^12]` markers and
+// their `## Notes` bodies used to render as literal text mid-paragraph. The
+// extension turns them into linked superscripts with back-references.
+// Built once per isolate, like metaMap.
+const md = new Marked().use(footnote());
+
 export const prerender = false;
 
 export const load: PageServerLoad = async ({ params, fetch, platform, url }) => {
@@ -74,7 +81,7 @@ export const load: PageServerLoad = async ({ params, fetch, platform, url }) => 
 	]);
 	if (!res.ok) error(404, 'Reading content not found');
 	const raw = await res.text();
-	const content = await marked(raw);
+	const content = await md.parse(raw);
 	const summary = sumRes.ok ? await sumRes.json() : null;
 
 	return {

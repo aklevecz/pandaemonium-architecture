@@ -39,7 +39,7 @@ combination of step 0 players (whose average guess is 50), and
 step 1 players (who guess 2/3 times 50).
 
 A Poisson distribution is described by a single parameter τ,
-which is the mean and variance.[^1] In 24 beauty contest data sets,
+which is the mean and variance.<sup>1</sup> In 24 beauty contest data sets,
 the median estimate is τ̂ = 1.61. This value explains why the
 convergence process stops at an average around 30 in the beauty
 contest game, rather than converging to the equilibrium of zero.
@@ -60,7 +60,7 @@ More details are in our longer paper [Camerer, Ho, and Chong
 2002].
 
 ---
-[^1]: Future work could endogenize the distribution *f(k)* based on trade-offs
+<sup>1</sup>: Future work could endogenize the distribution *f(k)* based on trade-offs
 between benefits and costs of thinking harder.
 
 II. THE POISSON COGNITIVE HIERARCHY (CH) MODEL

@@ -91,12 +91,6 @@ Return to Issue **#137**
 
 [^1]: The footnote text is not provided on this page.
 
-[^2]: Carl Schmitt, Political Theology: Four Chapters on the Concept of Sovereignty, trans. George Schwab (University of Chicago Press, 2005), 36.
-
-[^3]: Hans Blumenberg, “Progress Exposed as Fate,” chap. 3 of part 1, in The Legitimacy of the Modern Age, trans. Robert M. Wallace (MIT Press, 1985).
-
-[^4]: John. R. Searle, “Minds, Brains, and Programs,” Behavioral and Brain Sciences 3, no. 3 (1980): 418.
-
 [^5]: Noam Chomsky, Ian Roberts, and Jeffrey Watumull, “Noam Chomsky: The False Promise of ChatGPT,” *The New York Times*, March 8, 2023.
 
 [^6]: Yuk Hui, *Art and Cosmotechnics* (University of Minnesota Press, 2021).
@@ -107,16 +101,36 @@ Return to Issue **#137**
 
 [^9]: Brian Cantwell Smith, *The Promise of Artificial Intelligence: Reckoning and Judgment* (MIT Press, 2019).
 
+[^13]: [Note: The original text contains a footnote marker 13, but the footnote body is not present on this page.]
+
+[^1-p6]: “This occidental conception of history, implying an irreversible direction toward a future goal, is not merely occidental. It is essentially a Hebrew and Christian assumption that history is directed toward an ultimate purpose and governed by the providence of a supreme insight and will—in Hegel’s terms, by spirit or reason as ‘the absolutely powerful essence.’” Karl Löwith, Meaning in History (University of Chicago Press, 1949), 54.
+
+[^13-p6]: Hannah Arendt, The Human Condition, 2nd ed. (University of Chicago Press, 1998), 127.
+
+[^2]: Carl Schmitt, Political Theology: Four Chapters on the Concept of Sovereignty, trans. George Schwab (University of Chicago Press, 2005), 36.
+
+[^3]: Hans Blumenberg, “Progress Exposed as Fate,” chap. 3 of part 1, in The Legitimacy of the Modern Age, trans. Robert M. Wallace (MIT Press, 1985).
+
+[^4]: John. R. Searle, “Minds, Brains, and Programs,” Behavioral and Brain Sciences 3, no. 3 (1980): 418.
+
 [^10]: Gotthard Günther, Das Bewusstsein der Maschinen: eine Metaphysik der Kybernetik (Agis-Verlag, 1957); Gilbert Simondon, Sur la philosophie (PUF, 2016), 180.
 
 [^11]: Quoted in Tiernan Ray, “ChatGPT Is ‘Not Particularly Innovative,’ and ‘Nothing Revolutionary,’ Says Meta’s Chief AI Scientist,” ZDNET, January 23, 2023 →.
 
 [^12]: Brian Cantwell Smith, The Promise of Artificial Intelligence: Reckoning and Judgment (MIT Press, 2019). I engaged more with Smith’s argument in chapter 3 of Art and Cosmotechnics (e-flux and University of Minnesota Press, 2021).
 
-[^13]: [Note: The original text contains a footnote marker 13, but the footnote body is not present on this page.]
-
 [^14]: Gregory Bateson, “The Cybernetics of ‘Self’: A Theory of Alcoholism,” in Steps to an Ecology of Mind (Jason Aronson, 1987).
 
 [^15]: See Yuk Hui, “For a Planetary Thinking,” e-flux journal, no. 114 (December 2020) →.
 
 [^16]: See the question of evil in F. W. J. Schelling, Philosophical Investigations into the Essence of Human Freedom, trans. Jeff Love and Johannes Schmidt (SUNY Press, 2006).
+
+[^5-p6]: Noam Chomsky, Ian Roberts, and Jeffrey Watumull, “The False Promise of ChatGPT,” New York Times, March 8, 2023 →.
+
+[^6-p6]: Yuk Hui, Recursivity and Contingency (Rowman and Littlefield, 2019).
+
+[^7-p6]: See Yuk Hui, “Philosophy after Automation,” Philosophy Today 65, no.2 (2021).
+
+[^8-p6]: Gilbert Simondon, “Technics Learned by the Child and Technics Thought by the Adult,” chap. 2 of part 2, in On the Mode of Existence of Technical Objects (1958), trans. Cecile Malaspina and John Rogrove (Univocal, 2017).
+
+[^9-p6]: “Many people have argued that the semantics of computational systems is intrinsically derivative or attributed—i.e., of the sort that books and signs have, in the sense of being ascribed by outside observers or users—as opposed to that of human thought and language, which in contrast is assumed to be original or authentic. I am dubious about the ultimate utility (and sharpness) of this distinction and also about its applicability to computers.” Brian Cantwell Smith, On the Origin of Objects (MIT Press, 1996), 10. For an extended discussion of Smith’s work, see Yuk Hui, “Digital Objects and Ontologies,” chap. 2 in On the Existence of Digital Objects (University of Minnesota Press, 2016).

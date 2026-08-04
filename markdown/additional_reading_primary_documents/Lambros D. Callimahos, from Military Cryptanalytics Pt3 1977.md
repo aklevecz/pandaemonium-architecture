@@ -279,7 +279,7 @@ b. Although a solution may often be obtained without breaking down a resultant p
 
 *b.* To make such a system truly aperiodic (under the definition given in subpar. 1*e*), by elaborating upon the basic scheme for producing variable-length plaintext groupings, would be possible, but impractical. For example, using the Morse code method illustrated in subpar. 3*f* for determining the key and simultaneously the lengths of the groupings, one might employ the text of a book; and if the book is longer than the message to be enciphered, the cryptogram would certainly show no periodicity as regards the intervals between any repetitions which might occur. However, as already indicated, such a scheme would not be very practical for regular intercommunication between a large number of correspondents, for reasons which are quite apparent. Encipherment and decipherment would be slow, cumbersome, onerous, and very subject to error; the book would have to be safeguarded as would a code book; and, unless the same key text were used for all messages, methods or indicators would have to be adopted to show exactly where encipherment begins in each message. Therefore a simpler method is desirable for producing constantly changing, aperiodic plaintext groupings.
 
-8. **Aperiodic encipherment produced by plaintext sequences grouped according to word lengths.**—*a.* The simplest method for producing aperiodic plaintext groupings is encipherment according to the actual word lengths of the message being encrypted. Although the average number of letters composing the words of any alphabetical language is fairly constant, successive words comprising plain text vary a great deal in this respect, and this variation is subject to no law.[^1] In telegraphic English, for example, the mean length of words is 5.2 letters; the words may contain from 1 to 15 or more letters, but the successive words vary in length in an extremely irregular manner, no matter how long the text may be.
+8. **Aperiodic encipherment produced by plaintext sequences grouped according to word lengths.**—*a.* The simplest method for producing aperiodic plaintext groupings is encipherment according to the actual word lengths of the message being encrypted. Although the average number of letters composing the words of any alphabetical language is fairly constant, successive words comprising plain text vary a great deal in this respect, and this variation is subject to no law.[^1-p13] In telegraphic English, for example, the mean length of words is 5.2 letters; the words may contain from 1 to 15 or more letters, but the successive words vary in length in an extremely irregular manner, no matter how long the text may be.
 
 *b.* As a consequence, the use of word lengths for determining the number of letters to be enciphered by each key letter of a repetitive key suggests itself to a cryptographer as soon as he comes to understand the way in which repeating-key ciphers are solved. For, he asks, if there is no periodicity in the cryptograms, how can the letters of the cipher text written in 5-letter groups be distributed into their respective monoalphabets? And if this very first step is impossible, how can the cryptograms be solved? We shall see.
 
@@ -292,7 +292,7 @@ b. As an example, let us consider the following intercepted message:
 S U H P Z T C E P L G L Q K C X H V K M V J L Z A K X W H A
 Y T O W N H B A F E X A V E Q A U V Z I E B P O B
 
-In the course of routine study of the message, the plain-component sequence is completed for the first 15 letters of the cryptogram, on the assumptions of direct and reversed standard cipher alphabets, as shown in Figs. 2a and b, respectively, below:[^2]
+In the course of routine study of the message, the plain-component sequence is completed for the first 15 letters of the cryptogram, on the assumptions of direct and reversed standard cipher alphabets, as shown in Figs. 2a and b, respectively, below:[^2-p14]
 
 **[Figure: Completion diagram for direct standard cipher alphabet]**
 > **Caption:** FIGURE 2a
@@ -302,9 +302,9 @@ In the course of routine study of the message, the plain-component sequence is c
 
 c. In the diagram in Fig. 2b we note the word CAN at the beginning of one generatrix, then in the very next six columns the words YOU and GET in two other generatrices. That we should get some three-letter words on various generatrices is not particularly remarkable; (note the short words produced purely by accident in the generatrices of Fig. 2a) but that these words should follow one another in direct sequence in succeeding columns, and that the three words in question should be in excellent contextual relationship to form a plausible and convincing sentence beginning such as "CAN YOU GET . . ."
 
-is more than remarkable (=a probability of .01 of random occurrence)—it is astonishing (=random probability of .0001).[^3]
+is more than remarkable (=a probability of .01 of random occurrence)—it is astonishing (=random probability of .0001).[^3-p15]
 
-*d.* From here on the rest of the solution follows easily. If the cryptanalyst comes to a temporary halt (as in the example in Fig. 2b) in recovering further words on the generatrices, he can search in subsequent positions of the generatrix diagram for more words to be disclosed, and then he can fill in the missing portions from context and take another look at the generatrices. Or, it might be simpler if the cryptanalyst recovers a fragment of the specific key for the message, and then expands this key by steps to assist in reading the rest of the plain text. For example, in the case under discussion the cryptanalyst would get U, N, and I as key letters[^4] for the successive words of the plain text CAN YOU GET; these letters suggest the words UNION, UNITED, UNIVERSITY, etc. The complete solution is given below, with the recovered specific key being UNITED NATIONS.[^5]
+*d.* From here on the rest of the solution follows easily. If the cryptanalyst comes to a temporary halt (as in the example in Fig. 2b) in recovering further words on the generatrices, he can search in subsequent positions of the generatrix diagram for more words to be disclosed, and then he can fill in the missing portions from context and take another look at the generatrices. Or, it might be simpler if the cryptanalyst recovers a fragment of the specific key for the message, and then expands this key by steps to assist in reading the rest of the plain text. For example, in the case under discussion the cryptanalyst would get U, N, and I as key letters[^4-p15] for the successive words of the plain text CAN YOU GET; these letters suggest the words UNION, UNITED, UNIVERSITY, etc. The complete solution is given below, with the recovered specific key being UNITED NATIONS.[^5-p15]
 
 ```
 U    N    I    T    E    D    N         A         T    I    O    N    S
@@ -322,7 +322,7 @@ The only minor difficulty of such a solution is that of making the first step an
 
 of a message are enciphered monoalphabetically, the true and complete idiomorphs of word patterns will be patent, regardless of the identity of the particular alphabet used in the encryption of each word. These idiomorphs and word lengths can then be used as a basis for the probable-word method of attack.
 
-*b.* Let us study the following low-echelon ground message in which the actual word lengths have been preserved in the cipher text:[^6]
+*b.* Let us study the following low-echelon ground message in which the actual word lengths have been preserved in the cipher text:[^6-p16]
 
 IUITD QHIWE LVCGWPCLZ RP NIV GYPYSYCV NC IXHCXWUJ ORS ZXH
 
@@ -333,7 +333,7 @@ We note some strong idiomorphic sequences, in particular the following:
 (1) IUITD (2) GYPYSYCV (3) GRPPRVQDOB (4) OKYNMMHKV
 aba abaca abba abcddea
 
-Looking up these patterns in idiomorph lists,[^7] and guided by the delimitations of the words, we arrive at the following assumptions:
+Looking up these patterns in idiomorph lists,[^7-p16] and guided by the delimitations of the words, we arrive at the following assumptions:
 
 (1) IUITD (2) GYPYSYCV (3) GRPPRVQDOB (4) OKYNMMHKV
 ENEMY DIVISION BATTALIONS ARTILLERY
@@ -735,18 +735,18 @@ We notice that the cipher equivalents agree only in the first, third, fifth, eig
 | Solution when unknown cipher alphabets are employed | 19 |
 | Additional remarks | 20 |
 
-14. **General.**—a. The systems treated in the preceding chapter incorporated simple methods of eliminating or avoiding periodicity by enciphering variable-length groupings of the plain text, using constant-length keying units; the essence of those systems was really monoalphabetic encipherment by sections,[^1] the sections comprising irregular-length plaintext groupings. In subpar. 2a, however, it was pointed out that periodicity can also be suppressed by applying variable-length keying units to constant-length plaintext groupings; the essence of such systems is polyalphabetic substitution applied to the plaintext units (usually single letters). One such method consists in irregularly interrupting the keying sequence, if the latter is of a limited or fixed length, and recommencing it (from its initial point) after such interruption, so that the keying sequence becomes equivalent to a series of keys of different lengths. Thus, the key phrase BUSINESS MACHINES might be expanded, by a particular keying convention, into a series of irregular-length keying sequences, such as BUSI/BUSINE/BU/BUSINESSM/BUSINESSMAC, etc. Various schemes or prearrangements for determining the type or character of the interruptions may be adopted. Several typical methods will now be described.
+14. **General.**—a. The systems treated in the preceding chapter incorporated simple methods of eliminating or avoiding periodicity by enciphering variable-length groupings of the plain text, using constant-length keying units; the essence of those systems was really monoalphabetic encipherment by sections,[^1-p30] the sections comprising irregular-length plaintext groupings. In subpar. 2a, however, it was pointed out that periodicity can also be suppressed by applying variable-length keying units to constant-length plaintext groupings; the essence of such systems is polyalphabetic substitution applied to the plaintext units (usually single letters). One such method consists in irregularly interrupting the keying sequence, if the latter is of a limited or fixed length, and recommencing it (from its initial point) after such interruption, so that the keying sequence becomes equivalent to a series of keys of different lengths. Thus, the key phrase BUSINESS MACHINES might be expanded, by a particular keying convention, into a series of irregular-length keying sequences, such as BUSI/BUSINE/BU/BUSINESSM/BUSINESSMAC, etc. Various schemes or prearrangements for determining the type or character of the interruptions may be adopted. Several typical methods will now be described.
 
-b. There are many methods of interrupting a keying sequence which is basically cyclic and which therefore would give rise to periodicity if not interferred with in some way. These methods may, however, be classified into six general cases as regards what happens after the interruption occurs.[^2]
+b. There are many methods of interrupting a keying sequence which is basically cyclic and which therefore would give rise to periodicity if not interferred with in some way. These methods may, however, be classified into six general cases as regards what happens after the interruption occurs.[^2-p30]
 
 Case I: The keying sequence merely stops and begins again at the initial point of the cycle.
 Case II: Certain elements of the keying sequence may "stutter" or be repeated a fixed or a variable number of times.
 Case III: One or more of the elements in the keying sequence may be omitted from time to time irregularly.
-Case IV: The keying sequence irregularly alternates in its direction of progression.[^3]
+Case IV: The keying sequence irregularly alternates in its direction of progression.[^3-p30]
 Case V: The keying sequence irregularly alternates in its direction of progression, and, in addition, certain elements of the keying sequence may be repeated one or more times.
 Case VI: The keying sequence irregularly alternates in its direction of progression, and, in addition, one or more of the elements in the keying sequence are omitted from time to time irregularly.
 
-c. The foregoing methods may, for clarity, be represented graphically as follows. Suppose the key consists of a cyclic sequence of 10 elements represented symbolically by the series of numbers 1, 2, 3, . . . 0. Indicating an interruption by a vertical line,[^4] we show in Fig. 13, below, the relationship between
+c. The foregoing methods may, for clarity, be represented graphically as follows. Suppose the key consists of a cyclic sequence of 10 elements represented symbolically by the series of numbers 1, 2, 3, . . . 0. Indicating an interruption by a vertical line,[^4-p30] we show in Fig. 13, below, the relationship between
 
 the letter at each position of the message and the identity of the element of the keying sequence in the
 six general cases discussed above.
@@ -773,7 +773,7 @@ six general cases discussed above.
 > **Caption:** FIGURE 13
 > **Figure text:** Note that in Cases III and VI the amount of skip is here portrayed as being constant. This is not a necessary condition in these keying methods; the amount of skip could have consisted of irregular jumps as established by the keying convention employed.
 
-d. If we knew just when the interruptions take place, and if we also knew the exact nature of the effect of each interruption,[^5] then the successive ciphertext sections of encrypted messages in the foregoing six cases could be properly superimposed so as to be in true cryptographic depth. In the diagrams below, the digits in the top line represent the ten keying elements, while the numbers 1–50 underneath this line represent the positional identities of the first 50 ciphertext letters.
+d. If we knew just when the interruptions take place, and if we also knew the exact nature of the effect of each interruption,[^5-p31] then the successive ciphertext sections of encrypted messages in the foregoing six cases could be properly superimposed so as to be in true cryptographic depth. In the diagrams below, the digits in the top line represent the ten keying elements, while the numbers 1–50 underneath this line represent the positional identities of the first 50 ciphertext letters.
 
 Case I
 1 2 3 4 5 6 7 8 9 Ø
@@ -811,11 +811,11 @@ Case II
 
 Obviously, if we did not know when or how the interruptions take place, then the successive sections of keying elements cannot be superimposed as indicated above.
 
-e. The interruption of the fundamental cyclic keying sequence usually takes place according to some prearranged plan or convention. The identity of the plaintext letters being enciphered might be involved in the determination of the interruption (as in plaintext interruptor systems); [^6] or the identity of the ciphertext letters might be a factor (as in ciphertext interruptor systems); or, finally, the interruption of the fundamental cyclic keying sequence might be predicated upon a separate convention,
+e. The interruption of the fundamental cyclic keying sequence usually takes place according to some prearranged plan or convention. The identity of the plaintext letters being enciphered might be involved in the determination of the interruption (as in plaintext interruptor systems); [^6-p32] or the identity of the ciphertext letters might be a factor (as in ciphertext interruptor systems); or, finally, the interruption of the fundamental cyclic keying sequence might be predicated upon a separate convention,
 
 mechanism, or prearrangement, without regard to the plain text or the cipher text. Some basic methods of interruption will now be taken up, using a short mnemonic key as an example.
 
-15. **Plaintext interruptor systems.**—a. Suppose the correspondents agree that the interruption in the key will take place after the occurrence of a specified letter in the plain text, after which the key begins anew at its initial position.[^7] Since there is nothing fixed about the time the interruption will occur—it will take place at no fixed intervals—not only does the interruption become quite irregular, following no pattern, but also the method never reverts to one having periodicity. Let us assume that the correspondents have agreed upon Rₚ as the interruptor letter, and that they are using the normal sequence for the plain component and the HYDRAULIC . . . XZ sequence for the cipher component. If the mnemonic key phrase is BUSINESS MACHINES, this key would be interrupted by the occurrences of Rₚ as in the following example:
+15. **Plaintext interruptor systems.**—a. Suppose the correspondents agree that the interruption in the key will take place after the occurrence of a specified letter in the plain text, after which the key begins anew at its initial position.[^7-p33] Since there is nothing fixed about the time the interruption will occur—it will take place at no fixed intervals—not only does the interruption become quite irregular, following no pattern, but also the method never reverts to one having periodicity. Let us assume that the correspondents have agreed upon Rₚ as the interruptor letter, and that they are using the normal sequence for the plain component and the HYDRAULIC . . . XZ sequence for the cipher component. If the mnemonic key phrase is BUSINESS MACHINES, this key would be interrupted by the occurrences of Rₚ as in the following example:
 
 Key: B U S I N E S S M A C H I B U S B U S I B U S I N E
 Plain: A M M U N I T I O N F O R F I R S T A R T I L L E R
@@ -866,13 +866,13 @@ B O L Y R P J D R O J K X T P F Y X S X B P U U Q H R N M Y
 T T X H P C R F Q B E J F I E L L B O N Q O Q V E C X B O D
 F P A Z Q O N U F I C G J R Q
 
-*b.* In the foregoing example, there are no significant repetitions; such as do occur comprise only digraphs, several of which are purely accidental. But the absence of significant, long repetitions is itself purely accidental, for had the interruptor letter been a letter other than Qc, then the phrase AMMUNITION FOR (which occurs twice) might have been enciphered identically both times. If a short key is employed, repetitions may be plentiful. For example, note the following, in which Sc is the interruptor letter: [^8]
+*b.* In the foregoing example, there are no significant repetitions; such as do occur comprise only digraphs, several of which are purely accidental. But the absence of significant, long repetitions is itself purely accidental, for had the interruptor letter been a letter other than Qc, then the phrase AMMUNITION FOR (which occurs twice) might have been enciphered identically both times. If a short key is employed, repetitions may be plentiful. For example, note the following, in which Sc is the interruptor letter: [^8-p34]
 
 Key: B A N D S B A N D S B A N D S B A N D S B A N B A N D S B B A
 Plain: F R O M F O U R F I V E T O F O U R F I F T E E N W I L L B E . . .
 Cipher: K T A K Z W X I I D A C B N Z W X I I D K W S J O G E U S E C
 
-*c.* This last example gives a clue to one method of attacking this type of system. There will be repetitions within short sections, and the interval between them will sometimes permit ascertaining the length of the basic key. In such short sections, the letters which intervene between the repeated sequences may be eliminated as possible interruptor letters. Thus, in the foregoing example, we can deduce that the length of the basic key is 5 letters, and that the cipher letters A, C, B, and N may be eliminated as interruptor letters. By extension of this principle to the letters intervening between other repetitions, one may more-or-less quickly ascertain what ciphertext letter serves as the interruptor.[^9]
+*c.* This last example gives a clue to one method of attacking this type of system. There will be repetitions within short sections, and the interval between them will sometimes permit ascertaining the length of the basic key. In such short sections, the letters which intervene between the repeated sequences may be eliminated as possible interruptor letters. Thus, in the foregoing example, we can deduce that the length of the basic key is 5 letters, and that the cipher letters A, C, B, and N may be eliminated as interruptor letters. By extension of this principle to the letters intervening between other repetitions, one may more-or-less quickly ascertain what ciphertext letter serves as the interruptor.[^9-p34]
 
 *d.* The ciphertext interruptor might be a letter which is not otherwise used in the cryptographic scheme; for example, the plain component might be a 25-letter sequence (combining I and J) and the cipher component a 25-letter sequence excluding, let us say, Z. This letter Z may then be inserted in appropriate places in the cipher text to signal the interruptions in the keying cycle. In some cases such a special interruptor letter may be used in addition to a ciphertext interruptor which arises from the bona fide encryption of a plaintext letter, as a means of insuring that interruption of the keying cycle will take place frequently enough to suit the cryptographer or his procedures-prescribing superiors.
 
@@ -909,13 +909,13 @@ U L I C H Y D R/L I C H Y D/I C H Y D/C H/
 (3) H Y D R A/H Y D R A U L I C/H Y D/H/H Y D R A U L I/
 H Y D R A U L/H Y D R/H Y D R A U/H Y/
 
-Method (2) is essentially the same as (1), except that the key fragments are taken in the order in which they appear in the key word. Method (3) involves taking the successive sections of the numerical key, these sections terminating with the successive numbers 1, 2, 3, . . . of the numerical key.[^10]
+Method (2) is essentially the same as (1), except that the key fragments are taken in the order in which they appear in the key word. Method (3) involves taking the successive sections of the numerical key, these sections terminating with the successive numbers 1, 2, 3, . . . of the numerical key.[^10-p35]
 
 *c.* Many other methods exist for the establishment of keys consisting of variable-length keying units. Furthermore, some of these methods merge into the domain of methods of lengthening or extending keys in general, apart from any considerations of variable-length keying units. Several of the most important of these methods will be discussed in subsequent chapters of this text.
 
 18. Solution when known cipher alphabets are employed.—a. (1) Let us suppose that a particular cryptosystem has been in use for some time, and that the general nature of the system and the cipher
 
-alphabets have become known, either through successful cryptanalysis or through light-fingered techniques coming under the formal term of "physical compromise," which includes among its manifold tachydactylurgic aspects that which has been referred to colloquially as "wastebasket cryptanalysis." [^11] Only the specific key to messages remains unknown. The cipher text is examined for repetitions, and an attack is made on the basis of searching for a probable word. Thus, taking the cryptogram in subpar. 15a as an example (quoted here below for convenience), suppose the presence of the word ARTILLERY is suspected.
+alphabets have become known, either through successful cryptanalysis or through light-fingered techniques coming under the formal term of "physical compromise," which includes among its manifold tachydactylurgic aspects that which has been referred to colloquially as "wastebasket cryptanalysis." [^11-p36] Only the specific key to messages remains unknown. The cipher text is examined for repetitions, and an attack is made on the basis of searching for a probable word. Thus, taking the cryptogram in subpar. 15a as an example (quoted here below for convenience), suppose the presence of the word ARTILLERY is suspected.
 
 B O L Y R P J D R O J K X K J F Y X S X D J U P S Y I Y D P
 X F X U R A F A E N M J J V B O L Y R P J D R O J K X D G D
@@ -929,7 +929,7 @@ Key: B H J Q P I B F U
 Cipher: B O L Y R P J D R
 Plain: A R T I L L E R Y
 
-Since this "key" is certainly not intelligible text, the assumed word is moved one letter to the right and the test repeated, and so on until the 19th position in the text is reached. [^12]
+Since this "key" is certainly not intelligible text, the assumed word is moved one letter to the right and the test repeated, and so on until the 19th position in the text is reached. [^12-p36]
 
 Key: S I B U S I N E B
 Cipher: S X D J U P S Y I
@@ -972,7 +972,7 @@ Plain: A M M U N I T I U M T H I E T
 > (b) (3)-50 USC 3024(i)
 > (b) (3)-P.L. 86-36
 
-d. (1) Another technique, if we know or can assume the method of key interruption (e.g., a skip over one element of the key after the occurrence of a previously designated ciphertext letter, in this case Wc), involves writing out the modified cipher text of a single message on trial widths in order to see if any cyclic properties are present in the basic, uninterrupted key. We can then determine statistically when the correct cyclic write-out is reached by the application of a technique discussed in the preceding text.[^16]
+d. (1) Another technique, if we know or can assume the method of key interruption (e.g., a skip over one element of the key after the occurrence of a previously designated ciphertext letter, in this case Wc), involves writing out the modified cipher text of a single message on trial widths in order to see if any cyclic properties are present in the basic, uninterrupted key. We can then determine statistically when the correct cyclic write-out is reached by the application of a technique discussed in the preceding text.[^16-p39]
 As an example, let us assume the following message is at hand:
 
 G S W W T R H Z D W G L N U J W X R W R H N Q L S Y X T E V
@@ -981,7 +981,7 @@ V C T E A V C A W G J I C G G C I S N S I V C J B S Z S R W
 V L K Z R J B H C C C A Y Q V W J M R L W T L R S D J X F N
 Z Z I A F M Q J C X
 
-(2) If we know the method of interruption and also the identity of the ciphertext interruptor,[^17] we would write out the appropriately modified cipher text on various widths, testing each hypothesis in turn, until a satisfactory I.C. is reached for an entire columnar array. For example, if we know that the enemy is using key words and phrases from 11 to 40 letters in length as the basic key sequence, we would begin by writing out the modified cipher text (on the assumption of Wc as the interruptor letter) on a width of 11 as shown below, together with the appropriate φ values for the computations:
+(2) If we know the method of interruption and also the identity of the ciphertext interruptor,[^17-p39] we would write out the appropriately modified cipher text on various widths, testing each hypothesis in turn, until a satisfactory I.C. is reached for an entire columnar array. For example, if we know that the enemy is using key words and phrases from 11 to 40 letters in length as the basic key sequence, we would begin by writing out the modified cipher text (on the assumption of Wc as the interruptor letter) on a width of 11 as shown below, together with the appropriate φ values for the computations:
 
 **[Figure: Columnar array of ciphertext with φ values]**
 > **Figure text:** 
@@ -1051,7 +1051,7 @@ Note the I.C. of 1.67 for the width of 29, and the I.C. of 1.69 for the width of
 
 [^19]: *Military Cryptanalytics, Part I*, subpar. 17b.
 
-column have undergone the same kind of treatment by the same elements (plain and cipher components of the cipher alphabet).” [^20] It follows that, even if the repeating key is very long, if there are many short cryptograms all enciphered by exactly the same key and each message begins at the same point in the key, the distributions applicable to the successive columns of text can be solved. [^21] Even in aperiodic systems, if there is available a number of messages starting out in the same key which then diverges in the course of encipherment according to the nature of the cryptosystem, this solution by superimposition may be applicable in particular cases, so long as the key divergence is not too radical for cryptanalytic comfort.
+column have undergone the same kind of treatment by the same elements (plain and cipher components of the cipher alphabet).” [^20-p41] It follows that, even if the repeating key is very long, if there are many short cryptograms all enciphered by exactly the same key and each message begins at the same point in the key, the distributions applicable to the successive columns of text can be solved. [^21-p41] Even in aperiodic systems, if there is available a number of messages starting out in the same key which then diverges in the course of encipherment according to the nature of the cryptosystem, this solution by superimposition may be applicable in particular cases, so long as the key divergence is not too radical for cryptanalytic comfort.
 
 *b.* Let us study the following beginnings of 30 messages, passed between correspondents known to have used various types of aperiodic keying:
 
@@ -1219,7 +1219,7 @@ approach, we might take an introspective look at the first 5 letters of matched 
 
 We note the D$_c$=R$_p$ and Z$_c$=R$_p$ in position 5 of Messages 10 and 20, and observe that, if the system employs a ciphertext interruptor, it may be either F$_c$ or T$_c$; but if TZ$_c$=OR$_p$ in Messages 20 and 28 is causal, F$_c$ and T$_c$ are eliminated and therefore there is no ciphertext interruptor in the cryptosystem. We then note the common F$_c$=F$_p$ between Messages 10 and 28 and the fact that in position 5 of Message 28 Z$_c$=R$_p$, and we may conclude that, if a plaintext interruptor is present, it must be O$_p$. We find this to be true, and when we finish the solution of the problem we find the cipher component to be our perennial friend, the HYDRAULIC . . . XZ sequence, and the basic key to be CALIFORNIAGOLDR(USH).
 
-20. **Additional remarks.**—*a.* We have seen in the preceding paragraph a demonstration of solution of only one irregularly keyed system involving unknown cipher alphabets. The solution involved a set of very fortunate circumstances indeed, all of which were happily present awaiting rapid exploitation by the cheerful cryptanalyst. Modern cryptanalysis is quite often contingent upon miracles—minor miracles for minor systems, and healthy miracles for some of the complex systems encountered in present-day operations. When we come right down to it, all cryptanalysis is astonishing; it certainly is so to a layman, and it is so even to an expert—if he pauses long enough from his breaking of one system after another to marvel at the phenomenal luck he has had, shuddering at the thought of what would have happened if (i.e., if the enemy had done this instead of that, if he had used this instead of that, and if . . . ). On the other hand, all cryptanalysis is quite commonplace: [^22] after all, messages have been encrypted with certain invariant mathematico-philosophical-procedural elements, and all the cryptanalyst does is to discover and exploit these elements. And, in retrospect, after a problem has been solved, we often shrug our shoulders and say "Well, how else would one have done it?" Many systems of the types treated in this volume could be virtually unsolvable, or might appear to be so, if only a small amount of traffic is available for study, and if little or nothing is known about the nature of the cryptosystem. However, as happens time and again in actual operations, Fortuna smiles and the incredible is shorn of its prefix.
+20. **Additional remarks.**—*a.* We have seen in the preceding paragraph a demonstration of solution of only one irregularly keyed system involving unknown cipher alphabets. The solution involved a set of very fortunate circumstances indeed, all of which were happily present awaiting rapid exploitation by the cheerful cryptanalyst. Modern cryptanalysis is quite often contingent upon miracles—minor miracles for minor systems, and healthy miracles for some of the complex systems encountered in present-day operations. When we come right down to it, all cryptanalysis is astonishing; it certainly is so to a layman, and it is so even to an expert—if he pauses long enough from his breaking of one system after another to marvel at the phenomenal luck he has had, shuddering at the thought of what would have happened if (i.e., if the enemy had done this instead of that, if he had used this instead of that, and if . . . ). On the other hand, all cryptanalysis is quite commonplace: [^22-p45] after all, messages have been encrypted with certain invariant mathematico-philosophical-procedural elements, and all the cryptanalyst does is to discover and exploit these elements. And, in retrospect, after a problem has been solved, we often shrug our shoulders and say "Well, how else would one have done it?" Many systems of the types treated in this volume could be virtually unsolvable, or might appear to be so, if only a small amount of traffic is available for study, and if little or nothing is known about the nature of the cryptosystem. However, as happens time and again in actual operations, Fortuna smiles and the incredible is shorn of its prefix.
 
 *b.* Operationally, cryptodilemmas are resolved by the exploitation of contingencies which are by now well-known to the reader: (1) messages in the same or nearly the same keys; (2) depths and partial depths; (3) polygraphic repetitions; (4) cribs; (5) various kinds of cryptographic errors; (6) isologs; (7) matched plain and cipher; (8) isomorphs; (9) indicators. Each problem presents a very special case, and therefore demands its own special requirements for solution.
 
@@ -1240,7 +1240,7 @@ We note the D$_c$=R$_p$ and Z$_c$=R$_p$ in position 5 of Messages 10 and 20, and
 | | 27 |
 | Further remarks on ciphertext autokey systems | 28 |
 
-**21. The cryptography of autokey encipherment.**—*a.* The mechanics of autokey encipherment were treated briefly in the preceding volume.[^1] In autokey systems there are two possible sources for successive key letters: the cipher text or the plain text of the message itself. In either case, the *initial* key letter or key letters are supplied by prearrangement between the correspondents, or are designated by means of an indicator; after that, the text letters that are to serve as the key are displaced 1, 2, 3 . . . intervals to the right, depending upon the length of the prearranged key.
+**21. The cryptography of autokey encipherment.**—*a.* The mechanics of autokey encipherment were treated briefly in the preceding volume.[^1-p46] In autokey systems there are two possible sources for successive key letters: the cipher text or the plain text of the message itself. In either case, the *initial* key letter or key letters are supplied by prearrangement between the correspondents, or are designated by means of an indicator; after that, the text letters that are to serve as the key are displaced 1, 2, 3 . . . intervals to the right, depending upon the length of the prearranged key.
 
 *b.* An example of ciphertext autokey encipherment is shown below, wherein the cipher alphabets are direct standard alphabets, and the single letter **X** is the prearranged initial key:
 
@@ -1287,12 +1287,12 @@ C: Y V Z K X E I Z P U V Q K G U U Y E A W R C E F M B Y X B Y
 **[Figure: Ciphertext autokey encipherment example using FORTUNE as the initial key]**
 > **Caption:** FIGURE 19b
 
-*d.* In the foregoing examples, direct standard alphabets were used; however, mixed alphabets, [^2] may be used just as readily. Furthermore, instead of the ordinary type of cipher alphabets, the cryptographic process may employ a mathematical process of addition, but the difference between the latter process and the ordinary one using sliding alphabets is more apparent than real. For example, let us consider the following numerical sequence for the 26 letters
+*d.* In the foregoing examples, direct standard alphabets were used; however, mixed alphabets, [^2-p47] may be used just as readily. Furthermore, instead of the ordinary type of cipher alphabets, the cryptographic process may employ a mathematical process of addition, but the difference between the latter process and the ordinary one using sliding alphabets is more apparent than real. For example, let us consider the following numerical sequence for the 26 letters
 
 H Y D R A U L I C B E F G J K M N O P Q S T V W X Z
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 0
 
-and let the plaintext message be the same as before. Let us assume that the cryptographic rules prescribe that the first plaintext letter will be self-enciphered, [^3] and that each cipher letter from that point on is produced in turn by finding the sum (mod 26) of the numerical equivalents of the preceding cipher letter and the plain text letter to be enciphered; in other words, a type of numerical ciphertext autokey system. This is shown in the diagram below, wherein P' denotes the numerical equivalents of the plain text, C' the sum of the key and the numerical (i.e., intermediate) plain text, and C the conversion into letters of the intermediate cipher text C'.
+and let the plaintext message be the same as before. Let us assume that the cryptographic rules prescribe that the first plaintext letter will be self-enciphered, [^3-p47] and that each cipher letter from that point on is produced in turn by finding the sum (mod 26) of the numerical equivalents of the preceding cipher letter and the plain text letter to be enciphered; in other words, a type of numerical ciphertext autokey system. This is shown in the diagram below, wherein P' denotes the numerical equivalents of the plain text, C' the sum of the key and the numerical (i.e., intermediate) plain text, and C the conversion into letters of the intermediate cipher text C'.
 
 K : 0 22 23 5 9 12 16 1 14 22 12 23 14 10 19 11 1 17 22 13 16 9 1 22 18 8 0 23 5 22
 P : T H I R D R E G I M E N T C O M M A N D P O S T M O V I N G . . .
@@ -1374,13 +1374,13 @@ K: D I T G C M G T Z B P C V D Q K Y S K
 C: D I T G C M G T Z B P C V D Q K Y S K . . .
 P: F L N W K U N G C O N T I N U O U S F
 
-We note the plain text “CONTINUOUS F . . . ” emerging, preceded by the NG which is probably ING; this indicates that ciphertext autokey is involved with an initial key of 7 letters, and that the last letter of the initial key is used to start the autokeyed portion. After a little experimentation with the initial portion of the message text and the key,[^4] we recover the key word and the first word of the message, as follows:[^5]
+We note the plain text “CONTINUOUS F . . . ” emerging, preceded by the NG which is probably ING; this indicates that ciphertext autokey is involved with an initial key of 7 letters, and that the last letter of the initial key is used to start the autokeyed portion. After a little experimentation with the initial portion of the message text and the key,[^4-p49] we recover the key word and the first word of the message, as follows:[^5-p49]
 
 K: M E R C U R Y | G T Z B P C V D Q K Y S K
 C: D I T G C M G T Z B P C V D Q K Y S K P . . .
 P: R E C E I V I N G C O N T I N U O U S F
 
-*b.* A mechanical method of solution for ciphertext autokeyed cryptograms when the components are known sequences may be of interest. The method involves the use of sliding alphabet strips aligned in such a manner that, as one progresses from left to right across the strips, each key letter is set opposite the letter k on the preceding strip:[^6] the plain text will appear to the left of the pertinent cipher letter on each strip. In other words, what we have is a mechanical method of correlating the letters of the key, cipher, and plain text; the method is best understood by examples.
+*b.* A mechanical method of solution for ciphertext autokeyed cryptograms when the components are known sequences may be of interest. The method involves the use of sliding alphabet strips aligned in such a manner that, as one progresses from left to right across the strips, each key letter is set opposite the letter k on the preceding strip:[^6-p49] the plain text will appear to the left of the pertinent cipher letter on each strip. In other words, what we have is a mechanical method of correlating the letters of the key, cipher, and plain text; the method is best understood by examples.
 
 (1) In Fig. 21 is illustrated the arrangement of standard-alphabet strips for the first 10 letters of putative key, QXFWZQUAIU, for the message beginning given in subpar. *a*(1), above. If we assume that a one-letter introductory key has been used, the key letters just named were used to key the 2d through 11th cipher letters, XFWZQUAIUY; therefore we search for these cipher letters consecutively across the strips and we note the letters to their immediate left. In this case the plain text HIRDREGIME is manifested and the problem is solved.
 
@@ -1460,9 +1460,9 @@ Z C K D J L X D W V W Z Y Z O Q L O E O M E
 > **Caption:** Figure 23b
 > **Figure text:** (Z B P C V D Q K Y S) (B P C V D Q K Y S K) (C O N T I N U O U S)
 
-Nothing is seen here, so a number of additional trials is made, sliding the assumed key over successive 10-letter segments of the cipher text, all without success. We could now assume that an introductory key word was used, and that the autokeyed portion began with the last letter of cipher text after the end of the introductory key. With this in mind, we take as hypothetical key some text after the beginning of the cryptogram, say the 9th through 18th letters, ZBPCVDQKYS; trying this as key for the 10th through 19th letters, BPCVDQKYSK, we are successful on the first trial as shown in Fig. 23b with the emergence of the plain text CONTINUOUS.[^7]
+Nothing is seen here, so a number of additional trials is made, sliding the assumed key over successive 10-letter segments of the cipher text, all without success. We could now assume that an introductory key word was used, and that the autokeyed portion began with the last letter of cipher text after the end of the introductory key. With this in mind, we take as hypothetical key some text after the beginning of the cryptogram, say the 9th through 18th letters, ZBPCVDQKYS; trying this as key for the 10th through 19th letters, BPCVDQKYSK, we are successful on the first trial as shown in Fig. 23b with the emergence of the plain text CONTINUOUS.[^7-p51]
 
-c. The foregoing mechanical method serves in helping to understand the mechanics of solution of ciphertext autokey encipherment involving known components. A simpler approach, however, is the use of the method of searching for the location of a probable word, as illustrated in the previous volume.[^8]
+c. The foregoing mechanical method serves in helping to understand the mechanics of solution of ciphertext autokey encipherment involving known components. A simpler approach, however, is the use of the method of searching for the location of a probable word, as illustrated in the previous volume.[^8-p51]
 
 (1) For example, if we were to test the message beginning given in subpar. *a*(2), above, for the possibility of ciphertext autokey involving direct standard alphabets and an introductory key of unknown length, we would construct the following diagram:
 
@@ -1507,7 +1507,7 @@ Nothing of significance is seen, so, testing the possibility of autokeying from 
 
 On the very first diagonal, the plain text fragment NTINU manifests itself, showing that the single-letter offset keying begins at least by the 12th cipher letter, if not before (it actually begins at the 8th position, after a 7-letter introductory key, as can be quickly determined).
 
-*d*. The index letter was A$_p$ in the foregoing examples; if some other letter were used as the index letter, only a slight modification of the general procedure is necessary. Let us study the following example enciphered with direct standard alphabets, with Q$_p$ as the index letter:[^9]
+*d*. The index letter was A$_p$ in the foregoing examples; if some other letter were used as the index letter, only a slight modification of the general procedure is necessary. Let us study the following example enciphered with direct standard alphabets, with Q$_p$ as the index letter:[^9-p52]
 
 K: X | A R J K X Y M C U Q E B E Q O K G Q N A Z X Z C Y W B T Q
 P: T H I R D R E G I M E N T C O M M A N D P O S T M O V I N G . . .
@@ -1568,7 +1568,7 @@ Note the doublets FF, TT, and HH. Each time such a doublet occurs it means that 
 
 *c.* When the introductory key is two letters, then this same phenomenon will produce groups of the formula ABA, where A and B may be any letters, but the first and third must be identical. The occurrence of patterns of this type in this case indicates the encipherment of the base letter.
 
-*d.* The phenomenon noted above can be used to considerable advantage in the solution of ciphertext autokey cryptograms. For instance, if it is known that the ordinary Vigenère method of encipherment ($\theta_{k/2} = \theta_{i/1}; \theta_{p/1} = \theta_{c/2}$) is used, then the initial letter of the plain component is the base letter. If, further, it is known that the plain component is the normal A–Z sequence, then the base letter is A and a word such as BATTALION will be enciphered by a group having the pattern AABCCDEFG. If the plain component is a mixed sequence and happens to start with the letter E, then a word such as ENEMY would be enciphered by a sequence having the pattern AABBCD.[^10] Sequences such as these are, of course, idiomorphic and if words yielding such idiomorphisms are frequent in the text there will be produced in the latter several
+*d.* The phenomenon noted above can be used to considerable advantage in the solution of ciphertext autokey cryptograms. For instance, if it is known that the ordinary Vigenère method of encipherment ($\theta_{k/2} = \theta_{i/1}; \theta_{p/1} = \theta_{c/2}$) is used, then the initial letter of the plain component is the base letter. If, further, it is known that the plain component is the normal A–Z sequence, then the base letter is A and a word such as BATTALION will be enciphered by a group having the pattern AABCCDEFG. If the plain component is a mixed sequence and happens to start with the letter E, then a word such as ENEMY would be enciphered by a sequence having the pattern AABBCD.[^10-p54] Sequences such as these are, of course, idiomorphic and if words yielding such idiomorphisms are frequent in the text there will be produced in the latter several
 
 or many cases of isomorphism. When these are analyzed by the principles of indirect symmetry of position, a quick solution may follow.
 
@@ -1639,7 +1639,7 @@ M X D I D S P B S F L Y Z K C F
 **[Figure: A digraphic distribution table showing the frequency of letter pairs in a ciphertext, with row and column totals and I.C. values.]**
 > **Caption:** FIGURE 26
 
-*c.* The individual frequency distributions give every appearance of being monoalphabetic, which confirms the assumption that the enemy is using ciphertext autokey with a *single-letter introductory* key. The average I.C. of the rows of the matrix is $\frac{42.85}{26} = 1.65$, which is fine;[^11] or, as a better approach, we could calculate the *digraphic* I.C. of the matrix by considering the sum (1218) of the $\phi$ values of Fig. 26 as the observed value of $\phi$ and substituting in the formula $\delta = \frac{676\sum f(f-1)}{N(N-1)} = \frac{676(1218)}{705 \times 704} = 1.66$, again substantiating the same assumption.[^12] (This discrepancy between the two figures lies in the round-off errors introduced in obtaining an average I.C.)
+*c.* The individual frequency distributions give every appearance of being monoalphabetic, which confirms the assumption that the enemy is using ciphertext autokey with a *single-letter introductory* key. The average I.C. of the rows of the matrix is $\frac{42.85}{26} = 1.65$, which is fine;[^11-p57] or, as a better approach, we could calculate the *digraphic* I.C. of the matrix by considering the sum (1218) of the $\phi$ values of Fig. 26 as the observed value of $\phi$ and substituting in the formula $\delta = \frac{676\sum f(f-1)}{N(N-1)} = \frac{676(1218)}{705 \times 704} = 1.66$, again substantiating the same assumption.[^12-p57] (This discrepancy between the two figures lies in the round-off errors introduced in obtaining an average I.C.)
 
 *d.* The total number of letters of text is 712, comprising 705 digraphs. If the base letter is A, then there should be approximately 705×7.4%=52 cases of doubled letters in the text. There are actually 53 doublets, which checks very well with the expectancy. The letter A is substituted throughout the text for the second letter of each doublet.
 
@@ -1746,7 +1746,7 @@ K: B | T B J P A Q A A Z T R X A L
 Message No. 7 C: T B J P A Q A A Z T R X A L X . . .
 P: T H E R E I S A M I X U P H E
 
-*f.* In the foregoing example the plain component was the normal sequence, so that with the Vigenère method of encipherment the base letter is A. If the plain component is a mixed sequence, the base letter may no longer be A, but in accordance with the principle set forth in subpar. 23*b*, the frequency of doublets in the cipher text will correspond with the frequency of the base letter as a letter of normal plain text.[^15] If a good clue is afforded by the frequency of doublets in the cipher text, the insertion of the corresponding base letter in the plain text will lead to further clues. The solution from there on can be handled along the lines indicated above.
+*f.* In the foregoing example the plain component was the normal sequence, so that with the Vigenère method of encipherment the base letter is A. If the plain component is a mixed sequence, the base letter may no longer be A, but in accordance with the principle set forth in subpar. 23*b*, the frequency of doublets in the cipher text will correspond with the frequency of the base letter as a letter of normal plain text.[^15-p60] If a good clue is afforded by the frequency of doublets in the cipher text, the insertion of the corresponding base letter in the plain text will lead to further clues. The solution from there on can be handled along the lines indicated above.
 
 **25. Solution by means of isomorphs.**—*a.* It was stated in subpar. 23*d* that in ciphertext autokey systems the production of isomorphs is a frequent phenomenon and that analysis of these isomorphs may yield a quick solution. An example of this sort will now be studied, using as an illustration the following three messages which are suspected of being in a ciphertext autokey system:
 
@@ -1808,7 +1808,7 @@ W X Z . . D R . U L I . B E F G J K . N O . Q S T V,
 
 whereupon we recognize our perennial friend HYDRAULIC and fill in the missing six letters.
 
-*e.* We now have the cipher component, and the plain component remains to be reconstructed. The simplest and most foolproof solution ordinarily is a reduction to monoalphabetic terms, using the recovered cipher component and the known offset of the cipher text against itself as key.[^16] However, the probable word method, if the probable words are at all probable, may be used to good advantage. A good crib to assume for the 10-letter repetition found in Message Nos. 1 and 3 is ARTILLERY (especially since the doublet rate of the distribution in Fig. 27 is 33/451 = 7.3%, which is just right for a base letter of A$_p$ to represent the doublet in the repetition). This single assumption is sufficient to place 7 letters in the plain component, thus:
+*e.* We now have the cipher component, and the plain component remains to be reconstructed. The simplest and most foolproof solution ordinarily is a reduction to monoalphabetic terms, using the recovered cipher component and the known offset of the cipher text against itself as key.[^16-p62] However, the probable word method, if the probable words are at all probable, may be used to good advantage. A good crib to assume for the 10-letter repetition found in Message Nos. 1 and 3 is ARTILLERY (especially since the doublet rate of the distribution in Fig. 27 is 33/451 = 7.3%, which is just right for a base letter of A$_p$ to represent the doublet in the repetition). This single assumption is sufficient to place 7 letters in the plain component, thus:
 
 K: V V J L K Z E K U R
 C: V V J L K Z E K U R
@@ -1821,7 +1821,7 @@ These few letters (few, but how beautifully spaced!) are sufficient to suggest t
 P: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 C: H Y D R A U L I C B E F G J K M N O P Q S T V W X Z
 
-*f.* With the two components at hand, the decipherment of the message is a low-order triviality. Since a single-letter introductory key is known to have been used,[^17] we decipher the first five groups of Message No. 1 as follows:
+*f.* With the two components at hand, the decipherment of the message is a low-order triviality. Since a single-letter introductory key is known to have been used,[^17-p63] we decipher the first five groups of Message No. 1 as follows:
 
 K: ? U S Y P W T R X D I M L E X R K V D B D D Q G S
 C: U S Y P W T R X D I M L E X R K V D B D D Q G S U . . .
@@ -1863,15 +1863,15 @@ Starting with any pair of superimposed letters (after the 6th pair), the followi
 (3) Q F R T J U W M I . . . . .
 (4) A V K . . . . . . . . . . .
 
-The foregoing fragments either are part of two 13-letter chains, or they are parts of a complete 26-letter sequence. If the former is the case, then the two 13-letter chains must be (Z O B Y Q F R T J U W M I) and (L X N C H P E D S G A V K); and, a few moments later, noting phenomena associated with keyword-mixed sequences in the two chains, we superimpose them in the diagram [^18]
+The foregoing fragments either are part of two 13-letter chains, or they are parts of a complete 26-letter sequence. If the former is the case, then the two 13-letter chains must be (Z O B Y Q F R T J U W M I) and (L X N C H P E D S G A V K); and, a few moments later, noting phenomena associated with keyword-mixed sequences in the two chains, we superimpose them in the diagram [^18-p64]
 
 Z O B Y Q F R T J U W M I
 H P E D S G A V K L X N C
 Y Q F R T J U W M I Z O B
 
-from which we speedily obtain the HYDRAULIC . . . XZ sequence.[^19]
+from which we speedily obtain the HYDRAULIC . . . XZ sequence.[^19-p64]
 
-(2) Only the cipher component has been recovered thus far. If we assume that the plain component is the same as the cipher, the initial key words and the message plain texts are at once deciphered; it will be found that the initial key word for Message “A” is PENCE, and that for Message “B” is LATERAL.[^20] If the plain component had not been guessed in this case, we could have “deciphered” the message text using an arbitrary plain component (say, the A–Z sequence), resulting in a conversion of the complex cipher text into monoalphabetic terms which can then speedily be solved.
+(2) Only the cipher component has been recovered thus far. If we assume that the plain component is the same as the cipher, the initial key words and the message plain texts are at once deciphered; it will be found that the initial key word for Message “A” is PENCE, and that for Message “B” is LATERAL.[^20-p64] If the plain component had not been guessed in this case, we could have “deciphered” the message text using an arbitrary plain component (say, the A–Z sequence), resulting in a conversion of the complex cipher text into monoalphabetic terms which can then speedily be solved.
 
 (3) The foregoing solution affords a clue to the solution of cases in which the texts of two or more messages are not completely identical but are in part identical because they happen to have similar beginnings or endings, or contain nearly similar information or instructions. The progress in such cases is not so rapid as in the case of messages with wholly identical texts because much care must be exercised in blocking out the isomorphic sequences upon which the reconstruction of the primary components will be based.
 
@@ -1907,7 +1907,7 @@ Msg B: L D Q L E N G B Y E W D S U H P U T Z E H H G D K T O D E X
 
 It will be noted that the intervals between identical vertical pairs show a constant factor of 5, indicating that the messages have been enciphered with 5-letter introductory key words.
 
-(3) The vertical pairs beyond the first five letters of the messages are now distributed in a reconstruction matrix according to their position based upon this interval of 5, similar to the treatment of vertical pairs in periodic-cipher isologs arising from the use of repeating keys of the same lengths.[^21]
+(3) The vertical pairs beyond the first five letters of the messages are now distributed in a reconstruction matrix according to their position based upon this interval of 5, similar to the treatment of vertical pairs in periodic-cipher isologs arising from the use of repeating keys of the same lengths.[^21-p65]
 This is shown below:
 
 **[Figure: Reconstruction matrix showing the distribution of vertical pairs based on an interval of 5]**
@@ -2126,6 +2126,20 @@ From here on the solution of the intermediate text is a simple matter; monome-di
 
 [^7]: Cf. par. 65 (on p. 157) of *Military Cryptanalytics, Part II.*
 
+[^1-p13]: It is true, of course, that the differences between the vocabularies of two writers are often marked and can be measured. These differences may be subject to certain laws, but these laws are psychological rather than mathematical. See Rickert, E., *New Methods for the Study of Literature*, University of Chicago Press, Chicago, 1927.
+
+[^2-p14]: One of the first things, if not the very first, to be done to a cryptogram in an undiagnosed system is the completion of the plain-component sequence on the basis of standard alphabets. In certain cases a solution is sometimes achieved by this means that would be impossible by any other. The completion is painless if accomplished by sliding strips; its probability of success in an isolated case is small, but the ratio of the time expended to its potential value is very large. This is a typical illustration of the application of the maxim of the experienced cryptanalyst: "Try the simplest thing first."
+
+[^3-p15]: We must never forget that probabilities are influenced by the amount of material under examination; if we looked at enough material, it might not be at all astonishing if we obtained even a 10-letter word by accident. In all the probability considerations in this text, unless otherwise stated it is assumed that we are dealing with a limited amount of traffic, limited enough so that a probability of .01 is remarkable, and a probability of .001 exciting.
+
+[^4-p15]: The key letters are assumed to be under A$_p$ as the index letter. Throughout this text, whenever encipherment processes are under discussion, the pair of enciphering equations commonly referred to as characterizing the so-called Vigenère method will be understood unless otherwise indicated. This method involves the pair of enciphering equations $\theta_{k/2} = \theta_{i/1}$; $\theta_{p/1} = \theta_{c/2}$. That is, the index letter, which is usually the initial letter of the plain component, is set opposite the key letter in the cipher component; the plain text letter to be enciphered is sought in the plain component and its equivalent is the letter opposite it in the cipher component. See in this connection subpar. 13f of *Military Cryptanalytics Part II*.
+
+[^5-p15]: This is the specific key as recovered from this single message. It is quite possible that the complete key is UNITED NATIONS ORGANIZATION, UNITED NATIONS SECURITY COUNCIL, etc.; a longer message would prove whether the key is UNITED NATIONS used repetitively, or whether it is a phrase beginning with these two words.
+
+[^6-p16]: Foolish as this may be, it has happened in operational practice.
+
+[^7-p16]: Cf. Appendix 3, Military Cryptanalytics, Part I.
+
 [^8]: Cf. par. 28, Military Cryptanalytics, Part II.
 
 [^9]: For a treatment of the cryptographic mechanics of systematically mixed sequences and their cryptanalytic recovery, see par. 51 (on pp. 86–90) of *Military Cryptanalytics, Part I*.
@@ -2135,10 +2149,6 @@ From here on the solution of the intermediate text is a simple matter; monome-di
 [^11]: This notation has been discussed in footnote 2 on p. 92, *Military Cryptanalytics, Part II*.
 
 [^12]: Cf. par. 46, *Military Cryptanalytics, Part II*.
-
-[^13]: Note that, had we not known (or assumed) the plain-component sequence, we would first have entered these values in a 26×26 square rather than in a single strip for the cipher component, and then we would exploit any manifestations of direct or indirect symmetry present.
-
-[^14]: The introductory keys for these messages are presumed to have been specified by prearrangement, or indicated by the message number, file time, or some other element of the message externals.
 
 [^15]: We have already noted that the common plain-cipher equivalencies Eₚ=L꜀ and Yₚ=H꜀ in the two words establish the fact that these words were enciphered by the same alphabet.
 
@@ -2167,5 +2177,81 @@ From here on the solution of the intermediate text is a simple matter; monome-di
 [^27]: See also in this connection footnote 8 on p. 26 of *Military Cryptanalytics, Part II*.
 
 [^28]: Note that, in the case of this particular key, two occurrences of a 14-letter plaintext passage could receive identical encipherments at two different positions of the key at which there are identical fragments (GIVE ME) in the key phrase; the intervals between these repeated ciphertext sequences would have nothing to do with the length of the period.
+
+[^1-p30]: See in this connection subpar. 84b(1) on p. 220 of *Military Cryptanalytics, Part I*.
+
+[^2-p30]: In addition to these cases, a "septimum quid" could be listed, as a catchall for "everything else," which includes progressions so irregular as to defy classification.
+
+[^3-p30]: It is to be noted that this fourth case could be treated as though it were a special form (with irregularly occurring small or large skips) of the third case.
+
+[^4-p30]: What specifically brings about the interruption is here not stated, nor for that matter does it concern us at the moment. Suffice it to say that, whatever the cause of the interruption, it is not a function of the plain or of the cipher text, but is in this case predetermined by an external convention with steps 3, 1, 6, 7, 5, 8, 2, 4, 9 . . .
+
+[^5-p31]: These two points could have been determined either through physical compromise of a cipher machine incorporating such principles, or through the analytical compromise of a cryptosystem.
+
+[^6-p32]: In the Wheatstone cipher device the interruption of the keying sequence of the 26 cipher alphabets used in sequential progression is predicated upon the relative position in the plain component of a plaintext letter with respect to the position (in the plain component) occupied by the next plaintext letter to be encrypted. (See Chapter VIII in this connection.)
+
+[^7-p33]: This is Case I of subpar. 14b.
+
+[^8-p34]: Note that the periodic repetitive phenomena manifested would also have arisen in a plaintext interruptor system, if the interruptor had been, let us say, Ap—or, for that matter, any other letter not present in the fragment FOURFIVETOFOURFI.
+
+[^9-p34]: The method described in this subparagraph may also be applied in the case of plaintext interruptor systems, with certain modifications.
+
+[^10-p35]: This method is equivalent to an interrupted-key columnar transposition system. See in this connection subpar. 51*h* on p. 89 of *Military Cryptanalytics, Part I*.
+
+[^11-p36]: This is really not stealing. For the pure in heart, this should be thought of as conversion of raw data, and that the parties so generously supplying these raw data are, unknowingly, cooperating in government work.
+
+[^12-p36]: In actual practice, the search for the placement of the probable word would have been accomplished by means of the following diagram (see in this connection subpar. 22d on pp. 41-42 of Military Cryptanalytics, Part II):
+
+[^16-p39]: Cf. Subpar. 18e on pp. 28-31 of *Military Cryptanalytics*, Part II.
+
+[^17-p39]: If worst came to worst, we could test each of the 26 letters in turn as the ciphertext interruptor. This testing, coupled with the writing out of the cipher text on the various widths, would be quite laborious and time-consuming by manual methods; data processing machine techniques would here be very useful.
+
+[^20-p41]: *Military Cryptanalytics, Part II*, subpar. 65a.
+
+[^21-p41]: Cf. subpar. 65b, *Military Cryptanalytics, Part II*.
+
+[^22-p45]: It must have been a deep thinker who first uttered the statement that "all problems in cryptanalysis, like mathematics, are either trivial or impossible."
+
+[^1-p46]: Cf. subpar. 99e on pp. 310-311 of *Military Cryptanalytics, Part II*.
+
+[^2-p47]: For instance, an autokey system might incorporate independent, random alphabets such as those illustrated in Fig. 33 on p. 70.
+
+[^3-p47]: This, on a numerical scale, is tantamount to the effect of a key of 0.
+
+[^4-p49]: The I of ING gives a key of Y, which should be preceded by a T, A, L, or very few other letters.
+
+[^5-p49]: The key word and the first word of the message may be recovered by working backwards from INGₚ, or by assuming various initial digraphs for the plain text or the key; a trial of REₚ for the message beginning would yield MEₖ, and we could go on from here to read this “depth of one.”
+
+[^6-p49]: This is under the assumption that Aₚ is the index letter in the cryptographic equations.
+
+[^7-p51]: Had we been a little more observant, we could have noticed what appears to be a good plaintext fragment NGCO in the very first trial in Fig. 23a; this was a contrived lapse of observation, the better to illustrate a pedagogical point in Fig. 23b.
+
+[^8-p51]: Cf. Subpar. 22d on pp. 41-42 of Military Cryptanalytics, Part II.
+
+[^9-p52]: Note that, although the plain text and introductory keys are identical with those of the example in Fig. 18a, nevertheless the two cipher texts are not isomorphic, since the change of index letter eliminates any causal isomorphism between the two versions.
+
+[^10-p54]: Six letters are shown because the idiomorphism in this case extends over that many letters.
+
+[^11-p57]: The arithmetic mean here suffices because the values of N involved are fairly close to one another; since, as has been previously stated, in ciphertext autokey systems the cipher letters are equiprobable (the over-all I.C. of the ciphertext in this example is 1.005), a weighted mean is unnecessary.
+
+[^12-p57]: Ciphertext autokey systems may therefore be identified statistically from the appropriate digraphic distribution (i.e., on the assumption of the correct length of the introductory key) by the fact that the digraphic I.C. will reflect the monographic I.C. of the language.
+
+[^13]: Note that, had we not known (or assumed) the plain-component sequence, we would first have entered these values in a 26×26 square rather than in a single strip for the cipher component, and then we would exploit any manifestations of direct or indirect symmetry present.
+
+[^14]: The introductory keys for these messages are presumed to have been specified by prearrangement, or indicated by the message number, file time, or some other element of the message externals.
+
+[^15-p60]: If the plain and cipher components had been identical sequences, this fact together with the identity of the base letter could have been determined from the digraphic distribution: one of the rows of the distribution (the row corresponding to the base letter) would reflect an approximation of the normal frequency distribution, i.e., peaks for the letters AEINORST, and blanks or near-blanks for JKQXZ. Furthermore, the reconstruction matrix would have displayed symmetry about the main diagonal (from upper left to lower right); see in this connection subpar. 33*e* in the next chapter.
+
+[^16-p62]: Note that if the LODJX . . . sequence in subpar. *d*, above, had not been of systematic construction to enable us to analyze its derivation and thus fill in the missing 6 letters, we still could have converted most of the cipher text to monoalphabetic terms, solved the text, and recovered both components.
+
+[^17-p63]: We know this from (a) statistical evidence of the digraphic distribution at an offset of 1, (b) the indications of the correct plain component emerging from a tentative decipherment of the 10-letter repetition, and (c) the unlikelihood that with three rather short messages a long ciphertext repetition would have manifested itself if the offset were more than 1 letter. We knew that the three messages were autokeyed at the same offset, otherwise the isomorphs would have not appeared among all three messages.
+
+[^18-p64]: See subpar. 44i on pp. 89–90 of *Military Cryptanalytics, Part II*.
+
+[^19-p64]: If the four fragments (1), (2), (3), and (4) had been parts of a complete 26-letter sequence, there would have been only 6 ways to permute them, viz., 1-2-3-4, 1-2-4-3, 1-3-2-4, 1-3-4-2, 1-4-2-3, and 1-4-3-2; therefore the problem would still be solvable without too much effort, even if the cipher component has been a random sequence.
+
+[^20-p64]: The reason that the cryptographic texts are isomorphic after the initial keyword portions is, of course, that since the text beyond the key word is enciphered autokey fashion by the preceding cipher letter, the letters before the last letter of the key have no effect upon the encipherment at all. Hence two messages having identical plain text cannot be other than isomorphic after the initial keyword portions.
+
+[^21-p65]: Cf. subpar. 60f, Military Cryptanalytics, Part II.
 
 [^29]: The analysis of the intermediate text is given in par. 77 of *Military Cryptanalytics, Part I*.
