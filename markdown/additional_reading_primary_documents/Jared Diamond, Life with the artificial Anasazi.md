@@ -80,7 +80,7 @@ So now we have the important diamond-cell experiment on compressed lithium, a gr
 
 Lin and Dunn apparently had no easy way
 
-**[Figure: Periodic table showing elements that are superconductors under normal or high pressure]**
+![Periodic table showing elements that are superconductors under normal or high pressure](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/jared-diamond-life-with-the-artificial-anasazi/fig_p0003.png)
 > **Caption:** Figure 1 Superconductors under pressure. The colour code of this periodic table (adapted from ref. 13) shows elements that superconduct under normal, atmospheric pressure conditions (purple) and those that superconduct when subjected to high pressure (orange). Shimizu et al.1 confirm the superconductivity of lithium at high pressure, bringing the number of such elements to 23. Under normal pressure conditions, 29 elements are superconductors.
 > **Figure text:** [Periodic table with elements labeled with symbols and atomic numbers 1-109]
 

@@ -312,7 +312,7 @@ with $\lambda_s$ chosen close to 1 when $\hat{q}_s(t)$ is reliable and close to 
 
 Fig. 12(a) shows the part of the transition structure of the Markov source related to the state $s$. Equation (8.1) can be interpreted in terms of the associated Markov source shown in Fig. 12(b), in which each state is replaced by three states. In Fig. 12(b), $\hat{s}$ corresponds directly to $s$ in Fig. 12(a). The null transitions from $\hat{s}$ to $s$ and $s^*$ have transition probabilities equal to $\lambda_s$ and $1 - \lambda_s$, respectively. The transitions out of $s$ have probabilities $q_s(t) = \hat{q}_s(t)$ while those out of $s^*$ have probabilities $^*q_s(t) = ^*\hat{q}_s(t)$. The structure of the associated Markov source is completely determined by the structure of the original Markov source and by the tyings assumed for obtaining more reliable parameter estimates.
 
-**[Figure: Transition structure of a Markov source and its associated interpolated Markov source.]**
+![Transition structure of a Markov source and its associated interpolated Markov source.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robert-mercer-et-al-a-maximum-likelihood-approach-to-continuous-speech-recognition/fig_p0008.png)
 > **Caption:** Fig. 12. (a) Part of transition structure of a Markov source. (b) The corresponding part of an associated interpolated Markov source.
 > **Figure text:** (a) S, S1, S2, S3. (b) S, S1, S*, S2, S3.
 
@@ -358,7 +358,7 @@ falls. It might appear that the convergence of the estimation of the interpolati
 
 This approach to modeling data generation is called deleted interpolation. Several variations are possible some of which
 
-**[Figure: A section of the interpolated trigram language model corresponding to the state determined by the word pair w1, w2.]**
+![A section of the interpolated trigram language model corresponding to the state determined by the word pair w1, w2.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robert-mercer-et-al-a-maximum-likelihood-approach-to-continuous-speech-recognition/fig_p0009.png)
 > **Caption:** Fig. 13. A section of the interpolated trigram language model corresponding to the state determined by the word pair $w_1, w_2$.
 > **Figure text:** $\lambda_1$, $\lambda_2$, $\lambda_3$, $\lambda_4$, $p(w/\phi_1(w_1, w_2))$, $p(w/\phi_2(w_1, w_2))$, $p(w/\phi_3(w_1, w_2))$, $p(w/\phi_4(w_1, w_2))$
 
@@ -422,7 +422,7 @@ Table I shows the effect of training set size of recognition error rate. 200 sen
 
 The power of automatic training is evident from Table I in the dramatic decrease in error rate resulting from training even with a small amount of data. The results in Table II further demonstrate the power of automatic training. Here, three versions of the acoustic channel model are used, each weaker than the previous one. The "complete acoustic channel model" result corresponds to the last line of Table I. The acoustic channel model in this case is built up from phonetic subsources and acoustic subsources as described in Section IV. The phonetic subsources produce many different strings for each word reflecting phonological modifications due to rate of articulation, dialect, etc. The "single pronunciation" result is obtained with an acoustic channel model in which the phonetic subsources allow only a single pronunciation for each word. Finally, the "spelling-based pronunciation" result is obtained with an
 
-**[Figure: Table I Effect of Training Set Size on Error Rate]**
+![Table I Effect of Training Set Size on Error Rate](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robert-mercer-et-al-a-maximum-likelihood-approach-to-continuous-speech-recognition/fig_p0011.png)
 > **Caption:** TABLE I EFFECT OF TRAINING SET SIZE ON ERROR RATE
 > **Figure text:** Training Set Size | % of Sentences Decoded Incorrectly | Test | Training | 0 | 80% | - | 200 | 23% | 12% | 400 | 20% | 13% | 600 | 15% | 16% | 800 | 18% | 16% | 1070 | 17% | 14%
 

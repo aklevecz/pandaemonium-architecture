@@ -72,7 +72,7 @@ The incentive may help encourage nodes to stay honest. If a greedy attacker is a
 
 Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
 
-**[Figure: Diagram showing the structure of a Merkle Tree in a block and how it is pruned]**
+![Diagram showing the structure of a Merkle Tree in a block and how it is pruned](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/satoshi-nakamoto-bitcoin-a-peer-to-peer-electronic-cash-system/fig_p0004.png)
 > **Caption:** Transactions Hashed in a Merkle Tree (left) and After Pruning Tx0-2 from the Block (right)
 > **Figure text:** Block; Block Header (Block Hash); Prev Hash; Nonce; Root Hash; Hash01; Hash23; Hash0; Hash1; Hash2; Hash3; Tx0; Tx1; Tx2; Tx3; Block; Block Header (Block Hash); Prev Hash; Nonce; Root Hash; Hash01; Hash23; Hash2; Hash3; Tx3
 
@@ -100,7 +100,7 @@ It should be noted that fan-out, where a transaction depends on several transact
 
 The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
 
-**[Figure: Flowcharts comparing the traditional privacy model and the new privacy model]**
+![Flowcharts comparing the traditional privacy model and the new privacy model](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/satoshi-nakamoto-bitcoin-a-peer-to-peer-electronic-cash-system/fig_p0006.png)
 > **Caption:** Traditional Privacy Model / New Privacy Model
 > **Figure text:** Traditional Privacy Model: Identities -> Transactions -> Trusted Third Party -> Counterparty -> Public. New Privacy Model: Identities -> Transactions -> Public.
 

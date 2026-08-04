@@ -78,7 +78,7 @@ Finally, thanks to my family for being patient about the many evenings, weekends
 
 Computers weren’t initially created to persuade; they were built for handling data—calculating, storing, and retrieving. But as computers have migrated from research labs onto desktops and into everyday life, they have become more persuasive by design. Today computers are taking on a variety of roles as persuaders, including roles of influence that traditionally were filled by teachers, coaches, clergy, therapists, doctors, and salespeople, among others. We have entered an era of persuasive technology, of *interactive computing systems designed to change people’s attitudes and behaviors*.
 
-**[Figure: Callout box defining persuasive technology]**
+![Callout box defining persuasive technology](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/bj-fogg-from-persuasive-technology-using-computers-to-change-what-we-think-and-do/fig_p0008.png)
 > **Figure text:** I define persuasive technology as any interactive computing system designed to change people’s attitudes or behaviors.
 
 The earliest signs of persuasive technology appeared in the 1970s and 1980s, when a few computing systems were designed to promote health and increase workplace productivity. One of the earliest examples is a computer system named Body Awareness Resource Network (BARN), developed in the late 1970s. This pioneering program was designed to teach adolescents about health issues such as smoking, drugs, exercise, and more, with an ultimate focus on enhancing teens’ behaviors in these areas.[^1] Gradually other interactive programs of this nature followed, most designed to address adolescent health issues or to treat psychological disorders.[^2] But it wasn’t until the late 1990s—specifically, the emergence of the Internet—that more than a handful of people began creating persuasive technology.
@@ -109,7 +109,7 @@ The uses for persuasive technology also will expand in the coming decade, extend
 
 Throughout this book, you’ll see plenty of examples of current and emerging persuasive technology applications. Table 1 suggests some of the domains and potential applications. Some of these examples are explored in more detail in later chapters.
 
-**[Figure: Table 1 Persuasive Technology: Domains and Applications]**
+![Table 1 Persuasive Technology: Domains and Applications](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/bj-fogg-from-persuasive-technology-using-computers-to-change-what-we-think-and-do/fig_p0010.png)
 > **Caption:** Table 1 Persuasive Technology: Domains and Applications
 > **Figure text:** 
 > Domain | Example application | Persuades users to
@@ -125,7 +125,7 @@ Throughout this book, you’ll see plenty of examples of current and emerging pe
 
 4 ■ Persuasive Technology
 
-**[Figure: Table 1 Continued, listing domains, example applications, and persuasion goals]**
+![Table 1 Continued, listing domains, example applications, and persuasion goals](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/bj-fogg-from-persuasive-technology-using-computers-to-change-what-we-think-and-do/fig_p0011.png)
 > **Caption:** Table 1 Continued
 > **Figure text:** 
 > Domain | Example application | Persuades users to
@@ -146,7 +146,7 @@ We are still in the early stages of persuasive technology development. The poten
 ■ Address the ethical issues of persuading via computing systems
 ■ Predict what the future holds for persuasion via computing products
 
-**[Figure: Venn diagram showing the overlap between Computers and Persuasion, labeled Captology]**
+![Venn diagram showing the overlap between Computers and Persuasion, labeled Captology](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/bj-fogg-from-persuasive-technology-using-computers-to-change-what-we-think-and-do/fig_p0012.png)
 > **Caption:** Figure 1 Captology describes the area where computing technology and persuasion overlap.
 > **Figure text:** Computers: Web sites, Mobile phones, PDAs, Video games, Desktop software, Chat bots, Smart environments, Virtual reality, Exercise equipment, Specialized devices, Kiosks. Persuasion: Behavior change, Attitude change, Motivation, Change in worldview, Compliance. Captology (in the overlap).
 

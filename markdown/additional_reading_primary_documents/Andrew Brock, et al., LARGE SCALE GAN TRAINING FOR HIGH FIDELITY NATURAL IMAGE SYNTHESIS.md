@@ -352,7 +352,7 @@ In the BigGAN model (Figure 15), we use the ResNet (He et al., 2016) GAN archite
 
 The BigGAN-deep model (Figure 16) differs from BigGAN in several aspects. It uses a simpler variant of skip-$z$ conditioning: instead of first splitting $z$ into chunks, we concatenate the entire $z$ with the class embedding, and pass the resulting vector to each residual block through skip connections. BigGAN-deep is based on residual blocks with bottlenecks (He et al., 2016), which incorporate two additional 1 × 1 convolutions: the first reduces the number of channels by a factor of 4 before the more expensive 3 × 3 convolutions; the second produces the required number of output channels. While BigGAN relies on 1 × 1 convolutions in the skip connections whenever the number of channels needs to change, in BigGAN-deep we use a different strategy aimed at preserving identity throughout the skip connections. In G, where the number of channels needs to be reduced, we simply retain the first group of channels and drop the rest to produce the required number of channels. In D, where the number of channels should be increased, we pass the input channels unperturbed, and concatenate them with the remaining channels produced by a 1 × 1 convolution. As far as the network configuration is concerned, the discriminator is an exact reflection of the generator. There are two blocks at each resolution (BigGAN uses one), and as a result BigGAN-deep is four times deeper than BigGAN. Despite their increased depth, the BigGAN-deep models have significantly fewer parameters mainly due to the bottleneck structure of their residual blocks. For example, the 128 × 128 BigGAN-deep G and D have 50.4M and 34.6M parameters respectively, while the corresponding original BigGAN models have 70.4M and 88.0M parameters. All BigGAN-deep models use attention at 64 × 64 resolution, channel width multiplier $ch = 128$, and $z \in \mathbb{R}^{128}$.
 
-**[Figure: Architectural diagrams for BigGAN components]**
+![Architectural diagrams for BigGAN components](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/andrew-brock-et-al-large-scale-gan-training-for-high-fidelity-natural-image-synthesis/fig_p0017.png)
 > **Caption:** Figure 15: (a) A typical architectural layout for BigGAN’s G; details are in the following tables. (b) A Residual Block (ResBlock up) in BigGAN’s G. (c) A Residual Block (ResBlock down) in BigGAN’s D.
 > **Figure text:** z, Class, Split, Linear → 4x4x16ch, ResBlock, Concat, Non-local, Image, (a), BatchNorm, Linear, ReLU, Upsample, 1x1 Conv, 3x3 Conv, Add, (b), Concat, 1x1 Conv, Average Pooling, ReLU, 3x3 Conv, Average Pooling, Add, (c)
 
@@ -366,7 +366,7 @@ Published as a conference paper at ICLR 2019
 
 Table 4: BigGAN architecture for 128 × 128 images. *ch* represents the channel width multiplier in each network from Table 1.
 
-**[Figure: BigGAN architecture for 128 × 128 images]**
+![BigGAN architecture for 128 × 128 images](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/andrew-brock-et-al-large-scale-gan-training-for-high-fidelity-natural-image-synthesis/fig_p0019.png)
 > **Caption:** Table 4: BigGAN architecture for 128 × 128 images. *ch* represents the channel width multiplier in each network from Table 1.
 > **Figure text:** (a) Generator: $z \in \mathbb{R}^{120} \sim \mathcal{N}(0, I)$, Embed($y$) $\in \mathbb{R}^{128}$, Linear (20 + 128) $\to$ 4 × 4 × 16*ch*, ResBlock up 16*ch* $\to$ 16*ch*, ResBlock up 16*ch* $\to$ 8*ch*, ResBlock up 8*ch* $\to$ 4*ch*, ResBlock up 4*ch* $\to$ 2*ch*, Non-Local Block (64 × 64), ResBlock up 2*ch* $\to$ *ch*, BN, ReLU, 3 × 3 Conv *ch* $\to$ 3, Tanh. (b) Discriminator: RGB image $x \in \mathbb{R}^{128 \times 128 \times 3}$, ResBlock down *ch* $\to$ 2*ch*, Non-Local Block (64 × 64), ResBlock down 2*ch* $\to$ 4*ch*, ResBlock down 4*ch* $\to$ 8*ch*, ResBlock down 8*ch* $\to$ 16*ch*, ResBlock down 16*ch* $\to$ 16*ch*, ResBlock 16*ch* $\to$ 16*ch*, ReLU, Global sum pooling, Embed($y$)·*h* + (linear $\to$ 1).
 
@@ -380,7 +380,7 @@ Published as a conference paper at ICLR 2019
 
 Table 6: BigGAN architecture for 512 × 512 images. Relative to the 256 × 256 architecture, we add an additional ResBlock at the 512 × 512 resolution. Memory constraints force us to move the non-local block in both networks back to 64 × 64 resolution as in the 128 × 128 pixel setting.
 
-**[Figure: BigGAN architecture for 512 × 512 images]**
+![BigGAN architecture for 512 × 512 images](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/andrew-brock-et-al-large-scale-gan-training-for-high-fidelity-natural-image-synthesis/fig_p0020.png)
 > **Caption:** Table 6: BigGAN architecture for 512 × 512 images.
 > **Figure text:** (a) Generator: z ∈ R^160 ~ N(0, I), Embed(y) ∈ R^128, Linear (20 + 128) → 4 × 4 × 16ch, ResBlock up 16ch → 16ch, ResBlock up 16ch → 8ch, ResBlock up 8ch → 8ch, ResBlock up 8ch → 4ch, Non-Local Block (64 × 64), ResBlock up 4ch → 2ch, ResBlock up 2ch → ch, ResBlock up ch → ch, BN, ReLU, 3 × 3 Conv ch → 3, Tanh. (b) Discriminator: RGB image x ∈ R^512×512×3, ResBlock down ch → ch, ResBlock down ch → 2ch, ResBlock down 2ch → 4ch, Non-Local Block (64 × 64), ResBlock down 4ch → 8ch, ResBlock down 8ch → 8ch, ResBlock down 8ch → 16ch, ResBlock down 16ch → 16ch, ResBlock 16ch → 16ch, ReLU, Global sum pooling, Embed(y)·h + (linear → 1).
 
@@ -392,7 +392,7 @@ Table 7: BigGAN-deep architecture for 128 × 128 images.
 
 Published as a conference paper at ICLR 2019
 
-**[Figure: BigGAN-deep architecture for 256 × 256 images.]**
+![BigGAN-deep architecture for 256 × 256 images.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/andrew-brock-et-al-large-scale-gan-training-for-high-fidelity-natural-image-synthesis/fig_p0021.png)
 > **Caption:** Table 8: BigGAN-deep architecture for 256 × 256 images.
 > **Figure text:** (a) Generator (b) Discriminator
 > z ∈ R^128 ~ N(0, I)
@@ -433,7 +433,7 @@ Published as a conference paper at ICLR 2019
 
 Published as a conference paper at ICLR 2019
 
-**[Figure: BigGAN-deep architecture for 512 × 512 images.]**
+![BigGAN-deep architecture for 512 × 512 images.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/andrew-brock-et-al-large-scale-gan-training-for-high-fidelity-natural-image-synthesis/fig_p0022.png)
 > **Caption:** Table 9: BigGAN-deep architecture for 512 × 512 images.
 > **Figure text:** (a) Generator (b) Discriminator
 > 
@@ -496,7 +496,7 @@ Published as a conference paper at ICLR 2019
 
 Published as a conference paper at ICLR 2019
 
-**[Figure: Two plots showing JFT-300M FID vs. Inception Score as a function of truncation for different channel capacities.]**
+![Two plots showing JFT-300M FID vs. Inception Score as a function of truncation for different channel capacities.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/andrew-brock-et-al-large-scale-gan-training-for-high-fidelity-natural-image-synthesis/fig_p0025.png)
 > **Caption:** Figure 19: JFT-300M IS vs. FID at 256×256. We show truncation values from σ = 0 to σ = 2 (top) and from σ = 0.5 to σ = 1.5 (bottom). Each curve corresponds to a row in Table 3. The curve labeled with baseline corresponds to the first row (with orthogonal regularization and other techniques disabled), while the rest correspond to rows 2-4 – the same architecture at different capacities (Ch).
 > **Figure text:** FID vs IS as a function of truncation; Ch=128; Ch=96; Ch=64; Ch=64 (Baseline); JFT-300M FID; JFT-300M Inception Score; FID vs IS as a function of truncation; Ch=128; Ch=96; Ch=64; Ch=64 (Baseline); JFT-300M FID; JFT-300M Inception Score
 

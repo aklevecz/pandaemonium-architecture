@@ -230,11 +230,11 @@ Let us refer to this as the system-level-model-structure (or SLMS) scheme (see F
 
 The ontological commitment of a theory can be clearly understood by distinguishing between a committing and a committed component, within the SLMS scheme.
 
-**[Figure: A diagram showing the relationships between System, LoA, Theory, Model, and Structure.]**
+![A diagram showing the relationships between System, LoA, Theory, Model, and Structure.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/luciano-floridi-the-method-of-levels-of-abstraction/fig_p0013.png)
 > **Caption:** Fig. 2 The SLMS scheme
 > **Figure text:** System; analysed at; LoA; attributed to; generates; Theory; Structure; identifies; Model
 
-**[Figure: The SLMS scheme with ontological commitment]**
+![The SLMS scheme with ontological commitment](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/luciano-floridi-the-method-of-levels-of-abstraction/fig_p0014.png)
 > **Caption:** Fig. 3 The SLMS scheme with ontological commitment
 > **Figure text:** System; analysed at; LoA (O-committing); attributed to; Theory; generates; Structure; identifies; Model (O-committed)
 

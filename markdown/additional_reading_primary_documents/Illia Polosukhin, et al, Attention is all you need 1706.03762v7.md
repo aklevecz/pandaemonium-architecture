@@ -138,7 +138,7 @@ While the linear transformations are the same across different positions, they u
 
 Similarly to other sequence transduction models, we use learned embeddings to convert the input tokens and output tokens to vectors of dimension $d_{\text{model}}$. We also use the usual learned linear transformation and softmax function to convert the decoder output to predicted next-token probabilities. In our model, we share the same weight matrix between the two embedding layers and the pre-softmax linear transformation, similar to [30]. In the embedding layers, we multiply those weights by $\sqrt{d_{\text{model}}}$.
 
-**[Figure: Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention.]**
+![Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/fig_p0006.png)
 > **Caption:** Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention.
 > **Figure text:** Layer Type | Complexity per Layer | Sequential Operations | Maximum Path Length
 > Self-Attention | O(n² · d) | O(1) | O(1)
@@ -199,7 +199,7 @@ This corresponds to increasing the learning rate linearly for the first *warmup_
 
 We employ three types of regularization during training:
 
-**[Figure: Table 2 comparing BLEU scores and training costs of various models]**
+![Table 2 comparing BLEU scores and training costs of various models](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/fig_p0008.png)
 > **Caption:** Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.
 > **Figure text:** (Table content as transcribed in the image)
 
@@ -225,7 +225,7 @@ To evaluate the importance of different components of the Transformer, we varied
 
 Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities.
 
-**[Figure: Table of Transformer architecture variations]**
+![Table of Transformer architecture variations](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/fig_p0009.png)
 > **Caption:** Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities.
 > **Figure text:** (Table content as rendered in the image)
 
@@ -243,7 +243,7 @@ We trained a 4-layer transformer with $d_{model} = 1024$ on the Wall Street Jour
 
 We performed only a small number of experiments to select the dropout, both attention and residual (section 5.4), learning rates and beam size on the Section 22 development set, all other parameters remained unchanged from the English-to-German base translation model. During inference, we
 
-**[Figure: Table 4 comparing Transformer performance on English constituency parsing against other models]**
+![Table 4 comparing Transformer performance on English constituency parsing against other models](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/fig_p0010.png)
 > **Caption:** Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ)
 > **Figure text:** Parser | Training | WSJ 23 F1
 > Vinyals & Kaiser el al. (2014) [37] | WSJ only, discriminative | 88.3
@@ -361,17 +361,17 @@ The code we used to train and evaluate our models is available at https://github
 
 # Attention Visualizations
 
-**[Figure: Visualization of attention heads in layer 5 of the encoder, showing dependencies for the word 'making']**
+![Visualization of attention heads in layer 5 of the encoder, showing dependencies for the word 'making'](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/fig_p0013.png)
 
 > **Caption:** Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing the phrase ‘making...more difficult’. Attentions here shown only for the word ‘making’. Different colors represent different heads. Best viewed in color.
 > **Figure text:** It is in this spirit that a majority of American governments have passed new laws since 2009 making the registration or voting process more difficult . <EOS> <pad> <pad> <pad> <pad> <pad> <pad> <pad> It is in this spirit that a majority of American governments have passed new laws since 2009 making the registration or voting process more difficult . <EOS> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
 
-**[Figure: Visualization of attention heads in layer 5 of 6, showing anaphora resolution. The top section displays full attentions for head 5, while the bottom section shows isolated attentions from the word 'its' for attention heads 5 and 6.]**
+![Visualization of attention heads in layer 5 of 6, showing anaphora resolution. The top section displays full attentions for head 5, while the bottom section shows isolated attentions from the word 'its' for attention heads 5 and 6.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/fig_p0014.png)
 
 > **Caption:** Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word.
 > **Figure text:** The Law will never be perfect , but its application should be just - this is what we are missing , in my opinion . <EOS> <pad>
 
-**[Figure: Visualization of attention heads from the encoder self-attention at layer 5 of 6, showing two different heads with distinct patterns of attention.]**
+![Visualization of attention heads from the encoder self-attention at layer 5 of 6, showing two different heads with distinct patterns of attention.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/illia-polosukhin-et-al-attention-is-all-you-need-1706-03762v7/fig_p0015.png)
 
 > **Caption:** Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.
 > **Figure text:** The Law will never be perfect , but its application should be just - this is what we are missing , in my opinion . <EOS> <pad>

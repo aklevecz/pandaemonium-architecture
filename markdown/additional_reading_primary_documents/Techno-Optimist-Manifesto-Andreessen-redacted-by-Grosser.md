@@ -5938,7 +5938,7 @@ Our enemy is deceleration, de-growth, depopulation [REDACTED]
 
 # Patron Saints of Techno-Optimism
 
-**[Figure: A bar chart showing the relative levels of various metrics]**
+![A bar chart showing the relative levels of various metrics](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/techno-optimist-manifesto-andreessen-redacted-by-grosser/fig_p0022.png)
 > **Caption:** None.
 > **Figure text:** None.
 

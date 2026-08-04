@@ -4,7 +4,7 @@
 
 ### SECOND EDITION
 
-**[Figure: A circular graphic featuring a globe in the center, surrounded by text in a lens-like ring]**
+![A circular graphic featuring a globe in the center, surrounded by text in a lens-like ring](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/michael-bazzell-from-extreme-privacy-what-it-takes-to-disappear-2020/fig_p0001.png)
 > **Figure text:** MICHAEL BAZZELL
 > ZOOM LENS 17-55 mm 1:2.8 IS USM
 
@@ -781,7 +781,7 @@ Obviously, there are ways to defeat all of this protection. A truly malicious ap
 
 Most of us have accidentally dialed someone from our mobile device while placing it into our pocket or a bag. That person can then listen to us without our knowledge. A microphone blocker prevents this unintentional transmission of audio. Have you ever participated in a group FaceTime call or conference chat and accidentally pressed the option to activate your device camera? I know I have. Fortunately, my camera blocker stopped any video transmission to the other participants. Hopefully, you will never need to rely on the protection of a camera or microphone blocker. Proper protection eliminates threats and provides peace of mind.
 
-**[Figure: Two microphone blocking devices, one a small plug and one a Lightning adapter cable]**
+![Two microphone blocking devices, one a small plug and one a Lightning adapter cable](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/michael-bazzell-from-extreme-privacy-what-it-takes-to-disappear-2020/fig_p0053.png)
 > **Caption:** Figure 2.01: Microphone blocking devices.
 > **Figure text:** MIC LOCK, MIC LOCK
 
@@ -939,7 +939,7 @@ First, launch Firefox. You should immediately be prompted by Little Snitch askin
 
 Now assume that you want to add information into the stock Apple Calendar. This will only be stored on your laptop, and it should not be synchronized to an Apple server or anywhere else. When you open the calendar app, Little Snitch notifies you that the Calendar is attempting to connect to caldav.icloud.com. Even though you are not logged in to an iCloud account, and you have never asked Apple to sync anything for you, it sends data to their servers many times throughout every day. Little Snitch can block this. When prompted, choose “Forever”, then “Any Connection”, then “Deny”. Little Snitch will quietly block these attempts every time. If you only wish to block the domain connecting to Apple, in case you add your own calendar later, you could select the second option, “Only domain icloud.com”, as seen in Figure 3.01 (left).
 
-**[Figure: Little Snitch configuration windows showing application connection prompts and rule lists]**
+![Little Snitch configuration windows showing application connection prompts and rule lists](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/michael-bazzell-from-extreme-privacy-what-it-takes-to-disappear-2020/fig_p0064.png)
 > **Caption:** Figure 3.01: Little Snitch menus.
 > **Figure text:** CalendarAgent wants to connect to caldav.icloud.com Forever Any Connection Only domain icloud.com Deny CalendarAgent configd Firefox iTunes Little Snitch Softw... mDNSResponder mount_nfs mount_url ocspd sntp syspolicyd timed trustd Deny any outgoing connection Allow incoming UDP connections t... Allow any outgoing connection Deny any outgoing connection Allow outgoing connections to domain ob... Allow any outgoing connection Allow any outgoing connection Allow any outgoing connection Allow any outgoing connection Allow outgoing UDP co... macOS Se... Allow outgoing TCP co... macOS Se... Allow outgoing UDP co... macOS Se... Allow any outgoing connection
 
@@ -1229,7 +1229,7 @@ In 2019, I was forced to test my encryption and backup strategy during a series 
 
 In my previous example of how I store my data, I mentioned an off-site external media which possessed a duplicate copy of all vital data. This is in the form of a 1GB micro SD card which contains a single 1GB VeraCrypt container. The password to open this container is unique from anything else, and I have it memorized. Without this password, the data is useless to anyone who takes possession of the card. This card was placed inside of a "hollow nickel" and stored secretively inside the home of a friend and former colleague. This is a real U.S. nickel which is made from two unique coins. Each coin is die-cut in order to create a top piece (heads) which fits into the bottom piece (tails) and allows for a hollow space in between, large enough to store a micro SD card, as seen on the next page in Figure 3.02. These cost approximately $20-$25 online.
 
-**[Figure: A hollow nickel with a micro SD card stored inside.]**
+![A hollow nickel with a micro SD card stored inside.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/michael-bazzell-from-extreme-privacy-what-it-takes-to-disappear-2020/fig_p0083.png)
 > **Caption:** Figure 3.02: A hollow nickel with a micro SD card stored inside.
 
 I called my friend and told him I was in a serious situation, and I needed his help without asking many questions. This person works in the intelligence community, so the request was well-received. I advised him to go into his upstairs bathroom and remove the power receptacle cover next to the mirror. He would then notice a nickel resting on the bottom of the outlet box within the wall. Remove that nickel and tap the edge of it on the bathroom sink. The top of the nickel will come loose and can be removed, revealing an SD card. The SD card should be inserted into a computer and the 1GB file should be uploaded to my own web server in a specific directory.
@@ -1305,7 +1305,7 @@ Hopefully, you are practicing these settings and learning how this program funct
 
 The huge benefit of uBlock Origin over other options is the simple ability to block malicious scripts without customization, while having an option to allow or block any or all scripts at our disposal. This is a rarity in these types of add-ons. The images in Figure 3.03 display these options with scripts allowed (left) and disabled (right).
 
-**[Figure: Two screenshots of the uBlock Origin browser extension interface showing blocked requests and connected domains.]**
+![Two screenshots of the uBlock Origin browser extension interface showing blocked requests and connected domains.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/michael-bazzell-from-extreme-privacy-what-it-takes-to-disappear-2020/fig_p0089.png)
 > **Caption:** Figure 3.03: Menus of uBlock Origin.
 > **Figure text:** uBlock Origin 1.14.20; cdn.optimizely.com; logx.optimizely.com; outbrain.com; amplify.outbrain.com; widgets.outbrain.com; rubiconproject.com; ads.rubiconproject.com; scorecardresearch.com; sb.scorecardresearch.com; sharethrough.com; native.sharethrough.com; summerhamster.com; www.summerhamster.com; turner.com; ssl.cdn.turner.com; usabilla.com; requests blocked; on this page; 0 or 0%; since install; 22,688 or 25%; domains connected; 25 out of 25; twitter.com/IntelTechniques; uBlock Origin 1.14.20; all; images; 3rd-party; inline scripts; 1st-party scripts; 3rd-party scripts; 3rd-party frames; twitter.com; analytics.twitter.com; syndication.twitter.com; google-analytics.com; www.google-analytics.com; twimg.com; abs.twimg.com; pbs.twimg.com; 1on.twimg.com; requests blocked; on this page; 10 or 10%; since install; 22,748 or 25%; domains connected; 2 out of 3
 
@@ -1434,7 +1434,7 @@ Most importantly, NEVER use a forwarding or masking email service for anything v
 
 Let’s pause and take a look at this strategy of email usage. In the following chart, your new personal email address is mb@protonmail.com. It is used for the important things in your life and has replaced the Gmail account you previously had. Any time you need to sign up for something in your real name that will likely send junk mail which is not vital to you, you have the forwarding account of mb.anonaddy.com. When you want to use an alias online, you have the 33mail, SimpleLogin, and Blur addresses at your disposal. These forward to another ProtonMail address exclusively for junk. All of these accounts deliver messages to your single ProtonMail inbox with a paid plan. In my opinion, this represents the minimal coverage you need. In a moment, we will escalate the protection.
 
-**[Figure: Flowchart of email usage strategy]**
+![Flowchart of email usage strategy](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/michael-bazzell-from-extreme-privacy-what-it-takes-to-disappear-2020/fig_p0099.png)
 > **Figure text:** 
 > Personal Email
 > Friends

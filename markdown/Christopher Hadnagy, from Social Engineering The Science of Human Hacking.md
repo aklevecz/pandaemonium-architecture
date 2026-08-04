@@ -188,7 +188,7 @@ I’m going to define each section of the pyramid, and I’ll get into the layer
 
 OSINT, or Open Source Intelligence, is the life blood of every social engineering engagement. It is also the piece that should have the most time spent on it. Due to that, it occupies the first and largest piece of the pyramid. One piece of this part of the pyramid is rarely addressed: documentation. How will you document, save, and catalog all the information you find? I discuss this key factor a bit more in the next chapter.
 
-**[Figure: The SE Pyramid diagram showing five stacked layers: OSINT/Intel, Pretext Development, Attack Plan, Attack Launch, and Reporting]**
+![The SE Pyramid diagram showing five stacked layers: OSINT/Intel, Pretext Development, Attack Plan, Attack Launch, and Reporting](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/christopher-hadnagy-from-social-engineering-the-science-of-human-hacking/fig_p0012.png)
 
 > **Caption:** Figure 1-3 The SE Pyramid
 > **Figure text:** OSINT/Intel

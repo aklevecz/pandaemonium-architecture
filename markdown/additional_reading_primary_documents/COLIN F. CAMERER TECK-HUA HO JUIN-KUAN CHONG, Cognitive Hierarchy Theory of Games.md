@@ -126,7 +126,7 @@ ROW PLAYER’S PAYOFFS IN AN n-PERSON STAG HUNT GAME
 | L | x | — |
 | H | 0 | 1 |
 
-**[Figure: Table I showing row player's payoffs in an n-person stag hunt game]**
+![Table I showing row player's payoffs in an n-person stag hunt game](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/colin-f-camerer-teck-hua-ho-juin-kuan-chong-cognitive-hierarchy-theory-of-games/fig_p0010.png)
 > **Caption:** TABLE I ROW PLAYER’S PAYOFFS IN AN n-PERSON STAG HUNT GAME
 > **Figure text:** Group outcome L H Row choice L x — H 0 1
 
@@ -349,7 +349,7 @@ The graphs enable us to answer an important question visually: when the Nash pre
 
 Good theories should predict behavior accurately in new situations. A simple way to see how well Poisson-CH and equilibrium models can do this is to estimate the value of τ on *n* − 1 data sets and forecast behavior in each holdout data set separately.
 
-**[Figure: Table V, Cross-Game Fit (Log-likelihood LL and Mean Squared Deviation MSD)]**
+![Table V, Cross-Game Fit (Log-likelihood LL and Mean Squared Deviation MSD)](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/colin-f-camerer-teck-hua-ho-juin-kuan-chong-cognitive-hierarchy-theory-of-games/fig_p0021.png)
 > **Caption:** TABLE V CROSS-GAME FIT (LOG-LIKELIHOOD LL AND MEAN SQUARED DEVIATION MSD)
 > **Figure text:** Data set | Stahl and Wilson | Cooper and Van Huyck | Costa-Gomes et al. | Mixed | Entry
 > Log-likelihood
@@ -426,7 +426,7 @@ A COGNITIVE HIERARCHY MODEL 885
 | Cognitive hierarchy (Common $\tau$) | 26% | 71% | 52% | 35% | 17% |
 | Nash equilibrium | 10% | 39% | 35% | −4% | 3% |
 
-**[Figure: Table VIII showing the economic value of various theories across different data sets]**
+![Table VIII showing the economic value of various theories across different data sets](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/colin-f-camerer-teck-hua-ho-juin-kuan-chong-cognitive-hierarchy-theory-of-games/fig_p0025.png)
 > **Caption:** The economic value is the total value (in experimental payoffs) of all rounds that a “hypothetical” subject will earn using the respective model to predict other’s behavior and best responds with the strategy that yields the highest expected payoff in each round.
 
 dicting “clairvoyantly” (i.e., using the actual distribution of strategies chosen by all other subjects), are also reported because these represent an upper bound on economic value.

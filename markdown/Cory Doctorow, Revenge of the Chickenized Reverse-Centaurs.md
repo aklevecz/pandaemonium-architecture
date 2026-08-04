@@ -1,7 +1,7 @@
 # Revenge of the Chickenized Reverse-Centaurs
 ## Algorithms and worker power
 
-**[Figure: A composite image of a horse's head on a human body wearing a high-visibility vest, standing in a warehouse.]**
+![A composite image of a horse's head on a human body wearing a high-visibility vest, standing in a warehouse.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/cory-doctorow-revenge-of-the-chickenized-reverse-centaurs/fig_p0001.png)
 > **Caption:** Cryteria, CC BY, modified
 
 In AI circles, a “centaur” describes a certain kind of machine/human collaboration, in

@@ -2393,7 +2393,7 @@ But Wheeler does not. "What else?"
 
 "...It's been engraved," Moreno says, indicating the walls of the stepped passage. "Using tools. And I noticed the exterior walls are the same. There's a lot of weathering, but here and there between the biological crud there's this very clear, regular pattern. Right here, see? Tiny vertical rectangles. Like a... block cursor on an old computer terminal."
 
-**[Figure: A pattern of three rows of black rectangles]**
+![A pattern of three rows of black rectangles](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/qntm-there-is-no-antimemetics-division/fig_p0127.png)
 > **Figure text:** ███████████████
 >
 > ███████████████

@@ -92,7 +92,7 @@ with $t$ uniformly sampled from $\{1, \dots, T\}$.
 
 Unlike previous work that relied on autoregressive, attention-based transformer models in a highly compressed, discrete latent space [23, 66, 103], we can take advantage of image-specific inductive biases that our model offers. This
 
-**[Figure: Diagram showing the conditioning of LDMs via concatenation or cross-attention]**
+![Diagram showing the conditioning of LDMs via concatenation or cross-attention](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/fig_p0004.png)
 > **Caption:** Figure 3. We condition LDMs either via concatenation or by a more general cross-attention mechanism. See Sec. 3.3
 > **Figure text:** Latent Space, Diffusion Process, Denoising U-Net $\epsilon_\theta$, Conditioning, Semantic Map, Text, Representations, Images, Pixel Space, denoising step, crossattention, switch, skip connection, concat
 
@@ -821,7 +821,7 @@ See Tab. 17 for the hyperparameters of $\tau_\theta$ and Tab. 13 for those of th
 
 Note that the class-conditional model as described in Sec. 4.1 is also implemented via cross-attention, where $\tau_\theta$ is a single learnable embedding layer with a dimensionality of 512, mapping classes $y$ to $\zeta \in \mathbb{R}^{1 \times 512}$.
 
-**[Figure: Architecture of a transformer block]**
+![Architecture of a transformer block](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/fig_p0026.png)
 > **Caption:** Table 16. Architecture of a transformer block as described in Sec. E.2.1, replacing the self-attention layer of the standard “ablated UNet” architecture [15]. Here, $n_h$ denotes the number of attention heads and $d$ the dimensionality per head.
 > **Figure text:** input $\mathbb{R}^{h \times w \times c}$ LayerNorm $\mathbb{R}^{h \times w \times c}$ Conv1x1 $\mathbb{R}^{h \times w \times d \cdot n_h}$ Reshape $\mathbb{R}^{h \cdot w \times d \cdot n_h}$ $\times T$ $\begin{cases} \text{SelfAttention} & \mathbb{R}^{h \cdot w \times d \cdot n_h} \\ \text{MLP} & \mathbb{R}^{h \cdot w \times d \cdot n_h} \\ \text{CrossAttention} & \mathbb{R}^{h \cdot w \times d \cdot n_h} \end{cases}$ Reshape $\mathbb{R}^{h \times w \times d \cdot n_h}$ Conv1x1 $\mathbb{R}^{h \times w \times c}$
 
@@ -860,7 +860,7 @@ For the results of the user study presented in Tab. 4 we followed the protocoll 
 
 # F. Computational Requirements
 
-**[Figure: Table 18. Comparing compute requirements during training and inference throughput with state-of-the-art generative models.]**
+![Table 18. Comparing compute requirements during training and inference throughput with state-of-the-art generative models.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/robin-rombach-et-al-high-resolution-image-synthesis-with-latent-diffusion-models/fig_p0028.png)
 > **Caption:** Table 18. Comparing compute requirements during training and inference throughput with state-of-the-art generative models. Compute during training in V100-days, numbers of competing methods taken from [15] unless stated differently;∗ : Throughput measured in samples/sec on a single NVIDIA A100;† : Numbers taken from [15] ;‡ : Assumed to be trained on 25M train examples; †† : R-FID vs. ImageNet validation set
 
 In Tab 18 we provide a more detailed analysis on our used compute ressources and compare our best performing models on the CelebA-HQ, FFHQ, LSUN and ImageNet datasets with the recent state of the art models by using their provided numbers, cf. [15]. As they report their used compute in V100 days and we train all our models on a single NVIDIA A100 GPU, we convert the A100 days to V100 days by assuming a ×2.2 speedup of A100 vs V100 [74][^4]. To assess sample quality, we additionally report FID scores on the reported datasets. We closely reach the performance of state of the art methods as StyleGAN2 [42] and ADM [15] while significantly reducing the required compute resources.

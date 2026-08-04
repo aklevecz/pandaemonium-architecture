@@ -209,7 +209,7 @@ b. In the usual types of polyalphabetic substitution systems, successive letters
 
 *b.* As an example illustrating the italicized portion of the preceding sentence, let us suppose the correspondents agree to use reversed standard cipher alphabets with the key word SIGNAL, and that in the encryption the message is divided into groups as shown below:
 
-**[Figure: Table showing the encryption process with key word SIGNAL and grouping cycles]**
+![Table showing the encryption process with key word SIGNAL and grouping cycles](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0010.png)
 > **Figure text:** (Table content as printed)
 
 *Cryptogram*
@@ -255,7 +255,7 @@ b. Although a solution may often be obtained without breaking down a resultant p
 
 (2) Systems in which the key elements are generated or governed by the plain text being enciphered or by the resultant cipher text.
 
-**[Figure: Redacted block with callout box]**
+![Redacted block with callout box](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0012.png)
 > **Figure text:** (b)(1)
 > (b)(3)-18 USC 798
 > (b)(3)-50 USC 3024(i)
@@ -294,7 +294,7 @@ Y T O W N H B A F E X A V E Q A U V Z I E B P O B
 
 In the course of routine study of the message, the plain-component sequence is completed for the first 15 letters of the cryptogram, on the assumptions of direct and reversed standard cipher alphabets, as shown in Figs. 2a and b, respectively, below:[^2-p14]
 
-**[Figure: Completion diagram for direct standard cipher alphabet]**
+![Completion diagram for direct standard cipher alphabet](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0014.png)
 > **Caption:** FIGURE 2a
 
 **[Figure: Completion diagram for reversed standard cipher alphabet]**
@@ -362,7 +362,7 @@ Noting in lines (2) and (3) that the intervals between the letters G, V, and P a
 
 (1) Let us complete the plain-component sequence on the second and third words of the message, after first converting the cipher letters into their plain-component equivalents (where known), using for this purpose the uppermost cipher alphabet given in Fig. 3b. This is shown in the illustration below:
 
-**[Figure: Three tables showing cipher-to-plain component conversions for words of a message]**
+![Three tables showing cipher-to-plain component conversions for words of a message](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0017.png)
 > **Caption:** FIGURE 4a FIGURE 4b FIGURE 4c
 > **Figure text:** IUITD QHIWE LVCGWPCLZ LVCGWPCLZ LVCGWPCLZ
 > ENEMY SBE VWL DW GVWL DW HVWL DW
@@ -502,7 +502,7 @@ J K M N O P Q S T V W X Z H Y D R A U L I C B E F G
 4. L K Q A M G I J E U M G P J C G K K L J H B E K V . . .
 5. B K J U A I E S A A S B R H S L Y L W H H Q Y E P . . .
 
-**[Figure: Table of message beginnings]**
+![Table of message beginnings](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0020.png)
 > **Caption:** FIGURE 8*a*
 
 The reason for the low I.C.’s of the first 5 and the first 6 columns is that the sample was insufficient to portray what we expect of English plain text; on the other hand, the reason for the high I.C.’s of the first 8 and the first 10 columns is that the beginning words of these messages probably exceed the average length (5.2 letters) of all English words.
@@ -524,7 +524,7 @@ S H B P I . Z L M . R G T U K W Y E Q A J V C . D F
 
 (3) The key letters (under Aₚ) of the first three alphabets are S, U, and P. The rest of the solution proceeds either by the generatrix method as outlined in subpar. 11*c*(1), or by analysis of the key as illustrated in subpar. 11*c*(2). The complete texts of the message beginnings are shown in Fig. 8*b*, below:
 
-**[Figure: Table showing five message beginnings with cipher text and corresponding plain text]**
+![Table showing five message beginnings with cipher text and corresponding plain text](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0021.png)
 > **Caption:** FIGURE 8*b*
 > **Figure text:** 
 > 1. G K B S A | M K U H Q | P J C G K | K L J H K | C F V R T . . .
@@ -571,7 +571,7 @@ $\delta$-$\epsilon$: B D T F A G U O E
 
 Using the graphical method of indirect symmetry, these partial chains may be amalgamated into the diagrams shown in Figs. 9*a* and *b*, below. We note in Fig. 9*a* the 1 relationship of the letters XZ, ST, 2 OP, and EF, and conclude that the cipher component must be a keyword-mixed sequence. We now expand the diagram of Fig. 9*a* by placing the W in position diagonally ahead of the XZ, and we duplicate the remaining letters in their proper position with respect to the W just placed a moment before; this
 
-**[Figure: Four diagrams (9a, 9b, 9c, 9d) showing the arrangement of letters in columns and rows to demonstrate indirect symmetry.]**
+![Four diagrams (9a, 9b, 9c, 9d) showing the arrangement of letters in columns and rows to demonstrate indirect symmetry.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0022.png)
 
 > **Caption:** FIGURE 9a FIGURE 9b FIGURE 9c FIGURE 9d
 > **Figure text:** Y W J B L D X S Z T O P K E F I A H V G U Y W J B L D X S Z T O J B P K E L D X S F I Z T O A P K E F I A Y W J B Y W L D X S G Z T O J B U P K E L D X S F I Z T O A P K E F I A H V
@@ -603,7 +603,7 @@ If the key word for the sequence cannot be guessed from this partial sequence, w
 
 analysis after a few letters of the key have been derived. The complete decipherment of the message is shown below:
 
-**[Figure: Decipherment of the message showing ciphertext and plaintext alignments]**
+![Decipherment of the message showing ciphertext and plaintext alignments](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0024.png)
 > **Caption:** FIGURE 10
 > **Figure text:** S T R I L H J J T Y Z L D X Z H Y | P H Z F | O C X L I | M D F G O O B D C O M M U N I C A T I O N | W I T H | F I R | S T A R T | I L L E R K E W H I L P | F Q X X | Q G Y J P R X G J | G L T S R | M K S | P G Z Z I J F P Y W I L L | B E T H R | O U G H | C O R P S | A N D | C O M M U N I C E T H E K E F G J | I M K H X W I Y D | C T A U E E D T F K H U N F Z A T I O N | W I T H S | E C O N | A R T I L | L E R Y T | H R O U G I R O N H S G R G E G J K L | I B W X W | D V B B O W T D X S T V W | M T H D I V I S I O N S | T O P N O | C O M M U N I C A T I O N A F S F B D | J Z I Y Z B E | X X X X T E R M I D N I G H T
 
@@ -635,7 +635,7 @@ H Y D R A U L I C B E F G J K M N O P Q S T V W X Z
 
 Let us first replace the letters of the cipher text by their numerical equivalents according to the HYDRAULIC sequence. We will then take a delta or lateral difference stream [^21] from these numerical values, by subtracting each number from the following one; [^22] however, instead of recording the numerical difference, we will record the literal equivalent of this numerical difference according to the HYDRAULIC sequence above. The result of this process is shown in Fig. 11, below:
 
-**[Figure: A table showing the delta or lateral difference stream calculation for the cipher text.]**
+![A table showing the delta or lateral difference stream calculation for the cipher text.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0025.png)
 > **Caption:** FIGURE 11
 > **Figure text:** (The figure contains a multi-row table showing ciphertext letters, their numerical equivalents, and the resulting delta stream letters.)
 
@@ -660,7 +660,7 @@ Collateral information indicates that the cryptosystem involves monoalphabetic e
 
 (3) When word separators have been used, the first and last letters of long polygraphic repetitions are most likely to be word separators;[^26] consequently, in the case of the first repeated sequence, PTXSFIWC (representing either the second or third word of the message), P and C should represent the word separators. Now if the cipher text of the message is written out in lines of 50–60 letters or so using the repeated sequence PTXSFIWC as a sort of base, we might be able to pick out the successive word separators; this is shown in the diagram below:
 
-**[Figure: A diagram showing the alignment of ciphertext segments to identify word separators]**
+![A diagram showing the alignment of ciphertext segments to identify word separators](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0026.png)
 > **Caption:** FIGURE 12
 > **Figure text:** IWJIRNPTXSFIWCMSDFEWSBLXQLBHFLTYIFDUVLULJRLYGHRZYIFMZXD
 > GRMCRSWPTXSFIWCKAMWZXLXWQBAARNFLTVQAMQDZLVUQKGQZZOIHMIROLOMID
@@ -769,7 +769,7 @@ six general cases discussed above.
 | Key elements, Case V: | 3 | 2 | 1 | 0 | 9 | 9 | 0 | 0 | 9 | 8 | 7 | 7 | 8 | 9 | 0 | 1 | 2 | 3 | 4 | 5 | 5 | 4 | 3 | 2 | 1 |
 | Key elements, Case VI: | 3 | 2 | 1 | 0 | 9 | 1 | 2 | 4 | 3 | 2 | 1 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | 1 | 3 | 2 | 1 | 0 | 9 |
 
-**[Figure: Table of key elements for six cases and diagram of ciphertext letter positions]**
+![Table of key elements for six cases and diagram of ciphertext letter positions](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0031.png)
 > **Caption:** FIGURE 13
 > **Figure text:** Note that in Cases III and VI the amount of skip is here portrayed as being constant. This is not a necessary condition in these keying methods; the amount of skip could have consisted of irregular jumps as established by the keying convention employed.
 
@@ -801,7 +801,7 @@ Case II
 →39 40 41 42 43 44 45) (37 38→
 →50 . . . (46 47 48 49→
 
-**[Figure: Diagram showing four cases of keying sequence interruptions labeled Case III through Case VI]**
+![Diagram showing four cases of keying sequence interruptions labeled Case III through Case VI](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0032.png)
 > **Caption:** None.
 > **Figure text:** 
 > Case III: 1 2 3 4 5 6 7 8 9 Ø (1 2 3) (4) (5 6 7 8→ →9 10) (11 12 13 14 15 16 17) (18 19 20 21 22) (23 24 25→ →26 27 28 29 30) (31 32) (33→ →34 35 36) (37 38 39 40 41 42→ →43 44 45) (46 47 48 49 50 . . .
@@ -943,7 +943,7 @@ Plain: A M M U N I T I U M T H I E T
 
 (4) It is obvious that BUSINESS is only a part of the key. But the first word of the message is plainly AMMUNITION. When this is tried, the key is extended to BUSINESS MA . . . This key crib is now slid through the rest of the cipher text and the remainder of the message is quickly deciphered and the entire key recovered.
 
-**[Figure: Diagram showing the placement of the probable word ARTILLERY against the cipher text]**
+![Diagram showing the placement of the probable word ARTILLERY against the cipher text](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0036.png)
 > **Caption:** In actual practice, the search for the placement of the probable word would have been accomplished by means of the following diagram (see in this connection subpar. 22d on pp. 41-42 of Military Cryptanalytics, Part II):
 > **Figure text:** B O L Y R P J D R O J K X K J F Y X S X D J U P S Y I Y D P . . .
 > A B O L Y R P J D R O J K X K J F Y X S X D J U P S Y I Y D P
@@ -983,7 +983,7 @@ Z Z I A F M Q J C X
 
 (2) If we know the method of interruption and also the identity of the ciphertext interruptor,[^17-p39] we would write out the appropriately modified cipher text on various widths, testing each hypothesis in turn, until a satisfactory I.C. is reached for an entire columnar array. For example, if we know that the enemy is using key words and phrases from 11 to 40 letters in length as the basic key sequence, we would begin by writing out the modified cipher text (on the assumption of Wc as the interruptor letter) on a width of 11 as shown below, together with the appropriate φ values for the computations:
 
-**[Figure: Columnar array of ciphertext with φ values]**
+![Columnar array of ciphertext with φ values](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0039.png)
 > **Figure text:** 
 > 1 2 3 4 5 6 7 8 9 10 11
 > G S W W T R H Z D W G
@@ -1018,7 +1018,7 @@ $$\delta\text{I.C.} = \frac{26 \cdot 64}{3(13 \cdot 12) + 5(12 \cdot 11) + 2(11 
 
 (4) This I.C. of 1.17 is not satisfactory, so we continue testing successively greater widths, until the width of 32 is reached:
 
-**[Figure: Table of letters arranged in columns for width 32 calculation]**
+![Table of letters arranged in columns for width 32 calculation](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0040.png)
 > **Figure text:** 
 > 5 10 15 20 25 30 32
 > G S W . W . T R H Z D W . G L N U J W . X R W . R H N Q L S Y X
@@ -1055,7 +1055,7 @@ column have undergone the same kind of treatment by the same elements (plain and
 
 *b.* Let us study the following beginnings of 30 messages, passed between correspondents known to have used various types of aperiodic keying:
 
-**[Figure: A table of 30 cryptogram beginnings, each 15 characters long, arranged in two columns of 15 rows each.]**
+![A table of 30 cryptogram beginnings, each 15 characters long, arranged in two columns of 15 rows each.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0041.png)
 
 > **Figure text:**
 > 5 10 15 5 10 15
@@ -1077,7 +1077,7 @@ column have undergone the same kind of treatment by the same elements (plain and
 
 The presence of digraphic and polygraphic repetitions in the initial columns could mean that the messages start out in flush depth, and the presence of offset repetitions could be an indication of shifts in the keying sequence. Frequency distributions for the columns are made and are shown in Fig. 16, below, accompanied by their I.C.'s:
 
-**[Figure: Frequency distributions for columns 1 through 15 with their I.C. values]**
+![Frequency distributions for columns 1 through 15 with their I.C. values](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0042.png)
 > **Caption:** FIGURE 16
 > **Figure text:** 
 > 1. A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 2.63
@@ -1126,7 +1126,7 @@ becomes ACCORDING.
 *d.* The plain-cipher equivalencies from the foregoing assumptions are entered into a sequence
 reconstruction matrix, as shown below:
 
-**[Figure: Sequence reconstruction matrix]**
+![Sequence reconstruction matrix](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0043.png)
 > **Figure text:**
 > A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 > 1 C N Z H
@@ -1202,7 +1202,7 @@ Our work sheet will now look as illustrated in Fig. 17. which includes the value
 15. Z A B M Z H G O F X Q I G M M . . . 30. S P R C P F X E O J C Q F W M . . .
     R I R E b G
 
-**[Figure: A worksheet showing 30 rows of cipher text with partial plain text recovered below certain characters]**
+![A worksheet showing 30 rows of cipher text with partial plain text recovered below certain characters](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0044.png)
 
 > **Caption:** FIGURE 17
 
@@ -1284,7 +1284,7 @@ K: F O R T U N E | T H I R D R E G I M E N T C O M M A N D P O S
 P: T H I R D R E G I M E N T C O M M A N D P O S T M O V I N G . . .
 C: Y V Z K X E I Z P U V Q K G U U Y E A W R C E F M B Y X B Y
 
-**[Figure: Ciphertext autokey encipherment example using FORTUNE as the initial key]**
+![Ciphertext autokey encipherment example using FORTUNE as the initial key](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0047.png)
 > **Caption:** FIGURE 19b
 
 *d.* In the foregoing examples, direct standard alphabets were used; however, mixed alphabets, [^2-p47] may be used just as readily. Furthermore, instead of the ordinary type of cipher alphabets, the cryptographic process may employ a mathematical process of addition, but the difference between the latter process and the ordinary one using sliding alphabets is more apparent than real. For example, let us consider the following numerical sequence for the 26 letters
@@ -1384,7 +1384,7 @@ P: R E C E I V I N G C O N T I N U O U S F
 
 (1) In Fig. 21 is illustrated the arrangement of standard-alphabet strips for the first 10 letters of putative key, QXFWZQUAIU, for the message beginning given in subpar. *a*(1), above. If we assume that a one-letter introductory key has been used, the key letters just named were used to key the 2d through 11th cipher letters, XFWZQUAIUY; therefore we search for these cipher letters consecutively across the strips and we note the letters to their immediate left. In this case the plain text HIRDREGIME is manifested and the problem is solved.
 
-**[Figure: Three columns of cipher text and key arrangements labeled Figure 21, Figure 22a, and Figure 22b]**
+![Three columns of cipher text and key arrangements labeled Figure 21, Figure 22a, and Figure 22b](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0050.png)
 > **Caption:** FIGURE 21 FIGURE 22a FIGURE 22b
 > **Figure text:** (K): (Q X F W Z Q U A I U) (B P A U V N L F J A) (B P A U V N L F J A)
 > (C): (X F W Z Q U A I U Y) (P A U V N L F J A L) (J A L Y M L Q N A E)
@@ -1452,7 +1452,7 @@ Z C K D J L X D W V W Z Y Z O Q L O E O M E
 
 (P):(F L N W K U N G C O) (C O N T I N U O U S)
 
-**[Figure: strip arrangement for the first 10 letters of assumed key]**
+![strip arrangement for the first 10 letters of assumed key](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0051.png)
 > **Caption:** Figure 23a
 > **Figure text:** (K): (D I T G C M G T Z B) (C): (I T G C M G T Z B P) (P):(F L N W K U N G C O)
 
@@ -1636,7 +1636,7 @@ M X D I D S P B S F L Y Z K C F
 
 *b.* A distribution table is now compiled, the results of which are shown in Fig. 26, below; in originally making the distribution, tallies had been recorded in the appropriate cell in the pertinent horizontal line of the table to indicate the cipher letter which immediately followed each occurrence of the letter to which that line applies. Obviously, the best method of compiling the data is to treat the text bi-literally, taking the first and second letters, the second and third letters, and so on, distributing the digraphs as tallies in a digraphic distribution.
 
-**[Figure: A digraphic distribution table showing the frequency of letter pairs in a ciphertext, with row and column totals and I.C. values.]**
+![A digraphic distribution table showing the frequency of letter pairs in a ciphertext, with row and column totals and I.C. values.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0057.png)
 > **Caption:** FIGURE 26
 
 *c.* The individual frequency distributions give every appearance of being monoalphabetic, which confirms the assumption that the enemy is using ciphertext autokey with a *single-letter introductory* key. The average I.C. of the rows of the matrix is $\frac{42.85}{26} = 1.65$, which is fine;[^11-p57] or, as a better approach, we could calculate the *digraphic* I.C. of the matrix by considering the sum (1218) of the $\phi$ values of Fig. 26 as the observed value of $\phi$ and substituting in the formula $\delta = \frac{676\sum f(f-1)}{N(N-1)} = \frac{676(1218)}{705 \times 704} = 1.66$, again substantiating the same assumption.[^12-p57] (This discrepancy between the two figures lies in the round-off errors introduced in obtaining an average I.C.)
@@ -1664,7 +1664,7 @@ P: A V A I L A B L E
 
 Reference is now made to the appropriate frequency distributions to see how well the actual individual frequencies correspond to the expected ones; these data are tabulated in the diagram below:
 
-**[Figure: Table showing frequency distribution analysis for the word AVAILABLE]**
+![Table showing frequency distribution analysis for the word AVAILABLE](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0058.png)
 > **Caption:** None.
 > **Figure text:** 
 > Alphabet | Assumed | Frequency | Approximation
@@ -1774,7 +1774,7 @@ B J N N B I T M L J O O S E A A T K P B Y
 
 *b.* Frequency distributions are made, based upon the second letters of pairs, as in the preceding example. These distributions are shown in the table in Fig. 27, below. The digraphic I.C. is $\frac{676(500)}{451 \times 450} = 1.67$, confirming ciphertext autokey with a single-letter introductory key. Nevertheless, the data in each distribution are relatively scanty and it would appear that the solution is going to be a rather difficult matter.
 
-**[Figure: Frequency distribution table of second letters of pairs]**
+![Frequency distribution table of second letters of pairs](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0061.png)
 > **Caption:** FIGURE 27
 
 *c.* Before becoming discouraged too quickly, however, we make a search throughout the text to see if any isomorphs are present. Fortunately, there appear to be several of them. Note the following:
@@ -1910,7 +1910,7 @@ It will be noted that the intervals between identical vertical pairs show a cons
 (3) The vertical pairs beyond the first five letters of the messages are now distributed in a reconstruction matrix according to their position based upon this interval of 5, similar to the treatment of vertical pairs in periodic-cipher isologs arising from the use of repeating keys of the same lengths.[^21-p65]
 This is shown below:
 
-**[Figure: Reconstruction matrix showing the distribution of vertical pairs based on an interval of 5]**
+![Reconstruction matrix showing the distribution of vertical pairs based on an interval of 5](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0065.png)
 > **Figure text:** 
 > ∅ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 > 1 P W N H T Y S R L
@@ -1990,13 +1990,13 @@ SECRET 62
 
 28. Further remarks on ciphertext autokey systems.—a. All of the discussion on ciphertext autokey systems thus far has been limited to alphabetical systems employing sliding primary components (or the equivalent form of a square table). There is no reason, of course, why a set of 26 unrelated random sequences in a table such as that in Fig. 33, below, could not be used for the cipher alphabets. In such
 
-**[Figure: A 26x26 square table of random letters with row and column headers]**
+![A 26x26 square table of random letters with row and column headers](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0075.png)
 > **Caption:** FIGURE 33
 > **Figure text:** Plain A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A T O K Z B L R X S P W N A Q C E I G D J F V U Y M H B S B A C D E H F I J K T L M O U V Y G Z N P Q X R W C Y Q R T V W L A D K O M J U B G E P H S C Z I N X F D Z S A E D C B I F G J H L K M R U O Q V P T N W Y X E S L W E M Z V X G A F N Q U K D O P I T J B R H C Y F G P O C I X L U R N D Y Z H W B J S Q F K V M E T A G W A H X J E Z B N I K P V R O G S Y D U L C F M Q T H G T D X A I H P J O B W K C V F Z L Q E R Y N S U M I A J D S K Q O I V T Z E F H G Y U N L P M B X W C R J J G H O N M T P R Q S V Z U X Y W I C A K E L B D F K V Q P N O H U W D I Z Y C G K R F B E J A L T M S X L E W O A M N F L H Q G C U J T B Y P Z K X I S R D V Key N D W P K J V I U Q H Z C T X B L E G N Y R S M F A O O S G U E N T C X O W F Q D R L J Z M A P B V H I Y K P X C S H D E O K F P Y A Q J N U B T G I M W Z R V L Q N V A R M Y O F T H E U S Z J X D P C W G Q I B K L R O Z P L G V J R K Y T F U I W X H A S D M C N E Q B S T O J Y L F X N G W H V C M I R B S E K U P D Z Q A T Z X Q L Y I O V B P E S N H J W M D G F C K A U T R U E Y B F S J M U D Q C L Z W T I P A V N K H R G O X V X P U C O T Y A W V S F D L I E B H K N R J Q Z G M W E V D T U F O Y H M L S I Q N J C P G B Z A X K W R X M V K B Q W U G L O S T E C H N Z F R I D A Y J P X Y W J L V G R C Q M P S O E X T K I A Z D N B U H Y F Z T B R E M X Z P V Q Y U O G A I K L F S W H D C N J
 
 cases, the general methods treated in par. 22 still apply, with necessary modifications, as also do the methods in pars. 23 and 24, except that it is obvious that (a) there will be no determinable base letter, and (b) there will be no causal isomorphs. For that matter, even with a matrix such as that of Fig. 34 below, in which the key letters are designated by *arbitrary* letters to the left of the square (instead of
 
-**[Figure: A square matrix with key letters on the left and plain letters on top]**
+![A square matrix with key letters on the left and plain letters on top](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0076.png)
 > **Caption:** FIGURE 34
 > **Figure text:** Plain
 > H Y D R A U L I C B E F G J K M N O P Q S T V W X Z
@@ -2070,7 +2070,7 @@ The I.C. of the entire deciphered message is 0.99, so the length of the introduc
 
 [^26]: If other than mod-10 arithmetic is used, say an arbitrary conversion-square encipherment with a square such as the following,
 
-**[Figure: Conversion square table]**
+![Conversion square table](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0077.png)
 > **Caption:** None.
 > **Figure text:** Plain 0 1 2 3 4 5 6 7 8 9 0 3 1 6 7 5 8 2 4 9 0 1 1 2 3 5 4 6 8 9 0 7 2 6 4 0 2 8 1 5 3 7 9 3 7 3 2 9 0 5 6 1 8 4 4 5 8 4 0 9 2 3 7 1 6 Key 5 8 5 1 6 7 9 0 2 4 3 6 2 9 8 1 3 7 4 0 6 5 7 4 6 9 8 2 0 7 5 3 1 8 9 0 7 3 6 4 1 8 5 2 9 0 7 5 4 1 3 9 6 2 8
 
@@ -2105,7 +2105,7 @@ K: 1 0 6 4 9 2 5 6 3 5
 C: 1 9 6 8 9 9 9 6 0 1
 P: 0 9 0 4 0 7 4 0 7 6
 
-**[Figure: Frequency distribution chart showing tallies for digits 1 through 0]**
+![Frequency distribution chart showing tallies for digits 1 through 0](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/lambros-d-callimahos-from-military-cryptanalytics-pt3-1977/fig_p0078.png)
 > **Figure text:** 1 2 3 4 5 6 7 8 9 0
 
 From here on the solution of the intermediate text is a simple matter; monome-dinome characteristics are observed in the preliminary examination, and recovery of the plain text and of the enciphering matrix quickly follow.[^29]

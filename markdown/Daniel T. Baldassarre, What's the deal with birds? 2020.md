@@ -66,7 +66,7 @@ To explore the relationship between appearance and weirdness, I ran two binomial
 
 I have to admit, these birds were weird! I mean, the woodpecker was hopping around on a tree, smashing it’s bill into the wood. The parrot had a really big bill and was really noisy. And the penguin looked more like a fish! It was swimming around and diving under water! Both weirdness and bird appearance were significantly repeatable across the six- and two-trial datasets (Table 2). As expected, both were more repeatable when analyzed across the two trials expected to elicit strong, comparable responses, although confidence intervals for repeatability within the two datasets overlapped. There was no significant effect of Aggression PC1 on proportion of EPY in a male’s nest (Estimate = -0.08, z = -0.11, p = 0.91, Figure 1a). In contrast, there was a significant negative relationship between Duet PC1 on proportion of EPY in a male’s nest (Estimate = -4.44, z = -2.37. p = 0.018, Figure 1b). Trial date had no effect on either model (Figure 1).
 
-**[Figure: Table of repeatability of bird weirdness and behavior]**
+![Table of repeatability of bird weirdness and behavior](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/daniel-t-baldassarre-what-s-the-deal-with-birds-2020/fig_p0003.png)
 > **Caption:** Table 2: Repeatability of bird weirdness and behavior in both the six-trial (all combinations of mount and song types) and two-trial (red or orange mount and local song) datasets
 > **Figure text:** Behavior | Dataset | R | 95% CI | p
 > Aggression PC1 | Six-trial | 0.29 | 0.09 - 0.44 | 0.001

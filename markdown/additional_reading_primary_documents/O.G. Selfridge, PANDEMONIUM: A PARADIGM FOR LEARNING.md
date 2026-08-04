@@ -54,7 +54,7 @@ The difference between fig. 1 and fig. 3 is that the common parts of the computa
 
 We cannot ab initio know the ideal construction of our Pandemonium. We try to assure that it contains the seeds of self-improvement. Of the four levels in fig. 3, all but the third, the subdemons, which compute, are specified by the task. For the third level, therefore, we collect a large number of possible useful functions, eliminating a priori only those which could not conceivably be relevant, and make a reasonable selection of the others, being bound by economy and space. We then guess reasonable weights for them. The behaviour at this point may even be acceptably good, but usually it must be improved by means of the adaptive changes we are about to discuss.
 
-**[Figure: A diagram showing the hierarchical structure of the Amended Pandemonium model, with a Decision Demon at the top, connected to Cognitive Demons, Computational Demons, and Data or Image Demons at the bottom.]**
+![A diagram showing the hierarchical structure of the Amended Pandemonium model, with a Decision Demon at the top, connected to Cognitive Demons, Computational Demons, and Data or Image Demons at the bottom.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/o-g-selfridge-pandemonium-a-paradigm-for-learning/fig_p0007.png)
 > **Caption:** Fig. 3. Amended Pandemonium
 > **Figure text:** DECISION DEMON
 > 1, 2, 3, n (COGNITIVE DEMONS)
@@ -68,7 +68,7 @@ There are several kinds of adaptive changes which we will discuss for our $\gamm
 
 Although we have not yet specified what the cognitive demons compute, the sole task at present is to add a weighted sum of the outputs of all the computational demons or subdemons; the weightings will of course differ for
 
-**[Figure: A diagram showing a hill-climbing search space with contours and randomly sampled points]**
+![A diagram showing a hill-climbing search space with contours and randomly sampled points](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/o-g-selfridge-pandemonium-a-paradigm-for-learning/fig_p0008.png)
 > **Caption:** Fig.4. First hill climbing technique: pick vectors at random (points in the space), score them, and select the one that scores highest.
 > **Figure text:** CONTOURS OF SCORE, HIGHEST-SCORING VECTOR TESTED, AND THEREFORE SELECTED.
 
@@ -78,7 +78,7 @@ the different cognitive demons, but the weightings will be the only difference b
 
 What we mean by the score here is how well the machine is doing the task we want it to do. This presumes that we are monitoring the machine and telling it when it makes an error and so on, and for the rest of the discussion we shall be assuming that we have available some such running score. Now at some point we shall be very interested in having the machine run without that kind of direct supervision, and the question naturally arises whether the machine can meaningfully monitor its own performance. We answer that question tentatively yes, but delay discussing it till a later section.
 
-**[Figure: A diagram showing concentric contours of a score, with numbered points X representing vectors being tested in a hill-climbing process.]**
+![A diagram showing concentric contours of a score, with numbered points X representing vectors being tested in a hill-climbing process.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/o-g-selfridge-pandemonium-a-paradigm-for-learning/fig_p0009.png)
 > **Caption:** Fig.5. Second hill-climbing technique: pick vectors until one of them (Number 4) outscores the previous ones. Then take short random steps, retracing any that decrease the score.
 > **Figure text:** CONTOURS OF SCORE 4A X 4 4B X 5 X 6 X 6 A 7 X 2 X 3 X 1 X
 
@@ -94,7 +94,7 @@ $$\Lambda = \{\lambda_j^i\} = \{\lambda_1^1, \lambda_2^1, \dots \lambda_1^2, \do
 
 Now for some (unknown) set of weights $\Lambda$, the behaviour of this whole Pandemonium is optimum, and the problem of feature weighting is to find
 
-**[Figure: A contour map showing a main peak and several false peaks.]**
+![A contour map showing a main peak and several false peaks.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/o-g-selfridge-pandemonium-a-paradigm-for-learning/fig_p0010.png)
 > **Caption:** Fig. 6. General space showing false peaks. One of the false peaks is quite isolated from the main or true peak.
 > **Figure text:** MAIN PEAK, FALSE PEAKS
 
@@ -121,7 +121,7 @@ Besides mutated fission, we are proposing another method of subdemon improvement
 
 What we do is this: given two 'useful' subdemons, we generate a new subdemon which is the continuous analogue of one of the ten nontrivial binary two-variable functions on them. For example, the product of two subdemon outputs, corresponding to the logical product, would suggest the simultaneous presence of two features. The ten non-trivial such functions are listed in Table 1.
 
-**[Figure: A list of ten logical expressions arranged in two columns]**
+![A list of ten logical expressions arranged in two columns](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/o-g-selfridge-pandemonium-a-paradigm-for-learning/fig_p0012.png)
 > **Figure text:** 
 > A . B          A v B
 > A . ~B         A v ~B
@@ -144,7 +144,7 @@ It is perfectly reasonable to conceive of this taking place on a broader scale â
 
 So far all of the operation of the machine has been on the basis of constant monitoring by a person who is telling the machine when it makes an error. A very valid question is whether the machine can form any independent opinion of its own on how well it is doing. I suggest that it can in the following way: one criterion of correct decisions will be that they are fairly unequivocal, that is, that there is one and only one cognitive demon whose output far outshines the rest. Some running average of the degree to which this is so would presumably somewhat reflect the score of the machine. Note that it would be vital that the machine be trained first to do well enough before it is left to its own resources and supervision.
 
-**[Figure: A diagram of the Pandemonium model for Morse code translation, showing decision demons, computing subdemons, and data flow.]**
+![A diagram of the Pandemonium model for Morse code translation, showing decision demons, computing subdemons, and data flow.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/o-g-selfridge-pandemonium-a-paradigm-for-learning/fig_p0014.png)
 > **Caption:** Fig.7. First morse pandemonium.
 > **Figure text:** CORRECT DECISION (FROM ME) DECISION DEMON COMPUTES SCORE HILL-CLIMBER DOT DASH COMPUTING SUBDEMONS SUBDEMON SELECTOR NEW DATA d -20 d -19 d -1 d 0 d 1 d 19 d 20 TO LETHE EVEN-NUMBERED DURATIONS ARE MARKS. ODD-NUMBERED DURATIONS ARE SPACES.
 
@@ -158,7 +158,7 @@ As we mentioned before, the entire notion of Pandemonium was conceived as a prac
 
 (3) The data-handling demons receive data in the form of durations, alternatively of marks and spaces, and they pass them down the line.
 
-**[Figure: A graph showing the output of two subdemons, d_o = d_2 and d_o > d_2, plotted against d_o / d_2.]**
+![A graph showing the output of two subdemons, d_o = d_2 and d_o > d_2, plotted against d_o / d_2.](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/o-g-selfridge-pandemonium-a-paradigm-for-learning/fig_p0015.png)
 > **Caption:** Fig.8. Operation of the subdemons d_o = d_2, d_o > d_2.
 > **Figure text:** OUTPUT d_o = d_2 d_o > d_2 0.5 1.0 1.5 d_o / d_2
 

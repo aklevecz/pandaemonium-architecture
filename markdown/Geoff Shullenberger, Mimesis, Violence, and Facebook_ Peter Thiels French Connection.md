@@ -128,5 +128,5 @@ Theorizing the Web 2016 (https://thesocietypages.org/cyborgology/ttw/)
 
 🔍 (https://thesocietypages.org/cyborgology/search/)
 
-**[Figure: Creative Commons license icon]**
+![Creative Commons license icon](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/geoff-shullenberger-mimesis-violence-and-facebook-peter-thiels-french-connection/fig_p0011.png)
 > **Caption:** CC Attribution Non-Commercial Share Alike (http://creativecommons.org/licenses/by-nc-sa/3.0/us/)

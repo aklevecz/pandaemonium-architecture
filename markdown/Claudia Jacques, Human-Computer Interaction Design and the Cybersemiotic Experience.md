@@ -366,7 +366,7 @@ Dynamic Complexity – Distinction between predictable/linear dynamics and chaot
 
 A common characteristic of models of complex systems is that they are nonlinear. This means that the elements of a system interact in ways that are more complex than additions and subtractions. In a linear system, we just add the properties of the elements, and we can deduce and predict the behavior of the system. Nevertheless, when there are many interactions, and these are nonlinear, small differences multiply overtime, yielding often chaos and unpredictability. In a nonlinear system, causes are not directly proportional to their effects. Big changes can have little or no effect, while small changes can have drastic consequences. This makes complex systems to be not completely predictable. (Gershenson and Heylighen 2005, n.p.)
 
-**[Figure: Table showing mediation capabilities of elements in the meta-environment]**
+![Table showing mediation capabilities of elements in the meta-environment](https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/figures/claudia-jacques-human-computer-interaction-design-and-the-cybersemiotic-experience/fig_p0035.png)
 > **Caption:** Fig. 10.7 Mediation capabilities of the elements in the meta-environment and their characteristics. Source: Jacques, 2016, p. 69
 > **Figure text:** Categories/ Elements | User | Information | Interface
 > Spatiality | Physical | Digital | Physical + Digital
