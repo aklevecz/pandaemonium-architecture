@@ -28,14 +28,16 @@
 				{week.title}
 			</h1>
 
-			<blockquote class="mt-8 max-w-xl">
-				<p class="font-serif text-base leading-relaxed text-gray italic">
-					&ldquo;{week.epigraph.text}&rdquo;
-				</p>
-				<cite class="mt-2 block text-xs text-muted not-italic">
-					&mdash; {week.epigraph.source}
-				</cite>
-			</blockquote>
+			{#if week.epigraph}
+				<blockquote class="mt-8 max-w-xl">
+					<p class="font-serif text-base leading-relaxed text-gray italic">
+						&ldquo;{week.epigraph.text}&rdquo;
+					</p>
+					<cite class="mt-2 block text-xs text-muted not-italic">
+						&mdash; {week.epigraph.source}
+					</cite>
+				</blockquote>
+			{/if}
 		</header>
 
 		<div class="h-px bg-rule"></div>
@@ -48,34 +50,37 @@
 			</p>
 		</section>
 
-		<div class="h-px bg-rule"></div>
+		<!-- Readings. A week can have none (e.g. a visitor session), in which
+		     case the heading and its rule would render as an empty band. -->
+		{#if week.readings.length > 0}
+			<div class="h-px bg-rule"></div>
 
-		<!-- Readings -->
-		<section class="py-10">
-			<p class="text-xs tracking-widest text-muted uppercase">Readings</p>
-			<div class="mt-6 space-y-6">
-				{#each week.readings as reading}
-					<div>
-						<a
-							href={getReadingUrl(reading.pdf)}
-							class="group block no-underline"
-						>
-							<p class="text-xs text-muted">{reading.author}</p>
-							<p
-								class="mt-1 font-serif text-lg leading-snug text-light transition-colors group-hover:text-bright"
+			<section class="py-10">
+				<p class="text-xs tracking-widest text-muted uppercase">Readings</p>
+				<div class="mt-6 space-y-6">
+					{#each week.readings as reading}
+						<div>
+							<a
+								href={getReadingUrl(reading.pdf)}
+								class="group block no-underline"
 							>
-								{reading.title}
-							</p>
-							<p
-								class="mt-1 text-xs text-muted transition-colors group-hover:text-light"
-							>
-								Read &rarr;
-							</p>
-						</a>
-					</div>
-				{/each}
-			</div>
-		</section>
+								<p class="text-xs text-muted">{reading.author}</p>
+								<p
+									class="mt-1 font-serif text-lg leading-snug text-light transition-colors group-hover:text-bright"
+								>
+									{reading.title}
+								</p>
+								<p
+									class="mt-1 text-xs text-muted transition-colors group-hover:text-light"
+								>
+									Read &rarr;
+								</p>
+							</a>
+						</div>
+					{/each}
+				</div>
+			</section>
+		{/if}
 
 		<!-- Additional Readings -->
 		{#if week.additionalReadings.length > 0}
