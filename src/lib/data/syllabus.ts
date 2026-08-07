@@ -246,6 +246,11 @@ export const weeks: Week[] = [
 				pdf: 'Benjamin H_ Bratton, Platform and Stack, Model and Machine.pdf'
 			},
 			{
+				title: 'Integrated World Capitalism and Molecular Revolution',
+				author: 'Félix Guattari',
+				pdf: 'Félix Guattari, Integrated World Capitalism and Molecular Revolution.pdf'
+			},
+			{
 				title: 'Acid Communism',
 				author: 'Matt Colquhoun',
 				pdf: 'Matt Colquhoun, Acid Communism.pdf'
@@ -355,6 +360,11 @@ export const weeks: Week[] = [
 				title: 'The Interface Theory of Perception',
 				author: 'Donald Hoffman',
 				pdf: 'Donald Hoffman, The Interface Theory of Perception.pdf'
+			},
+			{
+				title: 'Spirit in the Crypt: Negarestani vs Land',
+				author: 'Vincent Le',
+				pdf: 'Vincent Le, Spirit in the Crypt, Negarestani vs Land.pdf'
 			},
 			{
 				title: 'Revenge of the Chickenized Reverse-Centaurs',
