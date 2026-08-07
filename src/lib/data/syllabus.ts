@@ -104,6 +104,16 @@ export const weeks: Week[] = [
 				pdf: 'qntm, There Is No Antimemetics Division.pdf'
 			},
 			{
+				title: 'The Great Digital Fatigue: How Digital Burnout Is Changing Social Media Use',
+				author: 'Incogni Research',
+				pdf: 'Incogni Research, The Great Digital Fatigue.pdf'
+			},
+			{
+				title: 'The Dark Forest Theory of the Internet',
+				author: 'Yancey Strickler',
+				pdf: 'Yancey Strickler, The Dark Forest Theory of the Internet.pdf'
+			},
+			{
 				title: 'Notes on Thinking Machine Imaginaries: Llull, Leibniz, and Lovelace to ‘Shoggoth with a Smiley Face’',
 				author: 'Scott Benzel',
 				pdf: "Notes on Thinking Machine Imaginaries_ Llull, Leibniz, and Lovelace to 'Shoggoth with a Smiley Face'.pdf"
