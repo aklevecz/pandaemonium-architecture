@@ -4,10 +4,18 @@
 # embeddings, summaries) used to live in Cloudflare static assets but
 # kept getting evicted between deploys, so they now live in R2.
 #
+# The worker answers on more than one custom domain, so by default this
+# checks every one — a second domain that silently stopped resolving would
+# otherwise pass unnoticed. Pass a host to check just that one.
+#
 # Usage: scripts/smoke-deploy.sh
-#        or:  scripts/smoke-deploy.sh https://a211h.yaytso.art  (default)
+#        or:  scripts/smoke-deploy.sh https://atek639.calarts.app
 set -e
-HOST="${1:-https://a211h.yaytso.art}"
+if [ -n "${1:-}" ]; then
+  HOSTS=("$1")
+else
+  HOSTS=(https://a211h.yaytso.art https://atek639.calarts.app)
+fi
 R2="https://pub-4906ce9149e5436e917a6086ba26d792.r2.dev/data"
 
 # Small static assets still on Cloudflare's asset bucket.
@@ -40,6 +48,7 @@ ROUTES=(
 )
 
 fail=0
+for HOST in "${HOSTS[@]}"; do
 for p in "${ASSETS[@]}"; do
   code=$(curl -s -o /dev/null -w "%{http_code}" "$HOST$p")
   if [ "$code" = "200" ]; then
@@ -48,6 +57,7 @@ for p in "${ASSETS[@]}"; do
     printf "  \033[31mFAIL\033[0m %s  %s\n" "$code" "$HOST$p"
     fail=1
   fi
+done
 done
 
 for p in "${R2_FILES[@]}"; do
@@ -60,6 +70,7 @@ for p in "${R2_FILES[@]}"; do
   fi
 done
 
+for HOST in "${HOSTS[@]}"; do
 for p in "${ROUTES[@]}"; do
   # Routes behind auth may return 302/303 — count those as OK.
   code=$(curl -s -o /dev/null -w "%{http_code}" "$HOST$p")
@@ -70,6 +81,7 @@ for p in "${ROUTES[@]}"; do
     fail=1
   fi
 done
+done
 
 if [ $fail -ne 0 ]; then
   echo
@@ -79,4 +91,4 @@ if [ $fail -ne 0 ]; then
   exit 1
 fi
 echo
-echo "All clear on $HOST"
+echo "All clear on ${HOSTS[*]}"

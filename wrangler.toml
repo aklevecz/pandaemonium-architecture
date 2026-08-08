@@ -7,6 +7,10 @@ compatibility_flags = ["nodejs_als"]
 pattern = "a211h.yaytso.art"
 custom_domain = true
 
+[[routes]]
+pattern = "atek639.calarts.app"
+custom_domain = true
+
 [assets]
 binding = "ASSETS"
 directory = ".svelte-kit/cloudflare"

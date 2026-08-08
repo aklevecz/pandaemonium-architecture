@@ -120,7 +120,10 @@ The site references PDFs by their R2 object key; the bucket is `pandaemonium-pdf
 
 ## Deployment
 
-The site deploys as a Cloudflare Worker (custom domain `a211h.yaytso.art`). After `npm run build`:
+The site deploys as a Cloudflare Worker, served on two custom domains —
+`atek639.calarts.app` (course-facing) and `a211h.yaytso.art` (original). Both
+point at the same Worker; session cookies are host-scoped, so a login on one
+doesn't carry to the other. After `npm run build`:
 
 ```sh
 npx wrangler deploy
