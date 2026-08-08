@@ -1,6 +1,6 @@
 # Pandaemonium Architecture 6.0
 
-Course site for *Pandaemonium Architecture 6.0* (ATEK-639/439, Fall 2025) — a reading-driven seminar on AI, machine learning, cybernetics, and their intersection with art and society.
+Course site for *Pandaemonium Architecture 6.0* (ATEK-639/439, Fall 2026) — a reading-driven seminar on AI, machine learning, cybernetics, and their intersection with art and society.
 
 The site hosts the syllabus, week-by-week schedule, and a reader for the course's primary and supplementary texts. Authenticated students get persistent notes, highlights, scroll-position bookmarks, and a Claude-powered chat assistant scoped to the reading they're in.
 
@@ -10,7 +10,7 @@ The site hosts the syllabus, week-by-week schedule, and a reader for the course'
 - **Cloudflare D1** for users, sessions, notes, highlights, bookmarks, and chat history
 - **Cloudflare R2** for PDF storage (bucket: `pandaemonium-pdfs`)
 - **Tailwind CSS 4** for styling
-- **Anthropic API** (`claude-sonnet-4-20250514`) for the in-reader chat assistant
+- **Anthropic API** (`claude-sonnet-4-6`) for the in-reader chat assistant
 - **`marked`** to render assistant responses
 
 ## Layout
