@@ -1,62 +1,14 @@
 # Readings still to source
 
-Three readings are assigned in the **Fall 2026** syllabus and have no text in
-the app. Everything else on the syllabus is present and working (76 readings,
-all reachable, all 75 PDF links and 419 figure images resolving).
+**One** reading assigned in the Fall 2026 syllabus still has no text in the app.
+Everything else is present and working: 77 readings, all reachable in
+production, all PDF links and figure images resolving.
 
 Last checked: 2026-08-08.
 
 ---
 
-## 1. Aaron French — "The Mandela Effect and New Memory"
-
-**Week 3**, primary reading
-*Correspondences* 6, no. 2 (2018): 201–233
-**Open access — free**
-
-- Direct PDF: `correspondencesjournal.com/ojs/ojs/index.php/home/article/view/70/69`
-- Article page: <https://www.correspondencesjournal.com/ojs/ojs/index.php/home/article/view/70>
-- Mirrors, if the journal misbehaves:
-  - <https://www.academia.edu/38367838/The_Mandela_Effect_and_New_Memory>
-  - <https://www.researchgate.net/publication/366973326_The_Mandela_Effect_and_New_Memory>
-
-**Why it needs a human:** the journal's firewall returns `455 Security Incident
-Detected — Your request was blocked. Do not retry.` It opens normally in a
-browser.
-
-This is the French essay that Benzel's *Notes on New Memory* quotes at length,
-so it's additive rather than duplicative.
-
-Save as:
-
-```
-PDFs/Aaron French, The Mandela Effect and New Memory.pdf
-```
-
----
-
-## 2. Benjamin A. Olsho — "A Cross-sectional Analysis of the Hollywood Stock Exchange's Forecasting Accuracy and Risk vs. Return Relationships"
-
-**Week 9**, additional reading
-Penn State honors thesis, 2013
-**Open access — free**
-
-- Landing page (click the download link there):
-  <https://honors.libraries.psu.edu/catalog/17484>
-
-**Why it needs a human:** PSU returns 403 to automated requests — including via
-the session-tokenized download URL and through a real browser session. A human
-click works.
-
-Save as:
-
-```
-PDFs/additional_reading_primary_documents/Benjamin A. Olsho, A Cross-Sectional Analysis of the Hollywood Stock Exchange.pdf
-```
-
----
-
-## 3. Cory Doctorow — *The Reverse Centaur's Guide to Life After AI*
+## Cory Doctorow — *The Reverse Centaur's Guide to Life After AI*
 
 **Week 7**, primary reading
 Farrar, Straus and Giroux / Verso, 23 June 2026
@@ -82,6 +34,19 @@ PDFs/Cory Doctorow, from The Reverse Centaurs Guide to Life After AI.pdf
 
 ---
 
+## Done
+
+| Reading | Week | Sourced |
+| --- | --- | --- |
+| Incogni Research, The Great Digital Fatigue | 2 | authored from the live article |
+| Yancey Strickler, The Dark Forest Theory of the Internet | 2 | authored from the live article |
+| Aaron French, The Mandela Effect and New Memory | 3 | supplied |
+| Félix Guattari, Integrated World Capitalism and Molecular Revolution | 4 | author-hosted PDF |
+| Vincent Le, Spirit in the Crypt: Negarestani vs Land | 7 | Cosmos & History, open access |
+| Benjamin A. Olsho, Hollywood Stock Exchange forecasting accuracy | 9 | supplied |
+
+---
+
 ## Adding one once you have it
 
 Hand it off, or run the pipeline yourself:
@@ -97,15 +62,21 @@ node scripts/pdf-pipeline/reconcile.js <slug>
 ```
 
 Then review the generated `markdown/<name>.md.new`, rename it over the `.md`,
-add the entry to `src/lib/data/syllabus.ts`, and `npm run deploy`.
+add the entry to `src/lib/data/syllabus.ts`, and:
 
-`<slug>` matches on a unique prefix — `aaron-french` is enough.
+```bash
+node scripts/embed-readings.js     # so it's searchable
+bash scripts/upload-data.sh        # push embeddings + summaries to R2
+npm run deploy                     # uploads figures, builds, ships
+```
+
+`<slug>` matches on a unique prefix — `aaron-french` was enough.
 
 Two things worth knowing:
 
 - **`triage.js` rewrites every `metadata.json`.** That sounds alarming but it's
-  deterministic: all 72 existing classifications came back byte-identical
-  across a re-run, so it's safe.
+  deterministic — existing classifications have come back identical across
+  three separate re-runs, verified by diff each time.
 - **Avoid `?` and `#` in filenames.** Not strictly required — the two files
   renamed for this turned out to be blocked by an expired token, not the
   characters — but they're URL-special and worth dodging.
@@ -119,3 +90,16 @@ pages**, which is more faithful than OCR'ing a print-to-PDF of a web article.
 `reconcile --all` skips them safely (it iterates work dirs that have VLM
 output), but running `vlm.js` then `reconcile.js` on those two slugs
 specifically would overwrite good text with a worse transcription.
+
+## Outstanding: summaries for six readings
+
+The summary cards for the six readings above are missing — the Anthropic API
+key ran out of credits mid-run. The same key serves the in-reader chat
+assistant and the define popover, so those are down in production until it's
+topped up. After refilling:
+
+```bash
+node scripts/summarize-readings.js   # cached; only fills the gaps
+node scripts/people/extract.js       # then scripts/people/build.js
+bash scripts/upload-data.sh
+```
