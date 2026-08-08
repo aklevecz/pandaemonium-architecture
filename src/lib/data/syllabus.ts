@@ -165,6 +165,11 @@ export const weeks: Week[] = [
 				pdf: 'Mindy Seu (editor) - from Cyberfeminism Index.pdf'
 			},
 			{
+				title: 'The Mandela Effect and New Memory',
+				author: 'Aaron French',
+				pdf: 'Aaron French, The Mandela Effect and New Memory.pdf'
+			},
+			{
 				title: 'Notes on New Memory, the Wood between Worlds',
 				author: 'Scott Benzel',
 				pdf: 'Notes on New Memory - Scott Benzel.pdf'
@@ -455,6 +460,12 @@ export const weeks: Week[] = [
 				title: 'from Bitcoin, Software as Rightwing Extremism',
 				author: 'David Golumbia',
 				pdf: 'additional_reading_primary_documents/David Golumbia, from Bitcoin, software as rightwing extremism.pdf'
+			},
+			{
+				title:
+					'A Cross-Sectional Analysis of the Hollywood Stock Exchange’s Forecasting Accuracy and Risk vs. Return Relationships',
+				author: 'Benjamin A. Olsho',
+				pdf: 'additional_reading_primary_documents/Benjamin A. Olsho, A Cross-Sectional Analysis of the Hollywood Stock Exchange.pdf'
 			},
 			{
 				title: 'A Maximum Likelihood Approach to Continuous Speech Recognition',
