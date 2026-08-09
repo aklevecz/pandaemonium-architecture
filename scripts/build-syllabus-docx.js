@@ -83,28 +83,59 @@ function readingLine(r) {
 	});
 }
 
+// The lab is drafted by hand each term, so this is a writing area rather than
+// a caption: label on its own line, the current text below it, then blank
+// ruled lines to type into. Consecutive paragraphs carrying identical borders
+// and shading render as one continuous box in Word, which is what gives the
+// block its height.
+const LAB_EDGES = {
+	top: { style: BorderStyle.SINGLE, size: 2, color: RULE, space: 10 },
+	bottom: { style: BorderStyle.SINGLE, size: 2, color: RULE, space: 10 },
+	left: { style: BorderStyle.SINGLE, size: 2, color: RULE, space: 12 },
+	right: { style: BorderStyle.SINGLE, size: 2, color: RULE, space: 12 }
+};
+const LAB_SHADE = { type: ShadingType.CLEAR, fill: LAB_FILL, color: 'auto' };
+
+// Blank lines to write into. Four lines ≈ 1in of usable space per week.
+const LAB_BLANK_LINES = 4;
+
 function labBlock(text) {
-	return new Paragraph({
-		spacing: { before: 160, after: 200, line: 264 },
-		shading: { type: ShadingType.CLEAR, fill: LAB_FILL, color: 'auto' },
-		border: {
-			top: { style: BorderStyle.SINGLE, size: 2, color: RULE, space: 6 },
-			bottom: { style: BorderStyle.SINGLE, size: 2, color: RULE, space: 6 },
-			left: { style: BorderStyle.SINGLE, size: 2, color: RULE, space: 6 },
-			right: { style: BorderStyle.SINGLE, size: 2, color: RULE, space: 6 }
-		},
-		children: [
-			new TextRun({
-				text: 'LAB   ',
-				font: SANS,
-				size: 16,
-				bold: true,
-				characterSpacing: 30,
-				color: MUTED
-			}),
-			new TextRun({ text, font: SERIF, size: 21, color: INK })
-		]
-	});
+	const paras = [
+		new Paragraph({
+			spacing: { before: 140, after: 100, line: 264 },
+			shading: LAB_SHADE,
+			border: LAB_EDGES,
+			children: [
+				new TextRun({
+					text: 'LAB',
+					font: SANS,
+					size: 16,
+					bold: true,
+					characterSpacing: 30,
+					color: MUTED
+				})
+			]
+		}),
+		new Paragraph({
+			spacing: { after: 120, line: 300 },
+			shading: LAB_SHADE,
+			border: LAB_EDGES,
+			children: [new TextRun({ text, font: SERIF, size: 21, color: INK })]
+		})
+	];
+
+	for (let i = 0; i < LAB_BLANK_LINES; i++) {
+		paras.push(
+			new Paragraph({
+				spacing: { after: i === LAB_BLANK_LINES - 1 ? 160 : 40, line: 300 },
+				shading: LAB_SHADE,
+				border: LAB_EDGES,
+				children: [new TextRun({ text: '', font: SERIF, size: 21 })]
+			})
+		);
+	}
+
+	return paras;
 }
 
 const children = [];
@@ -205,7 +236,7 @@ for (const w of weeks) {
 		for (const r of w.additionalReadings) children.push(readingLine(r));
 	}
 
-	children.push(labBlock(w.lab));
+	children.push(...labBlock(w.lab));
 
 	// The term's one holiday falls between the week 4 and week 5 meetings.
 	if (w.number === 4) {
