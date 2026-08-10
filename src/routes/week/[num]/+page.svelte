@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { weeks, getPdfUrl, getReadingUrl } from '$lib/data/syllabus';
+	import { weeks, getPdfUrl, getReadingUrl, type Reading } from '$lib/data/syllabus';
 
 	const week = $derived(weeks.find((w) => w.number === Number(page.params.num)));
 	const prevWeek = $derived(week ? weeks.find((w) => w.number === week.number - 1) : undefined);
@@ -50,58 +50,61 @@
 			</p>
 		</section>
 
-		<!-- Readings. A week can have none (e.g. a visitor session), in which
-		     case the heading and its rule would render as an empty band. -->
+		<!-- Both reading lists use one row shape so they read as the same kind
+		     of object — a thing you open — differing only in weight. The
+		     secondary list used to be small muted italics with no affordance,
+		     which read as footnotes rather than as links. -->
+		{#snippet readingRow(reading: Reading, primary: boolean)}
+			<a
+				href={getReadingUrl(reading.pdf)}
+				class="group grid grid-cols-[1fr_auto] items-baseline gap-4 py-3.5 no-underline sm:py-4"
+			>
+				<span>
+					<span
+						class="block font-serif leading-snug transition-colors {primary
+							? 'text-lg text-light sm:text-xl'
+							: 'text-base text-gray'} group-hover:text-bright"
+					>
+						{reading.title}
+					</span>
+					<span class="mt-1 block text-xs text-muted">{reading.author}</span>
+				</span>
+				<span
+					class="text-xs text-muted transition-all group-hover:translate-x-0.5 group-hover:text-light"
+					aria-hidden="true">&rarr;</span
+				>
+			</a>
+		{/snippet}
+
+		<!-- A week can have no readings (e.g. a visitor session), in which case
+		     the heading and its rule would render as an empty band. -->
 		{#if week.readings.length > 0}
 			<div class="h-px bg-rule"></div>
 
 			<section class="py-10">
-				<p class="text-xs tracking-widest text-muted uppercase">Readings</p>
-				<div class="mt-6 space-y-6">
+				<p class="text-xs tracking-widest text-muted uppercase">
+					Readings
+					<span class="ml-1 text-muted/60">{week.readings.length}</span>
+				</p>
+				<div class="mt-4 divide-y divide-rule border-y border-rule">
 					{#each week.readings as reading}
-						<div>
-							<a
-								href={getReadingUrl(reading.pdf)}
-								class="group block no-underline"
-							>
-								<p class="text-xs text-muted">{reading.author}</p>
-								<p
-									class="mt-1 font-serif text-lg leading-snug text-light transition-colors group-hover:text-bright"
-								>
-									{reading.title}
-								</p>
-								<p
-									class="mt-1 text-xs text-muted transition-colors group-hover:text-light"
-								>
-									Read &rarr;
-								</p>
-							</a>
-						</div>
+						{@render readingRow(reading, true)}
 					{/each}
 				</div>
 			</section>
 		{/if}
 
-		<!-- Additional Readings -->
 		{#if week.additionalReadings.length > 0}
 			<div class="h-px bg-rule"></div>
 
 			<section class="py-10">
-				<p class="text-xs tracking-widest text-muted/60 uppercase">
-					Additional Reading
+				<p class="text-xs tracking-widest text-muted uppercase">
+					Additional Reading &amp; Primary Documents
+					<span class="ml-1 text-muted/60">{week.additionalReadings.length}</span>
 				</p>
-				<div class="mt-5 space-y-3">
+				<div class="mt-4 divide-y divide-rule border-y border-rule">
 					{#each week.additionalReadings as reading}
-						<a
-							href={getReadingUrl(reading.pdf)}
-							class="group block no-underline"
-						>
-							<span
-								class="font-serif text-sm text-muted transition-colors group-hover:text-light"
-							>
-								{reading.author}, <em>{reading.title}</em>
-							</span>
-						</a>
+						{@render readingRow(reading, false)}
 					{/each}
 				</div>
 			</section>
@@ -109,10 +112,11 @@
 
 		<div class="h-px bg-rule"></div>
 
-		<!-- Lab -->
+		<!-- Lab. Was also small muted italics — same footnote problem as the
+		     secondary readings, and it's real content now that labs are written. -->
 		<section class="py-10">
-			<p class="text-xs tracking-widest text-muted/60 uppercase">Lab</p>
-			<p class="mt-3 font-serif text-sm text-muted italic">
+			<p class="text-xs tracking-widest text-muted uppercase">Lab</p>
+			<p class="mt-3 font-serif text-base leading-relaxed text-gray">
 				{week.lab}
 			</p>
 		</section>
