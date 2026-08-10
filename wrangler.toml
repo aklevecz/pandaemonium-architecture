@@ -11,6 +11,13 @@ custom_domain = true
 pattern = "atek639.calarts.app"
 custom_domain = true
 
+# Magic-link sign-in mail. `remote = true` so `wrangler dev` sends through the
+# real service instead of pretending to.
+[[send_email]]
+name = "EMAIL"
+remote = true
+allowed_sender_addresses = ["login@calarts.app"]
+
 [assets]
 binding = "ASSETS"
 directory = ".svelte-kit/cloudflare"

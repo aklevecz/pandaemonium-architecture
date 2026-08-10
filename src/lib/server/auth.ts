@@ -20,6 +20,10 @@ export async function hashPassword(password: string): Promise<string> {
 }
 
 export async function verifyPassword(password: string, stored: string): Promise<boolean> {
+	// Passwordless accounts store a sentinel in this column (see
+	// migrations/0010). Reject anything that isn't a real '<hex>:<hex>' digest
+	// rather than letting it fall through to a parse that might compare loosely.
+	if (!/^[a-f0-9]+:[a-f0-9]+$/.test(stored)) return false;
 	const [saltHex, hashHex] = stored.split(':');
 	const salt = new Uint8Array(saltHex.match(/.{2}/g)!.map((b) => parseInt(b, 16)));
 	const key = await crypto.subtle.importKey('raw', encoder.encode(password), 'PBKDF2', false, [
