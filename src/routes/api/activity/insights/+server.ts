@@ -1,5 +1,5 @@
 import { json, error } from '@sveltejs/kit';
-import { requireAuthAndDb } from '$lib/server/api';
+import { requireInstructor } from '$lib/server/instructors';
 import type { RequestHandler } from './$types';
 
 interface PassageRow {
@@ -26,7 +26,7 @@ interface ReadingSummary {
 //   GET /api/instructor/insights              → corpus summary
 //   GET /api/instructor/insights?slug=…       → per-reading passage details
 export const GET: RequestHandler = async (event) => {
-	const { db } = requireAuthAndDb(event);
+	const { db } = requireInstructor(event);
 
 	const slug = event.url.searchParams.get('slug');
 

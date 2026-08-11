@@ -65,11 +65,13 @@
 					>People</a
 				>
 				{#if data.user}
-					<a
-						href="/activity"
-						class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
-						>Activity</a
-					>
+					{#if data.isInstructor}
+						<a
+							href="/activity"
+							class="text-xs tracking-wide text-muted transition-colors hover:text-white uppercase"
+							>Activity</a
+						>
+					{/if}
 					<span class="hidden text-xs text-muted sm:inline">{data.user.email}</span>
 					<button
 						onclick={logout}
