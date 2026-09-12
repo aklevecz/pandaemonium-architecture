@@ -99,7 +99,22 @@ const LAB_SHADE = { type: ShadingType.CLEAR, fill: LAB_FILL, color: 'auto' };
 // Blank lines to write into. Four lines ≈ 1in of usable space per week.
 const LAB_BLANK_LINES = 4;
 
-function labBlock(text) {
+// A schedule interruption (a holiday, say) printed between two weeks.
+function scheduleNote(text) {
+	return new Paragraph({
+		spacing: { before: 60, after: 220, line: 300 },
+		children: [new TextRun({ text, font: SERIF, size: 20, italics: true, color: MUTED })]
+	});
+}
+
+function labBlock(lab) {
+	// `lab` is { topic?, items[] }: the topic sits on its own line, each item
+	// below it, and TBD stands in when the session hasn't been drafted yet.
+	const lines = [];
+	if (lab.topic) lines.push(`Topic: ${lab.topic}`);
+	lines.push(...lab.items);
+	if (lines.length === 0) lines.push('TBD');
+
 	const paras = [
 		new Paragraph({
 			spacing: { before: 140, after: 100, line: 264 },
@@ -116,12 +131,15 @@ function labBlock(text) {
 				})
 			]
 		}),
-		new Paragraph({
-			spacing: { after: 120, line: 300 },
-			shading: LAB_SHADE,
-			border: LAB_EDGES,
-			children: [new TextRun({ text, font: SERIF, size: 21, color: INK })]
-		})
+		...lines.map(
+			(line) =>
+				new Paragraph({
+					spacing: { after: 120, line: 300 },
+					shading: LAB_SHADE,
+					border: LAB_EDGES,
+					children: [new TextRun({ text: line, font: SERIF, size: 21, color: INK })]
+				})
+		)
 	];
 
 	for (let i = 0; i < LAB_BLANK_LINES; i++) {
@@ -205,9 +223,7 @@ for (const w of weeks) {
 		}),
 		new Paragraph({
 			spacing: { after: 100 },
-			children: [
-				new TextRun({ text: w.title, font: SERIF, size: 30, bold: true, color: INK })
-			]
+			children: [new TextRun({ text: w.title, font: SERIF, size: 30, bold: true, color: INK })]
 		})
 	);
 
@@ -237,6 +253,7 @@ for (const w of weeks) {
 	}
 
 	children.push(...labBlock(w.lab));
+	if (w.noClassAfter) children.push(scheduleNote(w.noClassAfter));
 
 	// The term's one holiday falls between the week 4 and week 5 meetings.
 	if (w.number === 4) {
