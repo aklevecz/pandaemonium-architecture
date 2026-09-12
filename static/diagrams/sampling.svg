@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" fill="none" stroke="#8c8c8c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="17">
+  <!-- prompt -->
+  <rect x="10" y="150" width="185" height="100" rx="3"/>
+  <text x="102" y="184" fill="#8c8c8c" stroke="none" text-anchor="middle" font-size="12" letter-spacing="2">PROMPT</text>
+  <text x="102" y="216" fill="#8c8c8c" stroke="none" text-anchor="middle" font-family="'SF Mono','Fira Mono',monospace" font-size="13">the cat sat on the</text>
+  <path d="M195 200 H235"/><path d="M229 194 L235 200 L229 206"/>
+  <!-- model -->
+  <rect x="235" y="150" width="110" height="100" rx="3"/>
+  <text x="290" y="184" fill="#8c8c8c" stroke="none" text-anchor="middle" font-size="12" letter-spacing="2">MODEL</text>
+  <text x="290" y="216" fill="#8c8c8c" stroke="none" text-anchor="middle">weights</text>
+  <path d="M345 200 H385"/><path d="M379 194 L385 200 L379 206"/>
+  <!-- distribution -->
+  <text x="490" y="86" fill="#8c8c8c" stroke="none" text-anchor="middle" font-size="12" letter-spacing="2">A PROBABILITY FOR EVERY TOKEN</text>
+  <g font-family="'SF Mono','Fira Mono',monospace" font-size="14" fill="#8c8c8c" stroke="none">
+    <text x="440" y="130" text-anchor="end">mat</text>
+    <text x="440" y="164" text-anchor="end">floor</text>
+    <text x="440" y="198" text-anchor="end">roof</text>
+    <text x="440" y="232" text-anchor="end">sofa</text>
+    <text x="440" y="266" text-anchor="end">…</text>
+    <text x="580" y="130">0.31</text>
+    <text x="580" y="164">0.22</text>
+    <text x="580" y="198">0.09</text>
+    <text x="580" y="232">0.07</text>
+    <text x="580" y="266">0.31</text>
+  </g>
+  <g fill="#8c8c8c" stroke="none">
+    <rect x="452" y="118" width="118" height="14"/>
+    <rect x="452" y="152" width="84" height="14"/>
+    <rect x="452" y="186" width="34" height="14"/>
+    <rect x="452" y="220" width="27" height="14"/>
+    <rect x="452" y="254" width="118" height="14" opacity="0.35"/>
+  </g>
+  <text x="510" y="304" fill="#8c8c8c" stroke="none" text-anchor="middle" font-size="13">sums to 1</text>
+  <path d="M625 200 H655"/><path d="M649 194 L655 200 L649 206"/>
+  <!-- sampling -->
+  <rect x="655" y="150" width="150" height="100" rx="3"/>
+  <text x="730" y="184" fill="#8c8c8c" stroke="none" text-anchor="middle" font-size="12" letter-spacing="2">SAMPLE</text>
+  <text x="730" y="216" fill="#8c8c8c" stroke="none" text-anchor="middle" font-size="15">one random draw</text>
+  <text x="730" y="275" fill="#8c8c8c" stroke="none" text-anchor="middle" font-size="13">not in the weights</text>
+  <path d="M805 200 H830"/><path d="M824 194 L830 200 L824 206"/>
+  <!-- output, and what other runs drew -->
+  <rect x="830" y="150" width="120" height="100" rx="3"/>
+  <text x="890" y="184" fill="#8c8c8c" stroke="none" text-anchor="middle" font-size="12" letter-spacing="2">OUTPUT</text>
+  <text x="890" y="216" fill="#8c8c8c" stroke="none" text-anchor="middle" font-family="'SF Mono','Fira Mono',monospace" font-size="16">floor</text>
+  <g fill="#8c8c8c" stroke="none" font-family="'SF Mono','Fira Mono',monospace" font-size="13">
+    <text x="840" y="300">run 2  mat</text>
+    <text x="840" y="322">run 3  mat</text>
+    <text x="840" y="344">run 4  roof</text>
+    <text x="840" y="366">run 5  mat</text>
+  </g>
+  <text x="840" y="278" fill="#8c8c8c" stroke="none" font-size="12" letter-spacing="2">SAME PROMPT</text>
+</svg>

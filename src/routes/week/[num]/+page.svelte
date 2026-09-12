@@ -2,7 +2,11 @@
 	import { page } from '$app/state';
 	import { weeks, getPdfUrl, getReadingUrl, type Reading } from '$lib/data/syllabus';
 
+	let { data } = $props();
+
 	const week = $derived(weeks.find((w) => w.number === Number(page.params.num)));
+	// null when the week has no deck, or has one this viewer may not see.
+	const lab = $derived(data.lab);
 	const prevWeek = $derived(week ? weeks.find((w) => w.number === week.number - 1) : undefined);
 	const nextWeek = $derived(week ? weeks.find((w) => w.number === week.number + 1) : undefined);
 </script>
@@ -10,21 +14,20 @@
 {#if week}
 	<article class="mx-auto max-w-3xl px-4 sm:px-6">
 		<div class="pt-8 sm:pt-10">
-			<a
-				href="/#syllabus"
-				class="text-xs text-muted transition-colors hover:text-white uppercase"
-			>
+			<a href="/#syllabus" class="text-xs text-muted uppercase transition-colors hover:text-white">
 				&larr; Back
 			</a>
 		</div>
 
-		<header class="pb-12 pt-10">
+		<header class="pt-10 pb-12">
 			<p class="text-xs text-muted">
 				<span class="font-mono tabular-nums">{String(week.number).padStart(2, '0')}</span>
 				&ensp;/&ensp;
 				{week.date}
 			</p>
-			<h1 class="mt-3 font-serif text-2xl font-normal leading-tight text-bright sm:text-4xl md:text-5xl">
+			<h1
+				class="mt-3 font-serif text-2xl leading-tight font-normal text-bright sm:text-4xl md:text-5xl"
+			>
 				{week.title}
 			</h1>
 
@@ -116,12 +119,52 @@
 		     secondary readings, and it's real content now that labs are written. -->
 		<section class="py-10">
 			<p class="text-xs tracking-widest text-muted uppercase">Lab</p>
-			<p class="mt-3 font-serif text-base leading-relaxed text-gray">
-				{week.lab}
-			</p>
+			{#if week.lab.topic}
+				<p class="mt-3 font-serif text-lg text-light">{week.lab.topic}</p>
+			{/if}
+			{#if week.lab.items.length > 0}
+				<ul class="mt-3 space-y-1.5">
+					{#each week.lab.items as item (item)}
+						<li class="flex gap-3 font-serif text-base leading-relaxed text-gray">
+							<span class="mt-2 h-px w-3 shrink-0 bg-rule" aria-hidden="true"></span>
+							<span>{item}</span>
+						</li>
+					{/each}
+				</ul>
+			{:else if !week.lab.topic}
+				<p class="mt-3 font-serif text-base text-muted">TBD</p>
+			{/if}
+
+			<!-- Once a lab has a deck, the deck is the real lab page; the blurb
+			     above stays as the syllabus-level description. -->
+			{#if lab}
+				<a
+					href="/lab/{lab.number}"
+					class="group mt-6 flex items-baseline justify-between gap-4 rounded border border-rule p-4 no-underline transition-colors hover:border-muted hover:bg-rule/20"
+				>
+					<span>
+						<span class="text-[10px] tracking-widest text-muted uppercase"
+							>Lab deck &middot; {lab.stance}{lab.draft ? ' · draft' : ''}</span
+						>
+						<span
+							class="mt-1 block font-serif text-lg text-light transition-colors group-hover:text-bright"
+							>{lab.title}</span
+						>
+						<span class="mt-1 block font-serif text-sm text-muted">{lab.blurb}</span>
+					</span>
+					<span
+						class="text-xs text-muted transition-all group-hover:translate-x-0.5 group-hover:text-light"
+						aria-hidden="true">&rarr;</span
+					>
+				</a>
+			{/if}
 		</section>
 
 		<div class="h-px bg-rule"></div>
+
+		{#if week.noClassAfter}
+			<p class="pt-6 font-serif text-sm text-muted italic">{week.noClassAfter}</p>
+		{/if}
 
 		<!-- Navigation -->
 		<nav class="flex items-start justify-between py-10 pb-20">
