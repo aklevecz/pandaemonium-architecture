@@ -32,6 +32,10 @@ const MAX_OUTPUT_TOKENS = 8192;
 // scripts/embed-readings.js: 5 attempts, exponential backoff from 1.5s.
 const MAX_ATTEMPTS = 5;
 const RETRY_BASE_MS = 1500;
+// A single hung connection used to stall the whole run forever (fetch has no
+// default timeout): Skinner page 76 sat for 11 minutes with 201/202 done.
+// Treat a stall like a network error so it hits the same retry path.
+const REQUEST_TIMEOUT_MS = 120_000;
 // Per-class fallback model used when the primary model returns RECITATION.
 // We learned during the corpus run that Pro retries identically — a step UP
 // in capability sometimes shakes the filter loose, but staying with the same
@@ -194,7 +198,8 @@ async function callGemini({ apiKey, imageBase64, rawText, pageNum, totalPages, s
 			res = await fetch(url, {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
-				body: JSON.stringify(body)
+				body: JSON.stringify(body),
+				signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS)
 			});
 		} catch (err) {
 			lastErr = new Error(`Gemini request failed: ${err.message}`); // network — retryable
