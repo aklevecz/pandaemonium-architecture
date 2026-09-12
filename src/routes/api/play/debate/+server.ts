@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 import { requireAuthAndDb } from '$lib/server/api';
 import { dataUrl } from '$lib/server/data-url';
+import { classify, reportClaudeFailure, studentMessage } from '$lib/server/claude-alert';
 import type { RequestHandler } from './$types';
 
 interface PersonMention {
@@ -23,7 +24,7 @@ interface Turn {
 	content: string;
 }
 
-const MODEL = 'claude-sonnet-4-6';
+const MODEL = 'claude-sonnet-5';
 // 4096 ≈ 3000 words. A graduate-pitched 2-3 exchange runs ~600-1200 words;
 // the headroom is for when Claude wants to quote from the corpus excerpts
 // or develop a point at length. Cap is high enough that "cut off mid-
@@ -112,8 +113,7 @@ The student has set a turn budget and we're at the last one. Land it: each speak
 					headers: {
 						'Content-Type': 'application/json',
 						'x-api-key': apiKey,
-						'anthropic-version': '2023-06-01',
-						'anthropic-beta': 'prompt-caching-2024-07-31'
+						'anthropic-version': '2023-06-01'
 					},
 					body: JSON.stringify({
 						model: MODEL,
@@ -127,8 +127,8 @@ The student has set a turn budget and we're at the last one. Land it: each speak
 				});
 				if (!upstream.ok || !upstream.body) {
 					const errText = await upstream.text().catch(() => '');
-					console.error('debate upstream error:', upstream.status, errText);
-					send({ type: 'error', message: 'Upstream call failed' });
+					reportClaudeFailure(event, { route: 'debate', status: upstream.status, detail: errText });
+					send({ type: 'error', message: studentMessage(classify(upstream.status, errText)) });
 					controller.close();
 					return;
 				}
@@ -164,8 +164,8 @@ The student has set a turn budget and we're at the last one. Land it: each speak
 				}
 				send({ type: 'done' });
 			} catch (err) {
-				console.error('debate stream error:', err);
-				send({ type: 'error', message: err instanceof Error ? err.message : 'unknown' });
+				reportClaudeFailure(event, { route: 'debate', detail: err instanceof Error ? err.message : String(err) });
+				send({ type: 'error', message: studentMessage('network') });
 			} finally {
 				controller.close();
 			}

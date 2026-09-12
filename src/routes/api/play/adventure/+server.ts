@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 import { requireAuthAndDb } from '$lib/server/api';
 import { dataUrl } from '$lib/server/data-url';
+import { classify, reportClaudeFailure, studentMessage } from '$lib/server/claude-alert';
 import type { RequestHandler } from './$types';
 
 interface Summary {
@@ -12,7 +13,7 @@ interface Summary {
 }
 interface Turn { role: 'user' | 'assistant'; content: string }
 
-const MODEL = 'claude-sonnet-4-6';
+const MODEL = 'claude-sonnet-5';
 // Scenes are 80-160 words + a few choices, so 900 was usually enough — but
 // any sentence the model wants to develop past that gets clipped. 2048
 // gives comfortable headroom without inviting bloat.
@@ -86,8 +87,7 @@ You'll receive prior scenes + the student's chosen action as a normal conversati
 					headers: {
 						'Content-Type': 'application/json',
 						'x-api-key': apiKey,
-						'anthropic-version': '2023-06-01',
-						'anthropic-beta': 'prompt-caching-2024-07-31'
+						'anthropic-version': '2023-06-01'
 					},
 					body: JSON.stringify({
 						model: MODEL,
@@ -99,8 +99,8 @@ You'll receive prior scenes + the student's chosen action as a normal conversati
 				});
 				if (!upstream.ok || !upstream.body) {
 					const errText = await upstream.text().catch(() => '');
-					console.error('adventure upstream error:', upstream.status, errText);
-					send({ type: 'error', message: 'Upstream call failed' });
+					reportClaudeFailure(event, { route: 'adventure', status: upstream.status, detail: errText });
+					send({ type: 'error', message: studentMessage(classify(upstream.status, errText)) });
 					controller.close();
 					return;
 				}
@@ -136,8 +136,8 @@ You'll receive prior scenes + the student's chosen action as a normal conversati
 				}
 				send({ type: 'done' });
 			} catch (err) {
-				console.error('adventure stream error:', err);
-				send({ type: 'error', message: err instanceof Error ? err.message : 'unknown' });
+				reportClaudeFailure(event, { route: 'adventure', detail: err instanceof Error ? err.message : String(err) });
+				send({ type: 'error', message: studentMessage('network') });
 			} finally {
 				controller.close();
 			}

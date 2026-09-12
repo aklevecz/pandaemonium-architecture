@@ -27,6 +27,7 @@ declare global {
 				GEMINI_API_KEY: string;
 				ASSETS: { fetch: (request: Request | string) => Promise<Response> };
 			};
+			context?: { waitUntil(promise: Promise<unknown>): void };
 		}
 	}
 }

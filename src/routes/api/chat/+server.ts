@@ -1,6 +1,7 @@
 import { json, error } from '@sveltejs/kit';
 import { requireAuthAndDb } from '$lib/server/api';
 import { retrieve } from '$lib/server/retrieval';
+import { classify, reportClaudeFailure, studentMessage } from '$lib/server/claude-alert';
 import type { RequestHandler } from './$types';
 
 export const GET: RequestHandler = async (event) => {
@@ -64,6 +65,8 @@ export const GET: RequestHandler = async (event) => {
 //   {"type":"done"}                         (last on success)
 //   {"type":"error","message":"..."}        (instead of done on failure)
 // Whatever text was streamed before an error/disconnect is still persisted.
+const MODEL = 'claude-sonnet-5';
+
 export const POST: RequestHandler = async (event) => {
 	const { user, db } = requireAuthAndDb(event);
 	const apiKey = event.platform?.env?.ANTHROPIC_API_KEY;
@@ -203,7 +206,7 @@ export const POST: RequestHandler = async (event) => {
 						'anthropic-version': '2023-06-01'
 					},
 					body: JSON.stringify({
-						model: 'claude-sonnet-4-6',
+						model: MODEL,
 						max_tokens: maxTokens,
 						stream: true,
 						system: systemBlocks,
@@ -213,8 +216,8 @@ export const POST: RequestHandler = async (event) => {
 
 				if (!upstream.ok || !upstream.body) {
 					const errText = await upstream.text().catch(() => '');
-					console.error('Claude API error:', errText);
-					send({ type: 'error', message: 'Failed to get response from Claude' });
+					reportClaudeFailure(event, { route: 'chat', status: upstream.status, detail: errText });
+					send({ type: 'error', message: studentMessage(classify(upstream.status, errText)) });
 					return;
 				}
 
@@ -250,8 +253,8 @@ export const POST: RequestHandler = async (event) => {
 				send({ type: 'done' });
 			} catch (err) {
 				const msg = err instanceof Error ? err.message : 'Unknown error';
-				console.error('Stream error:', msg);
-				send({ type: 'error', message: msg });
+				reportClaudeFailure(event, { route: 'chat', detail: msg });
+				send({ type: 'error', message: studentMessage('network') });
 			} finally {
 				// Persist whatever we got, even on partial/error, so the client's
 				// optimistic UI matches what's loaded back from D1 on refresh.

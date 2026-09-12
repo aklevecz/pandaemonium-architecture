@@ -1,5 +1,6 @@
 import { json, error } from '@sveltejs/kit';
 import { requireAuthAndDb } from '$lib/server/api';
+import { classify, reportClaudeFailure, studentMessage } from '$lib/server/claude-alert';
 import type { RequestHandler } from './$types';
 
 const MODEL = 'claude-haiku-4-5-20251001';
@@ -49,16 +50,17 @@ Return ONE plain-prose paragraph (50-90 words) that defines the term as it funct
 		});
 		if (!res.ok) {
 			const errText = await res.text().catch(() => '');
-			console.error('define API error:', res.status, errText);
-			error(502, 'Failed to fetch definition');
+			reportClaudeFailure(event, { route: 'define', status: res.status, detail: errText });
+			error(502, studentMessage(classify(res.status, errText)));
 		}
 		const json = (await res.json()) as { content?: Array<{ text?: string }> };
 		definition = json.content?.[0]?.text?.trim() ?? '';
 		if (!definition) error(502, 'Empty definition returned');
 	} catch (err) {
-		if (err instanceof Error && err.message.startsWith('Failed to')) throw err;
-		console.error('define call threw:', err);
-		error(502, 'Definition lookup failed');
+		// error() throws a SvelteKit HttpError; let those through untouched.
+		if (err && typeof err === 'object' && 'status' in err) throw err;
+		reportClaudeFailure(event, { route: 'define', detail: err instanceof Error ? err.message : String(err) });
+		error(502, studentMessage('network'));
 	}
 
 	// Upsert: same word looked up twice in the same reading → latest wins,
