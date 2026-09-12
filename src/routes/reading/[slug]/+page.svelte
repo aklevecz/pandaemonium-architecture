@@ -5,6 +5,13 @@
 	import ChatPanel from '$lib/components/ChatPanel.svelte';
 	import NotesPanel from '$lib/components/NotesPanel.svelte';
 	import SelectionTooltip from '$lib/components/SelectionTooltip.svelte';
+	import HighlightSwatches from '$lib/components/HighlightSwatches.svelte';
+	import {
+		DEFAULT_HIGHLIGHT_COLOR,
+		colorRgb,
+		isHighlightColor,
+		type HighlightColor
+	} from '$lib/highlight-colors';
 	import DefinitionPopover from '$lib/components/DefinitionPopover.svelte';
 	import ReadingSummary from '$lib/components/ReadingSummary.svelte';
 	import { buildReadingMetaList } from '$lib/search';
@@ -21,6 +28,7 @@
 		id: number;
 		text: string;
 		note: string;
+		color: HighlightColor;
 		created_at: string;
 	}
 	interface Vocab {
@@ -41,6 +49,18 @@
 	// to extend / shrink an existing highlight without losing its note.
 	let editingHighlightId: number | null = $state(null);
 
+	// The colour the plain "Highlight" button uses. Seeded from the last
+	// colour the user picked so someone who wants every highlight pink picks
+	// pink once and is done, while someone colour-coding still gets a
+	// one-tap swatch for each.
+	const HL_COLOR_KEY = 'reader:highlight-color';
+	function storedColor(): HighlightColor {
+		if (typeof localStorage === 'undefined') return DEFAULT_HIGHLIGHT_COLOR;
+		const saved = localStorage.getItem(HL_COLOR_KEY);
+		return isHighlightColor(saved) ? saved : DEFAULT_HIGHLIGHT_COLOR;
+	}
+	let preferredColor: HighlightColor = $state(storedColor());
+
 	let vocab: Vocab[] = $state([]);
 	let definePopover: { word: string; definition: string | null; loading: boolean } | null =
 		$state(null);
@@ -57,7 +77,8 @@
 	let chatPanel: ChatPanel | undefined = $state();
 
 	// Selection tooltip
-	let selectionTooltip: { x: number; y: number; text: string } | null = $state(null);
+	let selectionTooltip: { x: number; y: number; text: string; below: boolean } | null =
+		$state(null);
 
 	// Bookmark
 	let savedPosition: number | null = $state(null);
@@ -100,11 +121,19 @@
 	// (typing, or activating a focused button/link) rather than page-scrolling.
 	function spaceShouldPassThrough(target: EventTarget | null): boolean {
 		const el = target as HTMLElement | null;
-		const ae = (typeof document !== 'undefined' ? document.activeElement : null) as HTMLElement | null;
+		const ae = (
+			typeof document !== 'undefined' ? document.activeElement : null
+		) as HTMLElement | null;
 		for (const n of [el, ae]) {
 			if (!n) continue;
 			const tag = n.tagName;
-			if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || tag === 'BUTTON' || tag === 'A')
+			if (
+				tag === 'INPUT' ||
+				tag === 'TEXTAREA' ||
+				tag === 'SELECT' ||
+				tag === 'BUTTON' ||
+				tag === 'A'
+			)
 				return true;
 			if (n.isContentEditable || n.getAttribute?.('role') === 'button') return true;
 		}
@@ -366,7 +395,7 @@
 	// reject re-entry while a save is in flight.
 	let savingHighlight = false;
 
-	async function saveHighlight(text: string) {
+	async function saveHighlight(text: string, color: HighlightColor = preferredColor) {
 		if (savingHighlight) return;
 		const updateId = editingHighlightId;
 		const isUpdate = updateId !== null;
@@ -379,7 +408,9 @@
 				method: isUpdate ? 'PUT' : 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(
-					isUpdate ? { id: updateId, text } : { slug: data.slug, text }
+					// Extending an existing highlight leaves its colour alone —
+					// the swatch row is hidden in that mode.
+					isUpdate ? { id: updateId, text } : { slug: data.slug, text, color }
 				)
 			});
 			if (!res.ok) {
@@ -392,6 +423,7 @@
 			}
 			selectionTooltip = null;
 			window.getSelection()?.removeAllRanges();
+			if (!isUpdate) rememberColor(color);
 			await fetchHighlights();
 			flash(isUpdate ? 'Highlight updated' : 'Highlight saved');
 		} catch (err) {
@@ -666,6 +698,35 @@
 		await fetchHighlights();
 	}
 
+	function rememberColor(color: HighlightColor) {
+		preferredColor = color;
+		try {
+			localStorage.setItem(HL_COLOR_KEY, color);
+		} catch {}
+	}
+
+	// Recolour an existing highlight from the swatch row on its in-text menu.
+	// Repaints optimistically so the mark changes under the user's finger
+	// rather than after the round trip.
+	async function setHighlightColor(id: number, color: HighlightColor) {
+		const h = highlights.find((x) => x.id === id);
+		if (!h || h.color === color) return;
+		const previous = h.color;
+		h.color = color;
+		applyHighlights();
+		rememberColor(color);
+		const res = await fetch('/api/highlights', {
+			method: 'PUT',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ id, color })
+		});
+		if (!res.ok) {
+			h.color = previous;
+			applyHighlights();
+			flash('Could not change colour', 'error');
+		}
+	}
+
 	async function saveHighlightNote(id: number, note: string) {
 		await fetch('/api/highlights', {
 			method: 'PUT',
@@ -809,6 +870,9 @@
 			mark.textContent = matched;
 			mark.className = 'hl highlight-mark';
 			mark.dataset.highlightId = String(h.id);
+			// layout.css derives background, border and the flash keyframes
+			// from this one variable.
+			mark.style.setProperty('--hl-rgb', colorRgb(h.color));
 			mark.addEventListener('click', (e) => {
 				e.stopPropagation();
 				openHighlightMenu(h, e.currentTarget as HTMLElement);
@@ -876,15 +940,21 @@
 		}
 		const range = sel!.getRangeAt(0);
 		const rect = range.getBoundingClientRect();
-		// Anchor above the selection, but never above the viewport top —
-		// otherwise on a selection near the top of a phone screen the tooltip
-		// scrolls offscreen.
-		const desiredTop = rect.top + window.scrollY - 10;
-		const minTop = window.scrollY + 8;
-		const top = desiredTop < minTop ? rect.bottom + window.scrollY + 12 : desiredTop;
+		// Anchor above the selection when there's room for the whole card,
+		// otherwise flip underneath it — a selection near the top of the
+		// viewport would otherwise put the tooltip offscreen. `below` has to
+		// travel with the position because the card is drawn upward from its
+		// anchor (-translate-y-full); moving the anchor alone just drags the
+		// clipped card down with it. Height is ~64px with the colour swatch
+		// row and ~32px without it (extend mode hides the swatches). Only the
+		// desktop tooltip is positioned this way — the mobile one is pinned to
+		// the bottom of the viewport.
+		const tooltipHeight = editingHighlightId !== null ? 32 : 64;
+		const below = rect.top - 10 - tooltipHeight < 8;
 		selectionTooltip = {
 			x: rect.left + rect.width / 2,
-			y: top,
+			y: below ? rect.bottom + window.scrollY + 12 : rect.top + window.scrollY - 10,
+			below,
 			text
 		};
 	}
@@ -1057,30 +1127,27 @@
 	});
 </script>
 
-<svelte:document
-	onmouseup={showSelectionTooltip}
-	onselectionchange={scheduleSelectionTooltip}
-/>
+<svelte:document onmouseup={showSelectionTooltip} onselectionchange={scheduleSelectionTooltip} />
 
 <article class="mx-auto max-w-3xl px-4 sm:px-6">
 	<div class="pt-8 sm:pt-10">
 		{#if data.weekNumber}
 			<a
 				href="/week/{data.weekNumber}"
-				class="text-xs text-muted transition-colors hover:text-white uppercase"
+				class="text-xs text-muted uppercase transition-colors hover:text-white"
 			>
 				&larr; Week {String(data.weekNumber).padStart(2, '0')}
 			</a>
 		{:else}
-			<a href="/" class="text-xs text-muted transition-colors hover:text-white uppercase">
+			<a href="/" class="text-xs text-muted uppercase transition-colors hover:text-white">
 				&larr; Back
 			</a>
 		{/if}
 	</div>
 
-	<header class="pb-8 pt-8 sm:pb-12 sm:pt-10">
+	<header class="pt-8 pb-8 sm:pt-10 sm:pb-12">
 		<p class="text-xs text-muted">{data.author}</p>
-		<h1 class="mt-3 font-serif text-2xl font-normal leading-tight text-bright sm:text-4xl">
+		<h1 class="mt-3 font-serif text-2xl leading-tight font-normal text-bright sm:text-4xl">
 			{data.title}
 		</h1>
 		<div class="mt-4 flex flex-wrap items-center gap-3 sm:gap-4">
@@ -1093,6 +1160,35 @@
 			{:else if data.isIntroductory}
 				<span class="text-xs text-muted">Introductory Reading</span>
 			{/if}
+
+			<!-- The scanned original. This used to be an unlabelled icon inside the
+			     floating toolbar, which only renders for signed-in readers — so
+			     signed-out visitors had no route to the PDF at all, and nobody
+			     could tell the icon apart from the other four. -->
+			<a
+				href={pdfUrl}
+				target="_blank"
+				rel="noopener"
+				class="inline-flex items-center gap-1.5 rounded-full border border-rule px-3 py-1.5 text-xs text-light no-underline transition-colors hover:border-muted hover:bg-rule/20 hover:text-bright"
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="13"
+					height="13"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="1.5"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					aria-hidden="true"
+					><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline
+						points="14 2 14 8 20 8"
+					/><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" /></svg
+				>
+				Original PDF
+				<span class="text-muted" aria-hidden="true">&#8599;</span>
+			</a>
 		</div>
 	</header>
 
@@ -1118,36 +1214,67 @@
 
 <!-- Bookmark marker -->
 {#if savedPosition !== null && user && viewMode === 'text'}
-	<div
-		bind:this={bookmarkMarker}
-		class="pointer-events-none absolute right-0 z-10"
-		style="top: 0"
-	>
-		<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" class="text-bright/60"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+	<div bind:this={bookmarkMarker} class="pointer-events-none absolute right-0 z-10" style="top: 0">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="20"
+			height="20"
+			viewBox="0 0 24 24"
+			fill="currentColor"
+			stroke="currentColor"
+			stroke-width="1.5"
+			class="text-bright/60"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" /></svg
+		>
 	</div>
 {/if}
 
 <!-- Floating toolbar -->
 {#if user && viewMode === 'text'}
 	<div bind:this={bottomBarEl} class="fixed bottom-5 left-1/2 z-30 -translate-x-1/2">
-		<div class="flex items-center gap-1 rounded-full border border-rule bg-dark/90 px-2 py-1.5 shadow-lg backdrop-blur-md">
+		<div
+			class="flex items-center gap-1 rounded-full border border-rule bg-dark/90 px-2 py-1.5 shadow-lg backdrop-blur-md"
+		>
 			{#if savedPosition !== null}
 				<button
 					onclick={resumeReading}
 					class="rounded-full p-2.5 text-light transition-colors hover:bg-rule/50 hover:text-bright"
 					aria-label="Resume reading"
 				>
-					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="18"
+						height="18"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.5"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						><polyline points="7 13 12 18 17 13" /><polyline points="7 6 12 11 17 6" /></svg
+					>
 				</button>
 				<div class="h-5 w-px bg-rule"></div>
 			{/if}
 
 			<button
 				onclick={saveBookmark}
-				class="rounded-full p-2.5 transition-colors {bookmarkSaved ? 'text-bright' : 'text-muted'} hover:bg-rule/50 hover:text-light"
+				class="rounded-full p-2.5 transition-colors {bookmarkSaved
+					? 'text-bright'
+					: 'text-muted'} hover:bg-rule/50 hover:text-light"
 				aria-label={bookmarkSaved ? 'Spot saved' : 'Save spot'}
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill={bookmarkSaved ? 'currentColor' : 'none'} stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="18"
+					height="18"
+					viewBox="0 0 24 24"
+					fill={bookmarkSaved ? 'currentColor' : 'none'}
+					stroke="currentColor"
+					stroke-width="1.5"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" /></svg
+				>
 			</button>
 
 			{#if isMobile}
@@ -1158,7 +1285,25 @@
 					class="rounded-full p-2.5 text-muted transition-colors hover:bg-rule/50 hover:text-light"
 					aria-label="Open PDF"
 				>
-					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="18"
+						height="18"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.5"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline
+							points="14 2 14 8 20 8"
+						/><line x1="16" y1="13" x2="8" y2="13" /><line
+							x1="16"
+							y1="17"
+							x2="8"
+							y2="17"
+						/><polyline points="10 9 9 9 8 9" /></svg
+					>
 				</a>
 			{:else}
 				<button
@@ -1166,7 +1311,25 @@
 					class="rounded-full p-2.5 text-muted transition-colors hover:bg-rule/50 hover:text-light"
 					aria-label="View PDF"
 				>
-					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="18"
+						height="18"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.5"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline
+							points="14 2 14 8 20 8"
+						/><line x1="16" y1="13" x2="8" y2="13" /><line
+							x1="16"
+							y1="17"
+							x2="8"
+							y2="17"
+						/><polyline points="10 9 9 9 8 9" /></svg
+					>
 				</button>
 			{/if}
 
@@ -1175,9 +1338,24 @@
 				class="relative rounded-full p-2.5 text-muted transition-colors hover:bg-rule/50 hover:text-light"
 				aria-label="Notes & Highlights"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="18"
+					height="18"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="1.5"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					><path d="M12 20h9" /><path
+						d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"
+					/></svg
+				>
 				{#if notes.length + highlights.length > 0}
-					<span class="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-bright text-[10px] font-bold text-black">
+					<span
+						class="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-bright text-[10px] font-bold text-black"
+					>
 						{notes.length + highlights.length}
 					</span>
 				{/if}
@@ -1188,9 +1366,22 @@
 				class="relative rounded-full p-2.5 text-muted transition-colors hover:bg-rule/50 hover:text-light"
 				aria-label="Ask about reading"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="18"
+					height="18"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="1.5"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /></svg
+				>
 				{#if chatConversationCount > 0}
-					<span class="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-bright text-[10px] font-bold text-black">
+					<span
+						class="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-bright text-[10px] font-bold text-black"
+					>
 						{chatConversationCount}
 					</span>
 				{/if}
@@ -1202,6 +1393,22 @@
 <!-- PDF viewer (desktop only) -->
 {#if viewMode === 'pdf' && !isMobile}
 	<div class="fixed inset-0 z-40 bg-black pt-[var(--nav-h,57px)]">
+		<div
+			class="absolute top-[calc(var(--nav-h,57px)+0.75rem)] right-4 z-10 flex items-center gap-2"
+		>
+			<a
+				href={pdfUrl}
+				target="_blank"
+				rel="noopener"
+				class="rounded-full border border-rule bg-dark/90 px-3 py-1.5 text-xs text-light no-underline backdrop-blur-md transition-colors hover:border-muted hover:text-bright"
+				>Open in new tab &#8599;</a
+			>
+			<button
+				onclick={() => (viewMode = 'text')}
+				class="rounded-full border border-rule bg-dark/90 px-3 py-1.5 text-xs text-light backdrop-blur-md transition-colors hover:border-muted hover:text-bright"
+				>&larr; Back to text</button
+			>
+		</div>
 		<iframe src={pdfUrl} title={data.title} class="h-full w-full border-none"></iframe>
 	</div>
 {/if}
@@ -1243,6 +1450,7 @@
 		tooltip={selectionTooltip}
 		{isMobile}
 		extendMode={editingHighlightId !== null}
+		currentColor={preferredColor}
 		onHighlight={saveHighlight}
 		onExplain={explainSelection}
 		onDefine={defineSelection}
@@ -1260,43 +1468,53 @@
 		></button>
 		{#if isMobile}
 			<div class="fixed inset-x-0 bottom-20 z-[57] flex justify-center px-4">
-				<div class="flex overflow-hidden rounded-full border border-rule bg-dark shadow-lg">
-					<button
-						type="button"
-						onclick={() => {
-							const _h = hm.h;
-							closeHighlightMenu();
-							startAdjustHighlight(_h);
-						}}
-						class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
-					>
-						Adjust
-					</button>
-					<div class="w-px bg-rule"></div>
-					<button
-						type="button"
-						onclick={() => {
-							const _h = hm.h;
-							closeHighlightMenu();
-							activeHighlight = _h;
-							sidebarOpen = true;
-						}}
-						class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
-					>
-						{hm.h.note ? 'Edit note' : 'Note'}
-					</button>
-					<div class="w-px bg-rule"></div>
-					<button
-						type="button"
-						onclick={() => {
-							const _id = hm.h.id;
-							closeHighlightMenu();
-							deleteHighlight(_id);
-						}}
-						class="min-h-11 px-5 py-2 text-sm text-red-300 transition-colors hover:bg-rule/50 active:bg-rule/60"
-					>
-						Delete
-					</button>
+				<div class="overflow-hidden rounded-3xl border border-rule bg-dark shadow-lg">
+					<!-- Recolour in place; the menu stays open so the change is
+					     visible against the prose behind it. -->
+					<HighlightSwatches
+						{isMobile}
+						selected={hm.h.color}
+						onPick={(c) => setHighlightColor(hm.h.id, c)}
+					/>
+					<div class="h-px bg-rule"></div>
+					<div class="flex">
+						<button
+							type="button"
+							onclick={() => {
+								const _h = hm.h;
+								closeHighlightMenu();
+								startAdjustHighlight(_h);
+							}}
+							class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
+						>
+							Adjust
+						</button>
+						<div class="w-px bg-rule"></div>
+						<button
+							type="button"
+							onclick={() => {
+								const _h = hm.h;
+								closeHighlightMenu();
+								activeHighlight = _h;
+								sidebarOpen = true;
+							}}
+							class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
+						>
+							{hm.h.note ? 'Edit note' : 'Note'}
+						</button>
+						<div class="w-px bg-rule"></div>
+						<button
+							type="button"
+							onclick={() => {
+								const _id = hm.h.id;
+								closeHighlightMenu();
+								deleteHighlight(_id);
+							}}
+							class="min-h-11 px-5 py-2 text-sm text-red-300 transition-colors hover:bg-rule/50 active:bg-rule/60"
+						>
+							Delete
+						</button>
+					</div>
 				</div>
 			</div>
 		{:else}
@@ -1304,43 +1522,51 @@
 				class="fixed z-[57] -translate-x-1/2 {hm.below ? '' : '-translate-y-full'}"
 				style="left: {hm.x}px; top: {hm.y}px"
 			>
-				<div class="flex overflow-hidden rounded-lg border border-rule bg-dark shadow-lg">
-					<button
-						type="button"
-						onclick={() => {
-							const _h = hm.h;
-							closeHighlightMenu();
-							startAdjustHighlight(_h);
-						}}
-						class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
-					>
-						Adjust
-					</button>
-					<div class="w-px bg-rule"></div>
-					<button
-						type="button"
-						onclick={() => {
-							const _h = hm.h;
-							closeHighlightMenu();
-							activeHighlight = _h;
-							sidebarOpen = true;
-						}}
-						class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
-					>
-						{hm.h.note ? 'Edit note' : 'Note'}
-					</button>
-					<div class="w-px bg-rule"></div>
-					<button
-						type="button"
-						onclick={() => {
-							const _id = hm.h.id;
-							closeHighlightMenu();
-							deleteHighlight(_id);
-						}}
-						class="px-3 py-1.5 text-xs text-red-300 transition-colors hover:bg-rule/50"
-					>
-						Delete
-					</button>
+				<div class="overflow-hidden rounded-lg border border-rule bg-dark shadow-lg">
+					<HighlightSwatches
+						{isMobile}
+						selected={hm.h.color}
+						onPick={(c) => setHighlightColor(hm.h.id, c)}
+					/>
+					<div class="h-px bg-rule"></div>
+					<div class="flex">
+						<button
+							type="button"
+							onclick={() => {
+								const _h = hm.h;
+								closeHighlightMenu();
+								startAdjustHighlight(_h);
+							}}
+							class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
+						>
+							Adjust
+						</button>
+						<div class="w-px bg-rule"></div>
+						<button
+							type="button"
+							onclick={() => {
+								const _h = hm.h;
+								closeHighlightMenu();
+								activeHighlight = _h;
+								sidebarOpen = true;
+							}}
+							class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
+						>
+							{hm.h.note ? 'Edit note' : 'Note'}
+						</button>
+						<div class="w-px bg-rule"></div>
+						<button
+							type="button"
+							onclick={() => {
+								const _id = hm.h.id;
+								closeHighlightMenu();
+								deleteHighlight(_id);
+							}}
+							class="px-3 py-1.5 text-xs text-red-300 transition-colors hover:bg-rule/50"
+						>
+							Delete
+						</button>
+					</div>
 				</div>
 			</div>
 		{/if}
@@ -1414,12 +1640,11 @@
 		     special state (the panel is closed, the tooltip says "Update")
 		     and has an obvious way to bail. -->
 		<div class="fixed inset-x-0 top-[var(--nav-h,57px)] z-[55] flex justify-center px-4">
-			<div class="flex items-center gap-3 rounded-b-lg border border-t-0 border-rule bg-dark/95 px-4 py-2 shadow-lg">
+			<div
+				class="flex items-center gap-3 rounded-b-lg border border-t-0 border-rule bg-dark/95 px-4 py-2 shadow-lg"
+			>
 				<span class="text-xs text-light">Editing highlight — select new text</span>
-				<button
-					onclick={cancelExtendHighlight}
-					class="text-xs text-muted hover:text-light"
-				>
+				<button onclick={cancelExtendHighlight} class="text-xs text-muted hover:text-light">
 					Cancel
 				</button>
 			</div>
@@ -1430,9 +1655,7 @@
 {#if toast}
 	<!-- One-shot confirmation/error feedback. Pinned high enough to clear the
 	     selection-tooltip pill and the floating nav toolbar. -->
-	<div
-		class="pointer-events-none fixed inset-x-0 top-16 z-[70] flex justify-center px-4 sm:top-20"
-	>
+	<div class="pointer-events-none fixed inset-x-0 top-16 z-[70] flex justify-center px-4 sm:top-20">
 		<div
 			class="rounded-full px-4 py-2 text-xs shadow-lg {toast.variant === 'error'
 				? 'border border-red-500/40 bg-red-950/95 text-red-200'

@@ -1,5 +1,6 @@
 import { json, error } from '@sveltejs/kit';
 import { requireAuthAndDb } from '$lib/server/api';
+import { DEFAULT_HIGHLIGHT_COLOR, isHighlightColor } from '$lib/highlight-colors';
 import type { RequestHandler } from './$types';
 
 export const GET: RequestHandler = async (event) => {
@@ -9,32 +10,38 @@ export const GET: RequestHandler = async (event) => {
 
 	const highlights = await db
 		.prepare(
-			'SELECT id, text, note, created_at FROM highlights WHERE user_id = ? AND reading_slug = ? ORDER BY created_at ASC'
+			'SELECT id, text, note, color, created_at FROM highlights WHERE user_id = ? AND reading_slug = ? ORDER BY created_at ASC'
 		)
 		.bind(user.id, slug)
-		.all<{ id: number; text: string; note: string; created_at: string }>();
+		.all<{ id: number; text: string; note: string; color: string; created_at: string }>();
 	return json(highlights.results);
 };
 
 export const POST: RequestHandler = async (event) => {
 	const { user, db } = requireAuthAndDb(event);
-	const { slug, text, note } = await event.request.json();
+	const { slug, text, note, color } = await event.request.json();
 	if (!slug || !text) error(400, 'Missing slug or text');
+	// Unknown colours fall back rather than 400ing — a stale client shouldn't
+	// lose the student's highlight over a palette mismatch.
+	const hlColor = isHighlightColor(color) ? color : DEFAULT_HIGHLIGHT_COLOR;
 
 	const result = await db
-		.prepare('INSERT INTO highlights (user_id, reading_slug, text, note) VALUES (?, ?, ?, ?)')
-		.bind(user.id, slug, text, note || '')
+		.prepare(
+			'INSERT INTO highlights (user_id, reading_slug, text, note, color) VALUES (?, ?, ?, ?, ?)'
+		)
+		.bind(user.id, slug, text, note || '', hlColor)
 		.run();
-	return json({ id: result.meta.last_row_id, text, note });
+	return json({ id: result.meta.last_row_id, text, note, color: hlColor });
 };
 
-// Updates `note` and/or `text` on an existing highlight. `text` is changed
-// when a student "extends" a highlight — tap Extend → re-select → tap Update,
-// the existing row's range is overwritten in place rather than creating a new
-// highlight.
+// Updates `note`, `text`, and/or `color` on an existing highlight. `text` is
+// changed when a student "extends" a highlight — tap Extend → re-select → tap
+// Update, the existing row's range is overwritten in place rather than
+// creating a new highlight. `color` is changed from the swatch row on the
+// in-text highlight menu.
 export const PUT: RequestHandler = async (event) => {
 	const { user, db } = requireAuthAndDb(event);
-	const { id, text, note } = await event.request.json();
+	const { id, text, note, color } = await event.request.json();
 	if (!id) error(400, 'Missing id');
 
 	const sets: string[] = [];
@@ -46,6 +53,14 @@ export const PUT: RequestHandler = async (event) => {
 	if (typeof note === 'string') {
 		sets.push('note = ?');
 		binds.push(note);
+	}
+	// Only an unrecognised colour is rejected here. Unlike POST there's no
+	// highlight at risk of being lost, and silently writing yellow over the
+	// colour the user asked for would be worse than a clear failure.
+	if (color !== undefined) {
+		if (!isHighlightColor(color)) error(400, 'Unknown highlight color');
+		sets.push('color = ?');
+		binds.push(color);
 	}
 	if (sets.length === 0) error(400, 'Nothing to update');
 

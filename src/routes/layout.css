@@ -376,16 +376,21 @@ body {
 	bottom: -7px;
 }
 
+/* Every highlight state derives from --hl-rgb, which markTextInDom() sets
+   inline per mark from the palette in $lib/highlight-colors. The fallback
+   here is yellow, so a mark that somehow renders without the variable looks
+   the way highlights did before the palette existed. */
 .highlight-mark {
-	background-color: rgba(234, 179, 8, 0.25);
+	--hl-rgb: 234 179 8;
+	background-color: rgb(var(--hl-rgb) / 0.25);
 	color: inherit;
 	cursor: pointer;
-	border-bottom: 1px solid rgba(234, 179, 8, 0.4);
+	border-bottom: 1px solid rgb(var(--hl-rgb) / 0.4);
 	transition: background-color 0.15s ease;
 }
 
 .highlight-mark:hover {
-	background-color: rgba(234, 179, 8, 0.4);
+	background-color: rgb(var(--hl-rgb) / 0.4);
 }
 
 mark.search-hit {
@@ -400,9 +405,9 @@ mark.hl.highlight-flash {
 	animation: hl-flash 1.2s ease-out;
 }
 @keyframes hl-flash {
-	0% { background-color: rgba(234, 179, 8, 0.85); }
-	50% { background-color: rgba(234, 179, 8, 0.6); }
-	100% { background-color: rgba(234, 179, 8, 0.25); }
+	0% { background-color: rgb(var(--hl-rgb) / 0.85); }
+	50% { background-color: rgb(var(--hl-rgb) / 0.6); }
+	100% { background-color: rgb(var(--hl-rgb) / 0.25); }
 }
 
 /* Brief halo on a paragraph that's the target of a "jump to passage"

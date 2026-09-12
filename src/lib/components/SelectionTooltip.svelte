@@ -1,12 +1,21 @@
 <script lang="ts">
+	import HighlightSwatches from './HighlightSwatches.svelte';
+	import type { HighlightColor } from '$lib/highlight-colors';
+
 	interface Props {
-		tooltip: { x: number; y: number; text: string } | null;
+		// `below` is true when the card is anchored under the selection because
+		// there wasn't room above it; it flips the vertical draw direction.
+		tooltip: { x: number; y: number; text: string; below: boolean } | null;
 		isMobile: boolean;
 		// When true, the primary button replaces "Highlight" with "Update"
 		// and the explain/define buttons are suppressed — the user is
-		// re-anchoring an existing highlight.
+		// re-anchoring an existing highlight. The swatch row is suppressed
+		// too: extending keeps the highlight's existing colour.
 		extendMode?: boolean;
-		onHighlight: (text: string) => void;
+		// Last colour the user picked, used by the plain "Highlight" button so
+		// the common case stays one tap.
+		currentColor: HighlightColor;
+		onHighlight: (text: string, color: HighlightColor) => void;
 		onExplain: (text: string) => void;
 		onDefine: (text: string) => void;
 	}
@@ -15,6 +24,7 @@
 		tooltip,
 		isMobile,
 		extendMode = false,
+		currentColor,
 		onHighlight,
 		onExplain,
 		onDefine
@@ -41,80 +51,106 @@
 		     earlier in the event chain so we can grab the input first. -->
 		<div class="fixed inset-x-0 bottom-20 z-[55] flex justify-center px-4">
 			<div
-				class="flex overflow-hidden rounded-full border border-rule bg-dark shadow-lg"
+				class="overflow-hidden rounded-3xl border border-rule bg-dark shadow-lg"
 				style="touch-action: manipulation; -webkit-user-select: none; user-select: none;"
 			>
-				<button
-					type="button"
-					onpointerdown={(e) => {
-						e.preventDefault();
-						e.stopPropagation();
-						onHighlight(tooltip.text);
-					}}
-					class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
-				>
-					{primaryLabel}
-				</button>
-				{#if showDefine}
-					<div class="w-px bg-rule"></div>
-					<button
-						type="button"
-						onpointerdown={(e) => {
-							e.preventDefault();
-							e.stopPropagation();
-							onDefine(tooltip.text);
-						}}
-						class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
-					>
-						Define
-					</button>
-				{/if}
 				{#if !extendMode}
-					<div class="w-px bg-rule"></div>
+					<!-- Tapping a swatch highlights in that colour outright, so
+					     picking a colour is one tap rather than pick-then-confirm. -->
+					<HighlightSwatches
+						{isMobile}
+						duringSelection
+						selected={currentColor}
+						onPick={(c) => onHighlight(tooltip.text, c)}
+					/>
+					<div class="h-px bg-rule"></div>
+				{/if}
+				<div class="flex">
 					<button
 						type="button"
 						onpointerdown={(e) => {
 							e.preventDefault();
 							e.stopPropagation();
-							onExplain(tooltip.text);
+							onHighlight(tooltip.text, currentColor);
 						}}
 						class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
 					>
-						Explain
+						{primaryLabel}
 					</button>
-				{/if}
+					{#if showDefine}
+						<div class="w-px bg-rule"></div>
+						<button
+							type="button"
+							onpointerdown={(e) => {
+								e.preventDefault();
+								e.stopPropagation();
+								onDefine(tooltip.text);
+							}}
+							class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
+						>
+							Define
+						</button>
+					{/if}
+					{#if !extendMode}
+						<div class="w-px bg-rule"></div>
+						<button
+							type="button"
+							onpointerdown={(e) => {
+								e.preventDefault();
+								e.stopPropagation();
+								onExplain(tooltip.text);
+							}}
+							class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
+						>
+							Explain
+						</button>
+					{/if}
+				</div>
 			</div>
 		</div>
 	{:else}
 		<div
-			class="highlight-tooltip absolute z-50 -translate-x-1/2 -translate-y-full"
+			class="highlight-tooltip absolute z-50 -translate-x-1/2 {tooltip.below
+				? ''
+				: '-translate-y-full'}"
 			style="left: {tooltip.x}px; top: {tooltip.y}px;"
 		>
-			<div class="flex overflow-hidden rounded-lg border border-rule bg-dark shadow-lg">
-				<button
-					onclick={() => onHighlight(tooltip.text)}
-					class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
-				>
-					{primaryLabel}
-				</button>
-				{#if showDefine}
-					<div class="w-px bg-rule"></div>
-					<button
-						onclick={() => onDefine(tooltip.text)}
-						class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
-					>
-						Define
-					</button>
-				{/if}
+			<div class="overflow-hidden rounded-lg border border-rule bg-dark shadow-lg">
 				{#if !extendMode}
-					<div class="w-px bg-rule"></div>
+					<HighlightSwatches
+						{isMobile}
+						duringSelection
+						selected={currentColor}
+						onPick={(c) => onHighlight(tooltip.text, c)}
+					/>
+					<div class="h-px bg-rule"></div>
+				{/if}
+				<div class="flex">
 					<button
-						onclick={() => onExplain(tooltip.text)}
+						onclick={() => onHighlight(tooltip.text, currentColor)}
 						class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
 					>
-						Explain
+						{primaryLabel}
 					</button>
-				{/if}
+					{#if showDefine}
+						<div class="w-px bg-rule"></div>
+						<button
+							onclick={() => onDefine(tooltip.text)}
+							class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
+						>
+							Define
+						</button>
+					{/if}
+					{#if !extendMode}
+						<div class="w-px bg-rule"></div>
+						<button
+							onclick={() => onExplain(tooltip.text)}
+							class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
+						>
+							Explain
+						</button>
+					{/if}
+				</div>
 			</div>
 		</div>
 	{/if}

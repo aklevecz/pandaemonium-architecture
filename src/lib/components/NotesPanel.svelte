@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { relTime } from '$lib/utils/time';
+	import { colorRgb, type HighlightColor } from '$lib/highlight-colors';
 
 	interface Note {
 		id: number;
@@ -11,6 +12,7 @@
 		id: number;
 		text: string;
 		note: string;
+		color: HighlightColor;
 		created_at: string;
 	}
 	interface Vocab {
@@ -392,9 +394,10 @@
 							{@const expanded = expandedHighlights.has(h.id)}
 							{@const long = h.text.length > SNIPPET_PREVIEW}
 							<div
-								class="border-l-2 py-1 pl-3 {activeHighlight?.id === h.id
-									? 'border-yellow-400'
-									: 'border-yellow-500/30'}"
+								class="border-l-2 py-1 pl-3"
+								style="border-color: rgb({colorRgb(h.color)} / {activeHighlight?.id === h.id
+									? 0.9
+									: 0.35});"
 							>
 								<button
 									type="button"
