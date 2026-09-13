@@ -12,8 +12,9 @@
 	--color-bright: #ffffff;
 	/* Old-style book faces first (Iowan/Palatino ship on macOS/iOS and read
 	   like a printed page); graceful fall back to Georgia elsewhere. */
-	--font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua',
-		'Hoefler Text', Charter, Georgia, 'Times New Roman', serif;
+	--font-serif:
+		'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', 'Hoefler Text', Charter,
+		Georgia, 'Times New Roman', serif;
 	--font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', monospace;
 }
 
@@ -42,7 +43,10 @@ html {
 
 body {
 	min-height: 100dvh;
-	font-family: system-ui, -apple-system, sans-serif;
+	font-family:
+		system-ui,
+		-apple-system,
+		sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -73,7 +77,10 @@ body {
 	hyphens: auto;
 	-webkit-hyphens: auto;
 	font-variant-numeric: oldstyle-nums;
-	font-feature-settings: 'onum' 1, 'liga' 1, 'kern' 1;
+	font-feature-settings:
+		'onum' 1,
+		'liga' 1,
+		'kern' 1;
 	text-rendering: optimizeLegibility;
 	overflow-wrap: break-word;
 }
@@ -405,9 +412,15 @@ mark.hl.highlight-flash {
 	animation: hl-flash 1.2s ease-out;
 }
 @keyframes hl-flash {
-	0% { background-color: rgb(var(--hl-rgb) / 0.85); }
-	50% { background-color: rgb(var(--hl-rgb) / 0.6); }
-	100% { background-color: rgb(var(--hl-rgb) / 0.25); }
+	0% {
+		background-color: rgb(var(--hl-rgb) / 0.85);
+	}
+	50% {
+		background-color: rgb(var(--hl-rgb) / 0.6);
+	}
+	100% {
+		background-color: rgb(var(--hl-rgb) / 0.25);
+	}
 }
 
 /* Brief halo on a paragraph that's the target of a "jump to passage"
@@ -418,7 +431,31 @@ mark.hl.highlight-flash {
 	border-radius: 4px;
 }
 @keyframes passage-flash {
-	0%   { background-color: rgba(125, 211, 252, 0.30); }
-	50%  { background-color: rgba(125, 211, 252, 0.18); }
-	100% { background-color: rgba(125, 211, 252, 0); }
+	0% {
+		background-color: rgba(125, 211, 252, 0.3);
+	}
+	50% {
+		background-color: rgba(125, 211, 252, 0.18);
+	}
+	100% {
+		background-color: rgba(125, 211, 252, 0);
+	}
+}
+
+/* iOS Safari zooms the whole page when you focus a field whose font-size is
+   under 16px, and the zoom does not undo itself. Every text-entry control on
+   a phone therefore gets 16px, which is the only value that reliably stops
+   it. Tailwind's size utilities are classes, so this needs !important to win
+   on specificity. Desktop keeps the denser sizes the design is built on, and
+   the viewport meta deliberately has no maximum-scale: stopping the zoom is
+   not worth taking pinch-zoom away from anyone who needs it.
+
+   Controls that never trigger the zoom (range, checkbox, radio, file) are
+   excluded so their layout is untouched. */
+@media (max-width: 639px) {
+	input:not([type='range']):not([type='checkbox']):not([type='radio']):not([type='file']),
+	textarea,
+	select {
+		font-size: 16px !important;
+	}
 }
