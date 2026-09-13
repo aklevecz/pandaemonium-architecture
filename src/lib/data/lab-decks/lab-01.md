@@ -32,7 +32,7 @@ Language models and diffusion models have no rule you can read. You get the outp
 ## Where we are going
 1. Life, Loops and Voices: three systems with their rules on screen.
 2. Intuition: Concrete Probablistic Illusion
-3. Sampling: How many rabbits you got in that hat?
+3. Sampling: Gaussian distributions, probability as area, Monte Carlo estimates
 4. Autoregressive models: in 2017 I wish I had invested in ______
 5. Latent diffusion: Noise on noise off
 
@@ -102,32 +102,151 @@ More context and more information about sequential state = greater insight into 
 
 ---
 
+@statement
+The curve is the possibility. The point is the draw.
+
+---
+
 @prose
-## Sampling: what the model actually outputs
+## Pizza preferences
 
-A language model does not output a word. It outputs a probability for every token in its vocabulary. A separate step then picks one token from that distribution.
+In Nekhen, open a Class poll and ask: “Which pizza would you choose?” Each person votes once. Freeze the votes and draw an answer.
 
-That step is sampling. It is not part of the model’s weights, and it is random. The same model with the same prompt gives different outputs on different runs because the sample differs.
+If 12 of 30 people choose pepperoni, its chance is 40%. It is the most popular choice only if no other option has more votes; it still need not be the next draw.
+
+Pizza types are categories, like possible next words. To use a Gaussian, change the question to a number: how wide is the pizza?
+
+---
+
+@prose
+## Pizza diameters
+
+Imagine a kitchen aiming for 12-inch pizzas, with small variations in size. We choose a Gaussian model with mean 12 inches and standard deviation 0.5 inches. This is an assumed model, not measurements from our class.
+
+A 13-inch pizza is two standard deviations above the mean. Under this model, about 2.28% exceed 13 inches.
+
+On the standard Gaussian plot, the center is zero and that threshold is +2. The same bell curve can describe different quantities when we change its location and scale.
+
+---
+
+@demo
+## Draw from a Gaussian
+
+A bell curve describes a distribution of values. Its mean sets the center; its standard deviation sets the spread. The curve stays visible while we draw from it.
+
+[Open Gaussian sampling](/sampling#gaussian)
+
+1. Draw one value. It is a point, not a bell curve.
+2. Draw twenty, then a thousand. Watch the histogram take shape.
+3. Move the mean. The center shifts.
+4. Change the standard deviation. The curve widens or narrows, and the samples spread differently.
+
+---
+
+@prose
+## Density is not probability
+
+The height of a Gaussian curve is probability density. A probability is an area: the chance that a draw lands within an interval.
+
+The total area is 1. A narrower curve is taller so that the area stays the same. One exact point has no width and therefore zero probability in the ideal continuous distribution; an interval can have positive probability.
+
+---
+
+@demo
+## Shade an interval
+
+Use a standard Gaussian: mean zero, standard deviation one. Move the interval boundaries and watch its probability change with the shaded area.
+
+[Open the shaded Gaussian](/sampling#area)
+
+1. Shade from −1 to 1. About 68.27% of the distribution lies here.
+2. Expand to −2 and 2: about 95.45%. Then −3 and 3: about 99.73%.
+3. Move a narrow interval from the center toward a tail. The same width contains less probability.
+4. Collapse the interval to a point. Its probability is zero, even at the peak.
+
+---
+
+@statement
+More draws reveal the distribution. They do not change it or make the next draw compensate for the last.
+
+---
+
+@prose
+## Monte Carlo
+
+Monte Carlo methods use repeated random samples to estimate a quantity. Sampling gives us one outcome; combining many outcomes lets us estimate a probability or an average.
+
+For our Gaussian, count the draws between −1 and 1, then divide by the total number of draws. That fraction estimates the shaded area. If 7 out of 10 land inside, our estimate is 70%.
+
+The Monty Hall simulation did this too: simulated wins divided by simulated games estimates a strategy’s win rate.
+
+---
+
+@demo
+## Estimate the area with samples
+
+The calculated Gaussian area is about 68.27%. Use it to check our Monte Carlo estimate.
+
+[Open Monte Carlo](/sampling#monte-carlo)
+
+1. Run ten trials. Divide the count inside the interval by the total.
+2. Add a thousand, then ten thousand. Watch the estimate and its error.
+3. Reset and repeat. The same distribution gives a different estimate.
+4. More trials usually improve precision, but the error need not decrease with every batch.
+
+---
+
+@prose
+## Why simulate?
+
+Sometimes calculating an answer directly is difficult, but generating examples is easy. Monte Carlo turns those examples into an estimate.
+
+For independent trials like these, typical error shrinks as 1/√N. Halving it takes about four times as many trials.
+
+More trials reduce random error. They do not fix incorrect rules or a poorly chosen distribution.
+
+---
+
+@prose
+## From numbers to tokens
+
+Our Gaussian distributes probability continuously along a number line. A language model distributes probability over a discrete vocabulary of tokens. A token can have positive probability on its own; an exact point in a continuous Gaussian cannot.
+
+The shared idea is a distribution followed by a selection. Sampling draws according to the distribution. Always taking a peak is a different procedure.
 
 ---
 
 @image
 ![A prompt goes into the model. The model outputs a probability for every token. A separate sampling step draws one token at random. The same prompt on other runs drew different tokens.](/diagrams/sampling.svg)
-caption: The model outputs the distribution. Sampling picks from it.
+caption: A language model uses discrete tokens, not a Gaussian curve. The selected outcome still hides the alternatives.
 
 ---
 
-@statement
-Temperature reshapes the distribution before the draw. Low: the most likely option almost always. High: close to uniform over everything allowed.
+@demo
+## One draw, different spreads
+
+Keep the center at zero and reuse the same standard Gaussian draw. Changing temperature changes the distribution around it.
+
+[Open the Gaussian temperature comparison](/sampling#temperature)
+
+1. Draw a value. At T = 1 the original and adjusted curves coincide.
+2. Lower T. The curve narrows and the adjusted value moves toward the mean.
+3. Raise T. The curve widens and the adjusted value moves farther out.
+4. Replay the seed, then change it. The seed changes the random input; temperature changes how it is scaled.
 
 ---
 
 @prose
-## Other sampler settings
+## What the analogy carries
 
-Temperature is one of several. Top-k keeps only the k likeliest options before drawing. Top-p keeps the smallest set of options whose probabilities add up to p. Greedy decoding skips the draw and always takes the maximum.
+In this Gaussian example, temperature T multiplies variance by T, so standard deviation becomes σ√T. The mean stays fixed. Choosing the mean every time would produce the same value, not samples distributed in a bell shape.
 
-None of these are in the model. They are set in the sampler, by whoever deployed it, usually in a config file. They change the output as much as prompt wording does.
+Language-model temperature reshapes discrete token probabilities rather than a Gaussian density. Diffusion models use Gaussian noise directly. The common question is how a distribution and a selection procedure become one visible result.
+
+---
+
+@statement
+When you see an output, you see one path through the possibilities. You do not see the whole distribution.
 
 ---
 

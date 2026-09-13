@@ -2,19 +2,21 @@
 
 Ariel's half. Monty Hall, sampling, autoregressive models, latent diffusion. Written to go deeper than the slides when someone asks, and to review from.
 
-Deck: `/lab/1`. Pages: `/life`, `/loops`, `/voices`, `/monty-hall`, `/denoise`.
+Deck: `/lab/1`. Pages: `/life`, `/loops`, `/voices`, `/monty-hall`, `/sampling`, `/denoise`.
+
+Use **Experiences** in the slide controls to jump to any of these demos or the Nekhen class room. The menu also appears in the course demos’ top navigation and Nekhen’s classroom header. Start from the desired Nekhen room and use **Lab slides** once to connect that room to the deck; subsequent jumps return to that same room. Slide links carry your current position, including when returning through another experiment. The menu stays available in slide fullscreen. Navigation uses the current tab; Nekhen votes and draws are saved, but local experiment state may restart when leaving a page.
 
 ---
 
 ## 0. The frame in one paragraph
 
-Scott's half shows systems whose rules are written down: Conway's Life is three sentences, a Koan patch is a table. This half shows systems whose rules are fitted to data and cannot be read. The one tool that works on both is the same: run the system many times and look at the outputs. Every system in this half does one thing: it produces a probability distribution over possible outputs, and a separate step draws one. The model is the distribution. The draw is sampling. Most of what people call "the AI's decision" is the draw.
+Scott's half shows systems whose rules are written down: Conway's Life is three sentences, a Koan patch is a table. This half shows systems whose rules are fitted to data and cannot be read. One useful question for both is what varies from run to run and why. Life and the fixed Loops score can be deterministic; Voices explicitly samples notes. Language generation and diffusion introduce their own distributions and selection procedures. Keep three things separate: the system that sets the possibilities, the distribution over those possibilities, and the procedure that produces the visible outcome.
 
 ---
 
 ## 1. Handoff: Life, Loops, Voices
 
-Slides 5 to 7. Scott ran Golly and Wotja; these are our own versions, so the room can touch them.
+Scott ran Golly and Wotja; these are our own versions, so the room can touch them.
 
 ### Life (`/life`)
 
@@ -43,7 +45,7 @@ This is the sampling demonstration in miniature, and the temperature control is 
 
 ## 2. The door game (`/monty-hall`)
 
-Slides 8 and 9. A pickup truck behind one door, Elon Musk behind the other two.
+A pickup truck behind one door, Elon Musk behind the other two.
 
 ### The rule
 
@@ -79,58 +81,99 @@ The host's choice is random, but only among the doors the rules allow. That is a
 
 ---
 
-## 3. Sampling
+## 3. Sampling through Gaussian distributions
 
-Slides 10 to 13.
+Allow about 20 minutes between Monty Hall and autoregression. `/sampling` starts with a Gaussian curve and builds every experiment around it. The reading page and the slides share four stops: draw, shade, estimate with Monte Carlo, change the spread.
 
-### What a model outputs
+### The sentence to keep returning to
 
-A language model does not output a word. For a given input it outputs a score (a logit) for every token in its vocabulary. Softmax turns the scores into probabilities that sum to 1:
+**The curve is the possibility. The point is the draw.**
 
-p<sub>i</sub> = exp(z<sub>i</sub>) / Σ<sub>j</sub> exp(z<sub>j</sub>)
+A distribution is not the latest output. We can hold a Gaussian completely fixed and keep obtaining different values from it. This makes visible something a generated sentence often hides: the possibilities available before one result appeared.
 
-A separate step picks one token from that distribution. That step is the sampler. It is not part of the weights.
+### Experiment 1: draw from the curve (`/sampling#gaussian`)
 
-Vocabulary sizes, if asked: GPT-2 has 50,257 tokens; Llama 3 has 128,256; most current models are in the 32k to 200k range.
+Optional opening in Nekhen: create a fresh room in **The Next Word**, choose **Class poll**, and ask “Which pizza would you choose?” Share the room link, collect one preference per browser, and freeze voting. The bars show a categorical distribution. If 12 of 30 votes are pepperoni, its chance is 40%. Draw one answer, then ten, then a thousand with replacement. Compare the sampled proportions with the fixed class shares. Clear draws and repeat without changing votes. This is the concrete classroom example to revisit when introducing Monte Carlo.
 
-### Temperature
+Pizza types are not Gaussian. To move to the bell curve, change the question from type to diameter: imagine a kitchen aiming for 12-inch pizzas with standard deviation 0.5 inches. This is an assumed model of size variation, not a distribution measured from students. Under this model, a diameter above 13 inches is more than two standard deviations above the mean, with probability about 2.28%. The standard-normal plot uses z = (diameter − 12) / 0.5. In the area demo, shading 2 to 4 approximates the upper tail; the small area beyond 4 remains outside the plot. Counting all simulated diameters above 13 would estimate the full event.
 
-Divide the logits by T before softmax:
+Nekhen’s poll mode uses vote shares directly. Its separate **Next word / logits** mode applies softmax to vote counts, so the displayed probabilities differ. Keep the mode distinction explicit. The poll supports phone voting, projector view, a shared latest draw, aggregate counts, clearing draws, and JSON export. It remains a local preview until both Nekhen services are deployed; instructions are in `work/nekhen-next-word/NEXT_WORD.md`.
 
-p<sub>i</sub> = exp(z<sub>i</sub>/T) / Σ<sub>j</sub> exp(z<sub>j</sub>/T)
+Start with mean μ = 0 and standard deviation σ = 1. Draw once. Point to the single tick under the curve. Nothing bell-shaped has been produced; one number has been produced from a bell-shaped distribution.
 
-- T below 1 sharpens: the largest probability grows, the rest shrink. As T approaches 0 this becomes argmax (greedy).
-- T = 1 is the model's raw distribution.
-- T above 1 flattens toward uniform over the vocabulary.
+Draw twenty. The histogram appears. Draw a thousand and compare the collective shape with the theoretical curve. The histogram is an observation of the draws, while the curve is the rule that generated them. Its bars show density: count divided by total draws and bin width. This puts the bars and the curve on the same vertical scale. With few observations the bars can be uneven, and more observations need not improve every bin on every step.
 
-Temperature does not add knowledge or creativity. It reshapes an existing distribution. "Hot" answers are not better ideas, they are lower-probability draws.
+Move μ and keep σ fixed: the center shifts. Move σ and keep μ fixed: the spread changes. The samples clear when either changes so that observations from different distributions are not combined. The horizontal axis stays fixed, making the change in location and spread visible. The vertical axis adjusts to fit the curve and histogram; read its density labels when comparing heights.
 
-### Top-k and top-p
+The visible window is finite, but a Gaussian has unbounded tails. Draws outside the window are counted below the plot and included in the histogram's denominator. They are not clamped to the edge or discarded to make the shape prettier.
 
-- Top-k: keep only the k highest-probability tokens, renormalize, sample from those.
-- Top-p (nucleus sampling, Holtzman et al. 2019): keep the smallest set of tokens whose probabilities add up to p, renormalize, sample. Adapts to how peaked the distribution is: a confident step keeps few tokens, an uncertain step keeps many.
-- Greedy: always take the maximum. Deterministic, and tends to loop and repeat in long text.
-- Beam search: keep the b most probable partial sequences and extend all of them. Used in translation, rarely in chat.
+A draw below the mean does not make one above the mean due. These draws are independent. The sample mean tends toward μ over many draws from the fixed distribution; it is not a mechanism that compensates after each result.
 
-Repetition penalty, frequency penalty, presence penalty: post-hoc adjustments to the logits that push down tokens already used. Also sampler settings, also not in the model.
+### Experiment 2: probability is an area (`/sampling#area`)
 
-### Why the same prompt gives different answers
+Use the standard Gaussian again. Shade from −1 to 1: about 68.27%. Expand to ±2: 95.45%. Expand to ±3: 99.73%. These are areas under the curve, not heights and not promised counts in the next batch.
 
-Because the draw is random. Same weights, same prompt, same distribution, different sample. Setting temperature to 0 makes it nearly deterministic, but not perfectly on real hardware: floating point on GPUs is not bitwise reproducible across batch sizes, and providers batch requests together. If someone says "I set temperature 0 and still got different answers", that is why.
+Now keep the interval narrow and move it toward a tail. Equal widths contain different amounts of probability depending on where they sit. Collapse the interval to a point: its area is zero, even if the point is the mean and has the highest density.
 
-### Where sampler settings live
+This is the distinction to say carefully: **an ideal continuous distribution assigns probability to intervals; its curve shows density**. A single exact value occupies no width. A displayed value is rounded, so a displayed “0.100” represents a small interval of possible underlying values. The computer also has finite precision; do not confuse its finite collection of representable numbers with the ideal continuous model.
 
-In a config file, set by whoever deployed the model. Chat products usually run around T = 0.7 to 1.0 with top-p around 0.9 to 0.95. The user does not see any of this. A product that feels bland or feels unhinged is often a sampler setting.
+The total area is 1. When σ shrinks, the curve grows taller to preserve that area. Density can exceed 1 because its units are inverse units of x; probability cannot. The normal density is:
 
-### The Voices link
+f(x) = exp(−(x−μ)² / (2σ²)) / (σ√(2π))
 
-Every note on `/voices` is one sample from a distribution shaped by four rules, at a temperature. Cold: the most likely note almost every time. Hot: near uniform over the scale. The bars are the distribution at the moment of the draw. A language model's sampler does exactly this over 100,000 tokens instead of 10 notes.
+The interface computes interval areas numerically. The percentages are rounded, not exact symbolic evaluations.
+
+### Experiment 3: Monte Carlo (`/sampling#monte-carlo`)
+
+“We have a distribution and we know how to draw from it. Now we can use those draws to answer a question.” Monte Carlo methods use repeated random samples to estimate quantities such as probabilities and averages.
+
+Keep the standard Gaussian and the interval −1 to 1 fixed. Each trial is one draw. Score it 1 if it falls inside the interval and 0 otherwise. The average of these scores—hits divided by trials—estimates the probability, which is also the shaded area. For example, 7 hits in 10 trials gives 70%. It is an estimate, not a new value for the underlying probability.
+
+Run ten trials, then add a thousand and ten thousand. Read the estimate beside the calculated area, about 68.27%. The page reports their absolute difference in percentage points. Reset and repeat so students see that another run gives another estimate. All samples count in the denominator, including those outside the visible plot.
+
+The estimate need not improve after every batch. For independent Bernoulli trials with probability p, its standard error is √(p(1−p)/N). Here that is about 1.47 percentage points at 1,000 trials and 0.47 at 10,000. These describe the spread across repeated runs, not guaranteed error bounds. Four times as many trials roughly halves typical error. More samples cannot repair a wrong distribution or simulation rule.
+
+Connect back to Monty Hall: the simulation estimated a strategy’s win rate by playing many games and counting wins. Monty Hall is the name of the door problem; Monte Carlo is the general method used to estimate the result. A next-token draw is sampling; aggregating repeated draws to estimate a quantity is a Monte Carlo use of sampling.
+
+Likely question: “Why simulate if we already know the answer?” Here we can check the estimate against a numerical calculation. In harder problems, we may be able to generate outcomes without being able to calculate the desired average or probability directly. The known Gaussian area makes the method easy to inspect before applying it elsewhere.
+
+### Experiment 4: same random input, different spread (`/sampling#temperature`)
+
+Draw a standard Gaussian value z. The blue dot is z under the original σ = 1 curve. The gold dot is √T · z under the adjusted curve. At T = 1 they coincide. Lower T contracts the distribution and moves the adjusted draw toward zero; higher T expands both the spread and the distance of that same draw from zero.
+
+This is a controlled comparison, not two independent draws. We deliberately reuse the same random input so that the only change is the transformation. Changing the seed generates a new z. Replaying the same seed produces the same z here because the pseudorandom generator and procedure are fixed.
+
+Why the square root? We define temperature by raising the density to the power 1/T and renormalizing. For a Gaussian, that multiplies variance by T, so standard deviation becomes σ√T while μ stays unchanged. T must stay positive in this density calculation. The zero-temperature limiting distribution would concentrate at the mean; it is not a Gaussian with positive width.
+
+Compare with “always pick the peak.” That yields zero every time. A list of zeros does not reproduce the Gaussian. Being the densest location is not the same as being the only location a sampler can produce.
+
+### Bridge to language models and diffusion
+
+Do not imply that a language model's next-token probabilities form a Gaussian. Its outcomes are discrete vocabulary entries. Each token can have a positive probability on its own, whereas an exact point in the ideal continuous Gaussian has probability zero. The transferable idea is the separation of a distribution from the procedure that selects an outcome.
+
+Language models output token scores (logits), and softmax with temperature converts them into probabilities: pᵢ = exp(zᵢ/T) / Σⱼ exp(zⱼ/T). The underlying scores can stay fixed while the sampling probabilities change. Top-k and top-p additionally exclude candidates and renormalize; they are different operations from simply widening a Gaussian.
+
+Diffusion uses Gaussian noise directly, so the connection there is concrete. Many draws can form a noise vector or image. The seed initializes a pseudorandom procedure; it does not add knowledge or change the trained model. Exact replay in this little experiment does not promise identical behavior across all hosted AI systems, hardware, and software versions.
+
+Nekhen's **The Next Word** remains the discrete classroom counterpart: participants propose words, vote to create toy logits, and sample a next word. Votes `[3, 2, 1]` become about `[66.5%, 24.5%, 9.0%]` at T = 1, not their vote shares. After a word is selected, it becomes context for fresh predictions. That differs from the independent draws under an unchanged Gaussian in our first experiment.
+
+The Nekhen demo is still local work on `codex/nekhen-next-word`; deploy its worker and frontend before inviting students on their own devices. Its facilitation guide is `work/nekhen-next-word/NEXT_WORD.md`. The course app's Gaussian experiments need no account, audio, or model service.
+
+### Questions to expect
+
+- “Why didn't this sample land at the peak?” The peak is the highest density, not a command to choose it.
+- “Is the curve made by the dots?” Here the curve is specified first; the sampled dots build an empirical histogram that approximates it.
+- “Can the density be greater than one?” Yes. Probability is area, not height.
+- “If every exact point has probability zero, how does anything happen?” Any nonzero interval can have positive probability; a continuum is not a countable list of point probabilities to add. Our displayed numbers also stand for rounded intervals.
+- “Does a thousand draws guarantee the shape?” No. It usually makes the approximation clearer; finite samples still fluctuate.
+- “Are all random distributions Gaussian?” No. We chose one family with an explicit rule. The next-token distribution is categorical.
+- “Does temperature change the model?” In this comparison the original distribution remains fixed; the distribution used for sampling is transformed. In language decoding, the learned weights need not change either.
+
+Reference: [NIST, Normal Distribution](https://www.itl.nist.gov/div898/handbook/eda/section3/eda3661.htm). For the discrete decoding bridge: [Hugging Face, generation strategies](https://huggingface.co/docs/transformers/main/en/generation_strategies).
 
 ---
 
 ## 4. Autoregressive models
-
-Slides 14 and 15.
 
 ### The factorization
 
@@ -158,8 +201,6 @@ The maximum number of tokens the model can condition on at once. Everything outs
 
 ## 5. Attention
 
-Slide 16.
-
 ### The mechanism
 
 Vaswani et al., 2017. For each position, the model computes a query, a key, and a value (three learned linear maps of the token's vector). Each position's output is a weighted sum of all positions' values, with weights from how well its query matches each key:
@@ -180,7 +221,7 @@ Life: each cell updates from a fixed neighbourhood of eight, by a written rule. 
 
 ## 6. Selfridge, 1958
 
-Slides 17 and 18. The course's namesake.
+The course's namesake.
 
 Pandemonium: A Paradigm For Learning, given at the Mechanisation of Thought Processes symposium, Teddington, 1958.
 
@@ -193,8 +234,6 @@ McCarthy's remark in the discussion, if wanted: the demons' internal work is the
 ---
 
 ## 7. Latent diffusion
-
-Slides 19 to 25.
 
 ### Forward process
 
@@ -258,7 +297,7 @@ Consequences to say out loud:
 
 ### The burger clips
 
-Slides 21 and 22. Ten runs, each a burger denoised from pure noise over 42 seconds at 24 frames a second. The grid is all ten synchronized. Every run starts as noise; each ends on a different burger. This is the reverse process at real scale, and the divergence is the seed.
+Ten runs, each a burger denoised from pure noise over 42 seconds at 24 frames a second. The grid is all ten synchronized. Every run starts as noise; each ends on a different burger. This is the reverse process at real scale, and the divergence is the seed.
 
 ### If asked whether models store training images
 
@@ -268,7 +307,7 @@ Carlini et al. (2023) extracted a few hundred near-exact training images from St
 
 ## 8. The four questions
 
-Slide 24. Ask them of anything in the room.
+Ask them of anything in the room.
 
 1. What counts as a state: a cell, a token, a latent, a frame?
 2. What counts as a neighbour: who is allowed to influence whom?
@@ -290,9 +329,9 @@ Worked for each system:
 
 ## 9. Questions to expect
 
-**"So is it random or not?"** The model is deterministic: same input, same distribution. The sampler is random. Temperature 0 removes most of the randomness. Floating point on GPUs removes the rest only approximately.
+**"So is it random or not?"** Separate the scores from the selection. Sampling introduces randomness into token selection; greedy decoding does not perform that random draw. Real serving systems may have other sources of variation, so a reproducibility claim needs the same model, inputs, procedure, and execution conditions.
 
-**"Does temperature make it more creative?"** It makes it pick lower-probability tokens. Whether that reads as creative or as nonsense depends on how far you go. The distribution does not change.
+**"Does temperature make it more creative?"** Higher temperature gives lower-scoring tokens relatively more probability. The sampling distribution changes; the underlying model scores do not. Whether the result reads as creative, useful, or incoherent depends on the context.
 
 **"Why does it make things up?"** It outputs the most plausible continuation given its training and the context. Nothing in the loop checks the output against the world. A confident-sounding false statement is a plausible sequence of tokens. Retrieval and tool use are attempts to put something checkable in the context.
 
@@ -316,6 +355,7 @@ Worked for each system:
 
 ## 10. Running the demos
 
+- `/sampling` runs without audio or a server connection. Its four experiments are linked from the deck; each returns to its originating slide.
 - `/voices` and `/loops` need a click on Run before audio plays (browser autoplay rules). Check the projector's audio before class.
 - `/denoise` loads its ten images on open; the counter reads 10 / 12 when ready. Generate does nothing on an empty set.
 - With the storefront set, DDIM goes to the same image from most seeds. If the room asks why, that is section 7. Switch to DDPM to show the seed mattering.
