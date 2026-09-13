@@ -1,5 +1,6 @@
 import { json, error } from '@sveltejs/kit';
 import { requireAuthAndDb } from '$lib/server/api';
+import { requireConversation } from '$lib/server/conversations';
 import { retrieve } from '$lib/server/retrieval';
 import { classify, reportClaudeFailure, studentMessage } from '$lib/server/claude-alert';
 import type { RequestHandler } from './$types';
@@ -9,12 +10,13 @@ export const GET: RequestHandler = async (event) => {
 	const slug = event.url.searchParams.get('slug');
 	const conversationId = event.url.searchParams.get('id');
 
-	if (conversationId) {
+	if (conversationId !== null) {
+		const conversation = await requireConversation(db, user.id, conversationId);
 		const messages = await db
-			.prepare('SELECT id, role, content, created_at FROM messages WHERE conversation_id = ? ORDER BY created_at ASC')
-			.bind(Number(conversationId))
+			.prepare('SELECT id, role, content, created_at FROM messages WHERE conversation_id = ? ORDER BY created_at ASC, id ASC')
+			.bind(conversation.id)
 			.all<{ id: number; role: string; content: string; created_at: string }>();
-		return json(messages.results);
+		return json(messages.results, { headers: { 'Cache-Control': 'private, no-store' } });
 	}
 
 	if (slug) {
@@ -52,7 +54,7 @@ export const GET: RequestHandler = async (event) => {
 				.trim()
 				.slice(0, 160)
 		}));
-		return json(rows);
+		return json(rows, { headers: { 'Cache-Control': 'private, no-store' } });
 	}
 
 	error(400, 'Missing slug or id');
@@ -73,8 +75,11 @@ export const POST: RequestHandler = async (event) => {
 	if (!apiKey) error(500, 'API key not configured');
 
 	const { slug, conversationId, message, readingTitle, readingAuthor, selectedText, selectedPosition, length } = await event.request.json();
-	if (!slug || !message) error(400, 'Missing slug or message');
+	if (typeof slug !== 'string' || !slug.trim() || typeof message !== 'string' || !message.trim()) error(400, 'Missing slug or message');
 	const userId = user.id;
+	let convId = conversationId === undefined || conversationId === null
+		? null
+		: (await requireConversation(db, userId, conversationId, slug)).id;
 
 	// User-selected response length. "normal" is the graduate-seminar default;
 	// "brief" is for quick clarifications; "deep" gives Claude room for
@@ -123,8 +128,7 @@ export const POST: RequestHandler = async (event) => {
 		}
 	}
 
-	let convId: number = conversationId;
-	if (!convId) {
+	if (convId === null) {
 		const title = selectedText
 			? selectedText.slice(0, 60) + (selectedText.length > 60 ? '...' : '')
 			: message.slice(0, 60) + (message.length > 60 ? '...' : '');
@@ -141,7 +145,7 @@ export const POST: RequestHandler = async (event) => {
 		.run();
 
 	const history = await db
-		.prepare('SELECT role, content FROM messages WHERE conversation_id = ? ORDER BY created_at ASC')
+		.prepare('SELECT role, content FROM messages WHERE conversation_id = ? ORDER BY created_at ASC, id ASC')
 		.bind(convId)
 		.all<{ role: string; content: string }>();
 
@@ -286,7 +290,7 @@ export const POST: RequestHandler = async (event) => {
 export const PATCH: RequestHandler = async (event) => {
 	const { user, db } = requireAuthAndDb(event);
 	const id = event.url.searchParams.get('id');
-	if (!id) error(400, 'Missing id');
+	const conversation = await requireConversation(db, user.id, id);
 	const { title } = await event.request.json();
 	const trimmed = String(title ?? '')
 		.trim()
@@ -295,7 +299,7 @@ export const PATCH: RequestHandler = async (event) => {
 
 	await db
 		.prepare('UPDATE conversations SET title = ? WHERE id = ? AND user_id = ?')
-		.bind(trimmed, Number(id), user.id)
+		.bind(trimmed, conversation.id, user.id)
 		.run();
 	return json({ ok: true, title: trimmed });
 };
@@ -303,7 +307,7 @@ export const PATCH: RequestHandler = async (event) => {
 export const DELETE: RequestHandler = async (event) => {
 	const { user, db } = requireAuthAndDb(event);
 	const id = event.url.searchParams.get('id');
-	if (!id) error(400, 'Missing id');
+	const conversation = await requireConversation(db, user.id, id);
 
 	// Ownership-scope the message delete too — the bare conversation_id match
 	// would let any signed-in user wipe another user's messages by id.
@@ -311,8 +315,8 @@ export const DELETE: RequestHandler = async (event) => {
 		.prepare(
 			'DELETE FROM messages WHERE conversation_id IN (SELECT id FROM conversations WHERE id = ? AND user_id = ?)'
 		)
-		.bind(Number(id), user.id)
+		.bind(conversation.id, user.id)
 		.run();
-	await db.prepare('DELETE FROM conversations WHERE id = ? AND user_id = ?').bind(Number(id), user.id).run();
+	await db.prepare('DELETE FROM conversations WHERE id = ? AND user_id = ?').bind(conversation.id, user.id).run();
 	return json({ ok: true });
 };

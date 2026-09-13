@@ -1,8 +1,21 @@
 # Pandaemonium Architecture 6.0
 
+Lab 01 and its demos have an **Experiences** menu connecting the slides, local experiments, and Nekhen classroom. Navigation preserves the originating slide and classroom ID. Local previews link ports 5180 and 3010; published links use the configured course domains and `nekhen.toolofna.ai`. `src/lib/experience-links.ts` is mirrored in Nekhen’s independently built `src/lib/next-word/experience-links.ts`; keep both copies in sync. Run `npm run test:experiences` to check cross-app navigation and URL validation.
+
 Course site for *Pandaemonium Architecture 6.0* (ATEK-639/439, Fall 2026) — a reading-driven seminar on AI, machine learning, cybernetics, and their intersection with art and society.
 
 The site hosts the syllabus, week-by-week schedule, and a reader for the course's primary and supplementary texts. Authenticated students get persistent notes, highlights, scroll-position bookmarks, and a Claude-powered chat assistant scoped to the reading they're in.
+
+Signed-in students can open **Notebook** (`/notebook`) to search their notes,
+highlights, vocabulary, and full conversations across readings. Filters by type
+and reading are preserved in the URL. Markdown exports contain all matching
+entries (including complete conversations and source links), not just the visible
+batch. The notebook uses existing tables and requires no database migration.
+
+Run `npm run test:notebook-chat` on Node 22.13+ to check notebook isolation,
+search/export, chat ownership, and safe Markdown rendering. The tests use an
+in-memory SQLite database with synthetic accounts and a mocked model response;
+they do not call external services.
 
 ## Stack
 

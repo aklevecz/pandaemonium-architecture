@@ -7,6 +7,7 @@
 	import { replaceState } from '$app/navigation';
 	import type { Slide } from '$lib/data/lab-decks/parse';
 	import { weeks } from '$lib/data/syllabus';
+	import ExperienceNav from '$lib/components/ExperienceNav.svelte';
 
 	// The deck arrives from +page.server.ts, which decides whether this
 	// viewer may see it at all — unpublished decks 404 before reaching here.
@@ -25,6 +26,14 @@
 	let stage = $state<HTMLElement | undefined>();
 
 	const slide = $derived(lab?.slides[Math.min(i, total - 1)]);
+
+	function demoHref(href: string) {
+		if (isExternal(href)) return href;
+		const url = new URL(href, page.url);
+		url.searchParams.set('lab', String(lab.number));
+		url.searchParams.set('slide', String(i + 1));
+		return `${url.pathname}${url.search}${url.hash}`;
+	}
 
 	function go(n: number) {
 		if (total === 0) return;
@@ -54,7 +63,7 @@
 	function onKeydown(e: KeyboardEvent) {
 		if (e.metaKey || e.ctrlKey || e.altKey) return;
 		const t = e.target as HTMLElement | null;
-		if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return;
+		if (t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.closest('details'))) return;
 		switch (e.key) {
 			case 'ArrowRight':
 			case 'ArrowDown':
@@ -288,9 +297,7 @@
 							</p>
 						{/if}
 						<a
-							href={external
-								? t.href
-								: `${t.href}${t.href.includes('?') ? '&' : '?'}lab=${lab.number}&slide=${i + 1}`}
+							href={demoHref(t.href)}
 							target={external ? '_blank' : undefined}
 							rel={external ? 'noreferrer' : undefined}
 							class="group mt-8 inline-flex items-center gap-3 rounded border border-rule px-5 py-3 no-underline transition-colors hover:border-muted hover:bg-rule/20"
@@ -354,7 +361,8 @@
 				></div>
 			</div>
 			<div class="mx-auto flex max-w-4xl items-center justify-between gap-4 px-4 py-3 sm:px-10">
-				<div class="flex items-center gap-4">
+				<div class="flex flex-wrap items-center gap-2 sm:gap-4">
+					{#if lab.number === 1}<ExperienceNav slide={i + 1} above />{/if}
 					{#if !isFull}
 						<a
 							href="/lab"

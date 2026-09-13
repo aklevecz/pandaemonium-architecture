@@ -4,6 +4,9 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
+		"test:experiences": "node --test scripts/test-experience-links.mjs",
+		"test:sampling": "node --test scripts/test-sampling.mjs",
+		"test:notebook-chat": "node --test scripts/test-notebook-chat.mjs",
 		"dev": "vite dev --port 5180 --strictPort",
 		"build": "node scripts/generate-readings.js && vite build",
 		"preview": "vite preview",
@@ -21,6 +24,7 @@
 		"@sveltejs/kit": "^2.50.2",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
 		"@tailwindcss/vite": "^4.1.18",
+		"@types/sanitize-html": "^2.16.1",
 		"docx": "^9.7.1",
 		"prettier": "^3.8.1",
 		"prettier-plugin-svelte": "^3.4.1",
@@ -35,6 +39,7 @@
 		"@sveltejs/adapter-cloudflare": "^7.2.8",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"marked": "^18.0.0",
-		"marked-footnote": "^1.4.0"
+		"marked-footnote": "^1.4.0",
+		"sanitize-html": "^2.17.7"
 	}
 }

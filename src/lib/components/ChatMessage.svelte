@@ -6,25 +6,24 @@
 
 	const { role, content }: Props = $props();
 
-	// Lazy-load marked. Chat is closed by default on the reader page, so most
-	// page loads never need the markdown parser; deferring its import saves
-	// ~50KB on the initial JS payload. Until marked resolves we render the
-	// raw streaming text, which is fine because (a) it's monospace-friendly
-	// markdown, and (b) the parent suppresses the bubble until content > 0.
+	// Load the parser and sanitizer together. Until ready (or if loading fails),
+	// Svelte escapes the plain text. Never render unsanitized model HTML.
 	let markedFn = $state<((src: string) => string) | null>(null);
 	$effect(() => {
 		if (role === 'assistant' && !markedFn) {
-			import('marked').then((m) => {
-				markedFn = m.marked as (src: string) => string;
-			});
+			import('$lib/utils/chat-markdown')
+				.then((m) => {
+					markedFn = m.renderChatMarkdown;
+				})
+				.catch(() => {
+					/* Plain text remains readable and safe. */
+				});
 		}
 	});
 
 	// $derived re-runs when either content OR markedFn changes, so once the
 	// import resolves the rendered output upgrades from raw text to HTML.
-	const rendered = $derived(
-		role === 'assistant' && markedFn ? markedFn(content) : ''
-	);
+	const rendered = $derived(role === 'assistant' && markedFn ? markedFn(content) : '');
 </script>
 
 <div class="mb-4 {role === 'user' ? 'text-right' : ''}">
@@ -44,7 +43,7 @@
 				{/if}
 			</div>
 		{:else}
-			<p class="whitespace-pre-wrap font-serif text-sm">{content}</p>
+			<p class="font-serif text-sm whitespace-pre-wrap">{content}</p>
 		{/if}
 	</div>
 </div>

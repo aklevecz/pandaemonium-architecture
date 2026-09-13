@@ -75,6 +75,15 @@
 	// Chat panel ref so the SelectionTooltip's "Explain" button can call
 	// startNewChat() across components.
 	let chatPanel: ChatPanel | undefined = $state();
+	const linkedConversation = $derived(Number(page.url.searchParams.get('conversation')) || null);
+	let openedConversationLink = $state('');
+	$effect(() => {
+		const key = `${data.slug}:${linkedConversation}`;
+		if (linkedConversation && page.data.user && openedConversationLink !== key) {
+			openedConversationLink = key;
+			chatOpen = true;
+		}
+	});
 
 	// Selection tooltip
 	let selectionTooltip: { x: number; y: number; text: string; below: boolean } | null =
@@ -1435,16 +1444,19 @@
 		getDocPosition={highlightDocPosition}
 	/>
 
-	<ChatPanel
-		bind:this={chatPanel}
-		slug={data.slug}
-		readingTitle={data.title}
-		readingAuthor={data.author}
-		{isMobile}
-		open={chatOpen}
-		onClose={() => (chatOpen = false)}
-		onConversationCount={(n) => (chatConversationCount = n)}
-	/>
+	{#key data.slug}
+		<ChatPanel
+			initialConversationId={linkedConversation}
+			bind:this={chatPanel}
+			slug={data.slug}
+			readingTitle={data.title}
+			readingAuthor={data.author}
+			{isMobile}
+			open={chatOpen}
+			onClose={() => (chatOpen = false)}
+			onConversationCount={(n) => (chatConversationCount = n)}
+		/>
+	{/key}
 
 	<SelectionTooltip
 		tooltip={selectionTooltip}

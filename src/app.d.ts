@@ -16,6 +16,9 @@ interface SendEmailBinding {
 
 declare global {
 	namespace App {
+		interface PageState {
+			notebookFilters?: import('./lib/notebook').NotebookFilters;
+		}
 		interface Locals {
 			user: { id: number; email: string; isAdmin: boolean } | null;
 		}

@@ -24,6 +24,7 @@
 		open: boolean;
 		onClose: () => void;
 		onConversationCount?: (n: number) => void;
+		initialConversationId?: number | null;
 	}
 
 	const {
@@ -33,7 +34,8 @@
 		isMobile,
 		open,
 		onClose,
-		onConversationCount
+		onConversationCount,
+		initialConversationId = null
 	}: Props = $props();
 
 	let chatMessages: ChatMessageT[] = $state([]);
@@ -48,6 +50,8 @@
 	let chatSelectedPosition: number | null = $state(null);
 	let chatEl: HTMLDivElement | undefined = $state();
 	let conversationLoading = $state(false);
+	let conversationError = $state('');
+	let openedLink = $state('');
 
 	// ---- Conversation-list UX state ----
 	// The list and the conversation swap inside the same flex slot, so the list
@@ -133,6 +137,18 @@
 		if (open) fetchConversations();
 	});
 
+	$effect(() => {
+		const key = `${slug}:${initialConversationId}`;
+		if (open && initialConversationId && conversations && openedLink !== key) {
+			openedLink = key;
+			if (conversations.some((c) => c.id === initialConversationId)) {
+				void loadConversation(initialConversationId);
+			} else {
+				conversationError = 'This conversation is no longer available in this reading.';
+			}
+		}
+	});
+
 	async function fetchConversations() {
 		const res = await fetch(`/api/chat?slug=${encodeURIComponent(slug)}`);
 		if (res.ok) {
@@ -163,6 +179,7 @@
 	}
 
 	async function loadConversation(id: number) {
+		conversationError = '';
 		savedListScroll = listEl?.scrollTop ?? savedListScroll;
 		lastViewedId = id;
 		cancelDelete();
@@ -173,7 +190,11 @@
 		conversationLoading = true;
 		try {
 			const res = await fetch(`/api/chat?id=${id}`);
-			if (res.ok) chatMessages = await res.json();
+			if (!res.ok) throw new Error('Conversation unavailable');
+			chatMessages = await res.json();
+		} catch {
+			activeConversationId = null;
+			conversationError = 'Could not open this conversation. Return to the list and try again.';
 		} finally {
 			conversationLoading = false;
 			scrollChat();
@@ -426,6 +447,7 @@
 {/if}
 
 {#snippet body()}
+	{#if conversationError}<p role="alert" class="px-4 py-3 text-sm text-light">{conversationError}</p>{/if}
 	{#if !inActiveView}
 		<div bind:this={listEl} class="flex-1 overflow-y-auto p-4">
 			<button

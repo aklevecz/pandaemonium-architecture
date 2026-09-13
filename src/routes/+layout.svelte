@@ -2,6 +2,9 @@
 	import './layout.css';
 	import { courseInfo } from '$lib/data/syllabus';
 	import { browser } from '$app/environment';
+	import { page } from '$app/state';
+	import ExperienceNav from '$lib/components/ExperienceNav.svelte';
+	import { experiences } from '$lib/experience-links';
 
 	let { children, data } = $props();
 
@@ -45,7 +48,10 @@
 					>Pandaemonium Architecture</span
 				>
 			</a>
-			<div class="flex items-center gap-3 sm:gap-6">
+			<div class="flex min-w-0 flex-wrap items-center gap-3 sm:gap-6">
+				{#if experiences.some((item) => item.path.split('#')[0] === page.url.pathname)}
+					<ExperienceNav />
+				{/if}
 				<a
 					href="/#syllabus"
 					class="text-xs tracking-wide text-muted uppercase transition-colors hover:text-white"
@@ -72,6 +78,11 @@
 					>People</a
 				>
 				{#if data.user}
+					<a
+						href="/notebook"
+						class="text-xs tracking-wide text-muted uppercase transition-colors hover:text-white"
+						>Notebook</a
+					>
 					{#if data.isInstructor}
 						<a
 							href="/activity"
