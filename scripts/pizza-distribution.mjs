@@ -14,6 +14,8 @@
 //   node scripts/pizza-distribution.mjs                       100 images, all stages
 //   node scripts/pizza-distribution.mjs --n=20                fewer
 //   node scripts/pizza-distribution.mjs --prompt="a dog"      different prompt
+//   node scripts/pizza-distribution.mjs --prompt=             no prompt at all
+//   (non-pizza prompts use the general schema; force one with --schema=pizza)
 //   node scripts/pizza-distribution.mjs --stage=report        just re-print
 //   node scripts/pizza-distribution.mjs --concurrency=8
 //
@@ -34,7 +36,7 @@ const API = 'https://generativelanguage.googleapis.com/v1beta/models';
 
 // The axes. Every value is a closed set: an open-ended "describe this image"
 // gives prose that cannot be counted, and the whole exercise is counting.
-const SCHEMA = {
+const PIZZA_SCHEMA = {
 	type: 'object',
 	properties: {
 		form: { type: 'string', enum: ['whole_pizza', 'single_slice', 'multiple_slices', 'other'] },
@@ -63,7 +65,46 @@ const SCHEMA = {
 		'slice_removed'
 	]
 };
-const AXES = Object.keys(SCHEMA.properties);
+
+// For prompts that are not about pizza, including the empty prompt, where the
+// question is what the model draws when asked for nothing in particular.
+const GENERAL_SCHEMA = {
+	type: 'object',
+	properties: {
+		subject: {
+			type: 'string',
+			enum: [
+				'person',
+				'animal',
+				'food',
+				'plant_or_flower',
+				'landscape',
+				'building_or_city',
+				'interior_room',
+				'vehicle',
+				'object',
+				'abstract_pattern',
+				'text_or_graphic',
+				'other'
+			]
+		},
+		style: {
+			type: 'string',
+			enum: ['photograph', 'illustration', 'painting', 'render_3d', 'other']
+		},
+		setting: {
+			type: 'string',
+			enum: ['outdoor_nature', 'outdoor_urban', 'indoor', 'plain_background', 'none']
+		},
+		framing: { type: 'string', enum: ['close_up', 'medium', 'wide', 'top_down'] },
+		light: { type: 'string', enum: ['daylight', 'golden_hour', 'night', 'studio', 'not_applicable'] },
+		palette: { type: 'string', enum: ['warm', 'cool', 'neutral', 'vivid_mixed', 'black_and_white'] },
+		people_visible: { type: 'boolean' }
+	},
+	required: ['subject', 'style', 'setting', 'framing', 'light', 'palette', 'people_visible']
+};
+
+const SCHEMAS = { pizza: PIZZA_SCHEMA, general: GENERAL_SCHEMA };
 
 // --- env ------------------------------------------------------------------
 // Same manual .env read the pdf-pipeline uses, so there is no dotenv dependency.
@@ -77,9 +118,10 @@ function loadEnv() {
 
 // --- args -----------------------------------------------------------------
 function parseArgs(argv) {
-	const a = { n: 100, concurrency: 5, prompt: 'pizza', stage: 'all', force: false };
+	const a = { n: 100, concurrency: 5, prompt: 'pizza', stage: 'all', force: false, schema: '' };
 	for (const arg of argv) {
 		if (arg === '--force') a.force = true;
+		else if (arg.startsWith('--schema=')) a.schema = arg.slice(9);
 		else if (arg.startsWith('--n=')) a.n = Math.max(1, Number(arg.slice(4)));
 		else if (arg.startsWith('--concurrency=')) a.concurrency = Math.max(1, Number(arg.slice(14)));
 		else if (arg.startsWith('--prompt=')) a.prompt = arg.slice(9);
@@ -96,7 +138,7 @@ const slugify = (s) =>
 	s
 		.toLowerCase()
 		.replace(/[^a-z0-9]+/g, '-')
-		.replace(/^-+|-+$/g, '') || 'prompt';
+		.replace(/^-+|-+$/g, '') || 'no-prompt';
 
 // --- http -----------------------------------------------------------------
 // Retries the things worth retrying (rate limits, transient 5xx) and gives up
@@ -306,7 +348,7 @@ function report(dir, args) {
 
 	writeFileSync(
 		join(dir, 'results.json'),
-		JSON.stringify({ prompt: args.prompt, n, model: IMAGE_MODEL, counts, labels }, null, 2)
+		JSON.stringify({ prompt: args.prompt, n, model: IMAGE_MODEL, axes: AXES, counts, labels }, null, 2)
 	);
 	writeFileSync(join(dir, 'report.html'), html(args.prompt, n, counts, sorted));
 	console.log(`\nwrote ${join(dir, 'results.json')} and report.html\n`);
@@ -349,6 +391,15 @@ ${combos.slice(0, 8).map(([k, c]) => `<div><code>${String(c).padStart(3)}&times;
 // --- main -----------------------------------------------------------------
 loadEnv();
 const args = parseArgs(process.argv.slice(2));
+// Pizza prompts keep the pizza axes; anything else, and the empty prompt,
+// defaults to the general ones.
+const schemaName = args.schema || (/pizza/i.test(args.prompt) ? 'pizza' : 'general');
+const SCHEMA = SCHEMAS[schemaName];
+if (!SCHEMA) {
+	console.error(`unknown --schema=${schemaName} (pizza or general)`);
+	process.exit(1);
+}
+const AXES = Object.keys(SCHEMA.properties);
 const apiKey = process.env.GEMINI_API_KEY;
 if (!apiKey) {
 	console.error('GEMINI_API_KEY not set (checked .env).');

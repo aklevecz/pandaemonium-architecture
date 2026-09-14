@@ -14,21 +14,49 @@
 	// Each run lives in static/pizza/<slug>/, built by scripts/pizza-thumbs.sh.
 	const RUNS = [
 		{ slug: 'pizza', prompt: 'pizza' },
-		{ slug: 'a-slice-of-pizza', prompt: 'a slice of pizza' }
+		{ slug: 'a-slice-of-pizza', prompt: 'a slice of pizza' },
+		{ slug: 'no-prompt', prompt: '' }
 	];
 
-	// How many values each axis allows in scripts/pizza-distribution.mjs. The
+	// Every option each axis allows in scripts/pizza-distribution.mjs. The
 	// observed values undercount this, since the model never drew some of them.
-	const SCHEMA_SIZES: Record<string, number> = {
-		form: 4,
-		view: 4,
-		toppings: 6,
-		style: 4,
-		setting: 5,
-		crust: 5,
-		people_visible: 2,
-		slice_removed: 2
+	// Pizza runs use the first eight axes; other prompts use the general ones.
+	// Axes absent here are booleans.
+	const SCHEMA_OPTIONS: Record<string, string[]> = {
+		form: ['whole_pizza', 'single_slice', 'multiple_slices', 'other'],
+		view: ['top_down', 'three_quarter', 'side', 'macro_closeup'],
+		toppings: ['cheese_only', 'pepperoni', 'vegetable', 'mixed_meat', 'seafood', 'other'],
+		crust: ['thin', 'thick_pan', 'stuffed', 'neapolitan_charred', 'other'],
+		subject: [
+			'person',
+			'animal',
+			'food',
+			'plant_or_flower',
+			'landscape',
+			'building_or_city',
+			'interior_room',
+			'vehicle',
+			'object',
+			'abstract_pattern',
+			'text_or_graphic',
+			'other'
+		],
+		framing: ['close_up', 'medium', 'wide', 'top_down'],
+		light: ['daylight', 'golden_hour', 'night', 'studio', 'not_applicable'],
+		palette: ['warm', 'cool', 'neutral', 'vivid_mixed', 'black_and_white']
 	};
+	// style and setting differ between the two schemas.
+	const PIZZA_OPTIONS: Record<string, string[]> = {
+		style: ['photograph', 'illustration', 'render_3d', 'other'],
+		setting: ['wooden_board', 'plate', 'table', 'isolated_background', 'other']
+	};
+	const GENERAL_OPTIONS: Record<string, string[]> = {
+		style: ['photograph', 'illustration', 'painting', 'render_3d', 'other'],
+		setting: ['outdoor_nature', 'outdoor_urban', 'indoor', 'plain_background', 'none']
+	};
+	const optionsFor = (axis: string, pizza: boolean) =>
+		(pizza ? PIZZA_OPTIONS : GENERAL_OPTIONS)[axis] ?? SCHEMA_OPTIONS[axis] ?? ['false', 'true'];
+	const promptLabel = (p: string) => (p ? `“${p}”` : 'no prompt');
 
 	const run = $derived(
 		RUNS.find((r) => r.slug === page.url.searchParams.get('prompt')) ?? RUNS[0]
@@ -137,22 +165,25 @@
 
 	const activeCount = $derived(Object.values(filters).reduce((a, v) => a + v.length, 0));
 
-	// The toppings chart. Every option the schema offers gets a column, in schema
-	// order, so an option the model never drew shows as an empty column.
-	const TOPPINGS = ['cheese_only', 'pepperoni', 'vegetable', 'mixed_meat', 'seafood', 'other'];
-	const RANDOM_SHARE = 1 / TOPPINGS.length;
-	// Counted with every filter except toppings, so clicking a column highlights
-	// it instead of emptying the others.
+	// The main chart: toppings for pizza runs, subject for everything else.
+	// Every option the schema offers gets a column, in schema order, so an option
+	// the model never drew shows as an empty column.
+	const isPizza = $derived(axes.includes('toppings'));
+	const chartAxis = $derived(isPizza ? 'toppings' : 'subject');
+	const TOPPINGS = $derived(optionsFor(chartAxis, isPizza));
+	const RANDOM_SHARE = $derived(1 / TOPPINGS.length);
+	// Counted with every filter except the chart's own axis, so clicking a column
+	// highlights it instead of emptying the others.
 	const toppingBase = $derived(
 		items.filter((it) =>
 			Object.entries(filters).every(
-				([axis, vals]) => axis === 'toppings' || vals.length === 0 || vals.includes(String(it[axis]))
+				([axis, vals]) => axis === chartAxis || vals.length === 0 || vals.includes(String(it[axis]))
 			)
 		)
 	);
 	const toppingShares = $derived(
 		TOPPINGS.map((t) => {
-			const n = toppingBase.filter((it) => String(it.toppings) === t).length;
+			const n = toppingBase.filter((it) => String(it[chartAxis]) === t).length;
 			return { t, n, share: toppingBase.length ? n / toppingBase.length : 0 };
 		})
 	);
@@ -162,7 +193,7 @@
 	const toppingBits = $derived(
 		toppingShares.reduce((h, s) => (s.share > 0 ? h - s.share * Math.log2(s.share) : h), 0)
 	);
-	const schemaSpace = $derived(axes.reduce((a, ax) => a * (SCHEMA_SIZES[ax] ?? 1), 1));
+	const schemaSpace = $derived(axes.reduce((a, ax) => a * optionsFor(ax, isPizza).length, 1));
 	const pct = (p: number) => `${(p * 100).toFixed(p > 0 && p < 0.01 ? 1 : 0)}%`;
 
 	function toggle(axis: string, value: string) {
@@ -222,7 +253,7 @@
 					class="border px-3 py-1.5 font-serif text-base transition-colors {on
 						? 'border-white text-bright'
 						: 'border-rule text-muted hover:border-white hover:text-white'}"
-					>&ldquo;{r.prompt}&rdquo;</button
+					>{promptLabel(r.prompt)}</button
 				>
 			{/each}
 		</div>
@@ -264,13 +295,16 @@
 			</span>
 		</div>
 
-		<!-- Toppings, against picking one of the six options at random. -->
+		<!-- Toppings (or subject), against picking one of the options at random. -->
 		<section class="dist mt-8 border border-rule">
 			<div class="border-b border-rule px-4 py-3">
-				<h2 class="font-mono text-[10px] tracking-widest text-muted uppercase">toppings</h2>
+				<h2 class="font-mono text-[10px] tracking-widest text-muted uppercase">{fmt(chartAxis)}</h2>
 			</div>
 			<div class="px-4 pt-6">
-				<div class="grid h-56 grid-cols-6 items-end gap-2">
+				<div
+					class="grid h-56 items-end gap-2"
+					style="grid-template-columns:repeat({TOPPINGS.length},minmax(0,1fr))"
+				>
 					{#each toppingShares as s}
 						{@const on = (filters.toppings ?? []).includes(s.t)}
 						<button
@@ -282,7 +316,9 @@
 							<span
 								class="mb-1 text-center font-mono text-[11px] tabular-nums {s.n
 									? 'text-light'
-									: 'text-muted/40'}">{pct(s.share)} <span class="text-muted">({s.n})</span></span
+									: 'text-muted/40'}"
+								>{pct(s.share)}{#if TOPPINGS.length <= 6}
+									<span class="text-muted">({s.n})</span>{/if}</span
 							>
 							<span
 								class="block w-full transition-all {on
@@ -297,7 +333,10 @@
 						</button>
 					{/each}
 				</div>
-				<div class="mt-1 grid grid-cols-6 gap-2 border-t border-rule pt-1 pb-3">
+				<div
+					class="mt-1 grid gap-2 border-t border-rule pt-1 pb-3"
+					style="grid-template-columns:repeat({TOPPINGS.length},minmax(0,1fr))"
+				>
 					{#each toppingShares as s}
 						<span
 							class="text-center font-mono text-[11px] {s.n ? 'text-light' : 'text-muted/40'}"
@@ -312,7 +351,9 @@
 				<span><span class="mr-1.5 inline-block h-2.5 w-3 bg-muted align-middle"></span>these images</span>
 				<span
 					><span class="baseline mr-1.5 inline-block w-4 border-t-2 border-dashed align-middle"
-					></span>if a topping were picked at random ({pct(RANDOM_SHARE)} each)</span
+					></span>if one {fmt(chartAxis) === 'toppings' ? 'topping' : fmt(chartAxis)} were picked at random ({pct(
+						RANDOM_SHARE
+					)} each)</span
 				>
 				<span class="ml-auto tabular-nums"
 					>entropy <span class="text-bright">{toppingBits.toFixed(2)}</span> of {Math.log2(
@@ -322,8 +363,8 @@
 			</div>
 			{#if toppingTop}
 				<p class="border-t border-rule px-4 py-3 font-serif text-sm leading-relaxed text-muted">
-					{pct(toppingTop.share)} of these images are {fmt(toppingTop.t)}. Picked at random from the
-					six options, each topping would come up about {pct(RANDOM_SHARE)} of the time.
+					{pct(toppingTop.share)} of these images are labeled {fmt(toppingTop.t)}. Picked at random from the
+					{TOPPINGS.length} options, each would come up about {pct(RANDOM_SHARE)} of the time.
 					{#if toppingNever.length}
 						Never drawn: {toppingNever.map(fmt).join(', ')}.
 					{/if}

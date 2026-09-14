@@ -73,7 +73,8 @@ json.dump({
     'prompt': meta.get('prompt'),
     'model': meta.get('model'),
     'n': len(rows),
-    'axes': ['form', 'view', 'toppings', 'style', 'setting', 'crust', 'people_visible', 'slice_removed'],
+    # Older runs did not record their axes; they were all the pizza schema.
+    'axes': meta.get('axes') or ['form', 'view', 'toppings', 'style', 'setting', 'crust', 'people_visible', 'slice_removed'],
     'measures': ['brightness'],
     'items': rows,
 }, open(os.path.join(out, 'labels.json'), 'w'), separators=(',', ':'))
