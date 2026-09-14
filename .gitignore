@@ -53,3 +53,7 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Prompt-distribution demo assets (regenerate with scripts/pizza-distribution.mjs
+# then scripts/pizza-thumbs.sh; 1000 thumbnails + labels, not worth versioning)
+static/pizza/
