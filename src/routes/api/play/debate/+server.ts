@@ -24,12 +24,12 @@ interface Turn {
 	content: string;
 }
 
-const MODEL = 'claude-sonnet-5';
+const MODEL = 'claude-opus-5';
 // 4096 ≈ 3000 words. A graduate-pitched 2-3 exchange runs ~600-1200 words;
 // the headroom is for when Claude wants to quote from the corpus excerpts
 // or develop a point at length. Cap is high enough that "cut off mid-
 // paragraph" doesn't happen for normal turns.
-const MAX_TOKENS = 4096;
+const MAX_TOKENS = 16000;
 
 
 function personContextBlock(p: Person, n = 4): string {

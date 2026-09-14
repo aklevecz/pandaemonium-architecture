@@ -13,11 +13,11 @@ interface Summary {
 }
 interface Turn { role: 'user' | 'assistant'; content: string }
 
-const MODEL = 'claude-sonnet-5';
+const MODEL = 'claude-opus-5';
 // Scenes are 80-160 words + a few choices, so 900 was usually enough — but
 // any sentence the model wants to develop past that gets clipped. 2048
 // gives comfortable headroom without inviting bloat.
-const MAX_TOKENS = 2048;
+const MAX_TOKENS = 12000;
 
 
 export const POST: RequestHandler = async (event) => {

@@ -67,7 +67,7 @@ export const GET: RequestHandler = async (event) => {
 //   {"type":"done"}                         (last on success)
 //   {"type":"error","message":"..."}        (instead of done on failure)
 // Whatever text was streamed before an error/disconnect is still persisted.
-const MODEL = 'claude-sonnet-5';
+const MODEL = 'claude-opus-5';
 
 export const POST: RequestHandler = async (event) => {
 	const { user, db } = requireAuthAndDb(event);
@@ -89,17 +89,17 @@ export const POST: RequestHandler = async (event) => {
 		length === 'brief' || length === 'deep' ? length : 'normal';
 	const lengthSpec: Record<Length, { maxTokens: number; instruction: string }> = {
 		brief: {
-			maxTokens: 320,
+			maxTokens: 4000,
 			instruction:
 				'\n\nLength: keep it tight — one or two short paragraphs answering the question and nothing more. The student wants a quick gloss, not a worked-through analysis.'
 		},
 		normal: {
-			maxTokens: 2048,
+			maxTokens: 12000,
 			instruction:
 				'\n\nLength: take whatever space the question deserves at a graduate-seminar register. Engage the specific terms and stakes of the passage; cite the reading where it sharpens the point.'
 		},
 		deep: {
-			maxTokens: 4096,
+			maxTokens: 20000,
 			instruction:
 				'\n\nLength: give an expansive treatment. Engage the passage at length, work through implications, contrast with other thinkers in the corpus when truly relevant (not as padding), and surface follow-up questions a careful reader might ask.'
 		}
