@@ -40,15 +40,12 @@
 	// axes they are AND'ed, which is the behaviour people expect from facets.
 	let filters = $state<Record<string, string[]>>({});
 	let lightbox = $state<Item | null>(null);
-	// A bar in the distance chart, clicked to show only images that far out.
-	let distPick = $state<number | null>(null);
 
 	const cache = new Map<string, Data>();
 
 	$effect(() => {
 		const slug = run.slug;
 		filters = {};
-		distPick = null;
 		lightbox = null;
 		error = '';
 		const hit = cache.get(slug);
@@ -82,36 +79,12 @@
 	const items = $derived(data?.items ?? []);
 	const axes = $derived(data?.axes ?? []);
 
-	const comboKey = (it: Item) => axes.map((a) => String(it[a])).join(' · ');
-
-	// The commonest exact combination across the whole run. Fixed per run, so
-	// filtering does not move the reference point the distances are measured from.
-	const modal = $derived.by(() => {
-		const m = new Map<string, number>();
-		for (const it of items) m.set(comboKey(it), (m.get(comboKey(it)) ?? 0) + 1);
-		let best = '';
-		let bestCount = -1;
-		for (const [k, c] of m)
-			if (c > bestCount) {
-				best = k;
-				bestCount = c;
-			}
-		return best ? best.split(' · ') : [];
-	});
-
-	// On how many of the eight axes an image differs from the commonest pizza.
-	const distance = (it: Item) =>
-		axes.reduce((d, a, i) => d + (String(it[a]) === modal[i] ? 0 : 1), 0);
-
-	const faceted = $derived(
+	const filtered = $derived(
 		items.filter((it) =>
 			Object.entries(filters).every(
 				([axis, vals]) => vals.length === 0 || vals.includes(String(it[axis]))
 			)
 		)
-	);
-	const filtered = $derived(
-		distPick === null ? faceted : faceted.filter((it) => distance(it) === distPick)
 	);
 
 	// Bars reflect the current selection, so filtering visibly collapses the
@@ -162,37 +135,33 @@
 		return total;
 	});
 
-	const activeCount = $derived(
-		Object.values(filters).reduce((a, v) => a + v.length, 0) + (distPick === null ? 0 : 1)
+	const activeCount = $derived(Object.values(filters).reduce((a, v) => a + v.length, 0));
+
+	// The toppings chart. Every option the schema offers gets a column, in schema
+	// order, so an option the model never drew shows as an empty column.
+	const TOPPINGS = ['cheese_only', 'pepperoni', 'vegetable', 'mixed_meat', 'seafood', 'other'];
+	const RANDOM_SHARE = 1 / TOPPINGS.length;
+	// Counted with every filter except toppings, so clicking a column highlights
+	// it instead of emptying the others.
+	const toppingBase = $derived(
+		items.filter((it) =>
+			Object.entries(filters).every(
+				([axis, vals]) => axis === 'toppings' || vals.length === 0 || vals.includes(String(it[axis]))
+			)
+		)
 	);
-
-	// Share of images at each distance from the commonest pizza, 0 to 8 axes.
-	// Counted over the faceted set, so clicking a bar does not empty the others.
-	const distShares = $derived.by(() => {
-		const c = Array<number>(axes.length + 1).fill(0);
-		for (const it of faceted) c[distance(it)]++;
-		return c.map((n) => (faceted.length ? n / faceted.length : 0));
-	});
-
-	// The same chart if every category were picked at random from the schema.
-	// Each axis independently differs from the modal value with probability
-	// 1 - 1/k, so the total follows a Poisson binomial, which is bell-shaped.
-	const baseline = $derived.by(() => {
-		let dist = [1];
-		for (const a of axes) {
-			const q = 1 - 1 / (SCHEMA_SIZES[a] ?? 1);
-			const next = Array<number>(dist.length + 1).fill(0);
-			dist.forEach((p, i) => {
-				next[i] += p * (1 - q);
-				next[i + 1] += p * q;
-			});
-			dist = next;
-		}
-		return dist;
-	});
-	const distMax = $derived(Math.max(...distShares, ...baseline, 0.01));
-	const baselineMean = $derived(baseline.reduce((a, p, i) => a + p * i, 0));
-	const imageMean = $derived(distShares.reduce((a, p, i) => a + p * i, 0));
+	const toppingShares = $derived(
+		TOPPINGS.map((t) => {
+			const n = toppingBase.filter((it) => String(it.toppings) === t).length;
+			return { t, n, share: toppingBase.length ? n / toppingBase.length : 0 };
+		})
+	);
+	const toppingMax = $derived(Math.max(...toppingShares.map((s) => s.share), RANDOM_SHARE));
+	const toppingTop = $derived([...toppingShares].sort((a, b) => b.n - a.n)[0]);
+	const toppingNever = $derived(toppingShares.filter((s) => s.n === 0).map((s) => s.t));
+	const toppingBits = $derived(
+		toppingShares.reduce((h, s) => (s.share > 0 ? h - s.share * Math.log2(s.share) : h), 0)
+	);
 	const schemaSpace = $derived(axes.reduce((a, ax) => a * (SCHEMA_SIZES[ax] ?? 1), 1));
 	const pct = (p: number) => `${(p * 100).toFixed(p > 0 && p < 0.01 ? 1 : 0)}%`;
 
@@ -205,7 +174,6 @@
 	}
 	function reset() {
 		filters = {};
-		distPick = null;
 	}
 	function showModal() {
 		// Jump straight to the single commonest combination.
@@ -214,7 +182,6 @@
 		const next: Record<string, string[]> = {};
 		axes.forEach((a, i) => (next[a] = [values[i]]));
 		filters = next;
-		distPick = null;
 	}
 
 	const backHref = $derived.by(() => {
@@ -297,52 +264,47 @@
 			</span>
 		</div>
 
-		<!-- Distance from the commonest pizza, against picking categories at random. -->
+		<!-- Toppings, against picking one of the six options at random. -->
 		<section class="dist mt-8 border border-rule">
 			<div class="border-b border-rule px-4 py-3">
-				<h2 class="font-mono text-[10px] tracking-widest text-muted uppercase">
-					how many categories each image changes from the most common pizza
-				</h2>
-				<p class="mt-1 font-mono text-[11px] text-light">{modal.map(fmt).join(' · ')}</p>
+				<h2 class="font-mono text-[10px] tracking-widest text-muted uppercase">toppings</h2>
 			</div>
 			<div class="px-4 pt-6">
-				<div class="grid h-52 grid-cols-9 items-end gap-1.5">
-					{#each distShares as share, i}
-						{@const on = distPick === i}
+				<div class="grid h-56 grid-cols-6 items-end gap-2">
+					{#each toppingShares as s}
+						{@const on = (filters.toppings ?? []).includes(s.t)}
 						<button
-							onclick={() => (distPick = on ? null : i)}
+							onclick={() => toggle('toppings', s.t)}
 							aria-pressed={on}
-							aria-label="{i} categories changed: {pct(share)} of images, {pct(
-								baseline[i]
-							)} at random"
+							aria-label="{fmt(s.t)}: {s.n} {s.n === 1 ? 'image' : 'images'}, {pct(s.share)}"
 							class="group relative flex h-full flex-col justify-end"
 						>
 							<span
-								class="mb-1 text-center font-mono text-[10px] tabular-nums {share
+								class="mb-1 text-center font-mono text-[11px] tabular-nums {s.n
 									? 'text-light'
-									: 'text-muted/40'}">{pct(share)}</span
+									: 'text-muted/40'}">{pct(s.share)} <span class="text-muted">({s.n})</span></span
 							>
 							<span
 								class="block w-full transition-all {on
 									? 'bg-white'
 									: 'bg-muted group-hover:bg-light'}"
-								style="height:{(share / distMax) * 85}%"
+								style="height:{(s.share / toppingMax) * 85}%"
 							></span>
 							<span
 								class="baseline pointer-events-none absolute right-0 left-0 border-t-2 border-dashed"
-								style="bottom:{(baseline[i] / distMax) * 85}%"
+								style="bottom:{(RANDOM_SHARE / toppingMax) * 85}%"
 							></span>
 						</button>
 					{/each}
 				</div>
-				<div class="mt-1 grid grid-cols-9 gap-1.5 border-t border-rule pt-1">
-					{#each distShares as _, i}
-						<span class="text-center font-mono text-[11px] text-muted tabular-nums">{i}</span>
+				<div class="mt-1 grid grid-cols-6 gap-2 border-t border-rule pt-1 pb-3">
+					{#each toppingShares as s}
+						<span
+							class="text-center font-mono text-[11px] {s.n ? 'text-light' : 'text-muted/40'}"
+							>{fmt(s.t)}</span
+						>
 					{/each}
 				</div>
-				<p class="pb-3 text-center font-mono text-[10px] tracking-widest text-muted uppercase">
-					categories changed
-				</p>
 			</div>
 			<div
 				class="flex flex-wrap gap-x-6 gap-y-1 border-t border-rule px-4 py-3 font-mono text-[11px] text-muted"
@@ -350,18 +312,24 @@
 				<span><span class="mr-1.5 inline-block h-2.5 w-3 bg-muted align-middle"></span>these images</span>
 				<span
 					><span class="baseline mr-1.5 inline-block w-4 border-t-2 border-dashed align-middle"
-					></span>if every category were picked at random</span
+					></span>if a topping were picked at random ({pct(RANDOM_SHARE)} each)</span
 				>
 				<span class="ml-auto tabular-nums"
-					>average changed: <span class="text-bright">{imageMean.toFixed(2)}</span> here,
-					<span class="text-bright">{baselineMean.toFixed(2)}</span> at random</span
+					>entropy <span class="text-bright">{toppingBits.toFixed(2)}</span> of {Math.log2(
+						TOPPINGS.length
+					).toFixed(2)} bits</span
 				>
 			</div>
-			<p class="border-t border-rule px-4 py-3 font-serif text-sm leading-relaxed text-muted">
-				{pct(distShares[0])} of these images are the most common pizza exactly. If the model picked
-				each category at random from the schema, that would happen once in {schemaSpace.toLocaleString()}
-				draws, and most images would change five to seven of the eight. Click a bar to see those images.
-			</p>
+			{#if toppingTop}
+				<p class="border-t border-rule px-4 py-3 font-serif text-sm leading-relaxed text-muted">
+					{pct(toppingTop.share)} of these images are {fmt(toppingTop.t)}. Picked at random from the
+					six options, each topping would come up about {pct(RANDOM_SHARE)} of the time.
+					{#if toppingNever.length}
+						Never drawn: {toppingNever.map(fmt).join(', ')}.
+					{/if}
+					Click a column to see those images.
+				</p>
+			{/if}
 		</section>
 
 		<div class="mt-8 grid gap-8 lg:grid-cols-[22rem_1fr]">
