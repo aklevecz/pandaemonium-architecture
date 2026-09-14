@@ -196,16 +196,21 @@
 			)
 		)
 	);
-	// Columns sorted by how often each option appears across the whole run, most
-	// common first. Sorting by the whole run rather than the filtered view keeps
-	// columns from reshuffling as you filter. Options never drawn sit at the end.
+	// Columns ranked by how often each option appears across the whole run, then
+	// laid out as a bell: the most common in the middle, the next ones alternating
+	// right and left, options never drawn at the tails. The left-right order is an
+	// arrangement, not a number line. Ranking by the whole run rather than the
+	// filtered view keeps columns from reshuffling as you filter.
 	const runOrder = $derived.by(() => {
 		const total = new Map(TOPPINGS.map((t) => [t, 0]));
 		for (const it of items) {
 			const v = String(it[chartAxis]);
 			if (total.has(v)) total.set(v, (total.get(v) ?? 0) + 1);
 		}
-		return [...TOPPINGS].sort((a, b) => (total.get(b) ?? 0) - (total.get(a) ?? 0));
+		const ranked = [...TOPPINGS].sort((a, b) => (total.get(b) ?? 0) - (total.get(a) ?? 0));
+		const bell: string[] = [];
+		ranked.forEach((t, r) => (r % 2 === 0 ? bell.push(t) : bell.unshift(t)));
+		return bell;
 	});
 	const toppingShares = $derived(
 		runOrder.map((t) => {
@@ -213,6 +218,34 @@
 			return { t, n, share: toppingBase.length ? n / toppingBase.length : 0 };
 		})
 	);
+	// A smooth curve through the bar tops, in the chart's own pixels. Bars are
+	// drawn at up to 85% of the column height, from the bottom.
+	let chartW = $state(0);
+	let chartH = $state(0);
+	const GAP = 8; // gap-2
+	const curvePath = $derived.by(() => {
+		const n = toppingShares.length;
+		if (!n || !chartW || !chartH) return '';
+		const colW = (chartW - GAP * (n - 1)) / n;
+		const pts: [number, number][] = [[0, chartH]];
+		toppingShares.forEach((s, i) =>
+			pts.push([i * (colW + GAP) + colW / 2, chartH - (s.share / toppingMax) * 0.85 * chartH])
+		);
+		pts.push([chartW, chartH]);
+		// Catmull-Rom through the points, as cubic Beziers, clamped to the chart.
+		const clampY = (y: number) => Math.min(chartH, Math.max(0, y));
+		let d = `M${pts[0][0]},${pts[0][1]}`;
+		for (let i = 0; i < pts.length - 1; i++) {
+			const p0 = pts[Math.max(0, i - 1)];
+			const p1 = pts[i];
+			const p2 = pts[i + 1];
+			const p3 = pts[Math.min(pts.length - 1, i + 2)];
+			const c1 = [p1[0] + (p2[0] - p0[0]) / 6, clampY(p1[1] + (p2[1] - p0[1]) / 6)];
+			const c2 = [p2[0] - (p3[0] - p1[0]) / 6, clampY(p2[1] - (p3[1] - p1[1]) / 6)];
+			d += ` C${c1[0].toFixed(1)},${c1[1].toFixed(1)} ${c2[0].toFixed(1)},${c2[1].toFixed(1)} ${p2[0].toFixed(1)},${p2[1].toFixed(1)}`;
+		}
+		return d;
+	});
 	const toppingMax = $derived(Math.max(...toppingShares.map((s) => s.share), RANDOM_SHARE));
 	const toppingTop = $derived([...toppingShares].sort((a, b) => b.n - a.n)[0]);
 	const toppingNever = $derived(toppingShares.filter((s) => s.n === 0).map((s) => s.t));
@@ -344,6 +377,7 @@
 				<h2 class="font-mono text-[10px] tracking-widest text-muted uppercase">{fmt(chartAxis)}</h2>
 			</div>
 			<div class="px-4 pt-6">
+				<div class="relative" bind:clientWidth={chartW} bind:clientHeight={chartH}>
 				<div
 					class="grid h-56 items-end gap-2"
 					style="grid-template-columns:repeat({TOPPINGS.length},minmax(0,1fr))"
@@ -375,6 +409,18 @@
 							></span>
 						</button>
 					{/each}
+				</div>
+				{#if curvePath}
+					<svg
+						class="curve pointer-events-none absolute inset-0 overflow-visible"
+						width={chartW}
+						height={chartH}
+						viewBox="0 0 {chartW} {chartH}"
+						aria-hidden="true"
+					>
+						<path d={curvePath} fill="none" stroke-width="2.5" />
+					</svg>
+				{/if}
 				</div>
 				<div
 					class="mt-1 grid gap-2 border-t border-rule pt-1 pb-3"
@@ -411,7 +457,8 @@
 					{#if toppingNever.length}
 						Never drawn: {toppingNever.map(fmt).join(', ')}.
 					{/if}
-					Click a column to see those images.
+					The most common option sits in the middle and the rest alternate outward, so the shape reads
+					as a bell; left and right mean nothing. Click a column to see those images.
 				</p>
 			{/if}
 		</section>
@@ -579,5 +626,12 @@
 	}
 	:global(html:not(.dark)) .dist .baseline {
 		border-color: #795004;
+	}
+	/* The curve through the bar tops, in the /sampling page's second colour. */
+	.dist .curve path {
+		stroke: #8cc8c1;
+	}
+	:global(html:not(.dark)) .dist .curve path {
+		stroke: #24665f;
 	}
 </style>
