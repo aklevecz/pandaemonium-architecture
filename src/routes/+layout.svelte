@@ -165,6 +165,7 @@
 		<div class="mx-auto max-w-4xl">
 			<p class="text-xs text-muted">
 				{courseInfo.title} &mdash; {courseInfo.code} &mdash; {courseInfo.semester}
+				&middot; <a href="/qr" class="underline transition-colors hover:text-white">QR code</a>
 			</p>
 		</div>
 	</footer>
