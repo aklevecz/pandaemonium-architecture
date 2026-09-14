@@ -172,21 +172,47 @@ Page: <https://atek639.calarts.app/pizza>. Scripts: `scripts/pizza-distribution.
 - **Prior versus prompt:** One in five "slice" images was still a whole pizza.
 - **Bias measured from outside (2e):** Counting samples finds the defaults without looking inside the model.
 
-**No prompt at all.** The same image model was sent an empty prompt 1000 times (993 returned an image). Each image was labeled with general categories, since the pizza ones do not fit. Results are under "no prompt" on the page.
+**No prompt at all.** The same image model was sent an empty prompt 1000 times (993 returned an image). Results are under "no prompt" on the page.
+
+**First pass.** A general "subject" label put 93% of images under "person" and 98% under "photograph." That was true but said nothing about what the people were doing.
+
+**Second pass, by scene.** Eighty sample images were described in a sentence each and grouped into 15 scene types. All 993 were then relabeled by scene, group size, ages, mood, setting, region (guessed from visible cues only) and style.
+
+| Scene | Share |
+|---|---|
+| Sport or fitness | 17% |
+| Park or garden | 13% |
+| City street | 9% |
+| Home or family | 8% |
+| Festival or performance | 8% |
+| Study or campus | 7% |
+| Other | 7% |
+| Hiking or mountains | 6% |
+| Craft or workshop | 6% |
+| Market or shop | 5% |
+| Café, bar or restaurant | 5% |
+| Museum, landmark or travel | 4% |
+| Farm or rural work | 2% |
+| Office work | 2% |
+| Nature with no people | 1% |
+
+The activities are varied: scene entropy is 3.65 of a possible 3.91 bits. The tone is not.
 
 | | Result | At random |
 |---|---|---|
-| Subject: person | 93% (927) | 1 in 12 (8%) |
-| Photograph | 98% | 1 in 5 (20%) |
-| People visible | 98% | 50% |
-| Daylight | 76% | 1 in 5 (20%) |
-| Warm palette | 53% | 1 in 5 (20%) |
-| Close-up framing | 3 images | 1 in 4 (25%) |
-| Distinct label combinations | 109 | |
+| Joyful mood | 72% | 20% |
+| Sad or tense | 12 images (1%) | 20% |
+| Photograph | 98% | 20% |
+| People in the image | 97% | |
+| Children as the main people | 3% | 1 in 6 |
+| North America or Europe, where region was readable | 75% (547 of 733) | 2 of 9 |
+| Distinct label combinations | 622 | |
 
-The single most common result (123 images) was a daylight photograph of a person indoors, warm colors, medium framing. The first three images were a woman in a rainy New York bodega, four students at UC Berkeley, and older friends hugging at an autumn party.
+The first three images were a woman in a rainy New York bodega, four students at UC Berkeley, and older friends hugging at an autumn party. The most common exact combination (19 images) was a small group of joyful young adults on a European city street.
 
-Asked for nothing in particular, the model draws a stock photograph of people. This is the clearest case in the lab of the deck's line "the statistics of the training set fill in the result," and of 2e's claim that what these models make is the training data's default, not a neutral nothing. Setting is the one axis that stays spread out (outdoor nature 37%, outdoor urban 35%, indoor 27%).
+Asked for nothing in particular, the model does not draw one thing. It draws a genre: happy people doing wholesome activities, photographed mostly in daylight (76% in the first pass), mostly in North America and Europe. That is stock photography. This is the lab's clearest case of the deck's line "the statistics of the training set fill in the result," and of 2e's point that what looks like a neutral default carries a particular point of view.
+
+**Caveat:** The region label is a model's guess from visible cues, and 26% of images were marked unclear. Treat it as a rough signal, not a census.
 
 **Caveats to say aloud:**
 

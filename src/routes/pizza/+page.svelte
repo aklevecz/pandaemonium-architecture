@@ -27,23 +27,38 @@
 		view: ['top_down', 'three_quarter', 'side', 'macro_closeup'],
 		toppings: ['cheese_only', 'pepperoni', 'vegetable', 'mixed_meat', 'seafood', 'other'],
 		crust: ['thin', 'thick_pan', 'stuffed', 'neapolitan_charred', 'other'],
-		subject: [
-			'person',
-			'animal',
-			'food',
-			'plant_or_flower',
-			'landscape',
-			'building_or_city',
-			'interior_room',
-			'vehicle',
-			'object',
-			'abstract_pattern',
-			'text_or_graphic',
+		scene: [
+			'study_or_campus',
+			'office_work',
+			'craft_or_workshop',
+			'market_or_shop',
+			'cafe_bar_or_restaurant',
+			'city_street',
+			'park_or_garden',
+			'sport_or_fitness',
+			'hiking_or_mountains',
+			'festival_or_performance',
+			'home_or_family',
+			'farm_or_rural_work',
+			'museum_landmark_or_travel',
+			'nature_without_people',
 			'other'
 		],
-		framing: ['close_up', 'medium', 'wide', 'top_down'],
-		light: ['daylight', 'golden_hour', 'night', 'studio', 'not_applicable'],
-		palette: ['warm', 'cool', 'neutral', 'vivid_mixed', 'black_and_white']
+		group_size: ['no_people', 'one', 'two', 'small_group_3_to_6', 'crowd'],
+		ages: ['no_people', 'children', 'young_adults', 'adults', 'older_adults', 'mixed_ages'],
+		mood: ['joyful', 'calm', 'focused', 'sad_or_tense', 'neutral'],
+		region: [
+			'north_america',
+			'latin_america',
+			'europe',
+			'africa',
+			'middle_east',
+			'south_asia',
+			'east_asia',
+			'southeast_asia',
+			'oceania',
+			'unclear'
+		]
 	};
 	// style and setting differ between the two schemas.
 	const PIZZA_OPTIONS: Record<string, string[]> = {
@@ -52,7 +67,7 @@
 	};
 	const GENERAL_OPTIONS: Record<string, string[]> = {
 		style: ['photograph', 'illustration', 'painting', 'render_3d', 'other'],
-		setting: ['outdoor_nature', 'outdoor_urban', 'indoor', 'plain_background', 'none']
+		setting: ['indoor', 'outdoor_urban', 'outdoor_nature']
 	};
 	const optionsFor = (axis: string, pizza: boolean) =>
 		(pizza ? PIZZA_OPTIONS : GENERAL_OPTIONS)[axis] ?? SCHEMA_OPTIONS[axis] ?? ['false', 'true'];
@@ -165,11 +180,11 @@
 
 	const activeCount = $derived(Object.values(filters).reduce((a, v) => a + v.length, 0));
 
-	// The main chart: toppings for pizza runs, subject for everything else.
+	// The main chart: toppings for pizza runs, scene for everything else.
 	// Every option the schema offers gets a column, in schema order, so an option
 	// the model never drew shows as an empty column.
 	const isPizza = $derived(axes.includes('toppings'));
-	const chartAxis = $derived(isPizza ? 'toppings' : 'subject');
+	const chartAxis = $derived(isPizza ? 'toppings' : 'scene');
 	const TOPPINGS = $derived(optionsFor(chartAxis, isPizza));
 	const RANDOM_SHARE = $derived(1 / TOPPINGS.length);
 	// Counted with every filter except the chart's own axis, so clicking a column
@@ -203,6 +218,15 @@
 			[axis]: cur.includes(value) ? cur.filter((v) => v !== value) : [...cur, value]
 		};
 	}
+	// Flip through the images currently in view, wrapping at either end, so a
+	// filter doubles as a slideshow of just those images.
+	const lightboxIndex = $derived(lightbox ? filtered.findIndex((it) => it.id === lightbox?.id) : -1);
+	function step(d: number) {
+		if (!filtered.length) return;
+		const i = lightboxIndex < 0 ? 0 : lightboxIndex;
+		lightbox = filtered[(i + d + filtered.length) % filtered.length];
+	}
+
 	function reset() {
 		filters = {};
 	}
@@ -229,7 +253,15 @@
 
 <svelte:window
 	onkeydown={(e) => {
+		if (!lightbox) return;
 		if (e.key === 'Escape') lightbox = null;
+		else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+			e.preventDefault();
+			step(1);
+		} else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+			e.preventDefault();
+			step(-1);
+		}
 	}}
 />
 
@@ -475,12 +507,37 @@
 </div>
 
 {#if lightbox}
-	<button
-		class="fixed inset-0 z-50 flex cursor-zoom-out items-center justify-center bg-black/95 p-6"
-		onclick={() => (lightbox = null)}
-		aria-label="Close"
+	{@const neighbours = filtered.length > 1
+		? [
+				filtered[(lightboxIndex + 1) % filtered.length],
+				filtered[(lightboxIndex - 1 + filtered.length) % filtered.length]
+			]
+		: []}
+	<div
+		class="fixed inset-0 z-50 flex items-center justify-center bg-black/95 p-6"
+		role="dialog"
+		aria-modal="true"
+		aria-label="Image {lightboxIndex + 1} of {filtered.length}"
 	>
-		<div class="flex max-h-full flex-col items-center gap-3">
+		<!-- The backdrop closes; the arrows sit above it. -->
+		<button
+			class="absolute inset-0 cursor-zoom-out"
+			onclick={() => (lightbox = null)}
+			aria-label="Close"
+		></button>
+		{#if filtered.length > 1}
+			<button
+				onclick={() => step(-1)}
+				class="absolute top-1/2 left-2 z-10 -translate-y-1/2 px-3 py-8 font-mono text-3xl text-muted transition-colors hover:text-white"
+				aria-label="Previous image">&larr;</button
+			>
+			<button
+				onclick={() => step(1)}
+				class="absolute top-1/2 right-2 z-10 -translate-y-1/2 px-3 py-8 font-mono text-3xl text-muted transition-colors hover:text-white"
+				aria-label="Next image">&rarr;</button
+			>
+		{/if}
+		<div class="pointer-events-none relative flex max-h-full flex-col items-center gap-3">
 			<img
 				src="/pizza/{run.slug}/large/{lightbox.id}.jpg"
 				alt=""
@@ -493,9 +550,15 @@
 					</span>
 				{/each}
 			</div>
-			<span class="font-mono text-[10px] text-muted">{lightbox.id} · click anywhere to close</span>
+			<span class="font-mono text-[10px] text-muted tabular-nums"
+				>{lightboxIndex + 1} / {filtered.length} · {lightbox.id} · ← → to flip · esc or click to close</span
+			>
 		</div>
-	</button>
+		<!-- Warm the cache for the next and previous image so flipping is instant. -->
+		{#each neighbours as n (n.id)}
+			<img src="/pizza/{run.slug}/large/{n.id}.jpg" alt="" class="hidden" />
+		{/each}
+	</div>
 {/if}
 
 <style>

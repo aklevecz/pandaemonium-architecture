@@ -67,41 +67,68 @@ const PIZZA_SCHEMA = {
 };
 
 // For prompts that are not about pizza, including the empty prompt, where the
-// question is what the model draws when asked for nothing in particular.
+// question is what the model draws when asked for nothing in particular. A
+// first pass with a "subject" axis put 93% of empty-prompt images under
+// "person", which says nothing, so these scene types come from captioning a
+// sample of 80 of those images and grouping what they showed.
 const GENERAL_SCHEMA = {
 	type: 'object',
 	properties: {
-		subject: {
+		scene: {
 			type: 'string',
+			description: 'The main activity or kind of place shown.',
 			enum: [
-				'person',
-				'animal',
-				'food',
-				'plant_or_flower',
-				'landscape',
-				'building_or_city',
-				'interior_room',
-				'vehicle',
-				'object',
-				'abstract_pattern',
-				'text_or_graphic',
+				'study_or_campus',
+				'office_work',
+				'craft_or_workshop',
+				'market_or_shop',
+				'cafe_bar_or_restaurant',
+				'city_street',
+				'park_or_garden',
+				'sport_or_fitness',
+				'hiking_or_mountains',
+				'festival_or_performance',
+				'home_or_family',
+				'farm_or_rural_work',
+				'museum_landmark_or_travel',
+				'nature_without_people',
 				'other'
+			]
+		},
+		group_size: {
+			type: 'string',
+			enum: ['no_people', 'one', 'two', 'small_group_3_to_6', 'crowd']
+		},
+		ages: {
+			type: 'string',
+			description: 'Ages of the main people in the scene.',
+			enum: ['no_people', 'children', 'young_adults', 'adults', 'older_adults', 'mixed_ages']
+		},
+		mood: { type: 'string', enum: ['joyful', 'calm', 'focused', 'sad_or_tense', 'neutral'] },
+		setting: { type: 'string', enum: ['indoor', 'outdoor_urban', 'outdoor_nature'] },
+		region: {
+			type: 'string',
+			description:
+				'Best guess from visible cues only (signage, architecture, landmarks, landscape). Use unclear when there are no clear cues.',
+			enum: [
+				'north_america',
+				'latin_america',
+				'europe',
+				'africa',
+				'middle_east',
+				'south_asia',
+				'east_asia',
+				'southeast_asia',
+				'oceania',
+				'unclear'
 			]
 		},
 		style: {
 			type: 'string',
 			enum: ['photograph', 'illustration', 'painting', 'render_3d', 'other']
-		},
-		setting: {
-			type: 'string',
-			enum: ['outdoor_nature', 'outdoor_urban', 'indoor', 'plain_background', 'none']
-		},
-		framing: { type: 'string', enum: ['close_up', 'medium', 'wide', 'top_down'] },
-		light: { type: 'string', enum: ['daylight', 'golden_hour', 'night', 'studio', 'not_applicable'] },
-		palette: { type: 'string', enum: ['warm', 'cool', 'neutral', 'vivid_mixed', 'black_and_white'] },
-		people_visible: { type: 'boolean' }
+		}
 	},
-	required: ['subject', 'style', 'setting', 'framing', 'light', 'palette', 'people_visible']
+	required: ['scene', 'group_size', 'ages', 'mood', 'setting', 'region', 'style']
 };
 
 const SCHEMAS = { pizza: PIZZA_SCHEMA, general: GENERAL_SCHEMA };
