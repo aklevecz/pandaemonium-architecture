@@ -7,7 +7,6 @@
 	// Every bar is a control. Click "pepperoni" and nine hundred of the thousand
 	// stay lit. Switching prompts shows how far one word moves the distribution.
 	import { goto } from '$app/navigation';
-	import GaussianPlot from '$lib/components/sampling/GaussianPlot.svelte';
 
 	type Item = Record<string, string | boolean> & { id: string };
 	type Data = { prompt: string; model: string; n: number; axes: string[]; items: Item[] };
@@ -17,6 +16,19 @@
 		{ slug: 'pizza', prompt: 'pizza' },
 		{ slug: 'a-slice-of-pizza', prompt: 'a slice of pizza' }
 	];
+
+	// How many values each axis allows in scripts/pizza-distribution.mjs. The
+	// observed values undercount this, since the model never drew some of them.
+	const SCHEMA_SIZES: Record<string, number> = {
+		form: 4,
+		view: 4,
+		toppings: 6,
+		style: 4,
+		setting: 5,
+		crust: 5,
+		people_visible: 2,
+		slice_removed: 2
+	};
 
 	const run = $derived(
 		RUNS.find((r) => r.slug === page.url.searchParams.get('prompt')) ?? RUNS[0]
@@ -28,12 +40,15 @@
 	// axes they are AND'ed, which is the behaviour people expect from facets.
 	let filters = $state<Record<string, string[]>>({});
 	let lightbox = $state<Item | null>(null);
+	// A bar in the distance chart, clicked to show only images that far out.
+	let distPick = $state<number | null>(null);
 
 	const cache = new Map<string, Data>();
 
 	$effect(() => {
 		const slug = run.slug;
 		filters = {};
+		distPick = null;
 		lightbox = null;
 		error = '';
 		const hit = cache.get(slug);
@@ -67,12 +82,36 @@
 	const items = $derived(data?.items ?? []);
 	const axes = $derived(data?.axes ?? []);
 
-	const filtered = $derived(
+	const comboKey = (it: Item) => axes.map((a) => String(it[a])).join(' · ');
+
+	// The commonest exact combination across the whole run. Fixed per run, so
+	// filtering does not move the reference point the distances are measured from.
+	const modal = $derived.by(() => {
+		const m = new Map<string, number>();
+		for (const it of items) m.set(comboKey(it), (m.get(comboKey(it)) ?? 0) + 1);
+		let best = '';
+		let bestCount = -1;
+		for (const [k, c] of m)
+			if (c > bestCount) {
+				best = k;
+				bestCount = c;
+			}
+		return best ? best.split(' · ') : [];
+	});
+
+	// On how many of the eight axes an image differs from the commonest pizza.
+	const distance = (it: Item) =>
+		axes.reduce((d, a, i) => d + (String(it[a]) === modal[i] ? 0 : 1), 0);
+
+	const faceted = $derived(
 		items.filter((it) =>
 			Object.entries(filters).every(
 				([axis, vals]) => vals.length === 0 || vals.includes(String(it[axis]))
 			)
 		)
+	);
+	const filtered = $derived(
+		distPick === null ? faceted : faceted.filter((it) => distance(it) === distPick)
 	);
 
 	// Bars reflect the current selection, so filtering visibly collapses the
@@ -123,47 +162,39 @@
 		return total;
 	});
 
-	const activeCount = $derived(Object.values(filters).reduce((a, v) => a + v.length, 0));
+	const activeCount = $derived(
+		Object.values(filters).reduce((a, v) => a + v.length, 0) + (distPick === null ? 0 : 1)
+	);
 
-	// The categorical axes collapse to almost one image. Brightness does not:
-	// it is a continuous measurement, and across a thousand draws it lands on a
-	// clean normal. Sampling never stopped happening; it stopped being visible
-	// at the level of categories. Filtering narrows the curve live, which is the
-	// part worth doing in front of the room.
-	const brightness = $derived(
-		filtered.map((it) => Number(it.brightness)).filter((v) => Number.isFinite(v))
-	);
-	const bMean = $derived(
-		brightness.length ? brightness.reduce((a, b) => a + b, 0) / brightness.length : 0
-	);
-	const bSd = $derived(
-		Math.max(
-			brightness.length > 1
-				? Math.sqrt(brightness.reduce((a, v) => a + (v - bMean) ** 2, 0) / brightness.length)
-				: 0,
-			0.0005 // a floor, so one sample cannot divide the curve by zero
-		)
-	);
-	// The classic normality check: what share actually falls inside 1, 2 and 3
-	// standard deviations, against what a Gaussian predicts.
-	const within = $derived(
-		[1, 2, 3].map((k) =>
-			brightness.length
-				? brightness.filter((v) => Math.abs(v - bMean) <= k * bSd).length / brightness.length
-				: 0
-		)
-	);
-	const NORMAL = [0.683, 0.954, 0.997];
-	// Axis range from the whole run, not the filtered view, so the curve visibly
-	// narrows when you filter instead of the axis rescaling to hide it.
-	const bRange = $derived.by(() => {
-		const all = items.map((it) => Number(it.brightness)).filter((v) => Number.isFinite(v));
-		if (!all.length) return [0.25, 0.55];
-		const lo = Math.min(...all);
-		const hi = Math.max(...all);
-		const pad = (hi - lo) * 0.08;
-		return [lo - pad, hi + pad];
+	// Share of images at each distance from the commonest pizza, 0 to 8 axes.
+	// Counted over the faceted set, so clicking a bar does not empty the others.
+	const distShares = $derived.by(() => {
+		const c = Array<number>(axes.length + 1).fill(0);
+		for (const it of faceted) c[distance(it)]++;
+		return c.map((n) => (faceted.length ? n / faceted.length : 0));
 	});
+
+	// The same chart if every category were picked at random from the schema.
+	// Each axis independently differs from the modal value with probability
+	// 1 - 1/k, so the total follows a Poisson binomial, which is bell-shaped.
+	const baseline = $derived.by(() => {
+		let dist = [1];
+		for (const a of axes) {
+			const q = 1 - 1 / (SCHEMA_SIZES[a] ?? 1);
+			const next = Array<number>(dist.length + 1).fill(0);
+			dist.forEach((p, i) => {
+				next[i] += p * (1 - q);
+				next[i + 1] += p * q;
+			});
+			dist = next;
+		}
+		return dist;
+	});
+	const distMax = $derived(Math.max(...distShares, ...baseline, 0.01));
+	const baselineMean = $derived(baseline.reduce((a, p, i) => a + p * i, 0));
+	const imageMean = $derived(distShares.reduce((a, p, i) => a + p * i, 0));
+	const schemaSpace = $derived(axes.reduce((a, ax) => a * (SCHEMA_SIZES[ax] ?? 1), 1));
+	const pct = (p: number) => `${(p * 100).toFixed(p > 0 && p < 0.01 ? 1 : 0)}%`;
 
 	function toggle(axis: string, value: string) {
 		const cur = filters[axis] ?? [];
@@ -174,6 +205,7 @@
 	}
 	function reset() {
 		filters = {};
+		distPick = null;
 	}
 	function showModal() {
 		// Jump straight to the single commonest combination.
@@ -182,6 +214,7 @@
 		const next: Record<string, string[]> = {};
 		axes.forEach((a, i) => (next[a] = [values[i]]));
 		filters = next;
+		distPick = null;
 	}
 
 	const backHref = $derived.by(() => {
@@ -237,7 +270,6 @@
 	{:else if !data}
 		<p class="font-mono text-sm text-muted">Loading one thousand pizzas…</p>
 	{:else}
-		{@const schemaSpace = axes.reduce((a, ax) => a * (allValues[ax]?.length || 1), 1)}
 		<!-- The headline numbers. These are the slide. -->
 		<div class="grid grid-cols-2 gap-px border border-rule bg-rule sm:grid-cols-4">
 			{#each [['draws', String(data.n)], ['distinct combinations', String(combos.length)], ['commonest image', combos.length ? `${((combos[0][1] / filtered.length) * 100).toFixed(0)}%` : '—'], ['total entropy', `${entropyBits.toFixed(2)} bits`]] as [label, value]}
@@ -265,41 +297,70 @@
 			</span>
 		</div>
 
-		<!-- The continuous measurement, next to the categorical bars. -->
-		<section class="gauss mt-8 border border-rule">
-			<div class="flex flex-wrap items-baseline gap-x-6 gap-y-1 border-b border-rule px-4 py-3">
+		<!-- Distance from the commonest pizza, against picking categories at random. -->
+		<section class="dist mt-8 border border-rule">
+			<div class="border-b border-rule px-4 py-3">
 				<h2 class="font-mono text-[10px] tracking-widest text-muted uppercase">
-					mean brightness of every image in view
+					how many categories each image changes from the most common pizza
 				</h2>
-				<span class="font-mono text-xs text-muted tabular-nums">
-					&mu; <span class="text-bright">{bMean.toFixed(4)}</span>
-					&nbsp;&sigma; <span class="text-bright">{bSd.toFixed(4)}</span>
-					&nbsp;n <span class="text-bright">{brightness.length}</span>
-				</span>
-				<span class="ml-auto flex gap-3 font-mono text-[11px] text-muted tabular-nums">
-					{#each within as w, i}
-						<span>
-							&plusmn;{i + 1}&sigma;
-							<span class="text-light">{(w * 100).toFixed(1)}%</span>
-							<span class="text-muted/60">/ {(NORMAL[i] * 100).toFixed(1)}</span>
-						</span>
-					{/each}
-				</span>
+				<p class="mt-1 font-mono text-[11px] text-light">{modal.map(fmt).join(' · ')}</p>
 			</div>
-			<div class="px-2 py-2">
-				<GaussianPlot
-					mean={bMean}
-					sigma={bSd}
-					samples={brightness}
-					low={bRange[0]}
-					high={bRange[1]}
-					label="Distribution of mean image brightness"
-				/>
+			<div class="px-4 pt-6">
+				<div class="grid h-52 grid-cols-9 items-end gap-1.5">
+					{#each distShares as share, i}
+						{@const on = distPick === i}
+						<button
+							onclick={() => (distPick = on ? null : i)}
+							aria-pressed={on}
+							aria-label="{i} categories changed: {pct(share)} of images, {pct(
+								baseline[i]
+							)} at random"
+							class="group relative flex h-full flex-col justify-end"
+						>
+							<span
+								class="mb-1 text-center font-mono text-[10px] tabular-nums {share
+									? 'text-light'
+									: 'text-muted/40'}">{pct(share)}</span
+							>
+							<span
+								class="block w-full transition-all {on
+									? 'bg-white'
+									: 'bg-muted group-hover:bg-light'}"
+								style="height:{(share / distMax) * 85}%"
+							></span>
+							<span
+								class="baseline pointer-events-none absolute right-0 left-0 border-t-2 border-dashed"
+								style="bottom:{(baseline[i] / distMax) * 85}%"
+							></span>
+						</button>
+					{/each}
+				</div>
+				<div class="mt-1 grid grid-cols-9 gap-1.5 border-t border-rule pt-1">
+					{#each distShares as _, i}
+						<span class="text-center font-mono text-[11px] text-muted tabular-nums">{i}</span>
+					{/each}
+				</div>
+				<p class="pb-3 text-center font-mono text-[10px] tracking-widest text-muted uppercase">
+					categories changed
+				</p>
+			</div>
+			<div
+				class="flex flex-wrap gap-x-6 gap-y-1 border-t border-rule px-4 py-3 font-mono text-[11px] text-muted"
+			>
+				<span><span class="mr-1.5 inline-block h-2.5 w-3 bg-muted align-middle"></span>these images</span>
+				<span
+					><span class="baseline mr-1.5 inline-block w-4 border-t-2 border-dashed align-middle"
+					></span>if every category were picked at random</span
+				>
+				<span class="ml-auto tabular-nums"
+					>average changed: <span class="text-bright">{imageMean.toFixed(2)}</span> here,
+					<span class="text-bright">{baselineMean.toFixed(2)}</span> at random</span
+				>
 			</div>
 			<p class="border-t border-rule px-4 py-3 font-serif text-sm leading-relaxed text-muted">
-				Eight categorical axes said these thousand images were nearly the same picture. One
-				continuous measurement says they are a normal distribution. The draw did not stop; it moved
-				below the resolution of the words.
+				{pct(distShares[0])} of these images are the most common pizza exactly. If the model picked
+				each category at random from the schema, that would happen once in {schemaSpace.toLocaleString()}
+				draws, and most images would change five to seven of the eight. Click a bar to see those images.
 			</p>
 		</section>
 
@@ -429,16 +490,11 @@
 {/if}
 
 <style>
-	/* GaussianPlot paints its curve and bins from these two custom properties.
-	   Only the /sampling page defined them, so on this page the stroke resolved
-	   to none and the bins to black-on-black: correct geometry, invisible ink.
-	   Same values that page uses, so the two demos read as one family. */
-	.gauss {
-		--gauss-curve: #d9b56f;
-		--gauss-compare: #8cc8c1;
+	/* The random-pick baseline, in the /sampling page's comparison colour. */
+	.dist .baseline {
+		border-color: #d9b56f;
 	}
-	:global(html:not(.dark)) .gauss {
-		--gauss-curve: #795004;
-		--gauss-compare: #24665f;
+	:global(html:not(.dark)) .dist .baseline {
+		border-color: #795004;
 	}
 </style>
