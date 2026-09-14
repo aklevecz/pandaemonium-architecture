@@ -5,13 +5,22 @@
 	// sample on screen at once and lets the room filter it.
 	//
 	// Every bar is a control. Click "pepperoni" and nine hundred of the thousand
-	// stay lit; click "single_slice" and nothing does, because in a thousand
-	// tries the model never once drew one. The empty filter is the argument.
-	import { onMount } from 'svelte';
+	// stay lit. Switching prompts shows how far one word moves the distribution.
+	import { goto } from '$app/navigation';
 	import GaussianPlot from '$lib/components/sampling/GaussianPlot.svelte';
 
 	type Item = Record<string, string | boolean> & { id: string };
 	type Data = { prompt: string; model: string; n: number; axes: string[]; items: Item[] };
+
+	// Each run lives in static/pizza/<slug>/, built by scripts/pizza-thumbs.sh.
+	const RUNS = [
+		{ slug: 'pizza', prompt: 'pizza' },
+		{ slug: 'a-slice-of-pizza', prompt: 'a slice of pizza' }
+	];
+
+	const run = $derived(
+		RUNS.find((r) => r.slug === page.url.searchParams.get('prompt')) ?? RUNS[0]
+	);
 
 	let data = $state<Data | null>(null);
 	let error = $state('');
@@ -20,15 +29,40 @@
 	let filters = $state<Record<string, string[]>>({});
 	let lightbox = $state<Item | null>(null);
 
-	onMount(async () => {
-		try {
-			const res = await fetch('/pizza/labels.json');
-			if (!res.ok) throw new Error(`labels.json returned ${res.status}`);
-			data = await res.json();
-		} catch (err) {
-			error = err instanceof Error ? err.message : String(err);
-		}
+	const cache = new Map<string, Data>();
+
+	$effect(() => {
+		const slug = run.slug;
+		filters = {};
+		lightbox = null;
+		error = '';
+		const hit = cache.get(slug);
+		data = hit ?? null;
+		if (hit) return;
+		let cancelled = false;
+		fetch(`/pizza/${slug}/labels.json`)
+			.then((res) => {
+				if (!res.ok) throw new Error(`labels.json returned ${res.status}`);
+				return res.json();
+			})
+			.then((d: Data) => {
+				cache.set(slug, d);
+				if (!cancelled) data = d;
+			})
+			.catch((err) => {
+				if (!cancelled) error = err instanceof Error ? err.message : String(err);
+			});
+		return () => {
+			cancelled = true;
+		};
 	});
+
+	function choose(slug: string) {
+		const url = new URL(page.url);
+		if (slug === RUNS[0].slug) url.searchParams.delete('prompt');
+		else url.searchParams.set('prompt', slug);
+		goto(url, { replaceState: true, noScroll: true, keepFocus: true });
+	}
 
 	const items = $derived(data?.items ?? []);
 	const axes = $derived(data?.axes ?? []);
@@ -120,6 +154,16 @@
 		)
 	);
 	const NORMAL = [0.683, 0.954, 0.997];
+	// Axis range from the whole run, not the filtered view, so the curve visibly
+	// narrows when you filter instead of the axis rescaling to hide it.
+	const bRange = $derived.by(() => {
+		const all = items.map((it) => Number(it.brightness)).filter((v) => Number.isFinite(v));
+		if (!all.length) return [0.25, 0.55];
+		const lo = Math.min(...all);
+		const hi = Math.max(...all);
+		const pad = (hi - lo) * 0.08;
+		return [lo - pad, hi + pad];
+	});
 
 	function toggle(axis: string, value: string) {
 		const cur = filters[axis] ?? [];
@@ -169,13 +213,26 @@
 			categorised by a second model against a fixed schema. The prompt did not name an image. It
 			named this.
 		</p>
+		<div class="mt-6 flex flex-wrap gap-2" role="group" aria-label="Prompt">
+			{#each RUNS as r}
+				{@const on = r.slug === run.slug}
+				<button
+					onclick={() => choose(r.slug)}
+					aria-pressed={on}
+					class="border px-3 py-1.5 font-serif text-base transition-colors {on
+						? 'border-white text-bright'
+						: 'border-rule text-muted hover:border-white hover:text-white'}"
+					>&ldquo;{r.prompt}&rdquo;</button
+				>
+			{/each}
+		</div>
 	</header>
 
 	{#if error}
 		<p class="border border-rule bg-dark p-4 font-mono text-sm text-muted">
 			Could not load the sample: {error}. Run
 			<span class="text-light">node scripts/pizza-distribution.mjs</span> then
-			<span class="text-light">bash scripts/pizza-thumbs.sh</span>.
+			<span class="text-light">bash scripts/pizza-thumbs.sh {run.slug}</span>.
 		</p>
 	{:else if !data}
 		<p class="font-mono text-sm text-muted">Loading one thousand pizzas…</p>
@@ -234,8 +291,8 @@
 					mean={bMean}
 					sigma={bSd}
 					samples={brightness}
-					low={0.25}
-					high={0.53}
+					low={bRange[0]}
+					high={bRange[1]}
 					label="Distribution of mean image brightness"
 				/>
 			</div>
@@ -307,7 +364,7 @@
 								title={it.id}
 							>
 								<img
-									src="/pizza/thumbs/{it.id}.jpg"
+									src="/pizza/{run.slug}/thumbs/{it.id}.jpg"
 									alt=""
 									loading="lazy"
 									decoding="async"
@@ -355,7 +412,7 @@
 	>
 		<div class="flex max-h-full flex-col items-center gap-3">
 			<img
-				src="/pizza/large/{lightbox.id}.jpg"
+				src="/pizza/{run.slug}/large/{lightbox.id}.jpg"
 				alt=""
 				class="max-h-[75vh] w-auto max-w-full border border-rule"
 			/>
