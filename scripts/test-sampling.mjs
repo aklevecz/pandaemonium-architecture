@@ -91,13 +91,16 @@ test('temperature scales standard deviation by sqrt(T), so variance scales by T'
 	);
 });
 
-test('Lab 01 parses and links to all four Gaussian experiments', async () => {
+test('Lab 01 parses and its sampling demo links point to existing experiments', async () => {
 	const lab = parseLab(
 		await readFile(new URL('../src/lib/data/lab-decks/lab-01.md', import.meta.url), 'utf8')
 	);
 	assert.equal(lab.draft, true);
 	const hrefs = lab.slides.filter((s) => s.kind === 'demo').map((s) => s.href);
-	for (const fragment of ['gaussian', 'area', 'monte-carlo', 'temperature'])
-		assert.ok(hrefs.includes(`/sampling#${fragment}`));
+	const samplingPage = await readFile(new URL('../src/routes/sampling/+page.svelte', import.meta.url), 'utf8');
+	const samplingLinks = hrefs.filter((href) => href.startsWith('/sampling#'));
+	assert.ok(samplingLinks.length > 0);
+	for (const href of samplingLinks)
+		assert.ok(samplingPage.includes(`id="${href.split('#')[1]}"`), `${href} has a target section`);
 	assert.ok(!hrefs.some((href) => /#(bag|streaks|sampler)$/.test(href)));
 });

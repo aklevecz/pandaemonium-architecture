@@ -80,7 +80,7 @@ export function nekhenExperienceHref(context: ExperienceContext): string {
 	const course = new URL(context.course);
 	const origin = local(course)
 		? `${course.protocol}//${course.hostname}:3010`
-		: 'https://nekhen.toolofna.ai';
+		: 'https://nekhen.calarts.app';
 	const url = new URL(`/board/${context.room}`, origin);
 	url.searchParams.set('course', course.origin);
 	url.searchParams.set('slide', String(context.slide));

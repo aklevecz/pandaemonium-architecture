@@ -31,13 +31,13 @@ test('published links cannot inherit localhost or arbitrary course destinations'
 	]) {
 		const context = experienceContext(
 			new URL(
-				`https://nekhen.toolofna.ai/board/next-word?course=${encodeURIComponent(course)}&slide=-4&classroom=../../elsewhere`
+				`https://nekhen.calarts.app/board/next-word?course=${encodeURIComponent(course)}&slide=-4&classroom=../../elsewhere`
 			)
 		);
 		assert.equal(context.course, 'https://atek639.calarts.app');
 		assert.equal(context.room, 'next-word');
 		assert.equal(context.slide, 1);
-		assert.equal(new URL(nekhenExperienceHref(context)).origin, 'https://nekhen.toolofna.ai');
+		assert.equal(new URL(nekhenExperienceHref(context)).origin, 'https://nekhen.calarts.app');
 	}
 });
 
