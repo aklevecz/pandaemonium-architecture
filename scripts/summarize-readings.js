@@ -107,7 +107,10 @@ async function summarize(slug, content, apiKey) {
 		messages: [
 			{
 				role: 'user',
-				content: `Reading slug: ${slug}\n\n---\n\n${content.slice(0, 60_000)}`
+				// The task is restated after the reading. With 60k characters of raw
+				// text last, the model sometimes treated the request as "continue this"
+				// and wrote more of the reading until max_tokens (Zuse did it five times).
+				content: `Reading slug: ${slug}\n\n<reading>\n${content.slice(0, 60_000)}\n</reading>\n\nThe reading above may be cut off mid-sentence; do not continue it. Summarise it now: return only the JSON object described in the system prompt.`
 			}
 		]
 	});
@@ -118,21 +121,39 @@ async function summarize(slug, content, apiKey) {
 			headers: {
 				'Content-Type': 'application/json',
 				'x-api-key': apiKey,
-				'anthropic-version': '2023-06-01',
-				'anthropic-beta': 'prompt-caching-2024-07-31'
+				'anthropic-version': '2023-06-01'
 			},
 			body
 		});
 		if (res.ok) {
 			const json = await res.json();
-			const raw = json.content?.[0]?.text?.trim() ?? '{}';
-			const cleaned = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '');
-			try {
-				return JSON.parse(cleaned);
-			} catch (err) {
-				console.error(`  ${slug}: bad JSON, returning empty`, err.message);
-				return null;
+			// Read every text block, not just content[0]: a response that leads with a
+			// non-text block used to fall through to '{}' and get saved as an empty
+			// summary. Then pull out the outermost JSON object, since the model
+			// occasionally wraps it in fences or a line of prose.
+			const raw = (json.content ?? [])
+				.filter((b) => b.type === 'text')
+				.map((b) => b.text)
+				.join('\n')
+				.trim();
+			const start = raw.indexOf('{');
+			const end = raw.lastIndexOf('}');
+			let parsed = null;
+			if (start !== -1 && end > start) {
+				try {
+					parsed = JSON.parse(raw.slice(start, end + 1));
+				} catch {
+					parsed = null;
+				}
 			}
+			// A summary without a tldr is a failure, not a result. Retry it rather than
+			// writing a file that looks finished and renders nothing.
+			if (parsed && typeof parsed.tldr === 'string' && parsed.tldr.trim()) return parsed;
+			console.error(
+				`  ${slug}: unusable response (attempt ${attempt + 1}, stop_reason=${json.stop_reason}): ${JSON.stringify(raw.slice(0, 80))}`
+			);
+			await sleep(1500 * (attempt + 1));
+			continue;
 		}
 		if (res.status === 429 || res.status === 529 || res.status === 503) {
 			const ra = Number(res.headers.get('retry-after'));
