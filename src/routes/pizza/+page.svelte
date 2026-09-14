@@ -181,7 +181,7 @@
 	const activeCount = $derived(Object.values(filters).reduce((a, v) => a + v.length, 0));
 
 	// The main chart: toppings for pizza runs, scene for everything else.
-	// Every option the schema offers gets a column, in schema order, so an option
+	// Every option the schema offers gets a column, even at zero, so an option
 	// the model never drew shows as an empty column.
 	const isPizza = $derived(axes.includes('toppings'));
 	const chartAxis = $derived(isPizza ? 'toppings' : 'scene');
@@ -196,8 +196,19 @@
 			)
 		)
 	);
+	// Columns sorted by how often each option appears across the whole run, most
+	// common first. Sorting by the whole run rather than the filtered view keeps
+	// columns from reshuffling as you filter. Options never drawn sit at the end.
+	const runOrder = $derived.by(() => {
+		const total = new Map(TOPPINGS.map((t) => [t, 0]));
+		for (const it of items) {
+			const v = String(it[chartAxis]);
+			if (total.has(v)) total.set(v, (total.get(v) ?? 0) + 1);
+		}
+		return [...TOPPINGS].sort((a, b) => (total.get(b) ?? 0) - (total.get(a) ?? 0));
+	});
 	const toppingShares = $derived(
-		TOPPINGS.map((t) => {
+		runOrder.map((t) => {
 			const n = toppingBase.filter((it) => String(it[chartAxis]) === t).length;
 			return { t, n, share: toppingBase.length ? n / toppingBase.length : 0 };
 		})
