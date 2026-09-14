@@ -2,9 +2,9 @@
 	import { page } from '$app/state';
 	// The Monty Hall problem, played and simulated.
 	//
-	// Three doors; a pickup truck behind one, a new iPhone behind each of the
-	// other two. You pick a door. The host, who knows where the truck is, opens
-	// one of the other two doors to reveal an iPhone, then offers you the
+	// Three doors; a pickup truck behind one, Elon Musk behind the other two.
+	// You pick a door. The host, who knows where the truck is, opens one of
+	// the other two doors to reveal Musk, then offers you the
 	// chance to switch. Switching wins 2/3 of the time; staying wins 1/3.
 
 	type Phase = 'pick' | 'offer' | 'reveal';
@@ -30,8 +30,8 @@
 		return Math.floor(Math.random() * 3);
 	}
 
-	// Host opens an iPhone door that isn't the player's pick. When the player has
-	// picked the truck, the host has two iPhone doors to choose from and picks
+	// Host opens a Musk door that isn't the player's pick. When the player has
+	// picked the truck, the host has two Musk doors to choose from and picks
 	// one at random; otherwise there is exactly one door he can open.
 	function hostOpens(prizeDoorIndex: number, pickDoor: number) {
 		const options = DOORS.filter((d) => d !== prizeDoorIndex && d !== pickDoor);
@@ -148,10 +148,10 @@
 	</svg>
 {/snippet}
 
-{#snippet iphoneArt()}
+{#snippet muskArt()}
 	<svg
-		viewBox="0 0 66 120"
-		class="h-auto w-8 text-bright sm:w-14"
+		viewBox="0 0 132 92"
+		class="h-auto w-14 text-muted sm:w-24"
 		fill="none"
 		stroke="currentColor"
 		stroke-width="1.8"
@@ -159,15 +159,38 @@
 		stroke-linejoin="round"
 		aria-hidden="true"
 	>
-		<rect x="7" y="4" width="52" height="112" rx="11" />
-		<rect x="12" y="10" width="42" height="100" rx="6" stroke-width="1.2" />
-		<!-- the pill cutout, the one detail that dates the thing -->
-		<rect x="25" y="14.5" width="16" height="5" rx="2.5" stroke-width="1.2" />
-		<path d="M26 106.5 H40" stroke-width="1.3" />
-		<path d="M59 33 V45" stroke-width="1.5" />
-		<path d="M7 30 V38" stroke-width="1.5" />
-		<path d="M7 43 V51" stroke-width="1.5" />
-		<path d="M7 22 V27" stroke-width="1.5" />
+		<!-- one outer contour: hair silhouette over the crown, jaw below -->
+		<path
+			d="M45 36 C44 21 52 9 66 9 C80 9 88 21 87 36 C87 47 83 55 76 59 C72 61.5 60 61.5 56 59 C49 55 45 47 45 36 Z"
+		/>
+		<!-- hairline across the forehead, slight peak at the centre -->
+		<path
+			d="M47 30 C51 24 57 21 62 21.5 C64 21.7 65.5 22.5 66 23.5 C66.5 22.5 68 21.7 70 21.5 C75 21 81 24 85 30"
+			stroke-width="1.3"
+		/>
+		<path d="M56 14 C60 11.5 66 11 70 12" stroke-width="1.1" opacity="0.6" />
+		<path d="M73 12.5 C77 13.5 80 16 82 19" stroke-width="1.1" opacity="0.6" />
+		<!-- ears -->
+		<path d="M45 36 C42 34 41 40 44 44" stroke-width="1.3" />
+		<path d="M87 36 C90 34 91 40 88 44" stroke-width="1.3" />
+		<!-- brows and eyes -->
+		<path d="M54 31.5 C57 29.5 61 29.8 63.5 31" stroke-width="1.3" />
+		<path d="M68.5 31 C71 29.8 75 29.5 78 31.5" stroke-width="1.3" />
+		<circle cx="59" cy="35.5" r="1.3" fill="currentColor" stroke="none" />
+		<circle cx="73" cy="35.5" r="1.3" fill="currentColor" stroke="none" />
+		<!-- nose -->
+		<path d="M66 36 C65 41 64 44 63.5 46 C65 47.5 67.5 47.5 69 46" stroke-width="1.3" />
+		<!-- smirk, off centre -->
+		<path d="M59 52.5 C63 55 70 55 74.5 51.5" stroke-width="1.4" />
+		<!-- neck -->
+		<path d="M59 60.5 L59 70" />
+		<path d="M73 60.5 L73 70" />
+		<!-- blazer over a t-shirt -->
+		<path d="M10 92 C13 79 32 70 59 70" />
+		<path d="M122 92 C119 79 100 70 73 70" />
+		<path d="M59 70 L50 92" stroke-width="1.4" />
+		<path d="M73 70 L82 92" stroke-width="1.4" />
+		<path d="M59 70 C61 76.5 71 76.5 73 70" stroke-width="1.3" />
 	</svg>
 {/snippet}
 
@@ -178,9 +201,9 @@
 		>
 		<h1 class="mt-8 font-serif text-4xl font-normal text-bright">The Monty Hall Problem</h1>
 		<p class="mt-3 max-w-xl font-serif text-base leading-relaxed text-gray">
-			Three doors, with a pickup truck behind one and a new iPhone behind each of the other two. You
-			pick a door. The host, who knows where the truck is, opens one of the <em>other</em> doors to show
-			you an iPhone, then asks: do you want to switch?
+			Three doors, with a pickup truck behind one and Elon Musk behind the other two. You pick a
+			door. The host, who knows where the truck is, opens one of the <em>other</em> doors to show you
+			Elon Musk, then asks: do you want to switch?
 		</p>
 	</header>
 
@@ -192,13 +215,13 @@
 				{#if phase === 'pick'}
 					Pick a door.
 				{:else if phase === 'offer'}
-					The host opens door {(opened ?? 0) + 1}: an iPhone. Stay with door {(picked ?? 0) + 1}, or
+					The host opens door {(opened ?? 0) + 1}: Elon Musk. Stay with door {(picked ?? 0) + 1}, or
 					switch?
 				{:else if won}
 					You {choice === 'switch' ? 'switched' : 'stayed'} and
 					<span class="text-bright">won the truck.</span>
 				{:else}
-					You {choice === 'switch' ? 'switched' : 'stayed'} and got an iPhone. The truck was behind door
+					You {choice === 'switch' ? 'switched' : 'stayed'} and got Elon Musk. The truck was behind door
 					{prizeDoor + 1}.
 				{/if}
 			</p>
@@ -223,9 +246,9 @@
 						>{d + 1}</span
 					>
 					{#if isOpen}
-						{@render (isPrize ? truckArt : iphoneArt)()}
+						{@render (isPrize ? truckArt : muskArt)()}
 						<span class="mt-2 text-[10px] tracking-widest text-muted uppercase"
-							>{isPrize ? 'Pickup truck' : 'New iPhone'}</span
+							>{isPrize ? 'Pickup truck' : 'Elon Musk'}</span
 						>
 					{:else}
 						<span
@@ -391,7 +414,7 @@
 		<p>
 			Your first pick is right one time in three. That never changes: nothing the host does
 			afterward moves the truck. So two times in three the truck is behind one of the two doors you
-			<em>didn't</em> pick, and the host, who must open a door with an iPhone behind it and can't open
+			<em>didn't</em> pick, and the host, who must open a door with Elon Musk behind it and can't open
 			yours, is forced to show you exactly which of those two it isn't. Switching is a bet that your first
 			guess was wrong, and it usually was.
 		</p>
@@ -403,7 +426,7 @@
 			would be even.
 		</p>
 		<p>
-			It helps to imagine a hundred doors. You pick one; the host opens ninety-eight iPhones and
+			It helps to imagine a hundred doors. You pick one; the host opens ninety-eight Elon Musks and
 			leaves one door closed. Do you keep your 1-in-100 guess, or take the door he conspicuously
 			skipped?
 		</p>

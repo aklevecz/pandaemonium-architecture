@@ -83,7 +83,7 @@ Each note is sampled from a probability distribution. The settings (register, mo
 @demo
 ## The host knows
 
-Three doors. A pickup truck behind one, a new iPhone behind each of the other two. The host knows where the truck is.
+Three doors. A pickup truck behind one, Elon Musk behind the other two. The host knows where the truck is.
 
 [Open the Monty Hall demo](/monty-hall)
 
