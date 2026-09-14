@@ -83,13 +83,14 @@ Each note is sampled from a probability distribution. The settings (register, mo
 @demo
 ## The host knows
 
-Three doors. A pickup truck behind one, Elon Musk behind the other two. The host knows where the truck is.
+Three doors. A pickup truck behind one, a new iPhone behind each of the other two. The host knows where the truck is.
 
 [Open the Monty Hall demo](/monty-hall)
 
-1. Ten rounds always staying, then ten always switching. Keep a tally.
-2. Run the simulation at 10,000 games and read the two bars.
-3. Say why the host opening a door changes the odds.
+1. Collect predictions in Nekhen’s Monty Hall poll: switch, stay, or it doesn’t matter. Freeze the predictions.
+2. Ten rounds always staying, then ten always switching. Keep a tally.
+3. Run the simulation at 10,000 games and compare the results with the class’s predictions.
+4. Say why the host opening a door changes the odds.
 
 ---
 
@@ -100,32 +101,6 @@ The rules change but our minds cling to practical intuition.
 
 More context and more information about sequential state = greater insight into the likelihood of discrete decisions
 
----
-
-@statement
-The curve is the possibility. The point is the draw.
-
----
-
-@prose
-## Pizza preferences
-
-In Nekhen, open a Class poll and ask: “Which pizza would you choose?” Each person votes once. Freeze the votes and draw an answer.
-
-If 12 of 30 people choose pepperoni, its chance is 40%. It is the most popular choice only if no other option has more votes; it still need not be the next draw.
-
-Pizza types are categories, like possible next words. To use a Gaussian, change the question to a number: how wide is the pizza?
-
----
-
-@prose
-## Pizza diameters
-
-Imagine a kitchen aiming for 12-inch pizzas, with small variations in size. We choose a Gaussian model with mean 12 inches and standard deviation 0.5 inches. This is an assumed model, not measurements from our class.
-
-A 13-inch pizza is two standard deviations above the mean. Under this model, about 2.28% exceed 13 inches.
-
-On the standard Gaussian plot, the center is zero and that threshold is +2. The same bell curve can describe different quantities when we change its location and scale.
 
 ---
 
@@ -149,20 +124,6 @@ A bell curve describes a distribution of values. Its mean sets the center; its s
 The height of a Gaussian curve is probability density. A probability is an area: the chance that a draw lands within an interval.
 
 The total area is 1. A narrower curve is taller so that the area stays the same. One exact point has no width and therefore zero probability in the ideal continuous distribution; an interval can have positive probability.
-
----
-
-@demo
-## Shade an interval
-
-Use a standard Gaussian: mean zero, standard deviation one. Move the interval boundaries and watch its probability change with the shaded area.
-
-[Open the shaded Gaussian](/sampling#area)
-
-1. Shade from −1 to 1. About 68.27% of the distribution lies here.
-2. Expand to −2 and 2: about 95.45%. Then −3 and 3: about 99.73%.
-3. Move a narrow interval from the center toward a tail. The same width contains less probability.
-4. Collapse the interval to a point. Its probability is zero, even at the peak.
 
 ---
 
@@ -245,22 +206,12 @@ Language-model temperature reshapes discrete token probabilities rather than a G
 
 ---
 
-@statement
-When you see an output, you see one path through the possibilities. You do not see the whole distribution.
-
----
-
 @prose
 ## Autoregressive: sampling a sequence
 
 An autoregressive model produces a sequence one token at a time. It samples a token, appends it to the input, and samples the next token conditioned on everything so far. The probability of the whole sequence is the product of those conditional probabilities.
 
 Two consequences. It does not revise: no step looks back at a finished sentence and edits it. And its output becomes its input, so an early sample conditions every later one.
-
----
-
-@statement
-One token, then the next, each conditioned on all the previous ones.
 
 ---
 

@@ -45,15 +45,17 @@ This is the sampling demonstration in miniature, and the temperature control is 
 
 ## 2. The door game (`/monty-hall`)
 
-A pickup truck behind one door, Elon Musk behind the other two.
+Before playing, use a separate Nekhen **Monty Hall poll** to ask which strategy gives the best chance: Switch, Stay, or It doesn’t matter. The prompt states that the prize is equally likely behind each door and that the informed host always opens an unchosen empty door and offers a switch. Freeze predictions before testing strategies. Vote shares measure the class’s beliefs, not win probabilities. The poll links directly to the door experiment; its Experiences menu returns to the same prediction room. Keep the pizza poll in its own room.
+
+A pickup truck behind one door, a new iPhone behind each of the other two.
 
 ### The rule
 
-You pick a door. The host, who knows where the truck is, opens one of the other two doors, always one with Musk behind it. You may switch to the remaining closed door or stay.
+You pick a door. The host, who knows where the truck is, opens one of the other two doors, always one with an iPhone behind it. You may switch to the remaining closed door or stay.
 
 ### Why switching wins two thirds
 
-Your first pick is right with probability 1/3. Nothing the host does moves the truck, so that stays 1/3. The truck is behind one of the other two doors with probability 2/3. The host is forced to remove the Musk door from those two (he cannot open yours and cannot open the truck), so switching collects the whole 2/3.
+Your first pick is right with probability 1/3. Nothing the host does moves the truck, so that stays 1/3. The truck is behind one of the other two doors with probability 2/3. The host is forced to remove the iPhone door from those two (he cannot open yours and cannot open the truck), so switching collects the whole 2/3.
 
 Enumeration, you pick door 1:
 
@@ -67,9 +69,9 @@ Each row has probability 1/3.
 
 ### The variant that makes the point
 
-If the host did not know and opened a door at random, and it happened to show Musk, the odds really would be 50/50. Work it out: the cases where he accidentally opens the truck are discarded, and among the remaining cases stay and switch are equal. The information is not in the open door. It is in the fact that the host was constrained when he chose it.
+If the host did not know and opened a door at random, and it happened to show an iPhone, the odds really would be 50/50. Work it out: the cases where he accidentally opens the truck are discarded, and among the remaining cases stay and switch are equal. The information is not in the open door. It is in the fact that the host was constrained when he chose it.
 
-Hundred-door version: you pick one of a hundred, the host opens ninety-eight Musks, one door stays closed. Most people switch immediately. It is the same problem.
+Hundred-door version: you pick one of a hundred, the host opens ninety-eight iPhones, one door stays closed. Most people switch immediately. It is the same problem.
 
 ### If asked about the history
 
