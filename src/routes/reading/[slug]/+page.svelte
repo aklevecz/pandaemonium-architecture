@@ -150,6 +150,18 @@
 	}
 
 	const user = $derived(data.user);
+
+	// The floating toolbar shows for everyone. Signed-out readers who tap an
+	// action that needs an account get a prompt to sign in, and the emailed link
+	// brings them back to this reading.
+	let signInPrompt: string | null = $state(null);
+	const loginHref = $derived(
+		`/login?next=${encodeURIComponent(page.url.pathname + page.url.search)}`
+	);
+	function needsAccount(what: string, action: () => void) {
+		if (user) action();
+		else signInPrompt = what;
+	}
 	const pdfUrl = $derived(getPdfUrl(data.pdf));
 
 	if (browser) {
@@ -1238,8 +1250,30 @@
 {/if}
 
 <!-- Floating toolbar -->
-{#if user && viewMode === 'text'}
+{#if viewMode === 'text'}
 	<div bind:this={bottomBarEl} class="fixed bottom-5 left-1/2 z-30 -translate-x-1/2">
+		{#if signInPrompt && !user}
+			<div
+				class="absolute bottom-full left-1/2 mb-3 w-72 -translate-x-1/2 rounded-2xl border border-rule bg-dark p-4 text-center shadow-lg"
+				role="dialog"
+				aria-label="Sign in"
+			>
+				<p class="text-sm leading-relaxed text-light">Sign in to {signInPrompt}.</p>
+				<p class="mt-1 text-xs text-muted">We'll email you a link that brings you back here.</p>
+				<div class="mt-3 flex items-center justify-center gap-2">
+					<a
+						href={loginHref}
+						class="rounded-full border border-muted px-4 py-1.5 text-xs text-bright no-underline transition-colors hover:bg-rule/50"
+						>Sign in</a
+					>
+					<button
+						onclick={() => (signInPrompt = null)}
+						class="rounded-full px-3 py-1.5 text-xs text-muted transition-colors hover:text-light"
+						>Not now</button
+					>
+				</div>
+			</div>
+		{/if}
 		<div
 			class="flex items-center gap-1 rounded-full border border-rule bg-dark/90 px-2 py-1.5 shadow-lg backdrop-blur-md"
 		>
@@ -1266,7 +1300,7 @@
 			{/if}
 
 			<button
-				onclick={saveBookmark}
+				onclick={() => needsAccount('save your place', saveBookmark)}
 				class="rounded-full p-2.5 transition-colors {bookmarkSaved
 					? 'text-bright'
 					: 'text-muted'} hover:bg-rule/50 hover:text-light"
@@ -1343,7 +1377,8 @@
 			{/if}
 
 			<button
-				onclick={() => (sidebarOpen = !sidebarOpen)}
+				onclick={() =>
+					needsAccount('keep notes and highlights', () => (sidebarOpen = !sidebarOpen))}
 				class="relative rounded-full p-2.5 text-muted transition-colors hover:bg-rule/50 hover:text-light"
 				aria-label="Notes & Highlights"
 			>
@@ -1371,7 +1406,7 @@
 			</button>
 
 			<button
-				onclick={() => (chatOpen = !chatOpen)}
+				onclick={() => needsAccount('ask questions about this reading', () => (chatOpen = !chatOpen))}
 				class="relative rounded-full p-2.5 text-muted transition-colors hover:bg-rule/50 hover:text-light"
 				aria-label="Ask about reading"
 			>

@@ -18,7 +18,7 @@ export const POST: RequestHandler = async (event) => {
 	const db = platform?.env?.DB;
 	if (!db) error(500, 'Database not available');
 
-	const { action, email: rawEmail } = await request.json();
+	const { action, email: rawEmail, next: rawNext } = await request.json();
 
 	if (action === 'logout') {
 		const sessionId = cookies.get('session');
@@ -63,7 +63,13 @@ export const POST: RequestHandler = async (event) => {
 		// Built from the host actually being used, so a link from
 		// atek639.calarts.app doesn't send someone to a211h.yaytso.art and
 		// silently land them in a different cookie scope.
-		const link = `${url.origin}/auth/verify?token=${token}`;
+		// `next` returns the reader to the page that asked them to sign in. Only
+		// same-site relative paths, matching the check in auth/verify.
+		const next =
+			typeof rawNext === 'string' && rawNext.startsWith('/') && !rawNext.startsWith('//')
+				? rawNext
+				: '';
+		const link = `${url.origin}/auth/verify?token=${token}${next ? `&next=${encodeURIComponent(next)}` : ''}`;
 		const { subject, html, text } = loginEmail(link);
 
 		try {

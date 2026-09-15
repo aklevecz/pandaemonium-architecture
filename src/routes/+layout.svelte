@@ -99,7 +99,9 @@
 					</button>
 				{:else}
 					<a
-						href="/login"
+						href={page.url.pathname === '/login'
+							? '/login'
+							: `/login?next=${encodeURIComponent(page.url.pathname + page.url.search)}`}
 						class="text-xs tracking-wide text-muted uppercase transition-colors hover:text-white"
 					>
 						Log in

@@ -8,6 +8,8 @@
 
 	// Arrived here from a dead link rather than by choice.
 	const expired = $derived(page.url.searchParams.has('expired'));
+	// Where to land after following the emailed link, when a page sent them here.
+	const next = $derived(page.url.searchParams.get('next') ?? '');
 
 	async function submit() {
 		errorMsg = '';
@@ -16,7 +18,7 @@
 			const res = await fetch('/api/auth', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ action: 'request', email })
+				body: JSON.stringify({ action: 'request', email, next })
 			});
 			if (!res.ok) {
 				const data = await res.json().catch(() => ({}));
