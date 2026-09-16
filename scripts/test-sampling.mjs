@@ -95,7 +95,8 @@ test('Lab 01 parses and its sampling demo links point to existing experiments', 
 	const lab = parseLab(
 		await readFile(new URL('../src/lib/data/lab-decks/lab-01.md', import.meta.url), 'utf8')
 	);
-	assert.equal(lab.draft, true);
+	// Lab 01 is published, so `draft` is absent. The other decks are still drafts.
+	assert.ok(!lab.draft);
 	const hrefs = lab.slides.filter((s) => s.kind === 'demo').map((s) => s.href);
 	const samplingPage = await readFile(new URL('../src/routes/sampling/+page.svelte', import.meta.url), 'utf8');
 	const samplingLinks = hrefs.filter((href) => href.startsWith('/sampling#'));

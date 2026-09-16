@@ -2,7 +2,6 @@
 number: 1
 title: What’s in the box?
 stance: Apparatus
-draft: true
 blurb: The lab’s second half: the door game, sampling, autoregressive models, latent diffusion.
 ---
 
@@ -229,7 +228,7 @@ The structure is the same as Life’s: each position updates from its neighbours
 - A crowd of small detectors, each shrieking in proportion to what it thinks it sees.
 - A decision demon that takes the loudest shriek.
 - Weights adjusted by worth; useless demons culled, useful ones bred.
-- The set of demons is chosen by the designer before the system runs.
+- The designer stocks the first set of demons; the system then culls the weak ones and breeds new ones from the survivors.
 
 ---
 

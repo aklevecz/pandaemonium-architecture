@@ -253,5 +253,5 @@ Asked for nothing in particular, the model does not draw one thing. It draws a g
 
 ## 8. Open items
 
-- **Deck error:** `src/lib/data/lab-decks/lab-01.md` line 232 says "The set of demons is chosen by the designer before the system runs." Selfridge's paper says the opposite: subdemons are removed and new ones bred while it runs. Not yet fixed.
+- **Deck error:** fixed. The Selfridge slide now says the designer stocks the first demons and the system then culls and breeds them, which is what the paper describes.
 - **No-prompt run:** finished and added to section 4 and the page.

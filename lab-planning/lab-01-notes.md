@@ -229,7 +229,7 @@ Pandemonium: A Paradigm For Learning, given at the Mechanisation of Thought Proc
 
 The architecture: data demons hold the input. Computational demons each look for one feature and "shriek" in proportion to how strongly they see it. Cognitive demons listen to the shrieks and shriek in turn for the pattern they represent. A decision demon picks the loudest. Learning adjusts the weights each demon's shriek carries; demons that prove useless are removed and useful ones are copied with mutations.
 
-What it anticipated: weighted feature detectors (perceptrons, then neural nets), ensembles (many weak detectors, one decision), evolutionary search (mutation and selection of components), and the point in slide 18: the set of demons is stocked by the designer before the system runs. The pandaemonium never chose its own demons.
+What it anticipated: weighted feature detectors (perceptrons, then neural nets), ensembles (many weak detectors, one decision), evolutionary search (mutation and selection of components), and the point in slide 18: the designer stocks the first demons, after which the system culls the weak ones and breeds new ones from the survivors by "mutated fission" and "conjugation". What it never chose was the task or the score it was improving against.
 
 McCarthy's remark in the discussion, if wanted: the demons' internal work is the unconscious part of thought, what they shout to each other the conscious part.
 
