@@ -10,10 +10,17 @@ export const GET: RequestHandler = async (event) => {
 
 	const highlights = await db
 		.prepare(
-			'SELECT id, text, note, color, created_at FROM highlights WHERE user_id = ? AND reading_slug = ? ORDER BY created_at ASC'
+			'SELECT id, text, note, color, created_at, shared_at FROM highlights WHERE user_id = ? AND reading_slug = ? ORDER BY created_at ASC'
 		)
 		.bind(user.id, slug)
-		.all<{ id: number; text: string; note: string; color: string; created_at: string }>();
+		.all<{
+			id: number;
+			text: string;
+			note: string;
+			color: string;
+			created_at: string;
+			shared_at: string | null;
+		}>();
 	return json(highlights.results);
 };
 
@@ -34,14 +41,16 @@ export const POST: RequestHandler = async (event) => {
 	return json({ id: result.meta.last_row_id, text, note, color: hlColor });
 };
 
-// Updates `note`, `text`, and/or `color` on an existing highlight. `text` is
+// Updates `note`, `text`, `color` and/or `shared` on an existing highlight. `text` is
 // changed when a student "extends" a highlight — tap Extend → re-select → tap
 // Update, the existing row's range is overwritten in place rather than
 // creating a new highlight. `color` is changed from the swatch row on the
-// in-text highlight menu.
+// in-text highlight menu. `shared` puts the highlight in (or pulls it out of)
+// the class Commons; unsharing keeps the row and its note but hides the
+// thread under it until it is shared again.
 export const PUT: RequestHandler = async (event) => {
 	const { user, db } = requireAuthAndDb(event);
-	const { id, text, note, color } = await event.request.json();
+	const { id, text, note, color, shared } = await event.request.json();
 	if (!id) error(400, 'Missing id');
 
 	const sets: string[] = [];
@@ -61,6 +70,9 @@ export const PUT: RequestHandler = async (event) => {
 		if (!isHighlightColor(color)) error(400, 'Unknown highlight color');
 		sets.push('color = ?');
 		binds.push(color);
+	}
+	if (typeof shared === 'boolean') {
+		sets.push(shared ? "shared_at = COALESCE(shared_at, datetime('now'))" : 'shared_at = NULL');
 	}
 	if (sets.length === 0) error(400, 'Nothing to update');
 

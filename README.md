@@ -12,6 +12,14 @@ and reading are preserved in the URL. Markdown exports contain all matching
 entries (including complete conversations and source links), not just the visible
 batch. The notebook uses existing tables and requires no database migration.
 
+Signed-in students also have the **Commons** (`/commons`): a class-wide feed of
+highlights students chose to share, grouped by week, with replies under each
+one. Sharing is per highlight and opt-in (tap a highlight in the reader and
+choose Share); the first share asks for a display name. Each week page shows
+that week's latest shares. Explain requests stay private and count-only on the
+instructor's Activity page. Run `npm run test:commons` to check the privacy
+boundary, share toggle, comment rules, and page load.
+
 Run `npm run test:notebook-chat` on Node 22.13+ to check notebook isolation,
 search/export, chat ownership, and safe Markdown rendering. The tests use an
 in-memory SQLite database with synthetic accounts and a mocked model response;
@@ -32,7 +40,7 @@ they do not call external services.
 markdown/                                    Reading texts (one .md per reading)
   additional_reading_primary_documents/      Primary-source supplementary texts
 PDFs/                                        Source PDFs uploaded to R2 via scripts/upload-pdfs.sh
-migrations/                                  D1 schema migrations (0001–0004)
+migrations/                                  D1 schema migrations (0001–0013)
 scripts/
   generate-readings.js                       Bundles markdown/ into src/lib/data/reading-content.ts at build
   upload-pdfs.sh                             Pushes PDFs/ to R2 (bucket: pandaemonium-pdfs)
@@ -47,7 +55,9 @@ src/
   routes/api/
     auth/                                    POST {action: signup|login|logout, email, password}
     notes/                                   CRUD personal notes per reading slug
-    highlights/                              CRUD text highlights per reading slug
+    highlights/                              CRUD text highlights per reading slug (+ share toggle)
+    comments/                                Replies under shared highlights
+    profile/                                 Display name shown in the Commons
     bookmarks/                               Scroll-position bookmark per reading slug
     chat/                                    Claude-backed chat scoped to a reading
   routes/reading/[slug]/                     The reader UI (notes, highlights, bookmarks, chat panel)

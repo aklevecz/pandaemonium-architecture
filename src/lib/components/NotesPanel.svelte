@@ -14,6 +14,7 @@
 		note: string;
 		color: HighlightColor;
 		created_at: string;
+		shared_at: string | null;
 	}
 	interface Vocab {
 		id: number;
@@ -40,6 +41,8 @@
 		onSetActiveHighlight: (h: Highlight) => void;
 		onExtendHighlight: (h: Highlight) => void;
 		onJumpToHighlight: (h: Highlight) => void;
+		/** Share with / withdraw from the class Commons. */
+		onToggleShare?: (id: number) => void | Promise<void>;
 		onDeleteVocab: (id: number) => Promise<void>;
 		// Position of a highlight's text within the rendered reading, for
 		// reading-order sort. Returns MAX_SAFE_INTEGER when not locatable.
@@ -63,6 +66,7 @@
 		onSetActiveHighlight,
 		onExtendHighlight,
 		onJumpToHighlight,
+		onToggleShare,
 		onDeleteVocab,
 		getDocPosition
 	}: Props = $props();
@@ -436,6 +440,14 @@
 										<button onclick={() => onJumpToHighlight(h)} class="text-xs text-muted hover:text-light">Jump to</button>
 										<button onclick={() => onSetActiveHighlight(h)} class="text-xs text-muted hover:text-light">{h.note ? 'Edit note' : 'Add note'}</button>
 										<button onclick={() => onExtendHighlight(h)} class="text-xs text-muted hover:text-light">Adjust</button>
+										{#if onToggleShare}
+											<button
+												onclick={() => onToggleShare(h.id)}
+												class="text-xs {h.shared_at ? 'text-light' : 'text-muted'} hover:text-light"
+												title={h.shared_at ? 'Shared with the class — tap to make private' : 'Share with the class'}
+												>{h.shared_at ? 'Shared ✓' : 'Share'}</button
+											>
+										{/if}
 										{@render deleteControls('highlight', h.id)}
 										<span class="text-[10px] text-muted/70">{relTime(h.created_at)}</span>
 									</div>

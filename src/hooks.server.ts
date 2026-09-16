@@ -8,15 +8,20 @@ export const handle: Handle = async ({ event, resolve }) => {
 		const db = event.platform.env.DB;
 		const row = await db
 			.prepare(
-				`SELECT users.id, users.email, users.is_admin FROM sessions
+				`SELECT users.id, users.email, users.is_admin, users.display_name FROM sessions
 				 JOIN users ON users.id = sessions.user_id
 				 WHERE sessions.id = ? AND sessions.expires_at > datetime('now')`
 			)
 			.bind(sessionId)
-			.first<{ id: number; email: string; is_admin: number | null }>();
+			.first<{ id: number; email: string; is_admin: number | null; display_name: string | null }>();
 
 		if (row) {
-			event.locals.user = { id: row.id, email: row.email, isAdmin: !!row.is_admin };
+			event.locals.user = {
+				id: row.id,
+				email: row.email,
+				isAdmin: !!row.is_admin,
+				displayName: row.display_name
+			};
 		}
 	}
 

@@ -113,6 +113,11 @@
 						class="text-xs tracking-wide text-muted uppercase transition-colors hover:text-white"
 						>Notebook</a
 					>
+					<a
+						href="/commons"
+						class="text-xs tracking-wide text-muted uppercase transition-colors hover:text-white"
+						>Commons</a
+					>
 					{#if data.isInstructor}
 						<a
 							href="/activity"

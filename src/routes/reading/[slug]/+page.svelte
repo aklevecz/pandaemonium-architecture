@@ -14,6 +14,7 @@
 	} from '$lib/highlight-colors';
 	import DefinitionPopover from '$lib/components/DefinitionPopover.svelte';
 	import ReadingSummary from '$lib/components/ReadingSummary.svelte';
+	import DisplayNamePrompt from '$lib/components/DisplayNamePrompt.svelte';
 	import { buildReadingMetaList } from '$lib/search';
 
 	let { data } = $props();
@@ -30,6 +31,7 @@
 		note: string;
 		color: HighlightColor;
 		created_at: string;
+		shared_at: string | null;
 	}
 	interface Vocab {
 		id: number;
@@ -758,6 +760,38 @@
 		await fetchHighlights();
 	}
 
+	// --- Sharing to the Commons -----------------------------------------------
+	// A highlight is private until its owner shares it. The first share asks
+	// for a display name (the name classmates see); after that it's one tap.
+	// `hasName` mirrors the server flag so we only ask once per page load
+	// even though `data.user` won't refresh until the next navigation.
+	let hasName = $state(false);
+	$effect(() => {
+		hasName = !!user?.displayName?.trim();
+	});
+	let namePromptForHighlight: number | null = $state(null);
+
+	async function toggleShare(id: number) {
+		const h = highlights.find((x) => x.id === id);
+		if (!h) return;
+		const share = !h.shared_at;
+		if (share && !hasName) {
+			namePromptForHighlight = id;
+			return;
+		}
+		const res = await fetch('/api/highlights', {
+			method: 'PUT',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ id, shared: share })
+		});
+		if (!res.ok) {
+			flash(share ? 'Could not share' : 'Could not unshare', 'error');
+			return;
+		}
+		await fetchHighlights();
+		flash(share ? 'Shared to the Commons' : 'Back to private');
+	}
+
 	// Reading-order position of a highlight: index of its (whitespace-normalized)
 	// text within the rendered prose, for the panel's "Reading order" sort. The
 	// prose never changes after load, so the normalized text is cached once.
@@ -1482,6 +1516,7 @@
 		{vocab}
 		onDeleteVocab={deleteVocab}
 		getDocPosition={highlightDocPosition}
+		onToggleShare={toggleShare}
 	/>
 
 	{#key data.slug}
@@ -1560,6 +1595,18 @@
 							onclick={() => {
 								const _id = hm.h.id;
 								closeHighlightMenu();
+								toggleShare(_id);
+							}}
+							class="min-h-11 px-5 py-2 text-sm text-light transition-colors hover:bg-rule/50 hover:text-bright active:bg-rule/60"
+						>
+							{hm.h.shared_at ? 'Unshare' : 'Share'}
+						</button>
+						<div class="w-px bg-rule"></div>
+						<button
+							type="button"
+							onclick={() => {
+								const _id = hm.h.id;
+								closeHighlightMenu();
 								deleteHighlight(_id);
 							}}
 							class="min-h-11 px-5 py-2 text-sm text-red-300 transition-colors hover:bg-rule/50 active:bg-rule/60"
@@ -1605,6 +1652,19 @@
 							class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
 						>
 							{hm.h.note ? 'Edit note' : 'Note'}
+						</button>
+						<div class="w-px bg-rule"></div>
+						<button
+							type="button"
+							onclick={() => {
+								const _id = hm.h.id;
+								closeHighlightMenu();
+								toggleShare(_id);
+							}}
+							class="px-3 py-1.5 text-xs text-light transition-colors hover:bg-rule/50 hover:text-bright"
+							title={hm.h.shared_at ? 'Remove from the class Commons' : 'Share with the class'}
+						>
+							{hm.h.shared_at ? 'Unshare' : 'Share'}
 						</button>
 						<div class="w-px bg-rule"></div>
 						<button
@@ -1702,6 +1762,20 @@
 			</div>
 		</div>
 	{/if}
+{/if}
+
+{#if namePromptForHighlight !== null && user}
+	<DisplayNamePrompt
+		suggested={user.email.split('@')[0]}
+		what="share this highlight"
+		onDone={async () => {
+			const id = namePromptForHighlight;
+			namePromptForHighlight = null;
+			hasName = true;
+			if (id !== null) await toggleShare(id);
+		}}
+		onCancel={() => (namePromptForHighlight = null)}
+	/>
 {/if}
 
 {#if toast}

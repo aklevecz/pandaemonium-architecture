@@ -20,7 +20,7 @@ declare global {
 			notebookFilters?: import('./lib/notebook').NotebookFilters;
 		}
 		interface Locals {
-			user: { id: number; email: string; isAdmin: boolean } | null;
+			user: { id: number; email: string; isAdmin: boolean; displayName: string | null } | null;
 		}
 		interface Platform {
 			env: {

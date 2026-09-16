@@ -162,6 +162,53 @@
 
 		<div class="h-px bg-rule"></div>
 
+		<!-- Commons: what classmates have shared from this week's readings.
+		     Only rendered for signed-in students; the server sends null
+		     otherwise. -->
+		{#if data.commons}
+			<section class="py-10">
+				<p class="text-xs tracking-widest text-muted uppercase">
+					Commons
+					{#if data.commons.total > 0}
+						<span class="ml-1 text-muted/60">{data.commons.total}</span>
+					{/if}
+				</p>
+				{#if data.commons.total === 0}
+					<p class="mt-3 font-serif text-base text-muted">
+						Nothing shared from this week yet. Share a highlight from any reading above and it lands
+						here for the class.
+					</p>
+				{:else}
+					<ul class="mt-4 space-y-4">
+						{#each data.commons.latest as e (e.id)}
+							<li class="border-l-2 border-rule pl-4">
+								<p class="font-serif text-sm leading-relaxed text-gray italic">
+									&ldquo;{e.text}&rdquo;
+								</p>
+								<p class="mt-1 text-xs text-muted">
+									{e.author}{#if e.replies > 0}
+										&ensp;<span class="text-muted/60">&middot;</span>
+										{e.replies}
+										{e.replies === 1 ? 'reply' : 'replies'}{/if}
+								</p>
+							</li>
+						{/each}
+					</ul>
+				{/if}
+				<a
+					href="/commons?week={week.number}"
+					class="group mt-6 inline-flex items-baseline gap-2 text-xs text-muted no-underline transition-colors hover:text-light"
+				>
+					<span
+						>{data.commons.total > 0 ? 'Open the Commons for this week' : 'Open the Commons'}</span
+					>
+					<span class="transition-all group-hover:translate-x-0.5" aria-hidden="true">&rarr;</span>
+				</a>
+			</section>
+
+			<div class="h-px bg-rule"></div>
+		{/if}
+
 		{#if week.noClassAfter}
 			<p class="pt-6 font-serif text-sm text-muted italic">{week.noClassAfter}</p>
 		{/if}
