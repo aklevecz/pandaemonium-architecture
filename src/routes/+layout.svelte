@@ -10,6 +10,30 @@
 
 	let dark = $state(true);
 
+	// Phones got three wrapped rows of links, eating a third of the screen on
+	// every page. Below sm the links collapse into this menu instead.
+	let menuOpen = $state(false);
+	const loginHref = $derived(
+		page.url.pathname === '/login'
+			? '/login'
+			: `/login?next=${encodeURIComponent(page.url.pathname + page.url.search)}`
+	);
+	const menuLinks = $derived([
+		{ href: '/#syllabus', label: 'Syllabus' },
+		{ href: '/readings', label: 'Index' },
+		{ href: '/lab', label: 'Labs' },
+		{ href: '/search', label: 'Search' },
+		{ href: '/people', label: 'People' },
+		...(data.user ? [{ href: '/notebook', label: 'Notebook' }] : []),
+		...(data.isInstructor ? [{ href: '/activity', label: 'Activity' }] : []),
+		{ href: '/qr', label: 'QR code' }
+	]);
+	// Following a link inside the menu should not leave it hanging open.
+	$effect(() => {
+		void page.url.pathname;
+		menuOpen = false;
+	});
+
 	// Measured nav height, published as --nav-h for fixed-position UI (side
 	// panels, banners) that must clear the sticky nav. The nav wraps to two
 	// rows at narrower widths, so no constant works.
@@ -35,6 +59,12 @@
 	}
 </script>
 
+<svelte:window
+	onkeydown={(e) => {
+		if (e.key === 'Escape') menuOpen = false;
+	}}
+/>
+
 <div class="min-h-dvh bg-black" style="--nav-h: {navH}px">
 	<nav
 		bind:clientHeight={navH}
@@ -48,7 +78,7 @@
 					>Pandaemonium Architecture</span
 				>
 			</a>
-			<div class="flex min-w-0 flex-wrap items-center gap-3 sm:gap-6">
+			<div class="hidden min-w-0 flex-wrap items-center gap-3 sm:flex sm:gap-6">
 				{#if experiences.some((item) => item.path.split('#')[0] === page.url.pathname)}
 					<ExperienceNav />
 				{/if}
@@ -156,7 +186,86 @@
 					{/if}
 				</button>
 			</div>
+
+			<!-- Phones: one row, one button. -->
+			<div class="flex items-center gap-1 sm:hidden">
+				{#if experiences.some((item) => item.path.split('#')[0] === page.url.pathname)}
+					<ExperienceNav />
+				{/if}
+				<button
+					onclick={() => (menuOpen = !menuOpen)}
+					aria-expanded={menuOpen}
+					aria-controls="mobile-menu"
+					class="-mr-2 flex items-center gap-2 p-2 text-xs tracking-wide text-muted uppercase transition-colors hover:text-white"
+				>
+					{menuOpen ? 'Close' : 'Menu'}
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.5"
+						stroke-linecap="round"
+						aria-hidden="true"
+					>
+						{#if menuOpen}
+							<line x1="5" y1="5" x2="19" y2="19" /><line x1="19" y1="5" x2="5" y2="19" />
+						{:else}
+							<line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line
+								x1="3"
+								y1="18"
+								x2="21"
+								y2="18"
+							/>
+						{/if}
+					</svg>
+				</button>
+			</div>
 		</div>
+
+		{#if menuOpen}
+			<!-- Absolute, so the open menu does not change --nav-h and shove the
+			     page down. -->
+			<div
+				id="mobile-menu"
+				class="absolute inset-x-0 top-full border-b border-rule bg-black shadow-lg sm:hidden"
+			>
+				<div class="mx-auto flex max-w-4xl flex-col px-4 pb-3">
+					{#each menuLinks as link (link.href)}
+						<a
+							href={link.href}
+							onclick={() => (menuOpen = false)}
+							class="border-b border-rule/40 py-3 text-base text-light no-underline transition-colors hover:text-white"
+							>{link.label}</a
+						>
+					{/each}
+					<div class="flex items-center justify-between gap-3 pt-3">
+						{#if data.user}
+							<span class="min-w-0 truncate text-xs text-muted">{data.user.email}</span>
+							<button
+								onclick={logout}
+								class="shrink-0 text-xs tracking-wide text-muted uppercase transition-colors hover:text-white"
+								>Log out</button
+							>
+						{:else}
+							<a
+								href={loginHref}
+								onclick={() => (menuOpen = false)}
+								class="text-xs tracking-wide text-muted uppercase no-underline transition-colors hover:text-white"
+								>Log in</a
+							>
+						{/if}
+						<button
+							onclick={toggleTheme}
+							class="shrink-0 text-xs tracking-wide text-muted uppercase transition-colors hover:text-white"
+							>{dark ? 'Light mode' : 'Dark mode'}</button
+						>
+					</div>
+				</div>
+			</div>
+		{/if}
 	</nav>
 
 	<main>
