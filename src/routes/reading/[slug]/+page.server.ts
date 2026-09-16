@@ -91,6 +91,9 @@ export const load: PageServerLoad = async ({ params, fetch, platform, url }) => 
 		title: meta.reading.title,
 		author: meta.reading.author,
 		pdf: meta.reading.pdf,
+		// Web-published readings have no scan in the bucket; the page hides its
+		// PDF controls rather than linking to a 404.
+		hasPdf: meta.reading.webOnly !== true,
 		weekNumber: meta.weekNumber,
 		weekTitle: meta.weekTitle,
 		isAdditional: meta.isAdditional,

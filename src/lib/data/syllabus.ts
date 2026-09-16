@@ -1,7 +1,16 @@
 export interface Reading {
 	title: string;
 	author: string;
+	/**
+	 * The source file name. It also derives the reading's slug, so it is set
+	 * even for readings that were published on the web and have no scan.
+	 */
 	pdf: string;
+	/**
+	 * Published online, with no PDF in the bucket. The reader hides its
+	 * "Original PDF" controls rather than linking to a file that 404s.
+	 */
+	webOnly?: boolean;
 }
 
 export interface Week {
@@ -161,7 +170,8 @@ export const weeks: Week[] = [
 			{
 				title: 'Shitpostmodernism: Understanding the Slopgeneration',
 				author: 'Kieran Press-Reynolds',
-				pdf: 'Kieran Press-Reynolds, Shitpostmodernism - Understanding the Slopgeneration.pdf'
+				pdf: 'Kieran Press-Reynolds, Shitpostmodernism - Understanding the Slopgeneration.pdf',
+				webOnly: true
 			},
 			{
 				title: 'Selections from Cyberfeminism Index',
@@ -260,7 +270,8 @@ export const weeks: Week[] = [
 			{
 				title: 'Society of the Psyop',
 				author: 'Trevor Paglen',
-				pdf: 'Trevor Paglen, Society of the Psyop.pdf'
+				pdf: 'Trevor Paglen, Society of the Psyop.pdf',
+				webOnly: true
 			},
 			{
 				title: 'from Swarm Intelligence: From Natural to Artificial Systems',

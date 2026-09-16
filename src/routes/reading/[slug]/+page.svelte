@@ -1185,7 +1185,9 @@
 			<!-- The scanned original. This used to be an unlabelled icon inside the
 			     floating toolbar, which only renders for signed-in readers — so
 			     signed-out visitors had no route to the PDF at all, and nobody
-			     could tell the icon apart from the other four. -->
+			     could tell the icon apart from the other four. Readings published
+			     on the web have no scan, so the link is left out entirely. -->
+			{#if data.hasPdf}
 			<a
 				href={pdfUrl}
 				target="_blank"
@@ -1210,6 +1212,7 @@
 				Original PDF
 				<span class="text-muted" aria-hidden="true">&#8599;</span>
 			</a>
+			{/if}
 		</div>
 	</header>
 
@@ -1320,7 +1323,9 @@
 				>
 			</button>
 
-			{#if isMobile}
+			{#if !data.hasPdf}
+				<!-- Published on the web: there is no scan to open. -->
+			{:else if isMobile}
 				<a
 					href={pdfUrl}
 					target="_blank"
@@ -1435,7 +1440,7 @@
 {/if}
 
 <!-- PDF viewer (desktop only) -->
-{#if viewMode === 'pdf' && !isMobile}
+{#if viewMode === 'pdf' && !isMobile && data.hasPdf}
 	<div class="fixed inset-0 z-40 bg-black pt-[var(--nav-h,57px)]">
 		<div
 			class="absolute top-[calc(var(--nav-h,57px)+0.75rem)] right-4 z-10 flex items-center gap-2"
