@@ -7,18 +7,16 @@
 		type Week
 	} from '$lib/data/syllabus';
 
-	// "Up next" marker: the first week that hasn't fully passed. A week stays
-	// current through the six days after its meeting date. Year comes from the
-	// semester string so this survives the next changeover.
+	// "Up next" marker: the session students should be preparing for. It stays
+	// on a week through its meeting day and moves to the following week that
+	// night. Year comes from the semester string so this survives the next
+	// changeover.
 	const year = Number(courseInfo.semester.match(/\d{4}/)?.[0] ?? new Date().getFullYear());
 	const now = Date.now();
 	const weekStart = (w: Week) => new Date(`${w.date}, ${year}`).getTime();
-	const current = weeks.find((w) => now - weekStart(w) < 6 * 86_400_000);
+	const current = weeks.find((w) => now - weekStart(w) < 86_400_000);
 	const upNext = current?.number;
-	// The same marker covers the week about to meet and the week in progress,
-	// so the label follows the date: "Next" before the session, "This week"
-	// during the six days after it.
-	const upNextLabel = current && now >= weekStart(current) ? 'This week' : 'Next';
+	const upNextLabel = current && now >= weekStart(current) ? 'Today' : 'Next';
 </script>
 
 <div class="mx-auto max-w-4xl px-4 sm:px-6">
