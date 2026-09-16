@@ -13,7 +13,12 @@
 	const year = Number(courseInfo.semester.match(/\d{4}/)?.[0] ?? new Date().getFullYear());
 	const now = Date.now();
 	const weekStart = (w: Week) => new Date(`${w.date}, ${year}`).getTime();
-	const upNext = weeks.find((w) => now - weekStart(w) < 6 * 86_400_000)?.number;
+	const current = weeks.find((w) => now - weekStart(w) < 6 * 86_400_000);
+	const upNext = current?.number;
+	// The same marker covers the week about to meet and the week in progress,
+	// so the label follows the date: "Next" before the session, "This week"
+	// during the six days after it.
+	const upNextLabel = current && now >= weekStart(current) ? 'This week' : 'Next';
 </script>
 
 <div class="mx-auto max-w-4xl px-4 sm:px-6">
@@ -68,7 +73,7 @@
 							{#if week.number === upNext}
 								<span
 									class="ml-2 inline-block translate-y-[-2px] rounded-sm border border-rule px-1.5 py-0.5 font-sans text-[10px] tracking-wider text-muted uppercase"
-									>Next</span
+									>{upNextLabel}</span
 								>
 							{/if}
 						</h3>
