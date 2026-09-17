@@ -24,7 +24,12 @@
 		{ href: '/lab', label: 'Labs' },
 		{ href: '/search', label: 'Search' },
 		{ href: '/people', label: 'People' },
-		...(data.user ? [{ href: '/notebook', label: 'Notebook' }] : []),
+		...(data.user
+			? [
+					{ href: '/notebook', label: 'Notebook' },
+					{ href: '/commons', label: 'Commons' }
+				]
+			: []),
 		...(data.isInstructor ? [{ href: '/activity', label: 'Activity' }] : []),
 		{ href: '/qr', label: 'QR code' }
 	]);
