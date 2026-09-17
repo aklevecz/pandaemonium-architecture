@@ -8,6 +8,7 @@
 		"test:sampling": "node --test scripts/test-sampling.mjs",
 		"test:notebook-chat": "node --test scripts/test-notebook-chat.mjs",
 		"test:commons": "node --test scripts/test-commons.mjs",
+		"test:lab-desk": "node --test scripts/test-lab-desk.mjs",
 		"dev": "vite dev --port 5180 --strictPort",
 		"build": "node scripts/generate-readings.js && vite build",
 		"preview": "vite preview",

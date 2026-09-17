@@ -20,6 +20,15 @@ that week's latest shares. Explain requests stay private and count-only on the
 instructor's Activity page. Run `npm run test:commons` to check the privacy
 boundary, share toggle, comment rules, and page load.
 
+The Labs page (`/lab`) ends with a **Lab desk** for signed-in students: the lab
+instructor's email (sent only to signed-in viewers, so it is never in public
+HTML), a form to ask for time to meet, and the sign-up sheet for Fuser access.
+A meeting request emails the instructor with the student as reply-to; the
+instructor answers on the same page and the student is emailed the reply.
+Classmates see names on the Fuser sheet; only instructors see the addresses.
+The contact address lives in `src/lib/server/lab-desk.ts`. Run
+`npm run test:lab-desk` to check visibility, ownership and limits.
+
 Run `npm run test:notebook-chat` on Node 22.13+ to check notebook isolation,
 search/export, chat ownership, and safe Markdown rendering. The tests use an
 in-memory SQLite database with synthetic accounts and a mocked model response;
@@ -40,7 +49,7 @@ they do not call external services.
 markdown/                                    Reading texts (one .md per reading)
   additional_reading_primary_documents/      Primary-source supplementary texts
 PDFs/                                        Source PDFs uploaded to R2 via scripts/upload-pdfs.sh
-migrations/                                  D1 schema migrations (0001–0013)
+migrations/                                  D1 schema migrations (0001–0014)
 scripts/
   generate-readings.js                       Bundles markdown/ into src/lib/data/reading-content.ts at build
   upload-pdfs.sh                             Pushes PDFs/ to R2 (bucket: pandaemonium-pdfs)
@@ -58,6 +67,8 @@ src/
     highlights/                              CRUD text highlights per reading slug (+ share toggle)
     comments/                                Replies under shared highlights
     profile/                                 Display name shown in the Commons
+    lab/meetings/                            Requests to meet the lab instructor
+    lab/fuser/                               Fuser access sign-up sheet
     bookmarks/                               Scroll-position bookmark per reading slug
     chat/                                    Claude-backed chat scoped to a reading
   routes/reading/[slug]/                     The reader UI (notes, highlights, bookmarks, chat panel)
