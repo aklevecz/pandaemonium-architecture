@@ -26,13 +26,6 @@ The technology ironically opens up this possibility because of its flexibility a
 ---
 
 @prose
-## Process
-
-How important is process related to inspiration and outcome?
-
----
-
-@prose
 ## Conditioning
 
 Poliks and Trillo: "an index is an index is an index."
