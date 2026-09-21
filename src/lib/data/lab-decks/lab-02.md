@@ -331,6 +331,73 @@ OpenAI, 2019. A 1.5B-parameter language model, with weights.
 
 ---
 
+@list
+## GPT-2
+
+- OpenAI, released in stages from February to November 2019
+- Four sizes: 124M, 355M, 774M and 1.5B parameters
+- Trained on WebText: 8 million web pages linked from Reddit, 40 GB of text
+- Reads 1,024 tokens at a time, from a vocabulary of 50,257
+- The 124M model is a 500 MB file
+
+---
+
+@list
+## Fine-tuning GPT-2
+
+1. Put your text in one plain text file.
+2. Tokenize it with GPT-2's tokenizer.
+3. Start from the pretrained weights, not from random ones.
+4. Train on next-token prediction, with a small learning rate.
+5. Sample from the result.
+
+---
+
+@demo
+## nanoGPT
+
+Andrej Karpathy. Fine-tunes GPT-2 on Shakespeare on one GPU in a few minutes: python train.py config/finetune_shakespeare.py
+
+[Open the repository](https://github.com/karpathy/nanoGPT)
+
+---
+
+@demo
+## gpt-2-simple
+
+Max Woolf. Fine-tunes the 124M or 355M model on a text file, on a free GPU in a Colab notebook.
+
+[Open the Colab notebook](https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce)
+
+---
+
+@demo
+## HuggingFace: causal language modeling
+
+The Transformers guide to fine-tuning a model like GPT-2 on your own text.
+
+[Open the guide](https://huggingface.co/docs/transformers/tasks/language_modeling)
+
+---
+
+@demo
+## GPT-2 weights
+
+The 124M model on HuggingFace, with a text box to try it.
+
+[Open the model page](https://huggingface.co/openai-community/gpt2)
+
+---
+
+@demo
+## Let's reproduce GPT-2 (124M)
+
+Andrej Karpathy builds and trains GPT-2 from an empty file. Four hours.
+
+[Open the video](https://www.youtube.com/watch?v=l8pRSuU81PU)
+
+---
+
 @demo
 ## Grounding DINO
 
