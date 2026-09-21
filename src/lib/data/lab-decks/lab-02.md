@@ -67,10 +67,15 @@ Poliks and Trillo: "an index is an index is an index."
 @demo
 ## No prompt
 
-[Open the no-prompt run](/pizza?prompt=no-prompt)
+Sampling the Prior. SD 1.5 and SDXL, three prompts (empty, pizza, CalArts), 1,000 images each, the same seeds in every condition.
 
-1. 993 images from an empty prompt.
-2. Then "pizza", then "a slice of pizza".
+[Open Sampling the Prior](https://claude.ai/artifact/SoJYxZBrzyb2pFKMXGQ7ER)
+
+1. Empty prompt, SD 1.5: 17% person, 16% architecture, 14% landscape.
+2. Empty prompt, SDXL: 29% artwork or illustration, 18% abstract texture.
+3. Text appears in 17.4% of empty-prompt SD 1.5 images and 4.3% of SDXL.
+4. "CalArts" returns architecture: 78% on SD 1.5, 57% on SDXL.
+5. One seed, six conditions: read across a row.
 
 ---
 
