@@ -25,6 +25,11 @@ The technology ironically opens up this possibility because of its flexibility a
 
 ---
 
+@statement
+A picture is worth a shitload of numbers
+
+---
+
 @prose
 ## Conditioning
 
