@@ -1,0 +1,78 @@
+Tools
+Notebook
+When production is infinitely expansive, then how do ideas and the experience
+around formulating ideas take precedence over the act or producing
+
+
+
+Writing and drawing in a notebook and then transferring that to the digital surface
+in practical terms is inefficient, but in practice may be more powerful
+
+
+
+The technology ironically opens up this possibility because of its flexibility and
+elevated sensibilities
+Process
+How important is process related to inspiration and outcome
+Conditioning
+Poliks and Trillo mean by "an index is an index is an index."
+Abbreviated History https://atek639.calarts.app/scale
+ -   Latent Diffusion
+ -   SD1.5 - 512x512
+ -   SDXL - 1024x1024
+ -   Latent Diffusion Flow Models
+ -   Flux
+ -   Latent Diffusion Flow Models w/ Context
+ -   Flux Kontext
+ -   Crazy Multimodal Models
+ -   Gemini
+ -   All of the SOA image models now
+SD 1.5
+SD XL
+Flux
+Inpainting
+In Context
+Nomenclature
+FP = Floating Point Value = Precision
+
+Higher FP = Higher Precision = Larger Model = More Computer
+                https://github.com/AUTOMATIC1111/stable-diffusion-webui
+Automatic1111
+              https://huggingface.co/models
+Huggingface
+Comfyui
+SD15
+
+SDXL
+
+Look thru models
+
+Compare Fuser
+
+To Comfy
+CIVITAI
+HIGGSFIELD
+https://higgsfield.ai
+KREA
+https://krea.ai
+FUSER
+https://app.fuser.studio
+Runway
+https://runway.com/
+
+
+
+World models
+Github
+https://github.com/facebookresearch/segment-anything
+
+https://github.com/adefossez/demucs
+
+https://github.com/openai/gpt-2
+
+https://github.com/idea-research/groundingdino
+
+https://github.com/DepthAnything/Depth-Anything-V2
+Image Processing
+Video processing
+
