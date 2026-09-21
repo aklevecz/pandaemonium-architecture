@@ -39,9 +39,55 @@ Poliks and Trillo: "an index is an index is an index."
 
 ---
 
+@list
+## What conditions Stable Diffusion 1.5
+
+- Prompt: 77 tokens, CLIP text encoder, cross-attention
+- Negative prompt: takes the place of the empty prompt in guidance
+- CFG scale s: ε = ε_without + s × (ε_with − ε_without). Default 7.5
+- Seed: the starting noise
+- Timestep: the noise level, given to the network at every step
+- img2img: starts from a noised copy of an image
+- Inpainting mask: which pixels may change
+- ControlNet: edges, depth, pose
+- LoRA: not conditioning. It changes the weights
+
+---
+
+@demo
+## Text encoding and guidance
+
+[Open the Denoise board](/denoise)
+
+1. Text encoding: tokens, start 49406, end 49407.
+2. Guidance at 0, 1, 3 and 7, same seed.
+
+---
+
+@demo
+## No prompt
+
+[Open the no-prompt run](/pizza?prompt=no-prompt)
+
+1. 993 images from an empty prompt.
+2. Then "pizza", then "a slice of pizza".
+
+---
+
+@list
+## CLIP
+
+- OpenAI, January 2021
+- 400 million image and caption pairs from the web
+- Two encoders: one for images, one for text
+- Trained to match each image to its caption, 32,768 pairs at a time
+- SD 1.5 uses the text encoder only, frozen: 77 tokens in, 77 vectors of 768 numbers out
+
+---
+
 @image
 ![A table from OpenAI comparing a standard ImageNet classifier with CLIP on six sets of banana pictures: photographs, new photographs, renditions, odd angles, sketches, and adversarial examples. The classifier falls from 76.2% to 2.7%. CLIP stays between 60.2% and 88.9%.](/lab/lab-02/clip-robustness-bananas.jpg)
-caption: ImageNet ResNet101 and CLIP ViT-L on the same bananas. Figure: OpenAI.
+caption: ImageNet ResNet101 falls from 76.2% to 2.7%. CLIP ViT-L stays between 60.2% and 88.9%. Figure: OpenAI.
 
 ---
 
@@ -60,15 +106,23 @@ caption: 2. Create dataset classifier from label text. 3. Use for zero-shot pred
 @list
 ## Abbreviated history
 
-- Latent diffusion: SD 1.5 at 512x512, SDXL at 1024x1024
-- Latent diffusion flow models: Flux
-- Latent diffusion flow models with context: Flux Kontext
-- Crazy multimodal models: Gemini, and all of the state-of-the-art image models now
+- Latent diffusion, 2021
+- SD 1.5, 2022: 512x512, 1B parameters, one CLIP text encoder
+- SDXL, 2023: 1024x1024, 3.5B parameters, two CLIP text encoders
+- Latent diffusion flow models
+- Flux, 2024: 12B parameters, CLIP and T5 text encoders
+- Latent diffusion flow models with context
+- Flux Kontext, 2025: an image and an instruction in, an edited image out
+- Crazy multimodal models
+- Gemini
+- All of the state-of-the-art image models now
 
 ---
 
 @demo
 ## Scale
+
+Parameters, training compute, memory, hardware and price per response, from SD 1.5 to 2026.
 
 [Open the scale chart](/scale)
 
@@ -94,12 +148,13 @@ caption: Flux
 
 @statement
 Inpainting
+note: Mask a region. The model repaints only inside the mask.
 
 ---
 
 @image
 ![Two versions of the Flux pizza slice side by side. On the left the original. On the right the same picture with the cheese turned green and everything else unchanged.](/lab/lab-02/in-context-edit.jpg)
-caption: In context
+caption: In context: an image and a text instruction in, the edited image out.
 
 ---
 
@@ -112,6 +167,29 @@ Higher FP = Higher Precision = Larger Model = More Computer
 
 ---
 
+@list
+## Precision and file size
+
+- SD 1.5 has about 1 billion parameters
+- fp32: 4 bytes each, 4 GB
+- fp16: 2 bytes each, 2 GB
+- 8-bit: 1 byte each, 1 GB
+- 4-bit: half a byte each, 0.5 GB
+
+---
+
+@list
+## File names
+
+- .safetensors: weights only
+- .ckpt: older format. It can run code when loaded
+- fp16, fp8, Q4: the precision
+- Checkpoint: a whole model
+- LoRA: a small add-on to a checkpoint
+- VAE: the image encoder and decoder
+
+---
+
 @image
 ![The Automatic1111 web interface. A prompt box and a negative prompt box, then sampling method, sampling steps, width and height, batch count, CFG scale and seed, beside a generated image of a green sapling.](/lab/lab-02/automatic1111.jpg)
 caption: Automatic1111
@@ -120,6 +198,8 @@ caption: Automatic1111
 
 @demo
 ## Automatic1111
+
+A browser interface for Stable Diffusion that runs on your own machine. 2022.
 
 [Open the repository](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
@@ -133,6 +213,8 @@ caption: HuggingFace
 
 @demo
 ## HuggingFace
+
+A repository of models and datasets. Each model has a model card.
 
 [Open the models page](https://huggingface.co/models)
 
@@ -149,6 +231,15 @@ caption: HuggingFace
 
 ---
 
+@demo
+## ComfyUI
+
+A node graph for running models on your own GPU.
+
+[Open the repository](https://github.com/comfyanonymous/ComfyUI)
+
+---
+
 @image
 ![A model listing tagged LORAS and PONY, titled "Feet XL + SD 1.5 + F1D + Pony + Illustrious + zit", with the file name pony-feet_xl_sd_1_5_dev.safetensors. The thumbnail is a rendered bare foot.](/lab/lab-02/lora-listing.jpg)
 caption: A LoRA listing
@@ -157,12 +248,14 @@ caption: A LoRA listing
 
 @image
 ![The Civitai home page: a contest banner above a grid of featured community images in many styles.](/lab/lab-02/civitai.jpg)
-caption: Civitai
+caption: Civitai: a hub for community checkpoints and LoRAs.
 
 ---
 
 @demo
 ## Higgsfield
+
+Video generation in the browser.
 
 [Open Higgsfield](https://higgsfield.ai)
 
@@ -171,12 +264,16 @@ caption: Civitai
 @demo
 ## Krea
 
+Image and video generation in the browser.
+
 [Open Krea](https://krea.ai)
 
 ---
 
 @demo
 ## Fuser
+
+A node graph in the browser, run on hosted GPUs.
 
 [Open Fuser](https://app.fuser.studio)
 
@@ -185,7 +282,7 @@ caption: Civitai
 @demo
 ## Runway
 
-World models
+Video generation. World models.
 
 [Open Runway](https://runway.com/)
 
@@ -194,16 +291,18 @@ World models
 @list
 ## GitHub
 
-- Segment Anything
-- Demucs
-- GPT-2
-- Grounding DINO
-- Depth Anything V2
+- Segment Anything: cuts any object out of an image
+- Demucs: separates a song into drums, bass, vocals and other
+- GPT-2: a 1.5B-parameter language model, with weights
+- Grounding DINO: finds objects in an image from a text description
+- Depth Anything V2: estimates depth from a single image
 
 ---
 
 @demo
 ## Segment Anything
+
+Meta, 2023. Cuts any object out of an image from a click or a box.
 
 [Open the repository](https://github.com/facebookresearch/segment-anything)
 
@@ -212,12 +311,16 @@ World models
 @demo
 ## Demucs
 
+Meta. Separates a song into drums, bass, vocals and other.
+
 [Open the repository](https://github.com/adefossez/demucs)
 
 ---
 
 @demo
 ## GPT-2
+
+OpenAI, 2019. A 1.5B-parameter language model, with weights.
 
 [Open the repository](https://github.com/openai/gpt-2)
 
@@ -226,12 +329,16 @@ World models
 @demo
 ## Grounding DINO
 
+IDEA Research, 2023. Finds objects in an image from a text description.
+
 [Open the repository](https://github.com/idea-research/groundingdino)
 
 ---
 
 @demo
 ## Depth Anything V2
+
+2024. Estimates depth from a single image.
 
 [Open the repository](https://github.com/DepthAnything/Depth-Anything-V2)
 
