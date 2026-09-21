@@ -5,15 +5,25 @@
 	// picture (Stable Diffusion's bar is too short to draw); log is there to
 	// make the early models readable.
 	import { page } from '$app/state';
-	import { models, SOURCES, type Measure, type ScaleModel } from '$lib/data/model-scale';
+	import {
+		models,
+		SOURCES,
+		RUNNING_COST_METHOD,
+		type Measure,
+		type ScaleModel
+	} from '$lib/data/model-scale';
 
-	type Key = 'params' | 'compute';
+	type Key = 'params' | 'compute' | 'memory' | 'hardware' | 'response';
 	let scale = $state<'linear' | 'log'>('linear');
 	let tip = $state<{ m: ScaleModel; key: Key; x: number; y: number } | null>(null);
 
-	const PANELS: { key: Key; title: string; unit: string; floor: number }[] = [
-		{ key: 'params', title: 'Parameters', unit: 'numbers in the model', floor: 1e8 },
-		{ key: 'compute', title: 'Training compute', unit: 'arithmetic operations (FLOP)', floor: 1e21 }
+	// `group` opens a new section heading above the panel that carries it.
+	const PANELS: { key: Key; title: string; unit: string; floor: number; group?: string }[] = [
+		{ key: 'params', title: 'Parameters', unit: 'numbers in the model', floor: 1e8, group: 'Making it' },
+		{ key: 'compute', title: 'Training compute', unit: 'arithmetic operations (FLOP)', floor: 1e21 },
+		{ key: 'memory', title: 'Memory to run one copy', unit: 'fast memory, our estimate', floor: 1, group: 'Running it' },
+		{ key: 'hardware', title: 'Hardware to hold one copy', unit: 'purchase price, our estimate', floor: 100 },
+		{ key: 'response', title: 'Price of one response', unit: 'what the user pays, our estimate', floor: 1e-4 }
 	];
 	const base = models[0];
 
@@ -29,7 +39,24 @@
 		const m = +(v / 10 ** e).toFixed(1);
 		return m === 1 ? `10${sup(e)}` : `${m} × 10${sup(e)}`;
 	}
-	const fmt = (key: Key, v: number) => (key === 'params' ? fmtParams(v) : fmtCompute(v));
+	function fmtMemory(gb: number) {
+		return gb >= 1000 ? `${+(gb / 1000).toFixed(1)} TB` : `${+gb.toFixed(gb < 10 ? 1 : 0)} GB`;
+	}
+	function fmtDollars(v: number) {
+		if (v >= 1e6) return `$${+(v / 1e6).toFixed(1)}M`;
+		if (v >= 1e3) return `$${+(v / 1e3).toFixed(v < 1e4 ? 1 : 0)}K`;
+		if (v >= 1) return `$${+v.toFixed(2)}`;
+		// Under a dollar: keep two significant digits, so $0.0035 is not $0.00.
+		return `$${Number(v.toPrecision(2))}`;
+	}
+	const FORMAT: Record<Key, (v: number) => string> = {
+		params: fmtParams,
+		compute: fmtCompute,
+		memory: fmtMemory,
+		hardware: fmtDollars,
+		response: fmtDollars
+	};
+	const fmt = (key: Key, v: number) => FORMAT[key](v);
 	function times(key: Key, v: number) {
 		const ratio = v / base[key]!.value;
 		if (ratio < 1.5) return '';
@@ -93,8 +120,12 @@
 		<h1 class="mt-8 font-serif text-4xl font-normal text-bright">Scale</h1>
 		<p class="mt-3 max-w-2xl font-serif text-base leading-relaxed text-gray">
 			Stable Diffusion 1.5 runs on a laptop. Four years later the largest models hold about three
-			thousand times as many numbers and took about ten thousand times as much arithmetic to
-			train. Most of what is known about them is an outside estimate.
+			thousand times as many numbers, took about ten thousand times as much arithmetic to train,
+			and need a rack of hardware that costs millions to run at all. Most of what is known about
+			them is an outside estimate.
+		</p>
+		<p class="mt-2 max-w-2xl text-xs leading-relaxed text-muted">
+			Making it is paid once. Running it is paid on every prompt.
 		</p>
 	</header>
 
@@ -129,11 +160,16 @@
 
 	{#each PANELS as panel (panel.key)}
 		{@const d = domain(panel.key, panel.floor)}
-		<section class="panel mt-10" style="--series: var(--{panel.key})">
-			<h2 class="font-serif text-xl text-bright">
+		{#if panel.group}
+			<h2 class="mt-12 border-b border-rule pb-2 text-xs tracking-widest text-muted uppercase">
+				{panel.group}
+			</h2>
+		{/if}
+		<section class="panel {panel.group ? 'mt-6' : 'mt-10'}" style="--series: var(--{panel.key})">
+			<h3 class="font-serif text-xl text-bright">
 				{panel.title}
 				<span class="ml-2 font-sans text-xs text-muted">{panel.unit}</span>
-			</h2>
+			</h3>
 
 			<!-- Phones stack the name above its bar, so the bar gets the full width. -->
 			<div class="mt-4 grid grid-cols-1 sm:grid-cols-[minmax(7rem,11rem)_1fr] sm:gap-x-5">
@@ -216,13 +252,14 @@
 			>The numbers, and where they come from</summary
 		>
 		<div class="mt-4 overflow-x-auto">
-			<table class="w-full min-w-[44rem] border-collapse text-left text-xs">
+			<table class="w-full min-w-[80rem] border-collapse text-left text-xs">
 				<thead class="text-muted">
 					<tr class="border-b border-rule">
 						<th class="py-2 pr-4 font-normal">Model</th>
 						<th class="py-2 pr-4 font-normal">Takes and makes</th>
-						<th class="py-2 pr-4 font-normal">Parameters</th>
-						<th class="py-2 pr-4 font-normal">Training compute</th>
+						{#each PANELS as panel (panel.key)}
+							<th class="py-2 pr-4 font-normal">{panel.title}</th>
+						{/each}
 					</tr>
 				</thead>
 				<tbody>
@@ -232,7 +269,7 @@
 								{m.name}<br /><span class="text-muted">{m.developer}, {m.date}</span>
 							</td>
 							<td class="py-2 pr-4 text-muted">{m.modality}</td>
-							{#each ['params', 'compute'] as const as key (key)}
+							{#each PANELS as { key } (key)}
 								{@const v: Measure | undefined = m[key]}
 								<td class="py-2 pr-4 text-muted">
 									{#if v}
@@ -253,7 +290,13 @@
 			A parameter is one learned number. A FLOP is one arithmetic operation; training compute counts
 			every one spent fitting the model. For a mixture-of-experts model only part of the parameters
 			run for any one token, which is why Kimi K3 is the largest model here and one of the cheaper
-			ones to train. Sources:
+			ones to train.
+		</p>
+		<ul class="mt-3 max-w-2xl list-disc space-y-1 pl-4 text-xs leading-relaxed text-muted">
+			{#each RUNNING_COST_METHOD as line (line)}<li>{line}</li>{/each}
+		</ul>
+		<p class="mt-3 max-w-2xl text-xs leading-relaxed text-muted">
+			Sources:
 			{#each SOURCES as s, i (s.href)}
 				<a href={s.href} target="_blank" rel="noopener" class="underline hover:text-white">{s.label}</a
 				>{i < SOURCES.length - 1 ? '; ' : '.'}
@@ -292,11 +335,17 @@
 	.viz {
 		--params: #3987e5;
 		--compute: #d95926;
+		--memory: #199e70;
+		--hardware: #c98500;
+		--response: #d55181;
 		--tip: 12rem;
 	}
 	:global(html:not(.dark)) .viz {
 		--params: #2a78d6;
 		--compute: #eb6834;
+		--memory: #1baf7a;
+		--hardware: #eda100;
+		--response: #e87ba4;
 	}
 	@media (max-width: 640px) {
 		.viz {
