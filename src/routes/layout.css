@@ -459,3 +459,19 @@ mark.hl.highlight-flash {
 		font-size: 16px !important;
 	}
 }
+
+/* A passage the reader asked to have explained. Marked without a fill so it
+   reads as a reference, not a highlight; clicking it opens that chat. Set
+   inline by applyHighlights() in the reading page. */
+mark.explained {
+	background: transparent;
+	color: inherit;
+	cursor: pointer;
+	border-bottom: 1px dotted var(--color-muted);
+	text-decoration: none;
+	transition: border-color 0.15s ease;
+}
+mark.explained:hover {
+	border-bottom-style: solid;
+	border-bottom-color: var(--color-light);
+}

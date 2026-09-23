@@ -67,6 +67,15 @@
 	let definePopover: { word: string; definition: string | null; loading: boolean } | null =
 		$state(null);
 
+	// Chats started from "Explain", each tied to the passage it was about. They
+	// are marked in the text like highlights, and clicking one opens the chat.
+	interface Explained {
+		id: number;
+		title: string;
+		anchor_text: string;
+	}
+	let explained: Explained[] = $state([]);
+
 	// View / layout
 	let viewMode: 'text' | 'pdf' = $state('text');
 	let sidebarOpen = $state(false);
@@ -807,7 +816,9 @@
 
 	function applyHighlights() {
 		if (!proseEl) return;
-		proseEl.querySelectorAll('mark.hl').forEach((mark) => {
+		// Strip both kinds before repainting: an explained phrase can sit inside
+		// a highlight, and replacing the outer mark flattens whatever was nested.
+		proseEl.querySelectorAll('mark.hl, mark.explained').forEach((mark) => {
 			const parent = mark.parentNode;
 			if (parent) {
 				parent.replaceChild(document.createTextNode(mark.textContent || ''), mark);
@@ -816,6 +827,57 @@
 		});
 		for (const h of highlights) {
 			markTextInDom(proseEl, h);
+		}
+		for (const c of explained) {
+			markTextInDom(proseEl, { id: c.id, text: c.anchor_text }, (mark) => {
+				mark.className = 'explained';
+				mark.dataset.conversationId = String(c.id);
+				mark.title = 'Open the explanation';
+				mark.addEventListener('click', (e) => {
+					e.stopPropagation();
+					openExplained(c.id);
+				});
+			});
+		}
+	}
+
+	// --- Explained passages ------------------------------------------------------
+
+	async function fetchExplained() {
+		if (!user) return;
+		const res = await fetch(`/api/chat?slug=${encodeURIComponent(data.slug)}`);
+		if (!res.ok) return;
+		setExplained(await res.json());
+	}
+
+	function setExplained(conversations: { id: number; title: string; anchor_text?: string | null }[]) {
+		explained = conversations
+			.filter((c) => c.anchor_text)
+			.map((c) => ({ id: c.id, title: c.title, anchor_text: c.anchor_text as string }));
+		// A timeout rather than an animation frame: frames stop in a background
+		// tab, and the marks should be there when the reader comes back.
+		setTimeout(() => applyHighlights(), 0);
+	}
+
+	function openExplained(id: number) {
+		chatOpen = true;
+		// Same one-tick wait as explainSelection: the panel binds after it renders.
+		requestAnimationFrame(() => chatPanel?.openConversation(id));
+	}
+
+	// Clicking outside the chat panel or the definition card closes it. The
+	// toolbar, the selection tooltip, the notes panel and explained marks are
+	// exempt, since those open or address the panel themselves.
+	function onDocumentPointerDown(e: PointerEvent) {
+		const target = e.target as Element | null;
+		if (!target) return;
+		if (definePopover && !target.closest('[data-define-popover]')) definePopover = null;
+		if (
+			chatOpen &&
+			!isMobile &&
+			!target.closest('[data-chat-panel], [data-chat-keep], mark.explained')
+		) {
+			chatOpen = false;
 		}
 	}
 
@@ -868,7 +930,11 @@
 		}
 	}
 
-	function markTextInDom(container: HTMLElement, h: Highlight) {
+	function markTextInDom(
+		container: HTMLElement,
+		h: { id: number; text: string; color?: HighlightColor },
+		decorate?: (mark: HTMLElement) => void
+	) {
 		const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
 			acceptNode: (n) =>
 				n.parentElement?.closest(FOOTNOTE_CHROME)
@@ -923,15 +989,19 @@
 			const after = nodeText.slice(sliceEnd);
 			const mark = document.createElement('mark');
 			mark.textContent = matched;
-			mark.className = 'hl highlight-mark';
-			mark.dataset.highlightId = String(h.id);
-			// layout.css derives background, border and the flash keyframes
-			// from this one variable.
-			mark.style.setProperty('--hl-rgb', colorRgb(h.color));
-			mark.addEventListener('click', (e) => {
-				e.stopPropagation();
-				openHighlightMenu(h, e.currentTarget as HTMLElement);
-			});
+			if (decorate) {
+				decorate(mark);
+			} else {
+				mark.className = 'hl highlight-mark';
+				mark.dataset.highlightId = String(h.id);
+				// layout.css derives background, border and the flash keyframes
+				// from this one variable.
+				mark.style.setProperty('--hl-rgb', colorRgb(h.color ?? preferredColor));
+				mark.addEventListener('click', (e) => {
+					e.stopPropagation();
+					openHighlightMenu(h as Highlight, e.currentTarget as HTMLElement);
+				});
+			}
 			const frag = document.createDocumentFragment();
 			if (before) frag.appendChild(document.createTextNode(before));
 			frag.appendChild(mark);
@@ -1115,6 +1185,7 @@
 		if (browser && user) {
 			fetchNotes();
 			fetchHighlights();
+			fetchExplained();
 			fetchBookmark();
 			fetchVocab();
 			window.addEventListener('scroll', handleScroll, { passive: true });
@@ -1182,7 +1253,11 @@
 	});
 </script>
 
-<svelte:document onmouseup={showSelectionTooltip} onselectionchange={scheduleSelectionTooltip} />
+<svelte:document
+	onmouseup={showSelectionTooltip}
+	onselectionchange={scheduleSelectionTooltip}
+	onpointerdown={onDocumentPointerDown}
+/>
 
 <article class="mx-auto max-w-3xl px-4 sm:px-6">
 	<div class="pt-8 sm:pt-10">
@@ -1288,7 +1363,7 @@
 
 <!-- Floating toolbar -->
 {#if viewMode === 'text'}
-	<div bind:this={bottomBarEl} class="fixed bottom-5 left-1/2 z-30 -translate-x-1/2">
+	<div bind:this={bottomBarEl} data-chat-keep class="fixed bottom-5 left-1/2 z-30 -translate-x-1/2">
 		{#if signInPrompt && !user}
 			<div
 				class="absolute bottom-full left-1/2 mb-3 w-72 -translate-x-1/2 rounded-2xl border border-rule bg-dark p-4 text-center shadow-lg"
@@ -1530,6 +1605,7 @@
 			open={chatOpen}
 			onClose={() => (chatOpen = false)}
 			onConversationCount={(n) => (chatConversationCount = n)}
+			onConversations={setExplained}
 		/>
 	{/key}
 

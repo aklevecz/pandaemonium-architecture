@@ -280,6 +280,7 @@
 		</div>
 	{:else}
 		<aside
+			data-chat-keep
 			class="fixed top-[var(--nav-h,57px)] right-0 bottom-0 flex flex-col border-l border-rule bg-black {resizing
 				? 'select-none'
 				: ''}"

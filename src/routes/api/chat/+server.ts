@@ -25,7 +25,7 @@ export const GET: RequestHandler = async (event) => {
 		// conversations apart without opening them.
 		const conversations = await db
 			.prepare(
-				`SELECT c.id, c.title, c.created_at,
+				`SELECT c.id, c.title, c.created_at, c.anchor_text,
 				   COUNT(m.id) AS message_count,
 				   MAX(m.created_at) AS last_at,
 				   (SELECT content FROM messages WHERE conversation_id = c.id
@@ -41,6 +41,7 @@ export const GET: RequestHandler = async (event) => {
 				id: number;
 				title: string;
 				created_at: string;
+				anchor_text: string | null;
 				message_count: number;
 				last_at: string | null;
 				last_snippet: string | null;
@@ -132,9 +133,20 @@ export const POST: RequestHandler = async (event) => {
 		const title = selectedText
 			? selectedText.slice(0, 60) + (selectedText.length > 60 ? '...' : '')
 			: message.slice(0, 60) + (message.length > 60 ? '...' : '');
+		// A chat kicked off from "Explain" keeps the passage it was about, so the
+		// reader can mark it in the text and reopen the explanation from there.
+		const anchor = selectedText && typeof selectedText === 'string' ? selectedText.trim() : null;
 		const result = await db
-			.prepare('INSERT INTO conversations (user_id, reading_slug, title) VALUES (?, ?, ?)')
-			.bind(userId, slug, title)
+			.prepare(
+				'INSERT INTO conversations (user_id, reading_slug, title, anchor_text, anchor_position) VALUES (?, ?, ?, ?, ?)'
+			)
+			.bind(
+				userId,
+				slug,
+				title,
+				anchor || null,
+				anchor && typeof selectedPosition === 'number' ? selectedPosition : null
+			)
 			.run();
 		convId = Number(result.meta.last_row_id);
 	}

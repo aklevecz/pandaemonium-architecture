@@ -15,6 +15,7 @@
      in the same neighborhood as our selection pill. Desktop: floating card
      centered horizontally near the bottom; quick to dismiss. -->
 <div
+	data-define-popover
 	class="fixed inset-x-0 bottom-20 z-[58] flex justify-center px-4 sm:bottom-24"
 	role="dialog"
 	aria-label="Definition"

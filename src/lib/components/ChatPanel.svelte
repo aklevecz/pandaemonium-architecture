@@ -11,6 +11,8 @@
 		id: number;
 		title: string;
 		created_at: string;
+		/** The passage an "Explain" chat was about; null for chats typed from scratch. */
+		anchor_text?: string | null;
 		message_count?: number;
 		last_at?: string | null;
 		last_snippet?: string;
@@ -24,6 +26,8 @@
 		open: boolean;
 		onClose: () => void;
 		onConversationCount?: (n: number) => void;
+		/** The full list, each time it is fetched, so the reader can mark explained passages. */
+		onConversations?: (conversations: Conversation[]) => void;
 		initialConversationId?: number | null;
 	}
 
@@ -35,6 +39,7 @@
 		open,
 		onClose,
 		onConversationCount,
+		onConversations,
 		initialConversationId = null
 	}: Props = $props();
 
@@ -154,6 +159,7 @@
 		if (res.ok) {
 			conversations = await res.json();
 			onConversationCount?.(conversations?.length ?? 0);
+			onConversations?.(conversations ?? []);
 		}
 	}
 
@@ -179,6 +185,9 @@
 	}
 
 	async function loadConversation(id: number) {
+		// Switching conversations while a reply is still streaming would leave
+		// the stream writing into a message list that no longer exists.
+		abortChat();
 		conversationError = '';
 		savedListScroll = listEl?.scrollTop ?? savedListScroll;
 		lastViewedId = id;
@@ -263,11 +272,13 @@
 							receivedAnyDelta = true;
 							chatLoading = false;
 						}
+						if (!chatMessages[assistantIdx]) break;
 						chatMessages[assistantIdx].content += evt.text;
 						scrollChat();
 					} else if (evt.type === 'done') {
 						streamFinished = true;
 					} else if (evt.type === 'error') {
+						if (!chatMessages[assistantIdx]) break;
 						chatMessages[assistantIdx].content =
 							(chatMessages[assistantIdx].content || '') +
 							`\n\n*[error: ${evt.message ?? 'request failed'}]*`;
@@ -280,13 +291,15 @@
 			chatSelectedPosition = null;
 			fetchConversations();
 		} catch (err) {
+			// The list may have been replaced by then (the reader opened another
+			// conversation); only annotate a message that is still on screen.
+			const pending = chatMessages[assistantIdx];
 			if (err instanceof Error && err.name === 'AbortError') {
-				chatMessages[assistantIdx].content =
-					(chatMessages[assistantIdx].content || '') + '\n\n*[stopped]*';
+				if (pending) pending.content = (pending.content || '') + '\n\n*[stopped]*';
 				fetchConversations();
-			} else {
-				chatMessages[assistantIdx].content =
-					chatMessages[assistantIdx].content ||
+			} else if (pending) {
+				pending.content =
+					pending.content ||
 					`*[network error: ${err instanceof Error ? err.message : 'unknown'}]*`;
 			}
 		} finally {
@@ -355,7 +368,14 @@
 
 	// Exposed to parent via bind:this so the SelectionTooltip "Explain" button
 	// can kick off a new chat with the selected passage.
+	/** Open one conversation directly, as when the reader clicks its passage in the text. */
+	export function openConversation(id: number) {
+		if (!conversations) void fetchConversations();
+		void loadConversation(id);
+	}
+
 	export function startNewChat(selectedText?: string, selectedPosition?: number) {
+		abortChat();
 		savedListScroll = listEl?.scrollTop ?? savedListScroll;
 		activeConversationId = null;
 		chatMessages = [];
@@ -415,6 +435,7 @@
 		</div>
 	{:else}
 		<aside
+			data-chat-panel
 			class="fixed top-[var(--nav-h,57px)] right-0 bottom-0 z-40 flex flex-col border-l border-rule bg-black {resizing ? 'select-none' : ''}"
 			style="width: {chatWidth}px"
 		>

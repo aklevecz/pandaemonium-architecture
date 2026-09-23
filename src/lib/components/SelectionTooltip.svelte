@@ -49,7 +49,7 @@
 		     routes plain taps outside the selection to a "dismiss selection"
 		     handler before click reaches our buttons. pointerdown fires
 		     earlier in the event chain so we can grab the input first. -->
-		<div class="fixed inset-x-0 bottom-20 z-[55] flex justify-center px-4">
+		<div data-chat-keep class="fixed inset-x-0 bottom-20 z-[55] flex justify-center px-4">
 			<div
 				class="overflow-hidden rounded-3xl border border-rule bg-dark shadow-lg"
 				style="touch-action: manipulation; -webkit-user-select: none; user-select: none;"
@@ -110,6 +110,7 @@
 		</div>
 	{:else}
 		<div
+			data-chat-keep
 			class="highlight-tooltip absolute z-50 -translate-x-1/2 {tooltip.below
 				? ''
 				: '-translate-y-full'}"
