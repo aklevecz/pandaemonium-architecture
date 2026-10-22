@@ -1,14 +1,14 @@
 ---
 title: Jailbreaking open-weight LLMs
 draft: true
-blurb: How refusal lives in the weights, and how tools like Heretic remove it.
+blurb: How refusal lives in the weights, how tools like Heretic remove it, and how prompts route around it.
 ---
 
 @title
-eyebrow: Part 1 · Weight-level attacks
+eyebrow: Part 1 · Weight attacks · Part 2 · Prompt attacks
 # Jailbreaking open-weight LLMs
 
-How refusal lives in the weights, and how tools like Heretic remove it.
+How refusal lives in the weights, how tools like Heretic remove it, and how prompts route around it.
 
 ---
 
@@ -127,6 +127,147 @@ Arditi et al. found adversarial suffixes work by suppressing the same refusal di
 
 ---
 
+@title
+eyebrow: Part 2 · Prompt attacks
+# Jailbreaking through the input
+
+No weights, no gradients on the target. Just text, sent through the same box everyone else uses.
+
+---
+
+@list
+## Why safety training fails
+
+- Competing objectives: being helpful and being safe pull against each other. Role-play, or telling the model how to begin its answer, sets one against the other.
+- Mismatched generalization: safety training covers less ground than the model's abilities. A request in Base64 or a low-resource language can slip past refusals the model would give in English.
+- 79% of unsafe AdvBench requests got through on GPT-4 once translated into low-resource languages like Zulu, Scots Gaelic and Hmong. High- and mid-resource languages did much worse.
+
+Sources: Wei, Haghtalab & Steinhardt, NeurIPS 2023, arXiv:2307.02483; Yong, Menghini & Bach, 2023, arXiv:2310.02446.
+
+---
+
+@list
+## Adversarial suffixes are found by search
+
+1. Fix a target: the model's reply should begin "Sure, here is…".
+2. Use gradients to rank, for each suffix position, the token swaps most likely to make that opening more probable.
+3. Try a batch of single swaps; keep the best one. Repeat for hundreds of steps.
+4. Optimize across many requests and models at once to get one universal suffix.
+
+Source: Zou et al., “Universal and Transferable Adversarial Attacks on Aligned Language Models,” 2023. arXiv:2307.15043. The method is called GCG (Greedy Coordinate Gradient).
+
+---
+
+@list
+## Optimized on open models, used on closed ones
+
+- Suffixes were trained only on Vicuna-7B and 13B, open models whose gradients you can compute.
+- They transferred to the public interfaces of ChatGPT, Bard and Claude, and to LLaMA-2-Chat, Pythia and Falcon.
+- An open-weight model becomes a workbench for attacking closed ones. The weights from Part 1 matter even when the target never ships them.
+
+Source: Zou et al. 2023. Most published suffixes stopped working once providers patched against them.
+
+---
+
+@list
+## Gibberish is easy to catch, so attacks learned to read
+
+- Perplexity filtering: GCG suffixes look nothing like normal text, so a language model scoring how surprising the input is flags them. Paraphrasing the input also scrambles them. (Jain et al. 2023)
+- AutoDAN: a genetic algorithm evolves jailbreak prompts that stay readable, and gets past perplexity filters. (Liu et al., ICLR 2024)
+- Each defense defines the next attack's target.
+
+Sources: arXiv:2309.00614; arXiv:2310.04451.
+
+---
+
+@list
+## LLMs that jailbreak LLMs
+
+- PAIR: an attacker model writes a prompt, reads the target's refusal, rewrites, and tries again. Often fewer than twenty queries, against GPT-3.5/4, Vicuna and Gemini.
+- TAP: the same loop as a tree search, pruning branches that drift off-topic before they are sent.
+- Crescendo: a multi-turn conversation that starts harmless and escalates by building on the model's own earlier answers.
+
+Sources: Chao et al. 2023, arXiv:2310.08419; Mehrotra et al., NeurIPS 2024, arXiv:2312.02119; Russinovich, Salem & Eldan, USENIX Security 2025, arXiv:2404.01833.
+
+---
+
+@list
+## Persuasion is social engineering
+
+- Zeng et al. turned a taxonomy of persuasion techniques from social science into persuasive adversarial prompts: appeals to authority, emotion, reciprocity.
+- 92%+ attack success on Llama 2-7b Chat, GPT-3.5 and GPT-4, across 10 trials.
+- The model is attacked the way a person is. Compare Hadnagy's princess tea party.
+
+Source: Zeng et al., “How Johnny Can Persuade LLMs to Jailbreak Them,” ACL 2024. arXiv:2401.06373
+
+---
+
+@list
+## Long contexts and prefilled answers
+
+- Many-shot: hundreds of fake dialogues in one prompt, each showing an assistant complying, then the real question. Harmful answers rise with the shot count along a power law (tested up to 256 shots), and larger models are more susceptible.
+- Prefilling: some APIs let you write the start of the model's reply. Andriushchenko et al. report 100% success on every Claude model they tested this way.
+- Both are Part 1's “few tokens deep” problem, reached through the input instead of the weights.
+
+Sources: Anil et al., “Many-shot Jailbreaking,” Anthropic, April 2024; Andriushchenko, Croce & Flammarion, ICLR 2025, arXiv:2404.02151.
+
+---
+
+@list
+## When the prompt isn't typed by the user
+
+- Indirect prompt injection: the attacker hides instructions in data an LLM app will later read: a web page, an email, a file.
+- Demonstrated against Bing's GPT-4 chat: a page the model retrieved could take over the conversation.
+- Every agent harness is exposed. Codec from Lab 02 reads files and runs tools; any text it reads is a possible instruction.
+
+Source: Greshake et al., “Not what you've signed up for,” 2023. arXiv:2302.12173
+
+---
+
+@demo
+## Your turn: break an agent
+
+Lakera's Agent Breaker is a set of deliberately vulnerable AI apps. Each attempt is scored 0–100; 75 unlocks the next level. 20 minutes.
+
+[Open Agent Breaker](https://play.lakera.ai/agent-breaker)
+
+1. Pick one app you attack by typing, such as Cycling Coach: extract its system prompt.
+2. Pick one you attack through content it reads, such as Trippy Planner: a planted web page.
+3. For each attempt that scores, write one line on what worked.
+4. Label it: competing objectives, mismatched generalization, or injection?
+
+---
+
+@list
+## Defenses against prompt attacks
+
+- Filter the input: perplexity checks, paraphrasing, or a trained classifier that reads the prompt before the model does. A classifier cut many-shot success from 61% to 2% in one Anthropic test.
+- Randomize: SmoothLLM perturbs several copies of the prompt and aggregates the answers; optimized attacks break when characters change.
+- Constitutional Classifiers: input and output classifiers trained from a written list of what is allowed. Over 3,000 hours of red teaming found no universal jailbreak of an early version; cost was +0.38% refusals and 23.7% more compute.
+- Circuit breakers (Part 1) act on the representations instead of the text.
+
+Sources: Robey et al. 2023, arXiv:2310.03684; Sharma et al. 2025, arXiv:2501.18837.
+
+---
+
+@statement
+A jailbreak finds the gap between what a model can do and what it was trained to refuse.
+note: Presenter's synthesis of Wei et al. 2023. Weight attacks close the gap by deleting the refusal; prompt attacks find the inputs where it never reached.
+
+---
+
+@list
+## In the course readings
+
+- Week 5 · Hadnagy, Social Engineering: the princess tea party, where affection overrides a refusal. Competing objectives, in a person.
+- Week 5 · Paglen, Society of the Psyop: “magic is the art of the cognitive injection attack.” Payloads in ordinary wrappers.
+- Week 2 · Benzel, Shoggoth with a Smiley Face: RLHF as the “cherry on top” of a pretrained monster. The few-tokens-deep mask.
+- Week 11 · Brunton & Nissenbaum, Obfuscation: code “baffling humans but not machines,” which is exactly what a GCG suffix is.
+- Week 4 · Benzel, Foxacid, Quantumsquirrel, Weeping Angel: ordinary-looking servers and devices that act for someone else. The injected agent.
+- Week 10 · Greenspan, Konior & Frost, Machine Decision Is Not Final: released open models can't be contained, and their refusals include state censorship.
+
+---
+
 @list
 ## Sources
 
@@ -137,3 +278,17 @@ Arditi et al. found adversarial suffixes work by suppressing the same refusal di
 5. Qi et al., “Safety Alignment Should Be Made More Than Just a Few Tokens Deep,” ICLR 2025
 6. Zou et al., “Improving Alignment and Robustness with Circuit Breakers,” NeurIPS 2024. arXiv:2406.04313
 7. Tamirisa et al., “Tamper-Resistant Safeguards for Open-Weight LLMs,” ICLR 2025. arXiv:2408.00761
+8. Wei, Haghtalab & Steinhardt, “Jailbroken: How Does LLM Safety Training Fail?,” NeurIPS 2023. arXiv:2307.02483
+9. Yong, Menghini & Bach, “Low-Resource Languages Jailbreak GPT-4,” 2023. arXiv:2310.02446
+10. Zou et al., “Universal and Transferable Adversarial Attacks on Aligned Language Models,” 2023. arXiv:2307.15043
+11. Jain et al., “Baseline Defenses for Adversarial Attacks Against Aligned Language Models,” 2023. arXiv:2309.00614
+12. Liu et al., “AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models,” ICLR 2024. arXiv:2310.04451
+13. Chao et al., “Jailbreaking Black Box Large Language Models in Twenty Queries,” 2023. arXiv:2310.08419
+14. Mehrotra et al., “Tree of Attacks: Jailbreaking Black-Box LLMs Automatically,” NeurIPS 2024. arXiv:2312.02119
+15. Russinovich, Salem & Eldan, “Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack,” USENIX Security 2025. arXiv:2404.01833
+16. Zeng et al., “How Johnny Can Persuade LLMs to Jailbreak Them,” ACL 2024. arXiv:2401.06373
+17. Anil et al., “Many-shot Jailbreaking,” Anthropic, 2024. anthropic.com/research/many-shot-jailbreaking
+18. Andriushchenko, Croce & Flammarion, “Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks,” ICLR 2025. arXiv:2404.02151
+19. Greshake et al., “Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection,” 2023. arXiv:2302.12173
+20. Robey et al., “SmoothLLM: Defending Large Language Models Against Jailbreaking Attacks,” 2023. arXiv:2310.03684
+21. Sharma et al., “Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming,” 2025. arXiv:2501.18837
