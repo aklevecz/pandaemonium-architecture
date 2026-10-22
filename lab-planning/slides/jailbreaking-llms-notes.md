@@ -100,9 +100,13 @@ The 61% → 2% figure is from Anthropic’s many-shot post (classifying and modi
 
 Closing line, the presenter’s paraphrase of Wei et al.’s thesis that safety should match the model’s capabilities.
 
-## In the course readings
+## Readings
 
-Week numbers follow the live syllabus (src/lib/data/syllabus.ts) where it lists the reading, else the Fall 2026 syllabus .docx; the two disagree in places. Line numbers are in the markdown/ files.
+Links: Arditi et al., lesswrong.com/posts/jGuXSZgv6qfdhMCuJ (April 2024, preview of the NeurIPS 2024 paper). Labonne, huggingface.co/blog/mlabonne/abliteration (June 13, 2024; also covers DPO to recover lost performance). Wei et al., arXiv:2307.02483. Anthropic, anthropic.com/research/many-shot-jailbreaking (April 2, 2024). Zeng et al., arXiv:2401.06373. Willison, simonwillison.net/2022/Sep/12/prompt-injection (compares it to SQL injection).
+
+### Thematic links in the course reader
+
+None of the course reader is about jailbreaking; these are analogies for discussion, not readings on the topic. Week numbers follow the live syllabus (src/lib/data/syllabus.ts) where it lists the reading, else the Fall 2026 syllabus .docx; the two disagree in places. Line numbers are in the markdown/ files.
 
 - Hadnagy (Week 5 additional; Week 3 in the .docx). Princess tea party, ~l.129–134: a refusal he’d give “in a nanosecond,” undone by affection. His research → pretext → attack → report loop (~l.187–225) is the PAIR loop; the CareerBuilder case (~l.229–235) is indirect injection through a trusted site. The reader has Chapter 1 only, not the pretexting or Cialdini chapters. Question: what plays the role of trust or affection in a model trained on human text?
 - Paglen, Society of the Psyop (Week 5). Mulholland’s magic as “the art of the cognitive injection attack” (~l.263). Magruder’s Principle (~l.75), reinforcing a belief is easier than changing it, is how Crescendo and many-shot work. Question: is the ELIZA effect why persuasion attacks land?

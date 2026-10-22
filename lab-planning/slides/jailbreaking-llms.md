@@ -257,14 +257,14 @@ note: Presenter's synthesis of Wei et al. 2023. Weight attacks close the gap by 
 ---
 
 @list
-## In the course readings
+## Readings
 
-- Week 5 · Hadnagy, Social Engineering: the princess tea party, where affection overrides a refusal. Competing objectives, in a person.
-- Week 5 · Paglen, Society of the Psyop: “magic is the art of the cognitive injection attack.” Payloads in ordinary wrappers.
-- Week 2 · Benzel, Shoggoth with a Smiley Face: RLHF as the “cherry on top” of a pretrained monster. The few-tokens-deep mask.
-- Week 11 · Brunton & Nissenbaum, Obfuscation: code “baffling humans but not machines,” which is exactly what a GCG suffix is.
-- Week 4 · Benzel, Foxacid, Quantumsquirrel, Weeping Angel: ordinary-looking servers and devices that act for someone else. The injected agent.
-- Week 10 · Greenspan, Konior & Frost, Machine Decision Is Not Final: released open models can't be contained, and their refusals include state censorship.
+- Part 1 · Arditi et al., “Refusal in LLMs is mediated by a single direction,” LessWrong, April 2024. The blog version of the paper.
+- Part 1 · Labonne, “Uncensor any LLM with abliteration,” Hugging Face blog, June 2024. Step-by-step, with code.
+- Part 2 · Wei, Haghtalab & Steinhardt, “Jailbroken: How Does LLM Safety Training Fail?,” NeurIPS 2023. The frame for Part 2; sections 1–3.
+- Part 2 · Anthropic, “Many-shot jailbreaking,” April 2024. A short research post, with the defense that worked.
+- Part 2 · Zeng et al., “How Johnny Can Persuade LLMs to Jailbreak Them,” ACL 2024. Persuasion as an attack; pairs with Hadnagy.
+- Part 2 · Willison, “Prompt injection attacks against GPT-3,” September 2022. The post that named the attack.
 
 ---
 
